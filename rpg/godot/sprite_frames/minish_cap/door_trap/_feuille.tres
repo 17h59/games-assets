@@ -1,0 +1,94 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/door_trap/chains/chain.png" id="1_i6erf"]
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/door_trap/door_trap.png" id="2_d1rls"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yjv2b"]
+atlas = ExtResource("1_i6erf")
+region = Rect2(0, 0, 36, 7)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3w353"]
+atlas = ExtResource("1_i6erf")
+region = Rect2(36, 0, 36, 7)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6fo5u"]
+atlas = ExtResource("1_i6erf")
+region = Rect2(72, 0, 36, 7)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ivoo3"]
+atlas = ExtResource("1_i6erf")
+region = Rect2(108, 0, 36, 7)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lfjcp"]
+atlas = ExtResource("1_i6erf")
+region = Rect2(144, 0, 36, 7)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rue4i"]
+atlas = ExtResource("2_d1rls")
+region = Rect2(0, 0, 25, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_awb4q"]
+atlas = ExtResource("2_d1rls")
+region = Rect2(25, 0, 25, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ymglo"]
+atlas = ExtResource("2_d1rls")
+region = Rect2(50, 0, 25, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v1poa"]
+atlas = ExtResource("2_d1rls")
+region = Rect2(75, 0, 25, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6qvlf"]
+atlas = ExtResource("2_d1rls")
+region = Rect2(100, 0, 25, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x4n8r"]
+atlas = ExtResource("2_d1rls")
+region = Rect2(125, 0, 25, 26)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yjv2b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3w353")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6fo5u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ivoo3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lfjcp")
+}],
+"loop": 1,
+"name": &"chain",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rue4i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_awb4q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ymglo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v1poa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6qvlf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x4n8r")
+}],
+"loop": 1,
+"name": &"door_trap",
+"speed": 8.0
+}]

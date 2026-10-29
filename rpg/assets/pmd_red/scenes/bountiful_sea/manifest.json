@@ -1,0 +1,538 @@
+{
+ "sheet": "5351",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Bountiful Sea",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "sea_waves",
+   "file": "sea_waves.png",
+   "cell": [
+    12,
+    71
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      470,
+      10,
+      11,
+      71
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_1",
+     "src": [
+      489,
+      10,
+      12,
+      71
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_2",
+     "src": [
+      511,
+      10,
+      12,
+      71
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_3",
+     "src": [
+      533,
+      10,
+      12,
+      71
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_4",
+     "src": [
+      554,
+      10,
+      12,
+      71
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_5",
+     "src": [
+      578,
+      10,
+      10,
+      71
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_6",
+     "src": [
+      602,
+      10,
+      10,
+      71
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_7",
+     "src": [
+      622,
+      10,
+      10,
+      71
+     ]
+    }
+   ],
+   "box": [
+    470,
+    10,
+    162,
+    71
+   ]
+  },
+  {
+   "id": 1,
+   "name": "bubble_pop",
+   "file": "bubble_pop.png",
+   "cell": [
+    16,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 9,
+     "role": "frame_0",
+     "src": [
+      486,
+      138,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_1",
+     "src": [
+      506,
+      138,
+      16,
+      16
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 11,
+     "role": "frame_2",
+     "src": [
+      526,
+      139,
+      14,
+      14
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_3",
+     "src": [
+      544,
+      140,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_4",
+     "src": [
+      559,
+      140,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_5",
+     "src": [
+      574,
+      140,
+      12,
+      12
+     ],
+     "duplicate_of": 4
+    },
+    {
+     "item": 15,
+     "role": "frame_6",
+     "src": [
+      590,
+      140,
+      12,
+      12
+     ],
+     "duplicate_of": 3
+    },
+    {
+     "item": 16,
+     "role": "frame_7",
+     "src": [
+      606,
+      139,
+      14,
+      14
+     ],
+     "duplicate_of": 2
+    }
+   ],
+   "box": [
+    486,
+    138,
+    134,
+    16
+   ]
+  },
+  {
+   "id": 2,
+   "name": "bubble_trail",
+   "file": "bubble_trail.png",
+   "cell": [
+    9,
+    7
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 17,
+     "role": "frame_0",
+     "src": [
+      53,
+      255,
+      5,
+      3
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_1",
+     "src": [
+      64,
+      254,
+      3,
+      5
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_2",
+     "src": [
+      74,
+      255,
+      5,
+      3
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 20,
+     "role": "frame_3",
+     "src": [
+      94,
+      254,
+      5,
+      5
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_4",
+     "src": [
+      104,
+      254,
+      5,
+      5
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_5",
+     "src": [
+      115,
+      254,
+      5,
+      6
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_6",
+     "src": [
+      125,
+      254,
+      6,
+      5
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_7",
+     "src": [
+      136,
+      254,
+      6,
+      6
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_8",
+     "src": [
+      147,
+      254,
+      6,
+      7
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_9",
+     "src": [
+      158,
+      254,
+      7,
+      6
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_10",
+     "src": [
+      170,
+      254,
+      6,
+      6
+     ],
+     "duplicate_of": 7
+    },
+    {
+     "item": 28,
+     "role": "frame_11",
+     "src": [
+      182,
+      254,
+      6,
+      7
+     ]
+    },
+    {
+     "item": 29,
+     "role": "frame_12",
+     "src": [
+      192,
+      254,
+      8,
+      6
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_13",
+     "src": [
+      205,
+      254,
+      9,
+      7
+     ]
+    }
+   ],
+   "box": [
+    53,
+    254,
+    161,
+    7
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 456,
+   "h": 240,
+   "area": 105408,
+   "ncolors": 167,
+   "dominant": "#B0C0B8",
+   "dom_frac": 0.037,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "bountiful_sea_000.png"
+  },
+  {
+   "x": 278,
+   "y": 250,
+   "w": 9,
+   "h": 8,
+   "area": 11,
+   "ncolors": 3,
+   "dominant": "#B0B0A0",
+   "dom_frac": 0.455,
+   "kind": "sprite",
+   "zone": null,
+   "id": 31,
+   "file": "bountiful_sea_031.png"
+  },
+  {
+   "x": 295,
+   "y": 250,
+   "w": 9,
+   "h": 8,
+   "area": 11,
+   "ncolors": 3,
+   "dominant": "#B0B0A0",
+   "dom_frac": 0.455,
+   "kind": "sprite",
+   "zone": null,
+   "id": 32,
+   "file": "bountiful_sea_032.png",
+   "duplicate_of": 1
+  },
+  {
+   "x": 314,
+   "y": 249,
+   "w": 10,
+   "h": 6,
+   "area": 8,
+   "ncolors": 3,
+   "dominant": "#909080",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "id": 33,
+   "file": "bountiful_sea_033.png"
+  },
+  {
+   "x": 334,
+   "y": 248,
+   "w": 10,
+   "h": 7,
+   "area": 8,
+   "ncolors": 3,
+   "dominant": "#909080",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "id": 34,
+   "file": "bountiful_sea_034.png"
+  },
+  {
+   "x": 219,
+   "y": 251,
+   "w": 11,
+   "h": 12,
+   "area": 42,
+   "ncolors": 3,
+   "dominant": "#909080",
+   "dom_frac": 0.429,
+   "kind": "sprite",
+   "zone": null,
+   "id": 35,
+   "file": "bountiful_sea_035.png"
+  },
+  {
+   "x": 236,
+   "y": 251,
+   "w": 14,
+   "h": 12,
+   "area": 39,
+   "ncolors": 3,
+   "dominant": "#909080",
+   "dom_frac": 0.487,
+   "kind": "sprite",
+   "zone": null,
+   "id": 36,
+   "file": "bountiful_sea_036.png"
+  },
+  {
+   "x": 256,
+   "y": 251,
+   "w": 13,
+   "h": 11,
+   "area": 32,
+   "ncolors": 3,
+   "dominant": "#909080",
+   "dom_frac": 0.594,
+   "kind": "sprite",
+   "zone": null,
+   "id": 37,
+   "file": "bountiful_sea_037.png"
+  },
+  {
+   "x": 283,
+   "y": 257,
+   "w": 7,
+   "h": 5,
+   "area": 8,
+   "ncolors": 3,
+   "dominant": "#909080",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "id": 38,
+   "file": "bountiful_sea_038.png"
+  },
+  {
+   "x": 300,
+   "y": 257,
+   "w": 7,
+   "h": 5,
+   "area": 8,
+   "ncolors": 3,
+   "dominant": "#909080",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "id": 39,
+   "file": "bountiful_sea_039.png",
+   "duplicate_of": 8
+  },
+  {
+   "x": 320,
+   "y": 254,
+   "w": 8,
+   "h": 9,
+   "area": 7,
+   "ncolors": 3,
+   "dominant": "#909080",
+   "dom_frac": 0.571,
+   "kind": "sprite",
+   "zone": null,
+   "id": 40,
+   "file": "bountiful_sea_040.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

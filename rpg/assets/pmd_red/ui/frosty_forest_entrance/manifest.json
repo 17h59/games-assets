@@ -1,0 +1,76 @@
+{
+ "sheet": "221085",
+ "game": "pmd_red",
+ "category": "ui",
+ "title": "Frosty Forest Entrance",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    8,
+    348,
+    60,
+    4
+   ],
+   "point": [
+    38,
+    350
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 1,
+   "box": [
+    80,
+    348,
+    36,
+    4
+   ],
+   "point": [
+    98,
+    350
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [],
+ "items": [
+  {
+   "x": 8,
+   "y": 8,
+   "w": 264,
+   "h": 336,
+   "area": 88704,
+   "ncolors": 22,
+   "dominant": "#94A5F7",
+   "dom_frac": 0.284,
+   "kind": "sprite",
+   "zone": null,
+   "name": "entrance_background",
+   "id": 0,
+   "file": "entrance_background.png"
+  },
+  {
+   "x": 8,
+   "y": 360,
+   "w": 40,
+   "h": 32,
+   "area": 1280,
+   "ncolors": 18,
+   "dominant": "#F7F7FF",
+   "dom_frac": 0.369,
+   "kind": "sprite",
+   "zone": null,
+   "name": "kangaskhan_statue",
+   "id": 1,
+   "file": "kangaskhan_statue.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

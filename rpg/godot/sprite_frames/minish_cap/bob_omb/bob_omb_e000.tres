@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/bob_omb/bob_omb_e000.png" id="1_h1ns1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6kofx"]
+atlas = ExtResource("1_h1ns1")
+region = Rect2(0, 0, 13, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nci8c"]
+atlas = ExtResource("1_h1ns1")
+region = Rect2(13, 0, 13, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lwkyx"]
+atlas = ExtResource("1_h1ns1")
+region = Rect2(26, 0, 13, 17)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6kofx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nci8c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lwkyx")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

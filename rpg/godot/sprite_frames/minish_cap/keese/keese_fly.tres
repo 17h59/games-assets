@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/keese/keese_fly.png" id="1_lixir"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dgrw7"]
+atlas = ExtResource("1_lixir")
+region = Rect2(0, 0, 20, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hoyfi"]
+atlas = ExtResource("1_lixir")
+region = Rect2(20, 0, 20, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_na071"]
+atlas = ExtResource("1_lixir")
+region = Rect2(40, 0, 20, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s3a5c"]
+atlas = ExtResource("1_lixir")
+region = Rect2(60, 0, 20, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cycyv"]
+atlas = ExtResource("1_lixir")
+region = Rect2(80, 0, 20, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i1o4n"]
+atlas = ExtResource("1_lixir")
+region = Rect2(100, 0, 20, 17)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dgrw7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hoyfi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_na071")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s3a5c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cycyv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i1o4n")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

@@ -1,0 +1,420 @@
+{
+ "sheet": "5316",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Fire Hut",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "fire_barrel",
+   "file": "fire_barrel.png",
+   "cell": [
+    19,
+    34
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      95,
+      6,
+      17,
+      34
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      112,
+      6,
+      18,
+      34
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      130,
+      6,
+      18,
+      34
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      148,
+      6,
+      17,
+      34
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_4",
+     "src": [
+      165,
+      6,
+      18,
+      34
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_5",
+     "src": [
+      183,
+      6,
+      18,
+      34
+     ]
+    }
+   ],
+   "box": [
+    95,
+    6,
+    106,
+    34
+   ]
+  },
+  {
+   "id": 1,
+   "name": "fire_bowl",
+   "file": "fire_bowl.png",
+   "cell": [
+    28,
+    27
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 6,
+     "role": "frame_0",
+     "src": [
+      207,
+      14,
+      28,
+      27
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_1",
+     "src": [
+      235,
+      14,
+      28,
+      27
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_2",
+     "src": [
+      263,
+      14,
+      28,
+      27
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_3",
+     "src": [
+      291,
+      14,
+      28,
+      27
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_4",
+     "src": [
+      319,
+      14,
+      28,
+      27
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_5",
+     "src": [
+      347,
+      14,
+      28,
+      27
+     ]
+    }
+   ],
+   "box": [
+    207,
+    14,
+    168,
+    27
+   ]
+  },
+  {
+   "id": 2,
+   "name": "fire_small",
+   "file": "fire_small.png",
+   "cell": [
+    11,
+    17
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 12,
+     "role": "frame_0",
+     "src": [
+      108,
+      41,
+      10,
+      16
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_1",
+     "src": [
+      118,
+      41,
+      11,
+      16
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_2",
+     "src": [
+      129,
+      41,
+      11,
+      16
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_3",
+     "src": [
+      140,
+      41,
+      11,
+      16
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_4",
+     "src": [
+      151,
+      41,
+      11,
+      16
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_5",
+     "src": [
+      162,
+      41,
+      11,
+      17
+     ]
+    }
+   ],
+   "box": [
+    108,
+    41,
+    65,
+    17
+   ]
+  },
+  {
+   "id": 3,
+   "name": "fire_brazier",
+   "file": "fire_brazier.png",
+   "cell": [
+    22,
+    24
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 23,
+     "role": "frame_0",
+     "src": [
+      15,
+      440,
+      22,
+      24
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_1",
+     "src": [
+      37,
+      440,
+      22,
+      24
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_2",
+     "src": [
+      59,
+      440,
+      22,
+      24
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_3",
+     "src": [
+      81,
+      440,
+      22,
+      24
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_4",
+     "src": [
+      103,
+      440,
+      22,
+      24
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_5",
+     "src": [
+      125,
+      440,
+      22,
+      24
+     ]
+    }
+   ],
+   "box": [
+    15,
+    440,
+    132,
+    24
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 21,
+   "y": 52,
+   "w": 416,
+   "h": 344,
+   "area": 134104,
+   "ncolors": 159,
+   "dominant": "#70C850",
+   "dom_frac": 0.133,
+   "kind": "sprite",
+   "zone": null,
+   "id": 18,
+   "file": "fire_hut_018.png"
+  },
+  {
+   "x": 157,
+   "y": 397,
+   "w": 66,
+   "h": 74,
+   "area": 3360,
+   "ncolors": 0,
+   "dominant": "",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 19,
+   "file": "fire_hut_019.png"
+  },
+  {
+   "x": 223,
+   "y": 397,
+   "w": 68,
+   "h": 74,
+   "area": 3374,
+   "ncolors": 0,
+   "dominant": "",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 20,
+   "file": "fire_hut_020.png"
+  },
+  {
+   "x": 291,
+   "y": 397,
+   "w": 67,
+   "h": 74,
+   "area": 3372,
+   "ncolors": 0,
+   "dominant": "",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 21,
+   "file": "fire_hut_021.png"
+  },
+  {
+   "x": 358,
+   "y": 397,
+   "w": 67,
+   "h": 74,
+   "area": 3358,
+   "ncolors": 0,
+   "dominant": "",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 22,
+   "file": "fire_hut_022.png"
+  },
+  {
+   "x": 61,
+   "y": 477,
+   "w": 332,
+   "h": 265,
+   "area": 71060,
+   "ncolors": 0,
+   "dominant": "",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 29,
+   "file": "fire_hut_029.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

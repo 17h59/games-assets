@@ -1,0 +1,74 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/rupee_like/rupee_like_e000.png" id="1_r78lj"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_snb2m"]
+atlas = ExtResource("1_r78lj")
+region = Rect2(0, 0, 17, 29)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xgjgy"]
+atlas = ExtResource("1_r78lj")
+region = Rect2(17, 0, 17, 29)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f5jc1"]
+atlas = ExtResource("1_r78lj")
+region = Rect2(34, 0, 17, 29)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u43al"]
+atlas = ExtResource("1_r78lj")
+region = Rect2(51, 0, 17, 29)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5534a"]
+atlas = ExtResource("1_r78lj")
+region = Rect2(68, 0, 17, 29)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5ucgc"]
+atlas = ExtResource("1_r78lj")
+region = Rect2(85, 0, 17, 29)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1ys78"]
+atlas = ExtResource("1_r78lj")
+region = Rect2(102, 0, 17, 29)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uuonv"]
+atlas = ExtResource("1_r78lj")
+region = Rect2(119, 0, 17, 29)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t2rvw"]
+atlas = ExtResource("1_r78lj")
+region = Rect2(136, 0, 17, 29)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_snb2m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xgjgy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f5jc1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u43al")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5534a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5ucgc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1ys78")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uuonv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t2rvw")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

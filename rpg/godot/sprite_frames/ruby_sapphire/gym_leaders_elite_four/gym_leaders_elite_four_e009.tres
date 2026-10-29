@@ -1,0 +1,42 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/ruby_sapphire/characters/gym_leaders_elite_four/gym_leaders_elite_four_e009.png" id="1_e5cdg"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_040vg"]
+atlas = ExtResource("1_e5cdg")
+region = Rect2(0, 0, 14, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dukhr"]
+atlas = ExtResource("1_e5cdg")
+region = Rect2(28, 0, 14, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0sb8p"]
+atlas = ExtResource("1_e5cdg")
+region = Rect2(14, 0, 14, 20)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_040vg")
+}],
+"loop": 1,
+"name": &"idle_down",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dukhr")
+}],
+"loop": 1,
+"name": &"idle_left",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0sb8p")
+}],
+"loop": 1,
+"name": &"idle_up",
+"speed": 1.0
+}]

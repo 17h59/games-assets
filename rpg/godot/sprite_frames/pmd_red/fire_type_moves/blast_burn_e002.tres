@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/fire_type_moves/blast_burn/blast_burn_e002.png" id="1_h7l2m"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sjg3j"]
+atlas = ExtResource("1_h7l2m")
+region = Rect2(0, 0, 26, 57)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rtyr8"]
+atlas = ExtResource("1_h7l2m")
+region = Rect2(26, 0, 26, 57)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sjg3j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rtyr8")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

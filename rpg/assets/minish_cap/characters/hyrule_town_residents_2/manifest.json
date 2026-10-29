@@ -1,0 +1,5695 @@
+{
+ "sheet": "6381",
+ "game": "minish_cap",
+ "category": "characters",
+ "title": "Hyrule Town Residents 2",
+ "type": "characters",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "hyrule_town_residents_2_e000",
+   "file": "hyrule_town_residents_2_e000.png",
+   "cell": [
+    18,
+    30
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 12,
+     "role": "frame_0",
+     "src": [
+      7,
+      37,
+      18,
+      28
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_1",
+     "src": [
+      29,
+      36,
+      18,
+      29
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_2",
+     "src": [
+      52,
+      37,
+      18,
+      28
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 15,
+     "role": "frame_3",
+     "src": [
+      78,
+      37,
+      16,
+      28
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_4",
+     "src": [
+      102,
+      36,
+      16,
+      29
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_5",
+     "src": [
+      126,
+      37,
+      16,
+      28
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_6",
+     "src": [
+      152,
+      37,
+      16,
+      28
+     ],
+     "mirror_of": 5
+    },
+    {
+     "item": 19,
+     "role": "frame_7",
+     "src": [
+      176,
+      36,
+      16,
+      29
+     ],
+     "mirror_of": 4
+    },
+    {
+     "item": 20,
+     "role": "frame_8",
+     "src": [
+      199,
+      37,
+      16,
+      28
+     ],
+     "mirror_of": 3
+    },
+    {
+     "item": 21,
+     "role": "frame_9",
+     "src": [
+      222,
+      36,
+      17,
+      29
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_10",
+     "src": [
+      246,
+      35,
+      18,
+      30
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_11",
+     "src": [
+      270,
+      36,
+      17,
+      29
+     ]
+    }
+   ],
+   "box": [
+    7,
+    35,
+    280,
+    30
+   ]
+  },
+  {
+   "id": 1,
+   "name": "hyrule_town_residents_2_e001",
+   "file": "hyrule_town_residents_2_e001.png",
+   "cell": [
+    16,
+    25
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 24,
+     "role": "frame_0",
+     "src": [
+      19,
+      75,
+      15,
+      24
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_1",
+     "src": [
+      39,
+      74,
+      15,
+      25
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_2",
+     "src": [
+      59,
+      75,
+      15,
+      24
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_3",
+     "src": [
+      81,
+      74,
+      16,
+      25
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_4",
+     "src": [
+      104,
+      75,
+      16,
+      24
+     ]
+    },
+    {
+     "item": 29,
+     "role": "frame_5",
+     "src": [
+      126,
+      75,
+      16,
+      24
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_6",
+     "src": [
+      148,
+      75,
+      16,
+      24
+     ],
+     "mirror_of": 5
+    },
+    {
+     "item": 31,
+     "role": "frame_7",
+     "src": [
+      170,
+      75,
+      16,
+      24
+     ],
+     "mirror_of": 4
+    },
+    {
+     "item": 32,
+     "role": "frame_8",
+     "src": [
+      193,
+      74,
+      16,
+      25
+     ],
+     "mirror_of": 3
+    },
+    {
+     "item": 33,
+     "role": "frame_9",
+     "src": [
+      217,
+      75,
+      15,
+      24
+     ]
+    },
+    {
+     "item": 34,
+     "role": "frame_10",
+     "src": [
+      238,
+      74,
+      15,
+      25
+     ]
+    },
+    {
+     "item": 35,
+     "role": "frame_11",
+     "src": [
+      260,
+      75,
+      15,
+      24
+     ]
+    }
+   ],
+   "box": [
+    19,
+    74,
+    256,
+    25
+   ]
+  },
+  {
+   "id": 2,
+   "name": "hyrule_town_residents_2_e002",
+   "file": "hyrule_town_residents_2_e002.png",
+   "cell": [
+    15,
+    25
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 36,
+     "role": "frame_0",
+     "src": [
+      18,
+      108,
+      15,
+      24
+     ]
+    },
+    {
+     "item": 37,
+     "role": "frame_1",
+     "src": [
+      37,
+      107,
+      15,
+      25
+     ]
+    },
+    {
+     "item": 38,
+     "role": "frame_2",
+     "src": [
+      58,
+      108,
+      15,
+      24
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 39,
+     "role": "frame_3",
+     "src": [
+      82,
+      108,
+      15,
+      24
+     ]
+    },
+    {
+     "item": 40,
+     "role": "frame_4",
+     "src": [
+      103,
+      107,
+      15,
+      25
+     ]
+    },
+    {
+     "item": 41,
+     "role": "frame_5",
+     "src": [
+      125,
+      108,
+      15,
+      24
+     ]
+    },
+    {
+     "item": 42,
+     "role": "frame_6",
+     "src": [
+      150,
+      108,
+      15,
+      24
+     ],
+     "mirror_of": 5
+    },
+    {
+     "item": 43,
+     "role": "frame_7",
+     "src": [
+      172,
+      107,
+      15,
+      25
+     ],
+     "mirror_of": 4
+    },
+    {
+     "item": 44,
+     "role": "frame_8",
+     "src": [
+      193,
+      108,
+      15,
+      24
+     ],
+     "mirror_of": 3
+    },
+    {
+     "item": 45,
+     "role": "frame_9",
+     "src": [
+      217,
+      108,
+      15,
+      24
+     ]
+    },
+    {
+     "item": 46,
+     "role": "frame_10",
+     "src": [
+      239,
+      107,
+      15,
+      25
+     ]
+    },
+    {
+     "item": 47,
+     "role": "frame_11",
+     "src": [
+      261,
+      108,
+      15,
+      24
+     ],
+     "mirror_of": 9
+    }
+   ],
+   "box": [
+    18,
+    107,
+    258,
+    25
+   ]
+  },
+  {
+   "id": 3,
+   "name": "hyrule_town_residents_2_e003",
+   "file": "hyrule_town_residents_2_e003.png",
+   "cell": [
+    16,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 48,
+     "role": "frame_0",
+     "src": [
+      20,
+      138,
+      16,
+      25
+     ]
+    },
+    {
+     "item": 49,
+     "role": "frame_1",
+     "src": [
+      41,
+      137,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 50,
+     "role": "frame_2",
+     "src": [
+      63,
+      138,
+      16,
+      25
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 51,
+     "role": "frame_3",
+     "src": [
+      86,
+      138,
+      16,
+      25
+     ]
+    },
+    {
+     "item": 52,
+     "role": "frame_4",
+     "src": [
+      107,
+      137,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 53,
+     "role": "frame_5",
+     "src": [
+      127,
+      138,
+      16,
+      25
+     ]
+    },
+    {
+     "item": 54,
+     "role": "frame_6",
+     "src": [
+      150,
+      138,
+      16,
+      25
+     ],
+     "mirror_of": 5
+    },
+    {
+     "item": 55,
+     "role": "frame_7",
+     "src": [
+      170,
+      137,
+      16,
+      26
+     ],
+     "mirror_of": 4
+    },
+    {
+     "item": 56,
+     "role": "frame_8",
+     "src": [
+      191,
+      138,
+      16,
+      25
+     ],
+     "mirror_of": 3
+    },
+    {
+     "item": 57,
+     "role": "frame_9",
+     "src": [
+      213,
+      138,
+      16,
+      25
+     ]
+    },
+    {
+     "item": 58,
+     "role": "frame_10",
+     "src": [
+      236,
+      137,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 59,
+     "role": "frame_11",
+     "src": [
+      259,
+      138,
+      16,
+      25
+     ],
+     "mirror_of": 9
+    }
+   ],
+   "box": [
+    20,
+    137,
+    255,
+    26
+   ]
+  },
+  {
+   "id": 4,
+   "name": "hyrule_town_residents_2_e004",
+   "file": "hyrule_town_residents_2_e004.png",
+   "cell": [
+    16,
+    27
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 60,
+     "role": "frame_0",
+     "src": [
+      21,
+      173,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 61,
+     "role": "frame_1",
+     "src": [
+      41,
+      172,
+      16,
+      27
+     ]
+    },
+    {
+     "item": 62,
+     "role": "frame_2",
+     "src": [
+      61,
+      173,
+      16,
+      26
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 63,
+     "role": "frame_3",
+     "src": [
+      83,
+      173,
+      15,
+      26
+     ]
+    },
+    {
+     "item": 64,
+     "role": "frame_4",
+     "src": [
+      104,
+      172,
+      15,
+      27
+     ]
+    },
+    {
+     "item": 65,
+     "role": "frame_5",
+     "src": [
+      125,
+      173,
+      15,
+      26
+     ]
+    },
+    {
+     "item": 66,
+     "role": "frame_6",
+     "src": [
+      150,
+      173,
+      15,
+      26
+     ]
+    },
+    {
+     "item": 67,
+     "role": "frame_7",
+     "src": [
+      171,
+      172,
+      15,
+      27
+     ]
+    },
+    {
+     "item": 68,
+     "role": "frame_8",
+     "src": [
+      192,
+      173,
+      15,
+      26
+     ]
+    },
+    {
+     "item": 69,
+     "role": "frame_9",
+     "src": [
+      215,
+      173,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 70,
+     "role": "frame_10",
+     "src": [
+      235,
+      172,
+      16,
+      27
+     ]
+    },
+    {
+     "item": 71,
+     "role": "frame_11",
+     "src": [
+      257,
+      173,
+      16,
+      26
+     ],
+     "mirror_of": 9
+    }
+   ],
+   "box": [
+    21,
+    172,
+    252,
+    27
+   ]
+  },
+  {
+   "id": 5,
+   "name": "hyrule_town_residents_2_e005",
+   "file": "hyrule_town_residents_2_e005.png",
+   "cell": [
+    19,
+    27
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 72,
+     "role": "frame_0",
+     "src": [
+      24,
+      208,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 73,
+     "role": "frame_1",
+     "src": [
+      45,
+      207,
+      16,
+      27
+     ]
+    },
+    {
+     "item": 74,
+     "role": "frame_2",
+     "src": [
+      67,
+      208,
+      16,
+      26
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 75,
+     "role": "frame_3",
+     "src": [
+      89,
+      208,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 76,
+     "role": "frame_4",
+     "src": [
+      108,
+      207,
+      16,
+      27
+     ]
+    },
+    {
+     "item": 77,
+     "role": "frame_5",
+     "src": [
+      129,
+      208,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 78,
+     "role": "frame_6",
+     "src": [
+      151,
+      208,
+      16,
+      26
+     ],
+     "mirror_of": 5
+    },
+    {
+     "item": 79,
+     "role": "frame_7",
+     "src": [
+      172,
+      207,
+      16,
+      27
+     ],
+     "mirror_of": 4
+    },
+    {
+     "item": 80,
+     "role": "frame_8",
+     "src": [
+      191,
+      208,
+      16,
+      26
+     ],
+     "mirror_of": 3
+    },
+    {
+     "item": 81,
+     "role": "frame_9",
+     "src": [
+      213,
+      208,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 82,
+     "role": "frame_10",
+     "src": [
+      234,
+      207,
+      16,
+      27
+     ]
+    },
+    {
+     "item": 83,
+     "role": "frame_11",
+     "src": [
+      255,
+      208,
+      16,
+      26
+     ]
+    }
+   ],
+   "box": [
+    24,
+    207,
+    247,
+    27
+   ]
+  },
+  {
+   "id": 6,
+   "name": "hyrule_town_residents_2_e006",
+   "file": "hyrule_town_residents_2_e006.png",
+   "cell": [
+    16,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 84,
+     "role": "frame_0",
+     "src": [
+      21,
+      245,
+      16,
+      25
+     ]
+    },
+    {
+     "item": 85,
+     "role": "frame_1",
+     "src": [
+      40,
+      245,
+      16,
+      25
+     ]
+    },
+    {
+     "item": 86,
+     "role": "frame_2",
+     "src": [
+      60,
+      245,
+      16,
+      25
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 87,
+     "role": "frame_3",
+     "src": [
+      83,
+      245,
+      15,
+      25
+     ]
+    },
+    {
+     "item": 88,
+     "role": "frame_4",
+     "src": [
+      104,
+      244,
+      15,
+      26
+     ]
+    },
+    {
+     "item": 89,
+     "role": "frame_5",
+     "src": [
+      126,
+      245,
+      15,
+      25
+     ]
+    },
+    {
+     "item": 90,
+     "role": "frame_6",
+     "src": [
+      150,
+      245,
+      15,
+      25
+     ]
+    },
+    {
+     "item": 91,
+     "role": "frame_7",
+     "src": [
+      172,
+      244,
+      15,
+      26
+     ]
+    },
+    {
+     "item": 92,
+     "role": "frame_8",
+     "src": [
+      193,
+      245,
+      15,
+      25
+     ]
+    },
+    {
+     "item": 93,
+     "role": "frame_9",
+     "src": [
+      213,
+      245,
+      16,
+      25
+     ]
+    },
+    {
+     "item": 94,
+     "role": "frame_10",
+     "src": [
+      235,
+      244,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 95,
+     "role": "frame_11",
+     "src": [
+      257,
+      245,
+      16,
+      25
+     ],
+     "mirror_of": 9
+    }
+   ],
+   "box": [
+    21,
+    244,
+    252,
+    26
+   ]
+  },
+  {
+   "id": 7,
+   "name": "hyrule_town_residents_2_e007",
+   "file": "hyrule_town_residents_2_e007.png",
+   "cell": [
+    16,
+    22
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 96,
+     "role": "frame_0",
+     "src": [
+      33,
+      281,
+      16,
+      21
+     ]
+    },
+    {
+     "item": 97,
+     "role": "frame_1",
+     "src": [
+      54,
+      280,
+      16,
+      22
+     ]
+    },
+    {
+     "item": 98,
+     "role": "frame_2",
+     "src": [
+      75,
+      281,
+      16,
+      21
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 99,
+     "role": "frame_3",
+     "src": [
+      95,
+      281,
+      15,
+      21
+     ]
+    },
+    {
+     "item": 100,
+     "role": "frame_4",
+     "src": [
+      113,
+      280,
+      15,
+      22
+     ]
+    },
+    {
+     "item": 101,
+     "role": "frame_5",
+     "src": [
+      132,
+      281,
+      15,
+      21
+     ]
+    },
+    {
+     "item": 102,
+     "role": "frame_6",
+     "src": [
+      153,
+      281,
+      15,
+      21
+     ]
+    },
+    {
+     "item": 103,
+     "role": "frame_7",
+     "src": [
+      172,
+      280,
+      15,
+      22
+     ]
+    },
+    {
+     "item": 104,
+     "role": "frame_8",
+     "src": [
+      190,
+      281,
+      15,
+      21
+     ]
+    },
+    {
+     "item": 105,
+     "role": "frame_9",
+     "src": [
+      208,
+      281,
+      16,
+      21
+     ]
+    },
+    {
+     "item": 106,
+     "role": "frame_10",
+     "src": [
+      227,
+      280,
+      16,
+      22
+     ]
+    },
+    {
+     "item": 107,
+     "role": "frame_11",
+     "src": [
+      246,
+      281,
+      16,
+      21
+     ],
+     "mirror_of": 9
+    }
+   ],
+   "box": [
+    33,
+    280,
+    229,
+    22
+   ]
+  },
+  {
+   "id": 8,
+   "name": "hyrule_town_residents_2_e008",
+   "file": "hyrule_town_residents_2_e008.png",
+   "cell": [
+    16,
+    24
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 108,
+     "role": "frame_0",
+     "src": [
+      32,
+      315,
+      16,
+      22
+     ]
+    },
+    {
+     "item": 109,
+     "role": "frame_1",
+     "src": [
+      51,
+      314,
+      16,
+      23
+     ]
+    },
+    {
+     "item": 110,
+     "role": "frame_2",
+     "src": [
+      71,
+      315,
+      16,
+      22
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 111,
+     "role": "frame_3",
+     "src": [
+      91,
+      315,
+      16,
+      22
+     ]
+    },
+    {
+     "item": 112,
+     "role": "frame_4",
+     "src": [
+      111,
+      314,
+      16,
+      23
+     ]
+    },
+    {
+     "item": 113,
+     "role": "frame_5",
+     "src": [
+      130,
+      315,
+      16,
+      22
+     ]
+    },
+    {
+     "item": 114,
+     "role": "frame_6",
+     "src": [
+      151,
+      315,
+      16,
+      22
+     ],
+     "mirror_of": 5
+    },
+    {
+     "item": 115,
+     "role": "frame_7",
+     "src": [
+      170,
+      314,
+      16,
+      23
+     ],
+     "mirror_of": 4
+    },
+    {
+     "item": 116,
+     "role": "frame_8",
+     "src": [
+      190,
+      315,
+      16,
+      22
+     ],
+     "mirror_of": 3
+    },
+    {
+     "item": 117,
+     "role": "frame_9",
+     "src": [
+      209,
+      314,
+      16,
+      23
+     ]
+    },
+    {
+     "item": 118,
+     "role": "frame_10",
+     "src": [
+      228,
+      313,
+      16,
+      24
+     ]
+    },
+    {
+     "item": 119,
+     "role": "frame_11",
+     "src": [
+      247,
+      314,
+      16,
+      23
+     ],
+     "mirror_of": 9
+    }
+   ],
+   "box": [
+    32,
+    313,
+    231,
+    24
+   ]
+  },
+  {
+   "id": 9,
+   "name": "hyrule_town_residents_2_e009",
+   "file": "hyrule_town_residents_2_e009.png",
+   "cell": [
+    16,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 120,
+     "role": "frame_0",
+     "src": [
+      21,
+      347,
+      16,
+      25
+     ]
+    },
+    {
+     "item": 121,
+     "role": "frame_1",
+     "src": [
+      42,
+      346,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 122,
+     "role": "frame_2",
+     "src": [
+      63,
+      347,
+      16,
+      25
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 123,
+     "role": "frame_3",
+     "src": [
+      87,
+      347,
+      15,
+      25
+     ]
+    },
+    {
+     "item": 124,
+     "role": "frame_4",
+     "src": [
+      108,
+      346,
+      15,
+      26
+     ]
+    },
+    {
+     "item": 125,
+     "role": "frame_5",
+     "src": [
+      129,
+      347,
+      15,
+      25
+     ]
+    },
+    {
+     "item": 126,
+     "role": "frame_6",
+     "src": [
+      152,
+      347,
+      15,
+      25
+     ]
+    },
+    {
+     "item": 127,
+     "role": "frame_7",
+     "src": [
+      173,
+      346,
+      15,
+      26
+     ]
+    },
+    {
+     "item": 128,
+     "role": "frame_8",
+     "src": [
+      194,
+      347,
+      15,
+      25
+     ]
+    },
+    {
+     "item": 129,
+     "role": "frame_9",
+     "src": [
+      215,
+      347,
+      16,
+      25
+     ]
+    },
+    {
+     "item": 130,
+     "role": "frame_10",
+     "src": [
+      235,
+      346,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 131,
+     "role": "frame_11",
+     "src": [
+      257,
+      347,
+      16,
+      25
+     ],
+     "mirror_of": 9
+    }
+   ],
+   "box": [
+    21,
+    346,
+    252,
+    26
+   ]
+  },
+  {
+   "id": 10,
+   "name": "hyrule_town_residents_2_e010",
+   "file": "hyrule_town_residents_2_e010.png",
+   "cell": [
+    16,
+    31
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 132,
+     "role": "frame_0",
+     "src": [
+      28,
+      381,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 133,
+     "role": "frame_1",
+     "src": [
+      49,
+      380,
+      16,
+      31
+     ]
+    },
+    {
+     "item": 134,
+     "role": "frame_2",
+     "src": [
+      71,
+      381,
+      16,
+      30
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 135,
+     "role": "frame_3",
+     "src": [
+      92,
+      382,
+      14,
+      29
+     ]
+    },
+    {
+     "item": 136,
+     "role": "frame_4",
+     "src": [
+      112,
+      381,
+      14,
+      30
+     ]
+    },
+    {
+     "item": 137,
+     "role": "frame_5",
+     "src": [
+      132,
+      382,
+      14,
+      29
+     ]
+    },
+    {
+     "item": 138,
+     "role": "frame_6",
+     "src": [
+      153,
+      382,
+      14,
+      29
+     ],
+     "mirror_of": 5
+    },
+    {
+     "item": 139,
+     "role": "frame_7",
+     "src": [
+      173,
+      381,
+      14,
+      30
+     ],
+     "mirror_of": 4
+    },
+    {
+     "item": 140,
+     "role": "frame_8",
+     "src": [
+      193,
+      382,
+      14,
+      29
+     ],
+     "mirror_of": 3
+    },
+    {
+     "item": 141,
+     "role": "frame_9",
+     "src": [
+      211,
+      383,
+      16,
+      28
+     ]
+    },
+    {
+     "item": 142,
+     "role": "frame_10",
+     "src": [
+      231,
+      382,
+      16,
+      29
+     ]
+    },
+    {
+     "item": 143,
+     "role": "frame_11",
+     "src": [
+      251,
+      383,
+      16,
+      28
+     ],
+     "mirror_of": 9
+    }
+   ],
+   "box": [
+    28,
+    380,
+    239,
+    31
+   ]
+  },
+  {
+   "id": 11,
+   "name": "hyrule_town_residents_2_e011",
+   "file": "hyrule_town_residents_2_e011.png",
+   "cell": [
+    17,
+    28
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 144,
+     "role": "frame_0",
+     "src": [
+      13,
+      426,
+      16,
+      27
+     ]
+    },
+    {
+     "item": 145,
+     "role": "frame_1",
+     "src": [
+      35,
+      425,
+      16,
+      28
+     ]
+    },
+    {
+     "item": 146,
+     "role": "frame_2",
+     "src": [
+      60,
+      426,
+      16,
+      27
+     ]
+    },
+    {
+     "item": 147,
+     "role": "frame_3",
+     "src": [
+      83,
+      427,
+      17,
+      26
+     ]
+    },
+    {
+     "item": 148,
+     "role": "frame_4",
+     "src": [
+      106,
+      426,
+      16,
+      27
+     ]
+    },
+    {
+     "item": 149,
+     "role": "frame_5",
+     "src": [
+      128,
+      427,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 150,
+     "role": "frame_6",
+     "src": [
+      152,
+      427,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 151,
+     "role": "frame_7",
+     "src": [
+      174,
+      426,
+      16,
+      27
+     ]
+    },
+    {
+     "item": 152,
+     "role": "frame_8",
+     "src": [
+      196,
+      427,
+      17,
+      26
+     ],
+     "mirror_of": 3
+    },
+    {
+     "item": 153,
+     "role": "frame_9",
+     "src": [
+      219,
+      427,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 154,
+     "role": "frame_10",
+     "src": [
+      242,
+      426,
+      16,
+      27
+     ]
+    },
+    {
+     "item": 155,
+     "role": "frame_11",
+     "src": [
+      265,
+      427,
+      16,
+      26
+     ]
+    }
+   ],
+   "box": [
+    13,
+    425,
+    268,
+    28
+   ]
+  },
+  {
+   "id": 12,
+   "name": "hyrule_town_residents_2_e012",
+   "file": "hyrule_town_residents_2_e012.png",
+   "cell": [
+    20,
+    27
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 156,
+     "role": "frame_0",
+     "src": [
+      51,
+      469,
+      18,
+      26
+     ]
+    },
+    {
+     "item": 157,
+     "role": "frame_1",
+     "src": [
+      73,
+      468,
+      18,
+      27
+     ]
+    },
+    {
+     "item": 158,
+     "role": "frame_2",
+     "src": [
+      95,
+      470,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 159,
+     "role": "frame_3",
+     "src": [
+      117,
+      472,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 160,
+     "role": "frame_4",
+     "src": [
+      138,
+      474,
+      18,
+      21
+     ]
+    },
+    {
+     "item": 161,
+     "role": "frame_5",
+     "src": [
+      160,
+      472,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 162,
+     "role": "frame_6",
+     "src": [
+      181,
+      470,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 163,
+     "role": "frame_7",
+     "src": [
+      203,
+      468,
+      18,
+      27
+     ]
+    },
+    {
+     "item": 164,
+     "role": "frame_8",
+     "src": [
+      226,
+      469,
+      18,
+      26
+     ]
+    }
+   ],
+   "box": [
+    51,
+    468,
+    193,
+    27
+   ]
+  },
+  {
+   "id": 13,
+   "name": "hyrule_town_residents_2_e013",
+   "file": "hyrule_town_residents_2_e013.png",
+   "cell": [
+    20,
+    29
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 165,
+     "role": "frame_0",
+     "src": [
+      61,
+      508,
+      18,
+      27
+     ]
+    },
+    {
+     "item": 166,
+     "role": "frame_1",
+     "src": [
+      85,
+      508,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 167,
+     "role": "frame_2",
+     "src": [
+      113,
+      508,
+      16,
+      27
+     ]
+    },
+    {
+     "item": 168,
+     "role": "frame_3",
+     "src": [
+      138,
+      507,
+      18,
+      28
+     ]
+    },
+    {
+     "item": 169,
+     "role": "frame_4",
+     "src": [
+      163,
+      506,
+      17,
+      28
+     ]
+    },
+    {
+     "item": 170,
+     "role": "frame_5",
+     "src": [
+      188,
+      508,
+      20,
+      27
+     ]
+    },
+    {
+     "item": 171,
+     "role": "frame_6",
+     "src": [
+      214,
+      508,
+      19,
+      27
+     ]
+    }
+   ],
+   "box": [
+    61,
+    506,
+    172,
+    29
+   ]
+  },
+  {
+   "id": 14,
+   "name": "hyrule_town_residents_2_e014",
+   "file": "hyrule_town_residents_2_e014.png",
+   "cell": [
+    18,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 172,
+     "role": "frame_0",
+     "src": [
+      19,
+      552,
+      16,
+      25
+     ]
+    },
+    {
+     "item": 173,
+     "role": "frame_1",
+     "src": [
+      39,
+      552,
+      15,
+      25
+     ]
+    },
+    {
+     "item": 174,
+     "role": "frame_2",
+     "src": [
+      61,
+      552,
+      16,
+      25
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 175,
+     "role": "frame_3",
+     "src": [
+      85,
+      552,
+      15,
+      25
+     ]
+    },
+    {
+     "item": 176,
+     "role": "frame_4",
+     "src": [
+      108,
+      551,
+      14,
+      26
+     ]
+    },
+    {
+     "item": 177,
+     "role": "frame_5",
+     "src": [
+      129,
+      551,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 178,
+     "role": "frame_6",
+     "src": [
+      152,
+      551,
+      14,
+      26
+     ]
+    },
+    {
+     "item": 179,
+     "role": "frame_7",
+     "src": [
+      172,
+      551,
+      16,
+      26
+     ]
+    }
+   ],
+   "box": [
+    19,
+    551,
+    169,
+    26
+   ]
+  },
+  {
+   "id": 15,
+   "name": "postman",
+   "file": "postman.png",
+   "cell": [
+    17,
+    29
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 180,
+     "role": "frame_0",
+     "src": [
+      199,
+      549,
+      14,
+      28
+     ]
+    },
+    {
+     "item": 181,
+     "role": "frame_1",
+     "src": [
+      219,
+      549,
+      16,
+      28
+     ]
+    },
+    {
+     "item": 182,
+     "role": "frame_2",
+     "src": [
+      241,
+      549,
+      14,
+      28
+     ]
+    },
+    {
+     "item": 183,
+     "role": "frame_3",
+     "src": [
+      260,
+      548,
+      16,
+      29
+     ]
+    }
+   ],
+   "box": [
+    199,
+    548,
+    77,
+    29
+   ]
+  },
+  {
+   "id": 16,
+   "name": "hyrule_town_residents_2_e016",
+   "file": "hyrule_town_residents_2_e016.png",
+   "cell": [
+    24,
+    25
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 184,
+     "role": "frame_0",
+     "src": [
+      24,
+      594,
+      21,
+      22
+     ]
+    },
+    {
+     "item": 185,
+     "role": "frame_1",
+     "src": [
+      50,
+      591,
+      20,
+      25
+     ]
+    },
+    {
+     "item": 186,
+     "role": "frame_2",
+     "src": [
+      75,
+      591,
+      22,
+      25
+     ]
+    },
+    {
+     "item": 187,
+     "role": "frame_3",
+     "src": [
+      102,
+      592,
+      22,
+      24
+     ]
+    },
+    {
+     "item": 188,
+     "role": "frame_4",
+     "src": [
+      131,
+      593,
+      20,
+      23
+     ]
+    },
+    {
+     "item": 189,
+     "role": "frame_5",
+     "src": [
+      158,
+      593,
+      20,
+      23
+     ]
+    }
+   ],
+   "box": [
+    24,
+    591,
+    154,
+    25
+   ]
+  },
+  {
+   "id": 17,
+   "name": "hyrule_town_residents_2_e017",
+   "file": "hyrule_town_residents_2_e017.png",
+   "cell": [
+    23,
+    24
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 190,
+     "role": "frame_0",
+     "src": [
+      184,
+      594,
+      17,
+      22
+     ]
+    },
+    {
+     "item": 191,
+     "role": "frame_1",
+     "src": [
+      204,
+      593,
+      17,
+      23
+     ]
+    },
+    {
+     "item": 192,
+     "role": "frame_2",
+     "src": [
+      225,
+      592,
+      20,
+      24
+     ]
+    },
+    {
+     "item": 193,
+     "role": "frame_3",
+     "src": [
+      251,
+      592,
+      19,
+      24
+     ]
+    }
+   ],
+   "box": [
+    184,
+    592,
+    86,
+    24
+   ]
+  },
+  {
+   "id": 18,
+   "name": "hyrule_town_residents_2_e018",
+   "file": "hyrule_town_residents_2_e018.png",
+   "cell": [
+    22,
+    28
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 194,
+     "role": "frame_0",
+     "src": [
+      39,
+      626,
+      17,
+      26
+     ]
+    },
+    {
+     "item": 195,
+     "role": "frame_1",
+     "src": [
+      62,
+      625,
+      18,
+      27
+     ]
+    },
+    {
+     "item": 196,
+     "role": "frame_2",
+     "src": [
+      87,
+      624,
+      17,
+      28
+     ]
+    },
+    {
+     "item": 197,
+     "role": "frame_3",
+     "src": [
+      111,
+      626,
+      20,
+      26
+     ]
+    },
+    {
+     "item": 198,
+     "role": "frame_4",
+     "src": [
+      136,
+      625,
+      20,
+      27
+     ]
+    },
+    {
+     "item": 199,
+     "role": "frame_5",
+     "src": [
+      162,
+      624,
+      20,
+      28
+     ]
+    },
+    {
+     "item": 200,
+     "role": "frame_6",
+     "src": [
+      190,
+      624,
+      17,
+      28
+     ]
+    },
+    {
+     "item": 201,
+     "role": "frame_7",
+     "src": [
+      214,
+      625,
+      18,
+      27
+     ],
+     "mirror_of": 1
+    },
+    {
+     "item": 202,
+     "role": "frame_8",
+     "src": [
+      238,
+      626,
+      17,
+      26
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    39,
+    624,
+    216,
+    28
+   ]
+  },
+  {
+   "id": 19,
+   "name": "hyrule_town_residents_2_e019",
+   "file": "hyrule_town_residents_2_e019.png",
+   "cell": [
+    17,
+    29
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 203,
+     "role": "frame_0",
+     "src": [
+      44,
+      666,
+      15,
+      28
+     ]
+    },
+    {
+     "item": 204,
+     "role": "frame_1",
+     "src": [
+      67,
+      665,
+      15,
+      29
+     ]
+    },
+    {
+     "item": 205,
+     "role": "frame_2",
+     "src": [
+      89,
+      666,
+      15,
+      28
+     ]
+    },
+    {
+     "item": 206,
+     "role": "frame_3",
+     "src": [
+      114,
+      666,
+      15,
+      28
+     ],
+     "mirror_of": 2
+    },
+    {
+     "item": 207,
+     "role": "frame_4",
+     "src": [
+      136,
+      665,
+      15,
+      29
+     ],
+     "mirror_of": 1
+    },
+    {
+     "item": 208,
+     "role": "frame_5",
+     "src": [
+      159,
+      666,
+      15,
+      28
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    44,
+    665,
+    130,
+    29
+   ]
+  },
+  {
+   "id": 20,
+   "name": "hyrule_town_residents_2_e020",
+   "file": "hyrule_town_residents_2_e020.png",
+   "cell": [
+    19,
+    28
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 209,
+     "role": "frame_0",
+     "src": [
+      184,
+      666,
+      19,
+      28
+     ]
+    },
+    {
+     "item": 210,
+     "role": "frame_1",
+     "src": [
+      208,
+      666,
+      18,
+      28
+     ]
+    },
+    {
+     "item": 211,
+     "role": "frame_2",
+     "src": [
+      233,
+      666,
+      18,
+      28
+     ],
+     "mirror_of": 1
+    }
+   ],
+   "box": [
+    184,
+    666,
+    67,
+    28
+   ]
+  },
+  {
+   "id": 21,
+   "name": "din",
+   "file": "din.png",
+   "cell": [
+    23,
+    31
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 212,
+     "role": "frame_0",
+     "src": [
+      7,
+      701,
+      17,
+      31
+     ]
+    },
+    {
+     "item": 213,
+     "role": "frame_1",
+     "src": [
+      29,
+      702,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 214,
+     "role": "frame_2",
+     "src": [
+      51,
+      702,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 215,
+     "role": "frame_3",
+     "src": [
+      70,
+      702,
+      23,
+      30
+     ]
+    }
+   ],
+   "box": [
+    7,
+    701,
+    86,
+    31
+   ]
+  },
+  {
+   "id": 22,
+   "name": "nayru",
+   "file": "nayru.png",
+   "cell": [
+    20,
+    29
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 216,
+     "role": "frame_0",
+     "src": [
+      102,
+      703,
+      19,
+      29
+     ]
+    },
+    {
+     "item": 217,
+     "role": "frame_1",
+     "src": [
+      126,
+      704,
+      19,
+      28
+     ]
+    },
+    {
+     "item": 218,
+     "role": "frame_2",
+     "src": [
+      151,
+      704,
+      19,
+      28
+     ]
+    },
+    {
+     "item": 219,
+     "role": "frame_3",
+     "src": [
+      175,
+      703,
+      20,
+      29
+     ]
+    }
+   ],
+   "box": [
+    102,
+    703,
+    93,
+    29
+   ]
+  },
+  {
+   "id": 23,
+   "name": "farore",
+   "file": "farore.png",
+   "cell": [
+    19,
+    25
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 220,
+     "role": "frame_0",
+     "src": [
+      200,
+      707,
+      19,
+      25
+     ]
+    },
+    {
+     "item": 221,
+     "role": "frame_1",
+     "src": [
+      223,
+      707,
+      19,
+      25
+     ]
+    },
+    {
+     "item": 222,
+     "role": "frame_2",
+     "src": [
+      246,
+      707,
+      19,
+      25
+     ],
+     "mirror_of": 1
+    },
+    {
+     "item": 223,
+     "role": "frame_3",
+     "src": [
+      270,
+      707,
+      18,
+      25
+     ]
+    }
+   ],
+   "box": [
+    200,
+    707,
+    88,
+    25
+   ]
+  },
+  {
+   "id": 24,
+   "name": "hyrule_town_residents_2_e024",
+   "file": "hyrule_town_residents_2_e024.png",
+   "cell": [
+    32,
+    37
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 240,
+     "role": "frame_0",
+     "src": [
+      94,
+      955,
+      32,
+      37
+     ]
+    },
+    {
+     "item": 241,
+     "role": "frame_1",
+     "src": [
+      131,
+      955,
+      32,
+      37
+     ]
+    },
+    {
+     "item": 242,
+     "role": "frame_2",
+     "src": [
+      168,
+      955,
+      32,
+      37
+     ],
+     "mirror_of": 1
+    }
+   ],
+   "box": [
+    94,
+    955,
+    106,
+    37
+   ]
+  },
+  {
+   "id": 25,
+   "name": "hyrule_town_residents_2_e025",
+   "file": "hyrule_town_residents_2_e025.png",
+   "cell": [
+    22,
+    30
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 243,
+     "role": "frame_0",
+     "src": [
+      30,
+      1005,
+      20,
+      28
+     ]
+    },
+    {
+     "item": 244,
+     "role": "frame_1",
+     "src": [
+      54,
+      1003,
+      20,
+      29
+     ]
+    },
+    {
+     "item": 245,
+     "role": "frame_2",
+     "src": [
+      77,
+      1004,
+      20,
+      28
+     ]
+    },
+    {
+     "item": 246,
+     "role": "frame_3",
+     "src": [
+      101,
+      1003,
+      20,
+      29
+     ]
+    },
+    {
+     "item": 247,
+     "role": "frame_4",
+     "src": [
+      125,
+      1005,
+      20,
+      28
+     ]
+    },
+    {
+     "item": 248,
+     "role": "frame_5",
+     "src": [
+      150,
+      1005,
+      20,
+      28
+     ]
+    },
+    {
+     "item": 249,
+     "role": "frame_6",
+     "src": [
+      173,
+      1004,
+      20,
+      29
+     ]
+    },
+    {
+     "item": 250,
+     "role": "frame_7",
+     "src": [
+      197,
+      1005,
+      20,
+      28
+     ]
+    },
+    {
+     "item": 251,
+     "role": "frame_8",
+     "src": [
+      221,
+      1004,
+      20,
+      29
+     ],
+     "mirror_of": 6
+    },
+    {
+     "item": 252,
+     "role": "frame_9",
+     "src": [
+      244,
+      1005,
+      20,
+      28
+     ],
+     "mirror_of": 5
+    }
+   ],
+   "box": [
+    30,
+    1003,
+    234,
+    30
+   ]
+  },
+  {
+   "id": 26,
+   "name": "hyrule_town_residents_2_e026",
+   "file": "hyrule_town_residents_2_e026.png",
+   "cell": [
+    18,
+    29
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 253,
+     "role": "frame_0",
+     "src": [
+      37,
+      1044,
+      18,
+      28
+     ]
+    },
+    {
+     "item": 254,
+     "role": "frame_1",
+     "src": [
+      60,
+      1043,
+      18,
+      29
+     ]
+    },
+    {
+     "item": 255,
+     "role": "frame_2",
+     "src": [
+      83,
+      1045,
+      18,
+      27
+     ]
+    },
+    {
+     "item": 256,
+     "role": "frame_3",
+     "src": [
+      105,
+      1043,
+      18,
+      29
+     ]
+    },
+    {
+     "item": 257,
+     "role": "frame_4",
+     "src": [
+      126,
+      1045,
+      18,
+      27
+     ]
+    },
+    {
+     "item": 258,
+     "role": "frame_5",
+     "src": [
+      151,
+      1045,
+      18,
+      27
+     ],
+     "mirror_of": 4
+    },
+    {
+     "item": 259,
+     "role": "frame_6",
+     "src": [
+      172,
+      1043,
+      18,
+      29
+     ],
+     "mirror_of": 3
+    },
+    {
+     "item": 260,
+     "role": "frame_7",
+     "src": [
+      194,
+      1045,
+      18,
+      27
+     ],
+     "mirror_of": 2
+    },
+    {
+     "item": 261,
+     "role": "frame_8",
+     "src": [
+      217,
+      1043,
+      18,
+      29
+     ],
+     "mirror_of": 1
+    },
+    {
+     "item": 262,
+     "role": "frame_9",
+     "src": [
+      240,
+      1044,
+      18,
+      28
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    37,
+    1043,
+    221,
+    29
+   ]
+  },
+  {
+   "id": 27,
+   "name": "hyrule_town_residents_2_e027",
+   "file": "hyrule_town_residents_2_e027.png",
+   "cell": [
+    20,
+    33
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 263,
+     "role": "frame_0",
+     "src": [
+      45,
+      1085,
+      20,
+      33
+     ]
+    },
+    {
+     "item": 264,
+     "role": "frame_1",
+     "src": [
+      71,
+      1085,
+      16,
+      33
+     ]
+    },
+    {
+     "item": 265,
+     "role": "frame_2",
+     "src": [
+      95,
+      1085,
+      16,
+      33
+     ]
+    },
+    {
+     "item": 266,
+     "role": "frame_3",
+     "src": [
+      120,
+      1085,
+      20,
+      33
+     ]
+    }
+   ],
+   "box": [
+    45,
+    1085,
+    95,
+    33
+   ]
+  },
+  {
+   "id": 28,
+   "name": "hyrule_town_residents_2_e028",
+   "file": "hyrule_town_residents_2_e028.png",
+   "cell": [
+    20,
+    33
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 267,
+     "role": "frame_0",
+     "src": [
+      152,
+      1085,
+      20,
+      33
+     ]
+    },
+    {
+     "item": 268,
+     "role": "frame_1",
+     "src": [
+      178,
+      1085,
+      16,
+      33
+     ]
+    },
+    {
+     "item": 269,
+     "role": "frame_2",
+     "src": [
+      202,
+      1085,
+      16,
+      33
+     ]
+    },
+    {
+     "item": 270,
+     "role": "frame_3",
+     "src": [
+      227,
+      1085,
+      20,
+      33
+     ]
+    }
+   ],
+   "box": [
+    152,
+    1085,
+    95,
+    33
+   ]
+  },
+  {
+   "id": 29,
+   "name": "hyrule_town_residents_2_e029",
+   "file": "hyrule_town_residents_2_e029.png",
+   "cell": [
+    21,
+    33
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 271,
+     "role": "frame_0",
+     "src": [
+      45,
+      1127,
+      20,
+      33
+     ]
+    },
+    {
+     "item": 272,
+     "role": "frame_1",
+     "src": [
+      73,
+      1127,
+      19,
+      33
+     ]
+    },
+    {
+     "item": 273,
+     "role": "frame_2",
+     "src": [
+      99,
+      1127,
+      16,
+      33
+     ]
+    },
+    {
+     "item": 274,
+     "role": "frame_3",
+     "src": [
+      123,
+      1127,
+      20,
+      33
+     ]
+    }
+   ],
+   "box": [
+    45,
+    1127,
+    98,
+    33
+   ]
+  },
+  {
+   "id": 30,
+   "name": "hyrule_town_residents_2_e030",
+   "file": "hyrule_town_residents_2_e030.png",
+   "cell": [
+    21,
+    33
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 275,
+     "role": "frame_0",
+     "src": [
+      152,
+      1127,
+      20,
+      33
+     ]
+    },
+    {
+     "item": 276,
+     "role": "frame_1",
+     "src": [
+      180,
+      1127,
+      19,
+      33
+     ]
+    },
+    {
+     "item": 277,
+     "role": "frame_2",
+     "src": [
+      206,
+      1127,
+      16,
+      33
+     ]
+    },
+    {
+     "item": 278,
+     "role": "frame_3",
+     "src": [
+      230,
+      1127,
+      20,
+      33
+     ]
+    }
+   ],
+   "box": [
+    152,
+    1127,
+    98,
+    33
+   ]
+  },
+  {
+   "id": 31,
+   "name": "hyrule_town_residents_2_e031",
+   "file": "hyrule_town_residents_2_e031.png",
+   "cell": [
+    22,
+    33
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 279,
+     "role": "frame_0",
+     "src": [
+      45,
+      1172,
+      20,
+      33
+     ]
+    },
+    {
+     "item": 280,
+     "role": "frame_1",
+     "src": [
+      70,
+      1172,
+      19,
+      33
+     ]
+    },
+    {
+     "item": 281,
+     "role": "frame_2",
+     "src": [
+      95,
+      1172,
+      17,
+      33
+     ]
+    },
+    {
+     "item": 282,
+     "role": "frame_3",
+     "src": [
+      121,
+      1172,
+      20,
+      33
+     ]
+    }
+   ],
+   "box": [
+    45,
+    1172,
+    96,
+    33
+   ]
+  },
+  {
+   "id": 32,
+   "name": "hyrule_town_residents_2_e032",
+   "file": "hyrule_town_residents_2_e032.png",
+   "cell": [
+    22,
+    33
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 283,
+     "role": "frame_0",
+     "src": [
+      152,
+      1172,
+      20,
+      33
+     ]
+    },
+    {
+     "item": 284,
+     "role": "frame_1",
+     "src": [
+      177,
+      1172,
+      19,
+      33
+     ]
+    },
+    {
+     "item": 285,
+     "role": "frame_2",
+     "src": [
+      202,
+      1172,
+      17,
+      33
+     ]
+    },
+    {
+     "item": 286,
+     "role": "frame_3",
+     "src": [
+      228,
+      1172,
+      20,
+      33
+     ]
+    }
+   ],
+   "box": [
+    152,
+    1172,
+    96,
+    33
+   ]
+  },
+  {
+   "id": 33,
+   "name": "malon",
+   "file": "malon.png",
+   "cell": [
+    21,
+    25
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 287,
+     "role": "frame_0",
+     "src": [
+      30,
+      1226,
+      19,
+      24
+     ]
+    },
+    {
+     "item": 288,
+     "role": "frame_1",
+     "src": [
+      52,
+      1226,
+      19,
+      24
+     ]
+    },
+    {
+     "item": 289,
+     "role": "frame_2",
+     "src": [
+      73,
+      1225,
+      19,
+      25
+     ]
+    },
+    {
+     "item": 290,
+     "role": "frame_3",
+     "src": [
+      95,
+      1225,
+      19,
+      25
+     ]
+    },
+    {
+     "item": 291,
+     "role": "frame_4",
+     "src": [
+      119,
+      1225,
+      19,
+      25
+     ],
+     "mirror_of": 3
+    },
+    {
+     "item": 292,
+     "role": "frame_5",
+     "src": [
+      141,
+      1225,
+      19,
+      25
+     ],
+     "mirror_of": 2
+    }
+   ],
+   "box": [
+    30,
+    1225,
+    130,
+    25
+   ]
+  },
+  {
+   "id": 34,
+   "name": "malon_milk_cart",
+   "file": "malon_milk_cart.png",
+   "cell": [
+    49,
+    31
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 293,
+     "role": "frame_0",
+     "src": [
+      164,
+      1219,
+      49,
+      31
+     ]
+    },
+    {
+     "item": 294,
+     "role": "frame_1",
+     "src": [
+      216,
+      1219,
+      49,
+      31
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    164,
+    1219,
+    101,
+    31
+   ]
+  },
+  {
+   "id": 35,
+   "name": "hyrule_town_residents_2_e035",
+   "file": "hyrule_town_residents_2_e035.png",
+   "cell": [
+    18,
+    23
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 295,
+     "role": "frame_0",
+     "src": [
+      51,
+      1266,
+      17,
+      23
+     ]
+    },
+    {
+     "item": 296,
+     "role": "frame_1",
+     "src": [
+      71,
+      1266,
+      17,
+      23
+     ]
+    },
+    {
+     "item": 297,
+     "role": "frame_2",
+     "src": [
+      92,
+      1266,
+      17,
+      23
+     ]
+    },
+    {
+     "item": 298,
+     "role": "frame_3",
+     "src": [
+      114,
+      1266,
+      17,
+      23
+     ]
+    },
+    {
+     "item": 299,
+     "role": "frame_4",
+     "src": [
+      136,
+      1266,
+      17,
+      23
+     ]
+    },
+    {
+     "item": 300,
+     "role": "frame_5",
+     "src": [
+      158,
+      1266,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 301,
+     "role": "frame_6",
+     "src": [
+      180,
+      1266,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 302,
+     "role": "frame_7",
+     "src": [
+      202,
+      1266,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 303,
+     "role": "frame_8",
+     "src": [
+      226,
+      1266,
+      17,
+      23
+     ],
+     "duplicate_of": 1
+    }
+   ],
+   "box": [
+    51,
+    1266,
+    192,
+    23
+   ]
+  },
+  {
+   "id": 36,
+   "name": "hyrule_town_residents_2_e036",
+   "file": "hyrule_town_residents_2_e036.png",
+   "cell": [
+    27,
+    28
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 304,
+     "role": "frame_0",
+     "src": [
+      29,
+      1300,
+      25,
+      28
+     ]
+    },
+    {
+     "item": 305,
+     "role": "frame_1",
+     "src": [
+      60,
+      1300,
+      24,
+      28
+     ]
+    },
+    {
+     "item": 306,
+     "role": "frame_2",
+     "src": [
+      89,
+      1300,
+      25,
+      28
+     ]
+    },
+    {
+     "item": 307,
+     "role": "frame_3",
+     "src": [
+      119,
+      1300,
+      25,
+      28
+     ]
+    },
+    {
+     "item": 308,
+     "role": "frame_4",
+     "src": [
+      151,
+      1300,
+      25,
+      28
+     ],
+     "mirror_of": 3
+    },
+    {
+     "item": 309,
+     "role": "frame_5",
+     "src": [
+      181,
+      1300,
+      25,
+      28
+     ],
+     "mirror_of": 2
+    },
+    {
+     "item": 310,
+     "role": "frame_6",
+     "src": [
+      211,
+      1300,
+      24,
+      28
+     ],
+     "mirror_of": 1
+    },
+    {
+     "item": 311,
+     "role": "frame_7",
+     "src": [
+      241,
+      1300,
+      25,
+      28
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    29,
+    1300,
+    237,
+    28
+   ]
+  },
+  {
+   "id": 37,
+   "name": "hyrule_town_residents_2_e037",
+   "file": "hyrule_town_residents_2_e037.png",
+   "cell": [
+    31,
+    25
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 320,
+     "role": "frame_0",
+     "src": [
+      28,
+      1384,
+      20,
+      24
+     ]
+    },
+    {
+     "item": 321,
+     "role": "frame_1",
+     "src": [
+      51,
+      1387,
+      23,
+      21
+     ]
+    },
+    {
+     "item": 322,
+     "role": "frame_2",
+     "src": [
+      78,
+      1387,
+      27,
+      21
+     ]
+    },
+    {
+     "item": 323,
+     "role": "frame_3",
+     "src": [
+      109,
+      1386,
+      29,
+      22
+     ]
+    },
+    {
+     "item": 324,
+     "role": "frame_4",
+     "src": [
+      142,
+      1383,
+      31,
+      25
+     ]
+    },
+    {
+     "item": 325,
+     "role": "frame_5",
+     "src": [
+      177,
+      1384,
+      29,
+      24
+     ]
+    },
+    {
+     "item": 326,
+     "role": "frame_6",
+     "src": [
+      210,
+      1386,
+      29,
+      22
+     ],
+     "duplicate_of": 3
+    },
+    {
+     "item": 327,
+     "role": "frame_7",
+     "src": [
+      243,
+      1387,
+      23,
+      21
+     ],
+     "duplicate_of": 1
+    }
+   ],
+   "box": [
+    28,
+    1383,
+    238,
+    25
+   ]
+  },
+  {
+   "id": 38,
+   "name": "hyrule_town_residents_2_e038",
+   "file": "hyrule_town_residents_2_e038.png",
+   "cell": [
+    31,
+    25
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 328,
+     "role": "frame_0",
+     "src": [
+      28,
+      1424,
+      20,
+      24
+     ]
+    },
+    {
+     "item": 329,
+     "role": "frame_1",
+     "src": [
+      51,
+      1427,
+      23,
+      21
+     ]
+    },
+    {
+     "item": 330,
+     "role": "frame_2",
+     "src": [
+      78,
+      1427,
+      27,
+      21
+     ]
+    },
+    {
+     "item": 331,
+     "role": "frame_3",
+     "src": [
+      109,
+      1426,
+      29,
+      22
+     ]
+    },
+    {
+     "item": 332,
+     "role": "frame_4",
+     "src": [
+      142,
+      1423,
+      31,
+      25
+     ]
+    },
+    {
+     "item": 333,
+     "role": "frame_5",
+     "src": [
+      177,
+      1424,
+      29,
+      24
+     ]
+    },
+    {
+     "item": 334,
+     "role": "frame_6",
+     "src": [
+      210,
+      1426,
+      29,
+      22
+     ],
+     "duplicate_of": 3
+    },
+    {
+     "item": 335,
+     "role": "frame_7",
+     "src": [
+      243,
+      1427,
+      23,
+      21
+     ],
+     "duplicate_of": 1
+    }
+   ],
+   "box": [
+    28,
+    1423,
+    238,
+    25
+   ]
+  },
+  {
+   "id": 39,
+   "name": "hyrule_town_residents_2_e039",
+   "file": "hyrule_town_residents_2_e039.png",
+   "cell": [
+    32,
+    31
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 336,
+     "role": "frame_0",
+     "src": [
+      60,
+      1454,
+      29,
+      31
+     ]
+    },
+    {
+     "item": 337,
+     "role": "frame_1",
+     "src": [
+      95,
+      1456,
+      29,
+      29
+     ]
+    },
+    {
+     "item": 338,
+     "role": "frame_2",
+     "src": [
+      130,
+      1462,
+      32,
+      23
+     ]
+    },
+    {
+     "item": 339,
+     "role": "frame_3",
+     "src": [
+      166,
+      1465,
+      32,
+      20
+     ]
+    },
+    {
+     "item": 340,
+     "role": "frame_4",
+     "src": [
+      202,
+      1462,
+      32,
+      23
+     ],
+     "duplicate_of": 2
+    }
+   ],
+   "box": [
+    60,
+    1454,
+    174,
+    31
+   ]
+  },
+  {
+   "id": 40,
+   "name": "hyrule_town_residents_2_e040",
+   "file": "hyrule_town_residents_2_e040.png",
+   "cell": [
+    28,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 341,
+     "role": "frame_0",
+     "src": [
+      38,
+      1495,
+      28,
+      26
+     ]
+    },
+    {
+     "item": 342,
+     "role": "frame_1",
+     "src": [
+      72,
+      1500,
+      23,
+      21
+     ]
+    },
+    {
+     "item": 343,
+     "role": "frame_2",
+     "src": [
+      101,
+      1502,
+      24,
+      19
+     ]
+    },
+    {
+     "item": 344,
+     "role": "frame_3",
+     "src": [
+      130,
+      1510,
+      19,
+      11
+     ]
+    },
+    {
+     "item": 345,
+     "role": "frame_4",
+     "src": [
+      154,
+      1513,
+      18,
+      8
+     ]
+    },
+    {
+     "item": 346,
+     "role": "frame_5",
+     "src": [
+      178,
+      1507,
+      24,
+      14
+     ]
+    },
+    {
+     "item": 347,
+     "role": "frame_6",
+     "src": [
+      208,
+      1503,
+      21,
+      18
+     ]
+    },
+    {
+     "item": 348,
+     "role": "frame_7",
+     "src": [
+      235,
+      1501,
+      21,
+      20
+     ]
+    }
+   ],
+   "box": [
+    38,
+    1495,
+    218,
+    26
+   ]
+  },
+  {
+   "id": 41,
+   "name": "hyrule_town_residents_2_e041",
+   "file": "hyrule_town_residents_2_e041.png",
+   "cell": [
+    23,
+    30
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 349,
+     "role": "frame_0",
+     "src": [
+      4,
+      1534,
+      22,
+      29
+     ]
+    },
+    {
+     "item": 350,
+     "role": "frame_1",
+     "src": [
+      33,
+      1534,
+      22,
+      29
+     ]
+    },
+    {
+     "item": 351,
+     "role": "frame_2",
+     "src": [
+      64,
+      1534,
+      22,
+      29
+     ]
+    },
+    {
+     "item": 352,
+     "role": "frame_3",
+     "src": [
+      92,
+      1533,
+      21,
+      30
+     ]
+    },
+    {
+     "item": 353,
+     "role": "frame_4",
+     "src": [
+      123,
+      1533,
+      21,
+      30
+     ]
+    },
+    {
+     "item": 354,
+     "role": "frame_5",
+     "src": [
+      151,
+      1535,
+      22,
+      28
+     ]
+    },
+    {
+     "item": 355,
+     "role": "frame_6",
+     "src": [
+      181,
+      1535,
+      23,
+      28
+     ]
+    },
+    {
+     "item": 356,
+     "role": "frame_7",
+     "src": [
+      209,
+      1534,
+      23,
+      28
+     ]
+    },
+    {
+     "item": 357,
+     "role": "frame_8",
+     "src": [
+      240,
+      1535,
+      22,
+      28
+     ]
+    },
+    {
+     "item": 358,
+     "role": "frame_9",
+     "src": [
+      269,
+      1534,
+      22,
+      29
+     ]
+    }
+   ],
+   "box": [
+    4,
+    1533,
+    287,
+    30
+   ]
+  },
+  {
+   "id": 42,
+   "name": "hyrule_town_residents_2_e042",
+   "file": "hyrule_town_residents_2_e042.png",
+   "cell": [
+    25,
+    35
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 366,
+     "role": "frame_0",
+     "src": [
+      73,
+      1626,
+      23,
+      35
+     ]
+    },
+    {
+     "item": 367,
+     "role": "frame_1",
+     "src": [
+      104,
+      1626,
+      23,
+      35
+     ]
+    },
+    {
+     "item": 368,
+     "role": "frame_2",
+     "src": [
+      135,
+      1626,
+      23,
+      35
+     ]
+    },
+    {
+     "item": 369,
+     "role": "frame_3",
+     "src": [
+      168,
+      1626,
+      23,
+      35
+     ]
+    },
+    {
+     "item": 370,
+     "role": "frame_4",
+     "src": [
+      200,
+      1626,
+      23,
+      35
+     ]
+    }
+   ],
+   "box": [
+    73,
+    1626,
+    150,
+    35
+   ]
+  },
+  {
+   "id": 43,
+   "name": "hyrule_town_residents_2_e043",
+   "file": "hyrule_town_residents_2_e043.png",
+   "cell": [
+    46,
+    44
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 371,
+     "role": "frame_0",
+     "src": [
+      19,
+      1671,
+      46,
+      44
+     ]
+    },
+    {
+     "item": 372,
+     "role": "frame_1",
+     "src": [
+      71,
+      1672,
+      46,
+      43
+     ]
+    },
+    {
+     "item": 373,
+     "role": "frame_2",
+     "src": [
+      123,
+      1673,
+      46,
+      42
+     ]
+    },
+    {
+     "item": 374,
+     "role": "frame_3",
+     "src": [
+      175,
+      1673,
+      46,
+      42
+     ]
+    },
+    {
+     "item": 375,
+     "role": "frame_4",
+     "src": [
+      231,
+      1673,
+      46,
+      42
+     ]
+    }
+   ],
+   "box": [
+    19,
+    1671,
+    258,
+    44
+   ]
+  },
+  {
+   "id": 44,
+   "name": "hyrule_town_residents_2_e044",
+   "file": "hyrule_town_residents_2_e044.png",
+   "cell": [
+    46,
+    46
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 376,
+     "role": "frame_0",
+     "src": [
+      19,
+      1720,
+      46,
+      46
+     ]
+    },
+    {
+     "item": 377,
+     "role": "frame_1",
+     "src": [
+      70,
+      1721,
+      46,
+      45
+     ]
+    },
+    {
+     "item": 378,
+     "role": "frame_2",
+     "src": [
+      122,
+      1720,
+      46,
+      46
+     ]
+    },
+    {
+     "item": 379,
+     "role": "frame_3",
+     "src": [
+      174,
+      1721,
+      46,
+      45
+     ]
+    },
+    {
+     "item": 380,
+     "role": "frame_4",
+     "src": [
+      230,
+      1722,
+      46,
+      44
+     ]
+    }
+   ],
+   "box": [
+    19,
+    1720,
+    257,
+    46
+   ]
+  },
+  {
+   "id": 45,
+   "name": "desk_lantern",
+   "file": "desk_lantern.png",
+   "cell": [
+    12,
+    13
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 381,
+     "role": "frame_0",
+     "src": [
+      121,
+      1769,
+      12,
+      13
+     ]
+    },
+    {
+     "item": 382,
+     "role": "frame_1",
+     "src": [
+      135,
+      1769,
+      12,
+      13
+     ]
+    },
+    {
+     "item": 383,
+     "role": "frame_2",
+     "src": [
+      149,
+      1769,
+      12,
+      13
+     ]
+    },
+    {
+     "item": 384,
+     "role": "frame_3",
+     "src": [
+      163,
+      1769,
+      12,
+      13
+     ]
+    }
+   ],
+   "box": [
+    121,
+    1769,
+    54,
+    13
+   ]
+  },
+  {
+   "id": 46,
+   "name": "hyrule_town_residents_2_e046",
+   "file": "hyrule_town_residents_2_e046.png",
+   "cell": [
+    27,
+    33
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 385,
+     "role": "frame_0",
+     "src": [
+      55,
+      1793,
+      24,
+      30
+     ]
+    },
+    {
+     "item": 386,
+     "role": "frame_1",
+     "src": [
+      82,
+      1791,
+      24,
+      32
+     ]
+    },
+    {
+     "item": 387,
+     "role": "frame_2",
+     "src": [
+      108,
+      1791,
+      23,
+      32
+     ]
+    },
+    {
+     "item": 388,
+     "role": "frame_3",
+     "src": [
+      133,
+      1790,
+      24,
+      33
+     ]
+    },
+    {
+     "item": 389,
+     "role": "frame_4",
+     "src": [
+      163,
+      1791,
+      23,
+      32
+     ]
+    },
+    {
+     "item": 390,
+     "role": "frame_5",
+     "src": [
+      190,
+      1791,
+      22,
+      32
+     ]
+    },
+    {
+     "item": 391,
+     "role": "frame_6",
+     "src": [
+      218,
+      1791,
+      22,
+      32
+     ]
+    }
+   ],
+   "box": [
+    55,
+    1790,
+    185,
+    33
+   ]
+  },
+  {
+   "id": 47,
+   "name": "hyrule_town_residents_2_e047",
+   "file": "hyrule_town_residents_2_e047.png",
+   "cell": [
+    22,
+    35
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 404,
+     "role": "frame_0",
+     "src": [
+      64,
+      1917,
+      21,
+      32
+     ]
+    },
+    {
+     "item": 405,
+     "role": "frame_1",
+     "src": [
+      94,
+      1914,
+      19,
+      35
+     ]
+    },
+    {
+     "item": 406,
+     "role": "frame_2",
+     "src": [
+      123,
+      1915,
+      20,
+      34
+     ]
+    },
+    {
+     "item": 407,
+     "role": "frame_3",
+     "src": [
+      152,
+      1916,
+      21,
+      33
+     ]
+    },
+    {
+     "item": 408,
+     "role": "frame_4",
+     "src": [
+      181,
+      1917,
+      21,
+      32
+     ]
+    },
+    {
+     "item": 409,
+     "role": "frame_5",
+     "src": [
+      210,
+      1914,
+      21,
+      35
+     ]
+    }
+   ],
+   "box": [
+    64,
+    1914,
+    167,
+    35
+   ]
+  },
+  {
+   "id": 48,
+   "name": "hyrule_town_residents_2_e048",
+   "file": "hyrule_town_residents_2_e048.png",
+   "cell": [
+    29,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 437,
+     "role": "frame_0",
+     "src": [
+      48,
+      2127,
+      19,
+      26
+     ]
+    },
+    {
+     "item": 438,
+     "role": "frame_1",
+     "src": [
+      73,
+      2127,
+      19,
+      26
+     ]
+    },
+    {
+     "item": 439,
+     "role": "frame_2",
+     "src": [
+      99,
+      2127,
+      19,
+      26
+     ],
+     "mirror_of": 1
+    },
+    {
+     "item": 440,
+     "role": "frame_3",
+     "src": [
+      125,
+      2127,
+      27,
+      26
+     ]
+    },
+    {
+     "item": 441,
+     "role": "frame_4",
+     "src": [
+      156,
+      2127,
+      29,
+      26
+     ]
+    },
+    {
+     "item": 442,
+     "role": "frame_5",
+     "src": [
+      190,
+      2127,
+      27,
+      26
+     ]
+    },
+    {
+     "item": 443,
+     "role": "frame_6",
+     "src": [
+      225,
+      2127,
+      23,
+      26
+     ]
+    }
+   ],
+   "box": [
+    48,
+    2127,
+    200,
+    26
+   ]
+  },
+  {
+   "id": 49,
+   "name": "hyrule_town_residents_2_e049",
+   "file": "hyrule_town_residents_2_e049.png",
+   "cell": [
+    23,
+    30
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 359,
+     "role": "frame_0",
+     "src": [
+      42,
+      1583,
+      23,
+      29
+     ]
+    },
+    {
+     "item": 360,
+     "role": "frame_1",
+     "src": [
+      75,
+      1583,
+      19,
+      29
+     ]
+    },
+    {
+     "item": 361,
+     "role": "frame_2",
+     "src": [
+      106,
+      1582,
+      21,
+      30
+     ]
+    },
+    {
+     "item": 362,
+     "role": "frame_3",
+     "src": [
+      137,
+      1582,
+      21,
+      30
+     ]
+    },
+    {
+     "item": 363,
+     "role": "frame_4",
+     "src": [
+      169,
+      1582,
+      21,
+      30
+     ]
+    },
+    {
+     "item": 364,
+     "role": "frame_5",
+     "src": [
+      199,
+      1582,
+      21,
+      30
+     ]
+    },
+    {
+     "item": 365,
+     "role": "frame_6",
+     "src": [
+      232,
+      1582,
+      21,
+      30
+     ],
+     "duplicate_of": 4
+    }
+   ],
+   "box": [
+    42,
+    1582,
+    211,
+    30
+   ]
+  },
+  {
+   "id": 50,
+   "name": "hyrule_town_residents_2_e050",
+   "file": "hyrule_town_residents_2_e050.png",
+   "cell": [
+    16,
+    28
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      11,
+      1,
+      16,
+      27
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      32,
+      0,
+      16,
+      28
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      55,
+      1,
+      16,
+      27
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      79,
+      2,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_4",
+     "src": [
+      101,
+      1,
+      16,
+      27
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_5",
+     "src": [
+      125,
+      2,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_6",
+     "src": [
+      152,
+      2,
+      16,
+      26
+     ],
+     "mirror_of": 5
+    },
+    {
+     "item": 7,
+     "role": "frame_7",
+     "src": [
+      176,
+      1,
+      16,
+      27
+     ],
+     "mirror_of": 4
+    },
+    {
+     "item": 8,
+     "role": "frame_8",
+     "src": [
+      198,
+      2,
+      16,
+      26
+     ],
+     "mirror_of": 3
+    },
+    {
+     "item": 9,
+     "role": "frame_9",
+     "src": [
+      222,
+      1,
+      16,
+      27
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_10",
+     "src": [
+      244,
+      0,
+      16,
+      28
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_11",
+     "src": [
+      268,
+      1,
+      16,
+      27
+     ],
+     "mirror_of": 9
+    }
+   ],
+   "box": [
+    11,
+    0,
+    273,
+    28
+   ]
+  },
+  {
+   "id": 51,
+   "name": "hyrule_town_residents_2_e051",
+   "file": "hyrule_town_residents_2_e051.png",
+   "cell": [
+    26,
+    31
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 312,
+     "role": "frame_0",
+     "src": [
+      27,
+      1338,
+      26,
+      31
+     ]
+    },
+    {
+     "item": 313,
+     "role": "frame_1",
+     "src": [
+      56,
+      1338,
+      26,
+      31
+     ]
+    },
+    {
+     "item": 314,
+     "role": "frame_2",
+     "src": [
+      87,
+      1338,
+      25,
+      31
+     ]
+    },
+    {
+     "item": 315,
+     "role": "frame_3",
+     "src": [
+      118,
+      1338,
+      24,
+      31
+     ]
+    },
+    {
+     "item": 316,
+     "role": "frame_4",
+     "src": [
+      153,
+      1338,
+      24,
+      31
+     ],
+     "mirror_of": 3
+    },
+    {
+     "item": 317,
+     "role": "frame_5",
+     "src": [
+      183,
+      1338,
+      25,
+      31
+     ]
+    },
+    {
+     "item": 318,
+     "role": "frame_6",
+     "src": [
+      213,
+      1338,
+      26,
+      31
+     ],
+     "mirror_of": 1
+    },
+    {
+     "item": 319,
+     "role": "frame_7",
+     "src": [
+      242,
+      1338,
+      26,
+      31
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    27,
+    1338,
+    241,
+    31
+   ]
+  },
+  {
+   "id": 52,
+   "name": "hyrule_town_residents_2_e052",
+   "file": "hyrule_town_residents_2_e052.png",
+   "cell": [
+    25,
+    34
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 392,
+     "role": "frame_0",
+     "src": [
+      59,
+      1831,
+      21,
+      31
+     ]
+    },
+    {
+     "item": 393,
+     "role": "frame_1",
+     "src": [
+      88,
+      1830,
+      25,
+      32
+     ]
+    },
+    {
+     "item": 394,
+     "role": "frame_2",
+     "src": [
+      120,
+      1830,
+      24,
+      32
+     ]
+    },
+    {
+     "item": 395,
+     "role": "frame_3",
+     "src": [
+      153,
+      1831,
+      21,
+      31
+     ]
+    },
+    {
+     "item": 396,
+     "role": "frame_4",
+     "src": [
+      185,
+      1830,
+      19,
+      32
+     ]
+    },
+    {
+     "item": 397,
+     "role": "frame_5",
+     "src": [
+      214,
+      1828,
+      23,
+      34
+     ]
+    }
+   ],
+   "box": [
+    59,
+    1828,
+    178,
+    34
+   ]
+  },
+  {
+   "id": 53,
+   "name": "hyrule_town_residents_2_e053",
+   "file": "hyrule_town_residents_2_e053.png",
+   "cell": [
+    25,
+    34
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 398,
+     "role": "frame_0",
+     "src": [
+      59,
+      1870,
+      23,
+      34
+     ]
+    },
+    {
+     "item": 399,
+     "role": "frame_1",
+     "src": [
+      92,
+      1872,
+      19,
+      32
+     ]
+    },
+    {
+     "item": 400,
+     "role": "frame_2",
+     "src": [
+      122,
+      1873,
+      21,
+      31
+     ]
+    },
+    {
+     "item": 401,
+     "role": "frame_3",
+     "src": [
+      152,
+      1872,
+      24,
+      32
+     ]
+    },
+    {
+     "item": 402,
+     "role": "frame_4",
+     "src": [
+      183,
+      1872,
+      25,
+      32
+     ]
+    },
+    {
+     "item": 403,
+     "role": "frame_5",
+     "src": [
+      216,
+      1873,
+      21,
+      31
+     ]
+    }
+   ],
+   "box": [
+    59,
+    1870,
+    178,
+    34
+   ]
+  },
+  {
+   "id": 54,
+   "name": "hyrule_town_residents_2_e054",
+   "file": "hyrule_town_residents_2_e054.png",
+   "cell": [
+    42,
+    41
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 224,
+     "role": "frame_0",
+     "src": [
+      25,
+      749,
+      42,
+      40
+     ]
+    },
+    {
+     "item": 225,
+     "role": "frame_1",
+     "src": [
+      74,
+      748,
+      42,
+      41
+     ]
+    },
+    {
+     "item": 226,
+     "role": "frame_2",
+     "src": [
+      126,
+      749,
+      42,
+      40
+     ]
+    },
+    {
+     "item": 227,
+     "role": "frame_3",
+     "src": [
+      177,
+      749,
+      42,
+      40
+     ]
+    },
+    {
+     "item": 228,
+     "role": "frame_4",
+     "src": [
+      227,
+      749,
+      42,
+      40
+     ]
+    },
+    {
+     "item": 229,
+     "role": "frame_5",
+     "src": [
+      76,
+      795,
+      42,
+      40
+     ]
+    },
+    {
+     "item": 230,
+     "role": "frame_6",
+     "src": [
+      127,
+      795,
+      41,
+      40
+     ]
+    },
+    {
+     "item": 231,
+     "role": "frame_7",
+     "src": [
+      178,
+      795,
+      41,
+      40
+     ]
+    }
+   ],
+   "box": [
+    25,
+    748,
+    244,
+    87
+   ]
+  },
+  {
+   "id": 55,
+   "name": "hyrule_town_residents_2_e055",
+   "file": "hyrule_town_residents_2_e055.png",
+   "cell": [
+    42,
+    41
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 232,
+     "role": "frame_0",
+     "src": [
+      25,
+      851,
+      42,
+      40
+     ]
+    },
+    {
+     "item": 233,
+     "role": "frame_1",
+     "src": [
+      75,
+      851,
+      42,
+      40
+     ]
+    },
+    {
+     "item": 234,
+     "role": "frame_2",
+     "src": [
+      126,
+      851,
+      42,
+      40
+     ]
+    },
+    {
+     "item": 235,
+     "role": "frame_3",
+     "src": [
+      178,
+      850,
+      42,
+      41
+     ]
+    },
+    {
+     "item": 236,
+     "role": "frame_4",
+     "src": [
+      227,
+      851,
+      42,
+      40
+     ]
+    },
+    {
+     "item": 237,
+     "role": "frame_5",
+     "src": [
+      75,
+      897,
+      41,
+      40
+     ]
+    },
+    {
+     "item": 238,
+     "role": "frame_6",
+     "src": [
+      126,
+      897,
+      41,
+      40
+     ]
+    },
+    {
+     "item": 239,
+     "role": "frame_7",
+     "src": [
+      176,
+      897,
+      42,
+      40
+     ]
+    }
+   ],
+   "box": [
+    25,
+    850,
+    244,
+    87
+   ]
+  },
+  {
+   "id": 56,
+   "name": "hyrule_town_residents_2_e056",
+   "file": "hyrule_town_residents_2_e056.png",
+   "cell": [
+    22,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 410,
+     "role": "frame_0",
+     "src": [
+      8,
+      1969,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 411,
+     "role": "frame_1",
+     "src": [
+      34,
+      1968,
+      18,
+      26
+     ]
+    },
+    {
+     "item": 412,
+     "role": "frame_2",
+     "src": [
+      60,
+      1968,
+      18,
+      26
+     ]
+    },
+    {
+     "item": 413,
+     "role": "frame_3",
+     "src": [
+      86,
+      1969,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 414,
+     "role": "frame_4",
+     "src": [
+      112,
+      1968,
+      18,
+      26
+     ],
+     "duplicate_of": 1
+    },
+    {
+     "item": 415,
+     "role": "frame_5",
+     "src": [
+      138,
+      1969,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 416,
+     "role": "frame_6",
+     "src": [
+      163,
+      1968,
+      18,
+      26
+     ]
+    },
+    {
+     "item": 417,
+     "role": "frame_7",
+     "src": [
+      189,
+      1968,
+      19,
+      26
+     ]
+    },
+    {
+     "item": 418,
+     "role": "frame_8",
+     "src": [
+      214,
+      1968,
+      21,
+      26
+     ]
+    },
+    {
+     "item": 419,
+     "role": "frame_9",
+     "src": [
+      240,
+      1968,
+      21,
+      26
+     ]
+    },
+    {
+     "item": 420,
+     "role": "frame_10",
+     "src": [
+      265,
+      1968,
+      22,
+      26
+     ]
+    },
+    {
+     "item": 421,
+     "role": "frame_11",
+     "src": [
+      125,
+      2003,
+      21,
+      26
+     ]
+    },
+    {
+     "item": 422,
+     "role": "frame_12",
+     "src": [
+      151,
+      2003,
+      19,
+      26
+     ]
+    }
+   ],
+   "box": [
+    8,
+    1968,
+    279,
+    61
+   ]
+  },
+  {
+   "id": 57,
+   "name": "hyrule_town_residents_2_e057",
+   "file": "hyrule_town_residents_2_e057.png",
+   "cell": [
+    22,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 423,
+     "role": "frame_0",
+     "src": [
+      8,
+      2041,
+      18,
+      26
+     ]
+    },
+    {
+     "item": 424,
+     "role": "frame_1",
+     "src": [
+      35,
+      2041,
+      17,
+      26
+     ]
+    },
+    {
+     "item": 425,
+     "role": "frame_2",
+     "src": [
+      61,
+      2041,
+      17,
+      26
+     ]
+    },
+    {
+     "item": 426,
+     "role": "frame_3",
+     "src": [
+      85,
+      2041,
+      22,
+      26
+     ]
+    },
+    {
+     "item": 427,
+     "role": "frame_4",
+     "src": [
+      111,
+      2041,
+      22,
+      26
+     ]
+    },
+    {
+     "item": 428,
+     "role": "frame_5",
+     "src": [
+      138,
+      2041,
+      20,
+      26
+     ]
+    },
+    {
+     "item": 429,
+     "role": "frame_6",
+     "src": [
+      164,
+      2041,
+      21,
+      26
+     ]
+    },
+    {
+     "item": 430,
+     "role": "frame_7",
+     "src": [
+      190,
+      2041,
+      20,
+      26
+     ]
+    },
+    {
+     "item": 431,
+     "role": "frame_8",
+     "src": [
+      217,
+      2041,
+      19,
+      26
+     ]
+    },
+    {
+     "item": 432,
+     "role": "frame_9",
+     "src": [
+      244,
+      2041,
+      18,
+      26
+     ]
+    },
+    {
+     "item": 433,
+     "role": "frame_10",
+     "src": [
+      270,
+      2041,
+      18,
+      26
+     ]
+    },
+    {
+     "item": 434,
+     "role": "frame_11",
+     "src": [
+      113,
+      2079,
+      18,
+      26
+     ]
+    },
+    {
+     "item": 435,
+     "role": "frame_12",
+     "src": [
+      138,
+      2079,
+      18,
+      26
+     ]
+    },
+    {
+     "item": 436,
+     "role": "frame_13",
+     "src": [
+      165,
+      2079,
+      18,
+      26
+     ]
+    }
+   ],
+   "box": [
+    8,
+    2041,
+    280,
+    64
+   ]
+  }
+ ],
+ "items": [],
+ "status": "ok",
+ "missing_stages": []
+}

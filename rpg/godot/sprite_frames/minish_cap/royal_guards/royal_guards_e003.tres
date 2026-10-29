@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/royal_guards/royal_guards_e003.png" id="1_nrydf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_coj41"]
+atlas = ExtResource("1_nrydf")
+region = Rect2(0, 0, 21, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m5c45"]
+atlas = ExtResource("1_nrydf")
+region = Rect2(21, 0, 21, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8loxn"]
+atlas = ExtResource("1_nrydf")
+region = Rect2(42, 0, 21, 36)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_coj41")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m5c45")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8loxn")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/emerald/characters/wally/wally_battle_intro.png" id="1_s5vec"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q1kwv"]
+atlas = ExtResource("1_s5vec")
+region = Rect2(0, 0, 58, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yx7yi"]
+atlas = ExtResource("1_s5vec")
+region = Rect2(58, 0, 58, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_stdby"]
+atlas = ExtResource("1_s5vec")
+region = Rect2(116, 0, 58, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bpbn5"]
+atlas = ExtResource("1_s5vec")
+region = Rect2(174, 0, 58, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qicq6"]
+atlas = ExtResource("1_s5vec")
+region = Rect2(232, 0, 58, 50)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q1kwv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yx7yi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_stdby")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bpbn5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qicq6")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/gyorg_pair/gyorg_larva.png" id="1_eeeni"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7bolm"]
+atlas = ExtResource("1_eeeni")
+region = Rect2(0, 0, 22, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eenmx"]
+atlas = ExtResource("1_eeeni")
+region = Rect2(22, 0, 22, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bpehf"]
+atlas = ExtResource("1_eeeni")
+region = Rect2(44, 0, 22, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2sflg"]
+atlas = ExtResource("1_eeeni")
+region = Rect2(66, 0, 22, 24)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7bolm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eenmx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bpehf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2sflg")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

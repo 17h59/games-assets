@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/ui/meteor/meteor_shockwave.png" id="1_kv8wj"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_anpgq"]
+atlas = ExtResource("1_kv8wj")
+region = Rect2(0, 0, 188, 165)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5db70"]
+atlas = ExtResource("1_kv8wj")
+region = Rect2(188, 0, 188, 165)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lgh6s"]
+atlas = ExtResource("1_kv8wj")
+region = Rect2(376, 0, 188, 165)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yt1s3"]
+atlas = ExtResource("1_kv8wj")
+region = Rect2(564, 0, 188, 165)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v1gwx"]
+atlas = ExtResource("1_kv8wj")
+region = Rect2(752, 0, 188, 165)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ea02s"]
+atlas = ExtResource("1_kv8wj")
+region = Rect2(940, 0, 188, 165)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_anpgq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5db70")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lgh6s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yt1s3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v1gwx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ea02s")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

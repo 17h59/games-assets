@@ -1,0 +1,951 @@
+{
+ "sheet": "5342",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Cyndaquil Hut",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "hut_flag",
+   "file": "hut_flag.png",
+   "cell": [
+    29,
+    23
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 2,
+     "role": "frame_0",
+     "src": [
+      0,
+      1,
+      28,
+      22
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_1",
+     "src": [
+      28,
+      1,
+      28,
+      22
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_2",
+     "src": [
+      56,
+      1,
+      28,
+      22
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_3",
+     "src": [
+      84,
+      1,
+      28,
+      22
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_4",
+     "src": [
+      1,
+      29,
+      29,
+      22
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_5",
+     "src": [
+      33,
+      30,
+      28,
+      22
+     ]
+    }
+   ],
+   "box": [
+    0,
+    1,
+    112,
+    51
+   ]
+  },
+  {
+   "id": 1,
+   "name": "cyndaquil_hut_e001",
+   "file": "cyndaquil_hut_e001.png",
+   "cell": [
+    5,
+    10
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 8,
+     "role": "frame_0",
+     "src": [
+      2,
+      60,
+      4,
+      10
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_1",
+     "src": [
+      8,
+      60,
+      4,
+      10
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_2",
+     "src": [
+      14,
+      61,
+      5,
+      9
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_3",
+     "src": [
+      21,
+      60,
+      4,
+      10
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_4",
+     "src": [
+      27,
+      61,
+      5,
+      9
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_5",
+     "src": [
+      34,
+      61,
+      4,
+      9
+     ]
+    }
+   ],
+   "box": [
+    2,
+    60,
+    36,
+    10
+   ]
+  },
+  {
+   "id": 2,
+   "name": "cyndaquil_hut_e002",
+   "file": "cyndaquil_hut_e002.png",
+   "cell": [
+    8,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 14,
+     "role": "frame_0",
+     "src": [
+      46,
+      55,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_1",
+     "src": [
+      56,
+      54,
+      8,
+      14
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_2",
+     "src": [
+      66,
+      55,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_3",
+     "src": [
+      76,
+      55,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_4",
+     "src": [
+      86,
+      55,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_5",
+     "src": [
+      96,
+      55,
+      8,
+      13
+     ]
+    }
+   ],
+   "box": [
+    46,
+    54,
+    58,
+    14
+   ]
+  },
+  {
+   "id": 3,
+   "name": "cyndaquil_hut_e003",
+   "file": "cyndaquil_hut_e003.png",
+   "cell": [
+    9,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 20,
+     "role": "frame_0",
+     "src": [
+      2,
+      316,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_1",
+     "src": [
+      13,
+      316,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_2",
+     "src": [
+      23,
+      316,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_3",
+     "src": [
+      34,
+      315,
+      8,
+      14
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_4",
+     "src": [
+      45,
+      316,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_5",
+     "src": [
+      56,
+      316,
+      8,
+      13
+     ]
+    }
+   ],
+   "box": [
+    2,
+    315,
+    62,
+    14
+   ]
+  },
+  {
+   "id": 4,
+   "name": "cyndaquil_hut_e004",
+   "file": "cyndaquil_hut_e004.png",
+   "cell": [
+    10,
+    12
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 33,
+     "role": "frame_0",
+     "src": [
+      283,
+      318,
+      8,
+      12
+     ]
+    },
+    {
+     "item": 34,
+     "role": "frame_1",
+     "src": [
+      295,
+      318,
+      8,
+      12
+     ]
+    },
+    {
+     "item": 36,
+     "role": "frame_2",
+     "src": [
+      307,
+      318,
+      8,
+      12
+     ]
+    },
+    {
+     "item": 38,
+     "role": "frame_3",
+     "src": [
+      320,
+      318,
+      8,
+      12
+     ]
+    },
+    {
+     "item": 40,
+     "role": "frame_4",
+     "src": [
+      333,
+      318,
+      8,
+      12
+     ]
+    },
+    {
+     "item": 42,
+     "role": "frame_5",
+     "src": [
+      345,
+      318,
+      8,
+      12
+     ]
+    }
+   ],
+   "box": [
+    283,
+    318,
+    70,
+    12
+   ]
+  },
+  {
+   "id": 5,
+   "name": "hut_torch",
+   "file": "hut_torch.png",
+   "cell": [
+    6,
+    11
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 45,
+     "role": "frame_0",
+     "src": [
+      306,
+      336,
+      6,
+      11
+     ]
+    },
+    {
+     "item": 48,
+     "role": "frame_1",
+     "src": [
+      315,
+      336,
+      6,
+      11
+     ]
+    },
+    {
+     "item": 51,
+     "role": "frame_2",
+     "src": [
+      324,
+      336,
+      6,
+      11
+     ]
+    },
+    {
+     "item": 54,
+     "role": "frame_3",
+     "src": [
+      333,
+      336,
+      6,
+      11
+     ]
+    },
+    {
+     "item": 57,
+     "role": "frame_4",
+     "src": [
+      342,
+      336,
+      6,
+      11
+     ]
+    },
+    {
+     "item": 60,
+     "role": "frame_5",
+     "src": [
+      351,
+      336,
+      6,
+      11
+     ]
+    }
+   ],
+   "box": [
+    306,
+    336,
+    51,
+    11
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 360,
+   "h": 312,
+   "area": 104822,
+   "ncolors": 164,
+   "dominant": "#70C850",
+   "dom_frac": 0.169,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "cyndaquil_hut_000.png"
+  },
+  {
+   "x": 290,
+   "y": 317,
+   "w": 1,
+   "h": 1,
+   "area": 1,
+   "ncolors": 118,
+   "dominant": "#904020",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 1,
+   "file": "cyndaquil_hut_001.png"
+  },
+  {
+   "x": 2,
+   "y": 316,
+   "w": 8,
+   "h": 13,
+   "area": 79,
+   "ncolors": 118,
+   "dominant": "#904020",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 21,
+   "file": "cyndaquil_hut_021.png"
+  },
+  {
+   "x": 13,
+   "y": 316,
+   "w": 8,
+   "h": 13,
+   "area": 78,
+   "ncolors": 118,
+   "dominant": "#904020",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 23,
+   "file": "cyndaquil_hut_023.png"
+  },
+  {
+   "x": 23,
+   "y": 316,
+   "w": 8,
+   "h": 13,
+   "area": 77,
+   "ncolors": 118,
+   "dominant": "#904020",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 25,
+   "file": "cyndaquil_hut_025.png"
+  },
+  {
+   "x": 34,
+   "y": 315,
+   "w": 8,
+   "h": 14,
+   "area": 78,
+   "ncolors": 118,
+   "dominant": "#904020",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 27,
+   "file": "cyndaquil_hut_027.png"
+  },
+  {
+   "x": 45,
+   "y": 316,
+   "w": 8,
+   "h": 13,
+   "area": 78,
+   "ncolors": 118,
+   "dominant": "#904020",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 29,
+   "file": "cyndaquil_hut_029.png"
+  },
+  {
+   "x": 56,
+   "y": 316,
+   "w": 8,
+   "h": 13,
+   "area": 77,
+   "ncolors": 118,
+   "dominant": "#904020",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 31,
+   "file": "cyndaquil_hut_031.png"
+  },
+  {
+   "x": 283,
+   "y": 317,
+   "w": 8,
+   "h": 13,
+   "area": 73,
+   "ncolors": 5,
+   "dominant": "#97200B",
+   "dom_frac": 0.493,
+   "kind": "sprite",
+   "zone": null,
+   "id": 32,
+   "file": "cyndaquil_hut_032.png"
+  },
+  {
+   "x": 295,
+   "y": 318,
+   "w": 8,
+   "h": 12,
+   "area": 72,
+   "ncolors": 118,
+   "dominant": "#904020",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 35,
+   "file": "cyndaquil_hut_035.png"
+  },
+  {
+   "x": 307,
+   "y": 318,
+   "w": 8,
+   "h": 12,
+   "area": 74,
+   "ncolors": 118,
+   "dominant": "#904020",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 37,
+   "file": "cyndaquil_hut_037.png"
+  },
+  {
+   "x": 320,
+   "y": 318,
+   "w": 8,
+   "h": 12,
+   "area": 74,
+   "ncolors": 118,
+   "dominant": "#904020",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 39,
+   "file": "cyndaquil_hut_039.png"
+  },
+  {
+   "x": 333,
+   "y": 318,
+   "w": 8,
+   "h": 12,
+   "area": 73,
+   "ncolors": 118,
+   "dominant": "#904020",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 41,
+   "file": "cyndaquil_hut_041.png"
+  },
+  {
+   "x": 345,
+   "y": 318,
+   "w": 8,
+   "h": 12,
+   "area": 72,
+   "ncolors": 118,
+   "dominant": "#904020",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 43,
+   "file": "cyndaquil_hut_043.png"
+  },
+  {
+   "x": 7,
+   "y": 315,
+   "w": 346,
+   "h": 278,
+   "area": 73910,
+   "ncolors": 118,
+   "dominant": "#904020",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 44,
+   "file": "cyndaquil_hut_044.png"
+  },
+  {
+   "x": 306,
+   "y": 336,
+   "w": 6,
+   "h": 14,
+   "area": 41,
+   "ncolors": 0,
+   "dominant": "",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 46,
+   "file": "cyndaquil_hut_046.png"
+  },
+  {
+   "x": 309,
+   "y": 348,
+   "w": 2,
+   "h": 2,
+   "area": 3,
+   "ncolors": 118,
+   "dominant": "#904020",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 47,
+   "file": "cyndaquil_hut_047.png"
+  },
+  {
+   "x": 315,
+   "y": 336,
+   "w": 6,
+   "h": 14,
+   "area": 40,
+   "ncolors": 0,
+   "dominant": "",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 49,
+   "file": "cyndaquil_hut_049.png"
+  },
+  {
+   "x": 318,
+   "y": 348,
+   "w": 2,
+   "h": 2,
+   "area": 3,
+   "ncolors": 118,
+   "dominant": "#904020",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 50,
+   "file": "cyndaquil_hut_050.png",
+   "duplicate_of": 16
+  },
+  {
+   "x": 324,
+   "y": 336,
+   "w": 6,
+   "h": 14,
+   "area": 45,
+   "ncolors": 0,
+   "dominant": "",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 52,
+   "file": "cyndaquil_hut_052.png"
+  },
+  {
+   "x": 327,
+   "y": 348,
+   "w": 2,
+   "h": 2,
+   "area": 3,
+   "ncolors": 118,
+   "dominant": "#904020",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 53,
+   "file": "cyndaquil_hut_053.png",
+   "duplicate_of": 16
+  },
+  {
+   "x": 333,
+   "y": 336,
+   "w": 6,
+   "h": 14,
+   "area": 41,
+   "ncolors": 0,
+   "dominant": "",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 55,
+   "file": "cyndaquil_hut_055.png"
+  },
+  {
+   "x": 336,
+   "y": 348,
+   "w": 2,
+   "h": 2,
+   "area": 3,
+   "ncolors": 118,
+   "dominant": "#904020",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 56,
+   "file": "cyndaquil_hut_056.png",
+   "duplicate_of": 16
+  },
+  {
+   "x": 342,
+   "y": 336,
+   "w": 6,
+   "h": 14,
+   "area": 43,
+   "ncolors": 0,
+   "dominant": "",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 58,
+   "file": "cyndaquil_hut_058.png"
+  },
+  {
+   "x": 345,
+   "y": 348,
+   "w": 2,
+   "h": 2,
+   "area": 3,
+   "ncolors": 118,
+   "dominant": "#904020",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 59,
+   "file": "cyndaquil_hut_059.png",
+   "duplicate_of": 16
+  },
+  {
+   "x": 351,
+   "y": 336,
+   "w": 6,
+   "h": 14,
+   "area": 45,
+   "ncolors": 0,
+   "dominant": "",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 61,
+   "file": "cyndaquil_hut_061.png"
+  },
+  {
+   "x": 165,
+   "y": 390,
+   "w": 11,
+   "h": 16,
+   "area": 90,
+   "ncolors": 118,
+   "dominant": "#904020",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 62,
+   "file": "cyndaquil_hut_062.png"
+  },
+  {
+   "x": 184,
+   "y": 390,
+   "w": 11,
+   "h": 16,
+   "area": 90,
+   "ncolors": 118,
+   "dominant": "#904020",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 63,
+   "file": "cyndaquil_hut_063.png",
+   "mirror_of": 26
+  },
+  {
+   "x": 168,
+   "y": 393,
+   "w": 8,
+   "h": 7,
+   "area": 24,
+   "ncolors": 118,
+   "dominant": "#904020",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 64,
+   "file": "cyndaquil_hut_064.png"
+  },
+  {
+   "x": 169,
+   "y": 395,
+   "w": 1,
+   "h": 1,
+   "area": 1,
+   "ncolors": 118,
+   "dominant": "#904020",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 65,
+   "file": "cyndaquil_hut_065.png"
+  },
+  {
+   "x": 184,
+   "y": 393,
+   "w": 8,
+   "h": 7,
+   "area": 24,
+   "ncolors": 118,
+   "dominant": "#904020",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 66,
+   "file": "cyndaquil_hut_066.png",
+   "mirror_of": 28
+  },
+  {
+   "x": 190,
+   "y": 395,
+   "w": 1,
+   "h": 1,
+   "area": 1,
+   "ncolors": 118,
+   "dominant": "#904020",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 67,
+   "file": "cyndaquil_hut_067.png",
+   "duplicate_of": 29
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

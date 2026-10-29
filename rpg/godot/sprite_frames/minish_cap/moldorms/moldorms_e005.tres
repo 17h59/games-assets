@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/moldorms/moldorms_e005.png" id="1_1bovu"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0k6pk"]
+atlas = ExtResource("1_1bovu")
+region = Rect2(0, 0, 12, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ctl0h"]
+atlas = ExtResource("1_1bovu")
+region = Rect2(12, 0, 12, 12)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0k6pk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ctl0h")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

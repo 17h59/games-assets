@@ -1,0 +1,1141 @@
+{
+ "sheet": "8324",
+ "game": "emerald",
+ "category": "characters",
+ "title": "Brendan",
+ "type": "characters",
+ "template": "pokemon_ow9",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "walk",
+   "file": "walk.png",
+   "cell": [
+    14,
+    21
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 0,
+     "role": "idle_down",
+     "src": [
+      0,
+      0,
+      14,
+      21
+     ]
+    },
+    {
+     "item": 15,
+     "role": "idle_up",
+     "src": [
+      0,
+      22,
+      14,
+      21
+     ]
+    },
+    {
+     "item": 25,
+     "role": "idle_left",
+     "src": [
+      0,
+      44,
+      14,
+      21
+     ]
+    },
+    {
+     "item": 1,
+     "role": "walk_down_1",
+     "src": [
+      15,
+      0,
+      14,
+      21
+     ]
+    },
+    {
+     "item": 2,
+     "role": "walk_down_2",
+     "src": [
+      30,
+      0,
+      14,
+      21
+     ]
+    },
+    {
+     "item": 16,
+     "role": "walk_up_1",
+     "src": [
+      15,
+      22,
+      14,
+      21
+     ]
+    },
+    {
+     "item": 17,
+     "role": "walk_up_2",
+     "src": [
+      31,
+      22,
+      14,
+      21
+     ]
+    },
+    {
+     "item": 26,
+     "role": "walk_left_1",
+     "src": [
+      15,
+      44,
+      14,
+      21
+     ]
+    },
+    {
+     "item": 27,
+     "role": "walk_left_2",
+     "src": [
+      30,
+      44,
+      14,
+      21
+     ]
+    }
+   ],
+   "box": [
+    0,
+    0,
+    45,
+    65
+   ]
+  },
+  {
+   "id": 1,
+   "name": "run",
+   "file": "run.png",
+   "cell": [
+    15,
+    21
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 36,
+     "role": "idle_down",
+     "src": [
+      0,
+      66,
+      14,
+      19
+     ]
+    },
+    {
+     "item": 37,
+     "role": "idle_up",
+     "src": [
+      15,
+      66,
+      14,
+      19
+     ]
+    },
+    {
+     "item": 38,
+     "role": "idle_left",
+     "src": [
+      30,
+      65,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 44,
+     "role": "walk_down_1",
+     "src": [
+      0,
+      86,
+      15,
+      19
+     ]
+    },
+    {
+     "item": 49,
+     "role": "walk_down_2",
+     "src": [
+      0,
+      106,
+      15,
+      19
+     ]
+    },
+    {
+     "item": 45,
+     "role": "walk_up_1",
+     "src": [
+      16,
+      86,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 53,
+     "role": "walk_up_2",
+     "src": [
+      16,
+      107,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 46,
+     "role": "walk_left_1",
+     "src": [
+      31,
+      86,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 54,
+     "role": "walk_left_2",
+     "src": [
+      31,
+      107,
+      14,
+      20
+     ]
+    }
+   ],
+   "box": [
+    0,
+    65,
+    45,
+    62
+   ]
+  },
+  {
+   "id": 2,
+   "name": "mach_bike",
+   "file": "mach_bike.png",
+   "cell": [
+    22,
+    23
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 3,
+     "role": "idle_down",
+     "src": [
+      53,
+      0,
+      14,
+      23
+     ]
+    },
+    {
+     "item": 4,
+     "role": "idle_up",
+     "src": [
+      68,
+      0,
+      14,
+      23
+     ]
+    },
+    {
+     "item": 5,
+     "role": "idle_left",
+     "src": [
+      84,
+      0,
+      22,
+      23
+     ]
+    },
+    {
+     "item": 18,
+     "role": "walk_down_1",
+     "src": [
+      53,
+      24,
+      15,
+      23
+     ]
+    },
+    {
+     "item": 33,
+     "role": "walk_down_2",
+     "src": [
+      53,
+      48,
+      15,
+      23
+     ]
+    },
+    {
+     "item": 19,
+     "role": "walk_up_1",
+     "src": [
+      69,
+      24,
+      14,
+      23
+     ]
+    },
+    {
+     "item": 34,
+     "role": "walk_up_2",
+     "src": [
+      69,
+      48,
+      14,
+      23
+     ]
+    },
+    {
+     "item": 20,
+     "role": "walk_left_1",
+     "src": [
+      84,
+      24,
+      22,
+      23
+     ]
+    },
+    {
+     "item": 35,
+     "role": "walk_left_2",
+     "src": [
+      85,
+      48,
+      22,
+      23
+     ]
+    }
+   ],
+   "box": [
+    53,
+    0,
+    54,
+    71
+   ]
+  },
+  {
+   "id": 3,
+   "name": "acro_bike",
+   "file": "acro_bike.png",
+   "cell": [
+    21,
+    28
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 41,
+     "role": "idle_down",
+     "src": [
+      54,
+      72,
+      14,
+      23
+     ]
+    },
+    {
+     "item": 42,
+     "role": "idle_up",
+     "src": [
+      69,
+      72,
+      14,
+      23
+     ]
+    },
+    {
+     "item": 43,
+     "role": "idle_left",
+     "src": [
+      85,
+      72,
+      21,
+      24
+     ]
+    },
+    {
+     "item": 50,
+     "role": "walk_down_1",
+     "src": [
+      54,
+      96,
+      14,
+      24
+     ]
+    },
+    {
+     "item": 57,
+     "role": "walk_down_2",
+     "src": [
+      52,
+      121,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 51,
+     "role": "walk_up_1",
+     "src": [
+      69,
+      96,
+      14,
+      23
+     ]
+    },
+    {
+     "item": 58,
+     "role": "walk_up_2",
+     "src": [
+      70,
+      120,
+      14,
+      22
+     ]
+    },
+    {
+     "item": 52,
+     "role": "walk_left_1",
+     "src": [
+      85,
+      97,
+      19,
+      26
+     ]
+    },
+    {
+     "item": 59,
+     "role": "walk_left_2",
+     "src": [
+      86,
+      124,
+      21,
+      24
+     ]
+    }
+   ],
+   "box": [
+    52,
+    72,
+    55,
+    76
+   ]
+  },
+  {
+   "id": 4,
+   "name": "acro_bike_wheelie",
+   "file": "acro_bike_wheelie.png",
+   "cell": [
+    20,
+    49
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 60,
+     "role": "idle_down",
+     "src": [
+      52,
+      143,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 61,
+     "role": "idle_up",
+     "src": [
+      69,
+      143,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 76,
+     "role": "idle_left",
+     "src": [
+      86,
+      149,
+      20,
+      25
+     ]
+    },
+    {
+     "item": 77,
+     "role": "walk_down_1",
+     "src": [
+      53,
+      164,
+      15,
+      24
+     ]
+    },
+    {
+     "item": 85,
+     "role": "walk_down_2",
+     "src": [
+      53,
+      189,
+      15,
+      24
+     ]
+    },
+    {
+     "item": 78,
+     "role": "walk_up_1",
+     "src": [
+      69,
+      164,
+      15,
+      23
+     ]
+    },
+    {
+     "item": 86,
+     "role": "walk_up_2",
+     "src": [
+      69,
+      188,
+      15,
+      23
+     ]
+    },
+    {
+     "item": 75,
+     "role": "walk_left_1",
+     "src": [
+      85,
+      175,
+      19,
+      26
+     ]
+    },
+    {
+     "item": 80,
+     "role": "walk_left_2",
+     "src": [
+      86,
+      202,
+      19,
+      26
+     ]
+    }
+   ],
+   "box": [
+    52,
+    143,
+    54,
+    85
+   ]
+  },
+  {
+   "id": 5,
+   "name": "surf",
+   "file": "surf.png",
+   "cell": [
+    20,
+    22
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 6,
+     "role": "idle_down",
+     "src": [
+      107,
+      1,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 7,
+     "role": "idle_up",
+     "src": [
+      122,
+      1,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 8,
+     "role": "idle_left",
+     "src": [
+      137,
+      0,
+      15,
+      21
+     ]
+    },
+    {
+     "item": 21,
+     "role": "walk_down_1",
+     "src": [
+      107,
+      22,
+      20,
+      20
+     ]
+    },
+    {
+     "item": 22,
+     "role": "walk_down_2",
+     "src": [
+      128,
+      22,
+      20,
+      20
+     ]
+    },
+    {
+     "item": 23,
+     "role": "walk_up_1",
+     "src": [
+      149,
+      20,
+      14,
+      22
+     ]
+    }
+   ],
+   "box": [
+    107,
+    0,
+    56,
+    42
+   ]
+  },
+  {
+   "id": 6,
+   "name": "dive",
+   "file": "dive.png",
+   "cell": [
+    20,
+    24
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 12,
+     "role": "idle_down",
+     "src": [
+      232,
+      3,
+      20,
+      21
+     ]
+    },
+    {
+     "item": 13,
+     "role": "idle_up",
+     "src": [
+      253,
+      2,
+      20,
+      22
+     ]
+    },
+    {
+     "item": 14,
+     "role": "idle_left",
+     "src": [
+      274,
+      0,
+      19,
+      24
+     ]
+    }
+   ],
+   "box": [
+    232,
+    0,
+    61,
+    24
+   ]
+  },
+  {
+   "id": 7,
+   "name": "shadows",
+   "file": "shadows.png",
+   "cell": [
+    26,
+    20
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 9,
+     "role": "idle_down",
+     "src": [
+      157,
+      1,
+      24,
+      19
+     ]
+    },
+    {
+     "item": 10,
+     "role": "idle_up",
+     "src": [
+      182,
+      0,
+      22,
+      20
+     ]
+    },
+    {
+     "item": 11,
+     "role": "idle_left",
+     "src": [
+      205,
+      1,
+      26,
+      19
+     ]
+    }
+   ],
+   "box": [
+    157,
+    0,
+    74,
+    20
+   ]
+  },
+  {
+   "id": 8,
+   "name": "throw_pokeball",
+   "file": "throw_pokeball.png",
+   "cell": [
+    20,
+    21
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 28,
+     "role": "idle_down",
+     "src": [
+      108,
+      43,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 29,
+     "role": "idle_up",
+     "src": [
+      123,
+      43,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 30,
+     "role": "idle_left",
+     "src": [
+      138,
+      43,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 31,
+     "role": "walk_down_1",
+     "src": [
+      153,
+      43,
+      19,
+      20
+     ]
+    },
+    {
+     "item": 32,
+     "role": "walk_down_2",
+     "src": [
+      173,
+      42,
+      20,
+      21
+     ]
+    }
+   ],
+   "box": [
+    108,
+    42,
+    85,
+    21
+   ]
+  },
+  {
+   "id": 9,
+   "name": "use_item",
+   "file": "use_item.png",
+   "cell": [
+    21,
+    22
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 39,
+     "role": "idle_down",
+     "src": [
+      113,
+      64,
+      14,
+      21
+     ]
+    },
+    {
+     "item": 40,
+     "role": "idle_up",
+     "src": [
+      130,
+      64,
+      14,
+      22
+     ]
+    },
+    {
+     "item": 47,
+     "role": "idle_left",
+     "src": [
+      113,
+      86,
+      15,
+      20
+     ]
+    },
+    {
+     "item": 48,
+     "role": "walk_down_1",
+     "src": [
+      129,
+      86,
+      15,
+      20
+     ]
+    },
+    {
+     "item": 55,
+     "role": "walk_down_2",
+     "src": [
+      107,
+      107,
+      21,
+      21
+     ]
+    },
+    {
+     "item": 56,
+     "role": "walk_up_1",
+     "src": [
+      131,
+      107,
+      21,
+      21
+     ]
+    }
+   ],
+   "box": [
+    107,
+    64,
+    45,
+    64
+   ]
+  },
+  {
+   "id": 10,
+   "name": "fish",
+   "file": "fish.png",
+   "cell": [
+    29,
+    37
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 62,
+     "role": "idle_down",
+     "src": [
+      108,
+      129,
+      15,
+      28
+     ]
+    },
+    {
+     "item": 63,
+     "role": "idle_up",
+     "src": [
+      124,
+      135,
+      17,
+      22
+     ]
+    },
+    {
+     "item": 72,
+     "role": "idle_left",
+     "src": [
+      142,
+      139,
+      16,
+      25
+     ]
+    },
+    {
+     "item": 73,
+     "role": "walk_down_1",
+     "src": [
+      159,
+      136,
+      14,
+      30
+     ]
+    },
+    {
+     "item": 64,
+     "role": "walk_down_2",
+     "src": [
+      174,
+      136,
+      15,
+      26
+     ]
+    },
+    {
+     "item": 65,
+     "role": "walk_up_1",
+     "src": [
+      190,
+      136,
+      17,
+      21
+     ]
+    },
+    {
+     "item": 66,
+     "role": "walk_up_2",
+     "src": [
+      208,
+      133,
+      16,
+      24
+     ]
+    },
+    {
+     "item": 67,
+     "role": "walk_left_1",
+     "src": [
+      226,
+      129,
+      14,
+      28
+     ]
+    },
+    {
+     "item": 68,
+     "role": "walk_left_2",
+     "src": [
+      241,
+      131,
+      22,
+      26
+     ]
+    },
+    {
+     "item": 69,
+     "role": "frame_9",
+     "src": [
+      264,
+      130,
+      14,
+      27
+     ]
+    },
+    {
+     "item": 70,
+     "role": "frame_10",
+     "src": [
+      279,
+      135,
+      26,
+      22
+     ]
+    },
+    {
+     "item": 71,
+     "role": "frame_11",
+     "src": [
+      306,
+      136,
+      29,
+      21
+     ]
+    }
+   ],
+   "box": [
+    108,
+    129,
+    227,
+    37
+   ]
+  },
+  {
+   "id": 11,
+   "name": "battle_intro",
+   "file": "battle_intro.png",
+   "cell": [
+    64,
+    52
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 81,
+     "role": "idle_down",
+     "src": [
+      111,
+      176,
+      48,
+      52
+     ]
+    },
+    {
+     "item": 82,
+     "role": "idle_up",
+     "src": [
+      161,
+      177,
+      64,
+      51
+     ]
+    },
+    {
+     "item": 83,
+     "role": "idle_left",
+     "src": [
+      226,
+      178,
+      38,
+      50
+     ]
+    },
+    {
+     "item": 84,
+     "role": "walk_down_1",
+     "src": [
+      273,
+      179,
+      64,
+      49
+     ]
+    }
+   ],
+   "box": [
+    111,
+    176,
+    226,
+    52
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 202,
+   "y": 27,
+   "w": 31,
+   "h": 28,
+   "area": 491,
+   "ncolors": 3,
+   "dominant": "#000000",
+   "dom_frac": 0.554,
+   "kind": "sprite",
+   "zone": null,
+   "name": "bird",
+   "id": 24,
+   "file": "bird.png"
+  },
+  {
+   "x": 7,
+   "y": 146,
+   "w": 36,
+   "h": 55,
+   "area": 859,
+   "ncolors": 14,
+   "dominant": "#000000",
+   "dom_frac": 0.183,
+   "kind": "sprite",
+   "zone": null,
+   "name": "battle_pose",
+   "id": 74,
+   "file": "battle_pose.png"
+  },
+  {
+   "x": 322,
+   "y": 170,
+   "w": 12,
+   "h": 12,
+   "area": 112,
+   "ncolors": 7,
+   "dominant": "#404040",
+   "dom_frac": 0.411,
+   "kind": "sprite",
+   "zone": null,
+   "name": "pokeball",
+   "id": 79,
+   "file": "pokeball.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

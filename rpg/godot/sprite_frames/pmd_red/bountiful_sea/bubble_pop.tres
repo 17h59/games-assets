@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/bountiful_sea/bubble_pop.png" id="1_nrnhs"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w6fte"]
+atlas = ExtResource("1_nrnhs")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2udet"]
+atlas = ExtResource("1_nrnhs")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xauft"]
+atlas = ExtResource("1_nrnhs")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a0gho"]
+atlas = ExtResource("1_nrnhs")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h3o8f"]
+atlas = ExtResource("1_nrnhs")
+region = Rect2(64, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e37pn"]
+atlas = ExtResource("1_nrnhs")
+region = Rect2(80, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_00h5g"]
+atlas = ExtResource("1_nrnhs")
+region = Rect2(96, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i3muy"]
+atlas = ExtResource("1_nrnhs")
+region = Rect2(112, 0, 16, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w6fte")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2udet")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xauft")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a0gho")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h3o8f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e37pn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_00h5g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i3muy")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

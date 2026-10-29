@@ -1,0 +1,15 @@
+[gd_scene format=3]
+
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/bag/bag_pouches.tres" id="1_mhgh5"]
+
+[node name="emerald_items" type="Node2D" unique_id=773552796]
+
+[node name="bag_pouches" type="AnimatedSprite2D" parent="." unique_id=630836995]
+position = Vector2(0, 10)
+sprite_frames = ExtResource("1_mhgh5")
+autoplay = "default"
+centered = false
+
+[node name="@Label@273" type="Label" parent="." unique_id=1845313299]
+theme_override_font_sizes/font_size = 6
+text = "bag_pouches"

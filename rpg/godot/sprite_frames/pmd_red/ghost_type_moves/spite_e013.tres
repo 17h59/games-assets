@@ -1,0 +1,74 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/ghost_type_moves/spite/spite_e013.png" id="1_clryx"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hsguc"]
+atlas = ExtResource("1_clryx")
+region = Rect2(0, 0, 56, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p4tpb"]
+atlas = ExtResource("1_clryx")
+region = Rect2(56, 0, 56, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7f5ks"]
+atlas = ExtResource("1_clryx")
+region = Rect2(112, 0, 56, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wva5v"]
+atlas = ExtResource("1_clryx")
+region = Rect2(168, 0, 56, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yijxj"]
+atlas = ExtResource("1_clryx")
+region = Rect2(224, 0, 56, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tqrvp"]
+atlas = ExtResource("1_clryx")
+region = Rect2(280, 0, 56, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r1rox"]
+atlas = ExtResource("1_clryx")
+region = Rect2(336, 0, 56, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mkfek"]
+atlas = ExtResource("1_clryx")
+region = Rect2(392, 0, 56, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lrgbw"]
+atlas = ExtResource("1_clryx")
+region = Rect2(448, 0, 56, 31)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hsguc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p4tpb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7f5ks")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wva5v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yijxj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tqrvp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r1rox")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mkfek")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lrgbw")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/emerald/characters/steven/steven_battle_intro.png" id="1_0030v"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kfssa"]
+atlas = ExtResource("1_0030v")
+region = Rect2(0, 0, 64, 59)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eqhir"]
+atlas = ExtResource("1_0030v")
+region = Rect2(64, 0, 64, 59)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3g1gj"]
+atlas = ExtResource("1_0030v")
+region = Rect2(128, 0, 64, 59)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ll8qs"]
+atlas = ExtResource("1_0030v")
+region = Rect2(192, 0, 64, 59)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kfssa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eqhir")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3g1gj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ll8qs")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

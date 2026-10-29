@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/emerald/effects/move_effects/move_effects_e009.png" id="1_xd1sx"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n7fkf"]
+atlas = ExtResource("1_xd1sx")
+region = Rect2(0, 0, 30, 30)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xy8dj"]
+atlas = ExtResource("1_xd1sx")
+region = Rect2(30, 0, 30, 30)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n7fkf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xy8dj")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/ghost_type_moves/astonish/astonish_e007.png" id="1_ee12h"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2h4sy"]
+atlas = ExtResource("1_ee12h")
+region = Rect2(0, 0, 11, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vkuay"]
+atlas = ExtResource("1_ee12h")
+region = Rect2(11, 0, 11, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tguti"]
+atlas = ExtResource("1_ee12h")
+region = Rect2(22, 0, 11, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qr6cr"]
+atlas = ExtResource("1_ee12h")
+region = Rect2(33, 0, 11, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_23csi"]
+atlas = ExtResource("1_ee12h")
+region = Rect2(44, 0, 11, 8)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2h4sy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vkuay")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tguti")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qr6cr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_23csi")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

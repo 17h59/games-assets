@@ -1,0 +1,274 @@
+{
+ "sheet": "5393",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Tadpole Pond",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "ripples",
+   "file": "ripples.png",
+   "cell": [
+    20,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 13,
+     "role": "frame_0",
+     "src": [
+      436,
+      342,
+      20,
+      16
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_1",
+     "src": [
+      441,
+      363,
+      10,
+      8
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_2",
+     "src": [
+      440,
+      379,
+      12,
+      10
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_3",
+     "src": [
+      438,
+      395,
+      16,
+      12
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_4",
+     "src": [
+      436,
+      410,
+      20,
+      16
+     ]
+    }
+   ],
+   "box": [
+    436,
+    342,
+    20,
+    84
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 504,
+   "h": 337,
+   "area": 143562,
+   "ncolors": 124,
+   "dominant": "#58F8D0",
+   "dom_frac": 0.157,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "tadpole_pond_000.png"
+  },
+  {
+   "x": 46,
+   "y": 26,
+   "w": 10,
+   "h": 6,
+   "area": 43,
+   "ncolors": 6,
+   "dominant": "#008028",
+   "dom_frac": 0.488,
+   "kind": "sprite",
+   "zone": null,
+   "id": 1,
+   "file": "tadpole_pond_001.png"
+  },
+  {
+   "x": 448,
+   "y": 26,
+   "w": 10,
+   "h": 6,
+   "area": 43,
+   "ncolors": 6,
+   "dominant": "#008028",
+   "dom_frac": 0.488,
+   "kind": "sprite",
+   "zone": null,
+   "id": 2,
+   "file": "tadpole_pond_002.png",
+   "mirror_of": 1
+  },
+  {
+   "x": 37,
+   "y": 34,
+   "w": 6,
+   "h": 8,
+   "area": 32,
+   "ncolors": 2,
+   "dominant": "#008028",
+   "dom_frac": 0.75,
+   "kind": "sprite",
+   "zone": null,
+   "id": 3,
+   "file": "tadpole_pond_003.png"
+  },
+  {
+   "x": 461,
+   "y": 34,
+   "w": 6,
+   "h": 8,
+   "area": 32,
+   "ncolors": 2,
+   "dominant": "#008028",
+   "dom_frac": 0.75,
+   "kind": "sprite",
+   "zone": null,
+   "id": 4,
+   "file": "tadpole_pond_004.png",
+   "mirror_of": 3
+  },
+  {
+   "x": 18,
+   "y": 85,
+   "w": 6,
+   "h": 10,
+   "area": 27,
+   "ncolors": 2,
+   "dominant": "#008028",
+   "dom_frac": 0.741,
+   "kind": "sprite",
+   "zone": null,
+   "id": 5,
+   "file": "tadpole_pond_005.png"
+  },
+  {
+   "x": 480,
+   "y": 85,
+   "w": 6,
+   "h": 10,
+   "area": 27,
+   "ncolors": 2,
+   "dominant": "#008028",
+   "dom_frac": 0.741,
+   "kind": "sprite",
+   "zone": null,
+   "id": 6,
+   "file": "tadpole_pond_006.png",
+   "mirror_of": 5
+  },
+  {
+   "x": 0,
+   "y": 288,
+   "w": 11,
+   "h": 13,
+   "area": 79,
+   "ncolors": 6,
+   "dominant": "#008028",
+   "dom_frac": 0.519,
+   "kind": "sprite",
+   "zone": null,
+   "id": 7,
+   "file": "tadpole_pond_007.png"
+  },
+  {
+   "x": 493,
+   "y": 288,
+   "w": 11,
+   "h": 13,
+   "area": 79,
+   "ncolors": 6,
+   "dominant": "#008028",
+   "dom_frac": 0.519,
+   "kind": "sprite",
+   "zone": null,
+   "id": 8,
+   "file": "tadpole_pond_008.png",
+   "mirror_of": 7
+  },
+  {
+   "x": 14,
+   "y": 304,
+   "w": 10,
+   "h": 6,
+   "area": 43,
+   "ncolors": 6,
+   "dominant": "#008028",
+   "dom_frac": 0.488,
+   "kind": "sprite",
+   "zone": null,
+   "id": 9,
+   "file": "tadpole_pond_009.png"
+  },
+  {
+   "x": 480,
+   "y": 304,
+   "w": 10,
+   "h": 6,
+   "area": 43,
+   "ncolors": 6,
+   "dominant": "#008028",
+   "dom_frac": 0.488,
+   "kind": "sprite",
+   "zone": null,
+   "id": 10,
+   "file": "tadpole_pond_010.png",
+   "mirror_of": 9
+  },
+  {
+   "x": 37,
+   "y": 318,
+   "w": 6,
+   "h": 8,
+   "area": 32,
+   "ncolors": 2,
+   "dominant": "#008028",
+   "dom_frac": 0.75,
+   "kind": "sprite",
+   "zone": null,
+   "id": 11,
+   "file": "tadpole_pond_011.png"
+  },
+  {
+   "x": 461,
+   "y": 318,
+   "w": 6,
+   "h": 8,
+   "area": 32,
+   "ncolors": 2,
+   "dominant": "#008028",
+   "dom_frac": 0.75,
+   "kind": "sprite",
+   "zone": null,
+   "id": 12,
+   "file": "tadpole_pond_012.png",
+   "mirror_of": 11
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

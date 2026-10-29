@@ -1,0 +1,60 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/rollobite/rollobite_e001.png" id="1_nl7av"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vg5kb"]
+atlas = ExtResource("1_nl7av")
+region = Rect2(0, 0, 18, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_snoeh"]
+atlas = ExtResource("1_nl7av")
+region = Rect2(18, 0, 18, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_th5e0"]
+atlas = ExtResource("1_nl7av")
+region = Rect2(36, 0, 18, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6ocvf"]
+atlas = ExtResource("1_nl7av")
+region = Rect2(54, 0, 18, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ua38m"]
+atlas = ExtResource("1_nl7av")
+region = Rect2(72, 0, 18, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xl1ho"]
+atlas = ExtResource("1_nl7av")
+region = Rect2(90, 0, 18, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8bs50"]
+atlas = ExtResource("1_nl7av")
+region = Rect2(108, 0, 18, 15)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vg5kb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_snoeh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_th5e0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6ocvf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ua38m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xl1ho")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8bs50")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

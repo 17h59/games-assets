@@ -1,0 +1,74 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/scorched_plains/fire_flicker.png" id="1_04veo"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y25m6"]
+atlas = ExtResource("1_04veo")
+region = Rect2(0, 0, 31, 41)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_itqo5"]
+atlas = ExtResource("1_04veo")
+region = Rect2(31, 0, 31, 41)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dy20w"]
+atlas = ExtResource("1_04veo")
+region = Rect2(62, 0, 31, 41)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3wuvc"]
+atlas = ExtResource("1_04veo")
+region = Rect2(93, 0, 31, 41)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6lcac"]
+atlas = ExtResource("1_04veo")
+region = Rect2(124, 0, 31, 41)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_omt8l"]
+atlas = ExtResource("1_04veo")
+region = Rect2(155, 0, 31, 41)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bgtif"]
+atlas = ExtResource("1_04veo")
+region = Rect2(186, 0, 31, 41)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_34sm6"]
+atlas = ExtResource("1_04veo")
+region = Rect2(217, 0, 31, 41)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8h65e"]
+atlas = ExtResource("1_04veo")
+region = Rect2(248, 0, 31, 41)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y25m6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_itqo5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dy20w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3wuvc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6lcac")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_omt8l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bgtif")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_34sm6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8h65e")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

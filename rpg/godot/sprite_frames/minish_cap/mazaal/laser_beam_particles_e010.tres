@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/mazaal/laser_beam_particles/laser_beam_particles_e010.png" id="1_b3duj"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vs64w"]
+atlas = ExtResource("1_b3duj")
+region = Rect2(0, 0, 12, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ldd5h"]
+atlas = ExtResource("1_b3duj")
+region = Rect2(12, 0, 12, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ns226"]
+atlas = ExtResource("1_b3duj")
+region = Rect2(24, 0, 12, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_juwj1"]
+atlas = ExtResource("1_b3duj")
+region = Rect2(36, 0, 12, 12)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vs64w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ldd5h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ns226")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_juwj1")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

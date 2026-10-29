@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/ruby_sapphire/effects/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e137.png" id="1_vqjq0"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n5cye"]
+atlas = ExtResource("1_vqjq0")
+region = Rect2(0, 0, 16, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o075i"]
+atlas = ExtResource("1_vqjq0")
+region = Rect2(16, 0, 16, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0lunm"]
+atlas = ExtResource("1_vqjq0")
+region = Rect2(32, 0, 16, 14)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n5cye")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o075i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0lunm")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

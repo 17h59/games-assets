@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/royal_guards/castle_field/castle_field_e008.png" id="1_d6eai"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bnbw8"]
+atlas = ExtResource("1_d6eai")
+region = Rect2(0, 0, 17, 29)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wf2u0"]
+atlas = ExtResource("1_d6eai")
+region = Rect2(17, 0, 17, 29)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eeoxa"]
+atlas = ExtResource("1_d6eai")
+region = Rect2(34, 0, 17, 29)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bnbw8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wf2u0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eeoxa")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

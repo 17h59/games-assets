@@ -1,0 +1,444 @@
+{
+ "sheet": "5345",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Torchic Hut",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "flag_wave",
+   "file": "flag_wave.png",
+   "cell": [
+    29,
+    22
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      1,
+      1,
+      28,
+      22
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_1",
+     "src": [
+      29,
+      1,
+      27,
+      22
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_2",
+     "src": [
+      56,
+      1,
+      28,
+      22
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_3",
+     "src": [
+      84,
+      1,
+      28,
+      22
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_4",
+     "src": [
+      0,
+      24,
+      28,
+      22
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_5",
+     "src": [
+      29,
+      24,
+      29,
+      22
+     ]
+    }
+   ],
+   "box": [
+    0,
+    1,
+    112,
+    45
+   ]
+  },
+  {
+   "id": 1,
+   "name": "torchic_hut_e001",
+   "file": "torchic_hut_e001.png",
+   "cell": [
+    5,
+    10
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 7,
+     "role": "frame_0",
+     "src": [
+      2,
+      60,
+      4,
+      10
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_1",
+     "src": [
+      8,
+      60,
+      4,
+      10
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_2",
+     "src": [
+      14,
+      61,
+      5,
+      9
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_3",
+     "src": [
+      21,
+      60,
+      4,
+      10
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_4",
+     "src": [
+      27,
+      61,
+      5,
+      9
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_5",
+     "src": [
+      34,
+      61,
+      4,
+      9
+     ]
+    }
+   ],
+   "box": [
+    2,
+    60,
+    36,
+    10
+   ]
+  },
+  {
+   "id": 2,
+   "name": "torchic_hut_e002",
+   "file": "torchic_hut_e002.png",
+   "cell": [
+    8,
+    15
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 13,
+     "role": "frame_0",
+     "src": [
+      46,
+      53,
+      8,
+      15
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_1",
+     "src": [
+      56,
+      54,
+      8,
+      14
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_2",
+     "src": [
+      66,
+      55,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_3",
+     "src": [
+      76,
+      55,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_4",
+     "src": [
+      86,
+      55,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_5",
+     "src": [
+      96,
+      55,
+      8,
+      13
+     ]
+    }
+   ],
+   "box": [
+    46,
+    53,
+    58,
+    15
+   ]
+  },
+  {
+   "id": 3,
+   "name": "torchic_hut_e003",
+   "file": "torchic_hut_e003.png",
+   "cell": [
+    9,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 19,
+     "role": "frame_0",
+     "src": [
+      2,
+      316,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_1",
+     "src": [
+      13,
+      316,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_2",
+     "src": [
+      23,
+      316,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_3",
+     "src": [
+      34,
+      315,
+      8,
+      14
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_4",
+     "src": [
+      45,
+      316,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_5",
+     "src": [
+      56,
+      316,
+      8,
+      13
+     ]
+    }
+   ],
+   "box": [
+    2,
+    315,
+    62,
+    14
+   ]
+  },
+  {
+   "id": 4,
+   "name": "torchic_hut_e004",
+   "file": "torchic_hut_e004.png",
+   "cell": [
+    10,
+    13
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 25,
+     "role": "frame_0",
+     "src": [
+      283,
+      317,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_1",
+     "src": [
+      295,
+      318,
+      8,
+      12
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_2",
+     "src": [
+      307,
+      318,
+      8,
+      12
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_3",
+     "src": [
+      320,
+      318,
+      8,
+      12
+     ]
+    },
+    {
+     "item": 29,
+     "role": "frame_4",
+     "src": [
+      333,
+      318,
+      8,
+      12
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_5",
+     "src": [
+      345,
+      318,
+      8,
+      12
+     ]
+    }
+   ],
+   "box": [
+    283,
+    317,
+    70,
+    13
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 360,
+   "h": 312,
+   "area": 105763,
+   "ncolors": 132,
+   "dominant": "#70C850",
+   "dom_frac": 0.168,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "torchic_hut_000.png"
+  },
+  {
+   "x": 7,
+   "y": 315,
+   "w": 346,
+   "h": 278,
+   "area": 74140,
+   "ncolors": 118,
+   "dominant": "#904020",
+   "dom_frac": 0.077,
+   "kind": "sprite",
+   "zone": null,
+   "id": 31,
+   "file": "torchic_hut_031.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

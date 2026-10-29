@@ -1,0 +1,70 @@
+{
+ "sheet": "5366",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Healing Forest",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "water_sparkle",
+   "file": "water_sparkle.png",
+   "cell": [
+    17,
+    81
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      314,
+      345,
+      17,
+      81
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_1",
+     "src": [
+      331,
+      345,
+      17,
+      81
+     ]
+    }
+   ],
+   "box": [
+    314,
+    345,
+    34,
+    81
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 16,
+   "y": 0,
+   "w": 448,
+   "h": 336,
+   "area": 110077,
+   "ncolors": 72,
+   "dominant": "#005800",
+   "dom_frac": 0.146,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "healing_forest_000.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

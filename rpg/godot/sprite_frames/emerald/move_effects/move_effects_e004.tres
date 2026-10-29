@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/emerald/effects/move_effects/move_effects_e004.png" id="1_gjouj"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rr7q1"]
+atlas = ExtResource("1_gjouj")
+region = Rect2(0, 0, 13, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_youbo"]
+atlas = ExtResource("1_gjouj")
+region = Rect2(13, 0, 13, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yipri"]
+atlas = ExtResource("1_gjouj")
+region = Rect2(26, 0, 13, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3mxdl"]
+atlas = ExtResource("1_gjouj")
+region = Rect2(39, 0, 13, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ukgel"]
+atlas = ExtResource("1_gjouj")
+region = Rect2(52, 0, 13, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5jmik"]
+atlas = ExtResource("1_gjouj")
+region = Rect2(65, 0, 13, 15)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rr7q1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_youbo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yipri")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3mxdl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ukgel")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5jmik")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

@@ -1,0 +1,144 @@
+{
+ "sheet": "5338",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Machop Hut",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "machop_hut_e000",
+   "file": "machop_hut_e000.png",
+   "cell": [
+    31,
+    23
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      12,
+      2,
+      31,
+      23
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_1",
+     "src": [
+      50,
+      2,
+      31,
+      23
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_2",
+     "src": [
+      87,
+      2,
+      31,
+      23
+     ]
+    }
+   ],
+   "box": [
+    12,
+    2,
+    106,
+    23
+   ]
+  },
+  {
+   "id": 1,
+   "name": "machop_hut_e001",
+   "file": "machop_hut_e001.png",
+   "cell": [
+    32,
+    24
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 4,
+     "role": "frame_0",
+     "src": [
+      15,
+      47,
+      30,
+      23
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_1",
+     "src": [
+      54,
+      47,
+      30,
+      23
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_2",
+     "src": [
+      89,
+      46,
+      30,
+      23
+     ]
+    }
+   ],
+   "box": [
+    15,
+    46,
+    104,
+    24
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 392,
+   "h": 295,
+   "area": 105946,
+   "ncolors": 119,
+   "dominant": "#70C850",
+   "dom_frac": 0.171,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "machop_hut_000.png"
+  },
+  {
+   "x": 13,
+   "y": 298,
+   "w": 354,
+   "h": 284,
+   "area": 78368,
+   "ncolors": 100,
+   "dominant": "#885028",
+   "dom_frac": 0.095,
+   "kind": "sprite",
+   "zone": null,
+   "id": 7,
+   "file": "machop_hut_007.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

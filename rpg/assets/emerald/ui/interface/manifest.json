@@ -1,0 +1,512 @@
+{
+ "sheet": "8367",
+ "game": "emerald",
+ "category": "ui",
+ "title": "Interface",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    294,
+    14,
+    248,
+    14
+   ],
+   "point": [
+    418,
+    21
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 1,
+   "box": [
+    294,
+    35,
+    151,
+    15
+   ],
+   "point": [
+    369,
+    42
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 2,
+   "box": [
+    414,
+    86,
+    80,
+    1
+   ],
+   "point": [
+    454,
+    86
+   ],
+   "name": null,
+   "folder": "set_02"
+  },
+  {
+   "id": 3,
+   "box": [
+    258,
+    89,
+    8,
+    1
+   ],
+   "point": [
+    262,
+    89
+   ],
+   "name": "frontier_pass",
+   "folder": "frontier_pass"
+  },
+  {
+   "id": 4,
+   "box": [
+    9,
+    172,
+    73,
+    10
+   ],
+   "point": [
+    45,
+    177
+   ],
+   "name": "frontier_pass_map",
+   "folder": "frontier_pass_map"
+  },
+  {
+   "id": 5,
+   "box": [
+    254,
+    241,
+    146,
+    10
+   ],
+   "point": [
+    327,
+    246
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 6,
+   "box": [
+    15,
+    249,
+    183,
+    10
+   ],
+   "point": [
+    106,
+    254
+   ],
+   "name": "battle_dome_tournament",
+   "folder": "battle_dome_tournament"
+  },
+  {
+   "id": 7,
+   "box": [
+    303,
+    286,
+    37,
+    11
+   ],
+   "point": [
+    321,
+    291
+   ],
+   "name": "cancel",
+   "folder": "cancel"
+  },
+  {
+   "id": 8,
+   "box": [
+    283,
+    314,
+    46,
+    11
+   ],
+   "point": [
+    306,
+    319
+   ],
+   "name": "trainer_vs_card",
+   "folder": "trainer_vs_card"
+  },
+  {
+   "id": 9,
+   "box": [
+    408,
+    491,
+    146,
+    11
+   ],
+   "point": [
+    481,
+    496
+   ],
+   "name": "tournament_battler_background",
+   "folder": "tournament_battler_background"
+  },
+  {
+   "id": 10,
+   "box": [
+    15,
+    592,
+    107,
+    10
+   ],
+   "point": [
+    68,
+    597
+   ],
+   "name": "frontier_battler_card",
+   "folder": "frontier_battler_card"
+  },
+  {
+   "id": 11,
+   "box": [
+    263,
+    657,
+    112,
+    11
+   ],
+   "point": [
+    319,
+    662
+   ],
+   "name": "preliminary_battling_background",
+   "folder": "preliminary_battling_background"
+  },
+  {
+   "id": 12,
+   "box": [
+    416,
+    685,
+    129,
+    10
+   ],
+   "point": [
+    480,
+    690
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 13,
+   "box": [
+    424,
+    700,
+    120,
+    11
+   ],
+   "point": [
+    484,
+    705
+   ],
+   "name": null,
+   "folder": "set_13"
+  },
+  {
+   "id": 14,
+   "box": [
+    424,
+    712,
+    115,
+    9
+   ],
+   "point": [
+    481,
+    716
+   ],
+   "name": null,
+   "folder": "set_14"
+  },
+  {
+   "id": 15,
+   "box": [
+    541,
+    724,
+    43,
+    8
+   ],
+   "point": [
+    562,
+    728
+   ],
+   "name": null,
+   "folder": "set_15"
+  },
+  {
+   "id": 16,
+   "box": [
+    424,
+    735,
+    25,
+    12
+   ],
+   "point": [
+    436,
+    741
+   ],
+   "name": null,
+   "folder": "set_16"
+  },
+  {
+   "id": 17,
+   "box": [
+    517,
+    738,
+    12,
+    7
+   ],
+   "point": [
+    523,
+    741
+   ],
+   "name": null,
+   "folder": "set_17"
+  },
+  {
+   "id": 18,
+   "box": [
+    424,
+    748,
+    80,
+    9
+   ],
+   "point": [
+    464,
+    752
+   ],
+   "name": null,
+   "folder": "set_18"
+  },
+  {
+   "id": 19,
+   "box": [
+    423,
+    761,
+    102,
+    9
+   ],
+   "point": [
+    474,
+    765
+   ],
+   "name": null,
+   "folder": "set_19"
+  },
+  {
+   "id": 20,
+   "box": [
+    15,
+    773,
+    179,
+    12
+   ],
+   "point": [
+    104,
+    779
+   ],
+   "name": null,
+   "folder": "set_20"
+  },
+  {
+   "id": 21,
+   "box": [
+    423,
+    773,
+    191,
+    9
+   ],
+   "point": [
+    518,
+    777
+   ],
+   "name": null,
+   "folder": "set_21"
+  }
+ ],
+ "entities": [],
+ "items": [
+  {
+   "x": 9,
+   "y": 9,
+   "w": 240,
+   "h": 143,
+   "area": 30456,
+   "ncolors": 31,
+   "dominant": "#394A4A",
+   "dom_frac": 0.263,
+   "kind": "sprite",
+   "zone": null,
+   "set": 3,
+   "id": 0,
+   "file": "frontier_pass/frontier_pass_000.png"
+  },
+  {
+   "x": 259,
+   "y": 80,
+   "w": 6,
+   "h": 5,
+   "area": 12,
+   "ncolors": 2,
+   "dominant": "#4A73AD",
+   "dom_frac": 0.667,
+   "kind": "sprite",
+   "zone": null,
+   "set": 2,
+   "id": 1,
+   "file": "set_02/set_02_001.png"
+  },
+  {
+   "x": 254,
+   "y": 94,
+   "w": 240,
+   "h": 144,
+   "area": 17404,
+   "ncolors": 21,
+   "dominant": "#4A73AD",
+   "dom_frac": 0.175,
+   "kind": "sprite",
+   "zone": null,
+   "set": 4,
+   "id": 2,
+   "file": "frontier_pass_map/frontier_pass_map_002.png"
+  },
+  {
+   "x": 15,
+   "y": 263,
+   "w": 240,
+   "h": 160,
+   "area": 28359,
+   "ncolors": 17,
+   "dominant": "#7BDE8C",
+   "dom_frac": 0.473,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 3,
+   "file": "battle_dome_tournament/battle_dome_tournament_003.png"
+  },
+  {
+   "x": 269,
+   "y": 286,
+   "w": 31,
+   "h": 13,
+   "area": 327,
+   "ncolors": 4,
+   "dominant": "#5A9C84",
+   "dom_frac": 0.339,
+   "kind": "sprite",
+   "zone": null,
+   "set": 7,
+   "id": 4,
+   "file": "cancel/cancel_004.png"
+  },
+  {
+   "x": 267,
+   "y": 321,
+   "w": 10,
+   "h": 14,
+   "area": 76,
+   "ncolors": 0,
+   "dominant": "",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "set": 8,
+   "id": 5,
+   "file": "trainer_vs_card/trainer_vs_card_005.png"
+  },
+  {
+   "x": 406,
+   "y": 344,
+   "w": 224,
+   "h": 144,
+   "area": 28398,
+   "ncolors": 8,
+   "dominant": "#FFF7CE",
+   "dom_frac": 0.455,
+   "kind": "sprite",
+   "zone": null,
+   "set": 8,
+   "id": 6,
+   "file": "trainer_vs_card/trainer_vs_card_006.png"
+  },
+  {
+   "x": 15,
+   "y": 428,
+   "w": 240,
+   "h": 160,
+   "area": 32442,
+   "ncolors": 4,
+   "dominant": "#F7E7BD",
+   "dom_frac": 0.622,
+   "kind": "sprite",
+   "zone": null,
+   "set": 9,
+   "id": 7,
+   "file": "tournament_battler_background/tournament_battler_background_007.png"
+  },
+  {
+   "x": 264,
+   "y": 507,
+   "w": 224,
+   "h": 144,
+   "area": 30975,
+   "ncolors": 10,
+   "dominant": "#84C68C",
+   "dom_frac": 0.293,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 8,
+   "file": "frontier_battler_card/frontier_battler_card_008.png"
+  },
+  {
+   "x": 14,
+   "y": 606,
+   "w": 240,
+   "h": 160,
+   "area": 32432,
+   "ncolors": 4,
+   "dominant": "#C6EFDE",
+   "dom_frac": 0.622,
+   "kind": "sprite",
+   "zone": null,
+   "set": 11,
+   "id": 9,
+   "file": "preliminary_battling_background/preliminary_battling_background_009.png"
+  },
+  {
+   "x": 374,
+   "y": 685,
+   "w": 36,
+   "h": 55,
+   "area": 1031,
+   "ncolors": 15,
+   "dominant": "#BDDEC6",
+   "dom_frac": 0.17,
+   "kind": "sprite",
+   "zone": null,
+   "name": "frontier_trainer",
+   "set": 13,
+   "id": 10,
+   "file": "set_13/frontier_trainer.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/dark_type_moves/set_11/set_11_e038.png" id="1_gxpyg"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x3d4m"]
+atlas = ExtResource("1_gxpyg")
+region = Rect2(0, 0, 24, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_77i1y"]
+atlas = ExtResource("1_gxpyg")
+region = Rect2(24, 0, 24, 22)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x3d4m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_77i1y")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

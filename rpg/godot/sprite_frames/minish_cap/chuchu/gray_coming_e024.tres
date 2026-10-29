@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/chuchu/gray_coming/gray_coming_e024.png" id="1_42lau"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6ivye"]
+atlas = ExtResource("1_42lau")
+region = Rect2(0, 0, 15, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iibk0"]
+atlas = ExtResource("1_42lau")
+region = Rect2(15, 0, 15, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iwdv4"]
+atlas = ExtResource("1_42lau")
+region = Rect2(30, 0, 15, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jjb6c"]
+atlas = ExtResource("1_42lau")
+region = Rect2(45, 0, 15, 20)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6ivye")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iibk0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iwdv4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jjb6c")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/hyrule_town_residents_3/recolors/recolor_green_boy_walk_up.png" id="1_g7rdf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ul7c1"]
+atlas = ExtResource("1_g7rdf")
+region = Rect2(0, 0, 18, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_026gf"]
+atlas = ExtResource("1_g7rdf")
+region = Rect2(18, 0, 18, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a57cd"]
+atlas = ExtResource("1_g7rdf")
+region = Rect2(36, 0, 18, 21)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ul7c1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_026gf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a57cd")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

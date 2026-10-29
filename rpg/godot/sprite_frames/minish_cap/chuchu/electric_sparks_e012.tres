@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/chuchu/electric_sparks/electric_sparks_e012.png" id="1_lrgqe"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r1778"]
+atlas = ExtResource("1_lrgqe")
+region = Rect2(0, 0, 32, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k7h20"]
+atlas = ExtResource("1_lrgqe")
+region = Rect2(32, 0, 32, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6erqi"]
+atlas = ExtResource("1_lrgqe")
+region = Rect2(64, 0, 32, 26)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r1778")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k7h20")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6erqi")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

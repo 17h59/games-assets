@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/emerald/characters/may/bike_wheelie.png" id="1_2qqxb"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vveh7"]
+atlas = ExtResource("1_2qqxb")
+region = Rect2(0, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ps4s8"]
+atlas = ExtResource("1_2qqxb")
+region = Rect2(24, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eiu1m"]
+atlas = ExtResource("1_2qqxb")
+region = Rect2(48, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tdl4l"]
+atlas = ExtResource("1_2qqxb")
+region = Rect2(72, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tw6gx"]
+atlas = ExtResource("1_2qqxb")
+region = Rect2(96, 0, 24, 24)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vveh7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ps4s8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eiu1m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tdl4l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tw6gx")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

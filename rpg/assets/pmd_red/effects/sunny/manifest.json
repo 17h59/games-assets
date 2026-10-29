@@ -1,0 +1,348 @@
+{
+ "sheet": "534322",
+ "game": "pmd_red",
+ "category": "effects",
+ "title": "Sunny",
+ "type": "sprites",
+ "template": "none",
+ "validation": "pending",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    536,
+    565,
+    74,
+    9
+   ],
+   "point": [
+    573,
+    569
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 1,
+   "box": [
+    536,
+    575,
+    112,
+    8
+   ],
+   "point": [
+    592,
+    579
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 2,
+   "box": [
+    661,
+    577,
+    75,
+    6
+   ],
+   "point": [
+    698,
+    580
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 3,
+   "box": [
+    536,
+    588,
+    14,
+    6
+   ],
+   "point": [
+    543,
+    591
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 4,
+   "box": [
+    563,
+    588,
+    81,
+    6
+   ],
+   "point": [
+    603,
+    591
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "sunny",
+   "file": "sunny.png",
+   "cell": [
+    133,
+    104
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      40,
+      8,
+      132,
+      88
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      289,
+      8,
+      133,
+      90
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      539,
+      8,
+      133,
+      91
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      46,
+      128,
+      133,
+      93
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_4",
+     "src": [
+      298,
+      128,
+      131,
+      96
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_5",
+     "src": [
+      547,
+      128,
+      132,
+      98
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_6",
+     "src": [
+      54,
+      248,
+      131,
+      99
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_7",
+     "src": [
+      305,
+      248,
+      130,
+      101
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_8",
+     "src": [
+      556,
+      248,
+      129,
+      103
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_9",
+     "src": [
+      64,
+      368,
+      127,
+      104
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_10",
+     "src": [
+      316,
+      368,
+      126,
+      93
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_11",
+     "src": [
+      595,
+      393,
+      111,
+      80
+     ]
+    }
+   ],
+   "box": [
+    40,
+    8,
+    666,
+    465
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 260,
+   "y": 496,
+   "w": 104,
+   "h": 104,
+   "area": 1448,
+   "ncolors": 8,
+   "dominant": "#D6DEE6",
+   "dom_frac": 0.202,
+   "kind": "sprite",
+   "zone": null,
+   "id": 12,
+   "file": "sunny_012.png"
+  },
+  {
+   "x": 376,
+   "y": 496,
+   "w": 32,
+   "h": 32,
+   "area": 812,
+   "ncolors": 4,
+   "dominant": "#F7CE6B",
+   "dom_frac": 0.488,
+   "kind": "sprite",
+   "zone": null,
+   "id": 13,
+   "file": "sunny_013.png"
+  },
+  {
+   "x": 422,
+   "y": 502,
+   "w": 20,
+   "h": 20,
+   "area": 332,
+   "ncolors": 3,
+   "dominant": "#F7F78C",
+   "dom_frac": 0.587,
+   "kind": "sprite",
+   "zone": null,
+   "id": 14,
+   "file": "sunny_014.png"
+  },
+  {
+   "x": 448,
+   "y": 536,
+   "w": 8,
+   "h": 8,
+   "area": 52,
+   "ncolors": 3,
+   "dominant": "#F7F79C",
+   "dom_frac": 0.615,
+   "kind": "sprite",
+   "zone": null,
+   "id": 15,
+   "file": "sunny_015.png"
+  },
+  {
+   "x": 383,
+   "y": 543,
+   "w": 50,
+   "h": 50,
+   "area": 1556,
+   "ncolors": 7,
+   "dominant": "#A5F773",
+   "dom_frac": 0.214,
+   "kind": "sprite",
+   "zone": null,
+   "id": 16,
+   "file": "sunny_016.png"
+  },
+  {
+   "x": 147,
+   "y": 545,
+   "w": 35,
+   "h": 28,
+   "area": 384,
+   "ncolors": 3,
+   "dominant": "#F7F78C",
+   "dom_frac": 0.587,
+   "kind": "sprite",
+   "zone": null,
+   "id": 17,
+   "file": "sunny_017.png"
+  },
+  {
+   "x": 450,
+   "y": 570,
+   "w": 4,
+   "h": 4,
+   "area": 12,
+   "ncolors": 2,
+   "dominant": "#D6A5F7",
+   "dom_frac": 0.667,
+   "kind": "sprite",
+   "zone": null,
+   "id": 18,
+   "file": "sunny_018.png"
+  },
+  {
+   "x": 448,
+   "y": 552,
+   "w": 8,
+   "h": 8,
+   "area": 52,
+   "ncolors": 3,
+   "dominant": "#F7F7F7",
+   "dom_frac": 0.615,
+   "kind": "sprite",
+   "zone": null,
+   "id": 19,
+   "file": "sunny_019.png"
+  }
+ ],
+ "status": "needs_review",
+ "missing_stages": [
+  "decoupage",
+  "regroupement",
+  "nommage"
+ ]
+}

@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/ghost_type_moves/shadow_punch/shadow_punch_e005.png" id="1_r71xy"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e0d5a"]
+atlas = ExtResource("1_r71xy")
+region = Rect2(0, 0, 64, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2n4fi"]
+atlas = ExtResource("1_r71xy")
+region = Rect2(64, 0, 64, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cu5tk"]
+atlas = ExtResource("1_r71xy")
+region = Rect2(128, 0, 64, 32)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e0d5a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2n4fi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cu5tk")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

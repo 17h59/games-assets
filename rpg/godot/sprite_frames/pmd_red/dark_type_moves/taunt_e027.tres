@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/dark_type_moves/taunt/taunt_e027.png" id="1_tsu3n"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1h0up"]
+atlas = ExtResource("1_tsu3n")
+region = Rect2(0, 0, 14, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oyiwl"]
+atlas = ExtResource("1_tsu3n")
+region = Rect2(14, 0, 14, 14)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1h0up")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oyiwl")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

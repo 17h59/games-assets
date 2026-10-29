@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/crow/crow_red_fly_up.png" id="1_5sfau"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oes42"]
+atlas = ExtResource("1_5sfau")
+region = Rect2(0, 0, 18, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k2weo"]
+atlas = ExtResource("1_5sfau")
+region = Rect2(18, 0, 18, 14)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oes42")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k2weo")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/ruby_sapphire/effects/steam_effects/steam_effects_e000.png" id="1_rcgdr"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_col3h"]
+atlas = ExtResource("1_rcgdr")
+region = Rect2(0, 0, 7, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fcmeh"]
+atlas = ExtResource("1_rcgdr")
+region = Rect2(7, 0, 7, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hdrv7"]
+atlas = ExtResource("1_rcgdr")
+region = Rect2(14, 0, 7, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rjqqt"]
+atlas = ExtResource("1_rcgdr")
+region = Rect2(21, 0, 7, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r6v4d"]
+atlas = ExtResource("1_rcgdr")
+region = Rect2(28, 0, 7, 8)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_col3h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fcmeh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hdrv7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rjqqt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r6v4d")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

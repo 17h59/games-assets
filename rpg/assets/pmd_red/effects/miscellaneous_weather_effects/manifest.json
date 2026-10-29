@@ -1,0 +1,679 @@
+{
+ "sheet": "534320",
+ "game": "pmd_red",
+ "category": "effects",
+ "title": "Miscellaneous Weather Effects",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    8,
+    7,
+    59,
+    6
+   ],
+   "point": [
+    37,
+    10
+   ],
+   "name": "cloud_shadows",
+   "folder": "cloud_shadows"
+  },
+  {
+   "id": 1,
+   "box": [
+    8,
+    431,
+    20,
+    6
+   ],
+   "point": [
+    18,
+    434
+   ],
+   "name": "snow",
+   "folder": "snow"
+  },
+  {
+   "id": 2,
+   "box": [
+    304,
+    431,
+    32,
+    6
+   ],
+   "point": [
+    320,
+    434
+   ],
+   "name": "blizzard",
+   "folder": "blizzard"
+  },
+  {
+   "id": 3,
+   "box": [
+    472,
+    431,
+    65,
+    6
+   ],
+   "point": [
+    504,
+    434
+   ],
+   "name": "snow_dungeon",
+   "folder": "snow_dungeon"
+  },
+  {
+   "id": 4,
+   "box": [
+    8,
+    599,
+    43,
+    6
+   ],
+   "point": [
+    29,
+    602
+   ],
+   "name": "sandstorm",
+   "folder": "sandstorm"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "snow",
+   "file": "snow/snow.png",
+   "cell": [
+    64,
+    32
+   ],
+   "zone": null,
+   "set": 1,
+   "template": "none",
+   "frames": [
+    {
+     "item": 33,
+     "role": "frame_0",
+     "src": [
+      8,
+      440,
+      64,
+      32
+     ]
+    },
+    {
+     "item": 34,
+     "role": "frame_1",
+     "src": [
+      80,
+      440,
+      64,
+      32
+     ]
+    },
+    {
+     "item": 35,
+     "role": "frame_2",
+     "src": [
+      152,
+      440,
+      64,
+      32
+     ]
+    },
+    {
+     "item": 36,
+     "role": "frame_3",
+     "src": [
+      224,
+      440,
+      64,
+      32
+     ]
+    },
+    {
+     "item": 37,
+     "role": "frame_4",
+     "src": [
+      8,
+      480,
+      64,
+      32
+     ]
+    },
+    {
+     "item": 38,
+     "role": "frame_5",
+     "src": [
+      80,
+      480,
+      64,
+      32
+     ]
+    },
+    {
+     "item": 39,
+     "role": "frame_6",
+     "src": [
+      152,
+      480,
+      64,
+      32
+     ]
+    },
+    {
+     "item": 40,
+     "role": "frame_7",
+     "src": [
+      224,
+      480,
+      64,
+      32
+     ]
+    },
+    {
+     "item": 41,
+     "role": "frame_8",
+     "src": [
+      8,
+      520,
+      64,
+      32
+     ]
+    },
+    {
+     "item": 42,
+     "role": "frame_9",
+     "src": [
+      80,
+      520,
+      64,
+      32
+     ]
+    },
+    {
+     "item": 43,
+     "role": "frame_10",
+     "src": [
+      152,
+      520,
+      64,
+      32
+     ]
+    },
+    {
+     "item": 44,
+     "role": "frame_11",
+     "src": [
+      224,
+      520,
+      64,
+      32
+     ]
+    },
+    {
+     "item": 45,
+     "role": "frame_12",
+     "src": [
+      8,
+      560,
+      64,
+      32
+     ]
+    },
+    {
+     "item": 46,
+     "role": "frame_13",
+     "src": [
+      80,
+      560,
+      64,
+      32
+     ]
+    },
+    {
+     "item": 47,
+     "role": "frame_14",
+     "src": [
+      152,
+      560,
+      64,
+      32
+     ]
+    },
+    {
+     "item": 48,
+     "role": "frame_15",
+     "src": [
+      224,
+      560,
+      64,
+      32
+     ]
+    }
+   ],
+   "box": [
+    8,
+    440,
+    280,
+    152
+   ]
+  },
+  {
+   "id": 1,
+   "name": "blizzard",
+   "file": "blizzard/blizzard.png",
+   "cell": [
+    32,
+    32
+   ],
+   "zone": 0,
+   "set": 2,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      304,
+      442,
+      32,
+      30
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      348,
+      440,
+      27,
+      32
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      386,
+      440,
+      27,
+      32
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      424,
+      440,
+      27,
+      31
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_4",
+     "src": [
+      304,
+      480,
+      32,
+      32
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_5",
+     "src": [
+      344,
+      480,
+      32,
+      32
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_6",
+     "src": [
+      384,
+      481,
+      32,
+      30
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_7",
+     "src": [
+      427,
+      480,
+      28,
+      32
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_8",
+     "src": [
+      306,
+      520,
+      27,
+      28
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_9",
+     "src": [
+      345,
+      522,
+      26,
+      27
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_10",
+     "src": [
+      384,
+      524,
+      25,
+      26
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_11",
+     "src": [
+      424,
+      526,
+      32,
+      25
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_12",
+     "src": [
+      304,
+      568,
+      32,
+      24
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_13",
+     "src": [
+      344,
+      560,
+      32,
+      32
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_14",
+     "src": [
+      384,
+      560,
+      32,
+      32
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_15",
+     "src": [
+      424,
+      560,
+      32,
+      30
+     ]
+    }
+   ],
+   "box": [
+    304,
+    440,
+    152,
+    152
+   ]
+  },
+  {
+   "id": 2,
+   "name": "snow_dungeon",
+   "file": "snow_dungeon/snow_dungeon.png",
+   "cell": [
+    24,
+    32
+   ],
+   "zone": 1,
+   "set": 3,
+   "template": "none",
+   "frames": [
+    {
+     "item": 16,
+     "role": "frame_0",
+     "src": [
+      474,
+      440,
+      22,
+      30
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_1",
+     "src": [
+      514,
+      442,
+      24,
+      30
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_2",
+     "src": [
+      555,
+      440,
+      24,
+      32
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_3",
+     "src": [
+      596,
+      441,
+      24,
+      18
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_4",
+     "src": [
+      478,
+      483,
+      22,
+      18
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_5",
+     "src": [
+      520,
+      485,
+      20,
+      18
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_6",
+     "src": [
+      561,
+      487,
+      18,
+      18
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_7",
+     "src": [
+      602,
+      489,
+      16,
+      18
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_8",
+     "src": [
+      482,
+      531,
+      14,
+      18
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_9",
+     "src": [
+      522,
+      533,
+      14,
+      18
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_10",
+     "src": [
+      561,
+      520,
+      16,
+      32
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_11",
+     "src": [
+      600,
+      520,
+      17,
+      32
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_12",
+     "src": [
+      478,
+      561,
+      19,
+      28
+     ]
+    },
+    {
+     "item": 29,
+     "role": "frame_13",
+     "src": [
+      516,
+      563,
+      20,
+      28
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_14",
+     "src": [
+      555,
+      560,
+      20,
+      32
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_15",
+     "src": [
+      594,
+      560,
+      20,
+      32
+     ]
+    }
+   ],
+   "box": [
+    474,
+    440,
+    146,
+    152
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 8,
+   "y": 16,
+   "w": 720,
+   "h": 408,
+   "area": 293760,
+   "ncolors": 2,
+   "dominant": "#5A5A78",
+   "dom_frac": 0.852,
+   "kind": "sprite",
+   "zone": null,
+   "panel_frame": true,
+   "name": "cloud_shadows",
+   "set": 0,
+   "id": 32,
+   "file": "cloud_shadows/cloud_shadows.png"
+  },
+  {
+   "x": 8,
+   "y": 608,
+   "w": 120,
+   "h": 32,
+   "area": 3840,
+   "ncolors": 6,
+   "dominant": "#73523A",
+   "dom_frac": 0.442,
+   "kind": "sprite",
+   "zone": null,
+   "set": 4,
+   "id": 49,
+   "file": "sandstorm/sandstorm_049.png"
+  },
+  {
+   "x": 136,
+   "y": 608,
+   "w": 120,
+   "h": 32,
+   "area": 3840,
+   "ncolors": 6,
+   "dominant": "#F7B584",
+   "dom_frac": 0.442,
+   "kind": "sprite",
+   "zone": null,
+   "set": 4,
+   "id": 50,
+   "file": "sandstorm/sandstorm_050.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

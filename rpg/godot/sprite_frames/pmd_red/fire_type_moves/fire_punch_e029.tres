@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/fire_type_moves/fire_punch/fire_punch_e029.png" id="1_2prua"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k7jvg"]
+atlas = ExtResource("1_2prua")
+region = Rect2(0, 0, 171, 30)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0akei"]
+atlas = ExtResource("1_2prua")
+region = Rect2(171, 0, 171, 30)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k7jvg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0akei")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

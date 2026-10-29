@@ -1,0 +1,2806 @@
+{
+ "sheet": "31116",
+ "game": "minish_cap",
+ "category": "monsters",
+ "title": "Vaati Transfigured",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    18,
+    291,
+    48,
+    3
+   ],
+   "point": [
+    42,
+    292
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 1,
+   "box": [
+    53,
+    331,
+    122,
+    9
+   ],
+   "point": [
+    114,
+    335
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 2,
+   "box": [
+    79,
+    393,
+    76,
+    10
+   ],
+   "point": [
+    117,
+    398
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 3,
+   "box": [
+    63,
+    408,
+    110,
+    10
+   ],
+   "point": [
+    118,
+    413
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "vaati_transfigured_silhouette",
+   "file": "vaati_transfigured_silhouette.png",
+   "cell": [
+    60,
+    54
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 7,
+     "role": "frame_0",
+     "src": [
+      407,
+      12,
+      56,
+      54
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_1",
+     "src": [
+      468,
+      13,
+      58,
+      53
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_2",
+     "src": [
+      531,
+      13,
+      60,
+      51
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_3",
+     "src": [
+      597,
+      12,
+      56,
+      52
+     ]
+    }
+   ],
+   "box": [
+    407,
+    12,
+    246,
+    54
+   ]
+  },
+  {
+   "id": 1,
+   "name": "vaati_transfigured_charge",
+   "file": "vaati_transfigured_charge.png",
+   "cell": [
+    45,
+    48
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 11,
+     "role": "frame_0",
+     "src": [
+      680,
+      19,
+      44,
+      48
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_1",
+     "src": [
+      727,
+      19,
+      44,
+      48
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_2",
+     "src": [
+      775,
+      19,
+      40,
+      48
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_3",
+     "src": [
+      821,
+      19,
+      40,
+      48
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_4",
+     "src": [
+      867,
+      19,
+      40,
+      48
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_5",
+     "src": [
+      912,
+      19,
+      40,
+      48
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_6",
+     "src": [
+      957,
+      19,
+      44,
+      48
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_7",
+     "src": [
+      1003,
+      19,
+      44,
+      48
+     ]
+    }
+   ],
+   "box": [
+    680,
+    19,
+    367,
+    48
+   ]
+  },
+  {
+   "id": 2,
+   "name": "vaati_transfigured_flying",
+   "file": "vaati_transfigured_flying.png",
+   "cell": [
+    64,
+    48
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 19,
+     "role": "frame_0",
+     "src": [
+      9,
+      93,
+      64,
+      48
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_1",
+     "src": [
+      83,
+      95,
+      64,
+      45
+     ]
+    }
+   ],
+   "box": [
+    9,
+    93,
+    138,
+    48
+   ]
+  },
+  {
+   "id": 3,
+   "name": "vaati_transfigured_dissolve",
+   "file": "vaati_transfigured_dissolve.png",
+   "cell": [
+    48,
+    52
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 26,
+     "role": "frame_0",
+     "src": [
+      454,
+      90,
+      44,
+      51
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_1",
+     "src": [
+      504,
+      91,
+      44,
+      50
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_2",
+     "src": [
+      552,
+      91,
+      48,
+      51
+     ]
+    }
+   ],
+   "box": [
+    454,
+    90,
+    146,
+    52
+   ]
+  },
+  {
+   "id": 4,
+   "name": "vaati_transfigured_orbs_form",
+   "file": "vaati_transfigured_orbs_form.png",
+   "cell": [
+    64,
+    67
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 33,
+     "role": "frame_0",
+     "src": [
+      224,
+      154,
+      62,
+      63
+     ]
+    },
+    {
+     "item": 34,
+     "role": "frame_1",
+     "src": [
+      293,
+      157,
+      64,
+      64
+     ]
+    },
+    {
+     "item": 35,
+     "role": "frame_2",
+     "src": [
+      366,
+      157,
+      64,
+      64
+     ]
+    },
+    {
+     "item": 36,
+     "role": "frame_3",
+     "src": [
+      436,
+      157,
+      64,
+      64
+     ]
+    },
+    {
+     "item": 37,
+     "role": "frame_4",
+     "src": [
+      506,
+      157,
+      64,
+      64
+     ]
+    },
+    {
+     "item": 38,
+     "role": "frame_5",
+     "src": [
+      577,
+      157,
+      64,
+      64
+     ]
+    }
+   ],
+   "box": [
+    224,
+    154,
+    417,
+    67
+   ]
+  },
+  {
+   "id": 5,
+   "name": "vaati_transfigured_pulse",
+   "file": "vaati_transfigured_pulse.png",
+   "cell": [
+    46,
+    48
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 39,
+     "role": "frame_0",
+     "src": [
+      14,
+      159,
+      40,
+      48
+     ]
+    },
+    {
+     "item": 40,
+     "role": "frame_1",
+     "src": [
+      64,
+      159,
+      44,
+      48
+     ]
+    },
+    {
+     "item": 41,
+     "role": "frame_2",
+     "src": [
+      116,
+      159,
+      40,
+      48
+     ]
+    },
+    {
+     "item": 42,
+     "role": "frame_3",
+     "src": [
+      166,
+      159,
+      44,
+      48
+     ]
+    }
+   ],
+   "box": [
+    14,
+    159,
+    196,
+    48
+   ]
+  },
+  {
+   "id": 6,
+   "name": "vaati_transfigured_orbs_cycle",
+   "file": "vaati_transfigured_orbs_cycle.png",
+   "cell": [
+    16,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 43,
+     "role": "frame_0",
+     "src": [
+      434,
+      233,
+      14,
+      8
+     ]
+    },
+    {
+     "item": 44,
+     "role": "frame_1",
+     "src": [
+      450,
+      229,
+      16,
+      15
+     ]
+    },
+    {
+     "item": 45,
+     "role": "frame_2",
+     "src": [
+      468,
+      228,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 46,
+     "role": "frame_3",
+     "src": [
+      486,
+      228,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 47,
+     "role": "frame_4",
+     "src": [
+      504,
+      228,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 48,
+     "role": "frame_5",
+     "src": [
+      522,
+      228,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 49,
+     "role": "frame_6",
+     "src": [
+      540,
+      228,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 50,
+     "role": "frame_7",
+     "src": [
+      558,
+      228,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 51,
+     "role": "frame_8",
+     "src": [
+      576,
+      228,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 52,
+     "role": "frame_9",
+     "src": [
+      594,
+      228,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 53,
+     "role": "frame_10",
+     "src": [
+      612,
+      228,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 54,
+     "role": "frame_11",
+     "src": [
+      630,
+      228,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 55,
+     "role": "frame_12",
+     "src": [
+      648,
+      228,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 56,
+     "role": "frame_13",
+     "src": [
+      666,
+      228,
+      16,
+      16
+     ]
+    }
+   ],
+   "box": [
+    434,
+    228,
+    248,
+    16
+   ]
+  },
+  {
+   "id": 7,
+   "name": "vaati_transfigured_e007",
+   "file": "vaati_transfigured_e007.png",
+   "cell": [
+    18,
+    17
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 57,
+     "role": "frame_0",
+     "src": [
+      684,
+      228,
+      6,
+      16
+     ]
+    },
+    {
+     "item": 58,
+     "role": "frame_1",
+     "src": [
+      696,
+      228,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 59,
+     "role": "frame_2",
+     "src": [
+      715,
+      230,
+      18,
+      15
+     ]
+    },
+    {
+     "item": 60,
+     "role": "frame_3",
+     "src": [
+      738,
+      229,
+      6,
+      16
+     ]
+    },
+    {
+     "item": 61,
+     "role": "frame_4",
+     "src": [
+      748,
+      230,
+      10,
+      15
+     ]
+    }
+   ],
+   "box": [
+    684,
+    228,
+    74,
+    17
+   ]
+  },
+  {
+   "id": 8,
+   "name": "vaati_transfigured_e008",
+   "file": "vaati_transfigured_e008.png",
+   "cell": [
+    7,
+    11
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 70,
+     "role": "frame_0",
+     "src": [
+      766,
+      230,
+      7,
+      7
+     ]
+    },
+    {
+     "item": 71,
+     "role": "frame_1",
+     "src": [
+      777,
+      226,
+      6,
+      8
+     ]
+    }
+   ],
+   "box": [
+    766,
+    226,
+    17,
+    11
+   ]
+  },
+  {
+   "id": 9,
+   "name": "vaati_transfigured_e009",
+   "file": "vaati_transfigured_e009.png",
+   "cell": [
+    8,
+    7
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 73,
+     "role": "frame_0",
+     "src": [
+      825,
+      228,
+      8,
+      6
+     ]
+    },
+    {
+     "item": 74,
+     "role": "frame_1",
+     "src": [
+      836,
+      227,
+      6,
+      7
+     ]
+    }
+   ],
+   "box": [
+    825,
+    227,
+    17,
+    7
+   ]
+  },
+  {
+   "id": 10,
+   "name": "vaati_transfigured_e010",
+   "file": "vaati_transfigured_e010.png",
+   "cell": [
+    7,
+    8
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 75,
+     "role": "frame_0",
+     "src": [
+      857,
+      226,
+      6,
+      8
+     ]
+    },
+    {
+     "item": 76,
+     "role": "frame_1",
+     "src": [
+      869,
+      227,
+      7,
+      6
+     ]
+    }
+   ],
+   "box": [
+    857,
+    226,
+    19,
+    8
+   ]
+  },
+  {
+   "id": 11,
+   "name": "vaati_transfigured_e011",
+   "file": "vaati_transfigured_e011.png",
+   "cell": [
+    8,
+    8
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 80,
+     "role": "frame_0",
+     "src": [
+      356,
+      242,
+      6,
+      6
+     ]
+    },
+    {
+     "item": 81,
+     "role": "frame_1",
+     "src": [
+      368,
+      244,
+      6,
+      6
+     ]
+    },
+    {
+     "item": 82,
+     "role": "frame_2",
+     "src": [
+      377,
+      243,
+      5,
+      5
+     ]
+    },
+    {
+     "item": 83,
+     "role": "frame_3",
+     "src": [
+      388,
+      244,
+      5,
+      5
+     ]
+    }
+   ],
+   "box": [
+    356,
+    242,
+    37,
+    8
+   ]
+  },
+  {
+   "id": 12,
+   "name": "vaati_transfigured_e012",
+   "file": "vaati_transfigured_e012.png",
+   "cell": [
+    5,
+    5
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 84,
+     "role": "frame_0",
+     "src": [
+      406,
+      242,
+      5,
+      5
+     ]
+    },
+    {
+     "item": 85,
+     "role": "frame_1",
+     "src": [
+      416,
+      243,
+      4,
+      4
+     ]
+    }
+   ],
+   "box": [
+    406,
+    242,
+    14,
+    5
+   ]
+  },
+  {
+   "id": 13,
+   "name": "vaati_transfigured_e013",
+   "file": "vaati_transfigured_e013.png",
+   "cell": [
+    8,
+    9
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 86,
+     "role": "frame_0",
+     "src": [
+      764,
+      241,
+      7,
+      7
+     ]
+    },
+    {
+     "item": 87,
+     "role": "frame_1",
+     "src": [
+      780,
+      240,
+      6,
+      8
+     ]
+    },
+    {
+     "item": 88,
+     "role": "frame_2",
+     "src": [
+      793,
+      239,
+      6,
+      8
+     ]
+    }
+   ],
+   "box": [
+    764,
+    239,
+    35,
+    9
+   ]
+  },
+  {
+   "id": 14,
+   "name": "vaati_transfigured_e014",
+   "file": "vaati_transfigured_e014.png",
+   "cell": [
+    7,
+    11
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 90,
+     "role": "frame_0",
+     "src": [
+      843,
+      240,
+      6,
+      7
+     ]
+    },
+    {
+     "item": 91,
+     "role": "frame_1",
+     "src": [
+      853,
+      243,
+      7,
+      8
+     ]
+    }
+   ],
+   "box": [
+    843,
+    240,
+    17,
+    11
+   ]
+  },
+  {
+   "id": 15,
+   "name": "vaati_transfigured_e015",
+   "file": "vaati_transfigured_e015.png",
+   "cell": [
+    7,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 92,
+     "role": "frame_0",
+     "src": [
+      877,
+      241,
+      7,
+      6
+     ]
+    },
+    {
+     "item": 93,
+     "role": "frame_1",
+     "src": [
+      887,
+      244,
+      7,
+      6
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    877,
+    241,
+    17,
+    9
+   ]
+  },
+  {
+   "id": 16,
+   "name": "vaati_transfigured_e016",
+   "file": "vaati_transfigured_e016.png",
+   "cell": [
+    15,
+    22
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 96,
+     "role": "frame_0",
+     "src": [
+      126,
+      267,
+      5,
+      4
+     ]
+    },
+    {
+     "item": 97,
+     "role": "frame_1",
+     "src": [
+      134,
+      251,
+      15,
+      22
+     ]
+    }
+   ],
+   "box": [
+    126,
+    251,
+    23,
+    22
+   ]
+  },
+  {
+   "id": 17,
+   "name": "vaati_transfigured_e017",
+   "file": "vaati_transfigured_e017.png",
+   "cell": [
+    17,
+    20
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 98,
+     "role": "frame_0",
+     "src": [
+      163,
+      268,
+      5,
+      4
+     ]
+    },
+    {
+     "item": 99,
+     "role": "frame_1",
+     "src": [
+      172,
+      252,
+      17,
+      20
+     ]
+    }
+   ],
+   "box": [
+    163,
+    252,
+    26,
+    20
+   ]
+  },
+  {
+   "id": 18,
+   "name": "vaati_transfigured_e018",
+   "file": "vaati_transfigured_e018.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 101,
+     "role": "frame_0",
+     "src": [
+      347,
+      264,
+      6,
+      6
+     ]
+    },
+    {
+     "item": 102,
+     "role": "frame_1",
+     "src": [
+      347,
+      264,
+      6,
+      6
+     ],
+     "duplicate_of": 0
+    }
+   ],
+   "box": [
+    347,
+    264,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 19,
+   "name": "vaati_transfigured_e019",
+   "file": "vaati_transfigured_e019.png",
+   "cell": [
+    13,
+    11
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 107,
+     "role": "frame_0",
+     "src": [
+      85,
+      250,
+      8,
+      7
+     ]
+    },
+    {
+     "item": 108,
+     "role": "frame_1",
+     "src": [
+      99,
+      252,
+      13,
+      8
+     ]
+    },
+    {
+     "item": 109,
+     "role": "frame_2",
+     "src": [
+      117,
+      249,
+      8,
+      8
+     ]
+    }
+   ],
+   "box": [
+    85,
+    249,
+    40,
+    11
+   ]
+  },
+  {
+   "id": 20,
+   "name": "vaati_transfigured_e020",
+   "file": "vaati_transfigured_e020.png",
+   "cell": [
+    5,
+    4
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 112,
+     "role": "frame_0",
+     "src": [
+      216,
+      258,
+      4,
+      4
+     ]
+    },
+    {
+     "item": 113,
+     "role": "frame_1",
+     "src": [
+      224,
+      252,
+      5,
+      4
+     ]
+    }
+   ],
+   "box": [
+    216,
+    252,
+    13,
+    10
+   ]
+  },
+  {
+   "id": 21,
+   "name": "vaati_transfigured_e021",
+   "file": "vaati_transfigured_e021.png",
+   "cell": [
+    14,
+    11
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 114,
+     "role": "frame_0",
+     "src": [
+      333,
+      251,
+      14,
+      11
+     ]
+    },
+    {
+     "item": 115,
+     "role": "frame_1",
+     "src": [
+      348,
+      252,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    333,
+    251,
+    21,
+    11
+   ]
+  },
+  {
+   "id": 22,
+   "name": "vaati_transfigured_e022",
+   "file": "vaati_transfigured_e022.png",
+   "cell": [
+    4,
+    4
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 116,
+     "role": "frame_0",
+     "src": [
+      377,
+      256,
+      4,
+      4
+     ]
+    },
+    {
+     "item": 117,
+     "role": "frame_1",
+     "src": [
+      386,
+      258,
+      4,
+      4
+     ],
+     "duplicate_of": 0
+    }
+   ],
+   "box": [
+    377,
+    256,
+    13,
+    6
+   ]
+  },
+  {
+   "id": 23,
+   "name": "vaati_transfigured_e023",
+   "file": "vaati_transfigured_e023.png",
+   "cell": [
+    22,
+    17
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 118,
+     "role": "frame_0",
+     "src": [
+      8,
+      252,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 119,
+     "role": "frame_1",
+     "src": [
+      29,
+      252,
+      22,
+      17
+     ]
+    }
+   ],
+   "box": [
+    8,
+    252,
+    43,
+    17
+   ]
+  },
+  {
+   "id": 24,
+   "name": "vaati_transfigured_e024",
+   "file": "vaati_transfigured_e024.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 127,
+     "role": "frame_0",
+     "src": [
+      332,
+      263,
+      6,
+      6
+     ]
+    },
+    {
+     "item": 128,
+     "role": "frame_1",
+     "src": [
+      332,
+      263,
+      6,
+      6
+     ],
+     "duplicate_of": 0
+    }
+   ],
+   "box": [
+    332,
+    263,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 25,
+   "name": "vaati_transfigured_e025",
+   "file": "vaati_transfigured_e025.png",
+   "cell": [
+    8,
+    8
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 141,
+     "role": "frame_0",
+     "src": [
+      846,
+      257,
+      6,
+      6
+     ]
+    },
+    {
+     "item": 142,
+     "role": "frame_1",
+     "src": [
+      857,
+      256,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 143,
+     "role": "frame_2",
+     "src": [
+      869,
+      257,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    846,
+    256,
+    29,
+    8
+   ]
+  },
+  {
+   "id": 26,
+   "name": "vaati_transfigured_eye_spikes",
+   "file": "vaati_transfigured_eye_spikes.png",
+   "cell": [
+    28,
+    21
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 165,
+     "role": "frame_0",
+     "src": [
+      763,
+      284,
+      28,
+      21
+     ]
+    },
+    {
+     "item": 166,
+     "role": "frame_1",
+     "src": [
+      801,
+      284,
+      28,
+      21
+     ]
+    },
+    {
+     "item": 167,
+     "role": "frame_2",
+     "src": [
+      839,
+      284,
+      28,
+      21
+     ]
+    },
+    {
+     "item": 168,
+     "role": "frame_3",
+     "src": [
+      876,
+      284,
+      28,
+      21
+     ]
+    },
+    {
+     "item": 169,
+     "role": "frame_4",
+     "src": [
+      912,
+      284,
+      28,
+      21
+     ]
+    },
+    {
+     "item": 170,
+     "role": "frame_5",
+     "src": [
+      949,
+      284,
+      28,
+      21
+     ]
+    },
+    {
+     "item": 171,
+     "role": "frame_6",
+     "src": [
+      984,
+      284,
+      28,
+      21
+     ]
+    },
+    {
+     "item": 172,
+     "role": "frame_7",
+     "src": [
+      1018,
+      284,
+      28,
+      21
+     ]
+    }
+   ],
+   "box": [
+    763,
+    284,
+    283,
+    21
+   ]
+  },
+  {
+   "id": 27,
+   "name": "vaati_transfigured_e027",
+   "file": "vaati_transfigured_e027.png",
+   "cell": [
+    28,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 176,
+     "role": "frame_0",
+     "src": [
+      176,
+      291,
+      24,
+      10
+     ]
+    },
+    {
+     "item": 177,
+     "role": "frame_1",
+     "src": [
+      203,
+      285,
+      24,
+      15
+     ]
+    },
+    {
+     "item": 178,
+     "role": "frame_2",
+     "src": [
+      233,
+      288,
+      28,
+      12
+     ]
+    }
+   ],
+   "box": [
+    176,
+    285,
+    85,
+    16
+   ]
+  },
+  {
+   "id": 28,
+   "name": "vaati_transfigured_cloak_open",
+   "file": "vaati_transfigured_cloak_open.png",
+   "cell": [
+    54,
+    55
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      18,
+      12,
+      42,
+      55
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      74,
+      12,
+      46,
+      55
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      129,
+      12,
+      52,
+      53
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      185,
+      12,
+      52,
+      53
+     ]
+    }
+   ],
+   "box": [
+    18,
+    12,
+    219,
+    55
+   ]
+  },
+  {
+   "id": 29,
+   "name": "vaati_transfigured_flash",
+   "file": "vaati_transfigured_flash.png",
+   "cell": [
+    52,
+    53
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 4,
+     "role": "frame_0",
+     "src": [
+      240,
+      12,
+      52,
+      53
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_1",
+     "src": [
+      295,
+      12,
+      52,
+      53
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_2",
+     "src": [
+      351,
+      12,
+      52,
+      53
+     ]
+    }
+   ],
+   "box": [
+    240,
+    12,
+    163,
+    53
+   ]
+  },
+  {
+   "id": 30,
+   "name": "vaati_transfigured_morph",
+   "file": "vaati_transfigured_morph.png",
+   "cell": [
+    58,
+    53
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 21,
+     "role": "frame_0",
+     "src": [
+      158,
+      87,
+      58,
+      53
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_1",
+     "src": [
+      231,
+      87,
+      58,
+      53
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_2",
+     "src": [
+      298,
+      91,
+      42,
+      48
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_3",
+     "src": [
+      350,
+      91,
+      42,
+      48
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_4",
+     "src": [
+      401,
+      92,
+      42,
+      47
+     ]
+    }
+   ],
+   "box": [
+    158,
+    87,
+    285,
+    53
+   ]
+  },
+  {
+   "id": 31,
+   "name": "vaati_transfigured_lightning",
+   "file": "vaati_transfigured_lightning.png",
+   "cell": [
+    81,
+    80
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 29,
+     "role": "frame_0",
+     "src": [
+      692,
+      107,
+      80,
+      80
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_1",
+     "src": [
+      783,
+      107,
+      80,
+      80
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_2",
+     "src": [
+      875,
+      107,
+      80,
+      80
+     ]
+    },
+    {
+     "item": 32,
+     "role": "frame_3",
+     "src": [
+      966,
+      107,
+      80,
+      80
+     ]
+    }
+   ],
+   "box": [
+    692,
+    107,
+    354,
+    80
+   ]
+  },
+  {
+   "id": 32,
+   "name": "vaati_transfigured_shockwave_blue",
+   "file": "vaati_transfigured_shockwave_blue.png",
+   "cell": [
+    26,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 78,
+     "role": "frame_0",
+     "src": [
+      902,
+      228,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 79,
+     "role": "frame_1",
+     "src": [
+      913,
+      227,
+      10,
+      10
+     ]
+    },
+    {
+     "item": 62,
+     "role": "frame_2",
+     "src": [
+      928,
+      224,
+      14,
+      16
+     ]
+    },
+    {
+     "item": 63,
+     "role": "frame_3",
+     "src": [
+      946,
+      224,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 64,
+     "role": "frame_4",
+     "src": [
+      965,
+      220,
+      22,
+      22
+     ]
+    },
+    {
+     "item": 65,
+     "role": "frame_5",
+     "src": [
+      991,
+      224,
+      17,
+      16
+     ]
+    },
+    {
+     "item": 66,
+     "role": "frame_6",
+     "src": [
+      1012,
+      224,
+      17,
+      16
+     ]
+    },
+    {
+     "item": 67,
+     "role": "frame_7",
+     "src": [
+      1032,
+      222,
+      24,
+      20
+     ]
+    },
+    {
+     "item": 68,
+     "role": "frame_8",
+     "src": [
+      1059,
+      219,
+      26,
+      26
+     ]
+    }
+   ],
+   "box": [
+    902,
+    219,
+    183,
+    26
+   ]
+  },
+  {
+   "id": 33,
+   "name": "vaati_transfigured_laser",
+   "file": "vaati_transfigured_laser.png",
+   "cell": [
+    45,
+    12
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 133,
+     "role": "frame_0",
+     "src": [
+      453,
+      257,
+      42,
+      9
+     ]
+    },
+    {
+     "item": 134,
+     "role": "frame_1",
+     "src": [
+      501,
+      256,
+      42,
+      9
+     ]
+    },
+    {
+     "item": 135,
+     "role": "frame_2",
+     "src": [
+      549,
+      256,
+      42,
+      9
+     ]
+    },
+    {
+     "item": 136,
+     "role": "frame_3",
+     "src": [
+      594,
+      256,
+      42,
+      9
+     ]
+    },
+    {
+     "item": 137,
+     "role": "frame_4",
+     "src": [
+      640,
+      256,
+      42,
+      9
+     ]
+    },
+    {
+     "item": 138,
+     "role": "frame_5",
+     "src": [
+      691,
+      255,
+      45,
+      12
+     ]
+    },
+    {
+     "item": 139,
+     "role": "frame_6",
+     "src": [
+      742,
+      255,
+      45,
+      12
+     ]
+    },
+    {
+     "item": 140,
+     "role": "frame_7",
+     "src": [
+      793,
+      255,
+      45,
+      12
+     ],
+     "duplicate_of": 5
+    }
+   ],
+   "box": [
+    453,
+    255,
+    385,
+    12
+   ]
+  },
+  {
+   "id": 34,
+   "name": "vaati_transfigured_shockwave_purple",
+   "file": "vaati_transfigured_shockwave_purple.png",
+   "cell": [
+    26,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 144,
+     "role": "frame_0",
+     "src": [
+      879,
+      256,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 145,
+     "role": "frame_1",
+     "src": [
+      893,
+      256,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 146,
+     "role": "frame_2",
+     "src": [
+      904,
+      255,
+      10,
+      10
+     ]
+    },
+    {
+     "item": 147,
+     "role": "frame_3",
+     "src": [
+      919,
+      252,
+      14,
+      16
+     ]
+    },
+    {
+     "item": 148,
+     "role": "frame_4",
+     "src": [
+      937,
+      252,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 103,
+     "role": "frame_5",
+     "src": [
+      956,
+      248,
+      22,
+      22
+     ]
+    },
+    {
+     "item": 149,
+     "role": "frame_6",
+     "src": [
+      982,
+      252,
+      17,
+      16
+     ]
+    },
+    {
+     "item": 150,
+     "role": "frame_7",
+     "src": [
+      1003,
+      252,
+      17,
+      16
+     ]
+    },
+    {
+     "item": 104,
+     "role": "frame_8",
+     "src": [
+      1023,
+      250,
+      24,
+      20
+     ]
+    },
+    {
+     "item": 105,
+     "role": "frame_9",
+     "src": [
+      1050,
+      247,
+      26,
+      26
+     ]
+    }
+   ],
+   "box": [
+    879,
+    247,
+    197,
+    26
+   ]
+  },
+  {
+   "id": 35,
+   "name": "vaati_transfigured_eye_look",
+   "file": "vaati_transfigured_eye_look.png",
+   "cell": [
+    28,
+    21
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 153,
+     "role": "frame_0",
+     "src": [
+      306,
+      284,
+      28,
+      21
+     ]
+    },
+    {
+     "item": 154,
+     "role": "frame_1",
+     "src": [
+      342,
+      284,
+      28,
+      21
+     ]
+    },
+    {
+     "item": 155,
+     "role": "frame_2",
+     "src": [
+      379,
+      284,
+      28,
+      21
+     ]
+    },
+    {
+     "item": 156,
+     "role": "frame_3",
+     "src": [
+      415,
+      284,
+      28,
+      21
+     ]
+    },
+    {
+     "item": 157,
+     "role": "frame_4",
+     "src": [
+      454,
+      284,
+      28,
+      21
+     ]
+    },
+    {
+     "item": 158,
+     "role": "frame_5",
+     "src": [
+      492,
+      284,
+      28,
+      21
+     ]
+    },
+    {
+     "item": 159,
+     "role": "frame_6",
+     "src": [
+      530,
+      284,
+      28,
+      21
+     ]
+    },
+    {
+     "item": 160,
+     "role": "frame_7",
+     "src": [
+      569,
+      284,
+      28,
+      21
+     ]
+    }
+   ],
+   "box": [
+    306,
+    284,
+    291,
+    21
+   ]
+  },
+  {
+   "id": 36,
+   "name": "vaati_transfigured_eye_idle",
+   "file": "vaati_transfigured_eye_idle.png",
+   "cell": [
+    29,
+    21
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 161,
+     "role": "frame_0",
+     "src": [
+      608,
+      284,
+      28,
+      21
+     ]
+    },
+    {
+     "item": 162,
+     "role": "frame_1",
+     "src": [
+      646,
+      284,
+      28,
+      21
+     ]
+    },
+    {
+     "item": 163,
+     "role": "frame_2",
+     "src": [
+      685,
+      284,
+      28,
+      21
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 164,
+     "role": "frame_3",
+     "src": [
+      724,
+      284,
+      28,
+      21
+     ]
+    }
+   ],
+   "box": [
+    608,
+    284,
+    144,
+    21
+   ]
+  },
+  {
+   "id": 37,
+   "name": "vaati_transfigured_crest_spikes",
+   "file": "vaati_transfigured_crest_spikes.png",
+   "cell": [
+    24,
+    11
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 173,
+     "role": "frame_0",
+     "src": [
+      70,
+      291,
+      22,
+      4
+     ]
+    },
+    {
+     "item": 174,
+     "role": "frame_1",
+     "src": [
+      95,
+      291,
+      24,
+      6
+     ]
+    },
+    {
+     "item": 175,
+     "role": "frame_2",
+     "src": [
+      122,
+      291,
+      24,
+      10
+     ]
+    },
+    {
+     "item": 151,
+     "role": "frame_3",
+     "src": [
+      149,
+      291,
+      24,
+      11
+     ]
+    }
+   ],
+   "box": [
+    70,
+    291,
+    103,
+    11
+   ]
+  },
+  {
+   "id": 38,
+   "name": "vaati_transfigured_explosion",
+   "file": "vaati_transfigured_explosion.png",
+   "cell": [
+    75,
+    85
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 179,
+     "role": "frame_0",
+     "src": [
+      213,
+      335,
+      71,
+      77
+     ]
+    },
+    {
+     "item": 180,
+     "role": "frame_1",
+     "src": [
+      296,
+      333,
+      73,
+      78
+     ]
+    },
+    {
+     "item": 181,
+     "role": "frame_2",
+     "src": [
+      381,
+      329,
+      71,
+      81
+     ]
+    },
+    {
+     "item": 182,
+     "role": "frame_3",
+     "src": [
+      467,
+      327,
+      73,
+      81
+     ]
+    },
+    {
+     "item": 183,
+     "role": "frame_4",
+     "src": [
+      549,
+      327,
+      74,
+      82
+     ]
+    },
+    {
+     "item": 184,
+     "role": "frame_5",
+     "src": [
+      635,
+      330,
+      74,
+      77
+     ]
+    },
+    {
+     "item": 185,
+     "role": "frame_6",
+     "src": [
+      720,
+      328,
+      75,
+      78
+     ]
+    },
+    {
+     "item": 186,
+     "role": "frame_7",
+     "src": [
+      810,
+      327,
+      71,
+      79
+     ]
+    }
+   ],
+   "box": [
+    213,
+    327,
+    668,
+    85
+   ]
+  },
+  {
+   "id": 39,
+   "name": "vaati_transfigured_crystal_burst",
+   "file": "vaati_transfigured_crystal_burst.png",
+   "cell": [
+    18,
+    17
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 121,
+     "role": "frame_0",
+     "src": [
+      235,
+      254,
+      12,
+      13
+     ]
+    },
+    {
+     "item": 122,
+     "role": "frame_1",
+     "src": [
+      249,
+      254,
+      12,
+      13
+     ]
+    },
+    {
+     "item": 123,
+     "role": "frame_2",
+     "src": [
+      263,
+      255,
+      13,
+      12
+     ]
+    },
+    {
+     "item": 124,
+     "role": "frame_3",
+     "src": [
+      278,
+      255,
+      13,
+      12
+     ]
+    },
+    {
+     "item": 125,
+     "role": "frame_4",
+     "src": [
+      294,
+      253,
+      14,
+      14
+     ]
+    },
+    {
+     "item": 126,
+     "role": "frame_5",
+     "src": [
+      312,
+      252,
+      16,
+      17
+     ]
+    },
+    {
+     "item": 129,
+     "role": "frame_6",
+     "src": [
+      356,
+      252,
+      18,
+      17
+     ]
+    },
+    {
+     "item": 130,
+     "role": "frame_7",
+     "src": [
+      392,
+      253,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 132,
+     "role": "frame_8",
+     "src": [
+      428,
+      253,
+      16,
+      16
+     ],
+     "duplicate_of": 7
+    }
+   ],
+   "box": [
+    235,
+    252,
+    209,
+    17
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 706,
+   "y": 230,
+   "w": 16,
+   "h": 6,
+   "area": 68,
+   "ncolors": 5,
+   "dominant": "#080808",
+   "dom_frac": 0.353,
+   "kind": "sprite",
+   "zone": null,
+   "id": 69,
+   "file": "vaati_transfigured_069.png"
+  },
+  {
+   "x": 794,
+   "y": 226,
+   "w": 16,
+   "h": 8,
+   "area": 67,
+   "ncolors": 4,
+   "dominant": "#A02818",
+   "dom_frac": 0.403,
+   "kind": "sprite",
+   "zone": null,
+   "id": 72,
+   "file": "vaati_transfigured_072.png"
+  },
+  {
+   "x": 891,
+   "y": 227,
+   "w": 7,
+   "h": 6,
+   "area": 30,
+   "ncolors": 4,
+   "dominant": "#A02818",
+   "dom_frac": 0.4,
+   "kind": "sprite",
+   "zone": null,
+   "id": 77,
+   "file": "vaati_transfigured_077.png"
+  },
+  {
+   "x": 811,
+   "y": 242,
+   "w": 18,
+   "h": 7,
+   "area": 66,
+   "ncolors": 4,
+   "dominant": "#080808",
+   "dom_frac": 0.364,
+   "kind": "sprite",
+   "zone": null,
+   "id": 89,
+   "file": "vaati_transfigured_089.png"
+  },
+  {
+   "x": 63,
+   "y": 254,
+   "w": 17,
+   "h": 16,
+   "area": 124,
+   "ncolors": 5,
+   "dominant": "#000000",
+   "dom_frac": 0.339,
+   "kind": "sprite",
+   "zone": null,
+   "id": 94,
+   "file": "vaati_transfigured_094.png"
+  },
+  {
+   "x": 93,
+   "y": 263,
+   "w": 14,
+   "h": 7,
+   "area": 63,
+   "ncolors": 5,
+   "dominant": "#000000",
+   "dom_frac": 0.349,
+   "kind": "sprite",
+   "zone": null,
+   "id": 95,
+   "file": "vaati_transfigured_095.png"
+  },
+  {
+   "x": 204,
+   "y": 266,
+   "w": 4,
+   "h": 4,
+   "area": 12,
+   "ncolors": 5,
+   "dominant": "#704880",
+   "dom_frac": 0.333,
+   "kind": "sprite",
+   "zone": null,
+   "id": 100,
+   "file": "vaati_transfigured_100.png"
+  },
+  {
+   "x": 55,
+   "y": 253,
+   "w": 8,
+   "h": 8,
+   "area": 51,
+   "ncolors": 5,
+   "dominant": "#000000",
+   "dom_frac": 0.294,
+   "kind": "sprite",
+   "zone": null,
+   "id": 106,
+   "file": "vaati_transfigured_106.png"
+  },
+  {
+   "x": 153,
+   "y": 252,
+   "w": 8,
+   "h": 7,
+   "area": 47,
+   "ncolors": 5,
+   "dominant": "#000000",
+   "dom_frac": 0.319,
+   "kind": "sprite",
+   "zone": null,
+   "id": 110,
+   "file": "vaati_transfigured_110.png"
+  },
+  {
+   "x": 195,
+   "y": 253,
+   "w": 5,
+   "h": 4,
+   "area": 16,
+   "ncolors": 5,
+   "dominant": "#000000",
+   "dom_frac": 0.438,
+   "kind": "sprite",
+   "zone": null,
+   "id": 111,
+   "file": "vaati_transfigured_111.png"
+  },
+  {
+   "x": 216,
+   "y": 265,
+   "w": 5,
+   "h": 4,
+   "area": 16,
+   "ncolors": 5,
+   "dominant": "#000000",
+   "dom_frac": 0.438,
+   "kind": "sprite",
+   "zone": null,
+   "id": 120,
+   "file": "vaati_transfigured_120.png"
+  },
+  {
+   "x": 416,
+   "y": 259,
+   "w": 4,
+   "h": 4,
+   "area": 12,
+   "ncolors": 6,
+   "dominant": "#382878",
+   "dom_frac": 0.417,
+   "kind": "sprite",
+   "zone": null,
+   "id": 131,
+   "file": "vaati_transfigured_131.png"
+  },
+  {
+   "x": 269,
+   "y": 288,
+   "w": 28,
+   "h": 19,
+   "area": 218,
+   "ncolors": 4,
+   "dominant": "#F0D020",
+   "dom_frac": 0.358,
+   "kind": "sprite",
+   "zone": null,
+   "id": 152,
+   "file": "vaati_transfigured_152.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

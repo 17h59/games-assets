@@ -1,0 +1,493 @@
+{
+ "sheet": "6498",
+ "game": "minish_cap",
+ "category": "monsters",
+ "title": "Moldworm",
+ "type": "sprites",
+ "template": "none",
+ "validation": "pending",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    4,
+    113,
+    62,
+    8
+   ],
+   "point": [
+    35,
+    117
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 1,
+   "box": [
+    4,
+    125,
+    87,
+    8
+   ],
+   "point": [
+    47,
+    129
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 2,
+   "box": [
+    4,
+    139,
+    81,
+    8
+   ],
+   "point": [
+    44,
+    143
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 3,
+   "box": [
+    4,
+    153,
+    90,
+    8
+   ],
+   "point": [
+    49,
+    157
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "moldworm_e000",
+   "file": "moldworm_e000.png",
+   "cell": [
+    11,
+    13
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      63,
+      4,
+      11,
+      11
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      78,
+      2,
+      7,
+      7
+     ]
+    }
+   ],
+   "box": [
+    63,
+    2,
+    22,
+    13
+   ]
+  },
+  {
+   "id": 1,
+   "name": "moldworm_e001",
+   "file": "moldworm_e001.png",
+   "cell": [
+    14,
+    17
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 2,
+     "role": "frame_0",
+     "src": [
+      3,
+      3,
+      14,
+      15
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_1",
+     "src": [
+      20,
+      3,
+      14,
+      17
+     ]
+    }
+   ],
+   "box": [
+    3,
+    3,
+    31,
+    17
+   ]
+  },
+  {
+   "id": 2,
+   "name": "moldworm_e002",
+   "file": "moldworm_e002.png",
+   "cell": [
+    18,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 5,
+     "role": "frame_0",
+     "src": [
+      8,
+      46,
+      18,
+      13
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_1",
+     "src": [
+      27,
+      44,
+      16,
+      16
+     ]
+    }
+   ],
+   "box": [
+    8,
+    44,
+    35,
+    16
+   ]
+  },
+  {
+   "id": 3,
+   "name": "moldworm_e003",
+   "file": "moldworm_e003.png",
+   "cell": [
+    16,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 8,
+     "role": "frame_0",
+     "src": [
+      44,
+      19,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_1",
+     "src": [
+      61,
+      19,
+      15,
+      15
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_2",
+     "src": [
+      80,
+      21,
+      11,
+      11
+     ]
+    }
+   ],
+   "box": [
+    44,
+    19,
+    47,
+    16
+   ]
+  },
+  {
+   "id": 4,
+   "name": "moldworm_e004",
+   "file": "moldworm_e004.png",
+   "cell": [
+    17,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 11,
+     "role": "frame_0",
+     "src": [
+      9,
+      28,
+      17,
+      15
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_1",
+     "src": [
+      27,
+      27,
+      16,
+      16
+     ]
+    }
+   ],
+   "box": [
+    9,
+    27,
+    34,
+    16
+   ]
+  },
+  {
+   "id": 5,
+   "name": "moldworm_e005",
+   "file": "moldworm_e005.png",
+   "cell": [
+    14,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 13,
+     "role": "frame_0",
+     "src": [
+      11,
+      79,
+      14,
+      14
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_1",
+     "src": [
+      28,
+      78,
+      14,
+      16
+     ]
+    }
+   ],
+   "box": [
+    11,
+    78,
+    31,
+    16
+   ]
+  },
+  {
+   "id": 6,
+   "name": "moldworm_e006",
+   "file": "moldworm_e006.png",
+   "cell": [
+    17,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 16,
+     "role": "frame_0",
+     "src": [
+      9,
+      61,
+      17,
+      14
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_1",
+     "src": [
+      27,
+      61,
+      16,
+      16
+     ]
+    }
+   ],
+   "box": [
+    9,
+    61,
+    34,
+    16
+   ]
+  },
+  {
+   "id": 7,
+   "name": "moldworm_e007",
+   "file": "moldworm_e007.png",
+   "cell": [
+    30,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 18,
+     "role": "frame_0",
+     "src": [
+      2,
+      102,
+      16,
+      9
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_1",
+     "src": [
+      19,
+      101,
+      16,
+      10
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_2",
+     "src": [
+      36,
+      100,
+      16,
+      11
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_3",
+     "src": [
+      53,
+      95,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_4",
+     "src": [
+      72,
+      98,
+      28,
+      13
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_5",
+     "src": [
+      104,
+      99,
+      30,
+      12
+     ]
+    }
+   ],
+   "box": [
+    2,
+    95,
+    132,
+    16
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 45,
+   "y": 3,
+   "w": 13,
+   "h": 13,
+   "area": 137,
+   "ncolors": 4,
+   "dominant": "#F8C0A0",
+   "dom_frac": 0.533,
+   "kind": "sprite",
+   "zone": null,
+   "id": 4,
+   "file": "moldworm_004.png"
+  },
+  {
+   "x": 82,
+   "y": 3,
+   "w": 41,
+   "h": 53,
+   "area": 874,
+   "ncolors": 21,
+   "dominant": "#F87050",
+   "dom_frac": 0.418,
+   "kind": "sprite",
+   "zone": null,
+   "id": 7,
+   "file": "moldworm_007.png"
+  },
+  {
+   "x": 102,
+   "y": 29,
+   "w": 40,
+   "h": 61,
+   "area": 908,
+   "ncolors": 12,
+   "dominant": "#F87050",
+   "dom_frac": 0.343,
+   "kind": "sprite",
+   "zone": null,
+   "id": 15,
+   "file": "moldworm_015.png"
+  }
+ ],
+ "status": "needs_review",
+ "missing_stages": [
+  "decoupage",
+  "regroupement",
+  "nommage"
+ ]
+}

@@ -1,0 +1,88 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/mountain_minish/minish_blacksmith.png" id="1_gxkuu"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cxmia"]
+atlas = ExtResource("1_gxkuu")
+region = Rect2(0, 0, 44, 42)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_of85n"]
+atlas = ExtResource("1_gxkuu")
+region = Rect2(44, 0, 44, 42)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hr3b4"]
+atlas = ExtResource("1_gxkuu")
+region = Rect2(88, 0, 44, 42)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bwrhp"]
+atlas = ExtResource("1_gxkuu")
+region = Rect2(132, 0, 44, 42)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tkup8"]
+atlas = ExtResource("1_gxkuu")
+region = Rect2(176, 0, 44, 42)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g3px4"]
+atlas = ExtResource("1_gxkuu")
+region = Rect2(220, 0, 44, 42)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sbkpx"]
+atlas = ExtResource("1_gxkuu")
+region = Rect2(264, 0, 44, 42)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h4xn7"]
+atlas = ExtResource("1_gxkuu")
+region = Rect2(308, 0, 44, 42)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jyojm"]
+atlas = ExtResource("1_gxkuu")
+region = Rect2(352, 0, 44, 42)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u8v4x"]
+atlas = ExtResource("1_gxkuu")
+region = Rect2(396, 0, 44, 42)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pcfi1"]
+atlas = ExtResource("1_gxkuu")
+region = Rect2(440, 0, 44, 42)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cxmia")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_of85n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hr3b4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bwrhp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tkup8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g3px4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sbkpx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h4xn7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jyojm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u8v4x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pcfi1")
+}],
+"loop": 1,
+"name": &"hammer",
+"speed": 6.0
+}]

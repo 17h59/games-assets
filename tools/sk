@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Lanceur de spritekit : `tools/sk <commande> ...` depuis n'importe où.
+HERE="$(cd "$(dirname "$0")" && pwd)"
+cd "$HERE" && exec "$HERE/../.venv/bin/python" -m spritekit "$@"

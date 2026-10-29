@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/eevee_hut/flag.png" id="1_grmep"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l5cqj"]
+atlas = ExtResource("1_grmep")
+region = Rect2(0, 0, 28, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q6lg4"]
+atlas = ExtResource("1_grmep")
+region = Rect2(28, 0, 28, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s4iwu"]
+atlas = ExtResource("1_grmep")
+region = Rect2(56, 0, 28, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c2h0l"]
+atlas = ExtResource("1_grmep")
+region = Rect2(84, 0, 28, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6unno"]
+atlas = ExtResource("1_grmep")
+region = Rect2(112, 0, 28, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1p1fi"]
+atlas = ExtResource("1_grmep")
+region = Rect2(140, 0, 28, 23)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l5cqj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q6lg4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s4iwu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c2h0l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6unno")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1p1fi")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/fire_type_moves/flamethrower/flamethrower_e047.png" id="1_5px77"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b0ytc"]
+atlas = ExtResource("1_5px77")
+region = Rect2(0, 0, 51, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qxqyr"]
+atlas = ExtResource("1_5px77")
+region = Rect2(51, 0, 51, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eaafe"]
+atlas = ExtResource("1_5px77")
+region = Rect2(102, 0, 51, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x7m7g"]
+atlas = ExtResource("1_5px77")
+region = Rect2(153, 0, 51, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b0ytc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qxqyr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eaafe")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x7m7g")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

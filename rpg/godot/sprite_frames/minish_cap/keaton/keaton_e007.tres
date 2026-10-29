@@ -1,0 +1,74 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/keaton/keaton_e007.png" id="1_tg615"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5i358"]
+atlas = ExtResource("1_tg615")
+region = Rect2(0, 0, 31, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vweba"]
+atlas = ExtResource("1_tg615")
+region = Rect2(31, 0, 31, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k1xar"]
+atlas = ExtResource("1_tg615")
+region = Rect2(62, 0, 31, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y2l1j"]
+atlas = ExtResource("1_tg615")
+region = Rect2(93, 0, 31, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uot7e"]
+atlas = ExtResource("1_tg615")
+region = Rect2(124, 0, 31, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mfuxt"]
+atlas = ExtResource("1_tg615")
+region = Rect2(155, 0, 31, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3w46p"]
+atlas = ExtResource("1_tg615")
+region = Rect2(186, 0, 31, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n4x32"]
+atlas = ExtResource("1_tg615")
+region = Rect2(217, 0, 31, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u1afj"]
+atlas = ExtResource("1_tg615")
+region = Rect2(248, 0, 31, 27)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5i358")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vweba")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k1xar")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y2l1j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uot7e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mfuxt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3w46p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n4x32")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u1afj")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

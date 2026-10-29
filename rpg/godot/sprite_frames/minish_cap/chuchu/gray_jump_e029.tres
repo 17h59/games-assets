@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/chuchu/gray_jump/gray_jump_e029.png" id="1_4g56o"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kew4u"]
+atlas = ExtResource("1_4g56o")
+region = Rect2(0, 0, 16, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_astqr"]
+atlas = ExtResource("1_4g56o")
+region = Rect2(16, 0, 16, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i6eu2"]
+atlas = ExtResource("1_4g56o")
+region = Rect2(32, 0, 16, 24)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kew4u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_astqr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i6eu2")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

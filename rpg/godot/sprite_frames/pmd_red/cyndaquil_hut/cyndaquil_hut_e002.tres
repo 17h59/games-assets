@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/cyndaquil_hut/cyndaquil_hut_e002.png" id="1_nnhbs"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lprok"]
+atlas = ExtResource("1_nnhbs")
+region = Rect2(0, 0, 8, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wbekr"]
+atlas = ExtResource("1_nnhbs")
+region = Rect2(8, 0, 8, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u2r6g"]
+atlas = ExtResource("1_nnhbs")
+region = Rect2(16, 0, 8, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_axisf"]
+atlas = ExtResource("1_nnhbs")
+region = Rect2(24, 0, 8, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gxa0y"]
+atlas = ExtResource("1_nnhbs")
+region = Rect2(32, 0, 8, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ba53q"]
+atlas = ExtResource("1_nnhbs")
+region = Rect2(40, 0, 8, 14)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lprok")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wbekr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u2r6g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_axisf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gxa0y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ba53q")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

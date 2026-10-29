@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/fire_type_moves/will_o_wisp/will_o_wisp_e063.png" id="1_fa6h8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5cuo3"]
+atlas = ExtResource("1_fa6h8")
+region = Rect2(0, 0, 37, 25)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4qma4"]
+atlas = ExtResource("1_fa6h8")
+region = Rect2(37, 0, 37, 25)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5cuo3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4qma4")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

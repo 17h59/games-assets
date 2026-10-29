@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/southern_island/red_flower_large.png" id="1_k5msw"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uhtxi"]
+atlas = ExtResource("1_k5msw")
+region = Rect2(0, 0, 22, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7iti8"]
+atlas = ExtResource("1_k5msw")
+region = Rect2(22, 0, 22, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dmnwh"]
+atlas = ExtResource("1_k5msw")
+region = Rect2(44, 0, 22, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4jqwi"]
+atlas = ExtResource("1_k5msw")
+region = Rect2(66, 0, 22, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_11kh7"]
+atlas = ExtResource("1_k5msw")
+region = Rect2(88, 0, 22, 21)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uhtxi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7iti8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dmnwh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4jqwi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_11kh7")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

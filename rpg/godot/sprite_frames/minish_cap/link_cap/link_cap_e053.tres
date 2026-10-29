@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/link_cap/link_cap_e053.png" id="1_fdyut"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4cecn"]
+atlas = ExtResource("1_fdyut")
+region = Rect2(0, 0, 18, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_difgk"]
+atlas = ExtResource("1_fdyut")
+region = Rect2(18, 0, 18, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cmt5s"]
+atlas = ExtResource("1_fdyut")
+region = Rect2(36, 0, 18, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ujgm0"]
+atlas = ExtResource("1_fdyut")
+region = Rect2(54, 0, 18, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x14k8"]
+atlas = ExtResource("1_fdyut")
+region = Rect2(72, 0, 18, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v7apw"]
+atlas = ExtResource("1_fdyut")
+region = Rect2(90, 0, 18, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rjadr"]
+atlas = ExtResource("1_fdyut")
+region = Rect2(108, 0, 18, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gmsal"]
+atlas = ExtResource("1_fdyut")
+region = Rect2(126, 0, 18, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4cecn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_difgk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cmt5s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ujgm0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x14k8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v7apw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rjadr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gmsal")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

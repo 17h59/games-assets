@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/thunder_meadow/thunder_meadow_e008.png" id="1_sl8kd"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4ue4w"]
+atlas = ExtResource("1_sl8kd")
+region = Rect2(0, 0, 15, 7)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_55fjw"]
+atlas = ExtResource("1_sl8kd")
+region = Rect2(15, 0, 15, 7)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_knebk"]
+atlas = ExtResource("1_sl8kd")
+region = Rect2(30, 0, 15, 7)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xg07c"]
+atlas = ExtResource("1_sl8kd")
+region = Rect2(45, 0, 15, 7)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4ue4w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_55fjw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_knebk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xg07c")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

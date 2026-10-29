@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/acrobandits/dive_hole.png" id="1_wusea"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mg854"]
+atlas = ExtResource("1_wusea")
+region = Rect2(0, 0, 25, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vsjk5"]
+atlas = ExtResource("1_wusea")
+region = Rect2(25, 0, 25, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i2ywq"]
+atlas = ExtResource("1_wusea")
+region = Rect2(50, 0, 25, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gx53t"]
+atlas = ExtResource("1_wusea")
+region = Rect2(75, 0, 25, 35)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mg854")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vsjk5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i2ywq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gx53t")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

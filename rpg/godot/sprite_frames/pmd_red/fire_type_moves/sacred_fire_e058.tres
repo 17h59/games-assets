@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/fire_type_moves/sacred_fire/sacred_fire_e058.png" id="1_0ot8f"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5cpq3"]
+atlas = ExtResource("1_0ot8f")
+region = Rect2(0, 0, 38, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_axr8l"]
+atlas = ExtResource("1_0ot8f")
+region = Rect2(38, 0, 38, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xp2q7"]
+atlas = ExtResource("1_0ot8f")
+region = Rect2(76, 0, 38, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oggcx"]
+atlas = ExtResource("1_0ot8f")
+region = Rect2(114, 0, 38, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_38i0v"]
+atlas = ExtResource("1_0ot8f")
+region = Rect2(152, 0, 38, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5cpq3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_axr8l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xp2q7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oggcx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_38i0v")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

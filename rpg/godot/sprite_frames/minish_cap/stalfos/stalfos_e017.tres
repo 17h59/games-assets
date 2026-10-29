@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/stalfos/stalfos_e017.png" id="1_k76sn"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kmq72"]
+atlas = ExtResource("1_k76sn")
+region = Rect2(0, 0, 30, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jyc3c"]
+atlas = ExtResource("1_k76sn")
+region = Rect2(30, 0, 30, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6x2il"]
+atlas = ExtResource("1_k76sn")
+region = Rect2(60, 0, 30, 26)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kmq72")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jyc3c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6x2il")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

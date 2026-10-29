@@ -1,0 +1,144 @@
+{
+ "sheet": "5337",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Psyduck Hut",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "psyduck_hut_e000",
+   "file": "psyduck_hut_e000.png",
+   "cell": [
+    32,
+    24
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      1,
+      1,
+      31,
+      23
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_1",
+     "src": [
+      33,
+      1,
+      31,
+      23
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_2",
+     "src": [
+      65,
+      1,
+      30,
+      23
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_3",
+     "src": [
+      95,
+      2,
+      32,
+      23
+     ]
+    }
+   ],
+   "box": [
+    1,
+    1,
+    126,
+    24
+   ]
+  },
+  {
+   "id": 1,
+   "name": "psyduck_hut_e001",
+   "file": "psyduck_hut_e001.png",
+   "cell": [
+    30,
+    23
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 5,
+     "role": "frame_0",
+     "src": [
+      1,
+      29,
+      30,
+      23
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_1",
+     "src": [
+      33,
+      29,
+      30,
+      23
+     ]
+    }
+   ],
+   "box": [
+    1,
+    29,
+    62,
+    23
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 392,
+   "h": 312,
+   "area": 114403,
+   "ncolors": 119,
+   "dominant": "#70C850",
+   "dom_frac": 0.166,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "psyduck_hut_000.png"
+  },
+  {
+   "x": 10,
+   "y": 316,
+   "w": 350,
+   "h": 278,
+   "area": 74004,
+   "ncolors": 129,
+   "dominant": "#38A060",
+   "dom_frac": 0.088,
+   "kind": "sprite",
+   "zone": null,
+   "id": 7,
+   "file": "psyduck_hut_007.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

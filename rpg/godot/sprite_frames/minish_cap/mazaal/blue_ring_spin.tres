@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/mazaal/deactivated/blue_ring_spin.png" id="1_phx27"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8j0vb"]
+atlas = ExtResource("1_phx27")
+region = Rect2(0, 0, 28, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a38gs"]
+atlas = ExtResource("1_phx27")
+region = Rect2(28, 0, 28, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_calyp"]
+atlas = ExtResource("1_phx27")
+region = Rect2(56, 0, 28, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bjgjx"]
+atlas = ExtResource("1_phx27")
+region = Rect2(84, 0, 28, 28)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8j0vb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a38gs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_calyp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bjgjx")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

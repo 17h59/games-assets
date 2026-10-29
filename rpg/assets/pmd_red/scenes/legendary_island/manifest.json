@@ -1,0 +1,340 @@
+{
+ "sheet": "5369",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Legendary Island",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "lava_1",
+   "file": "lava_1.png",
+   "cell": [
+    74,
+    38
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      527,
+      12,
+      73,
+      38
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_1",
+     "src": [
+      527,
+      52,
+      72,
+      38
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_2",
+     "src": [
+      527,
+      92,
+      74,
+      38
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_3",
+     "src": [
+      527,
+      132,
+      74,
+      38
+     ]
+    }
+   ],
+   "box": [
+    527,
+    12,
+    74,
+    158
+   ]
+  },
+  {
+   "id": 1,
+   "name": "lava_2",
+   "file": "lava_2.png",
+   "cell": [
+    73,
+    38
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 2,
+     "role": "frame_0",
+     "src": [
+      605,
+      12,
+      73,
+      38
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_1",
+     "src": [
+      605,
+      52,
+      72,
+      38
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_2",
+     "src": [
+      604,
+      92,
+      71,
+      38
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_3",
+     "src": [
+      604,
+      132,
+      72,
+      38
+     ]
+    }
+   ],
+   "box": [
+    604,
+    12,
+    74,
+    158
+   ]
+  },
+  {
+   "id": 2,
+   "name": "lava_3",
+   "file": "lava_3.png",
+   "cell": [
+    74,
+    38
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 3,
+     "role": "frame_0",
+     "src": [
+      681,
+      12,
+      73,
+      38
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_1",
+     "src": [
+      682,
+      52,
+      71,
+      38
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_2",
+     "src": [
+      680,
+      92,
+      74,
+      38
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_3",
+     "src": [
+      681,
+      132,
+      72,
+      38
+     ]
+    }
+   ],
+   "box": [
+    680,
+    12,
+    74,
+    158
+   ]
+  },
+  {
+   "id": 3,
+   "name": "lava_4",
+   "file": "lava_4.png",
+   "cell": [
+    76,
+    38
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 4,
+     "role": "frame_0",
+     "src": [
+      756,
+      12,
+      71,
+      38
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_1",
+     "src": [
+      756,
+      52,
+      73,
+      38
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_2",
+     "src": [
+      756,
+      92,
+      74,
+      38
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_3",
+     "src": [
+      755,
+      132,
+      75,
+      38
+     ]
+    }
+   ],
+   "box": [
+    755,
+    12,
+    75,
+    158
+   ]
+  },
+  {
+   "id": 4,
+   "name": "water_bridge",
+   "file": "water_bridge.png",
+   "cell": [
+    130,
+    39
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 17,
+     "role": "frame_0",
+     "src": [
+      531,
+      184,
+      130,
+      39
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_1",
+     "src": [
+      666,
+      185,
+      130,
+      36
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_2",
+     "src": [
+      530,
+      227,
+      130,
+      37
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_3",
+     "src": [
+      666,
+      227,
+      130,
+      37
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_4",
+     "src": [
+      530,
+      267,
+      130,
+      36
+     ]
+    }
+   ],
+   "box": [
+    530,
+    184,
+    266,
+    119
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 480,
+   "h": 370,
+   "area": 113521,
+   "ncolors": 105,
+   "dominant": "#009FF7",
+   "dom_frac": 0.193,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "legendary_island_000.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

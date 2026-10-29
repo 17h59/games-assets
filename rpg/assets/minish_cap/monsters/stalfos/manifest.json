@@ -1,0 +1,2055 @@
+{
+ "sheet": "6524",
+ "game": "minish_cap",
+ "category": "monsters",
+ "title": "Stalfos",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "stalfos_e000",
+   "file": "stalfos_e000.png",
+   "cell": [
+    28,
+    25
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      6,
+      4,
+      22,
+      23
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      39,
+      3,
+      22,
+      24
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      72,
+      4,
+      22,
+      23
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      103,
+      3,
+      28,
+      25
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_4",
+     "src": [
+      140,
+      3,
+      22,
+      22
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_5",
+     "src": [
+      173,
+      3,
+      22,
+      24
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_6",
+     "src": [
+      206,
+      4,
+      22,
+      23
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_7",
+     "src": [
+      239,
+      3,
+      22,
+      22
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_8",
+     "src": [
+      272,
+      3,
+      22,
+      24
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_9",
+     "src": [
+      305,
+      4,
+      22,
+      23
+     ]
+    }
+   ],
+   "box": [
+    6,
+    3,
+    321,
+    25
+   ]
+  },
+  {
+   "id": 1,
+   "name": "stalfos_e001",
+   "file": "stalfos_e001.png",
+   "cell": [
+    23,
+    20
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 10,
+     "role": "frame_0",
+     "src": [
+      106,
+      43,
+      22,
+      17
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_1",
+     "src": [
+      140,
+      40,
+      22,
+      20
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_2",
+     "src": [
+      173,
+      41,
+      22,
+      19
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_3",
+     "src": [
+      206,
+      40,
+      22,
+      18
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_4",
+     "src": [
+      239,
+      40,
+      22,
+      20
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_5",
+     "src": [
+      272,
+      41,
+      22,
+      19
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_6",
+     "src": [
+      305,
+      40,
+      22,
+      18
+     ]
+    }
+   ],
+   "box": [
+    106,
+    40,
+    221,
+    20
+   ]
+  },
+  {
+   "id": 2,
+   "name": "stalfos_e002",
+   "file": "stalfos_e002.png",
+   "cell": [
+    20,
+    25
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 17,
+     "role": "frame_0",
+     "src": [
+      209,
+      80,
+      16,
+      13
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_1",
+     "src": [
+      241,
+      68,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_2",
+     "src": [
+      273,
+      69,
+      20,
+      24
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_3",
+     "src": [
+      306,
+      72,
+      20,
+      21
+     ]
+    }
+   ],
+   "box": [
+    209,
+    68,
+    117,
+    25
+   ]
+  },
+  {
+   "id": 3,
+   "name": "stalfos_e003",
+   "file": "stalfos_e003.png",
+   "cell": [
+    25,
+    29
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 21,
+     "role": "frame_0",
+     "src": [
+      3,
+      103,
+      20,
+      26
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_1",
+     "src": [
+      36,
+      103,
+      21,
+      26
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_2",
+     "src": [
+      69,
+      102,
+      20,
+      27
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_3",
+     "src": [
+      107,
+      102,
+      16,
+      29
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_4",
+     "src": [
+      137,
+      102,
+      22,
+      24
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_5",
+     "src": [
+      170,
+      103,
+      23,
+      26
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_6",
+     "src": [
+      203,
+      103,
+      20,
+      24
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_7",
+     "src": [
+      236,
+      102,
+      22,
+      26
+     ]
+    },
+    {
+     "item": 29,
+     "role": "frame_8",
+     "src": [
+      269,
+      103,
+      23,
+      25
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_9",
+     "src": [
+      302,
+      103,
+      20,
+      25
+     ]
+    }
+   ],
+   "box": [
+    3,
+    102,
+    319,
+    29
+   ]
+  },
+  {
+   "id": 4,
+   "name": "stalfos_e004",
+   "file": "stalfos_e004.png",
+   "cell": [
+    22,
+    22
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 31,
+     "role": "frame_0",
+     "src": [
+      103,
+      143,
+      20,
+      19
+     ]
+    },
+    {
+     "item": 32,
+     "role": "frame_1",
+     "src": [
+      137,
+      141,
+      21,
+      21
+     ]
+    },
+    {
+     "item": 33,
+     "role": "frame_2",
+     "src": [
+      170,
+      141,
+      20,
+      19
+     ]
+    },
+    {
+     "item": 34,
+     "role": "frame_3",
+     "src": [
+      203,
+      141,
+      20,
+      20
+     ]
+    },
+    {
+     "item": 35,
+     "role": "frame_4",
+     "src": [
+      236,
+      143,
+      21,
+      18
+     ]
+    },
+    {
+     "item": 36,
+     "role": "frame_5",
+     "src": [
+      269,
+      142,
+      20,
+      19
+     ]
+    },
+    {
+     "item": 37,
+     "role": "frame_6",
+     "src": [
+      302,
+      140,
+      20,
+      19
+     ]
+    }
+   ],
+   "box": [
+    103,
+    140,
+    219,
+    22
+   ]
+  },
+  {
+   "id": 5,
+   "name": "stalfos_e005",
+   "file": "stalfos_e005.png",
+   "cell": [
+    32,
+    30
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 42,
+     "role": "frame_0",
+     "src": [
+      4,
+      202,
+      26,
+      25
+     ]
+    },
+    {
+     "item": 43,
+     "role": "frame_1",
+     "src": [
+      37,
+      202,
+      26,
+      25
+     ]
+    },
+    {
+     "item": 44,
+     "role": "frame_2",
+     "src": [
+      70,
+      202,
+      26,
+      25
+     ]
+    },
+    {
+     "item": 45,
+     "role": "frame_3",
+     "src": [
+      101,
+      203,
+      32,
+      27
+     ]
+    },
+    {
+     "item": 46,
+     "role": "frame_4",
+     "src": [
+      137,
+      201,
+      28,
+      25
+     ]
+    },
+    {
+     "item": 47,
+     "role": "frame_5",
+     "src": [
+      170,
+      202,
+      28,
+      29
+     ]
+    },
+    {
+     "item": 48,
+     "role": "frame_6",
+     "src": [
+      203,
+      202,
+      28,
+      26
+     ]
+    },
+    {
+     "item": 49,
+     "role": "frame_7",
+     "src": [
+      236,
+      201,
+      28,
+      25
+     ]
+    },
+    {
+     "item": 50,
+     "role": "frame_8",
+     "src": [
+      269,
+      202,
+      28,
+      29
+     ]
+    },
+    {
+     "item": 51,
+     "role": "frame_9",
+     "src": [
+      302,
+      202,
+      28,
+      26
+     ]
+    }
+   ],
+   "box": [
+    4,
+    201,
+    326,
+    30
+   ]
+  },
+  {
+   "id": 6,
+   "name": "stalfos_e006",
+   "file": "stalfos_e006.png",
+   "cell": [
+    28,
+    19
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 52,
+     "role": "frame_0",
+     "src": [
+      104,
+      245,
+      26,
+      15
+     ]
+    },
+    {
+     "item": 53,
+     "role": "frame_1",
+     "src": [
+      137,
+      245,
+      28,
+      14
+     ]
+    },
+    {
+     "item": 54,
+     "role": "frame_2",
+     "src": [
+      171,
+      246,
+      26,
+      18
+     ]
+    },
+    {
+     "item": 55,
+     "role": "frame_3",
+     "src": [
+      204,
+      245,
+      26,
+      16
+     ]
+    },
+    {
+     "item": 56,
+     "role": "frame_4",
+     "src": [
+      236,
+      245,
+      28,
+      14
+     ],
+     "mirror_of": 1
+    },
+    {
+     "item": 57,
+     "role": "frame_5",
+     "src": [
+      270,
+      246,
+      26,
+      18
+     ]
+    },
+    {
+     "item": 58,
+     "role": "frame_6",
+     "src": [
+      303,
+      245,
+      26,
+      16
+     ],
+     "mirror_of": 3
+    }
+   ],
+   "box": [
+    104,
+    245,
+    225,
+    19
+   ]
+  },
+  {
+   "id": 7,
+   "name": "stalfos_e007",
+   "file": "stalfos_e007.png",
+   "cell": [
+    20,
+    29
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 59,
+     "role": "frame_0",
+     "src": [
+      208,
+      269,
+      18,
+      20
+     ]
+    },
+    {
+     "item": 60,
+     "role": "frame_1",
+     "src": [
+      241,
+      266,
+      18,
+      29
+     ]
+    },
+    {
+     "item": 61,
+     "role": "frame_2",
+     "src": [
+      274,
+      266,
+      18,
+      27
+     ]
+    },
+    {
+     "item": 62,
+     "role": "frame_3",
+     "src": [
+      306,
+      273,
+      20,
+      20
+     ]
+    }
+   ],
+   "box": [
+    208,
+    266,
+    118,
+    29
+   ]
+  },
+  {
+   "id": 8,
+   "name": "stalfos_e008",
+   "file": "stalfos_e008.png",
+   "cell": [
+    28,
+    25
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 63,
+     "role": "frame_0",
+     "src": [
+      6,
+      302,
+      22,
+      23
+     ]
+    },
+    {
+     "item": 64,
+     "role": "frame_1",
+     "src": [
+      39,
+      301,
+      22,
+      24
+     ]
+    },
+    {
+     "item": 65,
+     "role": "frame_2",
+     "src": [
+      72,
+      302,
+      22,
+      23
+     ]
+    },
+    {
+     "item": 66,
+     "role": "frame_3",
+     "src": [
+      103,
+      301,
+      28,
+      25
+     ]
+    },
+    {
+     "item": 67,
+     "role": "frame_4",
+     "src": [
+      140,
+      301,
+      22,
+      22
+     ]
+    },
+    {
+     "item": 68,
+     "role": "frame_5",
+     "src": [
+      173,
+      301,
+      22,
+      24
+     ]
+    },
+    {
+     "item": 69,
+     "role": "frame_6",
+     "src": [
+      206,
+      302,
+      22,
+      23
+     ]
+    },
+    {
+     "item": 70,
+     "role": "frame_7",
+     "src": [
+      239,
+      301,
+      22,
+      22
+     ]
+    },
+    {
+     "item": 71,
+     "role": "frame_8",
+     "src": [
+      272,
+      301,
+      22,
+      24
+     ]
+    },
+    {
+     "item": 72,
+     "role": "frame_9",
+     "src": [
+      305,
+      302,
+      22,
+      23
+     ]
+    }
+   ],
+   "box": [
+    6,
+    301,
+    321,
+    25
+   ]
+  },
+  {
+   "id": 9,
+   "name": "stalfos_e009",
+   "file": "stalfos_e009.png",
+   "cell": [
+    23,
+    20
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 73,
+     "role": "frame_0",
+     "src": [
+      106,
+      341,
+      22,
+      17
+     ]
+    },
+    {
+     "item": 74,
+     "role": "frame_1",
+     "src": [
+      140,
+      338,
+      22,
+      20
+     ]
+    },
+    {
+     "item": 75,
+     "role": "frame_2",
+     "src": [
+      173,
+      339,
+      22,
+      19
+     ]
+    },
+    {
+     "item": 76,
+     "role": "frame_3",
+     "src": [
+      206,
+      338,
+      22,
+      18
+     ]
+    },
+    {
+     "item": 77,
+     "role": "frame_4",
+     "src": [
+      239,
+      338,
+      22,
+      20
+     ]
+    },
+    {
+     "item": 78,
+     "role": "frame_5",
+     "src": [
+      272,
+      339,
+      22,
+      19
+     ]
+    },
+    {
+     "item": 79,
+     "role": "frame_6",
+     "src": [
+      305,
+      338,
+      22,
+      18
+     ]
+    }
+   ],
+   "box": [
+    106,
+    338,
+    221,
+    20
+   ]
+  },
+  {
+   "id": 10,
+   "name": "stalfos_e010",
+   "file": "stalfos_e010.png",
+   "cell": [
+    20,
+    25
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 80,
+     "role": "frame_0",
+     "src": [
+      209,
+      378,
+      16,
+      13
+     ]
+    },
+    {
+     "item": 81,
+     "role": "frame_1",
+     "src": [
+      241,
+      366,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 82,
+     "role": "frame_2",
+     "src": [
+      273,
+      367,
+      20,
+      24
+     ]
+    },
+    {
+     "item": 83,
+     "role": "frame_3",
+     "src": [
+      306,
+      370,
+      20,
+      21
+     ]
+    }
+   ],
+   "box": [
+    209,
+    366,
+    117,
+    25
+   ]
+  },
+  {
+   "id": 11,
+   "name": "stalfos_e011",
+   "file": "stalfos_e011.png",
+   "cell": [
+    25,
+    29
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 84,
+     "role": "frame_0",
+     "src": [
+      3,
+      401,
+      20,
+      26
+     ]
+    },
+    {
+     "item": 85,
+     "role": "frame_1",
+     "src": [
+      36,
+      401,
+      21,
+      26
+     ]
+    },
+    {
+     "item": 86,
+     "role": "frame_2",
+     "src": [
+      69,
+      400,
+      20,
+      27
+     ]
+    },
+    {
+     "item": 87,
+     "role": "frame_3",
+     "src": [
+      107,
+      400,
+      16,
+      29
+     ]
+    },
+    {
+     "item": 88,
+     "role": "frame_4",
+     "src": [
+      137,
+      400,
+      22,
+      24
+     ]
+    },
+    {
+     "item": 89,
+     "role": "frame_5",
+     "src": [
+      170,
+      401,
+      23,
+      26
+     ]
+    },
+    {
+     "item": 90,
+     "role": "frame_6",
+     "src": [
+      203,
+      401,
+      20,
+      24
+     ]
+    },
+    {
+     "item": 91,
+     "role": "frame_7",
+     "src": [
+      236,
+      400,
+      22,
+      26
+     ]
+    },
+    {
+     "item": 92,
+     "role": "frame_8",
+     "src": [
+      269,
+      401,
+      23,
+      25
+     ]
+    },
+    {
+     "item": 93,
+     "role": "frame_9",
+     "src": [
+      302,
+      401,
+      20,
+      25
+     ]
+    }
+   ],
+   "box": [
+    3,
+    400,
+    319,
+    29
+   ]
+  },
+  {
+   "id": 12,
+   "name": "stalfos_e012",
+   "file": "stalfos_e012.png",
+   "cell": [
+    22,
+    22
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 94,
+     "role": "frame_0",
+     "src": [
+      103,
+      441,
+      20,
+      19
+     ]
+    },
+    {
+     "item": 95,
+     "role": "frame_1",
+     "src": [
+      137,
+      439,
+      21,
+      21
+     ]
+    },
+    {
+     "item": 96,
+     "role": "frame_2",
+     "src": [
+      170,
+      439,
+      20,
+      19
+     ]
+    },
+    {
+     "item": 97,
+     "role": "frame_3",
+     "src": [
+      203,
+      439,
+      20,
+      20
+     ]
+    },
+    {
+     "item": 98,
+     "role": "frame_4",
+     "src": [
+      236,
+      441,
+      21,
+      18
+     ]
+    },
+    {
+     "item": 99,
+     "role": "frame_5",
+     "src": [
+      269,
+      440,
+      20,
+      19
+     ]
+    },
+    {
+     "item": 100,
+     "role": "frame_6",
+     "src": [
+      302,
+      438,
+      20,
+      19
+     ]
+    }
+   ],
+   "box": [
+    103,
+    438,
+    219,
+    22
+   ]
+  },
+  {
+   "id": 13,
+   "name": "stalfos_e013",
+   "file": "stalfos_e013.png",
+   "cell": [
+    13,
+    24
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 106,
+     "role": "frame_0",
+     "src": [
+      343,
+      482,
+      13,
+      24
+     ]
+    },
+    {
+     "item": 107,
+     "role": "frame_1",
+     "src": [
+      361,
+      483,
+      12,
+      23
+     ]
+    },
+    {
+     "item": 108,
+     "role": "frame_2",
+     "src": [
+      378,
+      484,
+      13,
+      22
+     ]
+    },
+    {
+     "item": 109,
+     "role": "frame_3",
+     "src": [
+      395,
+      482,
+      12,
+      24
+     ]
+    }
+   ],
+   "box": [
+    343,
+    482,
+    64,
+    24
+   ]
+  },
+  {
+   "id": 14,
+   "name": "stalfos_e014",
+   "file": "stalfos_e014.png",
+   "cell": [
+    32,
+    30
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 110,
+     "role": "frame_0",
+     "src": [
+      4,
+      500,
+      26,
+      25
+     ]
+    },
+    {
+     "item": 111,
+     "role": "frame_1",
+     "src": [
+      37,
+      500,
+      26,
+      25
+     ]
+    },
+    {
+     "item": 112,
+     "role": "frame_2",
+     "src": [
+      70,
+      500,
+      26,
+      25
+     ]
+    },
+    {
+     "item": 113,
+     "role": "frame_3",
+     "src": [
+      101,
+      501,
+      32,
+      27
+     ]
+    },
+    {
+     "item": 114,
+     "role": "frame_4",
+     "src": [
+      137,
+      499,
+      28,
+      25
+     ]
+    },
+    {
+     "item": 115,
+     "role": "frame_5",
+     "src": [
+      170,
+      500,
+      28,
+      29
+     ]
+    },
+    {
+     "item": 116,
+     "role": "frame_6",
+     "src": [
+      203,
+      500,
+      28,
+      26
+     ]
+    },
+    {
+     "item": 117,
+     "role": "frame_7",
+     "src": [
+      236,
+      499,
+      28,
+      25
+     ]
+    },
+    {
+     "item": 118,
+     "role": "frame_8",
+     "src": [
+      269,
+      500,
+      28,
+      29
+     ]
+    },
+    {
+     "item": 119,
+     "role": "frame_9",
+     "src": [
+      302,
+      500,
+      28,
+      26
+     ]
+    }
+   ],
+   "box": [
+    4,
+    499,
+    326,
+    30
+   ]
+  },
+  {
+   "id": 15,
+   "name": "stalfos_e015",
+   "file": "stalfos_e015.png",
+   "cell": [
+    35,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 120,
+     "role": "frame_0",
+     "src": [
+      340,
+      516,
+      35,
+      26
+     ]
+    },
+    {
+     "item": 121,
+     "role": "frame_1",
+     "src": [
+      376,
+      516,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 122,
+     "role": "frame_2",
+     "src": [
+      402,
+      517,
+      14,
+      25
+     ]
+    }
+   ],
+   "box": [
+    340,
+    516,
+    76,
+    26
+   ]
+  },
+  {
+   "id": 16,
+   "name": "stalfos_e016",
+   "file": "stalfos_e016.png",
+   "cell": [
+    28,
+    19
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 123,
+     "role": "frame_0",
+     "src": [
+      104,
+      543,
+      26,
+      15
+     ]
+    },
+    {
+     "item": 124,
+     "role": "frame_1",
+     "src": [
+      137,
+      543,
+      28,
+      14
+     ]
+    },
+    {
+     "item": 125,
+     "role": "frame_2",
+     "src": [
+      171,
+      544,
+      26,
+      18
+     ]
+    },
+    {
+     "item": 126,
+     "role": "frame_3",
+     "src": [
+      204,
+      543,
+      26,
+      16
+     ]
+    },
+    {
+     "item": 127,
+     "role": "frame_4",
+     "src": [
+      236,
+      543,
+      28,
+      14
+     ],
+     "mirror_of": 1
+    },
+    {
+     "item": 128,
+     "role": "frame_5",
+     "src": [
+      270,
+      544,
+      26,
+      18
+     ]
+    },
+    {
+     "item": 129,
+     "role": "frame_6",
+     "src": [
+      303,
+      543,
+      26,
+      16
+     ],
+     "mirror_of": 3
+    }
+   ],
+   "box": [
+    104,
+    543,
+    225,
+    19
+   ]
+  },
+  {
+   "id": 17,
+   "name": "stalfos_e017",
+   "file": "stalfos_e017.png",
+   "cell": [
+    30,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 130,
+     "role": "frame_0",
+     "src": [
+      343,
+      549,
+      14,
+      24
+     ]
+    },
+    {
+     "item": 131,
+     "role": "frame_1",
+     "src": [
+      360,
+      548,
+      30,
+      26
+     ]
+    },
+    {
+     "item": 132,
+     "role": "frame_2",
+     "src": [
+      394,
+      550,
+      14,
+      24
+     ]
+    }
+   ],
+   "box": [
+    343,
+    548,
+    65,
+    26
+   ]
+  },
+  {
+   "id": 18,
+   "name": "stalfos_e018",
+   "file": "stalfos_e018.png",
+   "cell": [
+    14,
+    11
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 136,
+     "role": "frame_0",
+     "src": [
+      351,
+      580,
+      12,
+      11
+     ]
+    },
+    {
+     "item": 137,
+     "role": "frame_1",
+     "src": [
+      369,
+      580,
+      14,
+      5
+     ]
+    },
+    {
+     "item": 138,
+     "role": "frame_2",
+     "src": [
+      397,
+      580,
+      12,
+      11
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    351,
+    580,
+    58,
+    11
+   ]
+  },
+  {
+   "id": 19,
+   "name": "stalfos_e019",
+   "file": "stalfos_e019.png",
+   "cell": [
+    8,
+    8
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 143,
+     "role": "frame_0",
+     "src": [
+      297,
+      604,
+      6,
+      8
+     ]
+    },
+    {
+     "item": 144,
+     "role": "frame_1",
+     "src": [
+      306,
+      605,
+      8,
+      5
+     ]
+    },
+    {
+     "item": 145,
+     "role": "frame_2",
+     "src": [
+      316,
+      604,
+      6,
+      7
+     ]
+    },
+    {
+     "item": 146,
+     "role": "frame_3",
+     "src": [
+      325,
+      605,
+      7,
+      5
+     ]
+    }
+   ],
+   "box": [
+    297,
+    604,
+    35,
+    8
+   ]
+  },
+  {
+   "id": 20,
+   "name": "stalfos_e020",
+   "file": "stalfos_e020.png",
+   "cell": [
+    19,
+    31
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 38,
+     "role": "frame_0",
+     "src": [
+      202,
+      178,
+      19,
+      18
+     ]
+    },
+    {
+     "item": 39,
+     "role": "frame_1",
+     "src": [
+      243,
+      166,
+      17,
+      31
+     ]
+    },
+    {
+     "item": 40,
+     "role": "frame_2",
+     "src": [
+      276,
+      167,
+      13,
+      30
+     ]
+    },
+    {
+     "item": 41,
+     "role": "frame_3",
+     "src": [
+      309,
+      171,
+      12,
+      23
+     ]
+    }
+   ],
+   "box": [
+    202,
+    166,
+    119,
+    31
+   ]
+  },
+  {
+   "id": 21,
+   "name": "stalfos_e021",
+   "file": "stalfos_e021.png",
+   "cell": [
+    19,
+    31
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 102,
+     "role": "frame_0",
+     "src": [
+      202,
+      476,
+      19,
+      18
+     ]
+    },
+    {
+     "item": 103,
+     "role": "frame_1",
+     "src": [
+      243,
+      464,
+      17,
+      31
+     ]
+    },
+    {
+     "item": 104,
+     "role": "frame_2",
+     "src": [
+      276,
+      465,
+      13,
+      30
+     ]
+    },
+    {
+     "item": 105,
+     "role": "frame_3",
+     "src": [
+      309,
+      469,
+      12,
+      23
+     ]
+    }
+   ],
+   "box": [
+    202,
+    464,
+    119,
+    31
+   ]
+  },
+  {
+   "id": 22,
+   "name": "stalfos_e022",
+   "file": "stalfos_e022.png",
+   "cell": [
+    20,
+    29
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 133,
+     "role": "frame_0",
+     "src": [
+      208,
+      567,
+      18,
+      20
+     ]
+    },
+    {
+     "item": 139,
+     "role": "frame_1",
+     "src": [
+      241,
+      564,
+      18,
+      29
+     ]
+    },
+    {
+     "item": 134,
+     "role": "frame_2",
+     "src": [
+      274,
+      564,
+      18,
+      27
+     ]
+    },
+    {
+     "item": 135,
+     "role": "frame_3",
+     "src": [
+      306,
+      571,
+      20,
+      20
+     ]
+    }
+   ],
+   "box": [
+    208,
+    564,
+    118,
+    29
+   ]
+  },
+  {
+   "id": 23,
+   "name": "stalfos_e023",
+   "file": "stalfos_e023.png",
+   "cell": [
+    16,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 140,
+     "role": "frame_0",
+     "src": [
+      238,
+      596,
+      6,
+      16
+     ]
+    },
+    {
+     "item": 141,
+     "role": "frame_1",
+     "src": [
+      247,
+      597,
+      13,
+      13
+     ]
+    },
+    {
+     "item": 152,
+     "role": "frame_2",
+     "src": [
+      263,
+      597,
+      16,
+      6
+     ]
+    },
+    {
+     "item": 142,
+     "role": "frame_3",
+     "src": [
+      282,
+      597,
+      13,
+      13
+     ]
+    }
+   ],
+   "box": [
+    238,
+    596,
+    57,
+    16
+   ]
+  },
+  {
+   "id": 24,
+   "name": "stalfos_e024",
+   "file": "stalfos_e024.png",
+   "cell": [
+    15,
+    31
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 147,
+     "role": "frame_0",
+     "src": [
+      335,
+      580,
+      14,
+      31
+     ]
+    },
+    {
+     "item": 148,
+     "role": "frame_1",
+     "src": [
+      352,
+      597,
+      13,
+      14
+     ]
+    },
+    {
+     "item": 149,
+     "role": "frame_2",
+     "src": [
+      368,
+      598,
+      15,
+      12
+     ]
+    },
+    {
+     "item": 150,
+     "role": "frame_3",
+     "src": [
+      385,
+      597,
+      15,
+      14
+     ]
+    },
+    {
+     "item": 151,
+     "role": "frame_4",
+     "src": [
+      403,
+      597,
+      12,
+      14
+     ]
+    }
+   ],
+   "box": [
+    335,
+    580,
+    80,
+    31
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 340,
+   "y": 452,
+   "w": 20,
+   "h": 25,
+   "area": 136,
+   "ncolors": 12,
+   "dominant": "#506068",
+   "dom_frac": 0.176,
+   "kind": "sprite",
+   "zone": null,
+   "id": 101,
+   "file": "stalfos_101.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/vaati_reborn/vaati_reborn_e013.png" id="1_h2r07"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iidem"]
+atlas = ExtResource("1_h2r07")
+region = Rect2(0, 0, 24, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xspo1"]
+atlas = ExtResource("1_h2r07")
+region = Rect2(24, 0, 24, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xpusp"]
+atlas = ExtResource("1_h2r07")
+region = Rect2(48, 0, 24, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8t2kc"]
+atlas = ExtResource("1_h2r07")
+region = Rect2(72, 0, 24, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r31he"]
+atlas = ExtResource("1_h2r07")
+region = Rect2(96, 0, 24, 31)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iidem")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xspo1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xpusp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8t2kc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r31he")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/cloud_piranha/jump_up.png" id="1_pcs2h"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_epl3x"]
+atlas = ExtResource("1_pcs2h")
+region = Rect2(0, 0, 19, 30)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fw38s"]
+atlas = ExtResource("1_pcs2h")
+region = Rect2(19, 0, 19, 30)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5whxr"]
+atlas = ExtResource("1_pcs2h")
+region = Rect2(38, 0, 19, 30)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_epl3x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fw38s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5whxr")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

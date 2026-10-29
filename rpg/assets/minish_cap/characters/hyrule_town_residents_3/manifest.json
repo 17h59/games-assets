@@ -1,0 +1,2638 @@
+{
+ "sheet": "6387",
+ "game": "minish_cap",
+ "category": "characters",
+ "title": "Hyrule Town Residents 3",
+ "type": "characters",
+ "template": "none",
+ "validation": "verified",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    36,
+    4,
+    28,
+    12
+   ],
+   "point": [
+    50,
+    10
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 1,
+   "box": [
+    69,
+    4,
+    54,
+    16
+   ],
+   "point": [
+    96,
+    12
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 2,
+   "box": [
+    129,
+    4,
+    60,
+    12
+   ],
+   "point": [
+    159,
+    10
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 3,
+   "box": [
+    202,
+    4,
+    86,
+    12
+   ],
+   "point": [
+    245,
+    10
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 4,
+   "box": [
+    330,
+    4,
+    33,
+    12
+   ],
+   "point": [
+    346,
+    10
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 5,
+   "box": [
+    293,
+    5,
+    31,
+    15
+   ],
+   "point": [
+    308,
+    12
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 6,
+   "box": [
+    369,
+    5,
+    49,
+    15
+   ],
+   "point": [
+    393,
+    12
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 7,
+   "box": [
+    1,
+    19,
+    28,
+    12
+   ],
+   "point": [
+    15,
+    25
+   ],
+   "name": "boys",
+   "folder": "boys"
+  },
+  {
+   "id": 8,
+   "box": [
+    1,
+    180,
+    28,
+    10
+   ],
+   "point": [
+    15,
+    185
+   ],
+   "name": "girls",
+   "folder": "girls"
+  },
+  {
+   "id": 9,
+   "box": [
+    300,
+    204,
+    66,
+    11
+   ],
+   "point": [
+    333,
+    209
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 10,
+   "box": [
+    297,
+    222,
+    72,
+    11
+   ],
+   "point": [
+    333,
+    227
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 11,
+   "box": [
+    292,
+    240,
+    82,
+    11
+   ],
+   "point": [
+    333,
+    245
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 12,
+   "box": [
+    306,
+    258,
+    53,
+    11
+   ],
+   "point": [
+    332,
+    263
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 13,
+   "box": [
+    1,
+    340,
+    53,
+    10
+   ],
+   "point": [
+    27,
+    345
+   ],
+   "name": "recolors",
+   "folder": "recolors"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "blond_boy_walk_up",
+   "file": "boys/blond_boy_walk_up.png",
+   "cell": [
+    18,
+    21
+   ],
+   "zone": null,
+   "set": 7,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      3,
+      43,
+      18,
+      20
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      27,
+      42,
+      18,
+      21
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      52,
+      43,
+      18,
+      20
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    3,
+    42,
+    67,
+    21
+   ]
+  },
+  {
+   "id": 1,
+   "name": "blue_boy_walk_up",
+   "file": "boys/blue_boy_walk_up.png",
+   "cell": [
+    18,
+    22
+   ],
+   "zone": null,
+   "set": 7,
+   "template": "none",
+   "frames": [
+    {
+     "item": 3,
+     "role": "frame_0",
+     "src": [
+      99,
+      41,
+      18,
+      22
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_1",
+     "src": [
+      123,
+      41,
+      18,
+      22
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_2",
+     "src": [
+      147,
+      41,
+      18,
+      22
+     ]
+    }
+   ],
+   "box": [
+    99,
+    41,
+    66,
+    22
+   ]
+  },
+  {
+   "id": 2,
+   "name": "brown_boy_walk_up",
+   "file": "boys/brown_boy_walk_up.png",
+   "cell": [
+    18,
+    22
+   ],
+   "zone": null,
+   "set": 7,
+   "template": "none",
+   "frames": [
+    {
+     "item": 6,
+     "role": "frame_0",
+     "src": [
+      195,
+      43,
+      18,
+      21
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_1",
+     "src": [
+      219,
+      42,
+      18,
+      21
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_2",
+     "src": [
+      243,
+      43,
+      18,
+      21
+     ]
+    }
+   ],
+   "box": [
+    195,
+    42,
+    66,
+    22
+   ]
+  },
+  {
+   "id": 3,
+   "name": "dark_boy_walk_up",
+   "file": "boys/dark_boy_walk_up.png",
+   "cell": [
+    18,
+    21
+   ],
+   "zone": null,
+   "set": 7,
+   "template": "none",
+   "frames": [
+    {
+     "item": 9,
+     "role": "frame_0",
+     "src": [
+      291,
+      44,
+      18,
+      20
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_1",
+     "src": [
+      315,
+      43,
+      18,
+      20
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_2",
+     "src": [
+      339,
+      44,
+      18,
+      20
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    291,
+    43,
+    66,
+    21
+   ]
+  },
+  {
+   "id": 4,
+   "name": "spiky_boy_walk_up",
+   "file": "boys/spiky_boy_walk_up.png",
+   "cell": [
+    18,
+    22
+   ],
+   "zone": null,
+   "set": 7,
+   "template": "none",
+   "frames": [
+    {
+     "item": 12,
+     "role": "frame_0",
+     "src": [
+      387,
+      42,
+      18,
+      21
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_1",
+     "src": [
+      411,
+      41,
+      18,
+      22
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_2",
+     "src": [
+      435,
+      42,
+      18,
+      21
+     ]
+    }
+   ],
+   "box": [
+    387,
+    41,
+    66,
+    22
+   ]
+  },
+  {
+   "id": 5,
+   "name": "blond_boy_walk_left",
+   "file": "boys/blond_boy_walk_left.png",
+   "cell": [
+    16,
+    21
+   ],
+   "zone": null,
+   "set": 7,
+   "template": "none",
+   "frames": [
+    {
+     "item": 15,
+     "role": "frame_0",
+     "src": [
+      5,
+      75,
+      15,
+      20
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_1",
+     "src": [
+      28,
+      74,
+      15,
+      21
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_2",
+     "src": [
+      53,
+      75,
+      15,
+      20
+     ]
+    }
+   ],
+   "box": [
+    5,
+    74,
+    63,
+    21
+   ]
+  },
+  {
+   "id": 6,
+   "name": "blue_boy_walk_left",
+   "file": "boys/blue_boy_walk_left.png",
+   "cell": [
+    16,
+    22
+   ],
+   "zone": null,
+   "set": 7,
+   "template": "none",
+   "frames": [
+    {
+     "item": 18,
+     "role": "frame_0",
+     "src": [
+      100,
+      74,
+      16,
+      21
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_1",
+     "src": [
+      124,
+      73,
+      16,
+      22
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_2",
+     "src": [
+      148,
+      74,
+      16,
+      21
+     ]
+    }
+   ],
+   "box": [
+    100,
+    73,
+    64,
+    22
+   ]
+  },
+  {
+   "id": 7,
+   "name": "brown_boy_walk_left",
+   "file": "boys/brown_boy_walk_left.png",
+   "cell": [
+    16,
+    21
+   ],
+   "zone": null,
+   "set": 7,
+   "template": "none",
+   "frames": [
+    {
+     "item": 21,
+     "role": "frame_0",
+     "src": [
+      196,
+      75,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_1",
+     "src": [
+      220,
+      74,
+      16,
+      21
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_2",
+     "src": [
+      244,
+      75,
+      16,
+      20
+     ]
+    }
+   ],
+   "box": [
+    196,
+    74,
+    64,
+    21
+   ]
+  },
+  {
+   "id": 8,
+   "name": "dark_boy_walk_left",
+   "file": "boys/dark_boy_walk_left.png",
+   "cell": [
+    16,
+    20
+   ],
+   "zone": null,
+   "set": 7,
+   "template": "none",
+   "frames": [
+    {
+     "item": 24,
+     "role": "frame_0",
+     "src": [
+      292,
+      76,
+      16,
+      19
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_1",
+     "src": [
+      316,
+      75,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_2",
+     "src": [
+      340,
+      76,
+      16,
+      19
+     ]
+    }
+   ],
+   "box": [
+    292,
+    75,
+    64,
+    20
+   ]
+  },
+  {
+   "id": 9,
+   "name": "spiky_boy_walk_left",
+   "file": "boys/spiky_boy_walk_left.png",
+   "cell": [
+    16,
+    22
+   ],
+   "zone": null,
+   "set": 7,
+   "template": "none",
+   "frames": [
+    {
+     "item": 27,
+     "role": "frame_0",
+     "src": [
+      388,
+      74,
+      16,
+      21
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_1",
+     "src": [
+      412,
+      73,
+      16,
+      22
+     ]
+    },
+    {
+     "item": 29,
+     "role": "frame_2",
+     "src": [
+      436,
+      74,
+      16,
+      21
+     ]
+    }
+   ],
+   "box": [
+    388,
+    73,
+    64,
+    22
+   ]
+  },
+  {
+   "id": 10,
+   "name": "blond_boy_walk_down",
+   "file": "boys/blond_boy_walk_down.png",
+   "cell": [
+    18,
+    20
+   ],
+   "zone": null,
+   "set": 7,
+   "template": "none",
+   "frames": [
+    {
+     "item": 30,
+     "role": "frame_0",
+     "src": [
+      3,
+      108,
+      18,
+      19
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_1",
+     "src": [
+      27,
+      107,
+      18,
+      20
+     ]
+    },
+    {
+     "item": 32,
+     "role": "frame_2",
+     "src": [
+      52,
+      108,
+      18,
+      19
+     ]
+    }
+   ],
+   "box": [
+    3,
+    107,
+    67,
+    20
+   ]
+  },
+  {
+   "id": 11,
+   "name": "blue_boy_walk_down",
+   "file": "boys/blue_boy_walk_down.png",
+   "cell": [
+    18,
+    22
+   ],
+   "zone": null,
+   "set": 7,
+   "template": "none",
+   "frames": [
+    {
+     "item": 33,
+     "role": "frame_0",
+     "src": [
+      99,
+      105,
+      18,
+      22
+     ]
+    },
+    {
+     "item": 34,
+     "role": "frame_1",
+     "src": [
+      123,
+      105,
+      18,
+      22
+     ]
+    },
+    {
+     "item": 35,
+     "role": "frame_2",
+     "src": [
+      147,
+      105,
+      18,
+      22
+     ]
+    }
+   ],
+   "box": [
+    99,
+    105,
+    66,
+    22
+   ]
+  },
+  {
+   "id": 12,
+   "name": "brown_boy_walk_down",
+   "file": "boys/brown_boy_walk_down.png",
+   "cell": [
+    18,
+    22
+   ],
+   "zone": null,
+   "set": 7,
+   "template": "none",
+   "frames": [
+    {
+     "item": 36,
+     "role": "frame_0",
+     "src": [
+      195,
+      107,
+      18,
+      21
+     ]
+    },
+    {
+     "item": 37,
+     "role": "frame_1",
+     "src": [
+      219,
+      106,
+      18,
+      21
+     ]
+    },
+    {
+     "item": 38,
+     "role": "frame_2",
+     "src": [
+      243,
+      107,
+      18,
+      21
+     ]
+    }
+   ],
+   "box": [
+    195,
+    106,
+    66,
+    22
+   ]
+  },
+  {
+   "id": 13,
+   "name": "dark_boy_walk_down",
+   "file": "boys/dark_boy_walk_down.png",
+   "cell": [
+    18,
+    21
+   ],
+   "zone": null,
+   "set": 7,
+   "template": "none",
+   "frames": [
+    {
+     "item": 39,
+     "role": "frame_0",
+     "src": [
+      291,
+      108,
+      18,
+      20
+     ]
+    },
+    {
+     "item": 40,
+     "role": "frame_1",
+     "src": [
+      315,
+      107,
+      18,
+      20
+     ]
+    },
+    {
+     "item": 41,
+     "role": "frame_2",
+     "src": [
+      339,
+      108,
+      18,
+      20
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    291,
+    107,
+    66,
+    21
+   ]
+  },
+  {
+   "id": 14,
+   "name": "spiky_boy_walk_down",
+   "file": "boys/spiky_boy_walk_down.png",
+   "cell": [
+    18,
+    22
+   ],
+   "zone": null,
+   "set": 7,
+   "template": "none",
+   "frames": [
+    {
+     "item": 42,
+     "role": "frame_0",
+     "src": [
+      387,
+      106,
+      17,
+      21
+     ]
+    },
+    {
+     "item": 43,
+     "role": "frame_1",
+     "src": [
+      411,
+      105,
+      18,
+      22
+     ]
+    },
+    {
+     "item": 44,
+     "role": "frame_2",
+     "src": [
+      435,
+      106,
+      18,
+      21
+     ]
+    }
+   ],
+   "box": [
+    387,
+    105,
+    66,
+    22
+   ]
+  },
+  {
+   "id": 15,
+   "name": "blond_boy_walk_right",
+   "file": "boys/blond_boy_walk_right.png",
+   "cell": [
+    16,
+    21
+   ],
+   "zone": null,
+   "set": 7,
+   "template": "none",
+   "frames": [
+    {
+     "item": 45,
+     "role": "frame_0",
+     "src": [
+      5,
+      139,
+      15,
+      20
+     ]
+    },
+    {
+     "item": 46,
+     "role": "frame_1",
+     "src": [
+      30,
+      138,
+      15,
+      21
+     ]
+    },
+    {
+     "item": 47,
+     "role": "frame_2",
+     "src": [
+      53,
+      139,
+      15,
+      20
+     ]
+    }
+   ],
+   "box": [
+    5,
+    138,
+    63,
+    21
+   ]
+  },
+  {
+   "id": 16,
+   "name": "blue_boy_walk_right",
+   "file": "boys/blue_boy_walk_right.png",
+   "cell": [
+    16,
+    22
+   ],
+   "zone": null,
+   "set": 7,
+   "template": "none",
+   "frames": [
+    {
+     "item": 48,
+     "role": "frame_0",
+     "src": [
+      100,
+      138,
+      16,
+      21
+     ]
+    },
+    {
+     "item": 49,
+     "role": "frame_1",
+     "src": [
+      124,
+      137,
+      16,
+      22
+     ]
+    },
+    {
+     "item": 50,
+     "role": "frame_2",
+     "src": [
+      148,
+      138,
+      16,
+      21
+     ]
+    }
+   ],
+   "box": [
+    100,
+    137,
+    64,
+    22
+   ]
+  },
+  {
+   "id": 17,
+   "name": "brown_boy_walk_right",
+   "file": "boys/brown_boy_walk_right.png",
+   "cell": [
+    16,
+    21
+   ],
+   "zone": null,
+   "set": 7,
+   "template": "none",
+   "frames": [
+    {
+     "item": 51,
+     "role": "frame_0",
+     "src": [
+      196,
+      139,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 52,
+     "role": "frame_1",
+     "src": [
+      220,
+      138,
+      16,
+      21
+     ]
+    },
+    {
+     "item": 53,
+     "role": "frame_2",
+     "src": [
+      244,
+      139,
+      16,
+      20
+     ]
+    }
+   ],
+   "box": [
+    196,
+    138,
+    64,
+    21
+   ]
+  },
+  {
+   "id": 18,
+   "name": "dark_boy_walk_right",
+   "file": "boys/dark_boy_walk_right.png",
+   "cell": [
+    16,
+    20
+   ],
+   "zone": null,
+   "set": 7,
+   "template": "none",
+   "frames": [
+    {
+     "item": 54,
+     "role": "frame_0",
+     "src": [
+      292,
+      140,
+      16,
+      19
+     ]
+    },
+    {
+     "item": 55,
+     "role": "frame_1",
+     "src": [
+      316,
+      139,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 56,
+     "role": "frame_2",
+     "src": [
+      340,
+      140,
+      16,
+      19
+     ]
+    }
+   ],
+   "box": [
+    292,
+    139,
+    64,
+    20
+   ]
+  },
+  {
+   "id": 19,
+   "name": "spiky_boy_walk_right",
+   "file": "boys/spiky_boy_walk_right.png",
+   "cell": [
+    16,
+    22
+   ],
+   "zone": null,
+   "set": 7,
+   "template": "none",
+   "frames": [
+    {
+     "item": 57,
+     "role": "frame_0",
+     "src": [
+      388,
+      138,
+      16,
+      21
+     ]
+    },
+    {
+     "item": 58,
+     "role": "frame_1",
+     "src": [
+      412,
+      137,
+      16,
+      22
+     ]
+    },
+    {
+     "item": 59,
+     "role": "frame_2",
+     "src": [
+      436,
+      138,
+      16,
+      21
+     ]
+    }
+   ],
+   "box": [
+    388,
+    137,
+    64,
+    22
+   ]
+  },
+  {
+   "id": 20,
+   "name": "pigtails_girl_walk_up",
+   "file": "girls/pigtails_girl_walk_up.png",
+   "cell": [
+    22,
+    22
+   ],
+   "zone": null,
+   "set": 8,
+   "template": "none",
+   "frames": [
+    {
+     "item": 60,
+     "role": "frame_0",
+     "src": [
+      1,
+      202,
+      22,
+      21
+     ]
+    },
+    {
+     "item": 61,
+     "role": "frame_1",
+     "src": [
+      25,
+      201,
+      22,
+      22
+     ]
+    },
+    {
+     "item": 62,
+     "role": "frame_2",
+     "src": [
+      49,
+      202,
+      22,
+      21
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    1,
+    201,
+    70,
+    22
+   ]
+  },
+  {
+   "id": 21,
+   "name": "ponytail_girl_walk_up",
+   "file": "girls/ponytail_girl_walk_up.png",
+   "cell": [
+    18,
+    23
+   ],
+   "zone": null,
+   "set": 8,
+   "template": "none",
+   "frames": [
+    {
+     "item": 63,
+     "role": "frame_0",
+     "src": [
+      99,
+      201,
+      18,
+      22
+     ]
+    },
+    {
+     "item": 64,
+     "role": "frame_1",
+     "src": [
+      123,
+      200,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 65,
+     "role": "frame_2",
+     "src": [
+      147,
+      201,
+      18,
+      22
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    99,
+    200,
+    66,
+    23
+   ]
+  },
+  {
+   "id": 22,
+   "name": "buns_girl_walk_up",
+   "file": "girls/buns_girl_walk_up.png",
+   "cell": [
+    20,
+    19
+   ],
+   "zone": null,
+   "set": 8,
+   "template": "none",
+   "frames": [
+    {
+     "item": 66,
+     "role": "frame_0",
+     "src": [
+      194,
+      205,
+      20,
+      18
+     ]
+    },
+    {
+     "item": 67,
+     "role": "frame_1",
+     "src": [
+      218,
+      204,
+      20,
+      19
+     ]
+    },
+    {
+     "item": 68,
+     "role": "frame_2",
+     "src": [
+      242,
+      205,
+      20,
+      18
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    194,
+    204,
+    68,
+    19
+   ]
+  },
+  {
+   "id": 23,
+   "name": "pigtails_girl_walk_left",
+   "file": "girls/pigtails_girl_walk_left.png",
+   "cell": [
+    18,
+    23
+   ],
+   "zone": null,
+   "set": 8,
+   "template": "none",
+   "frames": [
+    {
+     "item": 69,
+     "role": "frame_0",
+     "src": [
+      3,
+      233,
+      18,
+      22
+     ]
+    },
+    {
+     "item": 70,
+     "role": "frame_1",
+     "src": [
+      27,
+      232,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 71,
+     "role": "frame_2",
+     "src": [
+      51,
+      233,
+      18,
+      22
+     ]
+    }
+   ],
+   "box": [
+    3,
+    232,
+    66,
+    23
+   ]
+  },
+  {
+   "id": 24,
+   "name": "ponytail_girl_walk_left",
+   "file": "girls/ponytail_girl_walk_left.png",
+   "cell": [
+    19,
+    23
+   ],
+   "zone": null,
+   "set": 8,
+   "template": "none",
+   "frames": [
+    {
+     "item": 72,
+     "role": "frame_0",
+     "src": [
+      98,
+      233,
+      19,
+      22
+     ]
+    },
+    {
+     "item": 73,
+     "role": "frame_1",
+     "src": [
+      122,
+      232,
+      19,
+      23
+     ]
+    },
+    {
+     "item": 74,
+     "role": "frame_2",
+     "src": [
+      146,
+      233,
+      19,
+      22
+     ]
+    }
+   ],
+   "box": [
+    98,
+    232,
+    67,
+    23
+   ]
+  },
+  {
+   "id": 25,
+   "name": "buns_girl_walk_left",
+   "file": "girls/buns_girl_walk_left.png",
+   "cell": [
+    15,
+    20
+   ],
+   "zone": null,
+   "set": 8,
+   "template": "none",
+   "frames": [
+    {
+     "item": 75,
+     "role": "frame_0",
+     "src": [
+      196,
+      236,
+      15,
+      19
+     ]
+    },
+    {
+     "item": 76,
+     "role": "frame_1",
+     "src": [
+      220,
+      235,
+      15,
+      20
+     ]
+    },
+    {
+     "item": 77,
+     "role": "frame_2",
+     "src": [
+      244,
+      236,
+      15,
+      19
+     ]
+    }
+   ],
+   "box": [
+    196,
+    235,
+    63,
+    20
+   ]
+  },
+  {
+   "id": 26,
+   "name": "pigtails_girl_walk_down",
+   "file": "girls/pigtails_girl_walk_down.png",
+   "cell": [
+    22,
+    22
+   ],
+   "zone": null,
+   "set": 8,
+   "template": "none",
+   "frames": [
+    {
+     "item": 78,
+     "role": "frame_0",
+     "src": [
+      1,
+      266,
+      22,
+      21
+     ]
+    },
+    {
+     "item": 79,
+     "role": "frame_1",
+     "src": [
+      25,
+      265,
+      22,
+      22
+     ]
+    },
+    {
+     "item": 80,
+     "role": "frame_2",
+     "src": [
+      49,
+      266,
+      22,
+      21
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    1,
+    265,
+    70,
+    22
+   ]
+  },
+  {
+   "id": 27,
+   "name": "ponytail_girl_walk_down",
+   "file": "girls/ponytail_girl_walk_down.png",
+   "cell": [
+    18,
+    23
+   ],
+   "zone": null,
+   "set": 8,
+   "template": "none",
+   "frames": [
+    {
+     "item": 81,
+     "role": "frame_0",
+     "src": [
+      99,
+      265,
+      18,
+      22
+     ]
+    },
+    {
+     "item": 82,
+     "role": "frame_1",
+     "src": [
+      123,
+      264,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 83,
+     "role": "frame_2",
+     "src": [
+      147,
+      265,
+      18,
+      22
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    99,
+    264,
+    66,
+    23
+   ]
+  },
+  {
+   "id": 28,
+   "name": "buns_girl_walk_down",
+   "file": "girls/buns_girl_walk_down.png",
+   "cell": [
+    20,
+    19
+   ],
+   "zone": null,
+   "set": 8,
+   "template": "none",
+   "frames": [
+    {
+     "item": 84,
+     "role": "frame_0",
+     "src": [
+      194,
+      269,
+      20,
+      18
+     ]
+    },
+    {
+     "item": 85,
+     "role": "frame_1",
+     "src": [
+      218,
+      268,
+      20,
+      19
+     ]
+    },
+    {
+     "item": 86,
+     "role": "frame_2",
+     "src": [
+      242,
+      269,
+      20,
+      18
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    194,
+    268,
+    68,
+    19
+   ]
+  },
+  {
+   "id": 29,
+   "name": "pigtails_girl_walk_right",
+   "file": "girls/pigtails_girl_walk_right.png",
+   "cell": [
+    18,
+    23
+   ],
+   "zone": null,
+   "set": 8,
+   "template": "none",
+   "frames": [
+    {
+     "item": 87,
+     "role": "frame_0",
+     "src": [
+      3,
+      297,
+      18,
+      22
+     ]
+    },
+    {
+     "item": 88,
+     "role": "frame_1",
+     "src": [
+      27,
+      296,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 89,
+     "role": "frame_2",
+     "src": [
+      51,
+      297,
+      18,
+      22
+     ]
+    }
+   ],
+   "box": [
+    3,
+    296,
+    66,
+    23
+   ]
+  },
+  {
+   "id": 30,
+   "name": "ponytail_girl_walk_right",
+   "file": "girls/ponytail_girl_walk_right.png",
+   "cell": [
+    19,
+    23
+   ],
+   "zone": null,
+   "set": 8,
+   "template": "none",
+   "frames": [
+    {
+     "item": 90,
+     "role": "frame_0",
+     "src": [
+      99,
+      297,
+      19,
+      22
+     ]
+    },
+    {
+     "item": 91,
+     "role": "frame_1",
+     "src": [
+      123,
+      296,
+      19,
+      23
+     ]
+    },
+    {
+     "item": 92,
+     "role": "frame_2",
+     "src": [
+      147,
+      297,
+      19,
+      22
+     ]
+    }
+   ],
+   "box": [
+    99,
+    296,
+    67,
+    23
+   ]
+  },
+  {
+   "id": 31,
+   "name": "buns_girl_walk_right",
+   "file": "girls/buns_girl_walk_right.png",
+   "cell": [
+    15,
+    20
+   ],
+   "zone": null,
+   "set": 8,
+   "template": "none",
+   "frames": [
+    {
+     "item": 93,
+     "role": "frame_0",
+     "src": [
+      196,
+      300,
+      15,
+      19
+     ]
+    },
+    {
+     "item": 94,
+     "role": "frame_1",
+     "src": [
+      220,
+      299,
+      15,
+      20
+     ]
+    },
+    {
+     "item": 95,
+     "role": "frame_2",
+     "src": [
+      244,
+      300,
+      15,
+      19
+     ]
+    }
+   ],
+   "box": [
+    196,
+    299,
+    63,
+    20
+   ]
+  },
+  {
+   "id": 32,
+   "name": "recolor_orange_boy_walk_up",
+   "file": "recolors/recolor_orange_boy_walk_up.png",
+   "cell": [
+    18,
+    20
+   ],
+   "zone": null,
+   "set": 13,
+   "template": "none",
+   "frames": [
+    {
+     "item": 96,
+     "role": "frame_0",
+     "src": [
+      3,
+      364,
+      18,
+      19
+     ]
+    },
+    {
+     "item": 97,
+     "role": "frame_1",
+     "src": [
+      27,
+      363,
+      18,
+      20
+     ]
+    },
+    {
+     "item": 98,
+     "role": "frame_2",
+     "src": [
+      51,
+      364,
+      18,
+      19
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    3,
+    363,
+    66,
+    20
+   ]
+  },
+  {
+   "id": 33,
+   "name": "recolor_green_boy_walk_up",
+   "file": "recolors/recolor_green_boy_walk_up.png",
+   "cell": [
+    18,
+    21
+   ],
+   "zone": null,
+   "set": 13,
+   "template": "none",
+   "frames": [
+    {
+     "item": 99,
+     "role": "frame_0",
+     "src": [
+      99,
+      363,
+      18,
+      20
+     ]
+    },
+    {
+     "item": 100,
+     "role": "frame_1",
+     "src": [
+      123,
+      362,
+      18,
+      21
+     ]
+    },
+    {
+     "item": 101,
+     "role": "frame_2",
+     "src": [
+      147,
+      363,
+      18,
+      20
+     ]
+    }
+   ],
+   "box": [
+    99,
+    362,
+    66,
+    21
+   ]
+  },
+  {
+   "id": 34,
+   "name": "recolor_pigtails_girl_walk_up",
+   "file": "recolors/recolor_pigtails_girl_walk_up.png",
+   "cell": [
+    22,
+    23
+   ],
+   "zone": null,
+   "set": 13,
+   "template": "none",
+   "frames": [
+    {
+     "item": 102,
+     "role": "frame_0",
+     "src": [
+      193,
+      362,
+      22,
+      22
+     ]
+    },
+    {
+     "item": 103,
+     "role": "frame_1",
+     "src": [
+      217,
+      361,
+      22,
+      22
+     ]
+    },
+    {
+     "item": 104,
+     "role": "frame_2",
+     "src": [
+      241,
+      362,
+      22,
+      22
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    193,
+    361,
+    70,
+    23
+   ]
+  },
+  {
+   "id": 35,
+   "name": "recolor_ponytail_girl_walk_up",
+   "file": "recolors/recolor_ponytail_girl_walk_up.png",
+   "cell": [
+    18,
+    23
+   ],
+   "zone": null,
+   "set": 13,
+   "template": "none",
+   "frames": [
+    {
+     "item": 105,
+     "role": "frame_0",
+     "src": [
+      291,
+      361,
+      18,
+      22
+     ]
+    },
+    {
+     "item": 106,
+     "role": "frame_1",
+     "src": [
+      315,
+      360,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 107,
+     "role": "frame_2",
+     "src": [
+      339,
+      361,
+      18,
+      22
+     ]
+    }
+   ],
+   "box": [
+    291,
+    360,
+    66,
+    23
+   ]
+  },
+  {
+   "id": 36,
+   "name": "recolor_orange_boy_walk_left",
+   "file": "recolors/recolor_orange_boy_walk_left.png",
+   "cell": [
+    16,
+    20
+   ],
+   "zone": null,
+   "set": 13,
+   "template": "none",
+   "frames": [
+    {
+     "item": 108,
+     "role": "frame_0",
+     "src": [
+      4,
+      396,
+      16,
+      19
+     ]
+    },
+    {
+     "item": 109,
+     "role": "frame_1",
+     "src": [
+      28,
+      395,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 110,
+     "role": "frame_2",
+     "src": [
+      52,
+      396,
+      16,
+      19
+     ]
+    }
+   ],
+   "box": [
+    4,
+    395,
+    64,
+    20
+   ]
+  },
+  {
+   "id": 37,
+   "name": "recolor_green_boy_walk_left",
+   "file": "recolors/recolor_green_boy_walk_left.png",
+   "cell": [
+    16,
+    21
+   ],
+   "zone": null,
+   "set": 13,
+   "template": "none",
+   "frames": [
+    {
+     "item": 111,
+     "role": "frame_0",
+     "src": [
+      100,
+      395,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 112,
+     "role": "frame_1",
+     "src": [
+      124,
+      394,
+      16,
+      21
+     ]
+    },
+    {
+     "item": 113,
+     "role": "frame_2",
+     "src": [
+      148,
+      395,
+      16,
+      20
+     ]
+    }
+   ],
+   "box": [
+    100,
+    394,
+    64,
+    21
+   ]
+  },
+  {
+   "id": 38,
+   "name": "recolor_pigtails_girl_walk_left",
+   "file": "recolors/recolor_pigtails_girl_walk_left.png",
+   "cell": [
+    18,
+    23
+   ],
+   "zone": null,
+   "set": 13,
+   "template": "none",
+   "frames": [
+    {
+     "item": 114,
+     "role": "frame_0",
+     "src": [
+      195,
+      393,
+      18,
+      22
+     ]
+    },
+    {
+     "item": 115,
+     "role": "frame_1",
+     "src": [
+      219,
+      392,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 116,
+     "role": "frame_2",
+     "src": [
+      243,
+      393,
+      18,
+      22
+     ]
+    }
+   ],
+   "box": [
+    195,
+    392,
+    66,
+    23
+   ]
+  },
+  {
+   "id": 39,
+   "name": "recolor_ponytail_girl_walk_left",
+   "file": "recolors/recolor_ponytail_girl_walk_left.png",
+   "cell": [
+    19,
+    23
+   ],
+   "zone": null,
+   "set": 13,
+   "template": "none",
+   "frames": [
+    {
+     "item": 117,
+     "role": "frame_0",
+     "src": [
+      290,
+      393,
+      19,
+      22
+     ]
+    },
+    {
+     "item": 118,
+     "role": "frame_1",
+     "src": [
+      314,
+      392,
+      19,
+      23
+     ]
+    },
+    {
+     "item": 119,
+     "role": "frame_2",
+     "src": [
+      338,
+      393,
+      19,
+      22
+     ]
+    }
+   ],
+   "box": [
+    290,
+    392,
+    67,
+    23
+   ]
+  },
+  {
+   "id": 40,
+   "name": "recolor_orange_boy_walk_down",
+   "file": "recolors/recolor_orange_boy_walk_down.png",
+   "cell": [
+    18,
+    20
+   ],
+   "zone": null,
+   "set": 13,
+   "template": "none",
+   "frames": [
+    {
+     "item": 120,
+     "role": "frame_0",
+     "src": [
+      3,
+      428,
+      18,
+      19
+     ]
+    },
+    {
+     "item": 121,
+     "role": "frame_1",
+     "src": [
+      27,
+      427,
+      18,
+      20
+     ]
+    },
+    {
+     "item": 122,
+     "role": "frame_2",
+     "src": [
+      51,
+      428,
+      18,
+      19
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    3,
+    427,
+    66,
+    20
+   ]
+  },
+  {
+   "id": 41,
+   "name": "recolor_green_boy_walk_down",
+   "file": "recolors/recolor_green_boy_walk_down.png",
+   "cell": [
+    18,
+    21
+   ],
+   "zone": null,
+   "set": 13,
+   "template": "none",
+   "frames": [
+    {
+     "item": 123,
+     "role": "frame_0",
+     "src": [
+      99,
+      427,
+      18,
+      20
+     ]
+    },
+    {
+     "item": 124,
+     "role": "frame_1",
+     "src": [
+      123,
+      426,
+      18,
+      21
+     ]
+    },
+    {
+     "item": 125,
+     "role": "frame_2",
+     "src": [
+      147,
+      427,
+      18,
+      20
+     ]
+    }
+   ],
+   "box": [
+    99,
+    426,
+    66,
+    21
+   ]
+  },
+  {
+   "id": 42,
+   "name": "recolor_pigtails_girl_walk_down",
+   "file": "recolors/recolor_pigtails_girl_walk_down.png",
+   "cell": [
+    22,
+    23
+   ],
+   "zone": null,
+   "set": 13,
+   "template": "none",
+   "frames": [
+    {
+     "item": 126,
+     "role": "frame_0",
+     "src": [
+      193,
+      426,
+      22,
+      22
+     ]
+    },
+    {
+     "item": 127,
+     "role": "frame_1",
+     "src": [
+      217,
+      425,
+      22,
+      22
+     ]
+    },
+    {
+     "item": 128,
+     "role": "frame_2",
+     "src": [
+      241,
+      426,
+      22,
+      22
+     ]
+    }
+   ],
+   "box": [
+    193,
+    425,
+    70,
+    23
+   ]
+  },
+  {
+   "id": 43,
+   "name": "recolor_ponytail_girl_walk_down",
+   "file": "recolors/recolor_ponytail_girl_walk_down.png",
+   "cell": [
+    18,
+    23
+   ],
+   "zone": null,
+   "set": 13,
+   "template": "none",
+   "frames": [
+    {
+     "item": 129,
+     "role": "frame_0",
+     "src": [
+      291,
+      425,
+      18,
+      22
+     ]
+    },
+    {
+     "item": 130,
+     "role": "frame_1",
+     "src": [
+      315,
+      424,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 131,
+     "role": "frame_2",
+     "src": [
+      339,
+      425,
+      18,
+      22
+     ]
+    }
+   ],
+   "box": [
+    291,
+    424,
+    66,
+    23
+   ]
+  },
+  {
+   "id": 44,
+   "name": "recolor_orange_boy_walk_right",
+   "file": "recolors/recolor_orange_boy_walk_right.png",
+   "cell": [
+    16,
+    20
+   ],
+   "zone": null,
+   "set": 13,
+   "template": "none",
+   "frames": [
+    {
+     "item": 132,
+     "role": "frame_0",
+     "src": [
+      4,
+      460,
+      16,
+      19
+     ]
+    },
+    {
+     "item": 133,
+     "role": "frame_1",
+     "src": [
+      28,
+      459,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 134,
+     "role": "frame_2",
+     "src": [
+      52,
+      460,
+      16,
+      19
+     ]
+    }
+   ],
+   "box": [
+    4,
+    459,
+    64,
+    20
+   ]
+  },
+  {
+   "id": 45,
+   "name": "recolor_green_boy_walk_right",
+   "file": "recolors/recolor_green_boy_walk_right.png",
+   "cell": [
+    16,
+    21
+   ],
+   "zone": null,
+   "set": 13,
+   "template": "none",
+   "frames": [
+    {
+     "item": 135,
+     "role": "frame_0",
+     "src": [
+      100,
+      459,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 136,
+     "role": "frame_1",
+     "src": [
+      124,
+      458,
+      16,
+      21
+     ]
+    },
+    {
+     "item": 137,
+     "role": "frame_2",
+     "src": [
+      148,
+      459,
+      16,
+      20
+     ]
+    }
+   ],
+   "box": [
+    100,
+    458,
+    64,
+    21
+   ]
+  },
+  {
+   "id": 46,
+   "name": "recolor_pigtails_girl_walk_right",
+   "file": "recolors/recolor_pigtails_girl_walk_right.png",
+   "cell": [
+    18,
+    23
+   ],
+   "zone": null,
+   "set": 13,
+   "template": "none",
+   "frames": [
+    {
+     "item": 138,
+     "role": "frame_0",
+     "src": [
+      195,
+      457,
+      18,
+      22
+     ]
+    },
+    {
+     "item": 139,
+     "role": "frame_1",
+     "src": [
+      219,
+      456,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 140,
+     "role": "frame_2",
+     "src": [
+      243,
+      457,
+      18,
+      22
+     ]
+    }
+   ],
+   "box": [
+    195,
+    456,
+    66,
+    23
+   ]
+  },
+  {
+   "id": 47,
+   "name": "recolor_ponytail_girl_walk_right",
+   "file": "recolors/recolor_ponytail_girl_walk_right.png",
+   "cell": [
+    19,
+    23
+   ],
+   "zone": null,
+   "set": 13,
+   "template": "none",
+   "frames": [
+    {
+     "item": 141,
+     "role": "frame_0",
+     "src": [
+      291,
+      457,
+      19,
+      22
+     ]
+    },
+    {
+     "item": 142,
+     "role": "frame_1",
+     "src": [
+      315,
+      456,
+      19,
+      23
+     ]
+    },
+    {
+     "item": 143,
+     "role": "frame_2",
+     "src": [
+      339,
+      457,
+      19,
+      22
+     ]
+    }
+   ],
+   "box": [
+    291,
+    456,
+    67,
+    23
+   ]
+  }
+ ],
+ "items": [],
+ "status": "ok",
+ "missing_stages": []
+}

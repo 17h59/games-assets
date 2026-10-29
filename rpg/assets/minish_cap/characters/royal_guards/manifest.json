@@ -1,0 +1,829 @@
+{
+ "sheet": "6391",
+ "game": "minish_cap",
+ "category": "characters",
+ "title": "Royal Guards",
+ "type": "characters",
+ "template": "none",
+ "validation": "verified",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    106,
+    87,
+    67,
+    9
+   ],
+   "point": [
+    139,
+    91
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 1,
+   "box": [
+    336,
+    87,
+    67,
+    9
+   ],
+   "point": [
+    369,
+    91
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 2,
+   "box": [
+    106,
+    100,
+    19,
+    9
+   ],
+   "point": [
+    115,
+    104
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 3,
+   "box": [
+    336,
+    100,
+    19,
+    9
+   ],
+   "point": [
+    345,
+    104
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 4,
+   "box": [
+    193,
+    112,
+    63,
+    8
+   ],
+   "point": [
+    224,
+    116
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 5,
+   "box": [
+    80,
+    113,
+    55,
+    8
+   ],
+   "point": [
+    107,
+    117
+   ],
+   "name": "castle_with_spear",
+   "folder": "castle_with_spear"
+  },
+  {
+   "id": 6,
+   "box": [
+    310,
+    113,
+    55,
+    8
+   ],
+   "point": [
+    337,
+    117
+   ],
+   "name": "field_with_spear",
+   "folder": "field_with_spear"
+  },
+  {
+   "id": 7,
+   "box": [
+    71,
+    174,
+    69,
+    8
+   ],
+   "point": [
+    105,
+    178
+   ],
+   "name": "castle_without_spear",
+   "folder": "castle_without_spear"
+  },
+  {
+   "id": 8,
+   "box": [
+    301,
+    174,
+    69,
+    8
+   ],
+   "point": [
+    335,
+    178
+   ],
+   "name": "field_without_spear",
+   "folder": "field_without_spear"
+  },
+  {
+   "id": 9,
+   "box": [
+    8,
+    184,
+    5,
+    4
+   ],
+   "point": [
+    10,
+    186
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 10,
+   "box": [
+    81,
+    196,
+    50,
+    11
+   ],
+   "point": [
+    106,
+    201
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 11,
+   "box": [
+    60,
+    211,
+    65,
+    13
+   ],
+   "point": [
+    92,
+    217
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "walk_down",
+   "file": "castle_with_spear/walk_down.png",
+   "cell": [
+    22,
+    32
+   ],
+   "zone": null,
+   "set": 5,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      77,
+      9,
+      22,
+      31
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_1",
+     "src": [
+      101,
+      8,
+      22,
+      32
+     ]
+    }
+   ],
+   "box": [
+    77,
+    8,
+    46,
+    32
+   ]
+  },
+  {
+   "id": 1,
+   "name": "walk_side",
+   "file": "castle_with_spear/walk_side.png",
+   "cell": [
+    21,
+    36
+   ],
+   "zone": null,
+   "set": 5,
+   "template": "none",
+   "frames": [
+    {
+     "item": 3,
+     "role": "frame_0",
+     "src": [
+      152,
+      7,
+      19,
+      36
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_1",
+     "src": [
+      174,
+      8,
+      20,
+      35
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_2",
+     "src": [
+      198,
+      11,
+      20,
+      32
+     ]
+    }
+   ],
+   "box": [
+    152,
+    7,
+    66,
+    36
+   ]
+  },
+  {
+   "id": 2,
+   "name": "walk_down",
+   "file": "field_with_spear/walk_down.png",
+   "cell": [
+    22,
+    32
+   ],
+   "zone": null,
+   "set": 6,
+   "template": "none",
+   "frames": [
+    {
+     "item": 7,
+     "role": "frame_0",
+     "src": [
+      307,
+      9,
+      22,
+      31
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_1",
+     "src": [
+      331,
+      8,
+      22,
+      32
+     ]
+    }
+   ],
+   "box": [
+    307,
+    8,
+    46,
+    32
+   ]
+  },
+  {
+   "id": 3,
+   "name": "walk_side",
+   "file": "field_with_spear/walk_side.png",
+   "cell": [
+    21,
+    36
+   ],
+   "zone": null,
+   "set": 6,
+   "template": "none",
+   "frames": [
+    {
+     "item": 9,
+     "role": "frame_0",
+     "src": [
+      382,
+      7,
+      19,
+      36
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_1",
+     "src": [
+      404,
+      8,
+      20,
+      35
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_2",
+     "src": [
+      428,
+      11,
+      20,
+      32
+     ]
+    }
+   ],
+   "box": [
+    382,
+    7,
+    66,
+    36
+   ]
+  },
+  {
+   "id": 4,
+   "name": "spear_thrust",
+   "file": "castle_with_spear/spear_thrust.png",
+   "cell": [
+    23,
+    40
+   ],
+   "zone": null,
+   "set": 5,
+   "template": "none",
+   "frames": [
+    {
+     "item": 12,
+     "role": "frame_0",
+     "src": [
+      55,
+      50,
+      23,
+      36
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_1",
+     "src": [
+      86,
+      53,
+      17,
+      37
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_2",
+     "src": [
+      107,
+      53,
+      16,
+      34
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_3",
+     "src": [
+      129,
+      53,
+      16,
+      34
+     ]
+    }
+   ],
+   "box": [
+    55,
+    50,
+    90,
+    40
+   ]
+  },
+  {
+   "id": 5,
+   "name": "spear_thrust",
+   "file": "field_with_spear/spear_thrust.png",
+   "cell": [
+    23,
+    40
+   ],
+   "zone": null,
+   "set": 6,
+   "template": "none",
+   "frames": [
+    {
+     "item": 16,
+     "role": "frame_0",
+     "src": [
+      285,
+      50,
+      23,
+      36
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_1",
+     "src": [
+      316,
+      53,
+      17,
+      37
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_2",
+     "src": [
+      337,
+      53,
+      16,
+      34
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_3",
+     "src": [
+      359,
+      53,
+      16,
+      34
+     ]
+    }
+   ],
+   "box": [
+    285,
+    50,
+    90,
+    40
+   ]
+  },
+  {
+   "id": 6,
+   "name": "walk_side",
+   "file": "castle_without_spear/walk_side.png",
+   "cell": [
+    15,
+    28
+   ],
+   "zone": null,
+   "set": 7,
+   "template": "none",
+   "frames": [
+    {
+     "item": 20,
+     "role": "frame_0",
+     "src": [
+      15,
+      133,
+      14,
+      28
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_1",
+     "src": [
+      31,
+      133,
+      14,
+      28
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_2",
+     "src": [
+      46,
+      133,
+      15,
+      28
+     ]
+    }
+   ],
+   "box": [
+    15,
+    133,
+    46,
+    28
+   ]
+  },
+  {
+   "id": 7,
+   "name": "walk_down",
+   "file": "castle_without_spear/walk_down.png",
+   "cell": [
+    16,
+    29
+   ],
+   "zone": null,
+   "set": 7,
+   "template": "none",
+   "frames": [
+    {
+     "item": 23,
+     "role": "frame_0",
+     "src": [
+      75,
+      133,
+      16,
+      28
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_1",
+     "src": [
+      94,
+      133,
+      16,
+      27
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_2",
+     "src": [
+      112,
+      132,
+      16,
+      28
+     ]
+    }
+   ],
+   "box": [
+    75,
+    132,
+    53,
+    29
+   ]
+  },
+  {
+   "id": 8,
+   "name": "walk_up",
+   "file": "castle_without_spear/walk_up.png",
+   "cell": [
+    17,
+    29
+   ],
+   "zone": null,
+   "set": 7,
+   "template": "none",
+   "frames": [
+    {
+     "item": 26,
+     "role": "frame_0",
+     "src": [
+      151,
+      132,
+      17,
+      28
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_1",
+     "src": [
+      171,
+      133,
+      16,
+      27
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_2",
+     "src": [
+      189,
+      131,
+      17,
+      29
+     ]
+    }
+   ],
+   "box": [
+    151,
+    131,
+    55,
+    29
+   ]
+  },
+  {
+   "id": 9,
+   "name": "walk_side",
+   "file": "field_without_spear/walk_side.png",
+   "cell": [
+    15,
+    28
+   ],
+   "zone": null,
+   "set": 8,
+   "template": "none",
+   "frames": [
+    {
+     "item": 29,
+     "role": "frame_0",
+     "src": [
+      245,
+      133,
+      14,
+      28
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_1",
+     "src": [
+      261,
+      133,
+      14,
+      28
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_2",
+     "src": [
+      276,
+      133,
+      15,
+      28
+     ]
+    }
+   ],
+   "box": [
+    245,
+    133,
+    46,
+    28
+   ]
+  },
+  {
+   "id": 10,
+   "name": "walk_down",
+   "file": "field_without_spear/walk_down.png",
+   "cell": [
+    16,
+    29
+   ],
+   "zone": null,
+   "set": 8,
+   "template": "none",
+   "frames": [
+    {
+     "item": 32,
+     "role": "frame_0",
+     "src": [
+      305,
+      133,
+      16,
+      28
+     ]
+    },
+    {
+     "item": 33,
+     "role": "frame_1",
+     "src": [
+      324,
+      133,
+      16,
+      27
+     ]
+    },
+    {
+     "item": 34,
+     "role": "frame_2",
+     "src": [
+      342,
+      132,
+      16,
+      28
+     ]
+    }
+   ],
+   "box": [
+    305,
+    132,
+    53,
+    29
+   ]
+  },
+  {
+   "id": 11,
+   "name": "walk_up",
+   "file": "field_without_spear/walk_up.png",
+   "cell": [
+    17,
+    29
+   ],
+   "zone": null,
+   "set": 8,
+   "template": "none",
+   "frames": [
+    {
+     "item": 35,
+     "role": "frame_0",
+     "src": [
+      381,
+      132,
+      17,
+      28
+     ]
+    },
+    {
+     "item": 36,
+     "role": "frame_1",
+     "src": [
+      401,
+      133,
+      16,
+      27
+     ]
+    },
+    {
+     "item": 37,
+     "role": "frame_2",
+     "src": [
+      419,
+      131,
+      17,
+      29
+     ]
+    }
+   ],
+   "box": [
+    381,
+    131,
+    55,
+    29
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 22,
+   "y": 9,
+   "w": 22,
+   "h": 31,
+   "area": 360,
+   "ncolors": 12,
+   "dominant": "#000000",
+   "dom_frac": 0.314,
+   "kind": "sprite",
+   "zone": null,
+   "name": "idle_up",
+   "set": 5,
+   "id": 0,
+   "file": "castle_with_spear/idle_up.png"
+  },
+  {
+   "x": 252,
+   "y": 9,
+   "w": 22,
+   "h": 31,
+   "area": 360,
+   "ncolors": 11,
+   "dominant": "#000000",
+   "dom_frac": 0.314,
+   "kind": "sprite",
+   "zone": null,
+   "name": "idle_up",
+   "set": 6,
+   "id": 6,
+   "file": "field_with_spear/idle_up.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

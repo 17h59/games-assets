@@ -1,0 +1,89 @@
+{
+ "sheet": "155604",
+ "game": "ruby_sapphire",
+ "category": "effects",
+ "title": "Steam Effects",
+ "type": "sprites",
+ "template": "none",
+ "validation": "pending",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "steam_effects_e000",
+   "file": "steam_effects_e000.png",
+   "cell": [
+    7,
+    8
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      3,
+      7,
+      4,
+      4
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      8,
+      6,
+      6,
+      5
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      16,
+      4,
+      7,
+      7
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      24,
+      3,
+      4,
+      8
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_4",
+     "src": [
+      28,
+      3,
+      4,
+      8
+     ]
+    }
+   ],
+   "box": [
+    3,
+    3,
+    29,
+    8
+   ]
+  }
+ ],
+ "items": [],
+ "status": "needs_review",
+ "missing_stages": [
+  "decoupage",
+  "regroupement",
+  "nommage"
+ ]
+}

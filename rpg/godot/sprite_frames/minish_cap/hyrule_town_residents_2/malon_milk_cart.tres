@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/hyrule_town_residents_2/malon_milk_cart.png" id="1_ahm5g"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bxlf0"]
+atlas = ExtResource("1_ahm5g")
+region = Rect2(0, 0, 49, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tx3tx"]
+atlas = ExtResource("1_ahm5g")
+region = Rect2(49, 0, 49, 31)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bxlf0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tx3tx")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

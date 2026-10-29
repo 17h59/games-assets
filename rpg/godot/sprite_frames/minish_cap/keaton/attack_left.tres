@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/keaton/attack_left.png" id="1_sgcoa"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lvbnm"]
+atlas = ExtResource("1_sgcoa")
+region = Rect2(0, 0, 31, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3h685"]
+atlas = ExtResource("1_sgcoa")
+region = Rect2(31, 0, 31, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gwqq7"]
+atlas = ExtResource("1_sgcoa")
+region = Rect2(62, 0, 31, 26)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lvbnm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3h685")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gwqq7")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

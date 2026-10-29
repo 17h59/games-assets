@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/seafloor_cave/dark_orb_shrink.png" id="1_02qj8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_esh3x"]
+atlas = ExtResource("1_02qj8")
+region = Rect2(0, 0, 34, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bmuem"]
+atlas = ExtResource("1_02qj8")
+region = Rect2(34, 0, 34, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b71ma"]
+atlas = ExtResource("1_02qj8")
+region = Rect2(68, 0, 34, 32)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_esh3x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bmuem")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b71ma")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

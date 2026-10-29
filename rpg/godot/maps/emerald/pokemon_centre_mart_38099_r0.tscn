@@ -1,0 +1,7 @@
+[gd_scene format=4]
+
+[ext_resource type="TileSet" path="res://godot/tilesets/emerald.tres" id="1_cw45k"]
+
+[node name="pokemon_centre_mart_38099_r0" type="TileMapLayer" unique_id=1427676115]
+tile_map_data = PackedByteArray("AAAAAAAAAQALABgAAAABAAAAAQAMABgAAAACAAAAAQANABgAAAADAAAAAQAOABgAAAAEAAAAAQAPABgAAAAFAAAAAQAQABgAAAAGAAAAAQARABgAAAAHAAAAAQASABgAAAAIAAAAAQATABgAAAA=")
+tile_set = ExtResource("1_cw45k")

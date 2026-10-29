@@ -1,0 +1,1161 @@
+[gd_scene format=3]
+
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/steam_effects/steam.tres" id="1_a4lep"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e000.tres" id="2_3mxg3"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e001.tres" id="3_4v75m"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e002.tres" id="4_l246g"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e003.tres" id="5_j3ujn"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e004.tres" id="6_mkjck"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e005.tres" id="7_gku3k"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e006.tres" id="8_sets2"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e007.tres" id="9_jrqis"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e008.tres" id="10_4hyi8"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e009.tres" id="11_wrksx"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e010.tres" id="12_hore7"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e011.tres" id="13_hy5uf"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e012.tres" id="14_h34gc"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e013.tres" id="15_vl2pm"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e014.tres" id="16_o6vjy"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e015.tres" id="17_wduog"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e016.tres" id="18_d4vee"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e017.tres" id="19_t1h56"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e018.tres" id="20_0qesk"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e019.tres" id="21_buu8a"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e020.tres" id="22_o5t6v"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e021.tres" id="23_ai5rm"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e022.tres" id="24_tbcj5"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e023.tres" id="25_si7jn"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e024.tres" id="26_twyu8"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e025.tres" id="27_uin7b"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e026.tres" id="28_cmyyu"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e027.tres" id="29_h4s22"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e028.tres" id="30_u33th"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e029.tres" id="31_40ayt"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e030.tres" id="32_67gyf"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e031.tres" id="33_2hnjj"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e032.tres" id="34_ykxsw"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e033.tres" id="35_p2q33"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e034.tres" id="36_yprwy"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e035.tres" id="37_gwvs7"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e036.tres" id="38_u5av5"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e037.tres" id="39_yo6tl"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e038.tres" id="40_gonxf"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e039.tres" id="41_mewl5"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e040.tres" id="42_duy85"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e041.tres" id="43_syvn1"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e042.tres" id="44_q51mh"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e043.tres" id="45_lsahl"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e044.tres" id="46_lu4k5"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e045.tres" id="47_n5gi1"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e046.tres" id="48_nk5nv"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e047.tres" id="49_36sr0"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e048.tres" id="50_cobjt"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e049.tres" id="51_n6yhp"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e050.tres" id="52_wsaop"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e051.tres" id="53_1ujnp"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e052.tres" id="54_1v0vx"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e053.tres" id="55_sswse"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e054.tres" id="56_h4kvd"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e055.tres" id="57_t4sr1"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e056.tres" id="58_xqghv"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e057.tres" id="59_5btpf"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e058.tres" id="60_2iklc"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e059.tres" id="61_7jrdm"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e060.tres" id="62_skpmc"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e061.tres" id="63_0ddnq"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e062.tres" id="64_h64bc"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e063.tres" id="65_2j121"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e064.tres" id="66_8rbmv"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e065.tres" id="67_70wo0"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e066.tres" id="68_ox6ik"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e067.tres" id="69_eiw4y"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e068.tres" id="70_mdjqg"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e069.tres" id="71_77345"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e070.tres" id="72_m0ohd"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e071.tres" id="73_nr4t3"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e072.tres" id="74_m1jj7"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e073.tres" id="75_opfwy"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e074.tres" id="76_fgd5a"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e075.tres" id="77_ks81s"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e076.tres" id="78_vfepm"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e077.tres" id="79_qc4qn"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e078.tres" id="80_jvo2p"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/move_effects/move_effects_e079.tres" id="81_vl7sf"]
+
+[node name="emerald_effects" type="Node2D" unique_id=1125054301]
+
+[node name="steam" type="AnimatedSprite2D" parent="." unique_id=616316384]
+position = Vector2(0, 10)
+sprite_frames = ExtResource("1_a4lep")
+autoplay = "default"
+centered = false
+
+[node name="@Label@11" type="Label" parent="." unique_id=1302110060]
+theme_override_font_sizes/font_size = 6
+text = "steam"
+
+[node name="move_effects_e000" type="AnimatedSprite2D" parent="." unique_id=1465406545]
+position = Vector2(48, 10)
+sprite_frames = ExtResource("2_3mxg3")
+autoplay = "default"
+centered = false
+
+[node name="@Label@12" type="Label" parent="." unique_id=598806345]
+offset_left = 48.0
+offset_right = 48.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e000"
+
+[node name="move_effects_e001" type="AnimatedSprite2D" parent="." unique_id=1284339232]
+position = Vector2(96, 10)
+sprite_frames = ExtResource("3_4v75m")
+autoplay = "default"
+centered = false
+
+[node name="@Label@13" type="Label" parent="." unique_id=1456836795]
+offset_left = 96.0
+offset_right = 96.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e001"
+
+[node name="move_effects_e002" type="AnimatedSprite2D" parent="." unique_id=978458977]
+position = Vector2(144, 10)
+sprite_frames = ExtResource("4_l246g")
+autoplay = "default"
+centered = false
+
+[node name="@Label@14" type="Label" parent="." unique_id=1880310499]
+offset_left = 144.0
+offset_right = 144.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e002"
+
+[node name="move_effects_e003" type="AnimatedSprite2D" parent="." unique_id=51960744]
+position = Vector2(192, 10)
+sprite_frames = ExtResource("5_j3ujn")
+autoplay = "default"
+centered = false
+
+[node name="@Label@15" type="Label" parent="." unique_id=267718321]
+offset_left = 192.0
+offset_right = 192.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e003"
+
+[node name="move_effects_e004" type="AnimatedSprite2D" parent="." unique_id=1406776243]
+position = Vector2(240, 10)
+sprite_frames = ExtResource("6_mkjck")
+autoplay = "default"
+centered = false
+
+[node name="@Label@16" type="Label" parent="." unique_id=1210997399]
+offset_left = 240.0
+offset_right = 240.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e004"
+
+[node name="move_effects_e005" type="AnimatedSprite2D" parent="." unique_id=1553296195]
+position = Vector2(288, 10)
+sprite_frames = ExtResource("7_gku3k")
+autoplay = "default"
+centered = false
+
+[node name="@Label@17" type="Label" parent="." unique_id=1333356886]
+offset_left = 288.0
+offset_right = 288.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e005"
+
+[node name="move_effects_e006" type="AnimatedSprite2D" parent="." unique_id=2142887097]
+position = Vector2(336, 10)
+sprite_frames = ExtResource("8_sets2")
+autoplay = "default"
+centered = false
+
+[node name="@Label@18" type="Label" parent="." unique_id=1082363423]
+offset_left = 336.0
+offset_right = 336.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e006"
+
+[node name="move_effects_e007" type="AnimatedSprite2D" parent="." unique_id=1896960033]
+position = Vector2(384, 10)
+sprite_frames = ExtResource("9_jrqis")
+autoplay = "default"
+centered = false
+
+[node name="@Label@19" type="Label" parent="." unique_id=756097036]
+offset_left = 384.0
+offset_right = 384.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e007"
+
+[node name="move_effects_e008" type="AnimatedSprite2D" parent="." unique_id=651579630]
+position = Vector2(432, 10)
+sprite_frames = ExtResource("10_4hyi8")
+autoplay = "default"
+centered = false
+
+[node name="@Label@20" type="Label" parent="." unique_id=411483885]
+offset_left = 432.0
+offset_right = 432.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e008"
+
+[node name="move_effects_e009" type="AnimatedSprite2D" parent="." unique_id=500643031]
+position = Vector2(480, 10)
+sprite_frames = ExtResource("11_wrksx")
+autoplay = "default"
+centered = false
+
+[node name="@Label@21" type="Label" parent="." unique_id=717301327]
+offset_left = 480.0
+offset_right = 480.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e009"
+
+[node name="move_effects_e010" type="AnimatedSprite2D" parent="." unique_id=535783309]
+position = Vector2(528, 10)
+sprite_frames = ExtResource("12_hore7")
+autoplay = "default"
+centered = false
+
+[node name="@Label@22" type="Label" parent="." unique_id=1727651109]
+offset_left = 528.0
+offset_right = 528.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e010"
+
+[node name="move_effects_e011" type="AnimatedSprite2D" parent="." unique_id=216450149]
+position = Vector2(576, 10)
+sprite_frames = ExtResource("13_hy5uf")
+autoplay = "default"
+centered = false
+
+[node name="@Label@23" type="Label" parent="." unique_id=1837558511]
+offset_left = 576.0
+offset_right = 576.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e011"
+
+[node name="move_effects_e012" type="AnimatedSprite2D" parent="." unique_id=932581320]
+position = Vector2(624, 10)
+sprite_frames = ExtResource("14_h34gc")
+autoplay = "default"
+centered = false
+
+[node name="@Label@24" type="Label" parent="." unique_id=129424697]
+offset_left = 624.0
+offset_right = 624.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e012"
+
+[node name="move_effects_e013" type="AnimatedSprite2D" parent="." unique_id=1266826700]
+position = Vector2(672, 10)
+sprite_frames = ExtResource("15_vl2pm")
+autoplay = "default"
+centered = false
+
+[node name="@Label@25" type="Label" parent="." unique_id=929408420]
+offset_left = 672.0
+offset_right = 672.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e013"
+
+[node name="move_effects_e014" type="AnimatedSprite2D" parent="." unique_id=482269380]
+position = Vector2(720, 10)
+sprite_frames = ExtResource("16_o6vjy")
+autoplay = "default"
+centered = false
+
+[node name="@Label@26" type="Label" parent="." unique_id=201984946]
+offset_left = 720.0
+offset_right = 720.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e014"
+
+[node name="move_effects_e015" type="AnimatedSprite2D" parent="." unique_id=177422493]
+position = Vector2(768, 10)
+sprite_frames = ExtResource("17_wduog")
+autoplay = "default"
+centered = false
+
+[node name="@Label@27" type="Label" parent="." unique_id=1192047851]
+offset_left = 768.0
+offset_right = 768.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e015"
+
+[node name="move_effects_e016" type="AnimatedSprite2D" parent="." unique_id=1821604741]
+position = Vector2(816, 10)
+sprite_frames = ExtResource("18_d4vee")
+autoplay = "default"
+centered = false
+
+[node name="@Label@28" type="Label" parent="." unique_id=883710891]
+offset_left = 816.0
+offset_right = 816.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e016"
+
+[node name="move_effects_e017" type="AnimatedSprite2D" parent="." unique_id=160244143]
+position = Vector2(864, 10)
+sprite_frames = ExtResource("19_t1h56")
+autoplay = "default"
+centered = false
+
+[node name="@Label@29" type="Label" parent="." unique_id=745039488]
+offset_left = 864.0
+offset_right = 864.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e017"
+
+[node name="move_effects_e018" type="AnimatedSprite2D" parent="." unique_id=1416325164]
+position = Vector2(912, 10)
+sprite_frames = ExtResource("20_0qesk")
+autoplay = "default"
+centered = false
+
+[node name="@Label@30" type="Label" parent="." unique_id=287368919]
+offset_left = 912.0
+offset_right = 912.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e018"
+
+[node name="move_effects_e019" type="AnimatedSprite2D" parent="." unique_id=870049376]
+position = Vector2(960, 10)
+sprite_frames = ExtResource("21_buu8a")
+autoplay = "default"
+centered = false
+
+[node name="@Label@31" type="Label" parent="." unique_id=1551744232]
+offset_left = 960.0
+offset_right = 960.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e019"
+
+[node name="move_effects_e020" type="AnimatedSprite2D" parent="." unique_id=933662697]
+position = Vector2(1008, 10)
+sprite_frames = ExtResource("22_o5t6v")
+autoplay = "default"
+centered = false
+
+[node name="@Label@32" type="Label" parent="." unique_id=1285896303]
+offset_left = 1008.0
+offset_right = 1008.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e020"
+
+[node name="move_effects_e021" type="AnimatedSprite2D" parent="." unique_id=2012196680]
+position = Vector2(1056, 10)
+sprite_frames = ExtResource("23_ai5rm")
+autoplay = "default"
+centered = false
+
+[node name="@Label@33" type="Label" parent="." unique_id=898936067]
+offset_left = 1056.0
+offset_right = 1056.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e021"
+
+[node name="move_effects_e022" type="AnimatedSprite2D" parent="." unique_id=603080683]
+position = Vector2(1104, 10)
+sprite_frames = ExtResource("24_tbcj5")
+autoplay = "default"
+centered = false
+
+[node name="@Label@34" type="Label" parent="." unique_id=2057695003]
+offset_left = 1104.0
+offset_right = 1104.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e022"
+
+[node name="move_effects_e023" type="AnimatedSprite2D" parent="." unique_id=1645192648]
+position = Vector2(1152, 10)
+sprite_frames = ExtResource("25_si7jn")
+autoplay = "default"
+centered = false
+
+[node name="@Label@35" type="Label" parent="." unique_id=1002252693]
+offset_left = 1152.0
+offset_right = 1152.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e023"
+
+[node name="move_effects_e024" type="AnimatedSprite2D" parent="." unique_id=530963916]
+position = Vector2(0, 67)
+sprite_frames = ExtResource("26_twyu8")
+autoplay = "default"
+centered = false
+
+[node name="@Label@36" type="Label" parent="." unique_id=1197030061]
+offset_top = 57.0
+offset_bottom = 57.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e024"
+
+[node name="move_effects_e025" type="AnimatedSprite2D" parent="." unique_id=756079695]
+position = Vector2(48, 67)
+sprite_frames = ExtResource("27_uin7b")
+autoplay = "default"
+centered = false
+
+[node name="@Label@37" type="Label" parent="." unique_id=341554529]
+offset_left = 48.0
+offset_top = 57.0
+offset_right = 48.0
+offset_bottom = 57.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e025"
+
+[node name="move_effects_e026" type="AnimatedSprite2D" parent="." unique_id=745823125]
+position = Vector2(96, 67)
+sprite_frames = ExtResource("28_cmyyu")
+autoplay = "default"
+centered = false
+
+[node name="@Label@38" type="Label" parent="." unique_id=405356946]
+offset_left = 96.0
+offset_top = 57.0
+offset_right = 96.0
+offset_bottom = 57.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e026"
+
+[node name="move_effects_e027" type="AnimatedSprite2D" parent="." unique_id=77479761]
+position = Vector2(144, 67)
+sprite_frames = ExtResource("29_h4s22")
+autoplay = "default"
+centered = false
+
+[node name="@Label@39" type="Label" parent="." unique_id=1669788042]
+offset_left = 144.0
+offset_top = 57.0
+offset_right = 144.0
+offset_bottom = 57.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e027"
+
+[node name="move_effects_e028" type="AnimatedSprite2D" parent="." unique_id=1003628118]
+position = Vector2(192, 67)
+sprite_frames = ExtResource("30_u33th")
+autoplay = "default"
+centered = false
+
+[node name="@Label@40" type="Label" parent="." unique_id=779692317]
+offset_left = 192.0
+offset_top = 57.0
+offset_right = 192.0
+offset_bottom = 57.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e028"
+
+[node name="move_effects_e029" type="AnimatedSprite2D" parent="." unique_id=1247929966]
+position = Vector2(240, 67)
+sprite_frames = ExtResource("31_40ayt")
+autoplay = "default"
+centered = false
+
+[node name="@Label@41" type="Label" parent="." unique_id=319196196]
+offset_left = 240.0
+offset_top = 57.0
+offset_right = 240.0
+offset_bottom = 57.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e029"
+
+[node name="move_effects_e030" type="AnimatedSprite2D" parent="." unique_id=348679767]
+position = Vector2(288, 67)
+sprite_frames = ExtResource("32_67gyf")
+autoplay = "default"
+centered = false
+
+[node name="@Label@42" type="Label" parent="." unique_id=1668343846]
+offset_left = 288.0
+offset_top = 57.0
+offset_right = 288.0
+offset_bottom = 57.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e030"
+
+[node name="move_effects_e031" type="AnimatedSprite2D" parent="." unique_id=860067124]
+position = Vector2(336, 67)
+sprite_frames = ExtResource("33_2hnjj")
+autoplay = "default"
+centered = false
+
+[node name="@Label@43" type="Label" parent="." unique_id=937216670]
+offset_left = 336.0
+offset_top = 57.0
+offset_right = 336.0
+offset_bottom = 57.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e031"
+
+[node name="move_effects_e032" type="AnimatedSprite2D" parent="." unique_id=1190484157]
+position = Vector2(384, 67)
+sprite_frames = ExtResource("34_ykxsw")
+autoplay = "default"
+centered = false
+
+[node name="@Label@44" type="Label" parent="." unique_id=803598348]
+offset_left = 384.0
+offset_top = 57.0
+offset_right = 384.0
+offset_bottom = 57.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e032"
+
+[node name="move_effects_e033" type="AnimatedSprite2D" parent="." unique_id=2004957180]
+position = Vector2(432, 67)
+sprite_frames = ExtResource("35_p2q33")
+autoplay = "default"
+centered = false
+
+[node name="@Label@45" type="Label" parent="." unique_id=393852628]
+offset_left = 432.0
+offset_top = 57.0
+offset_right = 432.0
+offset_bottom = 57.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e033"
+
+[node name="move_effects_e034" type="AnimatedSprite2D" parent="." unique_id=1336295102]
+position = Vector2(480, 67)
+sprite_frames = ExtResource("36_yprwy")
+autoplay = "default"
+centered = false
+
+[node name="@Label@46" type="Label" parent="." unique_id=1071148178]
+offset_left = 480.0
+offset_top = 57.0
+offset_right = 480.0
+offset_bottom = 57.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e034"
+
+[node name="move_effects_e035" type="AnimatedSprite2D" parent="." unique_id=1760315483]
+position = Vector2(528, 67)
+sprite_frames = ExtResource("37_gwvs7")
+autoplay = "default"
+centered = false
+
+[node name="@Label@47" type="Label" parent="." unique_id=1211079415]
+offset_left = 528.0
+offset_top = 57.0
+offset_right = 528.0
+offset_bottom = 57.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e035"
+
+[node name="move_effects_e036" type="AnimatedSprite2D" parent="." unique_id=1937029614]
+position = Vector2(576, 67)
+sprite_frames = ExtResource("38_u5av5")
+autoplay = "default"
+centered = false
+
+[node name="@Label@48" type="Label" parent="." unique_id=1062611027]
+offset_left = 576.0
+offset_top = 57.0
+offset_right = 576.0
+offset_bottom = 57.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e036"
+
+[node name="move_effects_e037" type="AnimatedSprite2D" parent="." unique_id=559272600]
+position = Vector2(624, 67)
+sprite_frames = ExtResource("39_yo6tl")
+autoplay = "default"
+centered = false
+
+[node name="@Label@49" type="Label" parent="." unique_id=427920272]
+offset_left = 624.0
+offset_top = 57.0
+offset_right = 624.0
+offset_bottom = 57.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e037"
+
+[node name="move_effects_e038" type="AnimatedSprite2D" parent="." unique_id=1952685127]
+position = Vector2(672, 67)
+sprite_frames = ExtResource("40_gonxf")
+autoplay = "default"
+centered = false
+
+[node name="@Label@50" type="Label" parent="." unique_id=721051687]
+offset_left = 672.0
+offset_top = 57.0
+offset_right = 672.0
+offset_bottom = 57.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e038"
+
+[node name="move_effects_e039" type="AnimatedSprite2D" parent="." unique_id=617263177]
+position = Vector2(720, 67)
+sprite_frames = ExtResource("41_mewl5")
+autoplay = "default"
+centered = false
+
+[node name="@Label@51" type="Label" parent="." unique_id=1987050756]
+offset_left = 720.0
+offset_top = 57.0
+offset_right = 720.0
+offset_bottom = 57.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e039"
+
+[node name="move_effects_e040" type="AnimatedSprite2D" parent="." unique_id=846520229]
+position = Vector2(768, 67)
+sprite_frames = ExtResource("42_duy85")
+autoplay = "default"
+centered = false
+
+[node name="@Label@52" type="Label" parent="." unique_id=721771803]
+offset_left = 768.0
+offset_top = 57.0
+offset_right = 768.0
+offset_bottom = 57.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e040"
+
+[node name="move_effects_e041" type="AnimatedSprite2D" parent="." unique_id=1797574902]
+position = Vector2(816, 67)
+sprite_frames = ExtResource("43_syvn1")
+autoplay = "default"
+centered = false
+
+[node name="@Label@53" type="Label" parent="." unique_id=1399888851]
+offset_left = 816.0
+offset_top = 57.0
+offset_right = 816.0
+offset_bottom = 57.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e041"
+
+[node name="move_effects_e042" type="AnimatedSprite2D" parent="." unique_id=455994837]
+position = Vector2(864, 67)
+sprite_frames = ExtResource("44_q51mh")
+autoplay = "default"
+centered = false
+
+[node name="@Label@54" type="Label" parent="." unique_id=1029150335]
+offset_left = 864.0
+offset_top = 57.0
+offset_right = 864.0
+offset_bottom = 57.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e042"
+
+[node name="move_effects_e043" type="AnimatedSprite2D" parent="." unique_id=1238911933]
+position = Vector2(912, 67)
+sprite_frames = ExtResource("45_lsahl")
+autoplay = "default"
+centered = false
+
+[node name="@Label@55" type="Label" parent="." unique_id=294155096]
+offset_left = 912.0
+offset_top = 57.0
+offset_right = 912.0
+offset_bottom = 57.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e043"
+
+[node name="move_effects_e044" type="AnimatedSprite2D" parent="." unique_id=1511686808]
+position = Vector2(960, 67)
+sprite_frames = ExtResource("46_lu4k5")
+autoplay = "default"
+centered = false
+
+[node name="@Label@56" type="Label" parent="." unique_id=1200072559]
+offset_left = 960.0
+offset_top = 57.0
+offset_right = 960.0
+offset_bottom = 57.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e044"
+
+[node name="move_effects_e045" type="AnimatedSprite2D" parent="." unique_id=281022593]
+position = Vector2(1008, 67)
+sprite_frames = ExtResource("47_n5gi1")
+autoplay = "default"
+centered = false
+
+[node name="@Label@57" type="Label" parent="." unique_id=1896851689]
+offset_left = 1008.0
+offset_top = 57.0
+offset_right = 1008.0
+offset_bottom = 57.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e045"
+
+[node name="move_effects_e046" type="AnimatedSprite2D" parent="." unique_id=1555784015]
+position = Vector2(1056, 67)
+sprite_frames = ExtResource("48_nk5nv")
+autoplay = "default"
+centered = false
+
+[node name="@Label@58" type="Label" parent="." unique_id=2022181484]
+offset_left = 1056.0
+offset_top = 57.0
+offset_right = 1056.0
+offset_bottom = 57.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e046"
+
+[node name="move_effects_e047" type="AnimatedSprite2D" parent="." unique_id=1320248254]
+position = Vector2(1104, 67)
+sprite_frames = ExtResource("49_36sr0")
+autoplay = "default"
+centered = false
+
+[node name="@Label@59" type="Label" parent="." unique_id=385267198]
+offset_left = 1104.0
+offset_top = 57.0
+offset_right = 1104.0
+offset_bottom = 57.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e047"
+
+[node name="move_effects_e048" type="AnimatedSprite2D" parent="." unique_id=387575127]
+position = Vector2(1152, 67)
+sprite_frames = ExtResource("50_cobjt")
+autoplay = "default"
+centered = false
+
+[node name="@Label@60" type="Label" parent="." unique_id=759640096]
+offset_left = 1152.0
+offset_top = 57.0
+offset_right = 1152.0
+offset_bottom = 57.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e048"
+
+[node name="move_effects_e049" type="AnimatedSprite2D" parent="." unique_id=1534308995]
+position = Vector2(0, 154)
+sprite_frames = ExtResource("51_n6yhp")
+autoplay = "default"
+centered = false
+
+[node name="@Label@61" type="Label" parent="." unique_id=1475023363]
+offset_top = 144.0
+offset_bottom = 144.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e049"
+
+[node name="move_effects_e050" type="AnimatedSprite2D" parent="." unique_id=1647202737]
+position = Vector2(48, 154)
+sprite_frames = ExtResource("52_wsaop")
+autoplay = "default"
+centered = false
+
+[node name="@Label@62" type="Label" parent="." unique_id=1068117229]
+offset_left = 48.0
+offset_top = 144.0
+offset_right = 48.0
+offset_bottom = 144.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e050"
+
+[node name="move_effects_e051" type="AnimatedSprite2D" parent="." unique_id=82305851]
+position = Vector2(96, 154)
+sprite_frames = ExtResource("53_1ujnp")
+autoplay = "default"
+centered = false
+
+[node name="@Label@63" type="Label" parent="." unique_id=648240577]
+offset_left = 96.0
+offset_top = 144.0
+offset_right = 96.0
+offset_bottom = 144.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e051"
+
+[node name="move_effects_e052" type="AnimatedSprite2D" parent="." unique_id=1048044653]
+position = Vector2(144, 154)
+sprite_frames = ExtResource("54_1v0vx")
+autoplay = "default"
+centered = false
+
+[node name="@Label@64" type="Label" parent="." unique_id=1388408920]
+offset_left = 144.0
+offset_top = 144.0
+offset_right = 144.0
+offset_bottom = 144.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e052"
+
+[node name="move_effects_e053" type="AnimatedSprite2D" parent="." unique_id=1187375583]
+position = Vector2(192, 154)
+sprite_frames = ExtResource("55_sswse")
+autoplay = "default"
+centered = false
+
+[node name="@Label@65" type="Label" parent="." unique_id=798433231]
+offset_left = 192.0
+offset_top = 144.0
+offset_right = 192.0
+offset_bottom = 144.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e053"
+
+[node name="move_effects_e054" type="AnimatedSprite2D" parent="." unique_id=1599042646]
+position = Vector2(240, 154)
+sprite_frames = ExtResource("56_h4kvd")
+autoplay = "default"
+centered = false
+
+[node name="@Label@66" type="Label" parent="." unique_id=303523190]
+offset_left = 240.0
+offset_top = 144.0
+offset_right = 240.0
+offset_bottom = 144.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e054"
+
+[node name="move_effects_e055" type="AnimatedSprite2D" parent="." unique_id=956255459]
+position = Vector2(288, 154)
+sprite_frames = ExtResource("57_t4sr1")
+autoplay = "default"
+centered = false
+
+[node name="@Label@67" type="Label" parent="." unique_id=1352200213]
+offset_left = 288.0
+offset_top = 144.0
+offset_right = 288.0
+offset_bottom = 144.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e055"
+
+[node name="move_effects_e056" type="AnimatedSprite2D" parent="." unique_id=2013713996]
+position = Vector2(336, 154)
+sprite_frames = ExtResource("58_xqghv")
+autoplay = "default"
+centered = false
+
+[node name="@Label@68" type="Label" parent="." unique_id=228837607]
+offset_left = 336.0
+offset_top = 144.0
+offset_right = 336.0
+offset_bottom = 144.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e056"
+
+[node name="move_effects_e057" type="AnimatedSprite2D" parent="." unique_id=1713360534]
+position = Vector2(384, 154)
+sprite_frames = ExtResource("59_5btpf")
+autoplay = "default"
+centered = false
+
+[node name="@Label@69" type="Label" parent="." unique_id=652748843]
+offset_left = 384.0
+offset_top = 144.0
+offset_right = 384.0
+offset_bottom = 144.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e057"
+
+[node name="move_effects_e058" type="AnimatedSprite2D" parent="." unique_id=577392772]
+position = Vector2(432, 154)
+sprite_frames = ExtResource("60_2iklc")
+autoplay = "default"
+centered = false
+
+[node name="@Label@70" type="Label" parent="." unique_id=791520758]
+offset_left = 432.0
+offset_top = 144.0
+offset_right = 432.0
+offset_bottom = 144.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e058"
+
+[node name="move_effects_e059" type="AnimatedSprite2D" parent="." unique_id=815619309]
+position = Vector2(480, 154)
+sprite_frames = ExtResource("61_7jrdm")
+autoplay = "default"
+centered = false
+
+[node name="@Label@71" type="Label" parent="." unique_id=662345916]
+offset_left = 480.0
+offset_top = 144.0
+offset_right = 480.0
+offset_bottom = 144.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e059"
+
+[node name="move_effects_e060" type="AnimatedSprite2D" parent="." unique_id=531436350]
+position = Vector2(528, 154)
+sprite_frames = ExtResource("62_skpmc")
+autoplay = "default"
+centered = false
+
+[node name="@Label@72" type="Label" parent="." unique_id=1016477545]
+offset_left = 528.0
+offset_top = 144.0
+offset_right = 528.0
+offset_bottom = 144.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e060"
+
+[node name="move_effects_e061" type="AnimatedSprite2D" parent="." unique_id=1593811742]
+position = Vector2(576, 154)
+sprite_frames = ExtResource("63_0ddnq")
+autoplay = "default"
+centered = false
+
+[node name="@Label@73" type="Label" parent="." unique_id=2034804556]
+offset_left = 576.0
+offset_top = 144.0
+offset_right = 576.0
+offset_bottom = 144.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e061"
+
+[node name="move_effects_e062" type="AnimatedSprite2D" parent="." unique_id=732021073]
+position = Vector2(624, 154)
+sprite_frames = ExtResource("64_h64bc")
+autoplay = "default"
+centered = false
+
+[node name="@Label@74" type="Label" parent="." unique_id=250389830]
+offset_left = 624.0
+offset_top = 144.0
+offset_right = 624.0
+offset_bottom = 144.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e062"
+
+[node name="move_effects_e063" type="AnimatedSprite2D" parent="." unique_id=1639653783]
+position = Vector2(672, 154)
+sprite_frames = ExtResource("65_2j121")
+autoplay = "default"
+centered = false
+
+[node name="@Label@75" type="Label" parent="." unique_id=1247557749]
+offset_left = 672.0
+offset_top = 144.0
+offset_right = 672.0
+offset_bottom = 144.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e063"
+
+[node name="move_effects_e064" type="AnimatedSprite2D" parent="." unique_id=1043164068]
+position = Vector2(720, 154)
+sprite_frames = ExtResource("66_8rbmv")
+autoplay = "default"
+centered = false
+
+[node name="@Label@76" type="Label" parent="." unique_id=400006961]
+offset_left = 720.0
+offset_top = 144.0
+offset_right = 720.0
+offset_bottom = 144.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e064"
+
+[node name="move_effects_e065" type="AnimatedSprite2D" parent="." unique_id=1708852479]
+position = Vector2(768, 154)
+sprite_frames = ExtResource("67_70wo0")
+autoplay = "default"
+centered = false
+
+[node name="@Label@77" type="Label" parent="." unique_id=918935223]
+offset_left = 768.0
+offset_top = 144.0
+offset_right = 768.0
+offset_bottom = 144.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e065"
+
+[node name="move_effects_e066" type="AnimatedSprite2D" parent="." unique_id=686117910]
+position = Vector2(816, 154)
+sprite_frames = ExtResource("68_ox6ik")
+autoplay = "default"
+centered = false
+
+[node name="@Label@78" type="Label" parent="." unique_id=604103631]
+offset_left = 816.0
+offset_top = 144.0
+offset_right = 816.0
+offset_bottom = 144.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e066"
+
+[node name="move_effects_e067" type="AnimatedSprite2D" parent="." unique_id=719524709]
+position = Vector2(864, 154)
+sprite_frames = ExtResource("69_eiw4y")
+autoplay = "default"
+centered = false
+
+[node name="@Label@79" type="Label" parent="." unique_id=1710162824]
+offset_left = 864.0
+offset_top = 144.0
+offset_right = 864.0
+offset_bottom = 144.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e067"
+
+[node name="move_effects_e068" type="AnimatedSprite2D" parent="." unique_id=1933663913]
+position = Vector2(912, 154)
+sprite_frames = ExtResource("70_mdjqg")
+autoplay = "default"
+centered = false
+
+[node name="@Label@80" type="Label" parent="." unique_id=1680141893]
+offset_left = 912.0
+offset_top = 144.0
+offset_right = 912.0
+offset_bottom = 144.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e068"
+
+[node name="move_effects_e069" type="AnimatedSprite2D" parent="." unique_id=789712942]
+position = Vector2(960, 154)
+sprite_frames = ExtResource("71_77345")
+autoplay = "default"
+centered = false
+
+[node name="@Label@81" type="Label" parent="." unique_id=582704375]
+offset_left = 960.0
+offset_top = 144.0
+offset_right = 960.0
+offset_bottom = 144.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e069"
+
+[node name="move_effects_e070" type="AnimatedSprite2D" parent="." unique_id=837783016]
+position = Vector2(1008, 154)
+sprite_frames = ExtResource("72_m0ohd")
+autoplay = "default"
+centered = false
+
+[node name="@Label@82" type="Label" parent="." unique_id=863342259]
+offset_left = 1008.0
+offset_top = 144.0
+offset_right = 1008.0
+offset_bottom = 144.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e070"
+
+[node name="move_effects_e071" type="AnimatedSprite2D" parent="." unique_id=2002382767]
+position = Vector2(1056, 154)
+sprite_frames = ExtResource("73_nr4t3")
+autoplay = "default"
+centered = false
+
+[node name="@Label@83" type="Label" parent="." unique_id=77736522]
+offset_left = 1056.0
+offset_top = 144.0
+offset_right = 1056.0
+offset_bottom = 144.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e071"
+
+[node name="move_effects_e072" type="AnimatedSprite2D" parent="." unique_id=612038293]
+position = Vector2(1104, 154)
+sprite_frames = ExtResource("74_m1jj7")
+autoplay = "default"
+centered = false
+
+[node name="@Label@84" type="Label" parent="." unique_id=183731435]
+offset_left = 1104.0
+offset_top = 144.0
+offset_right = 1104.0
+offset_bottom = 144.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e072"
+
+[node name="move_effects_e073" type="AnimatedSprite2D" parent="." unique_id=959208937]
+position = Vector2(1152, 154)
+sprite_frames = ExtResource("75_opfwy")
+autoplay = "default"
+centered = false
+
+[node name="@Label@85" type="Label" parent="." unique_id=1257321036]
+offset_left = 1152.0
+offset_top = 144.0
+offset_right = 1152.0
+offset_bottom = 144.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e073"
+
+[node name="move_effects_e074" type="AnimatedSprite2D" parent="." unique_id=1079424241]
+position = Vector2(0, 194)
+sprite_frames = ExtResource("76_fgd5a")
+autoplay = "default"
+centered = false
+
+[node name="@Label@86" type="Label" parent="." unique_id=850964368]
+offset_top = 184.0
+offset_bottom = 184.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e074"
+
+[node name="move_effects_e075" type="AnimatedSprite2D" parent="." unique_id=678974768]
+position = Vector2(48, 194)
+sprite_frames = ExtResource("77_ks81s")
+autoplay = "default"
+centered = false
+
+[node name="@Label@87" type="Label" parent="." unique_id=384968819]
+offset_left = 48.0
+offset_top = 184.0
+offset_right = 48.0
+offset_bottom = 184.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e075"
+
+[node name="move_effects_e076" type="AnimatedSprite2D" parent="." unique_id=1429087915]
+position = Vector2(96, 194)
+sprite_frames = ExtResource("78_vfepm")
+autoplay = "default"
+centered = false
+
+[node name="@Label@88" type="Label" parent="." unique_id=1024163773]
+offset_left = 96.0
+offset_top = 184.0
+offset_right = 96.0
+offset_bottom = 184.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e076"
+
+[node name="move_effects_e077" type="AnimatedSprite2D" parent="." unique_id=1423172562]
+position = Vector2(144, 194)
+sprite_frames = ExtResource("79_qc4qn")
+autoplay = "default"
+centered = false
+
+[node name="@Label@89" type="Label" parent="." unique_id=750763217]
+offset_left = 144.0
+offset_top = 184.0
+offset_right = 144.0
+offset_bottom = 184.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e077"
+
+[node name="move_effects_e078" type="AnimatedSprite2D" parent="." unique_id=822792420]
+position = Vector2(192, 194)
+sprite_frames = ExtResource("80_jvo2p")
+autoplay = "default"
+centered = false
+
+[node name="@Label@90" type="Label" parent="." unique_id=192723257]
+offset_left = 192.0
+offset_top = 184.0
+offset_right = 192.0
+offset_bottom = 184.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e078"
+
+[node name="move_effects_e079" type="AnimatedSprite2D" parent="." unique_id=300363073]
+position = Vector2(240, 194)
+sprite_frames = ExtResource("81_vl7sf")
+autoplay = "default"
+centered = false
+
+[node name="@Label@91" type="Label" parent="." unique_id=1599666034]
+offset_left = 240.0
+offset_top = 184.0
+offset_right = 240.0
+offset_bottom = 184.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e079"

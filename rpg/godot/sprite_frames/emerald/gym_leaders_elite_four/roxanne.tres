@@ -1,0 +1,42 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/emerald/characters/gym_leaders_elite_four/roxanne.png" id="1_sk2h1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_75wgb"]
+atlas = ExtResource("1_sk2h1")
+region = Rect2(0, 0, 16, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_34rh0"]
+atlas = ExtResource("1_sk2h1")
+region = Rect2(32, 0, 16, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_icop8"]
+atlas = ExtResource("1_sk2h1")
+region = Rect2(16, 0, 16, 19)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_75wgb")
+}],
+"loop": 1,
+"name": &"idle_down",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_34rh0")
+}],
+"loop": 1,
+"name": &"idle_left",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_icop8")
+}],
+"loop": 1,
+"name": &"idle_up",
+"speed": 1.0
+}]

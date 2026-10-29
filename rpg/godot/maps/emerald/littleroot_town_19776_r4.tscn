@@ -1,0 +1,7 @@
+[gd_scene format=3]
+
+[ext_resource type="TileSet" path="res://godot/tilesets/emerald.tres" id="1_rkwfe"]
+
+[node name="littleroot_town_19776_r4" type="TileMapLayer" unique_id=1626531993]
+tile_map_data = PackedByteArray(0, 0, 0, 0, 0, 0, 1, 0, 15, 0, 11, 0, 0, 0, 1, 0, 2, 0, 1, 0, 16, 0, 11, 0, 0, 0)
+tile_set = ExtResource("1_rkwfe")

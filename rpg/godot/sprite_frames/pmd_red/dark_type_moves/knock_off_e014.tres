@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/dark_type_moves/knock_off/knock_off_e014.png" id="1_60hx8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d13uk"]
+atlas = ExtResource("1_60hx8")
+region = Rect2(0, 0, 30, 25)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_as8pj"]
+atlas = ExtResource("1_60hx8")
+region = Rect2(30, 0, 30, 25)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p4lbm"]
+atlas = ExtResource("1_60hx8")
+region = Rect2(60, 0, 30, 25)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d13uk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_as8pj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p4lbm")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

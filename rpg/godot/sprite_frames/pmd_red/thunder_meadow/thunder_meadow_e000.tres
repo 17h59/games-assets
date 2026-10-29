@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/thunder_meadow/thunder_meadow_e000.png" id="1_1iyq6"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s10ki"]
+atlas = ExtResource("1_1iyq6")
+region = Rect2(0, 0, 19, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g43sr"]
+atlas = ExtResource("1_1iyq6")
+region = Rect2(19, 0, 19, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qawfh"]
+atlas = ExtResource("1_1iyq6")
+region = Rect2(38, 0, 19, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ixywu"]
+atlas = ExtResource("1_1iyq6")
+region = Rect2(57, 0, 19, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mf3il"]
+atlas = ExtResource("1_1iyq6")
+region = Rect2(76, 0, 19, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pajpt"]
+atlas = ExtResource("1_1iyq6")
+region = Rect2(95, 0, 19, 8)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s10ki")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g43sr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qawfh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ixywu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mf3il")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pajpt")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

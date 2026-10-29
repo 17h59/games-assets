@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/gyorg_pair/gyorg_female.png" id="1_yxwoc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xa1ep"]
+atlas = ExtResource("1_yxwoc")
+region = Rect2(0, 0, 236, 171)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q1yso"]
+atlas = ExtResource("1_yxwoc")
+region = Rect2(236, 0, 236, 171)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_00t70"]
+atlas = ExtResource("1_yxwoc")
+region = Rect2(472, 0, 236, 171)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xa1ep")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q1yso")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_00t70")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

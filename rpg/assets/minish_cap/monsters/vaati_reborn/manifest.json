@@ -1,0 +1,1889 @@
+{
+ "sheet": "6534",
+ "game": "minish_cap",
+ "category": "monsters",
+ "title": "Vaati Reborn",
+ "type": "sprites",
+ "template": "none",
+ "validation": "pending",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    563,
+    364,
+    125,
+    11
+   ],
+   "point": [
+    625,
+    369
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 1,
+   "box": [
+    563,
+    381,
+    125,
+    11
+   ],
+   "point": [
+    625,
+    386
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 2,
+   "box": [
+    563,
+    396,
+    113,
+    11
+   ],
+   "point": [
+    619,
+    401
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 3,
+   "box": [
+    563,
+    411,
+    135,
+    11
+   ],
+   "point": [
+    630,
+    416
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 4,
+   "box": [
+    563,
+    427,
+    118,
+    11
+   ],
+   "point": [
+    622,
+    432
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 5,
+   "box": [
+    563,
+    442,
+    117,
+    12
+   ],
+   "point": [
+    621,
+    448
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 6,
+   "box": [
+    607,
+    504,
+    73,
+    12
+   ],
+   "point": [
+    643,
+    510
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "vaati_reborn_e000",
+   "file": "vaati_reborn_e000.png",
+   "cell": [
+    23,
+    27
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      21,
+      40,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      46,
+      40,
+      20,
+      27
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      71,
+      40,
+      22,
+      27
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      99,
+      40,
+      22,
+      27
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_4",
+     "src": [
+      128,
+      40,
+      20,
+      27
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_5",
+     "src": [
+      155,
+      41,
+      20,
+      26
+     ]
+    }
+   ],
+   "box": [
+    21,
+    40,
+    154,
+    27
+   ]
+  },
+  {
+   "id": 1,
+   "name": "vaati_reborn_e001",
+   "file": "vaati_reborn_e001.png",
+   "cell": [
+    23,
+    27
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 7,
+     "role": "frame_0",
+     "src": [
+      213,
+      41,
+      20,
+      26
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_1",
+     "src": [
+      242,
+      40,
+      20,
+      27
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_2",
+     "src": [
+      270,
+      40,
+      22,
+      27
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_3",
+     "src": [
+      300,
+      40,
+      22,
+      27
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_4",
+     "src": [
+      331,
+      40,
+      20,
+      27
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_5",
+     "src": [
+      358,
+      41,
+      20,
+      26
+     ],
+     "duplicate_of": 0
+    }
+   ],
+   "box": [
+    213,
+    40,
+    165,
+    27
+   ]
+  },
+  {
+   "id": 2,
+   "name": "vaati_reborn_e002",
+   "file": "vaati_reborn_e002.png",
+   "cell": [
+    44,
+    56
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 24,
+     "role": "frame_0",
+     "src": [
+      188,
+      73,
+      40,
+      56
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_1",
+     "src": [
+      236,
+      73,
+      44,
+      56
+     ]
+    }
+   ],
+   "box": [
+    188,
+    73,
+    92,
+    56
+   ]
+  },
+  {
+   "id": 3,
+   "name": "vaati_reborn_e003",
+   "file": "vaati_reborn_e003.png",
+   "cell": [
+    44,
+    57
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 26,
+     "role": "frame_0",
+     "src": [
+      294,
+      73,
+      42,
+      56
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_1",
+     "src": [
+      343,
+      73,
+      42,
+      56
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_2",
+     "src": [
+      393,
+      73,
+      42,
+      56
+     ],
+     "duplicate_of": 1
+    },
+    {
+     "item": 29,
+     "role": "frame_3",
+     "src": [
+      438,
+      73,
+      42,
+      56
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_4",
+     "src": [
+      483,
+      73,
+      44,
+      56
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_5",
+     "src": [
+      531,
+      72,
+      42,
+      56
+     ]
+    },
+    {
+     "item": 32,
+     "role": "frame_6",
+     "src": [
+      580,
+      72,
+      42,
+      57
+     ]
+    },
+    {
+     "item": 33,
+     "role": "frame_7",
+     "src": [
+      628,
+      72,
+      44,
+      57
+     ]
+    }
+   ],
+   "box": [
+    294,
+    72,
+    378,
+    57
+   ]
+  },
+  {
+   "id": 4,
+   "name": "vaati_reborn_e004",
+   "file": "vaati_reborn_e004.png",
+   "cell": [
+    44,
+    60
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 40,
+     "role": "frame_0",
+     "src": [
+      2,
+      135,
+      44,
+      58
+     ]
+    },
+    {
+     "item": 41,
+     "role": "frame_1",
+     "src": [
+      50,
+      135,
+      44,
+      58
+     ]
+    },
+    {
+     "item": 42,
+     "role": "frame_2",
+     "src": [
+      98,
+      135,
+      44,
+      58
+     ]
+    },
+    {
+     "item": 43,
+     "role": "frame_3",
+     "src": [
+      146,
+      134,
+      44,
+      59
+     ]
+    },
+    {
+     "item": 44,
+     "role": "frame_4",
+     "src": [
+      194,
+      134,
+      44,
+      59
+     ]
+    },
+    {
+     "item": 45,
+     "role": "frame_5",
+     "src": [
+      247,
+      134,
+      42,
+      59
+     ]
+    },
+    {
+     "item": 46,
+     "role": "frame_6",
+     "src": [
+      295,
+      133,
+      42,
+      60
+     ]
+    },
+    {
+     "item": 47,
+     "role": "frame_7",
+     "src": [
+      341,
+      133,
+      42,
+      60
+     ]
+    },
+    {
+     "item": 48,
+     "role": "frame_8",
+     "src": [
+      388,
+      133,
+      42,
+      60
+     ]
+    },
+    {
+     "item": 49,
+     "role": "frame_9",
+     "src": [
+      437,
+      133,
+      42,
+      60
+     ]
+    },
+    {
+     "item": 50,
+     "role": "frame_10",
+     "src": [
+      487,
+      133,
+      44,
+      60
+     ]
+    },
+    {
+     "item": 51,
+     "role": "frame_11",
+     "src": [
+      539,
+      133,
+      42,
+      60
+     ]
+    },
+    {
+     "item": 52,
+     "role": "frame_12",
+     "src": [
+      589,
+      133,
+      42,
+      60
+     ]
+    }
+   ],
+   "box": [
+    2,
+    133,
+    629,
+    60
+   ]
+  },
+  {
+   "id": 5,
+   "name": "vaati_reborn_e005",
+   "file": "vaati_reborn_e005.png",
+   "cell": [
+    10,
+    11
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 55,
+     "role": "frame_0",
+     "src": [
+      522,
+      140,
+      8,
+      11
+     ]
+    },
+    {
+     "item": 56,
+     "role": "frame_1",
+     "src": [
+      539,
+      141,
+      10,
+      9
+     ]
+    }
+   ],
+   "box": [
+    522,
+    140,
+    27,
+    11
+   ]
+  },
+  {
+   "id": 6,
+   "name": "vaati_reborn_e006",
+   "file": "vaati_reborn_e006.png",
+   "cell": [
+    10,
+    10
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 57,
+     "role": "frame_0",
+     "src": [
+      571,
+      141,
+      10,
+      9
+     ]
+    },
+    {
+     "item": 58,
+     "role": "frame_1",
+     "src": [
+      589,
+      141,
+      10,
+      10
+     ]
+    }
+   ],
+   "box": [
+    571,
+    141,
+    28,
+    10
+   ]
+  },
+  {
+   "id": 7,
+   "name": "vaati_reborn_e007",
+   "file": "vaati_reborn_e007.png",
+   "cell": [
+    44,
+    60
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 61,
+     "role": "frame_0",
+     "src": [
+      39,
+      214,
+      42,
+      60
+     ]
+    },
+    {
+     "item": 62,
+     "role": "frame_1",
+     "src": [
+      91,
+      214,
+      42,
+      60
+     ]
+    },
+    {
+     "item": 63,
+     "role": "frame_2",
+     "src": [
+      142,
+      214,
+      44,
+      60
+     ]
+    },
+    {
+     "item": 64,
+     "role": "frame_3",
+     "src": [
+      192,
+      214,
+      42,
+      60
+     ]
+    }
+   ],
+   "box": [
+    39,
+    214,
+    195,
+    60
+   ]
+  },
+  {
+   "id": 8,
+   "name": "vaati_reborn_e008",
+   "file": "vaati_reborn_e008.png",
+   "cell": [
+    44,
+    60
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 65,
+     "role": "frame_0",
+     "src": [
+      248,
+      214,
+      42,
+      60
+     ]
+    },
+    {
+     "item": 66,
+     "role": "frame_1",
+     "src": [
+      300,
+      214,
+      44,
+      60
+     ]
+    },
+    {
+     "item": 67,
+     "role": "frame_2",
+     "src": [
+      350,
+      214,
+      42,
+      60
+     ]
+    },
+    {
+     "item": 68,
+     "role": "frame_3",
+     "src": [
+      397,
+      214,
+      42,
+      60
+     ]
+    },
+    {
+     "item": 69,
+     "role": "frame_4",
+     "src": [
+      448,
+      214,
+      42,
+      60
+     ]
+    },
+    {
+     "item": 70,
+     "role": "frame_5",
+     "src": [
+      498,
+      214,
+      44,
+      60
+     ]
+    }
+   ],
+   "box": [
+    248,
+    214,
+    294,
+    60
+   ]
+  },
+  {
+   "id": 9,
+   "name": "vaati_reborn_e009",
+   "file": "vaati_reborn_e009.png",
+   "cell": [
+    42,
+    60
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 71,
+     "role": "frame_0",
+     "src": [
+      556,
+      214,
+      42,
+      60
+     ]
+    },
+    {
+     "item": 72,
+     "role": "frame_1",
+     "src": [
+      606,
+      214,
+      42,
+      60
+     ]
+    }
+   ],
+   "box": [
+    556,
+    214,
+    92,
+    60
+   ]
+  },
+  {
+   "id": 10,
+   "name": "vaati_reborn_e010",
+   "file": "vaati_reborn_e010.png",
+   "cell": [
+    52,
+    60
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 73,
+     "role": "frame_0",
+     "src": [
+      134,
+      297,
+      46,
+      60
+     ]
+    },
+    {
+     "item": 74,
+     "role": "frame_1",
+     "src": [
+      187,
+      297,
+      52,
+      60
+     ]
+    },
+    {
+     "item": 75,
+     "role": "frame_2",
+     "src": [
+      244,
+      297,
+      50,
+      60
+     ]
+    },
+    {
+     "item": 76,
+     "role": "frame_3",
+     "src": [
+      301,
+      297,
+      36,
+      60
+     ]
+    },
+    {
+     "item": 77,
+     "role": "frame_4",
+     "src": [
+      346,
+      297,
+      33,
+      60
+     ]
+    }
+   ],
+   "box": [
+    134,
+    297,
+    245,
+    60
+   ]
+  },
+  {
+   "id": 11,
+   "name": "vaati_reborn_e011",
+   "file": "vaati_reborn_e011.png",
+   "cell": [
+    47,
+    13
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 81,
+     "role": "frame_0",
+     "src": [
+      36,
+      293,
+      16,
+      13
+     ]
+    },
+    {
+     "item": 82,
+     "role": "frame_1",
+     "src": [
+      53,
+      293,
+      47,
+      12
+     ]
+    }
+   ],
+   "box": [
+    36,
+    293,
+    64,
+    13
+   ]
+  },
+  {
+   "id": 12,
+   "name": "vaati_reborn_e012",
+   "file": "vaati_reborn_e012.png",
+   "cell": [
+    30,
+    15
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 85,
+     "role": "frame_0",
+     "src": [
+      453,
+      295,
+      30,
+      15
+     ]
+    },
+    {
+     "item": 86,
+     "role": "frame_1",
+     "src": [
+      486,
+      295,
+      14,
+      15
+     ]
+    }
+   ],
+   "box": [
+    453,
+    295,
+    47,
+    15
+   ]
+  },
+  {
+   "id": 13,
+   "name": "vaati_reborn_e013",
+   "file": "vaati_reborn_e013.png",
+   "cell": [
+    24,
+    31
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 90,
+     "role": "frame_0",
+     "src": [
+      433,
+      319,
+      24,
+      30
+     ]
+    },
+    {
+     "item": 91,
+     "role": "frame_1",
+     "src": [
+      460,
+      321,
+      23,
+      29
+     ]
+    },
+    {
+     "item": 92,
+     "role": "frame_2",
+     "src": [
+      489,
+      320,
+      22,
+      30
+     ]
+    },
+    {
+     "item": 93,
+     "role": "frame_3",
+     "src": [
+      517,
+      335,
+      12,
+      14
+     ]
+    },
+    {
+     "item": 94,
+     "role": "frame_4",
+     "src": [
+      532,
+      335,
+      16,
+      14
+     ]
+    }
+   ],
+   "box": [
+    433,
+    319,
+    115,
+    31
+   ]
+  },
+  {
+   "id": 14,
+   "name": "vaati_reborn_e014",
+   "file": "vaati_reborn_e014.png",
+   "cell": [
+    54,
+    60
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 97,
+     "role": "frame_0",
+     "src": [
+      111,
+      379,
+      54,
+      59
+     ]
+    },
+    {
+     "item": 98,
+     "role": "frame_1",
+     "src": [
+      170,
+      378,
+      53,
+      60
+     ]
+    },
+    {
+     "item": 99,
+     "role": "frame_2",
+     "src": [
+      229,
+      378,
+      51,
+      60
+     ]
+    },
+    {
+     "item": 100,
+     "role": "frame_3",
+     "src": [
+      283,
+      378,
+      46,
+      60
+     ]
+    }
+   ],
+   "box": [
+    111,
+    378,
+    218,
+    60
+   ]
+  },
+  {
+   "id": 15,
+   "name": "vaati_reborn_e015",
+   "file": "vaati_reborn_e015.png",
+   "cell": [
+    45,
+    60
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 101,
+     "role": "frame_0",
+     "src": [
+      342,
+      378,
+      43,
+      60
+     ]
+    },
+    {
+     "item": 102,
+     "role": "frame_1",
+     "src": [
+      393,
+      378,
+      45,
+      60
+     ]
+    },
+    {
+     "item": 103,
+     "role": "frame_2",
+     "src": [
+      447,
+      378,
+      44,
+      60
+     ]
+    }
+   ],
+   "box": [
+    342,
+    378,
+    149,
+    60
+   ]
+  },
+  {
+   "id": 16,
+   "name": "vaati_reborn_e016",
+   "file": "vaati_reborn_e016.png",
+   "cell": [
+    16,
+    19
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 105,
+     "role": "frame_0",
+     "src": [
+      7,
+      438,
+      15,
+      18
+     ]
+    },
+    {
+     "item": 106,
+     "role": "frame_1",
+     "src": [
+      27,
+      440,
+      15,
+      16
+     ]
+    },
+    {
+     "item": 107,
+     "role": "frame_2",
+     "src": [
+      45,
+      439,
+      14,
+      17
+     ]
+    },
+    {
+     "item": 108,
+     "role": "frame_3",
+     "src": [
+      64,
+      440,
+      14,
+      16
+     ]
+    },
+    {
+     "item": 109,
+     "role": "frame_4",
+     "src": [
+      83,
+      441,
+      14,
+      16
+     ]
+    }
+   ],
+   "box": [
+    7,
+    438,
+    90,
+    19
+   ]
+  },
+  {
+   "id": 17,
+   "name": "vaati_reborn_e017",
+   "file": "vaati_reborn_e017.png",
+   "cell": [
+    45,
+    60
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 110,
+     "role": "frame_0",
+     "src": [
+      135,
+      461,
+      45,
+      60
+     ]
+    },
+    {
+     "item": 111,
+     "role": "frame_1",
+     "src": [
+      188,
+      461,
+      43,
+      60
+     ]
+    }
+   ],
+   "box": [
+    135,
+    461,
+    96,
+    60
+   ]
+  },
+  {
+   "id": 18,
+   "name": "vaati_reborn_e018",
+   "file": "vaati_reborn_e018.png",
+   "cell": [
+    55,
+    60
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 112,
+     "role": "frame_0",
+     "src": [
+      243,
+      461,
+      46,
+      60
+     ]
+    },
+    {
+     "item": 113,
+     "role": "frame_1",
+     "src": [
+      296,
+      461,
+      48,
+      60
+     ]
+    },
+    {
+     "item": 114,
+     "role": "frame_2",
+     "src": [
+      350,
+      461,
+      51,
+      60
+     ]
+    },
+    {
+     "item": 115,
+     "role": "frame_3",
+     "src": [
+      408,
+      461,
+      53,
+      60
+     ]
+    }
+   ],
+   "box": [
+    243,
+    461,
+    218,
+    60
+   ]
+  },
+  {
+   "id": 19,
+   "name": "vaati_reborn_e019",
+   "file": "vaati_reborn_e019.png",
+   "cell": [
+    17,
+    17
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 117,
+     "role": "frame_0",
+     "src": [
+      8,
+      471,
+      15,
+      14
+     ]
+    },
+    {
+     "item": 118,
+     "role": "frame_1",
+     "src": [
+      28,
+      469,
+      15,
+      16
+     ]
+    },
+    {
+     "item": 119,
+     "role": "frame_2",
+     "src": [
+      46,
+      471,
+      14,
+      14
+     ]
+    },
+    {
+     "item": 120,
+     "role": "frame_3",
+     "src": [
+      63,
+      469,
+      14,
+      16
+     ]
+    },
+    {
+     "item": 121,
+     "role": "frame_4",
+     "src": [
+      82,
+      470,
+      14,
+      16
+     ]
+    }
+   ],
+   "box": [
+    8,
+    469,
+    88,
+    17
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 187,
+   "y": 61,
+   "w": 14,
+   "h": 6,
+   "area": 26,
+   "ncolors": 1,
+   "dominant": "#302038",
+   "dom_frac": 1.0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 6,
+   "file": "vaati_reborn_006.png"
+  },
+  {
+   "x": 388,
+   "y": 61,
+   "w": 14,
+   "h": 6,
+   "area": 26,
+   "ncolors": 1,
+   "dominant": "#302038",
+   "dom_frac": 1.0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 13,
+   "file": "vaati_reborn_013.png",
+   "duplicate_of": 0
+  },
+  {
+   "x": 415,
+   "y": 61,
+   "w": 14,
+   "h": 6,
+   "area": 31,
+   "ncolors": 1,
+   "dominant": "#302038",
+   "dom_frac": 1.0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 14,
+   "file": "vaati_reborn_014.png"
+  },
+  {
+   "x": 444,
+   "y": 62,
+   "w": 14,
+   "h": 5,
+   "area": 24,
+   "ncolors": 1,
+   "dominant": "#302038",
+   "dom_frac": 1.0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 15,
+   "file": "vaati_reborn_015.png"
+  },
+  {
+   "x": 474,
+   "y": 61,
+   "w": 14,
+   "h": 6,
+   "area": 28,
+   "ncolors": 1,
+   "dominant": "#302038",
+   "dom_frac": 1.0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 16,
+   "file": "vaati_reborn_016.png"
+  },
+  {
+   "x": 504,
+   "y": 61,
+   "w": 14,
+   "h": 6,
+   "area": 30,
+   "ncolors": 1,
+   "dominant": "#302038",
+   "dom_frac": 1.0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 17,
+   "file": "vaati_reborn_017.png"
+  },
+  {
+   "x": 535,
+   "y": 61,
+   "w": 14,
+   "h": 6,
+   "area": 32,
+   "ncolors": 1,
+   "dominant": "#302038",
+   "dom_frac": 1.0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 18,
+   "file": "vaati_reborn_018.png"
+  },
+  {
+   "x": 577,
+   "y": 62,
+   "w": 14,
+   "h": 6,
+   "area": 60,
+   "ncolors": 1,
+   "dominant": "#302038",
+   "dom_frac": 1.0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 19,
+   "file": "vaati_reborn_019.png"
+  },
+  {
+   "x": 629,
+   "y": 61,
+   "w": 14,
+   "h": 7,
+   "area": 80,
+   "ncolors": 1,
+   "dominant": "#302038",
+   "dom_frac": 1.0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 20,
+   "file": "vaati_reborn_020.png"
+  },
+  {
+   "x": 32,
+   "y": 122,
+   "w": 14,
+   "h": 7,
+   "area": 72,
+   "ncolors": 1,
+   "dominant": "#302038",
+   "dom_frac": 1.0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 21,
+   "file": "vaati_reborn_021.png"
+  },
+  {
+   "x": 95,
+   "y": 124,
+   "w": 14,
+   "h": 5,
+   "area": 48,
+   "ncolors": 1,
+   "dominant": "#302038",
+   "dom_frac": 1.0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 22,
+   "file": "vaati_reborn_022.png"
+  },
+  {
+   "x": 146,
+   "y": 99,
+   "w": 12,
+   "h": 30,
+   "area": 126,
+   "ncolors": 7,
+   "dominant": "#302038",
+   "dom_frac": 0.317,
+   "kind": "sprite",
+   "zone": null,
+   "id": 23,
+   "file": "vaati_reborn_023.png"
+  },
+  {
+   "x": 38,
+   "y": 102,
+   "w": 2,
+   "h": 16,
+   "area": 24,
+   "ncolors": 2,
+   "dominant": "#704800",
+   "dom_frac": 0.583,
+   "kind": "sprite",
+   "zone": null,
+   "id": 34,
+   "file": "vaati_reborn_034.png"
+  },
+  {
+   "x": 101,
+   "y": 100,
+   "w": 2,
+   "h": 20,
+   "area": 32,
+   "ncolors": 2,
+   "dominant": "#986018",
+   "dom_frac": 0.625,
+   "kind": "sprite",
+   "zone": null,
+   "id": 35,
+   "file": "vaati_reborn_035.png"
+  },
+  {
+   "x": 296,
+   "y": 102,
+   "w": 3,
+   "h": 4,
+   "area": 8,
+   "ncolors": 2,
+   "dominant": "#986018",
+   "dom_frac": 0.75,
+   "kind": "sprite",
+   "zone": null,
+   "id": 36,
+   "file": "vaati_reborn_036.png"
+  },
+  {
+   "x": 331,
+   "y": 102,
+   "w": 3,
+   "h": 4,
+   "area": 8,
+   "ncolors": 2,
+   "dominant": "#986018",
+   "dom_frac": 0.75,
+   "kind": "sprite",
+   "zone": null,
+   "id": 37,
+   "file": "vaati_reborn_037.png",
+   "duplicate_of": 14
+  },
+  {
+   "x": 533,
+   "y": 101,
+   "w": 3,
+   "h": 4,
+   "area": 8,
+   "ncolors": 2,
+   "dominant": "#C89820",
+   "dom_frac": 0.75,
+   "kind": "sprite",
+   "zone": null,
+   "id": 38,
+   "file": "vaati_reborn_038.png"
+  },
+  {
+   "x": 568,
+   "y": 101,
+   "w": 3,
+   "h": 4,
+   "area": 8,
+   "ncolors": 2,
+   "dominant": "#C89820",
+   "dom_frac": 0.75,
+   "kind": "sprite",
+   "zone": null,
+   "id": 39,
+   "file": "vaati_reborn_039.png",
+   "duplicate_of": 16
+  },
+  {
+   "x": 644,
+   "y": 133,
+   "w": 42,
+   "h": 60,
+   "area": 967,
+   "ncolors": 21,
+   "dominant": "#F8F038",
+   "dom_frac": 0.147,
+   "kind": "sprite",
+   "zone": null,
+   "id": 53,
+   "file": "vaati_reborn_053.png"
+  },
+  {
+   "x": 488,
+   "y": 140,
+   "w": 8,
+   "h": 11,
+   "area": 43,
+   "ncolors": 2,
+   "dominant": "#181060",
+   "dom_frac": 0.977,
+   "kind": "sprite",
+   "zone": null,
+   "id": 54,
+   "file": "vaati_reborn_054.png"
+  },
+  {
+   "x": 621,
+   "y": 141,
+   "w": 10,
+   "h": 10,
+   "area": 76,
+   "ncolors": 7,
+   "dominant": "#383088",
+   "dom_frac": 0.342,
+   "kind": "sprite",
+   "zone": null,
+   "id": 59,
+   "file": "vaati_reborn_059.png"
+  },
+  {
+   "x": 676,
+   "y": 141,
+   "w": 10,
+   "h": 10,
+   "area": 74,
+   "ncolors": 14,
+   "dominant": "#383088",
+   "dom_frac": 0.135,
+   "kind": "sprite",
+   "zone": null,
+   "id": 60,
+   "file": "vaati_reborn_060.png"
+  },
+  {
+   "x": 392,
+   "y": 297,
+   "w": 34,
+   "h": 60,
+   "area": 882,
+   "ncolors": 14,
+   "dominant": "#F8F038",
+   "dom_frac": 0.17,
+   "kind": "sprite",
+   "zone": null,
+   "id": 78,
+   "file": "vaati_reborn_078.png"
+  },
+  {
+   "x": 600,
+   "y": 286,
+   "w": 48,
+   "h": 73,
+   "area": 2279,
+   "ncolors": 22,
+   "dominant": "#B06858",
+   "dom_frac": 0.27,
+   "kind": "sprite",
+   "zone": null,
+   "id": 79,
+   "file": "vaati_reborn_079.png"
+  },
+  {
+   "x": 6,
+   "y": 293,
+   "w": 10,
+   "h": 10,
+   "area": 74,
+   "ncolors": 14,
+   "dominant": "#383088",
+   "dom_frac": 0.135,
+   "kind": "sprite",
+   "zone": null,
+   "id": 80,
+   "file": "vaati_reborn_080.png",
+   "mirror_of": 21
+  },
+  {
+   "x": 436,
+   "y": 295,
+   "w": 14,
+   "h": 14,
+   "area": 150,
+   "ncolors": 4,
+   "dominant": "#F8F860",
+   "dom_frac": 0.307,
+   "kind": "sprite",
+   "zone": null,
+   "id": 83,
+   "file": "vaati_reborn_083.png"
+  },
+  {
+   "x": 19,
+   "y": 293,
+   "w": 16,
+   "h": 17,
+   "area": 190,
+   "ncolors": 17,
+   "dominant": "#F85010",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 84,
+   "file": "vaati_reborn_084.png"
+  },
+  {
+   "x": 444,
+   "y": 315,
+   "w": 3,
+   "h": 4,
+   "area": 7,
+   "ncolors": 3,
+   "dominant": "#F88810",
+   "dom_frac": 0.714,
+   "kind": "sprite",
+   "zone": null,
+   "id": 87,
+   "file": "vaati_reborn_087.png"
+  },
+  {
+   "x": 474,
+   "y": 319,
+   "w": 3,
+   "h": 4,
+   "area": 7,
+   "ncolors": 3,
+   "dominant": "#F88810",
+   "dom_frac": 0.714,
+   "kind": "sprite",
+   "zone": null,
+   "id": 88,
+   "file": "vaati_reborn_088.png",
+   "duplicate_of": 27
+  },
+  {
+   "x": 34,
+   "y": 318,
+   "w": 28,
+   "h": 95,
+   "area": 1062,
+   "ncolors": 18,
+   "dominant": "#F85010",
+   "dom_frac": 0.347,
+   "kind": "sprite",
+   "zone": null,
+   "id": 89,
+   "file": "vaati_reborn_089.png"
+  },
+  {
+   "x": 301,
+   "y": 323,
+   "w": 8,
+   "h": 10,
+   "area": 15,
+   "ncolors": 3,
+   "dominant": "#181060",
+   "dom_frac": 0.6,
+   "kind": "sprite",
+   "zone": null,
+   "id": 95,
+   "file": "vaati_reborn_095.png"
+  },
+  {
+   "x": 329,
+   "y": 323,
+   "w": 6,
+   "h": 10,
+   "area": 16,
+   "ncolors": 3,
+   "dominant": "#181060",
+   "dom_frac": 0.625,
+   "kind": "sprite",
+   "zone": null,
+   "id": 96,
+   "file": "vaati_reborn_096.png"
+  },
+  {
+   "x": 508,
+   "y": 378,
+   "w": 45,
+   "h": 60,
+   "area": 990,
+   "ncolors": 14,
+   "dominant": "#C82800",
+   "dom_frac": 0.127,
+   "kind": "sprite",
+   "zone": null,
+   "id": 104,
+   "file": "vaati_reborn_104.png"
+  },
+  {
+   "x": 476,
+   "y": 462,
+   "w": 54,
+   "h": 59,
+   "area": 907,
+   "ncolors": 15,
+   "dominant": "#C89820",
+   "dom_frac": 0.133,
+   "kind": "sprite",
+   "zone": null,
+   "id": 116,
+   "file": "vaati_reborn_116.png"
+  }
+ ],
+ "status": "needs_review",
+ "missing_stages": [
+  "decoupage",
+  "regroupement",
+  "nommage"
+ ]
+}

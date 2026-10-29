@@ -1,0 +1,812 @@
+{
+ "sheet": "135344",
+ "game": "ruby_sapphire",
+ "category": "characters",
+ "title": "Littleroot Town NPCs",
+ "type": "characters",
+ "template": "none",
+ "validation": "verified",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    1,
+    261,
+    88,
+    8
+   ],
+   "point": [
+    45,
+    265
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 1,
+   "box": [
+    1,
+    273,
+    75,
+    8
+   ],
+   "point": [
+    38,
+    277
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 2,
+   "box": [
+    1,
+    285,
+    83,
+    8
+   ],
+   "point": [
+    42,
+    289
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "littleroot_town_npcs_e000",
+   "file": "littleroot_town_npcs_e000.png",
+   "cell": [
+    12,
+    14
+   ],
+   "zone": null,
+   "animations": {
+    "idle_up": [
+     0
+    ],
+    "idle_down": [
+     1
+    ],
+    "idle_left": [
+     2
+    ],
+    "walk_left": [
+     3,
+     2
+    ]
+   },
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 16,
+     "role": "frame_0",
+     "src": [
+      1,
+      93,
+      12,
+      14
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_1",
+     "src": [
+      22,
+      93,
+      12,
+      14
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_2",
+     "src": [
+      44,
+      93,
+      10,
+      14
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_3",
+     "src": [
+      64,
+      93,
+      10,
+      14
+     ]
+    }
+   ],
+   "box": [
+    1,
+    93,
+    73,
+    14
+   ]
+  },
+  {
+   "id": 1,
+   "name": "littleroot_town_npcs_e001",
+   "file": "littleroot_town_npcs_e001.png",
+   "cell": [
+    16,
+    20
+   ],
+   "zone": null,
+   "animations": {
+    "idle_left": [
+     0
+    ],
+    "idle_up": [
+     1
+    ],
+    "idle_down": [
+     2
+    ],
+    "idle_right": [
+     3
+    ]
+   },
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 20,
+     "role": "frame_0",
+     "src": [
+      1,
+      112,
+      15,
+      20
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_1",
+     "src": [
+      20,
+      112,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_2",
+     "src": [
+      40,
+      112,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_3",
+     "src": [
+      60,
+      112,
+      15,
+      20
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    1,
+    112,
+    74,
+    20
+   ]
+  },
+  {
+   "id": 2,
+   "name": "may",
+   "file": "may.png",
+   "cell": [
+    16,
+    20
+   ],
+   "zone": null,
+   "animations": {
+    "idle_up": [
+     0
+    ],
+    "idle_down": [
+     1
+    ],
+    "idle_left": [
+     2
+    ],
+    "walk_left": [
+     3,
+     2
+    ]
+   },
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 24,
+     "role": "frame_0",
+     "src": [
+      1,
+      137,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_1",
+     "src": [
+      22,
+      137,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_2",
+     "src": [
+      44,
+      137,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_3",
+     "src": [
+      63,
+      137,
+      14,
+      20
+     ],
+     "mirror_of": 2
+    }
+   ],
+   "box": [
+    1,
+    137,
+    76,
+    20
+   ]
+  },
+  {
+   "id": 3,
+   "name": "littleroot_town_npcs_e003",
+   "file": "littleroot_town_npcs_e003.png",
+   "cell": [
+    18,
+    20
+   ],
+   "zone": null,
+   "animations": {
+    "idle_left": [
+     0
+    ],
+    "idle_down": [
+     1
+    ],
+    "idle_right": [
+     2
+    ],
+    "idle_up": [
+     3
+    ]
+   },
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 28,
+     "role": "frame_0",
+     "src": [
+      1,
+      162,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 29,
+     "role": "frame_1",
+     "src": [
+      20,
+      162,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_2",
+     "src": [
+      41,
+      162,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_3",
+     "src": [
+      62,
+      162,
+      16,
+      20
+     ]
+    }
+   ],
+   "box": [
+    1,
+    162,
+    77,
+    20
+   ]
+  },
+  {
+   "id": 4,
+   "name": "littleroot_town_npcs_e004",
+   "file": "littleroot_town_npcs_e004.png",
+   "cell": [
+    18,
+    20
+   ],
+   "zone": null,
+   "animations": {
+    "idle_down": [
+     0
+    ],
+    "idle_left": [
+     1
+    ],
+    "idle_up": [
+     2
+    ],
+    "walk_left": [
+     3,
+     1
+    ]
+   },
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 32,
+     "role": "frame_0",
+     "src": [
+      1,
+      187,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 33,
+     "role": "frame_1",
+     "src": [
+      24,
+      187,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 34,
+     "role": "frame_2",
+     "src": [
+      43,
+      187,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 35,
+     "role": "frame_3",
+     "src": [
+      64,
+      187,
+      14,
+      20
+     ]
+    }
+   ],
+   "box": [
+    1,
+    187,
+    77,
+    20
+   ]
+  },
+  {
+   "id": 5,
+   "name": "littleroot_town_npcs_e005",
+   "file": "littleroot_town_npcs_e005.png",
+   "cell": [
+    14,
+    19
+   ],
+   "zone": null,
+   "animations": {
+    "idle_down": [
+     0
+    ],
+    "idle_left": [
+     1
+    ],
+    "idle_up": [
+     2
+    ],
+    "walk_left": [
+     3,
+     1
+    ]
+   },
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 36,
+     "role": "frame_0",
+     "src": [
+      1,
+      212,
+      14,
+      19
+     ]
+    },
+    {
+     "item": 37,
+     "role": "frame_1",
+     "src": [
+      21,
+      212,
+      12,
+      19
+     ]
+    },
+    {
+     "item": 38,
+     "role": "frame_2",
+     "src": [
+      39,
+      212,
+      14,
+      19
+     ]
+    },
+    {
+     "item": 39,
+     "role": "frame_3",
+     "src": [
+      60,
+      212,
+      12,
+      19
+     ]
+    }
+   ],
+   "box": [
+    1,
+    212,
+    71,
+    19
+   ]
+  },
+  {
+   "id": 6,
+   "name": "littleroot_town_npcs_e006",
+   "file": "littleroot_town_npcs_e006.png",
+   "cell": [
+    14,
+    20
+   ],
+   "zone": null,
+   "animations": {
+    "idle_down": [
+     0
+    ],
+    "idle_left": [
+     1
+    ],
+    "idle_up": [
+     2
+    ],
+    "walk_left": [
+     3,
+     1
+    ]
+   },
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 40,
+     "role": "frame_0",
+     "src": [
+      1,
+      236,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 41,
+     "role": "frame_1",
+     "src": [
+      23,
+      236,
+      12,
+      20
+     ]
+    },
+    {
+     "item": 42,
+     "role": "frame_2",
+     "src": [
+      43,
+      236,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 43,
+     "role": "frame_3",
+     "src": [
+      65,
+      236,
+      12,
+      20
+     ],
+     "mirror_of": 1
+    }
+   ],
+   "box": [
+    1,
+    236,
+    76,
+    20
+   ]
+  },
+  {
+   "id": 7,
+   "name": "mom",
+   "file": "mom.png",
+   "cell": [
+    16,
+    21
+   ],
+   "zone": null,
+   "animations": {
+    "idle_down": [
+     0
+    ],
+    "walk_down": [
+     1,
+     0,
+     3,
+     0
+    ],
+    "idle_up": [
+     4
+    ],
+    "walk_up": [
+     5,
+     4,
+     7,
+     4
+    ],
+    "idle_right": [
+     8
+    ],
+    "walk_right": [
+     9,
+     8,
+     11,
+     8
+    ],
+    "idle_left": [
+     12
+    ],
+    "walk_left": [
+     13,
+     12,
+     15,
+     12
+    ]
+   },
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      1,
+      1,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      19,
+      2,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      35,
+      1,
+      16,
+      20
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      53,
+      2,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_4",
+     "src": [
+      1,
+      23,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_5",
+     "src": [
+      19,
+      24,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_6",
+     "src": [
+      35,
+      23,
+      16,
+      20
+     ],
+     "duplicate_of": 4
+    },
+    {
+     "item": 7,
+     "role": "frame_7",
+     "src": [
+      53,
+      24,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_8",
+     "src": [
+      3,
+      45,
+      12,
+      20
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_9",
+     "src": [
+      20,
+      46,
+      12,
+      20
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_10",
+     "src": [
+      37,
+      45,
+      12,
+      20
+     ],
+     "duplicate_of": 8
+    },
+    {
+     "item": 11,
+     "role": "frame_11",
+     "src": [
+      54,
+      46,
+      12,
+      20
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_12",
+     "src": [
+      3,
+      67,
+      12,
+      20
+     ],
+     "mirror_of": 8
+    },
+    {
+     "item": 13,
+     "role": "frame_13",
+     "src": [
+      20,
+      68,
+      12,
+      20
+     ],
+     "mirror_of": 9
+    },
+    {
+     "item": 14,
+     "role": "frame_14",
+     "src": [
+      37,
+      67,
+      12,
+      20
+     ],
+     "duplicate_of": 12
+    },
+    {
+     "item": 15,
+     "role": "frame_15",
+     "src": [
+      54,
+      68,
+      12,
+      20
+     ],
+     "mirror_of": 11
+    }
+   ],
+   "box": [
+    1,
+    1,
+    66,
+    87
+   ]
+  }
+ ],
+ "items": [],
+ "status": "ok",
+ "missing_stages": []
+}

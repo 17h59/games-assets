@@ -1,0 +1,710 @@
+{
+ "sheet": "5394",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Thunder Meadow",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "thunder_meadow_e000",
+   "file": "thunder_meadow_e000.png",
+   "cell": [
+    19,
+    8
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 5,
+     "role": "frame_0",
+     "src": [
+      472,
+      131,
+      18,
+      7
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      496,
+      131,
+      18,
+      7
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      519,
+      131,
+      18,
+      7
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      542,
+      130,
+      18,
+      8
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_4",
+     "src": [
+      565,
+      131,
+      17,
+      7
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_5",
+     "src": [
+      589,
+      131,
+      17,
+      7
+     ]
+    }
+   ],
+   "box": [
+    472,
+    130,
+    134,
+    8
+   ]
+  },
+  {
+   "id": 1,
+   "name": "thunder_meadow_e001",
+   "file": "thunder_meadow_e001.png",
+   "cell": [
+    8,
+    39
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 7,
+     "role": "frame_0",
+     "src": [
+      615,
+      132,
+      2,
+      8
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_1",
+     "src": [
+      625,
+      132,
+      2,
+      18
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_2",
+     "src": [
+      634,
+      132,
+      7,
+      19
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_3",
+     "src": [
+      649,
+      132,
+      8,
+      23
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_4",
+     "src": [
+      665,
+      132,
+      8,
+      35
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_5",
+     "src": [
+      680,
+      132,
+      8,
+      39
+     ]
+    }
+   ],
+   "box": [
+    615,
+    132,
+    73,
+    39
+   ]
+  },
+  {
+   "id": 2,
+   "name": "thunder_meadow_e002",
+   "file": "thunder_meadow_e002.png",
+   "cell": [
+    21,
+    8
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 18,
+     "role": "frame_0",
+     "src": [
+      475,
+      177,
+      18,
+      7
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_1",
+     "src": [
+      496,
+      177,
+      18,
+      7
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_2",
+     "src": [
+      519,
+      177,
+      18,
+      7
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_3",
+     "src": [
+      545,
+      176,
+      18,
+      8
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_4",
+     "src": [
+      566,
+      177,
+      17,
+      7
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_5",
+     "src": [
+      590,
+      177,
+      17,
+      7
+     ]
+    }
+   ],
+   "box": [
+    475,
+    176,
+    132,
+    8
+   ]
+  },
+  {
+   "id": 3,
+   "name": "thunder_meadow_e003",
+   "file": "thunder_meadow_e003.png",
+   "cell": [
+    8,
+    39
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 17,
+     "role": "frame_0",
+     "src": [
+      618,
+      178,
+      2,
+      8
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_1",
+     "src": [
+      625,
+      178,
+      2,
+      18
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_2",
+     "src": [
+      635,
+      178,
+      7,
+      19
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_3",
+     "src": [
+      649,
+      178,
+      8,
+      23
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_4",
+     "src": [
+      667,
+      178,
+      8,
+      35
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_5",
+     "src": [
+      687,
+      178,
+      8,
+      39
+     ]
+    }
+   ],
+   "box": [
+    618,
+    178,
+    77,
+    39
+   ]
+  },
+  {
+   "id": 4,
+   "name": "thunder_meadow_e004",
+   "file": "thunder_meadow_e004.png",
+   "cell": [
+    15,
+    7
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 25,
+     "role": "frame_0",
+     "src": [
+      476,
+      226,
+      13,
+      5
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_1",
+     "src": [
+      496,
+      227,
+      13,
+      5
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_2",
+     "src": [
+      516,
+      227,
+      13,
+      6
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_3",
+     "src": [
+      534,
+      227,
+      15,
+      6
+     ]
+    }
+   ],
+   "box": [
+    476,
+    226,
+    73,
+    7
+   ]
+  },
+  {
+   "id": 5,
+   "name": "thunder_meadow_e005",
+   "file": "thunder_meadow_e005.png",
+   "cell": [
+    7,
+    24
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 29,
+     "role": "frame_0",
+     "src": [
+      556,
+      228,
+      1,
+      3
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_1",
+     "src": [
+      563,
+      228,
+      3,
+      8
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_2",
+     "src": [
+      571,
+      228,
+      6,
+      16
+     ]
+    },
+    {
+     "item": 32,
+     "role": "frame_3",
+     "src": [
+      585,
+      228,
+      3,
+      24
+     ]
+    }
+   ],
+   "box": [
+    556,
+    228,
+    32,
+    24
+   ]
+  },
+  {
+   "id": 6,
+   "name": "thunder_meadow_e006",
+   "file": "thunder_meadow_e006.png",
+   "cell": [
+    16,
+    7
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 33,
+     "role": "frame_0",
+     "src": [
+      477,
+      266,
+      13,
+      5
+     ]
+    },
+    {
+     "item": 34,
+     "role": "frame_1",
+     "src": [
+      496,
+      267,
+      13,
+      5
+     ]
+    },
+    {
+     "item": 35,
+     "role": "frame_2",
+     "src": [
+      517,
+      267,
+      13,
+      6
+     ]
+    },
+    {
+     "item": 36,
+     "role": "frame_3",
+     "src": [
+      535,
+      267,
+      15,
+      6
+     ]
+    }
+   ],
+   "box": [
+    477,
+    266,
+    73,
+    7
+   ]
+  },
+  {
+   "id": 7,
+   "name": "thunder_meadow_e007",
+   "file": "thunder_meadow_e007.png",
+   "cell": [
+    6,
+    24
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 37,
+     "role": "frame_0",
+     "src": [
+      556,
+      268,
+      1,
+      3
+     ]
+    },
+    {
+     "item": 38,
+     "role": "frame_1",
+     "src": [
+      564,
+      268,
+      3,
+      8
+     ]
+    },
+    {
+     "item": 39,
+     "role": "frame_2",
+     "src": [
+      573,
+      268,
+      6,
+      16
+     ]
+    },
+    {
+     "item": 40,
+     "role": "frame_3",
+     "src": [
+      585,
+      268,
+      3,
+      24
+     ]
+    }
+   ],
+   "box": [
+    556,
+    268,
+    32,
+    24
+   ]
+  },
+  {
+   "id": 8,
+   "name": "thunder_meadow_e008",
+   "file": "thunder_meadow_e008.png",
+   "cell": [
+    15,
+    7
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 41,
+     "role": "frame_0",
+     "src": [
+      477,
+      351,
+      13,
+      5
+     ]
+    },
+    {
+     "item": 42,
+     "role": "frame_1",
+     "src": [
+      497,
+      352,
+      13,
+      5
+     ]
+    },
+    {
+     "item": 43,
+     "role": "frame_2",
+     "src": [
+      518,
+      352,
+      13,
+      6
+     ]
+    },
+    {
+     "item": 44,
+     "role": "frame_3",
+     "src": [
+      537,
+      352,
+      15,
+      6
+     ]
+    }
+   ],
+   "box": [
+    477,
+    351,
+    75,
+    7
+   ]
+  },
+  {
+   "id": 9,
+   "name": "thunder_meadow_e009",
+   "file": "thunder_meadow_e009.png",
+   "cell": [
+    16,
+    7
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 45,
+     "role": "frame_0",
+     "src": [
+      477,
+      373,
+      13,
+      5
+     ]
+    },
+    {
+     "item": 46,
+     "role": "frame_1",
+     "src": [
+      497,
+      374,
+      13,
+      5
+     ]
+    },
+    {
+     "item": 47,
+     "role": "frame_2",
+     "src": [
+      517,
+      374,
+      13,
+      6
+     ]
+    },
+    {
+     "item": 48,
+     "role": "frame_3",
+     "src": [
+      538,
+      374,
+      15,
+      6
+     ]
+    }
+   ],
+   "box": [
+    477,
+    373,
+    76,
+    7
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 456,
+   "h": 336,
+   "area": 153216,
+   "ncolors": 43,
+   "dominant": "#C8B830",
+   "dom_frac": 0.166,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "thunder_meadow_000.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

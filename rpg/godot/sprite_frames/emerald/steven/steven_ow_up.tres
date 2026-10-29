@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/emerald/characters/steven/steven_ow_up.png" id="1_kmuvu"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_au7ee"]
+atlas = ExtResource("1_kmuvu")
+region = Rect2(0, 0, 16, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_45cgs"]
+atlas = ExtResource("1_kmuvu")
+region = Rect2(16, 0, 16, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2h05x"]
+atlas = ExtResource("1_kmuvu")
+region = Rect2(32, 0, 16, 21)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_au7ee")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_45cgs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2h05x")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

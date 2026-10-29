@@ -1,0 +1,740 @@
+{
+ "sheet": "8342",
+ "game": "emerald",
+ "category": "ui",
+ "title": "Route Icons",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    8,
+    5,
+    49,
+    9
+   ],
+   "point": [
+    32,
+    9
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 1,
+   "box": [
+    68,
+    5,
+    58,
+    9
+   ],
+   "point": [
+    97,
+    9
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 2,
+   "box": [
+    8,
+    18,
+    120,
+    1
+   ],
+   "point": [
+    68,
+    18
+   ],
+   "name": "route_signs",
+   "folder": "route_signs"
+  },
+  {
+   "id": 3,
+   "box": [
+    435,
+    157,
+    51,
+    10
+   ],
+   "point": [
+    460,
+    162
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 4,
+   "box": [
+    435,
+    171,
+    48,
+    7
+   ],
+   "point": [
+    459,
+    174
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 5,
+   "box": [
+    435,
+    193,
+    70,
+    7
+   ],
+   "point": [
+    470,
+    196
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 6,
+   "box": [
+    435,
+    204,
+    55,
+    7
+   ],
+   "point": [
+    462,
+    207
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 7,
+   "box": [
+    435,
+    215,
+    89,
+    7
+   ],
+   "point": [
+    479,
+    218
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 8,
+   "box": [
+    435,
+    226,
+    52,
+    7
+   ],
+   "point": [
+    461,
+    229
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 9,
+   "box": [
+    435,
+    237,
+    58,
+    7
+   ],
+   "point": [
+    464,
+    240
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 10,
+   "box": [
+    433,
+    252,
+    94,
+    7
+   ],
+   "point": [
+    480,
+    255
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 11,
+   "box": [
+    433,
+    263,
+    94,
+    7
+   ],
+   "point": [
+    480,
+    266
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [],
+ "items": [
+  {
+   "x": 6,
+   "y": 28,
+   "w": 96,
+   "h": 36,
+   "area": 3255,
+   "ncolors": 8,
+   "dominant": "#E0A87F",
+   "dom_frac": 0.526,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_101",
+   "set": 2,
+   "id": 0,
+   "file": "route_signs/route_101.png"
+  },
+  {
+   "x": 108,
+   "y": 28,
+   "w": 96,
+   "h": 36,
+   "area": 3329,
+   "ncolors": 11,
+   "dominant": "#70D8CF",
+   "dom_frac": 0.473,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_109",
+   "set": 2,
+   "id": 1,
+   "file": "route_signs/route_109.png"
+  },
+  {
+   "x": 209,
+   "y": 28,
+   "w": 96,
+   "h": 36,
+   "area": 3255,
+   "ncolors": 8,
+   "dominant": "#E0A87F",
+   "dom_frac": 0.529,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_117",
+   "set": 2,
+   "id": 2,
+   "file": "route_signs/route_117.png"
+  },
+  {
+   "x": 311,
+   "y": 28,
+   "w": 96,
+   "h": 36,
+   "area": 3329,
+   "ncolors": 11,
+   "dominant": "#70D8CF",
+   "dom_frac": 0.475,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_125",
+   "set": 2,
+   "id": 3,
+   "file": "route_signs/route_125.png"
+  },
+  {
+   "x": 413,
+   "y": 28,
+   "w": 96,
+   "h": 36,
+   "area": 3329,
+   "ncolors": 11,
+   "dominant": "#70D8CF",
+   "dom_frac": 0.476,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_133",
+   "set": 2,
+   "id": 4,
+   "file": "route_signs/route_133.png"
+  },
+  {
+   "x": 6,
+   "y": 68,
+   "w": 96,
+   "h": 36,
+   "area": 3255,
+   "ncolors": 8,
+   "dominant": "#E0A87F",
+   "dom_frac": 0.524,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_102",
+   "set": 2,
+   "id": 5,
+   "file": "route_signs/route_102.png"
+  },
+  {
+   "x": 107,
+   "y": 68,
+   "w": 96,
+   "h": 36,
+   "area": 3255,
+   "ncolors": 8,
+   "dominant": "#E0A87F",
+   "dom_frac": 0.527,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_110",
+   "set": 2,
+   "id": 6,
+   "file": "route_signs/route_110.png"
+  },
+  {
+   "x": 209,
+   "y": 68,
+   "w": 96,
+   "h": 36,
+   "area": 3255,
+   "ncolors": 8,
+   "dominant": "#E0A87F",
+   "dom_frac": 0.527,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_118",
+   "set": 2,
+   "id": 7,
+   "file": "route_signs/route_118.png"
+  },
+  {
+   "x": 311,
+   "y": 68,
+   "w": 96,
+   "h": 36,
+   "area": 3329,
+   "ncolors": 11,
+   "dominant": "#70D8CF",
+   "dom_frac": 0.474,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_126",
+   "set": 2,
+   "id": 8,
+   "file": "route_signs/route_126.png"
+  },
+  {
+   "x": 413,
+   "y": 68,
+   "w": 96,
+   "h": 36,
+   "area": 3329,
+   "ncolors": 11,
+   "dominant": "#70D8CF",
+   "dom_frac": 0.475,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_134",
+   "set": 2,
+   "id": 9,
+   "file": "route_signs/route_134.png"
+  },
+  {
+   "x": 6,
+   "y": 108,
+   "w": 96,
+   "h": 36,
+   "area": 3255,
+   "ncolors": 8,
+   "dominant": "#E0A87F",
+   "dom_frac": 0.524,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_103",
+   "set": 2,
+   "id": 10,
+   "file": "route_signs/route_103.png"
+  },
+  {
+   "x": 107,
+   "y": 108,
+   "w": 96,
+   "h": 36,
+   "area": 3255,
+   "ncolors": 8,
+   "dominant": "#E0A87F",
+   "dom_frac": 0.53,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_111",
+   "set": 2,
+   "id": 11,
+   "file": "route_signs/route_111.png"
+  },
+  {
+   "x": 209,
+   "y": 108,
+   "w": 96,
+   "h": 36,
+   "area": 3255,
+   "ncolors": 8,
+   "dominant": "#E0A87F",
+   "dom_frac": 0.527,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_119",
+   "set": 2,
+   "id": 12,
+   "file": "route_signs/route_119.png"
+  },
+  {
+   "x": 311,
+   "y": 108,
+   "w": 96,
+   "h": 36,
+   "area": 3329,
+   "ncolors": 11,
+   "dominant": "#70D8CF",
+   "dom_frac": 0.478,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_127",
+   "set": 2,
+   "id": 13,
+   "file": "route_signs/route_127.png"
+  },
+  {
+   "x": 6,
+   "y": 148,
+   "w": 96,
+   "h": 36,
+   "area": 3255,
+   "ncolors": 8,
+   "dominant": "#E0A87F",
+   "dom_frac": 0.524,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_104",
+   "set": 2,
+   "id": 14,
+   "file": "route_signs/route_104.png"
+  },
+  {
+   "x": 107,
+   "y": 148,
+   "w": 96,
+   "h": 36,
+   "area": 3255,
+   "ncolors": 8,
+   "dominant": "#E0A87F",
+   "dom_frac": 0.528,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_112",
+   "set": 2,
+   "id": 15,
+   "file": "route_signs/route_112.png"
+  },
+  {
+   "x": 209,
+   "y": 148,
+   "w": 96,
+   "h": 36,
+   "area": 3255,
+   "ncolors": 8,
+   "dominant": "#E0A87F",
+   "dom_frac": 0.524,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_120",
+   "set": 2,
+   "id": 16,
+   "file": "route_signs/route_120.png"
+  },
+  {
+   "x": 311,
+   "y": 148,
+   "w": 96,
+   "h": 36,
+   "area": 3329,
+   "ncolors": 11,
+   "dominant": "#70D8CF",
+   "dom_frac": 0.474,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_128",
+   "set": 2,
+   "id": 17,
+   "file": "route_signs/route_128.png"
+  },
+  {
+   "x": 6,
+   "y": 188,
+   "w": 96,
+   "h": 36,
+   "area": 3329,
+   "ncolors": 11,
+   "dominant": "#70D8CF",
+   "dom_frac": 0.474,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_105",
+   "set": 2,
+   "id": 18,
+   "file": "route_signs/route_105.png"
+  },
+  {
+   "x": 107,
+   "y": 188,
+   "w": 96,
+   "h": 36,
+   "area": 3255,
+   "ncolors": 8,
+   "dominant": "#E0A87F",
+   "dom_frac": 0.528,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_113",
+   "set": 2,
+   "id": 19,
+   "file": "route_signs/route_113.png"
+  },
+  {
+   "x": 209,
+   "y": 188,
+   "w": 96,
+   "h": 36,
+   "area": 3255,
+   "ncolors": 8,
+   "dominant": "#E0A87F",
+   "dom_frac": 0.527,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_121",
+   "set": 2,
+   "id": 20,
+   "file": "route_signs/route_121.png"
+  },
+  {
+   "x": 311,
+   "y": 188,
+   "w": 96,
+   "h": 36,
+   "area": 3329,
+   "ncolors": 11,
+   "dominant": "#70D8CF",
+   "dom_frac": 0.474,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_129",
+   "set": 2,
+   "id": 21,
+   "file": "route_signs/route_129.png"
+  },
+  {
+   "x": 6,
+   "y": 228,
+   "w": 96,
+   "h": 36,
+   "area": 3329,
+   "ncolors": 11,
+   "dominant": "#70D8CF",
+   "dom_frac": 0.473,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_106",
+   "set": 2,
+   "id": 22,
+   "file": "route_signs/route_106.png"
+  },
+  {
+   "x": 107,
+   "y": 228,
+   "w": 96,
+   "h": 36,
+   "area": 3255,
+   "ncolors": 8,
+   "dominant": "#E0A87F",
+   "dom_frac": 0.528,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_114",
+   "set": 2,
+   "id": 23,
+   "file": "route_signs/route_114.png"
+  },
+  {
+   "x": 209,
+   "y": 228,
+   "w": 96,
+   "h": 36,
+   "area": 3329,
+   "ncolors": 11,
+   "dominant": "#70D8CF",
+   "dom_frac": 0.475,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_122",
+   "set": 2,
+   "id": 24,
+   "file": "route_signs/route_122.png"
+  },
+  {
+   "x": 311,
+   "y": 228,
+   "w": 96,
+   "h": 36,
+   "area": 3329,
+   "ncolors": 11,
+   "dominant": "#70D8CF",
+   "dom_frac": 0.475,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_130",
+   "set": 2,
+   "id": 25,
+   "file": "route_signs/route_130.png"
+  },
+  {
+   "x": 6,
+   "y": 268,
+   "w": 96,
+   "h": 36,
+   "area": 3329,
+   "ncolors": 11,
+   "dominant": "#70D8CF",
+   "dom_frac": 0.477,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_107",
+   "set": 2,
+   "id": 26,
+   "file": "route_signs/route_107.png"
+  },
+  {
+   "x": 107,
+   "y": 268,
+   "w": 96,
+   "h": 36,
+   "area": 3255,
+   "ncolors": 8,
+   "dominant": "#E0A87F",
+   "dom_frac": 0.527,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_115",
+   "set": 2,
+   "id": 27,
+   "file": "route_signs/route_115.png"
+  },
+  {
+   "x": 209,
+   "y": 268,
+   "w": 96,
+   "h": 36,
+   "area": 3255,
+   "ncolors": 8,
+   "dominant": "#E0A87F",
+   "dom_frac": 0.525,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_123",
+   "set": 2,
+   "id": 28,
+   "file": "route_signs/route_123.png"
+  },
+  {
+   "x": 311,
+   "y": 268,
+   "w": 96,
+   "h": 36,
+   "area": 3329,
+   "ncolors": 11,
+   "dominant": "#70D8CF",
+   "dom_frac": 0.479,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_131",
+   "set": 2,
+   "id": 29,
+   "file": "route_signs/route_131.png"
+  },
+  {
+   "x": 6,
+   "y": 308,
+   "w": 96,
+   "h": 36,
+   "area": 3329,
+   "ncolors": 11,
+   "dominant": "#70D8CF",
+   "dom_frac": 0.473,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_108",
+   "set": 2,
+   "id": 30,
+   "file": "route_signs/route_108.png"
+  },
+  {
+   "x": 107,
+   "y": 308,
+   "w": 96,
+   "h": 36,
+   "area": 3255,
+   "ncolors": 8,
+   "dominant": "#E0A87F",
+   "dom_frac": 0.527,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_116",
+   "set": 2,
+   "id": 31,
+   "file": "route_signs/route_116.png"
+  },
+  {
+   "x": 209,
+   "y": 308,
+   "w": 96,
+   "h": 36,
+   "area": 3329,
+   "ncolors": 11,
+   "dominant": "#70D8CF",
+   "dom_frac": 0.475,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_124",
+   "set": 2,
+   "id": 32,
+   "file": "route_signs/route_124.png"
+  },
+  {
+   "x": 311,
+   "y": 308,
+   "w": 96,
+   "h": 36,
+   "area": 3329,
+   "ncolors": 11,
+   "dominant": "#70D8CF",
+   "dom_frac": 0.476,
+   "kind": "sprite",
+   "zone": null,
+   "name": "route_132",
+   "set": 2,
+   "id": 33,
+   "file": "route_signs/route_132.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

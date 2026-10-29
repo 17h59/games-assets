@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/torchic_hut/torchic_hut_e001.png" id="1_ti8wy"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_syp44"]
+atlas = ExtResource("1_ti8wy")
+region = Rect2(0, 0, 5, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_21y36"]
+atlas = ExtResource("1_ti8wy")
+region = Rect2(5, 0, 5, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1g5ft"]
+atlas = ExtResource("1_ti8wy")
+region = Rect2(10, 0, 5, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_apwl5"]
+atlas = ExtResource("1_ti8wy")
+region = Rect2(15, 0, 5, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uk1ln"]
+atlas = ExtResource("1_ti8wy")
+region = Rect2(20, 0, 5, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e82bu"]
+atlas = ExtResource("1_ti8wy")
+region = Rect2(25, 0, 5, 10)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_syp44")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_21y36")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1g5ft")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_apwl5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uk1ln")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e82bu")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

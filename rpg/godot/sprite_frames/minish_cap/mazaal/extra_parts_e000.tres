@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/mazaal/extra_parts/extra_parts_e000.png" id="1_166la"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iyaib"]
+atlas = ExtResource("1_166la")
+region = Rect2(0, 0, 23, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6gqnq"]
+atlas = ExtResource("1_166la")
+region = Rect2(23, 0, 23, 15)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iyaib")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6gqnq")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

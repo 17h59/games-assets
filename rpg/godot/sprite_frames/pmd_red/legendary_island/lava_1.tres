@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/legendary_island/lava_1.png" id="1_owe3l"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sgwmu"]
+atlas = ExtResource("1_owe3l")
+region = Rect2(0, 0, 74, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o7qsl"]
+atlas = ExtResource("1_owe3l")
+region = Rect2(74, 0, 74, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xawyj"]
+atlas = ExtResource("1_owe3l")
+region = Rect2(148, 0, 74, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2yt86"]
+atlas = ExtResource("1_owe3l")
+region = Rect2(222, 0, 74, 38)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sgwmu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o7qsl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xawyj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2yt86")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

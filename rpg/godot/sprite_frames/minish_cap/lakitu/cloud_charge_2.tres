@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/lakitu/cloud_charge_2.png" id="1_yfryr"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jkf03"]
+atlas = ExtResource("1_yfryr")
+region = Rect2(0, 0, 26, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_alrx7"]
+atlas = ExtResource("1_yfryr")
+region = Rect2(26, 0, 26, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ypo3f"]
+atlas = ExtResource("1_yfryr")
+region = Rect2(52, 0, 26, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fo25d"]
+atlas = ExtResource("1_yfryr")
+region = Rect2(78, 0, 26, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_urpvc"]
+atlas = ExtResource("1_yfryr")
+region = Rect2(104, 0, 26, 28)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jkf03")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_alrx7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ypo3f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fo25d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_urpvc")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

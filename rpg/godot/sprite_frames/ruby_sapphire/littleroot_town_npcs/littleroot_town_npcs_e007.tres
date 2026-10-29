@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/ruby_sapphire/characters/littleroot_town_npcs/littleroot_town_npcs_e007.png" id="1_rxhlr"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_plus7"]
+atlas = ExtResource("1_rxhlr")
+region = Rect2(0, 0, 18, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aly2j"]
+atlas = ExtResource("1_rxhlr")
+region = Rect2(18, 0, 18, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bpg5x"]
+atlas = ExtResource("1_rxhlr")
+region = Rect2(36, 0, 18, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2v6jg"]
+atlas = ExtResource("1_rxhlr")
+region = Rect2(54, 0, 18, 20)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_plus7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aly2j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bpg5x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2v6jg")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

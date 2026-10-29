@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/pesto/pesto_e002.png" id="1_cwugt"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p4xpx"]
+atlas = ExtResource("1_cwugt")
+region = Rect2(0, 0, 18, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dapnq"]
+atlas = ExtResource("1_cwugt")
+region = Rect2(18, 0, 18, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yyxxs"]
+atlas = ExtResource("1_cwugt")
+region = Rect2(36, 0, 18, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uxapr"]
+atlas = ExtResource("1_cwugt")
+region = Rect2(54, 0, 18, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0oog5"]
+atlas = ExtResource("1_cwugt")
+region = Rect2(72, 0, 18, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xv12f"]
+atlas = ExtResource("1_cwugt")
+region = Rect2(90, 0, 18, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m6vpw"]
+atlas = ExtResource("1_cwugt")
+region = Rect2(108, 0, 18, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s8722"]
+atlas = ExtResource("1_cwugt")
+region = Rect2(126, 0, 18, 20)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p4xpx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dapnq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yyxxs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uxapr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0oog5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xv12f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m6vpw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s8722")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

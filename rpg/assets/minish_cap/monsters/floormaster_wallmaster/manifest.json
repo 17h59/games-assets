@@ -1,0 +1,734 @@
+{
+ "sheet": "49617",
+ "game": "minish_cap",
+ "category": "monsters",
+ "title": "Floormaster & Wallmaster",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    316,
+    15,
+    68,
+    11
+   ],
+   "point": [
+    350,
+    20
+   ],
+   "name": "wallmaster",
+   "folder": "wallmaster"
+  },
+  {
+   "id": 1,
+   "box": [
+    70,
+    18,
+    74,
+    11
+   ],
+   "point": [
+    107,
+    23
+   ],
+   "name": "floormaster",
+   "folder": "floormaster"
+  },
+  {
+   "id": 2,
+   "box": [
+    278,
+    120,
+    35,
+    8
+   ],
+   "point": [
+    295,
+    124
+   ],
+   "name": "shadow",
+   "folder": "shadow"
+  },
+  {
+   "id": 3,
+   "box": [
+    280,
+    148,
+    103,
+    12
+   ],
+   "point": [
+    331,
+    154
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 4,
+   "box": [
+    280,
+    163,
+    123,
+    11
+   ],
+   "point": [
+    341,
+    168
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "crawl_down",
+   "file": "floormaster/crawl_down.png",
+   "cell": [
+    32,
+    30
+   ],
+   "zone": null,
+   "set": 1,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      1,
+      40,
+      32,
+      30
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      34,
+      40,
+      30,
+      30
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_2",
+     "src": [
+      67,
+      40,
+      29,
+      29
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_3",
+     "src": [
+      102,
+      40,
+      32,
+      30
+     ],
+     "duplicate_of": 0
+    }
+   ],
+   "box": [
+    1,
+    40,
+    133,
+    30
+   ]
+  },
+  {
+   "id": 1,
+   "name": "grab_down",
+   "file": "floormaster/grab_down.png",
+   "cell": [
+    32,
+    26
+   ],
+   "zone": null,
+   "set": 1,
+   "template": "none",
+   "frames": [
+    {
+     "item": 5,
+     "role": "frame_0",
+     "src": [
+      135,
+      41,
+      32,
+      24
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_1",
+     "src": [
+      168,
+      40,
+      27,
+      26
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_2",
+     "src": [
+      201,
+      40,
+      25,
+      23
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_3",
+     "src": [
+      234,
+      40,
+      27,
+      26
+     ]
+    }
+   ],
+   "box": [
+    135,
+    40,
+    126,
+    26
+   ]
+  },
+  {
+   "id": 2,
+   "name": "crawl_up_left",
+   "file": "floormaster/crawl_up_left.png",
+   "cell": [
+    32,
+    32
+   ],
+   "zone": null,
+   "set": 1,
+   "template": "none",
+   "frames": [
+    {
+     "item": 13,
+     "role": "frame_0",
+     "src": [
+      3,
+      71,
+      30,
+      32
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_1",
+     "src": [
+      36,
+      73,
+      30,
+      30
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_2",
+     "src": [
+      69,
+      74,
+      29,
+      29
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_3",
+     "src": [
+      104,
+      71,
+      30,
+      32
+     ]
+    }
+   ],
+   "box": [
+    3,
+    71,
+    131,
+    32
+   ]
+  },
+  {
+   "id": 3,
+   "name": "grab_up_left",
+   "file": "floormaster/grab_up_left.png",
+   "cell": [
+    26,
+    32
+   ],
+   "zone": null,
+   "set": 1,
+   "template": "none",
+   "frames": [
+    {
+     "item": 17,
+     "role": "frame_0",
+     "src": [
+      138,
+      71,
+      24,
+      32
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_1",
+     "src": [
+      170,
+      76,
+      26,
+      27
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_2",
+     "src": [
+      203,
+      78,
+      23,
+      25
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_3",
+     "src": [
+      236,
+      76,
+      26,
+      27
+     ],
+     "duplicate_of": 1
+    }
+   ],
+   "box": [
+    138,
+    71,
+    124,
+    32
+   ]
+  },
+  {
+   "id": 4,
+   "name": "crawl_up_right",
+   "file": "floormaster/crawl_up_right.png",
+   "cell": [
+    31,
+    32
+   ],
+   "zone": null,
+   "set": 1,
+   "template": "none",
+   "frames": [
+    {
+     "item": 26,
+     "role": "frame_0",
+     "src": [
+      1,
+      104,
+      30,
+      32
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_1",
+     "src": [
+      34,
+      106,
+      30,
+      30
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_2",
+     "src": [
+      68,
+      107,
+      29,
+      29
+     ]
+    },
+    {
+     "item": 29,
+     "role": "frame_3",
+     "src": [
+      102,
+      104,
+      30,
+      32
+     ]
+    }
+   ],
+   "box": [
+    1,
+    104,
+    131,
+    32
+   ]
+  },
+  {
+   "id": 5,
+   "name": "grab_up_right",
+   "file": "floormaster/grab_up_right.png",
+   "cell": [
+    26,
+    32
+   ],
+   "zone": null,
+   "set": 1,
+   "template": "none",
+   "frames": [
+    {
+     "item": 30,
+     "role": "frame_0",
+     "src": [
+      140,
+      104,
+      24,
+      32
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_1",
+     "src": [
+      172,
+      109,
+      26,
+      27
+     ]
+    },
+    {
+     "item": 32,
+     "role": "frame_2",
+     "src": [
+      208,
+      111,
+      23,
+      25
+     ]
+    },
+    {
+     "item": 33,
+     "role": "frame_3",
+     "src": [
+      238,
+      109,
+      26,
+      27
+     ],
+     "duplicate_of": 1
+    }
+   ],
+   "box": [
+    140,
+    104,
+    124,
+    32
+   ]
+  },
+  {
+   "id": 6,
+   "name": "crawl_down_left",
+   "file": "floormaster/crawl_down_left.png",
+   "cell": [
+    32,
+    30
+   ],
+   "zone": null,
+   "set": 1,
+   "template": "none",
+   "frames": [
+    {
+     "item": 35,
+     "role": "frame_0",
+     "src": [
+      1,
+      139,
+      32,
+      30
+     ]
+    },
+    {
+     "item": 36,
+     "role": "frame_1",
+     "src": [
+      36,
+      139,
+      30,
+      30
+     ]
+    },
+    {
+     "item": 38,
+     "role": "frame_2",
+     "src": [
+      70,
+      139,
+      29,
+      29
+     ]
+    },
+    {
+     "item": 37,
+     "role": "frame_3",
+     "src": [
+      102,
+      139,
+      32,
+      30
+     ],
+     "duplicate_of": 0
+    }
+   ],
+   "box": [
+    1,
+    139,
+    133,
+    30
+   ]
+  },
+  {
+   "id": 7,
+   "name": "grab_down_left",
+   "file": "floormaster/grab_down_left.png",
+   "cell": [
+    32,
+    26
+   ],
+   "zone": null,
+   "set": 1,
+   "template": "none",
+   "frames": [
+    {
+     "item": 39,
+     "role": "frame_0",
+     "src": [
+      135,
+      140,
+      32,
+      24
+     ]
+    },
+    {
+     "item": 40,
+     "role": "frame_1",
+     "src": [
+      173,
+      139,
+      27,
+      26
+     ]
+    },
+    {
+     "item": 41,
+     "role": "frame_2",
+     "src": [
+      208,
+      139,
+      25,
+      23
+     ]
+    },
+    {
+     "item": 42,
+     "role": "frame_3",
+     "src": [
+      239,
+      139,
+      27,
+      26
+     ]
+    }
+   ],
+   "box": [
+    135,
+    139,
+    131,
+    26
+   ]
+  },
+  {
+   "id": 8,
+   "name": "drop_grab_right",
+   "file": "wallmaster/drop_grab_right.png",
+   "cell": [
+    32,
+    30
+   ],
+   "zone": null,
+   "set": 0,
+   "template": "none",
+   "frames": [
+    {
+     "item": 3,
+     "role": "frame_0",
+     "src": [
+      273,
+      40,
+      32,
+      30
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_1",
+     "src": [
+      306,
+      41,
+      32,
+      24
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_2",
+     "src": [
+      344,
+      40,
+      27,
+      26
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_3",
+     "src": [
+      379,
+      40,
+      25,
+      23
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_4",
+     "src": [
+      410,
+      40,
+      27,
+      26
+     ],
+     "duplicate_of": 2
+    }
+   ],
+   "box": [
+    273,
+    40,
+    164,
+    30
+   ]
+  },
+  {
+   "id": 9,
+   "name": "drop_grab_left",
+   "file": "wallmaster/drop_grab_left.png",
+   "cell": [
+    33,
+    30
+   ],
+   "zone": null,
+   "set": 0,
+   "template": "none",
+   "frames": [
+    {
+     "item": 25,
+     "role": "frame_0",
+     "src": [
+      273,
+      75,
+      32,
+      30
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_1",
+     "src": [
+      307,
+      76,
+      32,
+      24
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_2",
+     "src": [
+      341,
+      75,
+      27,
+      26
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_3",
+     "src": [
+      374,
+      75,
+      25,
+      23
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_4",
+     "src": [
+      407,
+      75,
+      27,
+      26
+     ],
+     "duplicate_of": 2
+    }
+   ],
+   "box": [
+    273,
+    75,
+    161,
+    30
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 282,
+   "y": 132,
+   "w": 26,
+   "h": 8,
+   "area": 166,
+   "ncolors": 1,
+   "dominant": "#302038",
+   "dom_frac": 1.0,
+   "kind": "sprite",
+   "zone": null,
+   "name": "shadow",
+   "set": 2,
+   "id": 34,
+   "file": "shadow/shadow.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

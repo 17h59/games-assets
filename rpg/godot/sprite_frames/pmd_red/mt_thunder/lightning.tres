@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/mt_thunder/lightning.png" id="1_urp4g"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wdfjc"]
+atlas = ExtResource("1_urp4g")
+region = Rect2(0, 0, 24, 126)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_00m58"]
+atlas = ExtResource("1_urp4g")
+region = Rect2(24, 0, 24, 126)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cr7b5"]
+atlas = ExtResource("1_urp4g")
+region = Rect2(48, 0, 24, 126)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h3fvg"]
+atlas = ExtResource("1_urp4g")
+region = Rect2(72, 0, 24, 126)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wdfjc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_00m58")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cr7b5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h3fvg")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

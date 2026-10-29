@@ -1,0 +1,41 @@
+[gd_scene format=3]
+
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/hill_of_the_ancients/hill_of_the_ancients_e000.tres" id="1_fuv36"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/meteor/meteor.tres" id="2_fa8gu"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/meteor/meteor_shockwave.tres" id="3_se1uj"]
+
+[node name="pmd_red_ui" type="Node2D" unique_id=1950705529]
+
+[node name="hill_of_the_ancients_e000" type="AnimatedSprite2D" parent="." unique_id=459342882]
+position = Vector2(0, 10)
+sprite_frames = ExtResource("1_fuv36")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1358" type="Label" parent="." unique_id=1006088157]
+theme_override_font_sizes/font_size = 6
+text = "hill_of_the_ancients_e000"
+
+[node name="meteor" type="AnimatedSprite2D" parent="." unique_id=1683749238]
+position = Vector2(104, 10)
+sprite_frames = ExtResource("2_fa8gu")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1359" type="Label" parent="." unique_id=1667245000]
+offset_left = 104.0
+offset_right = 104.0
+theme_override_font_sizes/font_size = 6
+text = "meteor"
+
+[node name="meteor_shockwave" type="AnimatedSprite2D" parent="." unique_id=71563409]
+position = Vector2(300, 10)
+sprite_frames = ExtResource("3_se1uj")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1360" type="Label" parent="." unique_id=296751667]
+offset_left = 300.0
+offset_right = 300.0
+theme_override_font_sizes/font_size = 6
+text = "meteor_shockwave"

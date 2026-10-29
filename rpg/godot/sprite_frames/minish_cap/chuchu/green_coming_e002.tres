@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/chuchu/green_coming/green_coming_e002.png" id="1_77qw6"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y87ij"]
+atlas = ExtResource("1_77qw6")
+region = Rect2(0, 0, 16, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xm2ut"]
+atlas = ExtResource("1_77qw6")
+region = Rect2(16, 0, 16, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_owicr"]
+atlas = ExtResource("1_77qw6")
+region = Rect2(32, 0, 16, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_al2fi"]
+atlas = ExtResource("1_77qw6")
+region = Rect2(48, 0, 16, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vd6jh"]
+atlas = ExtResource("1_77qw6")
+region = Rect2(64, 0, 16, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mlx40"]
+atlas = ExtResource("1_77qw6")
+region = Rect2(80, 0, 16, 20)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y87ij")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xm2ut")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_owicr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_al2fi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vd6jh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mlx40")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

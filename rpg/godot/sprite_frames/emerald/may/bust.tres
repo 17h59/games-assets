@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/emerald/characters/may/set_03/bust.png" id="1_05hu4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k2u4s"]
+atlas = ExtResource("1_05hu4")
+region = Rect2(0, 0, 55, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b00ff"]
+atlas = ExtResource("1_05hu4")
+region = Rect2(55, 0, 55, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8nk5y"]
+atlas = ExtResource("1_05hu4")
+region = Rect2(110, 0, 55, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k2u4s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b00ff")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8nk5y")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

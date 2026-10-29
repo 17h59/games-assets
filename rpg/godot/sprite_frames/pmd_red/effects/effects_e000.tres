@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/effects/effects_e000.png" id="1_tjlst"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eirml"]
+atlas = ExtResource("1_tjlst")
+region = Rect2(0, 0, 24, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rdrk7"]
+atlas = ExtResource("1_tjlst")
+region = Rect2(24, 0, 24, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j36vl"]
+atlas = ExtResource("1_tjlst")
+region = Rect2(48, 0, 24, 8)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eirml")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rdrk7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j36vl")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

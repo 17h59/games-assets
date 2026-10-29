@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/moldworm/moldworm_e005.png" id="1_uckj1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_00rt8"]
+atlas = ExtResource("1_uckj1")
+region = Rect2(0, 0, 14, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vr5hx"]
+atlas = ExtResource("1_uckj1")
+region = Rect2(14, 0, 14, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_00rt8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vr5hx")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

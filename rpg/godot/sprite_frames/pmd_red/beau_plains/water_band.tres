@@ -1,0 +1,81 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/beau_plains/water_band.png" id="1_moba0"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7apqe"]
+atlas = ExtResource("1_moba0")
+region = Rect2(0, 0, 192, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5vy15"]
+atlas = ExtResource("1_moba0")
+region = Rect2(192, 0, 192, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yeeor"]
+atlas = ExtResource("1_moba0")
+region = Rect2(384, 0, 192, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gdrhn"]
+atlas = ExtResource("1_moba0")
+region = Rect2(576, 0, 192, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hmaq6"]
+atlas = ExtResource("1_moba0")
+region = Rect2(768, 0, 192, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yai7a"]
+atlas = ExtResource("1_moba0")
+region = Rect2(960, 0, 192, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6ari3"]
+atlas = ExtResource("1_moba0")
+region = Rect2(1152, 0, 192, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i1kuo"]
+atlas = ExtResource("1_moba0")
+region = Rect2(1344, 0, 192, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lexoa"]
+atlas = ExtResource("1_moba0")
+region = Rect2(1536, 0, 192, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ksksj"]
+atlas = ExtResource("1_moba0")
+region = Rect2(1728, 0, 192, 24)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7apqe")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5vy15")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yeeor")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gdrhn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hmaq6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yai7a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6ari3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i1kuo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lexoa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ksksj")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

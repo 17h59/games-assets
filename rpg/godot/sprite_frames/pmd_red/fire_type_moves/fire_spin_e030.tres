@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/fire_type_moves/fire_spin/fire_spin_e030.png" id="1_kerjf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_keecc"]
+atlas = ExtResource("1_kerjf")
+region = Rect2(0, 0, 11, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_22c65"]
+atlas = ExtResource("1_kerjf")
+region = Rect2(11, 0, 11, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h7vpy"]
+atlas = ExtResource("1_kerjf")
+region = Rect2(22, 0, 11, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fhgvf"]
+atlas = ExtResource("1_kerjf")
+region = Rect2(33, 0, 11, 10)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_keecc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_22c65")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h7vpy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fhgvf")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

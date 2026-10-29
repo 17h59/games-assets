@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/beetle/beetle_e000.png" id="1_1ckqx"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8fibg"]
+atlas = ExtResource("1_1ckqx")
+region = Rect2(0, 0, 18, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h8i1d"]
+atlas = ExtResource("1_1ckqx")
+region = Rect2(18, 0, 18, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0erp0"]
+atlas = ExtResource("1_1ckqx")
+region = Rect2(36, 0, 18, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7gfex"]
+atlas = ExtResource("1_1ckqx")
+region = Rect2(54, 0, 18, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cnl53"]
+atlas = ExtResource("1_1ckqx")
+region = Rect2(72, 0, 18, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jp7fg"]
+atlas = ExtResource("1_1ckqx")
+region = Rect2(90, 0, 18, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ib2ib"]
+atlas = ExtResource("1_1ckqx")
+region = Rect2(108, 0, 18, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i5htw"]
+atlas = ExtResource("1_1ckqx")
+region = Rect2(126, 0, 18, 10)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8fibg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h8i1d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0erp0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7gfex")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cnl53")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jp7fg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ib2ib")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i5htw")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

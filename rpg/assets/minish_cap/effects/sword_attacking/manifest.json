@@ -1,0 +1,455 @@
+{
+ "sheet": "180815",
+ "game": "minish_cap",
+ "category": "effects",
+ "title": "Sword (Attacking)",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "sword_attacking_e000",
+   "file": "sword_attacking_e000.png",
+   "cell": [
+    19,
+    15
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      11,
+      11,
+      15,
+      6
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      32,
+      12,
+      14,
+      7
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_2",
+     "src": [
+      56,
+      12,
+      18,
+      15
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_3",
+     "src": [
+      78,
+      11,
+      16,
+      14
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_4",
+     "src": [
+      98,
+      11,
+      19,
+      15
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_5",
+     "src": [
+      126,
+      11,
+      18,
+      14
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_6",
+     "src": [
+      156,
+      11,
+      14,
+      15
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_7",
+     "src": [
+      174,
+      12,
+      14,
+      14
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_8",
+     "src": [
+      194,
+      11,
+      15,
+      12
+     ]
+    }
+   ],
+   "box": [
+    11,
+    11,
+    198,
+    16
+   ]
+  },
+  {
+   "id": 1,
+   "name": "sword_attacking_e001",
+   "file": "sword_attacking_e001.png",
+   "cell": [
+    15,
+    19
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 9,
+     "role": "frame_0",
+     "src": [
+      10,
+      38,
+      6,
+      15
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_1",
+     "src": [
+      22,
+      39,
+      7,
+      14
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_2",
+     "src": [
+      34,
+      43,
+      15,
+      18
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_3",
+     "src": [
+      56,
+      44,
+      14,
+      17
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_4",
+     "src": [
+      75,
+      37,
+      15,
+      19
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_5",
+     "src": [
+      96,
+      37,
+      14,
+      18
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_6",
+     "src": [
+      115,
+      39,
+      15,
+      13
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_7",
+     "src": [
+      135,
+      37,
+      14,
+      14
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_8",
+     "src": [
+      158,
+      37,
+      10,
+      15
+     ]
+    }
+   ],
+   "box": [
+    10,
+    37,
+    158,
+    24
+   ]
+  },
+  {
+   "id": 2,
+   "name": "sword_attacking_e002",
+   "file": "sword_attacking_e002.png",
+   "cell": [
+    15,
+    19
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 18,
+     "role": "frame_0",
+     "src": [
+      12,
+      73,
+      6,
+      15
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_1",
+     "src": [
+      23,
+      74,
+      7,
+      14
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_2",
+     "src": [
+      35,
+      78,
+      15,
+      18
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_3",
+     "src": [
+      54,
+      79,
+      14,
+      17
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_4",
+     "src": [
+      74,
+      72,
+      15,
+      19
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_5",
+     "src": [
+      94,
+      72,
+      14,
+      18
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_6",
+     "src": [
+      114,
+      74,
+      15,
+      13
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_7",
+     "src": [
+      135,
+      72,
+      14,
+      14
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_8",
+     "src": [
+      156,
+      72,
+      10,
+      15
+     ]
+    }
+   ],
+   "box": [
+    12,
+    72,
+    154,
+    24
+   ]
+  },
+  {
+   "id": 3,
+   "name": "sword_attacking_e003",
+   "file": "sword_attacking_e003.png",
+   "cell": [
+    19,
+    15
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 27,
+     "role": "frame_0",
+     "src": [
+      10,
+      116,
+      15,
+      6
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_1",
+     "src": [
+      30,
+      114,
+      14,
+      7
+     ]
+    },
+    {
+     "item": 29,
+     "role": "frame_2",
+     "src": [
+      50,
+      106,
+      18,
+      15
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_3",
+     "src": [
+      78,
+      108,
+      16,
+      14
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_4",
+     "src": [
+      103,
+      107,
+      19,
+      15
+     ]
+    },
+    {
+     "item": 32,
+     "role": "frame_5",
+     "src": [
+      132,
+      108,
+      18,
+      14
+     ]
+    },
+    {
+     "item": 33,
+     "role": "frame_6",
+     "src": [
+      154,
+      107,
+      14,
+      15
+     ]
+    },
+    {
+     "item": 34,
+     "role": "frame_7",
+     "src": [
+      176,
+      107,
+      14,
+      14
+     ]
+    },
+    {
+     "item": 35,
+     "role": "frame_8",
+     "src": [
+      195,
+      110,
+      15,
+      12
+     ]
+    }
+   ],
+   "box": [
+    10,
+    106,
+    200,
+    16
+   ]
+  }
+ ],
+ "items": [],
+ "status": "ok",
+ "missing_stages": []
+}

@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/chuchu/red_coming/red_coming_e008.png" id="1_c46va"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nib52"]
+atlas = ExtResource("1_c46va")
+region = Rect2(0, 0, 15, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hnuut"]
+atlas = ExtResource("1_c46va")
+region = Rect2(15, 0, 15, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b8ox7"]
+atlas = ExtResource("1_c46va")
+region = Rect2(30, 0, 15, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oylun"]
+atlas = ExtResource("1_c46va")
+region = Rect2(45, 0, 15, 20)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nib52")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hnuut")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b8ox7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oylun")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

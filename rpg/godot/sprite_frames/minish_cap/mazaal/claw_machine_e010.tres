@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/mazaal/claw_machine/claw_machine_e010.png" id="1_0jxwb"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3qb4w"]
+atlas = ExtResource("1_0jxwb")
+region = Rect2(0, 0, 11, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4hr0p"]
+atlas = ExtResource("1_0jxwb")
+region = Rect2(11, 0, 11, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v5b3r"]
+atlas = ExtResource("1_0jxwb")
+region = Rect2(22, 0, 11, 15)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3qb4w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4hr0p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v5b3r")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

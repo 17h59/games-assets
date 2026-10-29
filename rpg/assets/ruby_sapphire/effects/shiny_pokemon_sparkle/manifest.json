@@ -1,0 +1,4497 @@
+{
+ "sheet": "96766",
+ "game": "ruby_sapphire",
+ "category": "effects",
+ "title": "Shiny Pokémon Sparkle",
+ "type": "sprites",
+ "template": "none",
+ "validation": "pending",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    2,
+    459,
+    246,
+    9
+   ],
+   "point": [
+    125,
+    463
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 1,
+   "box": [
+    261,
+    459,
+    94,
+    10
+   ],
+   "point": [
+    308,
+    464
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 2,
+   "box": [
+    2,
+    472,
+    109,
+    10
+   ],
+   "point": [
+    56,
+    477
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "shiny_pokemon_sparkle_e000",
+   "file": "shiny_pokemon_sparkle_e000.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      508,
+      34,
+      16,
+      14
+     ]
+    }
+   ],
+   "box": [
+    508,
+    34,
+    16,
+    14
+   ]
+  },
+  {
+   "id": 1,
+   "name": "shiny_pokemon_sparkle_e001",
+   "file": "shiny_pokemon_sparkle_e001.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      323,
+      47,
+      16,
+      14
+     ]
+    }
+   ],
+   "box": [
+    323,
+    47,
+    16,
+    14
+   ]
+  },
+  {
+   "id": 2,
+   "name": "shiny_pokemon_sparkle_e002",
+   "file": "shiny_pokemon_sparkle_e002.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 2,
+     "role": "frame_0",
+     "src": [
+      417,
+      41,
+      16,
+      14
+     ]
+    }
+   ],
+   "box": [
+    417,
+    41,
+    16,
+    14
+   ]
+  },
+  {
+   "id": 3,
+   "name": "shiny_pokemon_sparkle_e003",
+   "file": "shiny_pokemon_sparkle_e003.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 3,
+     "role": "frame_0",
+     "src": [
+      35,
+      56,
+      16,
+      14
+     ]
+    }
+   ],
+   "box": [
+    35,
+    56,
+    16,
+    14
+   ]
+  },
+  {
+   "id": 4,
+   "name": "shiny_pokemon_sparkle_e004",
+   "file": "shiny_pokemon_sparkle_e004.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 4,
+     "role": "frame_0",
+     "src": [
+      131,
+      54,
+      16,
+      14
+     ]
+    }
+   ],
+   "box": [
+    131,
+    54,
+    16,
+    14
+   ]
+  },
+  {
+   "id": 5,
+   "name": "shiny_pokemon_sparkle_e005",
+   "file": "shiny_pokemon_sparkle_e005.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 5,
+     "role": "frame_0",
+     "src": [
+      228,
+      51,
+      16,
+      14
+     ]
+    }
+   ],
+   "box": [
+    228,
+    51,
+    16,
+    14
+   ]
+  },
+  {
+   "id": 6,
+   "name": "shiny_pokemon_sparkle_e006",
+   "file": "shiny_pokemon_sparkle_e006.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 6,
+     "role": "frame_0",
+     "src": [
+      400,
+      60,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    400,
+    60,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 7,
+   "name": "shiny_pokemon_sparkle_e007",
+   "file": "shiny_pokemon_sparkle_e007.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 7,
+     "role": "frame_0",
+     "src": [
+      463,
+      54,
+      16,
+      14
+     ]
+    }
+   ],
+   "box": [
+    463,
+    54,
+    16,
+    14
+   ]
+  },
+  {
+   "id": 8,
+   "name": "shiny_pokemon_sparkle_e008",
+   "file": "shiny_pokemon_sparkle_e008.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 8,
+     "role": "frame_0",
+     "src": [
+      496,
+      58,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    496,
+    58,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 9,
+   "name": "shiny_pokemon_sparkle_e009",
+   "file": "shiny_pokemon_sparkle_e009.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 9,
+     "role": "frame_0",
+     "src": [
+      368,
+      59,
+      16,
+      14
+     ]
+    }
+   ],
+   "box": [
+    368,
+    59,
+    16,
+    14
+   ]
+  },
+  {
+   "id": 10,
+   "name": "shiny_pokemon_sparkle_e010",
+   "file": "shiny_pokemon_sparkle_e010.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 10,
+     "role": "frame_0",
+     "src": [
+      316,
+      86,
+      16,
+      14
+     ]
+    }
+   ],
+   "box": [
+    316,
+    86,
+    16,
+    14
+   ]
+  },
+  {
+   "id": 11,
+   "name": "shiny_pokemon_sparkle_e011",
+   "file": "shiny_pokemon_sparkle_e011.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 11,
+     "role": "frame_0",
+     "src": [
+      399,
+      84,
+      16,
+      14
+     ]
+    }
+   ],
+   "box": [
+    399,
+    84,
+    16,
+    14
+   ]
+  },
+  {
+   "id": 12,
+   "name": "shiny_pokemon_sparkle_e012",
+   "file": "shiny_pokemon_sparkle_e012.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 12,
+     "role": "frame_0",
+     "src": [
+      482,
+      84,
+      16,
+      14
+     ]
+    }
+   ],
+   "box": [
+    482,
+    84,
+    16,
+    14
+   ]
+  },
+  {
+   "id": 13,
+   "name": "shiny_pokemon_sparkle_e013",
+   "file": "shiny_pokemon_sparkle_e013.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 13,
+     "role": "frame_0",
+     "src": [
+      146,
+      96,
+      16,
+      14
+     ]
+    }
+   ],
+   "box": [
+    146,
+    96,
+    16,
+    14
+   ]
+  },
+  {
+   "id": 14,
+   "name": "shiny_pokemon_sparkle_e014",
+   "file": "shiny_pokemon_sparkle_e014.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 14,
+     "role": "frame_0",
+     "src": [
+      231,
+      91,
+      16,
+      14
+     ]
+    }
+   ],
+   "box": [
+    231,
+    91,
+    16,
+    14
+   ]
+  },
+  {
+   "id": 15,
+   "name": "shiny_pokemon_sparkle_e015",
+   "file": "shiny_pokemon_sparkle_e015.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 15,
+     "role": "frame_0",
+     "src": [
+      58,
+      103,
+      16,
+      14
+     ]
+    }
+   ],
+   "box": [
+    58,
+    103,
+    16,
+    14
+   ]
+  },
+  {
+   "id": 16,
+   "name": "shiny_pokemon_sparkle_e016",
+   "file": "shiny_pokemon_sparkle_e016.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 16,
+     "role": "frame_0",
+     "src": [
+      398,
+      105,
+      16,
+      14
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_1",
+     "src": [
+      423,
+      107,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    398,
+    105,
+    31,
+    14
+   ]
+  },
+  {
+   "id": 17,
+   "name": "shiny_pokemon_sparkle_e017",
+   "file": "shiny_pokemon_sparkle_e017.png",
+   "cell": [
+    24,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 18,
+     "role": "frame_0",
+     "src": [
+      493,
+      100,
+      24,
+      14
+     ]
+    }
+   ],
+   "box": [
+    493,
+    100,
+    24,
+    14
+   ]
+  },
+  {
+   "id": 18,
+   "name": "shiny_pokemon_sparkle_e018",
+   "file": "shiny_pokemon_sparkle_e018.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 19,
+     "role": "frame_0",
+     "src": [
+      303,
+      110,
+      16,
+      14
+     ]
+    }
+   ],
+   "box": [
+    303,
+    110,
+    16,
+    14
+   ]
+  },
+  {
+   "id": 19,
+   "name": "shiny_pokemon_sparkle_e019",
+   "file": "shiny_pokemon_sparkle_e019.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 20,
+     "role": "frame_0",
+     "src": [
+      333,
+      114,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    333,
+    114,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 20,
+   "name": "shiny_pokemon_sparkle_e020",
+   "file": "shiny_pokemon_sparkle_e020.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 21,
+     "role": "frame_0",
+     "src": [
+      148,
+      127,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    148,
+    127,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 21,
+   "name": "shiny_pokemon_sparkle_e021",
+   "file": "shiny_pokemon_sparkle_e021.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 22,
+     "role": "frame_0",
+     "src": [
+      208,
+      115,
+      16,
+      14
+     ]
+    }
+   ],
+   "box": [
+    208,
+    115,
+    16,
+    14
+   ]
+  },
+  {
+   "id": 22,
+   "name": "shiny_pokemon_sparkle_e022",
+   "file": "shiny_pokemon_sparkle_e022.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 23,
+     "role": "frame_0",
+     "src": [
+      242,
+      121,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    242,
+    121,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 23,
+   "name": "shiny_pokemon_sparkle_e023",
+   "file": "shiny_pokemon_sparkle_e023.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 24,
+     "role": "frame_0",
+     "src": [
+      478,
+      124,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    478,
+    124,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 24,
+   "name": "shiny_pokemon_sparkle_e024",
+   "file": "shiny_pokemon_sparkle_e024.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 25,
+     "role": "frame_0",
+     "src": [
+      508,
+      127,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    508,
+    127,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 25,
+   "name": "shiny_pokemon_sparkle_e025",
+   "file": "shiny_pokemon_sparkle_e025.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 26,
+     "role": "frame_0",
+     "src": [
+      18,
+      125,
+      16,
+      14
+     ]
+    }
+   ],
+   "box": [
+    18,
+    125,
+    16,
+    14
+   ]
+  },
+  {
+   "id": 26,
+   "name": "shiny_pokemon_sparkle_e026",
+   "file": "shiny_pokemon_sparkle_e026.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 27,
+     "role": "frame_0",
+     "src": [
+      53,
+      131,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    53,
+    131,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 27,
+   "name": "shiny_pokemon_sparkle_e027",
+   "file": "shiny_pokemon_sparkle_e027.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 28,
+     "role": "frame_0",
+     "src": [
+      113,
+      120,
+      16,
+      14
+     ]
+    }
+   ],
+   "box": [
+    113,
+    120,
+    16,
+    14
+   ]
+  },
+  {
+   "id": 28,
+   "name": "shiny_pokemon_sparkle_e028",
+   "file": "shiny_pokemon_sparkle_e028.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 29,
+     "role": "frame_0",
+     "src": [
+      288,
+      134,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    288,
+    134,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 29,
+   "name": "shiny_pokemon_sparkle_e029",
+   "file": "shiny_pokemon_sparkle_e029.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 30,
+     "role": "frame_0",
+     "src": [
+      316,
+      134,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    316,
+    134,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 30,
+   "name": "shiny_pokemon_sparkle_e030",
+   "file": "shiny_pokemon_sparkle_e030.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 31,
+     "role": "frame_0",
+     "src": [
+      383,
+      129,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    383,
+    129,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 31,
+   "name": "shiny_pokemon_sparkle_e031",
+   "file": "shiny_pokemon_sparkle_e031.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 32,
+     "role": "frame_0",
+     "src": [
+      413,
+      131,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    413,
+    131,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 32,
+   "name": "shiny_pokemon_sparkle_e032",
+   "file": "shiny_pokemon_sparkle_e032.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 33,
+     "role": "frame_0",
+     "src": [
+      193,
+      139,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    193,
+    139,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 33,
+   "name": "shiny_pokemon_sparkle_e033",
+   "file": "shiny_pokemon_sparkle_e033.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 34,
+     "role": "frame_0",
+     "src": [
+      220,
+      136,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    220,
+    136,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 34,
+   "name": "shiny_pokemon_sparkle_e034",
+   "file": "shiny_pokemon_sparkle_e034.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 35,
+     "role": "frame_0",
+     "src": [
+      25,
+      161,
+      16,
+      14
+     ]
+    }
+   ],
+   "box": [
+    25,
+    161,
+    16,
+    14
+   ]
+  },
+  {
+   "id": 35,
+   "name": "shiny_pokemon_sparkle_e035",
+   "file": "shiny_pokemon_sparkle_e035.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 36,
+     "role": "frame_0",
+     "src": [
+      224,
+      164,
+      6,
+      6
+     ]
+    },
+    {
+     "item": 37,
+     "role": "frame_1",
+     "src": [
+      238,
+      161,
+      16,
+      14
+     ]
+    }
+   ],
+   "box": [
+    224,
+    161,
+    30,
+    14
+   ]
+  },
+  {
+   "id": 36,
+   "name": "shiny_pokemon_sparkle_e036",
+   "file": "shiny_pokemon_sparkle_e036.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 38,
+     "role": "frame_0",
+     "src": [
+      307,
+      164,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    307,
+    164,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 37,
+   "name": "shiny_pokemon_sparkle_e037",
+   "file": "shiny_pokemon_sparkle_e037.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 39,
+     "role": "frame_0",
+     "src": [
+      333,
+      156,
+      16,
+      14
+     ]
+    }
+   ],
+   "box": [
+    333,
+    156,
+    16,
+    14
+   ]
+  },
+  {
+   "id": 38,
+   "name": "shiny_pokemon_sparkle_e038",
+   "file": "shiny_pokemon_sparkle_e038.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 40,
+     "role": "frame_0",
+     "src": [
+      390,
+      165,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    390,
+    165,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 39,
+   "name": "shiny_pokemon_sparkle_e039",
+   "file": "shiny_pokemon_sparkle_e039.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 41,
+     "role": "frame_0",
+     "src": [
+      474,
+      169,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    474,
+    169,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 40,
+   "name": "shiny_pokemon_sparkle_e040",
+   "file": "shiny_pokemon_sparkle_e040.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 42,
+     "role": "frame_0",
+     "src": [
+      501,
+      166,
+      6,
+      6
+     ]
+    },
+    {
+     "item": 43,
+     "role": "frame_1",
+     "src": [
+      508,
+      170,
+      6,
+      6
+     ],
+     "duplicate_of": 0
+    }
+   ],
+   "box": [
+    501,
+    166,
+    13,
+    10
+   ]
+  },
+  {
+   "id": 41,
+   "name": "shiny_pokemon_sparkle_e041",
+   "file": "shiny_pokemon_sparkle_e041.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 44,
+     "role": "frame_0",
+     "src": [
+      48,
+      171,
+      16,
+      14
+     ]
+    }
+   ],
+   "box": [
+    48,
+    171,
+    16,
+    14
+   ]
+  },
+  {
+   "id": 42,
+   "name": "shiny_pokemon_sparkle_e042",
+   "file": "shiny_pokemon_sparkle_e042.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 45,
+     "role": "frame_0",
+     "src": [
+      109,
+      165,
+      16,
+      14
+     ]
+    }
+   ],
+   "box": [
+    109,
+    165,
+    16,
+    14
+   ]
+  },
+  {
+   "id": 43,
+   "name": "shiny_pokemon_sparkle_e043",
+   "file": "shiny_pokemon_sparkle_e043.png",
+   "cell": [
+    18,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 46,
+     "role": "frame_0",
+     "src": [
+      141,
+      166,
+      18,
+      14
+     ]
+    }
+   ],
+   "box": [
+    141,
+    166,
+    18,
+    14
+   ]
+  },
+  {
+   "id": 44,
+   "name": "shiny_pokemon_sparkle_e044",
+   "file": "shiny_pokemon_sparkle_e044.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 47,
+     "role": "frame_0",
+     "src": [
+      195,
+      170,
+      16,
+      14
+     ]
+    }
+   ],
+   "box": [
+    195,
+    170,
+    16,
+    14
+   ]
+  },
+  {
+   "id": 45,
+   "name": "shiny_pokemon_sparkle_e045",
+   "file": "shiny_pokemon_sparkle_e045.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 48,
+     "role": "frame_0",
+     "src": [
+      331,
+      176,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    331,
+    176,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 46,
+   "name": "shiny_pokemon_sparkle_e046",
+   "file": "shiny_pokemon_sparkle_e046.png",
+   "cell": [
+    9,
+    10
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 49,
+     "role": "frame_0",
+     "src": [
+      413,
+      171,
+      9,
+      10
+     ]
+    }
+   ],
+   "box": [
+    413,
+    171,
+    9,
+    10
+   ]
+  },
+  {
+   "id": 47,
+   "name": "shiny_pokemon_sparkle_e047",
+   "file": "shiny_pokemon_sparkle_e047.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 50,
+     "role": "frame_0",
+     "src": [
+      223,
+      185,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    223,
+    185,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 48,
+   "name": "shiny_pokemon_sparkle_e048",
+   "file": "shiny_pokemon_sparkle_e048.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 51,
+     "role": "frame_0",
+     "src": [
+      243,
+      183,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    243,
+    183,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 49,
+   "name": "shiny_pokemon_sparkle_e049",
+   "file": "shiny_pokemon_sparkle_e049.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 52,
+     "role": "frame_0",
+     "src": [
+      282,
+      177,
+      16,
+      14
+     ]
+    }
+   ],
+   "box": [
+    282,
+    177,
+    16,
+    14
+   ]
+  },
+  {
+   "id": 50,
+   "name": "shiny_pokemon_sparkle_e050",
+   "file": "shiny_pokemon_sparkle_e050.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 53,
+     "role": "frame_0",
+     "src": [
+      318,
+      180,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    318,
+    180,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 51,
+   "name": "shiny_pokemon_sparkle_e051",
+   "file": "shiny_pokemon_sparkle_e051.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 54,
+     "role": "frame_0",
+     "src": [
+      33,
+      195,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    33,
+    195,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 52,
+   "name": "shiny_pokemon_sparkle_e052",
+   "file": "shiny_pokemon_sparkle_e052.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 55,
+     "role": "frame_0",
+     "src": [
+      128,
+      190,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    128,
+    190,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 53,
+   "name": "shiny_pokemon_sparkle_e053",
+   "file": "shiny_pokemon_sparkle_e053.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 56,
+     "role": "frame_0",
+     "src": [
+      153,
+      190,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    153,
+    190,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 54,
+   "name": "shiny_pokemon_sparkle_e054",
+   "file": "shiny_pokemon_sparkle_e054.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 57,
+     "role": "frame_0",
+     "src": [
+      371,
+      184,
+      16,
+      14
+     ]
+    },
+    {
+     "item": 58,
+     "role": "frame_1",
+     "src": [
+      393,
+      195,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    371,
+    184,
+    28,
+    17
+   ]
+  },
+  {
+   "id": 55,
+   "name": "shiny_pokemon_sparkle_e055",
+   "file": "shiny_pokemon_sparkle_e055.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 59,
+     "role": "frame_0",
+     "src": [
+      488,
+      190,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    488,
+    190,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 56,
+   "name": "shiny_pokemon_sparkle_e056",
+   "file": "shiny_pokemon_sparkle_e056.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 60,
+     "role": "frame_0",
+     "src": [
+      513,
+      190,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    513,
+    190,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 57,
+   "name": "shiny_pokemon_sparkle_e057",
+   "file": "shiny_pokemon_sparkle_e057.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 61,
+     "role": "frame_0",
+     "src": [
+      62,
+      197,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    62,
+    197,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 58,
+   "name": "shiny_pokemon_sparkle_e058",
+   "file": "shiny_pokemon_sparkle_e058.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 62,
+     "role": "frame_0",
+     "src": [
+      298,
+      200,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    298,
+    200,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 59,
+   "name": "shiny_pokemon_sparkle_e059",
+   "file": "shiny_pokemon_sparkle_e059.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 63,
+     "role": "frame_0",
+     "src": [
+      328,
+      203,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    328,
+    203,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 60,
+   "name": "shiny_pokemon_sparkle_e060",
+   "file": "shiny_pokemon_sparkle_e060.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 64,
+     "role": "frame_0",
+     "src": [
+      422,
+      197,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    422,
+    197,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 61,
+   "name": "shiny_pokemon_sparkle_e061",
+   "file": "shiny_pokemon_sparkle_e061.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 65,
+     "role": "frame_0",
+     "src": [
+      462,
+      190,
+      16,
+      14
+     ]
+    }
+   ],
+   "box": [
+    462,
+    190,
+    16,
+    14
+   ]
+  },
+  {
+   "id": 62,
+   "name": "shiny_pokemon_sparkle_e062",
+   "file": "shiny_pokemon_sparkle_e062.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 66,
+     "role": "frame_0",
+     "src": [
+      108,
+      210,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    108,
+    210,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 63,
+   "name": "shiny_pokemon_sparkle_e063",
+   "file": "shiny_pokemon_sparkle_e063.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 67,
+     "role": "frame_0",
+     "src": [
+      136,
+      210,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    136,
+    210,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 64,
+   "name": "shiny_pokemon_sparkle_e064",
+   "file": "shiny_pokemon_sparkle_e064.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 68,
+     "role": "frame_0",
+     "src": [
+      203,
+      205,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    203,
+    205,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 65,
+   "name": "shiny_pokemon_sparkle_e065",
+   "file": "shiny_pokemon_sparkle_e065.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 69,
+     "role": "frame_0",
+     "src": [
+      233,
+      207,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    233,
+    207,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 66,
+   "name": "shiny_pokemon_sparkle_e066",
+   "file": "shiny_pokemon_sparkle_e066.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 70,
+     "role": "frame_0",
+     "src": [
+      468,
+      210,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    468,
+    210,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 67,
+   "name": "shiny_pokemon_sparkle_e067",
+   "file": "shiny_pokemon_sparkle_e067.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 71,
+     "role": "frame_0",
+     "src": [
+      13,
+      215,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    13,
+    215,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 68,
+   "name": "shiny_pokemon_sparkle_e068",
+   "file": "shiny_pokemon_sparkle_e068.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 72,
+     "role": "frame_0",
+     "src": [
+      40,
+      212,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    40,
+    212,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 69,
+   "name": "shiny_pokemon_sparkle_e069",
+   "file": "shiny_pokemon_sparkle_e069.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 73,
+     "role": "frame_0",
+     "src": [
+      373,
+      215,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    373,
+    215,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 70,
+   "name": "shiny_pokemon_sparkle_e070",
+   "file": "shiny_pokemon_sparkle_e070.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 74,
+     "role": "frame_0",
+     "src": [
+      44,
+      240,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    44,
+    240,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 71,
+   "name": "shiny_pokemon_sparkle_e071",
+   "file": "shiny_pokemon_sparkle_e071.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 75,
+     "role": "frame_0",
+     "src": [
+      63,
+      241,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    63,
+    241,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 72,
+   "name": "shiny_pokemon_sparkle_e072",
+   "file": "shiny_pokemon_sparkle_e072.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 76,
+     "role": "frame_0",
+     "src": [
+      127,
+      240,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    127,
+    240,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 73,
+   "name": "shiny_pokemon_sparkle_e073",
+   "file": "shiny_pokemon_sparkle_e073.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 77,
+     "role": "frame_0",
+     "src": [
+      158,
+      236,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    158,
+    236,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 74,
+   "name": "shiny_pokemon_sparkle_e074",
+   "file": "shiny_pokemon_sparkle_e074.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 78,
+     "role": "frame_0",
+     "src": [
+      210,
+      241,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    210,
+    241,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 75,
+   "name": "shiny_pokemon_sparkle_e075",
+   "file": "shiny_pokemon_sparkle_e075.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 79,
+     "role": "frame_0",
+     "src": [
+      321,
+      242,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    321,
+    242,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 76,
+   "name": "shiny_pokemon_sparkle_e076",
+   "file": "shiny_pokemon_sparkle_e076.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 80,
+     "role": "frame_0",
+     "src": [
+      404,
+      240,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    404,
+    240,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 77,
+   "name": "shiny_pokemon_sparkle_e077",
+   "file": "shiny_pokemon_sparkle_e077.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 81,
+     "role": "frame_0",
+     "src": [
+      423,
+      241,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    423,
+    241,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 78,
+   "name": "shiny_pokemon_sparkle_e078",
+   "file": "shiny_pokemon_sparkle_e078.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 82,
+     "role": "frame_0",
+     "src": [
+      487,
+      240,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    487,
+    240,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 79,
+   "name": "shiny_pokemon_sparkle_e079",
+   "file": "shiny_pokemon_sparkle_e079.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 83,
+     "role": "frame_0",
+     "src": [
+      518,
+      236,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    518,
+    236,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 80,
+   "name": "shiny_pokemon_sparkle_e080",
+   "file": "shiny_pokemon_sparkle_e080.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 84,
+     "role": "frame_0",
+     "src": [
+      20,
+      250,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    20,
+    250,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 81,
+   "name": "shiny_pokemon_sparkle_e081",
+   "file": "shiny_pokemon_sparkle_e081.png",
+   "cell": [
+    9,
+    10
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 85,
+     "role": "frame_0",
+     "src": [
+      233,
+      247,
+      9,
+      10
+     ]
+    }
+   ],
+   "box": [
+    233,
+    247,
+    9,
+    10
+   ]
+  },
+  {
+   "id": 82,
+   "name": "shiny_pokemon_sparkle_e082",
+   "file": "shiny_pokemon_sparkle_e082.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 86,
+     "role": "frame_0",
+     "src": [
+      294,
+      245,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    294,
+    245,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 83,
+   "name": "shiny_pokemon_sparkle_e083",
+   "file": "shiny_pokemon_sparkle_e083.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 87,
+     "role": "frame_0",
+     "src": [
+      328,
+      246,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    328,
+    246,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 84,
+   "name": "shiny_pokemon_sparkle_e084",
+   "file": "shiny_pokemon_sparkle_e084.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 88,
+     "role": "frame_0",
+     "src": [
+      380,
+      250,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    380,
+    250,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 85,
+   "name": "shiny_pokemon_sparkle_e085",
+   "file": "shiny_pokemon_sparkle_e085.png",
+   "cell": [
+    3,
+    3
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 89,
+     "role": "frame_0",
+     "src": [
+      512,
+      253,
+      3,
+      3
+     ]
+    }
+   ],
+   "box": [
+    512,
+    253,
+    3,
+    3
+   ]
+  },
+  {
+   "id": 86,
+   "name": "shiny_pokemon_sparkle_e086",
+   "file": "shiny_pokemon_sparkle_e086.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 90,
+     "role": "frame_0",
+     "src": [
+      107,
+      257,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    107,
+    257,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 87,
+   "name": "shiny_pokemon_sparkle_e087",
+   "file": "shiny_pokemon_sparkle_e087.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 91,
+     "role": "frame_0",
+     "src": [
+      138,
+      256,
+      6,
+      6
+     ]
+    },
+    {
+     "item": 92,
+     "role": "frame_1",
+     "src": [
+      151,
+      252,
+      6,
+      6
+     ],
+     "duplicate_of": 0
+    }
+   ],
+   "box": [
+    138,
+    252,
+    19,
+    10
+   ]
+  },
+  {
+   "id": 88,
+   "name": "shiny_pokemon_sparkle_e088",
+   "file": "shiny_pokemon_sparkle_e088.png",
+   "cell": [
+    3,
+    3
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 93,
+     "role": "frame_0",
+     "src": [
+      424,
+      260,
+      3,
+      3
+     ]
+    }
+   ],
+   "box": [
+    424,
+    260,
+    3,
+    3
+   ]
+  },
+  {
+   "id": 89,
+   "name": "shiny_pokemon_sparkle_e089",
+   "file": "shiny_pokemon_sparkle_e089.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 94,
+     "role": "frame_0",
+     "src": [
+      467,
+      257,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    467,
+    257,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 90,
+   "name": "shiny_pokemon_sparkle_e090",
+   "file": "shiny_pokemon_sparkle_e090.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 95,
+     "role": "frame_0",
+     "src": [
+      498,
+      256,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    498,
+    256,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 91,
+   "name": "shiny_pokemon_sparkle_e091",
+   "file": "shiny_pokemon_sparkle_e091.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 96,
+     "role": "frame_0",
+     "src": [
+      43,
+      261,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    43,
+    261,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 92,
+   "name": "shiny_pokemon_sparkle_e092",
+   "file": "shiny_pokemon_sparkle_e092.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 97,
+     "role": "frame_0",
+     "src": [
+      63,
+      259,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    63,
+    259,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 93,
+   "name": "shiny_pokemon_sparkle_e093",
+   "file": "shiny_pokemon_sparkle_e093.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 98,
+     "role": "frame_0",
+     "src": [
+      196,
+      264,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    196,
+    264,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 94,
+   "name": "shiny_pokemon_sparkle_e094",
+   "file": "shiny_pokemon_sparkle_e094.png",
+   "cell": [
+    3,
+    3
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 99,
+     "role": "frame_0",
+     "src": [
+      334,
+      267,
+      3,
+      3
+     ]
+    }
+   ],
+   "box": [
+    334,
+    267,
+    3,
+    3
+   ]
+  },
+  {
+   "id": 95,
+   "name": "shiny_pokemon_sparkle_e095",
+   "file": "shiny_pokemon_sparkle_e095.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 100,
+     "role": "frame_0",
+     "src": [
+      403,
+      261,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    403,
+    261,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 96,
+   "name": "shiny_pokemon_sparkle_e096",
+   "file": "shiny_pokemon_sparkle_e096.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 101,
+     "role": "frame_0",
+     "src": [
+      213,
+      271,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    213,
+    271,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 97,
+   "name": "shiny_pokemon_sparkle_e097",
+   "file": "shiny_pokemon_sparkle_e097.png",
+   "cell": [
+    3,
+    3
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 102,
+     "role": "frame_0",
+     "src": [
+      243,
+      274,
+      3,
+      3
+     ]
+    }
+   ],
+   "box": [
+    243,
+    274,
+    3,
+    3
+   ]
+  },
+  {
+   "id": 98,
+   "name": "shiny_pokemon_sparkle_e098",
+   "file": "shiny_pokemon_sparkle_e098.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 103,
+     "role": "frame_0",
+     "src": [
+      287,
+      270,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    287,
+    270,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 99,
+   "name": "shiny_pokemon_sparkle_e099",
+   "file": "shiny_pokemon_sparkle_e099.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 104,
+     "role": "frame_0",
+     "src": [
+      308,
+      266,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    308,
+    266,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 100,
+   "name": "shiny_pokemon_sparkle_e100",
+   "file": "shiny_pokemon_sparkle_e100.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 105,
+     "role": "frame_0",
+     "src": [
+      15,
+      273,
+      16,
+      14
+     ]
+    }
+   ],
+   "box": [
+    15,
+    273,
+    16,
+    14
+   ]
+  },
+  {
+   "id": 101,
+   "name": "shiny_pokemon_sparkle_e101",
+   "file": "shiny_pokemon_sparkle_e101.png",
+   "cell": [
+    16,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 106,
+     "role": "frame_0",
+     "src": [
+      109,
+      276,
+      16,
+      16
+     ]
+    }
+   ],
+   "box": [
+    109,
+    276,
+    16,
+    16
+   ]
+  },
+  {
+   "id": 102,
+   "name": "shiny_pokemon_sparkle_e102",
+   "file": "shiny_pokemon_sparkle_e102.png",
+   "cell": [
+    3,
+    3
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 107,
+     "role": "frame_0",
+     "src": [
+      289,
+      287,
+      3,
+      3
+     ]
+    }
+   ],
+   "box": [
+    289,
+    287,
+    3,
+    3
+   ]
+  },
+  {
+   "id": 103,
+   "name": "shiny_pokemon_sparkle_e103",
+   "file": "shiny_pokemon_sparkle_e103.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 108,
+     "role": "frame_0",
+     "src": [
+      474,
+      282,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    474,
+    282,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 104,
+   "name": "shiny_pokemon_sparkle_e104",
+   "file": "shiny_pokemon_sparkle_e104.png",
+   "cell": [
+    7,
+    8
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 109,
+     "role": "frame_0",
+     "src": [
+      380,
+      277,
+      7,
+      8
+     ]
+    }
+   ],
+   "box": [
+    380,
+    277,
+    7,
+    8
+   ]
+  },
+  {
+   "id": 105,
+   "name": "shiny_pokemon_sparkle_e105",
+   "file": "shiny_pokemon_sparkle_e105.png",
+   "cell": [
+    3,
+    3
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 110,
+     "role": "frame_0",
+     "src": [
+      479,
+      277,
+      3,
+      3
+     ]
+    }
+   ],
+   "box": [
+    479,
+    277,
+    3,
+    3
+   ]
+  },
+  {
+   "id": 106,
+   "name": "shiny_pokemon_sparkle_e106",
+   "file": "shiny_pokemon_sparkle_e106.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 111,
+     "role": "frame_0",
+     "src": [
+      194,
+      292,
+      3,
+      3
+     ]
+    },
+    {
+     "item": 112,
+     "role": "frame_1",
+     "src": [
+      205,
+      282,
+      16,
+      14
+     ]
+    }
+   ],
+   "box": [
+    194,
+    282,
+    27,
+    14
+   ]
+  },
+  {
+   "id": 107,
+   "name": "shiny_pokemon_sparkle_e107",
+   "file": "shiny_pokemon_sparkle_e107.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 113,
+     "role": "frame_0",
+     "src": [
+      30,
+      317,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    30,
+    317,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 108,
+   "name": "shiny_pokemon_sparkle_e108",
+   "file": "shiny_pokemon_sparkle_e108.png",
+   "cell": [
+    3,
+    3
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 114,
+     "role": "frame_0",
+     "src": [
+      142,
+      319,
+      3,
+      3
+     ]
+    }
+   ],
+   "box": [
+    142,
+    319,
+    3,
+    3
+   ]
+  },
+  {
+   "id": 109,
+   "name": "shiny_pokemon_sparkle_e109",
+   "file": "shiny_pokemon_sparkle_e109.png",
+   "cell": [
+    3,
+    3
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 115,
+     "role": "frame_0",
+     "src": [
+      225,
+      317,
+      3,
+      3
+     ]
+    }
+   ],
+   "box": [
+    225,
+    317,
+    3,
+    3
+   ]
+  },
+  {
+   "id": 110,
+   "name": "shiny_pokemon_sparkle_e110",
+   "file": "shiny_pokemon_sparkle_e110.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 116,
+     "role": "frame_0",
+     "src": [
+      243,
+      317,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    243,
+    317,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 111,
+   "name": "shiny_pokemon_sparkle_e111",
+   "file": "shiny_pokemon_sparkle_e111.png",
+   "cell": [
+    3,
+    3
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 117,
+     "role": "frame_0",
+     "src": [
+      308,
+      317,
+      3,
+      3
+     ]
+    }
+   ],
+   "box": [
+    308,
+    317,
+    3,
+    3
+   ]
+  },
+  {
+   "id": 112,
+   "name": "shiny_pokemon_sparkle_e112",
+   "file": "shiny_pokemon_sparkle_e112.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 118,
+     "role": "frame_0",
+     "src": [
+      338,
+      312,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    338,
+    312,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 113,
+   "name": "shiny_pokemon_sparkle_e113",
+   "file": "shiny_pokemon_sparkle_e113.png",
+   "cell": [
+    3,
+    3
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 119,
+     "role": "frame_0",
+     "src": [
+      391,
+      318,
+      3,
+      3
+     ]
+    }
+   ],
+   "box": [
+    391,
+    318,
+    3,
+    3
+   ]
+  },
+  {
+   "id": 114,
+   "name": "shiny_pokemon_sparkle_e114",
+   "file": "shiny_pokemon_sparkle_e114.png",
+   "cell": [
+    3,
+    3
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 120,
+     "role": "frame_0",
+     "src": [
+      57,
+      324,
+      3,
+      3
+     ]
+    }
+   ],
+   "box": [
+    57,
+    324,
+    3,
+    3
+   ]
+  },
+  {
+   "id": 115,
+   "name": "shiny_pokemon_sparkle_e115",
+   "file": "shiny_pokemon_sparkle_e115.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 121,
+     "role": "frame_0",
+     "src": [
+      114,
+      321,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    114,
+    321,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 116,
+   "name": "shiny_pokemon_sparkle_e116",
+   "file": "shiny_pokemon_sparkle_e116.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 122,
+     "role": "frame_0",
+     "src": [
+      148,
+      322,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    148,
+    322,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 117,
+   "name": "shiny_pokemon_sparkle_e117",
+   "file": "shiny_pokemon_sparkle_e117.png",
+   "cell": [
+    3,
+    3
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 123,
+     "role": "frame_0",
+     "src": [
+      414,
+      328,
+      3,
+      3
+     ]
+    }
+   ],
+   "box": [
+    414,
+    328,
+    3,
+    3
+   ]
+  },
+  {
+   "id": 118,
+   "name": "shiny_pokemon_sparkle_e118",
+   "file": "shiny_pokemon_sparkle_e118.png",
+   "cell": [
+    3,
+    3
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 124,
+     "role": "frame_0",
+     "src": [
+      475,
+      322,
+      3,
+      3
+     ]
+    }
+   ],
+   "box": [
+    475,
+    322,
+    3,
+    3
+   ]
+  },
+  {
+   "id": 119,
+   "name": "shiny_pokemon_sparkle_e119",
+   "file": "shiny_pokemon_sparkle_e119.png",
+   "cell": [
+    3,
+    3
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 125,
+     "role": "frame_0",
+     "src": [
+      509,
+      323,
+      3,
+      3
+     ]
+    }
+   ],
+   "box": [
+    509,
+    323,
+    3,
+    3
+   ]
+  },
+  {
+   "id": 120,
+   "name": "shiny_pokemon_sparkle_e120",
+   "file": "shiny_pokemon_sparkle_e120.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 126,
+     "role": "frame_0",
+     "src": [
+      53,
+      327,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    53,
+    327,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 121,
+   "name": "shiny_pokemon_sparkle_e121",
+   "file": "shiny_pokemon_sparkle_e121.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 127,
+     "role": "frame_0",
+     "src": [
+      200,
+      326,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    200,
+    326,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 122,
+   "name": "shiny_pokemon_sparkle_e122",
+   "file": "shiny_pokemon_sparkle_e122.png",
+   "cell": [
+    3,
+    3
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 128,
+     "role": "frame_0",
+     "src": [
+      319,
+      333,
+      3,
+      3
+     ]
+    }
+   ],
+   "box": [
+    319,
+    333,
+    3,
+    3
+   ]
+  },
+  {
+   "id": 123,
+   "name": "shiny_pokemon_sparkle_e123",
+   "file": "shiny_pokemon_sparkle_e123.png",
+   "cell": [
+    3,
+    3
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 129,
+     "role": "frame_0",
+     "src": [
+      224,
+      338,
+      3,
+      3
+     ]
+    }
+   ],
+   "box": [
+    224,
+    338,
+    3,
+    3
+   ]
+  },
+  {
+   "id": 124,
+   "name": "shiny_pokemon_sparkle_e124",
+   "file": "shiny_pokemon_sparkle_e124.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 130,
+     "role": "frame_0",
+     "src": [
+      287,
+      333,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    287,
+    333,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 125,
+   "name": "shiny_pokemon_sparkle_e125",
+   "file": "shiny_pokemon_sparkle_e125.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 131,
+     "role": "frame_0",
+     "src": [
+      16,
+      340,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    16,
+    340,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 126,
+   "name": "shiny_pokemon_sparkle_e126",
+   "file": "shiny_pokemon_sparkle_e126.png",
+   "cell": [
+    3,
+    3
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 132,
+     "role": "frame_0",
+     "src": [
+      34,
+      348,
+      3,
+      3
+     ]
+    }
+   ],
+   "box": [
+    34,
+    348,
+    3,
+    3
+   ]
+  },
+  {
+   "id": 127,
+   "name": "shiny_pokemon_sparkle_e127",
+   "file": "shiny_pokemon_sparkle_e127.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 133,
+     "role": "frame_0",
+     "src": [
+      107,
+      346,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    107,
+    346,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 128,
+   "name": "shiny_pokemon_sparkle_e128",
+   "file": "shiny_pokemon_sparkle_e128.png",
+   "cell": [
+    3,
+    3
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 134,
+     "role": "frame_0",
+     "src": [
+      129,
+      343,
+      3,
+      3
+     ]
+    }
+   ],
+   "box": [
+    129,
+    343,
+    3,
+    3
+   ]
+  },
+  {
+   "id": 129,
+   "name": "shiny_pokemon_sparkle_e129",
+   "file": "shiny_pokemon_sparkle_e129.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 135,
+     "role": "frame_0",
+     "src": [
+      376,
+      340,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    376,
+    340,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 130,
+   "name": "shiny_pokemon_sparkle_e130",
+   "file": "shiny_pokemon_sparkle_e130.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 136,
+     "role": "frame_0",
+     "src": [
+      467,
+      346,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    467,
+    346,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 131,
+   "name": "shiny_pokemon_sparkle_e131",
+   "file": "shiny_pokemon_sparkle_e131.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 137,
+     "role": "frame_0",
+     "src": [
+      200,
+      353,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    200,
+    353,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 132,
+   "name": "shiny_pokemon_sparkle_e132",
+   "file": "shiny_pokemon_sparkle_e132.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 138,
+     "role": "frame_0",
+     "src": [
+      294,
+      358,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    294,
+    358,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 133,
+   "name": "shiny_pokemon_sparkle_e133",
+   "file": "shiny_pokemon_sparkle_e133.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 139,
+     "role": "frame_0",
+     "src": [
+      30,
+      362,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    30,
+    362,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 134,
+   "name": "shiny_pokemon_sparkle_e134",
+   "file": "shiny_pokemon_sparkle_e134.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 140,
+     "role": "frame_0",
+     "src": [
+      390,
+      362,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    390,
+    362,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 135,
+   "name": "shiny_pokemon_sparkle_e135",
+   "file": "shiny_pokemon_sparkle_e135.png",
+   "cell": [
+    3,
+    3
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 141,
+     "role": "frame_0",
+     "src": [
+      64,
+      394,
+      3,
+      3
+     ]
+    }
+   ],
+   "box": [
+    64,
+    394,
+    3,
+    3
+   ]
+  },
+  {
+   "id": 136,
+   "name": "shiny_pokemon_sparkle_e136",
+   "file": "shiny_pokemon_sparkle_e136.png",
+   "cell": [
+    3,
+    3
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 142,
+     "role": "frame_0",
+     "src": [
+      159,
+      389,
+      3,
+      3
+     ]
+    }
+   ],
+   "box": [
+    159,
+    389,
+    3,
+    3
+   ]
+  },
+  {
+   "id": 137,
+   "name": "shiny_pokemon_sparkle_e137",
+   "file": "shiny_pokemon_sparkle_e137.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 143,
+     "role": "frame_0",
+     "src": [
+      451,
+      381,
+      16,
+      14
+     ]
+    },
+    {
+     "item": 144,
+     "role": "frame_1",
+     "src": [
+      470,
+      389,
+      6,
+      6
+     ]
+    },
+    {
+     "item": 145,
+     "role": "frame_2",
+     "src": [
+      479,
+      392,
+      3,
+      3
+     ]
+    }
+   ],
+   "box": [
+    451,
+    381,
+    31,
+    14
+   ]
+  },
+  {
+   "id": 138,
+   "name": "shiny_pokemon_sparkle_e138",
+   "file": "shiny_pokemon_sparkle_e138.png",
+   "cell": [
+    3,
+    3
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 146,
+     "role": "frame_0",
+     "src": [
+      21,
+      403,
+      3,
+      3
+     ]
+    }
+   ],
+   "box": [
+    21,
+    403,
+    3,
+    3
+   ]
+  },
+  {
+   "id": 139,
+   "name": "shiny_pokemon_sparkle_e139",
+   "file": "shiny_pokemon_sparkle_e139.png",
+   "cell": [
+    3,
+    3
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 147,
+     "role": "frame_0",
+     "src": [
+      108,
+      410,
+      3,
+      3
+     ]
+    }
+   ],
+   "box": [
+    108,
+    410,
+    3,
+    3
+   ]
+  },
+  {
+   "id": 140,
+   "name": "shiny_pokemon_sparkle_e140",
+   "file": "shiny_pokemon_sparkle_e140.png",
+   "cell": [
+    3,
+    3
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 148,
+     "role": "frame_0",
+     "src": [
+      198,
+      423,
+      3,
+      3
+     ]
+    }
+   ],
+   "box": [
+    198,
+    423,
+    3,
+    3
+   ]
+  },
+  {
+   "id": 141,
+   "name": "shiny_pokemon_sparkle_e141",
+   "file": "shiny_pokemon_sparkle_e141.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 149,
+     "role": "frame_0",
+     "src": [
+      20,
+      429,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    20,
+    429,
+    6,
+    6
+   ]
+  },
+  {
+   "id": 142,
+   "name": "shiny_pokemon_sparkle_e142",
+   "file": "shiny_pokemon_sparkle_e142.png",
+   "cell": [
+    3,
+    3
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 150,
+     "role": "frame_0",
+     "src": [
+      291,
+      430,
+      3,
+      3
+     ]
+    }
+   ],
+   "box": [
+    291,
+    430,
+    3,
+    3
+   ]
+  },
+  {
+   "id": 143,
+   "name": "shiny_pokemon_sparkle_e143",
+   "file": "shiny_pokemon_sparkle_e143.png",
+   "cell": [
+    3,
+    3
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 151,
+     "role": "frame_0",
+     "src": [
+      385,
+      435,
+      3,
+      3
+     ]
+    }
+   ],
+   "box": [
+    385,
+    435,
+    3,
+    3
+   ]
+  },
+  {
+   "id": 144,
+   "name": "shiny_pokemon_sparkle_e144",
+   "file": "shiny_pokemon_sparkle_e144.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 152,
+     "role": "frame_0",
+     "src": [
+      114,
+      434,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    114,
+    434,
+    6,
+    6
+   ]
+  }
+ ],
+ "items": [],
+ "status": "needs_review",
+ "missing_stages": [
+  "decoupage",
+  "regroupement",
+  "nommage"
+ ]
+}

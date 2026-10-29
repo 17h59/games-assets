@@ -1,0 +1,3195 @@
+{
+ "sheet": "8183",
+ "game": "ruby_sapphire",
+ "category": "characters",
+ "title": "Pokémon (Overworld)",
+ "type": "characters",
+ "template": "pokemon_ow9",
+ "validation": "pending",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    10,
+    79,
+    121,
+    2
+   ],
+   "point": [
+    70,
+    80
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 1,
+   "box": [
+    256,
+    80,
+    102,
+    1
+   ],
+   "point": [
+    307,
+    80
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 2,
+   "box": [
+    151,
+    113,
+    104,
+    3
+   ],
+   "point": [
+    203,
+    114
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 3,
+   "box": [
+    151,
+    182,
+    104,
+    8
+   ],
+   "point": [
+    203,
+    186
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "pokemon_overworld_e000",
+   "file": "pokemon_overworld_e000.png",
+   "cell": [
+    31,
+    32
+   ],
+   "zone": 0,
+   "set": null,
+   "template": "pokemon_ow3",
+   "frames": [
+    {
+     "item": 0,
+     "role": "idle_down",
+     "src": [
+      134,
+      9,
+      31,
+      30
+     ]
+    },
+    {
+     "item": 1,
+     "role": "idle_up",
+     "src": [
+      170,
+      9,
+      27,
+      31
+     ]
+    },
+    {
+     "item": 2,
+     "role": "idle_left",
+     "src": [
+      204,
+      8,
+      27,
+      32
+     ]
+    }
+   ],
+   "box": [
+    134,
+    8,
+    97,
+    32
+   ]
+  },
+  {
+   "id": 1,
+   "name": "pokemon_overworld_e001",
+   "file": "pokemon_overworld_e001.png",
+   "cell": [
+    31,
+    31
+   ],
+   "zone": 0,
+   "set": null,
+   "template": "pokemon_ow3",
+   "frames": [
+    {
+     "item": 3,
+     "role": "idle_down",
+     "src": [
+      134,
+      46,
+      31,
+      30
+     ]
+    },
+    {
+     "item": 4,
+     "role": "idle_up",
+     "src": [
+      170,
+      46,
+      27,
+      30
+     ]
+    },
+    {
+     "item": 5,
+     "role": "idle_left",
+     "src": [
+      204,
+      45,
+      27,
+      31
+     ]
+    }
+   ],
+   "box": [
+    134,
+    45,
+    97,
+    31
+   ]
+  },
+  {
+   "id": 2,
+   "name": "pokemon_overworld_e002",
+   "file": "pokemon_overworld_e002.png",
+   "cell": [
+    31,
+    30
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 40,
+     "role": "idle_down",
+     "src": [
+      259,
+      82,
+      31,
+      28
+     ]
+    },
+    {
+     "item": 41,
+     "role": "idle_up",
+     "src": [
+      259,
+      82,
+      31,
+      28
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 42,
+     "role": "idle_left",
+     "src": [
+      292,
+      83,
+      31,
+      27
+     ]
+    },
+    {
+     "item": 43,
+     "role": "walk_down_1",
+     "src": [
+      292,
+      83,
+      31,
+      27
+     ],
+     "duplicate_of": 2
+    },
+    {
+     "item": 44,
+     "role": "walk_down_2",
+     "src": [
+      325,
+      84,
+      30,
+      28
+     ]
+    },
+    {
+     "item": 45,
+     "role": "walk_up_1",
+     "src": [
+      325,
+      84,
+      30,
+      28
+     ],
+     "duplicate_of": 4
+    }
+   ],
+   "box": [
+    259,
+    82,
+    96,
+    30
+   ]
+  },
+  {
+   "id": 3,
+   "name": "pokemon_overworld_e003",
+   "file": "pokemon_overworld_e003.png",
+   "cell": [
+    16,
+    15
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 46,
+     "role": "idle_down",
+     "src": [
+      16,
+      88,
+      16,
+      15
+     ]
+    },
+    {
+     "item": 47,
+     "role": "idle_up",
+     "src": [
+      16,
+      88,
+      16,
+      15
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 48,
+     "role": "idle_left",
+     "src": [
+      35,
+      88,
+      15,
+      15
+     ]
+    },
+    {
+     "item": 49,
+     "role": "walk_down_1",
+     "src": [
+      35,
+      88,
+      15,
+      15
+     ],
+     "duplicate_of": 2
+    },
+    {
+     "item": 50,
+     "role": "walk_down_2",
+     "src": [
+      55,
+      88,
+      16,
+      15
+     ]
+    },
+    {
+     "item": 51,
+     "role": "walk_up_1",
+     "src": [
+      55,
+      88,
+      16,
+      15
+     ],
+     "duplicate_of": 4
+    }
+   ],
+   "box": [
+    16,
+    88,
+    55,
+    15
+   ]
+  },
+  {
+   "id": 4,
+   "name": "pokemon_overworld_e004",
+   "file": "pokemon_overworld_e004.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 52,
+     "role": "idle_down",
+     "src": [
+      87,
+      88,
+      16,
+      14
+     ]
+    },
+    {
+     "item": 53,
+     "role": "idle_up",
+     "src": [
+      87,
+      88,
+      16,
+      14
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 54,
+     "role": "idle_left",
+     "src": [
+      107,
+      88,
+      16,
+      14
+     ]
+    },
+    {
+     "item": 55,
+     "role": "walk_down_1",
+     "src": [
+      107,
+      88,
+      16,
+      14
+     ],
+     "duplicate_of": 2
+    },
+    {
+     "item": 56,
+     "role": "walk_down_2",
+     "src": [
+      128,
+      88,
+      16,
+      14
+     ]
+    },
+    {
+     "item": 57,
+     "role": "walk_up_1",
+     "src": [
+      128,
+      88,
+      16,
+      14
+     ],
+     "duplicate_of": 4
+    }
+   ],
+   "box": [
+    87,
+    88,
+    57,
+    14
+   ]
+  },
+  {
+   "id": 5,
+   "name": "pokemon_overworld_e005",
+   "file": "pokemon_overworld_e005.png",
+   "cell": [
+    31,
+    29
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 58,
+     "role": "idle_down",
+     "src": [
+      259,
+      114,
+      31,
+      28
+     ]
+    },
+    {
+     "item": 59,
+     "role": "idle_up",
+     "src": [
+      259,
+      114,
+      31,
+      28
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 60,
+     "role": "idle_left",
+     "src": [
+      292,
+      114,
+      31,
+      28
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 61,
+     "role": "walk_down_1",
+     "src": [
+      292,
+      114,
+      31,
+      28
+     ],
+     "duplicate_of": 2
+    },
+    {
+     "item": 62,
+     "role": "walk_down_2",
+     "src": [
+      325,
+      114,
+      30,
+      29
+     ]
+    },
+    {
+     "item": 63,
+     "role": "walk_up_1",
+     "src": [
+      325,
+      114,
+      30,
+      29
+     ],
+     "duplicate_of": 4
+    }
+   ],
+   "box": [
+    259,
+    114,
+    96,
+    29
+   ]
+  },
+  {
+   "id": 6,
+   "name": "pokemon_overworld_e006",
+   "file": "pokemon_overworld_e006.png",
+   "cell": [
+    15,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 64,
+     "role": "idle_down",
+     "src": [
+      17,
+      119,
+      15,
+      12
+     ]
+    },
+    {
+     "item": 65,
+     "role": "idle_up",
+     "src": [
+      17,
+      119,
+      15,
+      12
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 66,
+     "role": "idle_left",
+     "src": [
+      35,
+      118,
+      15,
+      13
+     ]
+    },
+    {
+     "item": 67,
+     "role": "walk_down_1",
+     "src": [
+      35,
+      118,
+      15,
+      13
+     ],
+     "duplicate_of": 2
+    },
+    {
+     "item": 68,
+     "role": "walk_down_2",
+     "src": [
+      54,
+      119,
+      15,
+      13
+     ]
+    },
+    {
+     "item": 69,
+     "role": "walk_up_1",
+     "src": [
+      54,
+      119,
+      15,
+      13
+     ],
+     "duplicate_of": 4
+    }
+   ],
+   "box": [
+    17,
+    118,
+    52,
+    14
+   ]
+  },
+  {
+   "id": 7,
+   "name": "pokemon_overworld_e007",
+   "file": "pokemon_overworld_e007.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 70,
+     "role": "idle_down",
+     "src": [
+      87,
+      118,
+      16,
+      14
+     ]
+    },
+    {
+     "item": 71,
+     "role": "idle_up",
+     "src": [
+      87,
+      118,
+      16,
+      14
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 72,
+     "role": "idle_left",
+     "src": [
+      107,
+      118,
+      16,
+      14
+     ]
+    },
+    {
+     "item": 73,
+     "role": "walk_down_1",
+     "src": [
+      107,
+      118,
+      16,
+      14
+     ],
+     "duplicate_of": 2
+    },
+    {
+     "item": 74,
+     "role": "walk_down_2",
+     "src": [
+      128,
+      118,
+      15,
+      14
+     ]
+    },
+    {
+     "item": 75,
+     "role": "walk_up_1",
+     "src": [
+      128,
+      118,
+      15,
+      14
+     ],
+     "duplicate_of": 4
+    }
+   ],
+   "box": [
+    87,
+    118,
+    56,
+    14
+   ]
+  },
+  {
+   "id": 8,
+   "name": "pokemon_overworld_e008",
+   "file": "pokemon_overworld_e008.png",
+   "cell": [
+    15,
+    20
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 76,
+     "role": "idle_down",
+     "src": [
+      16,
+      146,
+      15,
+      20
+     ]
+    },
+    {
+     "item": 77,
+     "role": "idle_up",
+     "src": [
+      16,
+      146,
+      15,
+      20
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 78,
+     "role": "idle_left",
+     "src": [
+      36,
+      146,
+      15,
+      20
+     ]
+    },
+    {
+     "item": 79,
+     "role": "walk_down_1",
+     "src": [
+      36,
+      146,
+      15,
+      20
+     ],
+     "duplicate_of": 2
+    },
+    {
+     "item": 80,
+     "role": "walk_down_2",
+     "src": [
+      55,
+      146,
+      15,
+      20
+     ]
+    },
+    {
+     "item": 81,
+     "role": "walk_up_1",
+     "src": [
+      55,
+      146,
+      15,
+      20
+     ],
+     "duplicate_of": 4
+    }
+   ],
+   "box": [
+    16,
+    146,
+    54,
+    20
+   ]
+  },
+  {
+   "id": 9,
+   "name": "pokemon_overworld_e009",
+   "file": "pokemon_overworld_e009.png",
+   "cell": [
+    20,
+    17
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 82,
+     "role": "idle_down",
+     "src": [
+      86,
+      147,
+      14,
+      15
+     ]
+    },
+    {
+     "item": 83,
+     "role": "idle_up",
+     "src": [
+      86,
+      147,
+      14,
+      15
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 84,
+     "role": "idle_left",
+     "src": [
+      104,
+      145,
+      20,
+      17
+     ]
+    },
+    {
+     "item": 85,
+     "role": "walk_down_1",
+     "src": [
+      104,
+      145,
+      20,
+      17
+     ],
+     "duplicate_of": 2
+    },
+    {
+     "item": 86,
+     "role": "walk_down_2",
+     "src": [
+      127,
+      147,
+      14,
+      15
+     ]
+    },
+    {
+     "item": 87,
+     "role": "walk_up_1",
+     "src": [
+      127,
+      147,
+      14,
+      15
+     ],
+     "duplicate_of": 4
+    }
+   ],
+   "box": [
+    86,
+    145,
+    55,
+    17
+   ]
+  },
+  {
+   "id": 10,
+   "name": "pokemon_overworld_e010",
+   "file": "pokemon_overworld_e010.png",
+   "cell": [
+    9,
+    7
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 88,
+     "role": "idle_down",
+     "src": [
+      222,
+      157,
+      9,
+      7
+     ]
+    },
+    {
+     "item": 89,
+     "role": "idle_up",
+     "src": [
+      222,
+      157,
+      9,
+      7
+     ],
+     "duplicate_of": 0
+    }
+   ],
+   "box": [
+    222,
+    157,
+    9,
+    7
+   ]
+  },
+  {
+   "id": 11,
+   "name": "pokemon_overworld_e011",
+   "file": "pokemon_overworld_e011.png",
+   "cell": [
+    7,
+    8
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 90,
+     "role": "idle_down",
+     "src": [
+      245,
+      157,
+      7,
+      8
+     ]
+    },
+    {
+     "item": 91,
+     "role": "idle_up",
+     "src": [
+      245,
+      157,
+      7,
+      8
+     ],
+     "duplicate_of": 0
+    }
+   ],
+   "box": [
+    245,
+    157,
+    7,
+    8
+   ]
+  },
+  {
+   "id": 12,
+   "name": "pokemon_overworld_e012",
+   "file": "pokemon_overworld_e012.png",
+   "cell": [
+    31,
+    28
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 92,
+     "role": "idle_down",
+     "src": [
+      259,
+      146,
+      31,
+      27
+     ]
+    },
+    {
+     "item": 93,
+     "role": "idle_up",
+     "src": [
+      259,
+      146,
+      31,
+      27
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 94,
+     "role": "idle_left",
+     "src": [
+      292,
+      145,
+      31,
+      28
+     ]
+    },
+    {
+     "item": 95,
+     "role": "walk_down_1",
+     "src": [
+      292,
+      145,
+      31,
+      28
+     ],
+     "duplicate_of": 2
+    }
+   ],
+   "box": [
+    259,
+    145,
+    64,
+    28
+   ]
+  },
+  {
+   "id": 13,
+   "name": "pokemon_overworld_e013",
+   "file": "pokemon_overworld_e013.png",
+   "cell": [
+    29,
+    29
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 96,
+     "role": "idle_down",
+     "src": [
+      155,
+      157,
+      28,
+      29
+     ]
+    },
+    {
+     "item": 97,
+     "role": "idle_up",
+     "src": [
+      155,
+      157,
+      28,
+      29
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 98,
+     "role": "idle_left",
+     "src": [
+      188,
+      158,
+      29,
+      28
+     ]
+    },
+    {
+     "item": 99,
+     "role": "walk_down_1",
+     "src": [
+      188,
+      158,
+      29,
+      28
+     ],
+     "duplicate_of": 2
+    }
+   ],
+   "box": [
+    155,
+    157,
+    62,
+    29
+   ]
+  },
+  {
+   "id": 14,
+   "name": "pokemon_overworld_e014",
+   "file": "pokemon_overworld_e014.png",
+   "cell": [
+    14,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 100,
+     "role": "idle_down",
+     "src": [
+      230,
+      164,
+      14,
+      16
+     ]
+    },
+    {
+     "item": 101,
+     "role": "idle_up",
+     "src": [
+      230,
+      164,
+      14,
+      16
+     ],
+     "duplicate_of": 0
+    }
+   ],
+   "box": [
+    230,
+    164,
+    14,
+    16
+   ]
+  },
+  {
+   "id": 15,
+   "name": "pokemon_overworld_e015",
+   "file": "pokemon_overworld_e015.png",
+   "cell": [
+    16,
+    21
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 102,
+     "role": "idle_down",
+     "src": [
+      17,
+      172,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 103,
+     "role": "idle_up",
+     "src": [
+      17,
+      172,
+      16,
+      20
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 104,
+     "role": "idle_left",
+     "src": [
+      35,
+      172,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 105,
+     "role": "walk_down_1",
+     "src": [
+      35,
+      172,
+      16,
+      20
+     ],
+     "duplicate_of": 2
+    },
+    {
+     "item": 106,
+     "role": "walk_down_2",
+     "src": [
+      53,
+      173,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 107,
+     "role": "walk_up_1",
+     "src": [
+      53,
+      173,
+      16,
+      20
+     ],
+     "duplicate_of": 4
+    }
+   ],
+   "box": [
+    17,
+    172,
+    52,
+    21
+   ]
+  },
+  {
+   "id": 16,
+   "name": "pokemon_overworld_e016",
+   "file": "pokemon_overworld_e016.png",
+   "cell": [
+    20,
+    17
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 108,
+     "role": "idle_down",
+     "src": [
+      86,
+      178,
+      14,
+      14
+     ]
+    },
+    {
+     "item": 109,
+     "role": "idle_up",
+     "src": [
+      86,
+      178,
+      14,
+      14
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 110,
+     "role": "idle_left",
+     "src": [
+      104,
+      176,
+      20,
+      16
+     ]
+    },
+    {
+     "item": 111,
+     "role": "walk_down_1",
+     "src": [
+      104,
+      176,
+      20,
+      16
+     ],
+     "duplicate_of": 2
+    },
+    {
+     "item": 112,
+     "role": "walk_down_2",
+     "src": [
+      128,
+      179,
+      14,
+      14
+     ]
+    },
+    {
+     "item": 113,
+     "role": "walk_up_1",
+     "src": [
+      128,
+      179,
+      14,
+      14
+     ],
+     "duplicate_of": 4
+    }
+   ],
+   "box": [
+    86,
+    176,
+    56,
+    17
+   ]
+  },
+  {
+   "id": 17,
+   "name": "pokemon_overworld_e017",
+   "file": "pokemon_overworld_e017.png",
+   "cell": [
+    7,
+    5
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 114,
+     "role": "idle_down",
+     "src": [
+      222,
+      182,
+      7,
+      5
+     ]
+    },
+    {
+     "item": 115,
+     "role": "idle_up",
+     "src": [
+      222,
+      182,
+      7,
+      5
+     ],
+     "duplicate_of": 0
+    }
+   ],
+   "box": [
+    222,
+    182,
+    7,
+    5
+   ]
+  },
+  {
+   "id": 18,
+   "name": "pokemon_overworld_e018",
+   "file": "pokemon_overworld_e018.png",
+   "cell": [
+    5,
+    5
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 116,
+     "role": "idle_down",
+     "src": [
+      247,
+      182,
+      5,
+      5
+     ]
+    }
+   ],
+   "box": [
+    247,
+    182,
+    5,
+    5
+   ]
+  },
+  {
+   "id": 19,
+   "name": "pokemon_overworld_e019",
+   "file": "pokemon_overworld_e019.png",
+   "cell": [
+    32,
+    29
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 117,
+     "role": "idle_down",
+     "src": [
+      260,
+      180,
+      32,
+      27
+     ]
+    },
+    {
+     "item": 118,
+     "role": "idle_up",
+     "src": [
+      260,
+      180,
+      32,
+      27
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 119,
+     "role": "idle_left",
+     "src": [
+      294,
+      180,
+      31,
+      27
+     ]
+    },
+    {
+     "item": 120,
+     "role": "walk_down_1",
+     "src": [
+      294,
+      180,
+      31,
+      27
+     ],
+     "duplicate_of": 2
+    },
+    {
+     "item": 121,
+     "role": "walk_down_2",
+     "src": [
+      328,
+      178,
+      26,
+      29
+     ]
+    }
+   ],
+   "box": [
+    260,
+    178,
+    94,
+    29
+   ]
+  },
+  {
+   "id": 20,
+   "name": "pokemon_overworld_e020",
+   "file": "pokemon_overworld_e020.png",
+   "cell": [
+    16,
+    20
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 122,
+     "role": "idle_down",
+     "src": [
+      15,
+      199,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 123,
+     "role": "idle_up",
+     "src": [
+      15,
+      199,
+      16,
+      20
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 124,
+     "role": "idle_left",
+     "src": [
+      36,
+      199,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 125,
+     "role": "walk_down_1",
+     "src": [
+      36,
+      199,
+      16,
+      20
+     ],
+     "duplicate_of": 2
+    },
+    {
+     "item": 126,
+     "role": "walk_down_2",
+     "src": [
+      57,
+      199,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 127,
+     "role": "walk_up_1",
+     "src": [
+      57,
+      199,
+      16,
+      20
+     ],
+     "duplicate_of": 4
+    }
+   ],
+   "box": [
+    15,
+    199,
+    58,
+    20
+   ]
+  },
+  {
+   "id": 21,
+   "name": "pokemon_overworld_e021",
+   "file": "pokemon_overworld_e021.png",
+   "cell": [
+    15,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 128,
+     "role": "idle_down",
+     "src": [
+      88,
+      207,
+      12,
+      14
+     ]
+    },
+    {
+     "item": 129,
+     "role": "idle_up",
+     "src": [
+      88,
+      207,
+      12,
+      14
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 130,
+     "role": "idle_left",
+     "src": [
+      105,
+      207,
+      15,
+      14
+     ]
+    },
+    {
+     "item": 131,
+     "role": "walk_down_1",
+     "src": [
+      105,
+      207,
+      15,
+      14
+     ],
+     "duplicate_of": 2
+    },
+    {
+     "item": 132,
+     "role": "walk_down_2",
+     "src": [
+      124,
+      207,
+      12,
+      14
+     ]
+    },
+    {
+     "item": 133,
+     "role": "walk_up_1",
+     "src": [
+      124,
+      207,
+      12,
+      14
+     ],
+     "duplicate_of": 4
+    }
+   ],
+   "box": [
+    88,
+    207,
+    48,
+    14
+   ]
+  },
+  {
+   "id": 22,
+   "name": "pokemon_overworld_e022",
+   "file": "pokemon_overworld_e022.png",
+   "cell": [
+    16,
+    10
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 134,
+     "role": "idle_down",
+     "src": [
+      86,
+      235,
+      16,
+      9
+     ]
+    },
+    {
+     "item": 135,
+     "role": "idle_up",
+     "src": [
+      86,
+      235,
+      16,
+      9
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 136,
+     "role": "idle_left",
+     "src": [
+      106,
+      234,
+      15,
+      10
+     ]
+    },
+    {
+     "item": 137,
+     "role": "walk_down_1",
+     "src": [
+      106,
+      234,
+      15,
+      10
+     ],
+     "duplicate_of": 2
+    },
+    {
+     "item": 138,
+     "role": "walk_down_2",
+     "src": [
+      126,
+      235,
+      16,
+      9
+     ]
+    },
+    {
+     "item": 139,
+     "role": "walk_up_1",
+     "src": [
+      126,
+      235,
+      16,
+      9
+     ],
+     "duplicate_of": 4
+    }
+   ],
+   "box": [
+    86,
+    234,
+    56,
+    10
+   ]
+  },
+  {
+   "id": 23,
+   "name": "pokemon_overworld_e023",
+   "file": "pokemon_overworld_e023.png",
+   "cell": [
+    32,
+    30
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 140,
+     "role": "idle_down",
+     "src": [
+      260,
+      212,
+      32,
+      27
+     ]
+    },
+    {
+     "item": 141,
+     "role": "idle_up",
+     "src": [
+      260,
+      212,
+      32,
+      27
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 142,
+     "role": "idle_left",
+     "src": [
+      294,
+      212,
+      32,
+      27
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 143,
+     "role": "walk_down_1",
+     "src": [
+      294,
+      212,
+      32,
+      27
+     ],
+     "duplicate_of": 2
+    },
+    {
+     "item": 144,
+     "role": "walk_down_2",
+     "src": [
+      328,
+      209,
+      26,
+      30
+     ]
+    },
+    {
+     "item": 145,
+     "role": "walk_up_1",
+     "src": [
+      328,
+      209,
+      26,
+      30
+     ],
+     "duplicate_of": 4
+    }
+   ],
+   "box": [
+    260,
+    209,
+    94,
+    30
+   ]
+  },
+  {
+   "id": 24,
+   "name": "pokemon_overworld_e024",
+   "file": "pokemon_overworld_e024.png",
+   "cell": [
+    14,
+    15
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 146,
+     "role": "idle_down",
+     "src": [
+      17,
+      237,
+      14,
+      15
+     ]
+    },
+    {
+     "item": 147,
+     "role": "idle_up",
+     "src": [
+      17,
+      237,
+      14,
+      15
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 148,
+     "role": "idle_left",
+     "src": [
+      35,
+      237,
+      14,
+      15
+     ]
+    },
+    {
+     "item": 149,
+     "role": "walk_down_1",
+     "src": [
+      35,
+      237,
+      14,
+      15
+     ],
+     "duplicate_of": 2
+    },
+    {
+     "item": 150,
+     "role": "walk_down_2",
+     "src": [
+      55,
+      237,
+      14,
+      15
+     ]
+    },
+    {
+     "item": 151,
+     "role": "walk_up_1",
+     "src": [
+      55,
+      237,
+      14,
+      15
+     ],
+     "duplicate_of": 4
+    }
+   ],
+   "box": [
+    17,
+    237,
+    52,
+    15
+   ]
+  },
+  {
+   "id": 25,
+   "name": "pokemon_overworld_e025",
+   "file": "pokemon_overworld_e025.png",
+   "cell": [
+    16,
+    8
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 152,
+     "role": "idle_down",
+     "src": [
+      86,
+      247,
+      16,
+      8
+     ]
+    },
+    {
+     "item": 153,
+     "role": "idle_up",
+     "src": [
+      86,
+      247,
+      16,
+      8
+     ],
+     "duplicate_of": 0
+    }
+   ],
+   "box": [
+    86,
+    247,
+    16,
+    8
+   ]
+  },
+  {
+   "id": 26,
+   "name": "pokemon_overworld_e026",
+   "file": "pokemon_overworld_e026.png",
+   "cell": [
+    16,
+    8
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 154,
+     "role": "idle_down",
+     "src": [
+      126,
+      247,
+      16,
+      8
+     ]
+    },
+    {
+     "item": 155,
+     "role": "idle_up",
+     "src": [
+      126,
+      247,
+      16,
+      8
+     ],
+     "duplicate_of": 0
+    }
+   ],
+   "box": [
+    126,
+    247,
+    16,
+    8
+   ]
+  },
+  {
+   "id": 27,
+   "name": "pokemon_overworld_e027",
+   "file": "pokemon_overworld_e027.png",
+   "cell": [
+    16,
+    11
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 156,
+     "role": "idle_down",
+     "src": [
+      86,
+      264,
+      16,
+      10
+     ]
+    },
+    {
+     "item": 157,
+     "role": "idle_up",
+     "src": [
+      106,
+      265,
+      15,
+      9
+     ]
+    },
+    {
+     "item": 158,
+     "role": "idle_left",
+     "src": [
+      106,
+      265,
+      15,
+      9
+     ],
+     "duplicate_of": 1
+    },
+    {
+     "item": 159,
+     "role": "walk_down_1",
+     "src": [
+      124,
+      265,
+      16,
+      10
+     ]
+    }
+   ],
+   "box": [
+    86,
+    264,
+    54,
+    11
+   ]
+  },
+  {
+   "id": 28,
+   "name": "pokemon_overworld_e028",
+   "file": "pokemon_overworld_e028.png",
+   "cell": [
+    32,
+    27
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 160,
+     "role": "idle_down",
+     "src": [
+      261,
+      245,
+      31,
+      27
+     ]
+    },
+    {
+     "item": 161,
+     "role": "idle_up",
+     "src": [
+      294,
+      245,
+      32,
+      27
+     ]
+    }
+   ],
+   "box": [
+    261,
+    245,
+    65,
+    27
+   ]
+  },
+  {
+   "id": 29,
+   "name": "pokemon_overworld_e029",
+   "file": "pokemon_overworld_e029.png",
+   "cell": [
+    12,
+    15
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 162,
+     "role": "idle_down",
+     "src": [
+      17,
+      269,
+      12,
+      15
+     ]
+    },
+    {
+     "item": 163,
+     "role": "idle_up",
+     "src": [
+      17,
+      269,
+      12,
+      15
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 164,
+     "role": "idle_left",
+     "src": [
+      34,
+      269,
+      12,
+      15
+     ]
+    },
+    {
+     "item": 165,
+     "role": "walk_down_1",
+     "src": [
+      34,
+      269,
+      12,
+      15
+     ],
+     "duplicate_of": 2
+    },
+    {
+     "item": 166,
+     "role": "walk_down_2",
+     "src": [
+      50,
+      269,
+      12,
+      15
+     ]
+    },
+    {
+     "item": 167,
+     "role": "walk_up_1",
+     "src": [
+      50,
+      269,
+      12,
+      15
+     ],
+     "duplicate_of": 4
+    }
+   ],
+   "box": [
+    17,
+    269,
+    45,
+    15
+   ]
+  },
+  {
+   "id": 30,
+   "name": "pokemon_overworld_e030",
+   "file": "pokemon_overworld_e030.png",
+   "cell": [
+    16,
+    21
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 168,
+     "role": "idle_down",
+     "src": [
+      86,
+      264,
+      16,
+      21
+     ]
+    },
+    {
+     "item": 169,
+     "role": "idle_up",
+     "src": [
+      86,
+      276,
+      16,
+      9
+     ]
+    }
+   ],
+   "box": [
+    86,
+    264,
+    16,
+    21
+   ]
+  },
+  {
+   "id": 31,
+   "name": "pokemon_overworld_e031",
+   "file": "pokemon_overworld_e031.png",
+   "cell": [
+    16,
+    21
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 170,
+     "role": "idle_down",
+     "src": [
+      124,
+      265,
+      16,
+      21
+     ]
+    },
+    {
+     "item": 171,
+     "role": "idle_up",
+     "src": [
+      124,
+      277,
+      16,
+      9
+     ]
+    }
+   ],
+   "box": [
+    124,
+    265,
+    16,
+    21
+   ]
+  },
+  {
+   "id": 32,
+   "name": "pokemon_overworld_e032",
+   "file": "pokemon_overworld_e032.png",
+   "cell": [
+    13,
+    15
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 172,
+     "role": "idle_down",
+     "src": [
+      16,
+      311,
+      13,
+      15
+     ]
+    },
+    {
+     "item": 173,
+     "role": "idle_up",
+     "src": [
+      16,
+      311,
+      13,
+      15
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 174,
+     "role": "idle_left",
+     "src": [
+      35,
+      311,
+      13,
+      15
+     ]
+    },
+    {
+     "item": 175,
+     "role": "walk_down_1",
+     "src": [
+      35,
+      311,
+      13,
+      15
+     ],
+     "duplicate_of": 2
+    },
+    {
+     "item": 176,
+     "role": "walk_down_2",
+     "src": [
+      54,
+      311,
+      13,
+      15
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 177,
+     "role": "walk_up_1",
+     "src": [
+      54,
+      311,
+      13,
+      15
+     ],
+     "duplicate_of": 4
+    }
+   ],
+   "box": [
+    16,
+    311,
+    51,
+    15
+   ]
+  },
+  {
+   "id": 33,
+   "name": "pokemon_overworld_e033",
+   "file": "pokemon_overworld_e033.png",
+   "cell": [
+    32,
+    64
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 178,
+     "role": "idle_down",
+     "src": [
+      154,
+      302,
+      32,
+      30
+     ]
+    },
+    {
+     "item": 179,
+     "role": "idle_up",
+     "src": [
+      154,
+      302,
+      32,
+      30
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 180,
+     "role": "idle_left",
+     "src": [
+      188,
+      294,
+      32,
+      38
+     ]
+    },
+    {
+     "item": 181,
+     "role": "walk_down_1",
+     "src": [
+      188,
+      294,
+      32,
+      38
+     ],
+     "duplicate_of": 2
+    },
+    {
+     "item": 182,
+     "role": "walk_down_2",
+     "src": [
+      223,
+      268,
+      25,
+      64
+     ]
+    },
+    {
+     "item": 183,
+     "role": "walk_up_1",
+     "src": [
+      223,
+      268,
+      25,
+      64
+     ],
+     "duplicate_of": 4
+    }
+   ],
+   "box": [
+    154,
+    268,
+    94,
+    64
+   ]
+  },
+  {
+   "id": 34,
+   "name": "pokemon_overworld_e034",
+   "file": "pokemon_overworld_e034.png",
+   "cell": [
+    13,
+    15
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 184,
+     "role": "idle_down",
+     "src": [
+      16,
+      290,
+      13,
+      15
+     ]
+    },
+    {
+     "item": 185,
+     "role": "idle_up",
+     "src": [
+      16,
+      290,
+      13,
+      15
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 186,
+     "role": "idle_left",
+     "src": [
+      35,
+      290,
+      13,
+      15
+     ]
+    },
+    {
+     "item": 187,
+     "role": "walk_down_1",
+     "src": [
+      35,
+      290,
+      13,
+      15
+     ],
+     "duplicate_of": 2
+    },
+    {
+     "item": 188,
+     "role": "walk_down_2",
+     "src": [
+      54,
+      290,
+      13,
+      15
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 189,
+     "role": "walk_up_1",
+     "src": [
+      54,
+      290,
+      13,
+      15
+     ],
+     "duplicate_of": 4
+    }
+   ],
+   "box": [
+    16,
+    290,
+    51,
+    15
+   ]
+  },
+  {
+   "id": 35,
+   "name": "pokemon_overworld_e035",
+   "file": "pokemon_overworld_e035.png",
+   "cell": [
+    16,
+    15
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 190,
+     "role": "idle_down",
+     "src": [
+      87,
+      297,
+      14,
+      15
+     ]
+    },
+    {
+     "item": 191,
+     "role": "idle_up",
+     "src": [
+      87,
+      297,
+      14,
+      15
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 192,
+     "role": "idle_left",
+     "src": [
+      104,
+      300,
+      16,
+      12
+     ]
+    },
+    {
+     "item": 193,
+     "role": "walk_down_1",
+     "src": [
+      104,
+      300,
+      16,
+      12
+     ],
+     "duplicate_of": 2
+    },
+    {
+     "item": 194,
+     "role": "walk_down_2",
+     "src": [
+      124,
+      298,
+      14,
+      14
+     ]
+    },
+    {
+     "item": 195,
+     "role": "walk_up_1",
+     "src": [
+      124,
+      298,
+      14,
+      14
+     ],
+     "duplicate_of": 4
+    }
+   ],
+   "box": [
+    87,
+    297,
+    51,
+    15
+   ]
+  },
+  {
+   "id": 36,
+   "name": "pokemon_overworld_e036",
+   "file": "pokemon_overworld_e036.png",
+   "cell": [
+    24,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 196,
+     "role": "idle_down",
+     "src": [
+      85,
+      327,
+      14,
+      16
+     ]
+    },
+    {
+     "item": 197,
+     "role": "idle_up",
+     "src": [
+      85,
+      327,
+      14,
+      16
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 198,
+     "role": "idle_left",
+     "src": [
+      101,
+      327,
+      24,
+      16
+     ]
+    },
+    {
+     "item": 199,
+     "role": "walk_down_1",
+     "src": [
+      101,
+      327,
+      24,
+      16
+     ],
+     "duplicate_of": 2
+    },
+    {
+     "item": 200,
+     "role": "walk_down_2",
+     "src": [
+      130,
+      327,
+      14,
+      16
+     ]
+    },
+    {
+     "item": 201,
+     "role": "walk_up_1",
+     "src": [
+      130,
+      327,
+      14,
+      16
+     ],
+     "duplicate_of": 4
+    }
+   ],
+   "box": [
+    85,
+    327,
+    59,
+    16
+   ]
+  },
+  {
+   "id": 37,
+   "name": "pokemon_overworld_e037",
+   "file": "pokemon_overworld_e037.png",
+   "cell": [
+    16,
+    27
+   ],
+   "zone": null,
+   "set": null,
+   "template": "pokemon_ow9",
+   "frames": [
+    {
+     "item": 202,
+     "role": "idle_down",
+     "src": [
+      16,
+      335,
+      13,
+      25
+     ]
+    },
+    {
+     "item": 203,
+     "role": "idle_up",
+     "src": [
+      16,
+      335,
+      13,
+      25
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 204,
+     "role": "idle_left",
+     "src": [
+      35,
+      334,
+      16,
+      27
+     ]
+    },
+    {
+     "item": 205,
+     "role": "walk_down_1",
+     "src": [
+      35,
+      334,
+      16,
+      27
+     ],
+     "duplicate_of": 2
+    },
+    {
+     "item": 206,
+     "role": "walk_down_2",
+     "src": [
+      56,
+      334,
+      12,
+      27
+     ]
+    },
+    {
+     "item": 207,
+     "role": "walk_up_1",
+     "src": [
+      56,
+      334,
+      12,
+      27
+     ],
+     "duplicate_of": 4
+    }
+   ],
+   "box": [
+    16,
+    334,
+    52,
+    27
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 12,
+   "y": 8,
+   "w": 31,
+   "h": 32,
+   "area": 656,
+   "ncolors": 6,
+   "dominant": "#282838",
+   "dom_frac": 0.409,
+   "kind": "sprite",
+   "cell": [
+    12,
+    8,
+    33,
+    34
+   ],
+   "block": 0,
+   "row": 0,
+   "col": 0,
+   "zone": 1,
+   "id": 6,
+   "file": "pokemon_overworld_006.png"
+  },
+  {
+   "x": 46,
+   "y": 8,
+   "w": 31,
+   "h": 32,
+   "area": 656,
+   "ncolors": 8,
+   "dominant": "#521000",
+   "dom_frac": 0.409,
+   "kind": "sprite",
+   "cell": [
+    45,
+    8,
+    33,
+    34
+   ],
+   "block": 0,
+   "row": 0,
+   "col": 1,
+   "zone": 1,
+   "id": 7,
+   "file": "pokemon_overworld_007.png"
+  },
+  {
+   "x": 80,
+   "y": 8,
+   "w": 31,
+   "h": 32,
+   "area": 656,
+   "ncolors": 8,
+   "dominant": "#521000",
+   "dom_frac": 0.409,
+   "kind": "sprite",
+   "cell": [
+    78,
+    8,
+    33,
+    34
+   ],
+   "block": 0,
+   "row": 0,
+   "col": 2,
+   "zone": 1,
+   "id": 8,
+   "file": "pokemon_overworld_008.png"
+  },
+  {
+   "x": 12,
+   "y": 45,
+   "w": 31,
+   "h": 31,
+   "area": 605,
+   "ncolors": 6,
+   "dominant": "#282838",
+   "dom_frac": 0.354,
+   "kind": "sprite",
+   "cell": [
+    12,
+    42,
+    33,
+    34
+   ],
+   "block": 0,
+   "row": 1,
+   "col": 0,
+   "zone": 1,
+   "id": 9,
+   "file": "pokemon_overworld_009.png"
+  },
+  {
+   "x": 46,
+   "y": 45,
+   "w": 31,
+   "h": 31,
+   "area": 605,
+   "ncolors": 8,
+   "dominant": "#521000",
+   "dom_frac": 0.354,
+   "kind": "sprite",
+   "cell": [
+    45,
+    42,
+    33,
+    34
+   ],
+   "block": 0,
+   "row": 1,
+   "col": 1,
+   "zone": 1,
+   "id": 10,
+   "file": "pokemon_overworld_010.png"
+  },
+  {
+   "x": 80,
+   "y": 45,
+   "w": 31,
+   "h": 31,
+   "area": 651,
+   "ncolors": 7,
+   "dominant": "#521000",
+   "dom_frac": 0.399,
+   "kind": "sprite",
+   "cell": [
+    78,
+    42,
+    33,
+    34
+   ],
+   "block": 0,
+   "row": 1,
+   "col": 2,
+   "zone": 1,
+   "id": 11,
+   "file": "pokemon_overworld_011.png"
+  },
+  {
+   "x": 256,
+   "y": 9,
+   "w": 32,
+   "h": 30,
+   "area": 656,
+   "ncolors": 7,
+   "dominant": "#8C8A94",
+   "dom_frac": 0.338,
+   "kind": "sprite",
+   "zone": 2,
+   "id": 12,
+   "file": "pokemon_overworld_012.png"
+  },
+  {
+   "x": 290,
+   "y": 9,
+   "w": 32,
+   "h": 30,
+   "area": 656,
+   "ncolors": 8,
+   "dominant": "#6B8AAD",
+   "dom_frac": 0.338,
+   "kind": "sprite",
+   "zone": 2,
+   "id": 13,
+   "file": "pokemon_overworld_013.png"
+  },
+  {
+   "x": 324,
+   "y": 9,
+   "w": 32,
+   "h": 30,
+   "area": 656,
+   "ncolors": 8,
+   "dominant": "#6B8AAD",
+   "dom_frac": 0.338,
+   "kind": "sprite",
+   "zone": 2,
+   "id": 14,
+   "file": "pokemon_overworld_014.png"
+  },
+  {
+   "x": 256,
+   "y": 48,
+   "w": 32,
+   "h": 29,
+   "area": 650,
+   "ncolors": 7,
+   "dominant": "#8C8A94",
+   "dom_frac": 0.388,
+   "kind": "sprite",
+   "zone": 2,
+   "id": 15,
+   "file": "pokemon_overworld_015.png"
+  },
+  {
+   "x": 290,
+   "y": 48,
+   "w": 32,
+   "h": 29,
+   "area": 650,
+   "ncolors": 8,
+   "dominant": "#6B8AAD",
+   "dom_frac": 0.369,
+   "kind": "sprite",
+   "zone": 2,
+   "id": 16,
+   "file": "pokemon_overworld_016.png"
+  },
+  {
+   "x": 324,
+   "y": 48,
+   "w": 32,
+   "h": 29,
+   "area": 650,
+   "ncolors": 8,
+   "dominant": "#6B8AAD",
+   "dom_frac": 0.369,
+   "kind": "sprite",
+   "zone": 2,
+   "id": 17,
+   "file": "pokemon_overworld_017.png"
+  },
+  {
+   "x": 154,
+   "y": 119,
+   "w": 12,
+   "h": 14,
+   "area": 108,
+   "ncolors": 5,
+   "dominant": "#484858",
+   "dom_frac": 0.435,
+   "kind": "sprite",
+   "zone": 3,
+   "id": 18,
+   "file": "pokemon_overworld_018.png"
+  },
+  {
+   "x": 179,
+   "y": 119,
+   "w": 12,
+   "h": 14,
+   "area": 108,
+   "ncolors": 5,
+   "dominant": "#521000",
+   "dom_frac": 0.435,
+   "kind": "sprite",
+   "zone": 3,
+   "id": 19,
+   "file": "pokemon_overworld_019.png"
+  },
+  {
+   "x": 206,
+   "y": 119,
+   "w": 12,
+   "h": 14,
+   "area": 108,
+   "ncolors": 5,
+   "dominant": "#702A1F",
+   "dom_frac": 0.435,
+   "kind": "sprite",
+   "zone": 3,
+   "id": 20,
+   "file": "pokemon_overworld_020.png"
+  },
+  {
+   "x": 231,
+   "y": 119,
+   "w": 12,
+   "h": 14,
+   "area": 108,
+   "ncolors": 5,
+   "dominant": "#9B2412",
+   "dom_frac": 0.435,
+   "kind": "sprite",
+   "zone": 3,
+   "id": 21,
+   "file": "pokemon_overworld_021.png"
+  },
+  {
+   "x": 163,
+   "y": 137,
+   "w": 12,
+   "h": 14,
+   "area": 108,
+   "ncolors": 5,
+   "dominant": "#483030",
+   "dom_frac": 0.435,
+   "kind": "sprite",
+   "zone": 3,
+   "id": 22,
+   "file": "pokemon_overworld_022.png"
+  },
+  {
+   "x": 188,
+   "y": 137,
+   "w": 12,
+   "h": 14,
+   "area": 108,
+   "ncolors": 5,
+   "dominant": "#521000",
+   "dom_frac": 0.435,
+   "kind": "sprite",
+   "zone": 3,
+   "id": 23,
+   "file": "pokemon_overworld_023.png"
+  },
+  {
+   "x": 215,
+   "y": 137,
+   "w": 12,
+   "h": 14,
+   "area": 108,
+   "ncolors": 5,
+   "dominant": "#8E3527",
+   "dom_frac": 0.435,
+   "kind": "sprite",
+   "zone": 3,
+   "id": 24,
+   "file": "pokemon_overworld_024.png"
+  },
+  {
+   "x": 240,
+   "y": 137,
+   "w": 12,
+   "h": 14,
+   "area": 108,
+   "ncolors": 5,
+   "dominant": "#A31E0D",
+   "dom_frac": 0.435,
+   "kind": "sprite",
+   "zone": 3,
+   "id": 25,
+   "file": "pokemon_overworld_025.png"
+  },
+  {
+   "x": 165,
+   "y": 81,
+   "w": 32,
+   "h": 32,
+   "area": 633,
+   "ncolors": 12,
+   "dominant": "#521000",
+   "dom_frac": 0.324,
+   "kind": "sprite",
+   "zone": 4,
+   "id": 26,
+   "file": "pokemon_overworld_026.png"
+  },
+  {
+   "x": 210,
+   "y": 82,
+   "w": 31,
+   "h": 31,
+   "area": 669,
+   "ncolors": 14,
+   "dominant": "#6B8AAD",
+   "dom_frac": 0.332,
+   "kind": "sprite",
+   "zone": 4,
+   "id": 27,
+   "file": "pokemon_overworld_027.png"
+  },
+  {
+   "x": 153,
+   "y": 196,
+   "w": 32,
+   "h": 29,
+   "area": 686,
+   "ncolors": 8,
+   "dominant": "#CECBDE",
+   "dom_frac": 0.404,
+   "kind": "sprite",
+   "zone": 5,
+   "id": 28,
+   "file": "pokemon_overworld_028.png"
+  },
+  {
+   "x": 187,
+   "y": 196,
+   "w": 32,
+   "h": 27,
+   "area": 650,
+   "ncolors": 6,
+   "dominant": "#FFD321",
+   "dom_frac": 0.426,
+   "kind": "sprite",
+   "zone": 5,
+   "id": 29,
+   "file": "pokemon_overworld_029.png"
+  },
+  {
+   "x": 221,
+   "y": 196,
+   "w": 32,
+   "h": 27,
+   "area": 651,
+   "ncolors": 6,
+   "dominant": "#6B8AAD",
+   "dom_frac": 0.425,
+   "kind": "sprite",
+   "zone": 5,
+   "id": 30,
+   "file": "pokemon_overworld_030.png"
+  },
+  {
+   "x": 161,
+   "y": 235,
+   "w": 23,
+   "h": 22,
+   "area": 350,
+   "ncolors": 6,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.323,
+   "kind": "sprite",
+   "zone": 6,
+   "id": 31,
+   "file": "pokemon_overworld_031.png"
+  },
+  {
+   "x": 190,
+   "y": 235,
+   "w": 24,
+   "h": 22,
+   "area": 370,
+   "ncolors": 13,
+   "dominant": "#483030",
+   "dom_frac": 0.151,
+   "kind": "sprite",
+   "zone": 6,
+   "id": 32,
+   "file": "pokemon_overworld_032.png"
+  },
+  {
+   "x": 220,
+   "y": 238,
+   "w": 22,
+   "h": 19,
+   "area": 310,
+   "ncolors": 13,
+   "dominant": "#806000",
+   "dom_frac": 0.172,
+   "kind": "sprite",
+   "zone": 6,
+   "id": 33,
+   "file": "pokemon_overworld_033.png"
+  },
+  {
+   "x": 276,
+   "y": 282,
+   "w": 16,
+   "h": 19,
+   "area": 160,
+   "ncolors": 9,
+   "dominant": "#784040",
+   "dom_frac": 0.188,
+   "kind": "sprite",
+   "zone": 7,
+   "id": 34,
+   "file": "pokemon_overworld_034.png"
+  },
+  {
+   "x": 297,
+   "y": 281,
+   "w": 16,
+   "h": 20,
+   "area": 164,
+   "ncolors": 9,
+   "dominant": "#7B4142",
+   "dom_frac": 0.183,
+   "kind": "sprite",
+   "zone": 7,
+   "id": 35,
+   "file": "pokemon_overworld_035.png"
+  },
+  {
+   "x": 319,
+   "y": 282,
+   "w": 16,
+   "h": 19,
+   "area": 160,
+   "ncolors": 9,
+   "dominant": "#784040",
+   "dom_frac": 0.207,
+   "kind": "sprite",
+   "zone": 7,
+   "id": 36,
+   "file": "pokemon_overworld_036.png",
+   "mirror_of": 28
+  },
+  {
+   "x": 85,
+   "y": 356,
+   "w": 14,
+   "h": 17,
+   "area": 180,
+   "ncolors": 17,
+   "dominant": "#000000",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": 8,
+   "id": 37,
+   "file": "pokemon_overworld_037.png"
+  },
+  {
+   "x": 101,
+   "y": 356,
+   "w": 24,
+   "h": 17,
+   "area": 245,
+   "ncolors": 17,
+   "dominant": "#000000",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": 8,
+   "id": 38,
+   "file": "pokemon_overworld_038.png"
+  },
+  {
+   "x": 129,
+   "y": 358,
+   "w": 14,
+   "h": 15,
+   "area": 158,
+   "ncolors": 7,
+   "dominant": "#7B5952",
+   "dom_frac": 0.244,
+   "kind": "sprite",
+   "zone": 8,
+   "id": 39,
+   "file": "pokemon_overworld_039.png"
+  }
+ ],
+ "status": "needs_review",
+ "missing_stages": [
+  "decoupage",
+  "regroupement",
+  "nommage"
+ ]
+}

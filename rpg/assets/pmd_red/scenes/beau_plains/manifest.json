@@ -1,0 +1,150 @@
+{
+ "sheet": "5349",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Beau Plains",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "water_band",
+   "file": "water_band.png",
+   "cell": [
+    192,
+    24
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      496,
+      8,
+      192,
+      24
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_1",
+     "src": [
+      496,
+      40,
+      192,
+      24
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_2",
+     "src": [
+      496,
+      72,
+      192,
+      24
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_3",
+     "src": [
+      496,
+      104,
+      192,
+      24
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_4",
+     "src": [
+      496,
+      136,
+      192,
+      24
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_5",
+     "src": [
+      496,
+      168,
+      192,
+      24
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_6",
+     "src": [
+      496,
+      200,
+      192,
+      24
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_7",
+     "src": [
+      496,
+      232,
+      192,
+      24
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_8",
+     "src": [
+      496,
+      264,
+      192,
+      24
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_9",
+     "src": [
+      496,
+      296,
+      192,
+      24
+     ]
+    }
+   ],
+   "box": [
+    496,
+    8,
+    192,
+    312
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 8,
+   "y": 8,
+   "w": 480,
+   "h": 336,
+   "area": 156672,
+   "ncolors": 102,
+   "dominant": "#29C519",
+   "dom_frac": 0.145,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "beau_plains_000.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

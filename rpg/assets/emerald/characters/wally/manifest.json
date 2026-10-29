@@ -1,0 +1,284 @@
+{
+ "sheet": "8327",
+ "game": "emerald",
+ "category": "characters",
+ "title": "Wally",
+ "type": "characters",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "wally_ow",
+   "file": "wally_ow.png",
+   "cell": [
+    16,
+    19
+   ],
+   "zone": 0,
+   "animations": {
+    "idle_down": [
+     1
+    ],
+    "walk_down": [
+     5,
+     1,
+     9,
+     1
+    ],
+    "idle_up": [
+     0
+    ],
+    "walk_up": [
+     4,
+     0,
+     8,
+     0
+    ],
+    "idle_left": [
+     2
+    ],
+    "walk_left": [
+     6,
+     2,
+     10,
+     2
+    ]
+   },
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      1,
+      53,
+      16,
+      19
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      19,
+      53,
+      14,
+      19
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      33,
+      53,
+      16,
+      19
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      50,
+      53,
+      13,
+      19
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_4",
+     "src": [
+      1,
+      73,
+      16,
+      19
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_5",
+     "src": [
+      18,
+      73,
+      15,
+      19
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_6",
+     "src": [
+      33,
+      73,
+      16,
+      19
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_7",
+     "src": [
+      50,
+      73,
+      13,
+      19
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_8",
+     "src": [
+      1,
+      93,
+      16,
+      19
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_9",
+     "src": [
+      18,
+      93,
+      15,
+      19
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_10",
+     "src": [
+      33,
+      93,
+      16,
+      19
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_11",
+     "src": [
+      50,
+      93,
+      13,
+      19
+     ]
+    }
+   ],
+   "box": [
+    1,
+    53,
+    62,
+    59
+   ]
+  },
+  {
+   "id": 1,
+   "name": "wally_battle_intro",
+   "file": "wally_battle_intro.png",
+   "cell": [
+    58,
+    50
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 12,
+     "role": "frame_0",
+     "src": [
+      2,
+      4,
+      29,
+      48
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_1",
+     "src": [
+      36,
+      4,
+      44,
+      48
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_2",
+     "src": [
+      81,
+      2,
+      49,
+      50
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_3",
+     "src": [
+      132,
+      3,
+      58,
+      49
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_4",
+     "src": [
+      190,
+      4,
+      44,
+      48
+     ]
+    }
+   ],
+   "box": [
+    2,
+    2,
+    232,
+    50
+   ]
+  },
+  {
+   "id": 2,
+   "name": "wally_pose",
+   "file": "wally_pose.png",
+   "cell": [
+    27,
+    57
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 17,
+     "role": "frame_0",
+     "src": [
+      64,
+      53,
+      27,
+      57
+     ]
+    }
+   ],
+   "box": [
+    64,
+    53,
+    27,
+    57
+   ]
+  }
+ ],
+ "items": [],
+ "status": "ok",
+ "missing_stages": []
+}

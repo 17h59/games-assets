@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/hyrule_town_residents_2/postman.png" id="1_kv5qe"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_paw2j"]
+atlas = ExtResource("1_kv5qe")
+region = Rect2(0, 0, 17, 29)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_an3qj"]
+atlas = ExtResource("1_kv5qe")
+region = Rect2(17, 0, 17, 29)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jdn6j"]
+atlas = ExtResource("1_kv5qe")
+region = Rect2(34, 0, 17, 29)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nlkpr"]
+atlas = ExtResource("1_kv5qe")
+region = Rect2(51, 0, 17, 29)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_paw2j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_an3qj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jdn6j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nlkpr")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

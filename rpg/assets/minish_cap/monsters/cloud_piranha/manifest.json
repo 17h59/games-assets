@@ -1,0 +1,538 @@
+{
+ "sheet": "6443",
+ "game": "minish_cap",
+ "category": "monsters",
+ "title": "Cloud Piranha",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    5,
+    156,
+    140,
+    10
+   ],
+   "point": [
+    75,
+    161
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 1,
+   "box": [
+    108,
+    169,
+    62,
+    7
+   ],
+   "point": [
+    139,
+    172
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 2,
+   "box": [
+    113,
+    179,
+    56,
+    7
+   ],
+   "point": [
+    141,
+    182
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 3,
+   "box": [
+    11,
+    189,
+    166,
+    7
+   ],
+   "point": [
+    94,
+    192
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "splash_up",
+   "file": "splash_up.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      17,
+      19,
+      16,
+      14
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      36,
+      19,
+      16,
+      13
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      55,
+      19,
+      16,
+      13
+     ]
+    }
+   ],
+   "box": [
+    17,
+    19,
+    54,
+    14
+   ]
+  },
+  {
+   "id": 1,
+   "name": "jump_up",
+   "file": "jump_up.png",
+   "cell": [
+    19,
+    30
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 4,
+     "role": "frame_0",
+     "src": [
+      98,
+      9,
+      19,
+      23
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_1",
+     "src": [
+      124,
+      4,
+      19,
+      24
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_2",
+     "src": [
+      150,
+      2,
+      19,
+      26
+     ]
+    }
+   ],
+   "box": [
+    98,
+    2,
+    71,
+    30
+   ]
+  },
+  {
+   "id": 2,
+   "name": "splash_right",
+   "file": "splash_right.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 7,
+     "role": "frame_0",
+     "src": [
+      17,
+      53,
+      16,
+      14
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_1",
+     "src": [
+      36,
+      53,
+      16,
+      13
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_2",
+     "src": [
+      55,
+      53,
+      16,
+      13
+     ]
+    }
+   ],
+   "box": [
+    17,
+    53,
+    54,
+    14
+   ]
+  },
+  {
+   "id": 3,
+   "name": "splash_down",
+   "file": "splash_down.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 14,
+     "role": "frame_0",
+     "src": [
+      17,
+      87,
+      16,
+      14
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_1",
+     "src": [
+      36,
+      87,
+      16,
+      13
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_2",
+     "src": [
+      55,
+      87,
+      16,
+      13
+     ]
+    }
+   ],
+   "box": [
+    17,
+    87,
+    54,
+    14
+   ]
+  },
+  {
+   "id": 4,
+   "name": "jump_down",
+   "file": "jump_down.png",
+   "cell": [
+    19,
+    24
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 18,
+     "role": "frame_0",
+     "src": [
+      98,
+      72,
+      19,
+      24
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_1",
+     "src": [
+      124,
+      72,
+      19,
+      24
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_2",
+     "src": [
+      150,
+      72,
+      19,
+      24
+     ]
+    }
+   ],
+   "box": [
+    98,
+    72,
+    71,
+    24
+   ]
+  },
+  {
+   "id": 5,
+   "name": "splash_left",
+   "file": "splash_left.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 21,
+     "role": "frame_0",
+     "src": [
+      17,
+      121,
+      16,
+      14
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_1",
+     "src": [
+      36,
+      121,
+      16,
+      13
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_2",
+     "src": [
+      55,
+      121,
+      16,
+      13
+     ]
+    }
+   ],
+   "box": [
+    17,
+    121,
+    54,
+    14
+   ]
+  },
+  {
+   "id": 6,
+   "name": "jump_right",
+   "file": "jump_right.png",
+   "cell": [
+    24,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 11,
+     "role": "frame_0",
+     "src": [
+      95,
+      47,
+      24,
+      20
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_1",
+     "src": [
+      121,
+      45,
+      22,
+      24
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_2",
+     "src": [
+      145,
+      43,
+      20,
+      26
+     ]
+    }
+   ],
+   "box": [
+    95,
+    43,
+    70,
+    26
+   ]
+  },
+  {
+   "id": 7,
+   "name": "jump_left",
+   "file": "jump_left.png",
+   "cell": [
+    24,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 25,
+     "role": "frame_0",
+     "src": [
+      95,
+      115,
+      24,
+      20
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_1",
+     "src": [
+      121,
+      113,
+      22,
+      24
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_2",
+     "src": [
+      145,
+      111,
+      20,
+      26
+     ]
+    }
+   ],
+   "box": [
+    95,
+    111,
+    70,
+    26
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 78,
+   "y": 14,
+   "w": 6,
+   "h": 13,
+   "area": 42,
+   "ncolors": 4,
+   "dominant": "#605850",
+   "dom_frac": 0.405,
+   "kind": "sprite",
+   "zone": null,
+   "name": "fin_up",
+   "id": 3,
+   "file": "fin_up.png"
+  },
+  {
+   "x": 74,
+   "y": 50,
+   "w": 13,
+   "h": 13,
+   "area": 82,
+   "ncolors": 4,
+   "dominant": "#908880",
+   "dom_frac": 0.378,
+   "kind": "sprite",
+   "zone": null,
+   "name": "fin_right",
+   "id": 10,
+   "file": "fin_right.png"
+  },
+  {
+   "x": 78,
+   "y": 82,
+   "w": 6,
+   "h": 17,
+   "area": 51,
+   "ncolors": 4,
+   "dominant": "#C8C0B8",
+   "dom_frac": 0.353,
+   "kind": "sprite",
+   "zone": null,
+   "name": "fin_down",
+   "id": 17,
+   "file": "fin_down.png"
+  },
+  {
+   "x": 74,
+   "y": 118,
+   "w": 13,
+   "h": 13,
+   "area": 82,
+   "ncolors": 4,
+   "dominant": "#908880",
+   "dom_frac": 0.378,
+   "kind": "sprite",
+   "zone": null,
+   "name": "fin_left",
+   "id": 24,
+   "file": "fin_left.png",
+   "mirror_of": 1
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

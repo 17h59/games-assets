@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/fire_type_moves/flame_wheel/flame_wheel_e044.png" id="1_o8hb7"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6ab23"]
+atlas = ExtResource("1_o8hb7")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i35qw"]
+atlas = ExtResource("1_o8hb7")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_54kve"]
+atlas = ExtResource("1_o8hb7")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mompw"]
+atlas = ExtResource("1_o8hb7")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7jgs8"]
+atlas = ExtResource("1_o8hb7")
+region = Rect2(64, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tr74r"]
+atlas = ExtResource("1_o8hb7")
+region = Rect2(80, 0, 16, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6ab23")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i35qw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_54kve")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mompw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7jgs8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tr74r")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

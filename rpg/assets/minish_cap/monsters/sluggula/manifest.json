@@ -1,0 +1,379 @@
+{
+ "sheet": "6564",
+ "game": "minish_cap",
+ "category": "monsters",
+ "title": "Sluggula",
+ "type": "sprites",
+ "template": "none",
+ "validation": "pending",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "sluggula_e000",
+   "file": "sluggula_e000.png",
+   "cell": [
+    17,
+    27
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      4,
+      3,
+      16,
+      27
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      24,
+      5,
+      16,
+      25
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      44,
+      6,
+      14,
+      24
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      62,
+      8,
+      14,
+      22
+     ]
+    }
+   ],
+   "box": [
+    4,
+    3,
+    72,
+    27
+   ]
+  },
+  {
+   "id": 1,
+   "name": "sluggula_e001",
+   "file": "sluggula_e001.png",
+   "cell": [
+    28,
+    18
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 4,
+     "role": "frame_0",
+     "src": [
+      4,
+      34,
+      21,
+      18
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_1",
+     "src": [
+      29,
+      34,
+      24,
+      18
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_2",
+     "src": [
+      56,
+      34,
+      24,
+      18
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_3",
+     "src": [
+      83,
+      34,
+      28,
+      18
+     ]
+    }
+   ],
+   "box": [
+    4,
+    34,
+    107,
+    18
+   ]
+  },
+  {
+   "id": 2,
+   "name": "sluggula_e002",
+   "file": "sluggula_e002.png",
+   "cell": [
+    28,
+    18
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 8,
+     "role": "frame_0",
+     "src": [
+      3,
+      56,
+      28,
+      18
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_1",
+     "src": [
+      34,
+      56,
+      24,
+      18
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_2",
+     "src": [
+      61,
+      56,
+      24,
+      18
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_3",
+     "src": [
+      89,
+      56,
+      21,
+      18
+     ]
+    }
+   ],
+   "box": [
+    3,
+    56,
+    107,
+    18
+   ]
+  },
+  {
+   "id": 3,
+   "name": "sluggula_e003",
+   "file": "sluggula_e003.png",
+   "cell": [
+    17,
+    21
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 12,
+     "role": "frame_0",
+     "src": [
+      3,
+      83,
+      14,
+      16
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_1",
+     "src": [
+      21,
+      82,
+      14,
+      17
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_2",
+     "src": [
+      39,
+      79,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_3",
+     "src": [
+      59,
+      78,
+      16,
+      21
+     ]
+    }
+   ],
+   "box": [
+    3,
+    78,
+    72,
+    21
+   ]
+  },
+  {
+   "id": 4,
+   "name": "sluggula_e004",
+   "file": "sluggula_e004.png",
+   "cell": [
+    23,
+    18
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 16,
+     "role": "frame_0",
+     "src": [
+      3,
+      103,
+      20,
+      16
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_1",
+     "src": [
+      27,
+      104,
+      20,
+      15
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_2",
+     "src": [
+      51,
+      104,
+      23,
+      15
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_3",
+     "src": [
+      78,
+      101,
+      21,
+      18
+     ]
+    }
+   ],
+   "box": [
+    3,
+    101,
+    96,
+    18
+   ]
+  },
+  {
+   "id": 5,
+   "name": "sluggula_e005",
+   "file": "sluggula_e005.png",
+   "cell": [
+    23,
+    18
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 20,
+     "role": "frame_0",
+     "src": [
+      3,
+      121,
+      21,
+      18
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_1",
+     "src": [
+      28,
+      124,
+      23,
+      15
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_2",
+     "src": [
+      55,
+      124,
+      20,
+      15
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_3",
+     "src": [
+      79,
+      123,
+      20,
+      16
+     ]
+    }
+   ],
+   "box": [
+    3,
+    121,
+    96,
+    18
+   ]
+  }
+ ],
+ "items": [],
+ "status": "needs_review",
+ "missing_stages": [
+  "decoupage",
+  "regroupement",
+  "nommage"
+ ]
+}

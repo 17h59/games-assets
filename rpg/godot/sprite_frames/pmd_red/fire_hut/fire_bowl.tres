@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/fire_hut/fire_bowl.png" id="1_1kat7"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ifqbk"]
+atlas = ExtResource("1_1kat7")
+region = Rect2(0, 0, 28, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6xsec"]
+atlas = ExtResource("1_1kat7")
+region = Rect2(28, 0, 28, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_62vxm"]
+atlas = ExtResource("1_1kat7")
+region = Rect2(56, 0, 28, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ywaeq"]
+atlas = ExtResource("1_1kat7")
+region = Rect2(84, 0, 28, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lbytt"]
+atlas = ExtResource("1_1kat7")
+region = Rect2(112, 0, 28, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fkjql"]
+atlas = ExtResource("1_1kat7")
+region = Rect2(140, 0, 28, 27)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ifqbk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6xsec")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_62vxm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ywaeq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lbytt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fkjql")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

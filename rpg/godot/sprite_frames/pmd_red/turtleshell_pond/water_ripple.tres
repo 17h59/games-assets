@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/turtleshell_pond/water_ripple.png" id="1_b2jvd"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_66vgj"]
+atlas = ExtResource("1_b2jvd")
+region = Rect2(0, 0, 24, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2lhe4"]
+atlas = ExtResource("1_b2jvd")
+region = Rect2(24, 0, 24, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nfjpf"]
+atlas = ExtResource("1_b2jvd")
+region = Rect2(48, 0, 24, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hyfve"]
+atlas = ExtResource("1_b2jvd")
+region = Rect2(72, 0, 24, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_66vgj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2lhe4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nfjpf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hyfve")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

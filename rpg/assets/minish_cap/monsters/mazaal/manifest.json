@@ -1,0 +1,2269 @@
+{
+ "sheet": "535841",
+ "game": "minish_cap",
+ "category": "monsters",
+ "title": "Mazaal",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    36,
+    4,
+    43,
+    8
+   ],
+   "point": [
+    57,
+    8
+   ],
+   "name": "main_body",
+   "folder": "main_body"
+  },
+  {
+   "id": 1,
+   "box": [
+    148,
+    4,
+    30,
+    9
+   ],
+   "point": [
+    163,
+    8
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 2,
+   "box": [
+    260,
+    4,
+    49,
+    8
+   ],
+   "point": [
+    284,
+    8
+   ],
+   "name": "extra_parts",
+   "folder": "extra_parts"
+  },
+  {
+   "id": 3,
+   "box": [
+    32,
+    16,
+    66,
+    10
+   ],
+   "point": [
+    65,
+    21
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 4,
+   "box": [
+    256,
+    16,
+    66,
+    6
+   ],
+   "point": [
+    289,
+    19
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 5,
+   "box": [
+    148,
+    52,
+    59,
+    9
+   ],
+   "point": [
+    177,
+    56
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 6,
+   "box": [
+    148,
+    100,
+    49,
+    8
+   ],
+   "point": [
+    172,
+    104
+   ],
+   "name": "deactivated",
+   "folder": "deactivated"
+  },
+  {
+   "id": 7,
+   "box": [
+    144,
+    112,
+    66,
+    10
+   ],
+   "point": [
+    177,
+    117
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 8,
+   "box": [
+    36,
+    308,
+    141,
+    8
+   ],
+   "point": [
+    106,
+    312
+   ],
+   "name": "laser_cannon",
+   "folder": "laser_cannon"
+  },
+  {
+   "id": 9,
+   "box": [
+    32,
+    320,
+    66,
+    10
+   ],
+   "point": [
+    65,
+    325
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 10,
+   "box": [
+    288,
+    320,
+    66,
+    10
+   ],
+   "point": [
+    321,
+    325
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 11,
+   "box": [
+    36,
+    372,
+    96,
+    8
+   ],
+   "point": [
+    84,
+    376
+   ],
+   "name": "laser_charge_particles",
+   "folder": "laser_charge_particles"
+  },
+  {
+   "id": 12,
+   "box": [
+    32,
+    384,
+    66,
+    6
+   ],
+   "point": [
+    65,
+    387
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 13,
+   "box": [
+    177,
+    403,
+    14,
+    3
+   ],
+   "point": [
+    184,
+    404
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 14,
+   "box": [
+    36,
+    436,
+    90,
+    8
+   ],
+   "point": [
+    81,
+    440
+   ],
+   "name": "laser_beam_particles",
+   "folder": "laser_beam_particles"
+  },
+  {
+   "id": 15,
+   "box": [
+    32,
+    448,
+    66,
+    6
+   ],
+   "point": [
+    65,
+    451
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 16,
+   "box": [
+    288,
+    448,
+    66,
+    6
+   ],
+   "point": [
+    321,
+    451
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 17,
+   "box": [
+    36,
+    500,
+    25,
+    8
+   ],
+   "point": [
+    48,
+    504
+   ],
+   "name": "pillars",
+   "folder": "pillars"
+  },
+  {
+   "id": 18,
+   "box": [
+    356,
+    500,
+    56,
+    8
+   ],
+   "point": [
+    384,
+    504
+   ],
+   "name": "claw_machine",
+   "folder": "claw_machine"
+  },
+  {
+   "id": 19,
+   "box": [
+    32,
+    512,
+    66,
+    6
+   ],
+   "point": [
+    65,
+    515
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 20,
+   "box": [
+    352,
+    512,
+    66,
+    6
+   ],
+   "point": [
+    385,
+    515
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 21,
+   "box": [
+    36,
+    580,
+    192,
+    9
+   ],
+   "point": [
+    132,
+    584
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 22,
+   "box": [
+    36,
+    590,
+    201,
+    9
+   ],
+   "point": [
+    136,
+    594
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 23,
+   "box": [
+    36,
+    600,
+    166,
+    8
+   ],
+   "point": [
+    119,
+    604
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "laser_cannon_e000",
+   "file": "laser_cannon/laser_cannon_e000.png",
+   "cell": [
+    14,
+    14
+   ],
+   "zone": null,
+   "set": 8,
+   "template": "none",
+   "frames": [
+    {
+     "item": 45,
+     "role": "frame_0",
+     "src": [
+      33,
+      339,
+      14,
+      12
+     ]
+    },
+    {
+     "item": 46,
+     "role": "frame_1",
+     "src": [
+      49,
+      337,
+      14,
+      14
+     ]
+    }
+   ],
+   "box": [
+    33,
+    337,
+    30,
+    14
+   ]
+  },
+  {
+   "id": 1,
+   "name": "laser_cannon_e001",
+   "file": "laser_cannon/laser_cannon_e001.png",
+   "cell": [
+    14,
+    14
+   ],
+   "zone": null,
+   "set": 8,
+   "template": "none",
+   "frames": [
+    {
+     "item": 52,
+     "role": "frame_0",
+     "src": [
+      225,
+      337,
+      14,
+      14
+     ]
+    },
+    {
+     "item": 53,
+     "role": "frame_1",
+     "src": [
+      241,
+      337,
+      14,
+      12
+     ]
+    }
+   ],
+   "box": [
+    225,
+    337,
+    30,
+    14
+   ]
+  },
+  {
+   "id": 2,
+   "name": "laser_cannon_e002",
+   "file": "laser_cannon/laser_cannon_e002.png",
+   "cell": [
+    14,
+    14
+   ],
+   "zone": null,
+   "set": 8,
+   "template": "none",
+   "frames": [
+    {
+     "item": 54,
+     "role": "frame_0",
+     "src": [
+      289,
+      339,
+      14,
+      12
+     ]
+    },
+    {
+     "item": 55,
+     "role": "frame_1",
+     "src": [
+      305,
+      337,
+      14,
+      14
+     ]
+    }
+   ],
+   "box": [
+    289,
+    337,
+    30,
+    14
+   ]
+  },
+  {
+   "id": 3,
+   "name": "laser_cannon_e003",
+   "file": "laser_cannon/laser_cannon_e003.png",
+   "cell": [
+    14,
+    14
+   ],
+   "zone": null,
+   "set": 8,
+   "template": "none",
+   "frames": [
+    {
+     "item": 61,
+     "role": "frame_0",
+     "src": [
+      481,
+      337,
+      14,
+      14
+     ]
+    },
+    {
+     "item": 62,
+     "role": "frame_1",
+     "src": [
+      497,
+      337,
+      14,
+      12
+     ]
+    }
+   ],
+   "box": [
+    481,
+    337,
+    30,
+    14
+   ]
+  },
+  {
+   "id": 4,
+   "name": "laser_cannon_e004",
+   "file": "laser_cannon/laser_cannon_e004.png",
+   "cell": [
+    14,
+    24
+   ],
+   "zone": null,
+   "set": 8,
+   "template": "none",
+   "frames": [
+    {
+     "item": 64,
+     "role": "frame_0",
+     "src": [
+      161,
+      337,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 65,
+     "role": "frame_1",
+     "src": [
+      177,
+      336,
+      14,
+      24
+     ]
+    },
+    {
+     "item": 66,
+     "role": "frame_2",
+     "src": [
+      193,
+      337,
+      14,
+      21
+     ]
+    }
+   ],
+   "box": [
+    161,
+    336,
+    46,
+    24
+   ]
+  },
+  {
+   "id": 5,
+   "name": "laser_cannon_e005",
+   "file": "laser_cannon/laser_cannon_e005.png",
+   "cell": [
+    14,
+    24
+   ],
+   "zone": null,
+   "set": 8,
+   "template": "none",
+   "frames": [
+    {
+     "item": 68,
+     "role": "frame_0",
+     "src": [
+      417,
+      337,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 69,
+     "role": "frame_1",
+     "src": [
+      433,
+      336,
+      14,
+      24
+     ]
+    },
+    {
+     "item": 70,
+     "role": "frame_2",
+     "src": [
+      449,
+      337,
+      14,
+      21
+     ]
+    }
+   ],
+   "box": [
+    417,
+    336,
+    46,
+    24
+   ]
+  },
+  {
+   "id": 6,
+   "name": "charge_particles",
+   "file": "laser_charge_particles/charge_particles.png",
+   "cell": [
+    16,
+    8
+   ],
+   "zone": null,
+   "set": 11,
+   "template": "none",
+   "frames": [
+    {
+     "item": 71,
+     "role": "frame_0",
+     "src": [
+      34,
+      402,
+      4,
+      4
+     ]
+    },
+    {
+     "item": 72,
+     "role": "frame_1",
+     "src": [
+      41,
+      401,
+      6,
+      6
+     ]
+    },
+    {
+     "item": 73,
+     "role": "frame_2",
+     "src": [
+      48,
+      400,
+      16,
+      8
+     ]
+    },
+    {
+     "item": 74,
+     "role": "frame_3",
+     "src": [
+      65,
+      400,
+      5,
+      7
+     ]
+    },
+    {
+     "item": 75,
+     "role": "frame_4",
+     "src": [
+      74,
+      400,
+      5,
+      8
+     ]
+    },
+    {
+     "item": 76,
+     "role": "frame_5",
+     "src": [
+      82,
+      401,
+      5,
+      7
+     ]
+    },
+    {
+     "item": 77,
+     "role": "frame_6",
+     "src": [
+      90,
+      401,
+      5,
+      6
+     ]
+    },
+    {
+     "item": 78,
+     "role": "frame_7",
+     "src": [
+      96,
+      401,
+      7,
+      5
+     ]
+    },
+    {
+     "item": 79,
+     "role": "frame_8",
+     "src": [
+      104,
+      402,
+      8,
+      5
+     ]
+    },
+    {
+     "item": 80,
+     "role": "frame_9",
+     "src": [
+      113,
+      402,
+      7,
+      5
+     ]
+    },
+    {
+     "item": 81,
+     "role": "frame_10",
+     "src": [
+      121,
+      402,
+      5,
+      4
+     ]
+    },
+    {
+     "item": 82,
+     "role": "frame_11",
+     "src": [
+      130,
+      400,
+      4,
+      6
+     ]
+    },
+    {
+     "item": 83,
+     "role": "frame_12",
+     "src": [
+      139,
+      401,
+      2,
+      6
+     ]
+    },
+    {
+     "item": 84,
+     "role": "frame_13",
+     "src": [
+      147,
+      400,
+      2,
+      7
+     ]
+    },
+    {
+     "item": 85,
+     "role": "frame_14",
+     "src": [
+      155,
+      402,
+      2,
+      5
+     ]
+    },
+    {
+     "item": 86,
+     "role": "frame_15",
+     "src": [
+      160,
+      403,
+      16,
+      3
+     ]
+    }
+   ],
+   "box": [
+    34,
+    400,
+    142,
+    8
+   ]
+  },
+  {
+   "id": 7,
+   "name": "laser_beam_particles_e007",
+   "file": "laser_beam_particles/laser_beam_particles_e007.png",
+   "cell": [
+    12,
+    12
+   ],
+   "zone": null,
+   "set": 14,
+   "template": "none",
+   "frames": [
+    {
+     "item": 88,
+     "role": "frame_0",
+     "src": [
+      34,
+      466,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 89,
+     "role": "frame_1",
+     "src": [
+      50,
+      466,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 90,
+     "role": "frame_2",
+     "src": [
+      66,
+      466,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 91,
+     "role": "frame_3",
+     "src": [
+      83,
+      467,
+      10,
+      10
+     ]
+    }
+   ],
+   "box": [
+    34,
+    466,
+    59,
+    12
+   ]
+  },
+  {
+   "id": 8,
+   "name": "laser_beam_particles_e008",
+   "file": "laser_beam_particles/laser_beam_particles_e008.png",
+   "cell": [
+    12,
+    12
+   ],
+   "zone": null,
+   "set": 14,
+   "template": "none",
+   "frames": [
+    {
+     "item": 92,
+     "role": "frame_0",
+     "src": [
+      290,
+      466,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 93,
+     "role": "frame_1",
+     "src": [
+      306,
+      466,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 94,
+     "role": "frame_2",
+     "src": [
+      322,
+      466,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 95,
+     "role": "frame_3",
+     "src": [
+      339,
+      467,
+      10,
+      10
+     ]
+    }
+   ],
+   "box": [
+    290,
+    466,
+    59,
+    12
+   ]
+  },
+  {
+   "id": 9,
+   "name": "pillar",
+   "file": "pillars/pillar.png",
+   "cell": [
+    16,
+    48
+   ],
+   "zone": null,
+   "set": 17,
+   "template": "none",
+   "frames": [
+    {
+     "item": 110,
+     "role": "frame_0",
+     "src": [
+      32,
+      528,
+      16,
+      48
+     ]
+    },
+    {
+     "item": 111,
+     "role": "frame_1",
+     "src": [
+      48,
+      528,
+      16,
+      48
+     ]
+    }
+   ],
+   "box": [
+    32,
+    528,
+    32,
+    48
+   ]
+  },
+  {
+   "id": 10,
+   "name": "claw_machine_e010",
+   "file": "claw_machine/claw_machine_e010.png",
+   "cell": [
+    11,
+    15
+   ],
+   "zone": null,
+   "set": 18,
+   "template": "none",
+   "frames": [
+    {
+     "item": 119,
+     "role": "frame_0",
+     "src": [
+      440,
+      531,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 120,
+     "role": "frame_1",
+     "src": [
+      449,
+      529,
+      10,
+      13
+     ]
+    },
+    {
+     "item": 121,
+     "role": "frame_2",
+     "src": [
+      464,
+      530,
+      11,
+      12
+     ]
+    }
+   ],
+   "box": [
+    440,
+    529,
+    35,
+    15
+   ]
+  },
+  {
+   "id": 11,
+   "name": "eye_pillar_spark",
+   "file": "pillars/eye_pillar_spark.png",
+   "cell": [
+    42,
+    40
+   ],
+   "zone": null,
+   "set": 17,
+   "template": "none",
+   "frames": [
+    {
+     "item": 123,
+     "role": "frame_0",
+     "src": [
+      67,
+      532,
+      42,
+      40
+     ]
+    },
+    {
+     "item": 124,
+     "role": "frame_1",
+     "src": [
+      115,
+      532,
+      42,
+      40
+     ]
+    },
+    {
+     "item": 125,
+     "role": "frame_2",
+     "src": [
+      163,
+      532,
+      42,
+      40
+     ]
+    }
+   ],
+   "box": [
+    67,
+    532,
+    138,
+    40
+   ]
+  },
+  {
+   "id": 12,
+   "name": "energy_pulse",
+   "file": "extra_parts/energy_pulse.png",
+   "cell": [
+    17,
+    12
+   ],
+   "zone": null,
+   "set": 2,
+   "template": "none",
+   "frames": [
+    {
+     "item": 5,
+     "role": "frame_0",
+     "src": [
+      288,
+      35,
+      16,
+      12
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_1",
+     "src": [
+      304,
+      35,
+      16,
+      12
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_2",
+     "src": [
+      320,
+      35,
+      17,
+      12
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_3",
+     "src": [
+      337,
+      35,
+      16,
+      12
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_4",
+     "src": [
+      353,
+      35,
+      16,
+      12
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_5",
+     "src": [
+      369,
+      35,
+      16,
+      12
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_6",
+     "src": [
+      385,
+      35,
+      16,
+      12
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_7",
+     "src": [
+      401,
+      35,
+      16,
+      12
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_8",
+     "src": [
+      417,
+      35,
+      15,
+      12
+     ]
+    }
+   ],
+   "box": [
+    288,
+    35,
+    144,
+    12
+   ]
+  },
+  {
+   "id": 13,
+   "name": "red_arm_crawl",
+   "file": "deactivated/red_arm_crawl.png",
+   "cell": [
+    50,
+    64
+   ],
+   "zone": null,
+   "set": 6,
+   "template": "none",
+   "frames": [
+    {
+     "item": 36,
+     "role": "frame_0",
+     "src": [
+      42,
+      161,
+      50,
+      47
+     ]
+    },
+    {
+     "item": 29,
+     "role": "frame_1",
+     "src": [
+      112,
+      160,
+      47,
+      63
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_2",
+     "src": [
+      176,
+      160,
+      33,
+      63
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_3",
+     "src": [
+      240,
+      164,
+      41,
+      57
+     ]
+    },
+    {
+     "item": 32,
+     "role": "frame_4",
+     "src": [
+      316,
+      175,
+      36,
+      49
+     ]
+    },
+    {
+     "item": 33,
+     "role": "frame_5",
+     "src": [
+      378,
+      176,
+      37,
+      48
+     ]
+    },
+    {
+     "item": 34,
+     "role": "frame_6",
+     "src": [
+      428,
+      173,
+      50,
+      50
+     ]
+    },
+    {
+     "item": 35,
+     "role": "frame_7",
+     "src": [
+      491,
+      176,
+      49,
+      48
+     ]
+    }
+   ],
+   "box": [
+    42,
+    160,
+    498,
+    64
+   ]
+  },
+  {
+   "id": 14,
+   "name": "blue_arm_crawl",
+   "file": "deactivated/blue_arm_crawl.png",
+   "cell": [
+    50,
+    64
+   ],
+   "zone": null,
+   "set": 6,
+   "template": "none",
+   "frames": [
+    {
+     "item": 44,
+     "role": "frame_0",
+     "src": [
+      36,
+      225,
+      50,
+      47
+     ]
+    },
+    {
+     "item": 37,
+     "role": "frame_1",
+     "src": [
+      97,
+      224,
+      47,
+      63
+     ]
+    },
+    {
+     "item": 38,
+     "role": "frame_2",
+     "src": [
+      175,
+      224,
+      33,
+      63
+     ]
+    },
+    {
+     "item": 39,
+     "role": "frame_3",
+     "src": [
+      231,
+      228,
+      41,
+      57
+     ]
+    },
+    {
+     "item": 40,
+     "role": "frame_4",
+     "src": [
+      288,
+      239,
+      36,
+      49
+     ]
+    },
+    {
+     "item": 41,
+     "role": "frame_5",
+     "src": [
+      353,
+      240,
+      37,
+      48
+     ]
+    },
+    {
+     "item": 42,
+     "role": "frame_6",
+     "src": [
+      418,
+      237,
+      50,
+      50
+     ]
+    },
+    {
+     "item": 43,
+     "role": "frame_7",
+     "src": [
+      484,
+      240,
+      49,
+      48
+     ]
+    }
+   ],
+   "box": [
+    36,
+    224,
+    497,
+    64
+   ]
+  },
+  {
+   "id": 15,
+   "name": "extra_parts_e015",
+   "file": "extra_parts/extra_parts_e015.png",
+   "cell": [
+    14,
+    13
+   ],
+   "zone": null,
+   "set": 2,
+   "template": "none",
+   "frames": [
+    {
+     "item": 14,
+     "role": "frame_0",
+     "src": [
+      256,
+      49,
+      14,
+      13
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_1",
+     "src": [
+      274,
+      49,
+      14,
+      13
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    256,
+    49,
+    32,
+    13
+   ]
+  },
+  {
+   "id": 16,
+   "name": "extra_parts_e016",
+   "file": "extra_parts/extra_parts_e016.png",
+   "cell": [
+    14,
+    15
+   ],
+   "zone": null,
+   "set": 2,
+   "template": "none",
+   "frames": [
+    {
+     "item": 19,
+     "role": "frame_0",
+     "src": [
+      337,
+      49,
+      14,
+      13
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_1",
+     "src": [
+      353,
+      50,
+      14,
+      14
+     ]
+    }
+   ],
+   "box": [
+    337,
+    49,
+    30,
+    15
+   ]
+  },
+  {
+   "id": 17,
+   "name": "red_ring_spin",
+   "file": "deactivated/red_ring_spin.png",
+   "cell": [
+    28,
+    28
+   ],
+   "zone": null,
+   "set": 6,
+   "template": "none",
+   "frames": [
+    {
+     "item": 21,
+     "role": "frame_0",
+     "src": [
+      35,
+      131,
+      26,
+      25
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_1",
+     "src": [
+      68,
+      130,
+      24,
+      27
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_2",
+     "src": [
+      99,
+      129,
+      26,
+      28
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_3",
+     "src": [
+      130,
+      130,
+      28,
+      27
+     ]
+    }
+   ],
+   "box": [
+    35,
+    129,
+    123,
+    28
+   ]
+  },
+  {
+   "id": 18,
+   "name": "blue_ring_spin",
+   "file": "deactivated/blue_ring_spin.png",
+   "cell": [
+    28,
+    28
+   ],
+   "zone": null,
+   "set": 6,
+   "template": "none",
+   "frames": [
+    {
+     "item": 25,
+     "role": "frame_0",
+     "src": [
+      163,
+      131,
+      26,
+      25
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_1",
+     "src": [
+      196,
+      130,
+      24,
+      27
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_2",
+     "src": [
+      227,
+      129,
+      26,
+      28
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_3",
+     "src": [
+      258,
+      130,
+      28,
+      27
+     ]
+    }
+   ],
+   "box": [
+    163,
+    129,
+    123,
+    28
+   ]
+  },
+  {
+   "id": 19,
+   "name": "red_laser_projectile",
+   "file": "laser_cannon/red_laser_projectile.png",
+   "cell": [
+    12,
+    21
+   ],
+   "zone": null,
+   "set": 8,
+   "template": "none",
+   "frames": [
+    {
+     "item": 48,
+     "role": "frame_0",
+     "src": [
+      82,
+      337,
+      12,
+      14
+     ]
+    },
+    {
+     "item": 63,
+     "role": "frame_1",
+     "src": [
+      98,
+      340,
+      12,
+      17
+     ]
+    },
+    {
+     "item": 49,
+     "role": "frame_2",
+     "src": [
+      114,
+      336,
+      12,
+      16
+     ]
+    }
+   ],
+   "box": [
+    82,
+    336,
+    44,
+    21
+   ]
+  },
+  {
+   "id": 20,
+   "name": "blue_laser_projectile",
+   "file": "laser_cannon/blue_laser_projectile.png",
+   "cell": [
+    12,
+    21
+   ],
+   "zone": null,
+   "set": 8,
+   "template": "none",
+   "frames": [
+    {
+     "item": 57,
+     "role": "frame_0",
+     "src": [
+      338,
+      337,
+      12,
+      14
+     ]
+    },
+    {
+     "item": 67,
+     "role": "frame_1",
+     "src": [
+      354,
+      340,
+      12,
+      17
+     ]
+    },
+    {
+     "item": 58,
+     "role": "frame_2",
+     "src": [
+      370,
+      336,
+      12,
+      16
+     ]
+    }
+   ],
+   "box": [
+    338,
+    336,
+    44,
+    21
+   ]
+  },
+  {
+   "id": 21,
+   "name": "red_beam_impact",
+   "file": "laser_beam_particles/red_beam_impact.png",
+   "cell": [
+    22,
+    16
+   ],
+   "zone": null,
+   "set": 14,
+   "template": "none",
+   "frames": [
+    {
+     "item": 96,
+     "role": "frame_0",
+     "src": [
+      37,
+      480,
+      22,
+      16
+     ]
+    },
+    {
+     "item": 97,
+     "role": "frame_1",
+     "src": [
+      70,
+      481,
+      20,
+      14
+     ]
+    },
+    {
+     "item": 98,
+     "role": "frame_2",
+     "src": [
+      104,
+      482,
+      16,
+      12
+     ]
+    },
+    {
+     "item": 99,
+     "role": "frame_3",
+     "src": [
+      136,
+      482,
+      16,
+      12
+     ]
+    },
+    {
+     "item": 100,
+     "role": "frame_4",
+     "src": [
+      169,
+      483,
+      14,
+      10
+     ]
+    },
+    {
+     "item": 101,
+     "role": "frame_5",
+     "src": [
+      202,
+      484,
+      12,
+      8
+     ]
+    },
+    {
+     "item": 102,
+     "role": "frame_6",
+     "src": [
+      237,
+      486,
+      6,
+      4
+     ]
+    }
+   ],
+   "box": [
+    37,
+    480,
+    206,
+    16
+   ]
+  },
+  {
+   "id": 22,
+   "name": "blue_beam_impact",
+   "file": "laser_beam_particles/blue_beam_impact.png",
+   "cell": [
+    22,
+    16
+   ],
+   "zone": null,
+   "set": 14,
+   "template": "none",
+   "frames": [
+    {
+     "item": 103,
+     "role": "frame_0",
+     "src": [
+      293,
+      480,
+      22,
+      16
+     ]
+    },
+    {
+     "item": 104,
+     "role": "frame_1",
+     "src": [
+      326,
+      481,
+      20,
+      14
+     ]
+    },
+    {
+     "item": 105,
+     "role": "frame_2",
+     "src": [
+      360,
+      482,
+      16,
+      12
+     ]
+    },
+    {
+     "item": 106,
+     "role": "frame_3",
+     "src": [
+      392,
+      482,
+      16,
+      12
+     ]
+    },
+    {
+     "item": 107,
+     "role": "frame_4",
+     "src": [
+      425,
+      483,
+      14,
+      10
+     ]
+    },
+    {
+     "item": 108,
+     "role": "frame_5",
+     "src": [
+      458,
+      484,
+      12,
+      8
+     ]
+    },
+    {
+     "item": 109,
+     "role": "frame_6",
+     "src": [
+      493,
+      486,
+      6,
+      4
+     ]
+    }
+   ],
+   "box": [
+    293,
+    480,
+    206,
+    16
+   ]
+  },
+  {
+   "id": 23,
+   "name": "claw_crown_glow",
+   "file": "claw_machine/claw_crown_glow.png",
+   "cell": [
+    14,
+    12
+   ],
+   "zone": null,
+   "set": 18,
+   "template": "none",
+   "frames": [
+    {
+     "item": 114,
+     "role": "frame_0",
+     "src": [
+      353,
+      531,
+      14,
+      12
+     ]
+    },
+    {
+     "item": 115,
+     "role": "frame_1",
+     "src": [
+      369,
+      531,
+      14,
+      12
+     ]
+    },
+    {
+     "item": 116,
+     "role": "frame_2",
+     "src": [
+      385,
+      531,
+      14,
+      12
+     ]
+    },
+    {
+     "item": 117,
+     "role": "frame_3",
+     "src": [
+      401,
+      531,
+      14,
+      12
+     ]
+    }
+   ],
+   "box": [
+    353,
+    531,
+    62,
+    12
+   ]
+  },
+  {
+   "id": 24,
+   "name": "claw_machine_grab",
+   "file": "claw_machine/claw_machine_grab.png",
+   "cell": [
+    32,
+    28
+   ],
+   "zone": null,
+   "set": 18,
+   "template": "none",
+   "frames": [
+    {
+     "item": 126,
+     "role": "frame_0",
+     "src": [
+      355,
+      551,
+      26,
+      23
+     ]
+    },
+    {
+     "item": 112,
+     "role": "frame_1",
+     "src": [
+      385,
+      555,
+      30,
+      21
+     ]
+    },
+    {
+     "item": 127,
+     "role": "frame_2",
+     "src": [
+      416,
+      553,
+      32,
+      18
+     ]
+    },
+    {
+     "item": 128,
+     "role": "frame_3",
+     "src": [
+      448,
+      551,
+      32,
+      17
+     ]
+    },
+    {
+     "item": 113,
+     "role": "frame_4",
+     "src": [
+      486,
+      548,
+      20,
+      27
+     ]
+    },
+    {
+     "item": 129,
+     "role": "frame_5",
+     "src": [
+      517,
+      548,
+      22,
+      25
+     ]
+    }
+   ],
+   "box": [
+    355,
+    548,
+    184,
+    28
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 33,
+   "y": 34,
+   "w": 94,
+   "h": 66,
+   "area": 4276,
+   "ncolors": 16,
+   "dominant": "#F7CE10",
+   "dom_frac": 0.351,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 0,
+   "file": "main_body/main_body_000.png"
+  },
+  {
+   "x": 450,
+   "y": 32,
+   "w": 92,
+   "h": 64,
+   "area": 5702,
+   "ncolors": 6,
+   "dominant": "#F7CE10",
+   "dom_frac": 0.424,
+   "kind": "sprite",
+   "zone": null,
+   "set": 2,
+   "id": 1,
+   "file": "extra_parts/extra_parts_001.png"
+  },
+  {
+   "x": 241,
+   "y": 34,
+   "w": 14,
+   "h": 10,
+   "area": 122,
+   "ncolors": 4,
+   "dominant": "#FFFF00",
+   "dom_frac": 0.344,
+   "kind": "sprite",
+   "zone": null,
+   "set": 2,
+   "id": 2,
+   "file": "extra_parts/extra_parts_002.png"
+  },
+  {
+   "x": 256,
+   "y": 40,
+   "w": 16,
+   "h": 5,
+   "area": 1952,
+   "ncolors": 7,
+   "dominant": "#FF4AA5",
+   "dom_frac": 0.229,
+   "kind": "sprite",
+   "zone": null,
+   "cut": true,
+   "set": 2,
+   "id": 3,
+   "file": "extra_parts/extra_parts_003.png"
+  },
+  {
+   "x": 272,
+   "y": 37,
+   "w": 16,
+   "h": 9,
+   "area": 144,
+   "ncolors": 0,
+   "dominant": "",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "cut": true,
+   "set": 2,
+   "id": 4,
+   "file": "extra_parts/extra_parts_004.png"
+  },
+  {
+   "x": 288,
+   "y": 48,
+   "w": 9,
+   "h": 15,
+   "area": 109,
+   "ncolors": 0,
+   "dominant": "",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "set": 2,
+   "id": 16,
+   "file": "extra_parts/extra_parts_016.png"
+  },
+  {
+   "x": 311,
+   "y": 48,
+   "w": 8,
+   "h": 15,
+   "area": 99,
+   "ncolors": 0,
+   "dominant": "",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "set": 2,
+   "id": 17,
+   "file": "extra_parts/extra_parts_017.png"
+  },
+  {
+   "x": 319,
+   "y": 48,
+   "w": 17,
+   "h": 16,
+   "area": 315,
+   "ncolors": 9,
+   "dominant": "#212121",
+   "dom_frac": 0.616,
+   "kind": "sprite",
+   "zone": null,
+   "cut": true,
+   "set": 2,
+   "id": 18,
+   "file": "extra_parts/extra_parts_018.png"
+  },
+  {
+   "x": 65,
+   "y": 338,
+   "w": 14,
+   "h": 14,
+   "area": 181,
+   "ncolors": 7,
+   "dominant": "#000000",
+   "dom_frac": 0.337,
+   "kind": "sprite",
+   "zone": null,
+   "set": 8,
+   "id": 47,
+   "file": "laser_cannon/laser_cannon_047.png"
+  },
+  {
+   "x": 145,
+   "y": 337,
+   "w": 14,
+   "h": 14,
+   "area": 158,
+   "ncolors": 7,
+   "dominant": "#F7CE10",
+   "dom_frac": 0.462,
+   "kind": "sprite",
+   "zone": null,
+   "set": 8,
+   "id": 50,
+   "file": "laser_cannon/laser_cannon_050.png"
+  },
+  {
+   "x": 209,
+   "y": 337,
+   "w": 14,
+   "h": 14,
+   "area": 181,
+   "ncolors": 7,
+   "dominant": "#000000",
+   "dom_frac": 0.337,
+   "kind": "sprite",
+   "zone": null,
+   "set": 8,
+   "id": 51,
+   "file": "laser_cannon/laser_cannon_051.png",
+   "mirror_of": 8
+  },
+  {
+   "x": 321,
+   "y": 338,
+   "w": 14,
+   "h": 14,
+   "area": 181,
+   "ncolors": 7,
+   "dominant": "#000000",
+   "dom_frac": 0.337,
+   "kind": "sprite",
+   "zone": null,
+   "set": 8,
+   "id": 56,
+   "file": "laser_cannon/laser_cannon_056.png"
+  },
+  {
+   "x": 401,
+   "y": 337,
+   "w": 14,
+   "h": 14,
+   "area": 158,
+   "ncolors": 7,
+   "dominant": "#F7CE10",
+   "dom_frac": 0.462,
+   "kind": "sprite",
+   "zone": null,
+   "set": 8,
+   "id": 59,
+   "file": "laser_cannon/laser_cannon_059.png",
+   "mirror_of": 9
+  },
+  {
+   "x": 465,
+   "y": 337,
+   "w": 14,
+   "h": 14,
+   "area": 181,
+   "ncolors": 7,
+   "dominant": "#000000",
+   "dom_frac": 0.337,
+   "kind": "sprite",
+   "zone": null,
+   "set": 8,
+   "id": 60,
+   "file": "laser_cannon/laser_cannon_060.png",
+   "duplicate_of": 11
+  },
+  {
+   "x": 33,
+   "y": 418,
+   "w": 15,
+   "h": 14,
+   "area": 118,
+   "ncolors": 3,
+   "dominant": "#FFFFFF",
+   "dom_frac": 0.602,
+   "kind": "sprite",
+   "zone": null,
+   "set": 11,
+   "id": 87,
+   "file": "laser_charge_particles/laser_charge_particles_087.png"
+  },
+  {
+   "x": 418,
+   "y": 528,
+   "w": 12,
+   "h": 15,
+   "area": 150,
+   "ncolors": 7,
+   "dominant": "#AD8421",
+   "dom_frac": 0.4,
+   "kind": "sprite",
+   "zone": null,
+   "set": 18,
+   "id": 118,
+   "file": "claw_machine/claw_machine_118.png"
+  },
+  {
+   "x": 488,
+   "y": 528,
+   "w": 8,
+   "h": 14,
+   "area": 73,
+   "ncolors": 6,
+   "dominant": "#212121",
+   "dom_frac": 0.288,
+   "kind": "sprite",
+   "zone": null,
+   "set": 18,
+   "id": 122,
+   "file": "claw_machine/claw_machine_122.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

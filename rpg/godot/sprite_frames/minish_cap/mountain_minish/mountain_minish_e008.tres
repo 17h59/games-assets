@@ -1,0 +1,123 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/mountain_minish/mountain_minish_e008.png" id="1_htbab"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yh47g"]
+atlas = ExtResource("1_htbab")
+region = Rect2(0, 0, 17, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h1ce8"]
+atlas = ExtResource("1_htbab")
+region = Rect2(17, 0, 17, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w05qo"]
+atlas = ExtResource("1_htbab")
+region = Rect2(34, 0, 17, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nn5c7"]
+atlas = ExtResource("1_htbab")
+region = Rect2(51, 0, 17, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f1n3n"]
+atlas = ExtResource("1_htbab")
+region = Rect2(68, 0, 17, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qitw8"]
+atlas = ExtResource("1_htbab")
+region = Rect2(85, 0, 17, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w4tli"]
+atlas = ExtResource("1_htbab")
+region = Rect2(102, 0, 17, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u2rhg"]
+atlas = ExtResource("1_htbab")
+region = Rect2(119, 0, 17, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sutax"]
+atlas = ExtResource("1_htbab")
+region = Rect2(136, 0, 17, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8eedk"]
+atlas = ExtResource("1_htbab")
+region = Rect2(153, 0, 17, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k00x2"]
+atlas = ExtResource("1_htbab")
+region = Rect2(170, 0, 17, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2lelm"]
+atlas = ExtResource("1_htbab")
+region = Rect2(187, 0, 17, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_us2mb"]
+atlas = ExtResource("1_htbab")
+region = Rect2(204, 0, 17, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tt7xc"]
+atlas = ExtResource("1_htbab")
+region = Rect2(221, 0, 17, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nbrwx"]
+atlas = ExtResource("1_htbab")
+region = Rect2(238, 0, 17, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ndjlc"]
+atlas = ExtResource("1_htbab")
+region = Rect2(255, 0, 17, 22)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yh47g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h1ce8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w05qo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nn5c7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f1n3n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qitw8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w4tli")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u2rhg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sutax")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8eedk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k00x2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2lelm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_us2mb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tt7xc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nbrwx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ndjlc")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

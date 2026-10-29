@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/big_green_chuchu/hit.png" id="1_tmmou"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oe344"]
+atlas = ExtResource("1_tmmou")
+region = Rect2(0, 0, 46, 43)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h0m16"]
+atlas = ExtResource("1_tmmou")
+region = Rect2(46, 0, 46, 43)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v35gj"]
+atlas = ExtResource("1_tmmou")
+region = Rect2(92, 0, 46, 43)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_henb5"]
+atlas = ExtResource("1_tmmou")
+region = Rect2(138, 0, 46, 43)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p6tvr"]
+atlas = ExtResource("1_tmmou")
+region = Rect2(184, 0, 46, 43)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oe344")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h0m16")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v35gj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_henb5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p6tvr")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

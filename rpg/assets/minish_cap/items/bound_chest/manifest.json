@@ -1,0 +1,628 @@
+{
+ "sheet": "6514",
+ "game": "minish_cap",
+ "category": "items",
+ "title": "Bound Chest",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    269,
+    4,
+    44,
+    6
+   ],
+   "point": [
+    291,
+    7
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 1,
+   "box": [
+    282,
+    16,
+    30,
+    6
+   ],
+   "point": [
+    297,
+    19
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 2,
+   "box": [
+    282,
+    27,
+    31,
+    6
+   ],
+   "point": [
+    297,
+    30
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 3,
+   "box": [
+    39,
+    103,
+    140,
+    10
+   ],
+   "point": [
+    109,
+    108
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 4,
+   "box": [
+    19,
+    115,
+    156,
+    7
+   ],
+   "point": [
+    97,
+    118
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 5,
+   "box": [
+    21,
+    125,
+    152,
+    7
+   ],
+   "point": [
+    97,
+    128
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 6,
+   "box": [
+    15,
+    135,
+    166,
+    7
+   ],
+   "point": [
+    98,
+    138
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "bound_chest_e000",
+   "file": "bound_chest_e000.png",
+   "cell": [
+    13,
+    22
+   ],
+   "zone": 0,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      36,
+      30,
+      13,
+      22
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      53,
+      30,
+      13,
+      22
+     ]
+    }
+   ],
+   "box": [
+    36,
+    30,
+    30,
+    22
+   ]
+  },
+  {
+   "id": 1,
+   "name": "bound_chest_e001",
+   "file": "bound_chest_e001.png",
+   "cell": [
+    13,
+    14
+   ],
+   "zone": 1,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 2,
+     "role": "frame_0",
+     "src": [
+      236,
+      74,
+      13,
+      14
+     ]
+    }
+   ],
+   "box": [
+    236,
+    74,
+    13,
+    14
+   ]
+  },
+  {
+   "id": 2,
+   "name": "bound_chest_e002",
+   "file": "bound_chest_e002.png",
+   "cell": [
+    13,
+    14
+   ],
+   "zone": 1,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 3,
+     "role": "frame_0",
+     "src": [
+      253,
+      74,
+      13,
+      14
+     ]
+    }
+   ],
+   "box": [
+    253,
+    74,
+    13,
+    14
+   ]
+  },
+  {
+   "id": 3,
+   "name": "bound_chest_e003",
+   "file": "bound_chest_e003.png",
+   "cell": [
+    14,
+    15
+   ],
+   "zone": 1,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 4,
+     "role": "frame_0",
+     "src": [
+      235,
+      89,
+      14,
+      15
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_1",
+     "src": [
+      252,
+      90,
+      14,
+      14
+     ]
+    }
+   ],
+   "box": [
+    235,
+    89,
+    31,
+    15
+   ]
+  },
+  {
+   "id": 4,
+   "name": "bound_chest_e004",
+   "file": "bound_chest_e004.png",
+   "cell": [
+    11,
+    12
+   ],
+   "zone": 1,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 6,
+     "role": "frame_0",
+     "src": [
+      237,
+      108,
+      11,
+      12
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_1",
+     "src": [
+      256,
+      109,
+      6,
+      8
+     ]
+    }
+   ],
+   "box": [
+    237,
+    108,
+    25,
+    12
+   ]
+  },
+  {
+   "id": 5,
+   "name": "bound_chest_e005",
+   "file": "bound_chest_e005.png",
+   "cell": [
+    5,
+    5
+   ],
+   "zone": 1,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 8,
+     "role": "frame_0",
+     "src": [
+      274,
+      111,
+      5,
+      5
+     ]
+    }
+   ],
+   "box": [
+    274,
+    111,
+    5,
+    5
+   ]
+  },
+  {
+   "id": 6,
+   "name": "bound_chest_e006",
+   "file": "bound_chest_e006.png",
+   "cell": [
+    4,
+    4
+   ],
+   "zone": 1,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 9,
+     "role": "frame_0",
+     "src": [
+      292,
+      112,
+      4,
+      4
+     ]
+    }
+   ],
+   "box": [
+    292,
+    112,
+    4,
+    4
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 69,
+   "y": 21,
+   "w": 32,
+   "h": 31,
+   "area": 956,
+   "ncolors": 13,
+   "dominant": "#000000",
+   "dom_frac": 0.184,
+   "kind": "sprite",
+   "zone": null,
+   "id": 10,
+   "file": "bound_chest_010.png"
+  },
+  {
+   "x": 102,
+   "y": 22,
+   "w": 32,
+   "h": 30,
+   "area": 924,
+   "ncolors": 15,
+   "dominant": "#000000",
+   "dom_frac": 0.197,
+   "kind": "sprite",
+   "zone": null,
+   "id": 11,
+   "file": "bound_chest_011.png"
+  },
+  {
+   "x": 135,
+   "y": 20,
+   "w": 32,
+   "h": 32,
+   "area": 968,
+   "ncolors": 11,
+   "dominant": "#000000",
+   "dom_frac": 0.366,
+   "kind": "sprite",
+   "zone": null,
+   "id": 12,
+   "file": "bound_chest_012.png"
+  },
+  {
+   "x": 168,
+   "y": 10,
+   "w": 32,
+   "h": 42,
+   "area": 1268,
+   "ncolors": 11,
+   "dominant": "#000000",
+   "dom_frac": 0.396,
+   "kind": "sprite",
+   "zone": null,
+   "id": 13,
+   "file": "bound_chest_013.png"
+  },
+  {
+   "x": 201,
+   "y": 5,
+   "w": 32,
+   "h": 47,
+   "area": 1406,
+   "ncolors": 11,
+   "dominant": "#000000",
+   "dom_frac": 0.385,
+   "kind": "sprite",
+   "zone": null,
+   "id": 14,
+   "file": "bound_chest_014.png"
+  },
+  {
+   "x": 235,
+   "y": 41,
+   "w": 14,
+   "h": 13,
+   "area": 140,
+   "ncolors": 10,
+   "dominant": "#48F018",
+   "dom_frac": 0.207,
+   "kind": "sprite",
+   "zone": null,
+   "id": 15,
+   "file": "bound_chest_015.png"
+  },
+  {
+   "x": 252,
+   "y": 41,
+   "w": 14,
+   "h": 13,
+   "area": 140,
+   "ncolors": 10,
+   "dominant": "#48D0F8",
+   "dom_frac": 0.207,
+   "kind": "sprite",
+   "zone": null,
+   "id": 16,
+   "file": "bound_chest_016.png"
+  },
+  {
+   "x": 236,
+   "y": 5,
+   "w": 14,
+   "h": 15,
+   "area": 157,
+   "ncolors": 10,
+   "dominant": "#000000",
+   "dom_frac": 0.255,
+   "kind": "sprite",
+   "zone": null,
+   "id": 17,
+   "file": "bound_chest_017.png"
+  },
+  {
+   "x": 253,
+   "y": 5,
+   "w": 14,
+   "h": 15,
+   "area": 157,
+   "ncolors": 10,
+   "dominant": "#000000",
+   "dom_frac": 0.255,
+   "kind": "sprite",
+   "zone": null,
+   "id": 18,
+   "file": "bound_chest_018.png"
+  },
+  {
+   "x": 236,
+   "y": 23,
+   "w": 13,
+   "h": 14,
+   "area": 137,
+   "ncolors": 8,
+   "dominant": "#48F018",
+   "dom_frac": 0.241,
+   "kind": "sprite",
+   "zone": null,
+   "id": 19,
+   "file": "bound_chest_019.png"
+  },
+  {
+   "x": 253,
+   "y": 23,
+   "w": 13,
+   "h": 14,
+   "area": 137,
+   "ncolors": 8,
+   "dominant": "#F8E828",
+   "dom_frac": 0.241,
+   "kind": "sprite",
+   "zone": null,
+   "id": 20,
+   "file": "bound_chest_020.png"
+  },
+  {
+   "x": 168,
+   "y": 60,
+   "w": 32,
+   "h": 15,
+   "area": 440,
+   "ncolors": 8,
+   "dominant": "#000000",
+   "dom_frac": 0.341,
+   "kind": "sprite",
+   "zone": null,
+   "id": 21,
+   "file": "bound_chest_021.png"
+  },
+  {
+   "x": 201,
+   "y": 55,
+   "w": 32,
+   "h": 20,
+   "area": 564,
+   "ncolors": 8,
+   "dominant": "#000000",
+   "dom_frac": 0.324,
+   "kind": "sprite",
+   "zone": null,
+   "id": 22,
+   "file": "bound_chest_022.png"
+  },
+  {
+   "x": 236,
+   "y": 58,
+   "w": 13,
+   "h": 12,
+   "area": 114,
+   "ncolors": 9,
+   "dominant": "#F88810",
+   "dom_frac": 0.219,
+   "kind": "sprite",
+   "zone": null,
+   "id": 23,
+   "file": "bound_chest_023.png"
+  },
+  {
+   "x": 253,
+   "y": 58,
+   "w": 13,
+   "h": 12,
+   "area": 114,
+   "ncolors": 9,
+   "dominant": "#684828",
+   "dom_frac": 0.219,
+   "kind": "sprite",
+   "zone": null,
+   "id": 24,
+   "file": "bound_chest_024.png"
+  },
+  {
+   "x": 135,
+   "y": 70,
+   "w": 32,
+   "h": 14,
+   "area": 420,
+   "ncolors": 9,
+   "dominant": "#D09018",
+   "dom_frac": 0.217,
+   "kind": "sprite",
+   "zone": null,
+   "id": 25,
+   "file": "bound_chest_025.png"
+  },
+  {
+   "x": 69,
+   "y": 71,
+   "w": 32,
+   "h": 26,
+   "area": 794,
+   "ncolors": 13,
+   "dominant": "#F0D830",
+   "dom_frac": 0.132,
+   "kind": "sprite",
+   "zone": null,
+   "id": 26,
+   "file": "bound_chest_026.png"
+  },
+  {
+   "x": 102,
+   "y": 72,
+   "w": 32,
+   "h": 20,
+   "area": 628,
+   "ncolors": 13,
+   "dominant": "#D09018",
+   "dom_frac": 0.159,
+   "kind": "sprite",
+   "zone": null,
+   "id": 27,
+   "file": "bound_chest_027.png"
+  },
+  {
+   "x": 36,
+   "y": 75,
+   "w": 32,
+   "h": 27,
+   "area": 828,
+   "ncolors": 8,
+   "dominant": "#000000",
+   "dom_frac": 0.425,
+   "kind": "sprite",
+   "zone": null,
+   "id": 28,
+   "file": "bound_chest_028.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

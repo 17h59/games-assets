@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/wisp/skull_blue.png" id="1_bgcm3"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sx4j2"]
+atlas = ExtResource("1_bgcm3")
+region = Rect2(0, 0, 11, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_307uj"]
+atlas = ExtResource("1_bgcm3")
+region = Rect2(11, 0, 11, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_umq2x"]
+atlas = ExtResource("1_bgcm3")
+region = Rect2(22, 0, 11, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ilga1"]
+atlas = ExtResource("1_bgcm3")
+region = Rect2(33, 0, 11, 12)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sx4j2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_307uj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_umq2x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ilga1")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

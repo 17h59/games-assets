@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/dark_type_moves/snatch/snatch_e026.png" id="1_bymkv"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qc20g"]
+atlas = ExtResource("1_bymkv")
+region = Rect2(0, 0, 7, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_22b6p"]
+atlas = ExtResource("1_bymkv")
+region = Rect2(7, 0, 7, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_terop"]
+atlas = ExtResource("1_bymkv")
+region = Rect2(14, 0, 7, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dervd"]
+atlas = ExtResource("1_bymkv")
+region = Rect2(21, 0, 7, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5beaa"]
+atlas = ExtResource("1_bymkv")
+region = Rect2(28, 0, 7, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jwb80"]
+atlas = ExtResource("1_bymkv")
+region = Rect2(35, 0, 7, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_io7op"]
+atlas = ExtResource("1_bymkv")
+region = Rect2(42, 0, 7, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2yqhs"]
+atlas = ExtResource("1_bymkv")
+region = Rect2(49, 0, 7, 13)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qc20g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_22b6p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_terop")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dervd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5beaa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jwb80")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_io7op")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2yqhs")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

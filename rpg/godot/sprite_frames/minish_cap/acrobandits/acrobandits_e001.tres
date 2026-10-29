@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/acrobandits/acrobandits_e001.png" id="1_5gqpp"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5s5cr"]
+atlas = ExtResource("1_5gqpp")
+region = Rect2(0, 0, 26, 93)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ur8tv"]
+atlas = ExtResource("1_5gqpp")
+region = Rect2(26, 0, 26, 93)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rimsy"]
+atlas = ExtResource("1_5gqpp")
+region = Rect2(52, 0, 26, 93)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5s5cr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ur8tv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rimsy")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

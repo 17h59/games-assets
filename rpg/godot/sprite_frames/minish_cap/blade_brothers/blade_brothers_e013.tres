@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/blade_brothers/blade_brothers_e013.png" id="1_78qb4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tq3mx"]
+atlas = ExtResource("1_78qb4")
+region = Rect2(0, 0, 15, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_145p2"]
+atlas = ExtResource("1_78qb4")
+region = Rect2(15, 0, 15, 26)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tq3mx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_145p2")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

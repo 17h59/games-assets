@@ -1,0 +1,1742 @@
+{
+ "sheet": "8325",
+ "game": "emerald",
+ "category": "characters",
+ "title": "May",
+ "type": "characters",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "walk",
+   "file": "walk.png",
+   "cell": [
+    14,
+    20
+   ],
+   "zone": null,
+   "animations": {
+    "idle_down": [
+     0
+    ],
+    "idle_up": [
+     1
+    ],
+    "idle_left": [
+     2
+    ],
+    "walk_down": [
+     3,
+     0,
+     4,
+     0
+    ],
+    "walk_up": [
+     5,
+     1,
+     6,
+     1
+    ],
+    "walk_left": [
+     7,
+     2,
+     8,
+     2
+    ]
+   },
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      45,
+      29,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_1",
+     "src": [
+      45,
+      81,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_2",
+     "src": [
+      44,
+      55,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 0,
+     "role": "frame_3",
+     "src": [
+      26,
+      29,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_4",
+     "src": [
+      64,
+      29,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_5",
+     "src": [
+      26,
+      81,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_6",
+     "src": [
+      64,
+      81,
+      14,
+      20
+     ],
+     "mirror_of": 5
+    },
+    {
+     "item": 6,
+     "role": "frame_7",
+     "src": [
+      25,
+      55,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_8",
+     "src": [
+      63,
+      55,
+      14,
+      20
+     ]
+    }
+   ],
+   "box": [
+    25,
+    29,
+    53,
+    72
+   ]
+  },
+  {
+   "id": 1,
+   "name": "walk_right",
+   "file": "walk_right.png",
+   "cell": [
+    14,
+    20
+   ],
+   "zone": null,
+   "animations": {
+    "idle_right": [
+     0
+    ],
+    "walk_right": [
+     1,
+     0,
+     2,
+     0
+    ]
+   },
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 20,
+     "role": "frame_0",
+     "src": [
+      47,
+      107,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_1",
+     "src": [
+      28,
+      107,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_2",
+     "src": [
+      66,
+      107,
+      14,
+      20
+     ]
+    }
+   ],
+   "box": [
+    28,
+    107,
+    52,
+    20
+   ]
+  },
+  {
+   "id": 2,
+   "name": "run",
+   "file": "run.png",
+   "cell": [
+    16,
+    21
+   ],
+   "zone": null,
+   "animations": {
+    "idle_down": [
+     0
+    ],
+    "idle_up": [
+     1
+    ],
+    "idle_left": [
+     2
+    ],
+    "run_down": [
+     3,
+     0,
+     4,
+     0
+    ],
+    "run_up": [
+     5,
+     1,
+     6,
+     1
+    ],
+    "run_left": [
+     7,
+     2,
+     8,
+     2
+    ]
+   },
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 4,
+     "role": "frame_0",
+     "src": [
+      132,
+      34,
+      14,
+      19
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_1",
+     "src": [
+      133,
+      83,
+      14,
+      19
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_2",
+     "src": [
+      132,
+      57,
+      14,
+      19
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      110,
+      34,
+      16,
+      19
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_4",
+     "src": [
+      152,
+      34,
+      13,
+      19
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_5",
+     "src": [
+      111,
+      82,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_6",
+     "src": [
+      152,
+      83,
+      13,
+      20
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_7",
+     "src": [
+      113,
+      57,
+      14,
+      19
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_8",
+     "src": [
+      152,
+      57,
+      13,
+      19
+     ]
+    }
+   ],
+   "box": [
+    110,
+    34,
+    55,
+    69
+   ]
+  },
+  {
+   "id": 3,
+   "name": "run_right",
+   "file": "run_right.png",
+   "cell": [
+    14,
+    19
+   ],
+   "zone": null,
+   "animations": {
+    "idle_right": [
+     0
+    ],
+    "run_right": [
+     1,
+     0,
+     2,
+     0
+    ]
+   },
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 24,
+     "role": "frame_0",
+     "src": [
+      132,
+      107,
+      14,
+      19
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_1",
+     "src": [
+      112,
+      107,
+      14,
+      19
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_2",
+     "src": [
+      151,
+      107,
+      14,
+      19
+     ]
+    }
+   ],
+   "box": [
+    112,
+    107,
+    53,
+    19
+   ]
+  },
+  {
+   "id": 4,
+   "name": "throw_pokeball",
+   "file": "throw_pokeball.png",
+   "cell": [
+    20,
+    22
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 29,
+     "role": "frame_0",
+     "src": [
+      50,
+      143,
+      14,
+      19
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_1",
+     "src": [
+      67,
+      143,
+      14,
+      19
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_2",
+     "src": [
+      82,
+      143,
+      14,
+      19
+     ]
+    },
+    {
+     "item": 32,
+     "role": "frame_3",
+     "src": [
+      98,
+      143,
+      19,
+      20
+     ]
+    },
+    {
+     "item": 33,
+     "role": "frame_4",
+     "src": [
+      119,
+      142,
+      20,
+      22
+     ]
+    }
+   ],
+   "box": [
+    50,
+    142,
+    89,
+    22
+   ]
+  },
+  {
+   "id": 5,
+   "name": "fish_right",
+   "file": "fish_right.png",
+   "cell": [
+    29,
+    27
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 43,
+     "role": "frame_0",
+     "src": [
+      30,
+      181,
+      22,
+      26
+     ]
+    },
+    {
+     "item": 44,
+     "role": "frame_1",
+     "src": [
+      54,
+      180,
+      14,
+      27
+     ]
+    },
+    {
+     "item": 45,
+     "role": "frame_2",
+     "src": [
+      72,
+      185,
+      26,
+      22
+     ]
+    },
+    {
+     "item": 49,
+     "role": "frame_3",
+     "src": [
+      54,
+      210,
+      29,
+      20
+     ]
+    }
+   ],
+   "box": [
+    30,
+    180,
+    68,
+    50
+   ]
+  },
+  {
+   "id": 6,
+   "name": "fish_up",
+   "file": "fish_up.png",
+   "cell": [
+    17,
+    29
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 46,
+     "role": "frame_0",
+     "src": [
+      106,
+      184,
+      15,
+      25
+     ]
+    },
+    {
+     "item": 47,
+     "role": "frame_1",
+     "src": [
+      125,
+      184,
+      17,
+      20
+     ]
+    },
+    {
+     "item": 48,
+     "role": "frame_2",
+     "src": [
+      146,
+      180,
+      16,
+      24
+     ]
+    },
+    {
+     "item": 50,
+     "role": "frame_3",
+     "src": [
+      126,
+      205,
+      14,
+      28
+     ]
+    }
+   ],
+   "box": [
+    106,
+    180,
+    56,
+    53
+   ]
+  },
+  {
+   "id": 7,
+   "name": "fish_left",
+   "file": "fish_left.png",
+   "cell": [
+    29,
+    27
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 59,
+     "role": "frame_0",
+     "src": [
+      27,
+      241,
+      26,
+      22
+     ]
+    },
+    {
+     "item": 60,
+     "role": "frame_1",
+     "src": [
+      57,
+      236,
+      14,
+      27
+     ]
+    },
+    {
+     "item": 61,
+     "role": "frame_2",
+     "src": [
+      73,
+      237,
+      22,
+      26
+     ]
+    },
+    {
+     "item": 70,
+     "role": "frame_3",
+     "src": [
+      42,
+      266,
+      29,
+      20
+     ]
+    }
+   ],
+   "box": [
+    27,
+    236,
+    68,
+    50
+   ]
+  },
+  {
+   "id": 8,
+   "name": "fish_down",
+   "file": "fish_down.png",
+   "cell": [
+    17,
+    35
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 62,
+     "role": "frame_0",
+     "src": [
+      105,
+      233,
+      15,
+      28
+     ]
+    },
+    {
+     "item": 63,
+     "role": "frame_1",
+     "src": [
+      122,
+      239,
+      17,
+      22
+     ]
+    },
+    {
+     "item": 67,
+     "role": "frame_2",
+     "src": [
+      141,
+      243,
+      16,
+      25
+     ]
+    },
+    {
+     "item": 71,
+     "role": "frame_3",
+     "src": [
+      124,
+      267,
+      14,
+      29
+     ]
+    }
+   ],
+   "box": [
+    105,
+    233,
+    52,
+    63
+   ]
+  },
+  {
+   "id": 9,
+   "name": "surf",
+   "file": "surf.png",
+   "cell": [
+    26,
+    28
+   ],
+   "zone": null,
+   "animations": {
+    "idle_down": [
+     0
+    ],
+    "idle_right": [
+     1
+    ],
+    "idle_up": [
+     2
+    ],
+    "idle_left": [
+     3
+    ]
+   },
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 34,
+     "role": "frame_0",
+     "src": [
+      444,
+      132,
+      24,
+      28
+     ]
+    },
+    {
+     "item": 35,
+     "role": "frame_1",
+     "src": [
+      473,
+      133,
+      22,
+      27
+     ]
+    },
+    {
+     "item": 36,
+     "role": "frame_2",
+     "src": [
+      500,
+      134,
+      26,
+      26
+     ]
+    },
+    {
+     "item": 37,
+     "role": "frame_3",
+     "src": [
+      530,
+      133,
+      22,
+      27
+     ]
+    }
+   ],
+   "box": [
+    444,
+    132,
+    108,
+    28
+   ]
+  },
+  {
+   "id": 10,
+   "name": "surf_throw_pokeball",
+   "file": "surf_throw_pokeball.png",
+   "cell": [
+    24,
+    30
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 38,
+     "role": "frame_0",
+     "src": [
+      433,
+      170,
+      24,
+      27
+     ]
+    },
+    {
+     "item": 39,
+     "role": "frame_1",
+     "src": [
+      459,
+      170,
+      24,
+      27
+     ]
+    },
+    {
+     "item": 40,
+     "role": "frame_2",
+     "src": [
+      485,
+      170,
+      24,
+      27
+     ]
+    },
+    {
+     "item": 41,
+     "role": "frame_3",
+     "src": [
+      511,
+      167,
+      24,
+      30
+     ]
+    },
+    {
+     "item": 42,
+     "role": "frame_4",
+     "src": [
+      537,
+      169,
+      24,
+      28
+     ]
+    }
+   ],
+   "box": [
+    433,
+    167,
+    128,
+    30
+   ]
+  },
+  {
+   "id": 11,
+   "name": "surf_fish_right",
+   "file": "surf_fish_right.png",
+   "cell": [
+    31,
+    37
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 53,
+     "role": "frame_0",
+     "src": [
+      408,
+      211,
+      28,
+      35
+     ]
+    },
+    {
+     "item": 54,
+     "role": "frame_1",
+     "src": [
+      443,
+      209,
+      22,
+      36
+     ]
+    },
+    {
+     "item": 55,
+     "role": "frame_2",
+     "src": [
+      472,
+      214,
+      30,
+      30
+     ]
+    },
+    {
+     "item": 68,
+     "role": "frame_3",
+     "src": [
+      443,
+      247,
+      31,
+      29
+     ]
+    }
+   ],
+   "box": [
+    408,
+    209,
+    94,
+    67
+   ]
+  },
+  {
+   "id": 12,
+   "name": "surf_fish_down",
+   "file": "surf_fish_down.png",
+   "cell": [
+    24,
+    37
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 56,
+     "role": "frame_0",
+     "src": [
+      512,
+      208,
+      24,
+      37
+     ]
+    },
+    {
+     "item": 57,
+     "role": "frame_1",
+     "src": [
+      543,
+      215,
+      24,
+      30
+     ]
+    },
+    {
+     "item": 58,
+     "role": "frame_2",
+     "src": [
+      572,
+      219,
+      24,
+      26
+     ]
+    },
+    {
+     "item": 69,
+     "role": "frame_3",
+     "src": [
+      543,
+      250,
+      24,
+      29
+     ]
+    }
+   ],
+   "box": [
+    512,
+    208,
+    84,
+    71
+   ]
+  },
+  {
+   "id": 13,
+   "name": "surf_fish_left",
+   "file": "surf_fish_left.png",
+   "cell": [
+    31,
+    37
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 74,
+     "role": "frame_0",
+     "src": [
+      404,
+      289,
+      30,
+      30
+     ]
+    },
+    {
+     "item": 75,
+     "role": "frame_1",
+     "src": [
+      441,
+      284,
+      22,
+      36
+     ]
+    },
+    {
+     "item": 76,
+     "role": "frame_2",
+     "src": [
+      470,
+      286,
+      28,
+      35
+     ]
+    },
+    {
+     "item": 92,
+     "role": "frame_3",
+     "src": [
+      432,
+      322,
+      31,
+      29
+     ]
+    }
+   ],
+   "box": [
+    404,
+    284,
+    94,
+    67
+   ]
+  },
+  {
+   "id": 14,
+   "name": "surf_fish_up",
+   "file": "surf_fish_up.png",
+   "cell": [
+    26,
+    35
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 77,
+     "role": "frame_0",
+     "src": [
+      511,
+      288,
+      26,
+      32
+     ]
+    },
+    {
+     "item": 78,
+     "role": "frame_1",
+     "src": [
+      541,
+      286,
+      26,
+      34
+     ]
+    },
+    {
+     "item": 79,
+     "role": "frame_2",
+     "src": [
+      571,
+      288,
+      26,
+      32
+     ]
+    },
+    {
+     "item": 93,
+     "role": "frame_3",
+     "src": [
+      541,
+      322,
+      26,
+      35
+     ]
+    }
+   ],
+   "box": [
+    511,
+    286,
+    86,
+    71
+   ]
+  },
+  {
+   "id": 15,
+   "name": "bike_idle",
+   "file": "bike_idle.png",
+   "cell": [
+    19,
+    25
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 72,
+     "role": "frame_0",
+     "src": [
+      73,
+      281,
+      19,
+      25
+     ]
+    },
+    {
+     "item": 73,
+     "role": "frame_1",
+     "src": [
+      95,
+      281,
+      19,
+      25
+     ]
+    }
+   ],
+   "box": [
+    73,
+    281,
+    41,
+    25
+   ]
+  },
+  {
+   "id": 16,
+   "name": "bike_ride_right",
+   "file": "bike_ride_right.png",
+   "cell": [
+    24,
+    24
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 80,
+     "role": "frame_0",
+     "src": [
+      35,
+      310,
+      22,
+      22
+     ]
+    },
+    {
+     "item": 81,
+     "role": "frame_1",
+     "src": [
+      60,
+      310,
+      22,
+      22
+     ]
+    },
+    {
+     "item": 82,
+     "role": "frame_2",
+     "src": [
+      85,
+      310,
+      22,
+      22
+     ]
+    },
+    {
+     "item": 83,
+     "role": "frame_3",
+     "src": [
+      109,
+      309,
+      21,
+      22
+     ]
+    },
+    {
+     "item": 84,
+     "role": "frame_4",
+     "src": [
+      132,
+      308,
+      19,
+      24
+     ]
+    }
+   ],
+   "box": [
+    35,
+    308,
+    116,
+    24
+   ]
+  },
+  {
+   "id": 17,
+   "name": "bike_ride_up",
+   "file": "bike_ride_up.png",
+   "cell": [
+    16,
+    22
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 85,
+     "role": "frame_0",
+     "src": [
+      34,
+      335,
+      14,
+      22
+     ]
+    },
+    {
+     "item": 86,
+     "role": "frame_1",
+     "src": [
+      52,
+      335,
+      14,
+      22
+     ]
+    },
+    {
+     "item": 87,
+     "role": "frame_2",
+     "src": [
+      70,
+      335,
+      14,
+      22
+     ]
+    },
+    {
+     "item": 88,
+     "role": "frame_3",
+     "src": [
+      87,
+      335,
+      14,
+      22
+     ]
+    },
+    {
+     "item": 89,
+     "role": "frame_4",
+     "src": [
+      104,
+      335,
+      14,
+      22
+     ]
+    },
+    {
+     "item": 90,
+     "role": "frame_5",
+     "src": [
+      121,
+      335,
+      14,
+      22
+     ]
+    },
+    {
+     "item": 91,
+     "role": "frame_6",
+     "src": [
+      138,
+      335,
+      14,
+      22
+     ],
+     "duplicate_of": 5
+    }
+   ],
+   "box": [
+    34,
+    335,
+    118,
+    22
+   ]
+  },
+  {
+   "id": 18,
+   "name": "bike_ride_down",
+   "file": "bike_ride_down.png",
+   "cell": [
+    16,
+    24
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 94,
+     "role": "frame_0",
+     "src": [
+      32,
+      361,
+      14,
+      23
+     ]
+    },
+    {
+     "item": 95,
+     "role": "frame_1",
+     "src": [
+      50,
+      361,
+      15,
+      23
+     ]
+    },
+    {
+     "item": 96,
+     "role": "frame_2",
+     "src": [
+      68,
+      361,
+      15,
+      23
+     ]
+    },
+    {
+     "item": 97,
+     "role": "frame_3",
+     "src": [
+      87,
+      361,
+      14,
+      23
+     ]
+    },
+    {
+     "item": 98,
+     "role": "frame_4",
+     "src": [
+      105,
+      360,
+      14,
+      24
+     ]
+    },
+    {
+     "item": 99,
+     "role": "frame_5",
+     "src": [
+      123,
+      360,
+      15,
+      24
+     ]
+    },
+    {
+     "item": 100,
+     "role": "frame_6",
+     "src": [
+      140,
+      360,
+      15,
+      24
+     ]
+    }
+   ],
+   "box": [
+    32,
+    360,
+    123,
+    24
+   ]
+  },
+  {
+   "id": 19,
+   "name": "bike_wheelie",
+   "file": "bike_wheelie.png",
+   "cell": [
+    24,
+    24
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 101,
+     "role": "frame_0",
+     "src": [
+      33,
+      387,
+      22,
+      22
+     ]
+    },
+    {
+     "item": 102,
+     "role": "frame_1",
+     "src": [
+      58,
+      387,
+      22,
+      22
+     ]
+    },
+    {
+     "item": 103,
+     "role": "frame_2",
+     "src": [
+      83,
+      387,
+      22,
+      22
+     ]
+    },
+    {
+     "item": 104,
+     "role": "frame_3",
+     "src": [
+      107,
+      386,
+      21,
+      22
+     ]
+    },
+    {
+     "item": 105,
+     "role": "frame_4",
+     "src": [
+      130,
+      385,
+      19,
+      24
+     ]
+    }
+   ],
+   "box": [
+    33,
+    385,
+    116,
+    24
+   ]
+  },
+  {
+   "id": 20,
+   "name": "bike_stand",
+   "file": "bike_stand.png",
+   "cell": [
+    19,
+    25
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 106,
+     "role": "frame_0",
+     "src": [
+      70,
+      412,
+      19,
+      25
+     ]
+    },
+    {
+     "item": 107,
+     "role": "frame_1",
+     "src": [
+      92,
+      412,
+      19,
+      25
+     ]
+    }
+   ],
+   "box": [
+    70,
+    412,
+    41,
+    25
+   ]
+  },
+  {
+   "id": 21,
+   "name": "watering",
+   "file": "watering.png",
+   "cell": [
+    22,
+    21
+   ],
+   "zone": null,
+   "animations": {
+    "idle_down": [
+     0
+    ],
+    "idle_right": [
+     1
+    ],
+    "idle_up": [
+     2
+    ],
+    "idle_left": [
+     3
+    ]
+   },
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 108,
+     "role": "frame_0",
+     "src": [
+      52,
+      440,
+      14,
+      21
+     ]
+    },
+    {
+     "item": 109,
+     "role": "frame_1",
+     "src": [
+      67,
+      441,
+      21,
+      20
+     ]
+    },
+    {
+     "item": 110,
+     "role": "frame_2",
+     "src": [
+      92,
+      441,
+      15,
+      19
+     ]
+    },
+    {
+     "item": 111,
+     "role": "frame_3",
+     "src": [
+      110,
+      441,
+      21,
+      20
+     ],
+     "mirror_of": 1
+    }
+   ],
+   "box": [
+    52,
+    440,
+    79,
+    21
+   ]
+  },
+  {
+   "id": 22,
+   "name": "battle_intro",
+   "file": "battle_intro.png",
+   "cell": [
+    55,
+    48
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 64,
+     "role": "frame_0",
+     "src": [
+      179,
+      215,
+      48,
+      47
+     ]
+    },
+    {
+     "item": 65,
+     "role": "frame_1",
+     "src": [
+      235,
+      216,
+      55,
+      46
+     ]
+    },
+    {
+     "item": 66,
+     "role": "frame_2",
+     "src": [
+      304,
+      216,
+      42,
+      47
+     ]
+    },
+    {
+     "item": 52,
+     "role": "frame_3",
+     "src": [
+      361,
+      222,
+      29,
+      24
+     ]
+    }
+   ],
+   "box": [
+    179,
+    215,
+    211,
+    48
+   ]
+  },
+  {
+   "id": 23,
+   "name": "intro_bike",
+   "file": "intro_bike.png",
+   "cell": [
+    44,
+    46
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 22,
+     "role": "frame_0",
+     "src": [
+      620,
+      84,
+      42,
+      44
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_1",
+     "src": [
+      617,
+      135,
+      44,
+      46
+     ]
+    },
+    {
+     "item": 51,
+     "role": "frame_2",
+     "src": [
+      615,
+      190,
+      44,
+      46
+     ]
+    }
+   ],
+   "box": [
+    615,
+    84,
+    47,
+    152
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 480,
+   "y": 73,
+   "w": 14,
+   "h": 21,
+   "area": 193,
+   "ncolors": 13,
+   "dominant": "#000000",
+   "dom_frac": 0.238,
+   "kind": "sprite",
+   "zone": null,
+   "name": "fly_may",
+   "id": 12,
+   "file": "fly_may.png"
+  },
+  {
+   "x": 494,
+   "y": 92,
+   "w": 31,
+   "h": 28,
+   "area": 491,
+   "ncolors": 3,
+   "dominant": "#000000",
+   "dom_frac": 0.554,
+   "kind": "sprite",
+   "zone": null,
+   "name": "fly_bird",
+   "id": 26,
+   "file": "fly_bird.png"
+  },
+  {
+   "x": 180,
+   "y": 120,
+   "w": 37,
+   "h": 55,
+   "area": 791,
+   "ncolors": 14,
+   "dominant": "#000000",
+   "dom_frac": 0.155,
+   "kind": "sprite",
+   "zone": null,
+   "name": "battle_pose",
+   "id": 27,
+   "file": "battle_pose.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

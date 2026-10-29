@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/beetle/beetle_walk.png" id="1_pvylq"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dkpof"]
+atlas = ExtResource("1_pvylq")
+region = Rect2(0, 0, 16, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pdryu"]
+atlas = ExtResource("1_pvylq")
+region = Rect2(16, 0, 16, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3khsx"]
+atlas = ExtResource("1_pvylq")
+region = Rect2(32, 0, 16, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ssj2m"]
+atlas = ExtResource("1_pvylq")
+region = Rect2(48, 0, 16, 10)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dkpof")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pdryu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3khsx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ssj2m")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

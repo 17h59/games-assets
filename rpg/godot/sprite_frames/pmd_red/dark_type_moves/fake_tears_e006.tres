@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/dark_type_moves/fake_tears/fake_tears_e006.png" id="1_jsnch"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tsa75"]
+atlas = ExtResource("1_jsnch")
+region = Rect2(0, 0, 11, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2ytdx"]
+atlas = ExtResource("1_jsnch")
+region = Rect2(11, 0, 11, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_14gnm"]
+atlas = ExtResource("1_jsnch")
+region = Rect2(22, 0, 11, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lt4dh"]
+atlas = ExtResource("1_jsnch")
+region = Rect2(33, 0, 11, 8)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tsa75")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2ytdx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_14gnm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lt4dh")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

@@ -1,0 +1,74 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/mazaal/extra_parts/energy_pulse.png" id="1_l155y"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dy748"]
+atlas = ExtResource("1_l155y")
+region = Rect2(0, 0, 17, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_or70h"]
+atlas = ExtResource("1_l155y")
+region = Rect2(17, 0, 17, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3jcgu"]
+atlas = ExtResource("1_l155y")
+region = Rect2(34, 0, 17, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rqqv2"]
+atlas = ExtResource("1_l155y")
+region = Rect2(51, 0, 17, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3lx6s"]
+atlas = ExtResource("1_l155y")
+region = Rect2(68, 0, 17, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1u35f"]
+atlas = ExtResource("1_l155y")
+region = Rect2(85, 0, 17, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e240a"]
+atlas = ExtResource("1_l155y")
+region = Rect2(102, 0, 17, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wbbwv"]
+atlas = ExtResource("1_l155y")
+region = Rect2(119, 0, 17, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qpkkg"]
+atlas = ExtResource("1_l155y")
+region = Rect2(136, 0, 17, 12)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dy748")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_or70h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3jcgu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rqqv2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3lx6s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1u35f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e240a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wbbwv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qpkkg")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

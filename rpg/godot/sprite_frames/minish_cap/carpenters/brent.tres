@@ -1,0 +1,60 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/carpenters/brent.png" id="1_vx3rm"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hc4pm"]
+atlas = ExtResource("1_vx3rm")
+region = Rect2(0, 0, 27, 33)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bqh7a"]
+atlas = ExtResource("1_vx3rm")
+region = Rect2(27, 0, 27, 33)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wpwsq"]
+atlas = ExtResource("1_vx3rm")
+region = Rect2(54, 0, 27, 33)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e7dnd"]
+atlas = ExtResource("1_vx3rm")
+region = Rect2(81, 0, 27, 33)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4ebfr"]
+atlas = ExtResource("1_vx3rm")
+region = Rect2(108, 0, 27, 33)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6pipg"]
+atlas = ExtResource("1_vx3rm")
+region = Rect2(135, 0, 27, 33)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dsw7a"]
+atlas = ExtResource("1_vx3rm")
+region = Rect2(162, 0, 27, 33)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hc4pm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bqh7a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wpwsq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e7dnd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4ebfr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6pipg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dsw7a")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

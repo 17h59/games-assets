@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/rock_type_moves/ancientpower/ancientpower_e000.png" id="1_et3qd"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dq7ba"]
+atlas = ExtResource("1_et3qd")
+region = Rect2(0, 0, 12, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i7e5f"]
+atlas = ExtResource("1_et3qd")
+region = Rect2(12, 0, 12, 21)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dq7ba")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i7e5f")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

@@ -1,0 +1,61 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/mountain_minish/minish_carry_sword.png" id="1_grf7e"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n5plf"]
+atlas = ExtResource("1_grf7e")
+region = Rect2(0, 0, 26, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_flmkk"]
+atlas = ExtResource("1_grf7e")
+region = Rect2(78, 0, 26, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_avdcv"]
+atlas = ExtResource("1_grf7e")
+region = Rect2(52, 0, 26, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3nj1c"]
+atlas = ExtResource("1_grf7e")
+region = Rect2(0, 0, 26, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x8vby"]
+atlas = ExtResource("1_grf7e")
+region = Rect2(26, 0, 26, 35)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n5plf")
+}],
+"loop": 1,
+"name": &"idle_down",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_flmkk")
+}],
+"loop": 1,
+"name": &"idle_left",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_avdcv")
+}],
+"loop": 1,
+"name": &"idle_up",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3nj1c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x8vby")
+}],
+"loop": 1,
+"name": &"walk_down",
+"speed": 6.0
+}]

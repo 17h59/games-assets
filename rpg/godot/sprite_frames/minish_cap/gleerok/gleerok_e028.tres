@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/gleerok/gleerok_e028.png" id="1_23jl5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_84eq7"]
+atlas = ExtResource("1_23jl5")
+region = Rect2(0, 0, 50, 75)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_103j4"]
+atlas = ExtResource("1_23jl5")
+region = Rect2(50, 0, 50, 75)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lrx0g"]
+atlas = ExtResource("1_23jl5")
+region = Rect2(100, 0, 50, 75)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ujwil"]
+atlas = ExtResource("1_23jl5")
+region = Rect2(150, 0, 50, 75)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_84eq7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_103j4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lrx0g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ujwil")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

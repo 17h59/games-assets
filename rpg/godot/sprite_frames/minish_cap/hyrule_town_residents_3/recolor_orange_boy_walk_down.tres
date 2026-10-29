@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/hyrule_town_residents_3/recolors/recolor_orange_boy_walk_down.png" id="1_thg7m"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hug2d"]
+atlas = ExtResource("1_thg7m")
+region = Rect2(0, 0, 18, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p1khi"]
+atlas = ExtResource("1_thg7m")
+region = Rect2(18, 0, 18, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_axsn2"]
+atlas = ExtResource("1_thg7m")
+region = Rect2(36, 0, 18, 20)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hug2d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p1khi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_axsn2")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

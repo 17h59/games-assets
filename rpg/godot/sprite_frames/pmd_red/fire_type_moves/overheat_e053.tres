@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/fire_type_moves/overheat/overheat_e053.png" id="1_p55vn"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fyepk"]
+atlas = ExtResource("1_p55vn")
+region = Rect2(0, 0, 3, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wx1gm"]
+atlas = ExtResource("1_p55vn")
+region = Rect2(3, 0, 3, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fyepk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wx1gm")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

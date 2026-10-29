@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/echo_cave/cave_wall_flow.png" id="1_btoh6"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_li80l"]
+atlas = ExtResource("1_btoh6")
+region = Rect2(0, 0, 54, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_inwfl"]
+atlas = ExtResource("1_btoh6")
+region = Rect2(54, 0, 54, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hn0b5"]
+atlas = ExtResource("1_btoh6")
+region = Rect2(108, 0, 54, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hpmv8"]
+atlas = ExtResource("1_btoh6")
+region = Rect2(162, 0, 54, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fg44c"]
+atlas = ExtResource("1_btoh6")
+region = Rect2(216, 0, 54, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hgyde"]
+atlas = ExtResource("1_btoh6")
+region = Rect2(270, 0, 54, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n56kg"]
+atlas = ExtResource("1_btoh6")
+region = Rect2(324, 0, 54, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ts0xi"]
+atlas = ExtResource("1_btoh6")
+region = Rect2(378, 0, 54, 44)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_li80l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_inwfl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hn0b5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hpmv8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fg44c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hgyde")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n56kg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ts0xi")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/hyrule_town_residents_3/girls/ponytail_girl_walk_left.png" id="1_tj7b0"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j5t0x"]
+atlas = ExtResource("1_tj7b0")
+region = Rect2(0, 0, 19, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_htpqm"]
+atlas = ExtResource("1_tj7b0")
+region = Rect2(19, 0, 19, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ljlrn"]
+atlas = ExtResource("1_tj7b0")
+region = Rect2(38, 0, 19, 23)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j5t0x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_htpqm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ljlrn")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

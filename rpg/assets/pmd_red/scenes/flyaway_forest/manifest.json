@@ -1,0 +1,155 @@
+{
+ "sheet": "5363",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Flyaway Forest",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "flyaway_forest_e000",
+   "file": "flyaway_forest_e000.png",
+   "cell": [
+    36,
+    94
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      460,
+      3,
+      36,
+      94
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_1",
+     "src": [
+      499,
+      3,
+      36,
+      94
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_2",
+     "src": [
+      538,
+      3,
+      36,
+      94
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_3",
+     "src": [
+      576,
+      3,
+      36,
+      94
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_4",
+     "src": [
+      615,
+      3,
+      36,
+      94
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_5",
+     "src": [
+      464,
+      104,
+      36,
+      94
+     ],
+     "mirror_of": 4
+    },
+    {
+     "item": 7,
+     "role": "frame_6",
+     "src": [
+      503,
+      104,
+      36,
+      94
+     ],
+     "mirror_of": 3
+    },
+    {
+     "item": 8,
+     "role": "frame_7",
+     "src": [
+      541,
+      104,
+      36,
+      94
+     ],
+     "mirror_of": 2
+    },
+    {
+     "item": 9,
+     "role": "frame_8",
+     "src": [
+      580,
+      104,
+      36,
+      94
+     ],
+     "mirror_of": 1
+    },
+    {
+     "item": 10,
+     "role": "frame_9",
+     "src": [
+      619,
+      104,
+      36,
+      94
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    460,
+    3,
+    195,
+    195
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 456,
+   "h": 312,
+   "area": 140608,
+   "ncolors": 36,
+   "dominant": "#F8B060",
+   "dom_frac": 0.179,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "flyaway_forest_000.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

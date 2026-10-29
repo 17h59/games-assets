@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/carpenters/carpenters_e002.png" id="1_4wdxf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_guoe5"]
+atlas = ExtResource("1_4wdxf")
+region = Rect2(0, 0, 21, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kvpli"]
+atlas = ExtResource("1_4wdxf")
+region = Rect2(21, 0, 21, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fv48e"]
+atlas = ExtResource("1_4wdxf")
+region = Rect2(42, 0, 21, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_atibl"]
+atlas = ExtResource("1_4wdxf")
+region = Rect2(63, 0, 21, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0bbnv"]
+atlas = ExtResource("1_4wdxf")
+region = Rect2(84, 0, 21, 32)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_guoe5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kvpli")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fv48e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_atibl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0bbnv")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

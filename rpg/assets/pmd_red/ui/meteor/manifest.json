@@ -1,0 +1,277 @@
+{
+ "sheet": "5412",
+ "game": "pmd_red",
+ "category": "ui",
+ "title": "Meteor",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    718,
+    204,
+    17,
+    16
+   ],
+   "point": [
+    726,
+    212
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 1,
+   "box": [
+    776,
+    239,
+    12,
+    16
+   ],
+   "point": [
+    782,
+    247
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 2,
+   "box": [
+    633,
+    523,
+    68,
+    16
+   ],
+   "point": [
+    667,
+    531
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 3,
+   "box": [
+    743,
+    523,
+    50,
+    16
+   ],
+   "point": [
+    768,
+    531
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "meteor",
+   "file": "meteor.png",
+   "cell": [
+    188,
+    160
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      1,
+      0,
+      158,
+      160
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      179,
+      0,
+      158,
+      160
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      354,
+      0,
+      158,
+      160
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      519,
+      0,
+      158,
+      160
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_4",
+     "src": [
+      686,
+      0,
+      158,
+      160
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_5",
+     "src": [
+      6,
+      170,
+      158,
+      160
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_6",
+     "src": [
+      176,
+      170,
+      158,
+      160
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_7",
+     "src": [
+      341,
+      170,
+      158,
+      160
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_8",
+     "src": [
+      504,
+      170,
+      158,
+      160
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 15,
+     "role": "frame_9",
+     "src": [
+      398,
+      526,
+      188,
+      143
+     ]
+    }
+   ],
+   "box": [
+    1,
+    0,
+    843,
+    669
+   ]
+  },
+  {
+   "id": 1,
+   "name": "meteor_shockwave",
+   "file": "meteor_shockwave.png",
+   "cell": [
+    188,
+    165
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 9,
+     "role": "frame_0",
+     "src": [
+      6,
+      342,
+      174,
+      164
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_1",
+     "src": [
+      191,
+      342,
+      184,
+      157
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_2",
+     "src": [
+      382,
+      342,
+      188,
+      160
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_3",
+     "src": [
+      577,
+      342,
+      188,
+      163
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_4",
+     "src": [
+      4,
+      511,
+      188,
+      164
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_5",
+     "src": [
+      203,
+      510,
+      174,
+      164
+     ]
+    }
+   ],
+   "box": [
+    4,
+    342,
+    761,
+    333
+   ]
+  }
+ ],
+ "items": [],
+ "status": "ok",
+ "missing_stages": []
+}

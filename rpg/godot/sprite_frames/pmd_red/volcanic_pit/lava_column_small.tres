@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/volcanic_pit/lava_column_small.png" id="1_kjyob"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pv1ef"]
+atlas = ExtResource("1_kjyob")
+region = Rect2(0, 0, 32, 57)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k7pdf"]
+atlas = ExtResource("1_kjyob")
+region = Rect2(32, 0, 32, 57)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_24ynx"]
+atlas = ExtResource("1_kjyob")
+region = Rect2(64, 0, 32, 57)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e41v5"]
+atlas = ExtResource("1_kjyob")
+region = Rect2(96, 0, 32, 57)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eqyop"]
+atlas = ExtResource("1_kjyob")
+region = Rect2(128, 0, 32, 57)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_myx4q"]
+atlas = ExtResource("1_kjyob")
+region = Rect2(160, 0, 32, 57)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0m7c5"]
+atlas = ExtResource("1_kjyob")
+region = Rect2(192, 0, 32, 57)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lq7nh"]
+atlas = ExtResource("1_kjyob")
+region = Rect2(224, 0, 32, 57)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pv1ef")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k7pdf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_24ynx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e41v5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eqyop")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_myx4q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0m7c5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lq7nh")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

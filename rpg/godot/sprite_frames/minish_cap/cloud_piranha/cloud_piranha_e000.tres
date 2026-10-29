@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/cloud_piranha/cloud_piranha_e000.png" id="1_q2tfw"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ynxyg"]
+atlas = ExtResource("1_q2tfw")
+region = Rect2(0, 0, 16, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_14vqn"]
+atlas = ExtResource("1_q2tfw")
+region = Rect2(16, 0, 16, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7bekl"]
+atlas = ExtResource("1_q2tfw")
+region = Rect2(32, 0, 16, 14)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ynxyg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_14vqn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7bekl")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

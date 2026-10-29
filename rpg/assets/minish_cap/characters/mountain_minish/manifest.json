@@ -1,0 +1,1183 @@
+{
+ "sheet": "6394",
+ "game": "minish_cap",
+ "category": "characters",
+ "title": "Mountain Minish",
+ "type": "characters",
+ "template": "none",
+ "validation": "verified",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    431,
+    29,
+    105,
+    14
+   ],
+   "point": [
+    483,
+    36
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 1,
+   "box": [
+    474,
+    64,
+    61,
+    16
+   ],
+   "point": [
+    504,
+    72
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 2,
+   "box": [
+    542,
+    64,
+    19,
+    12
+   ],
+   "point": [
+    551,
+    70
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 3,
+   "box": [
+    473,
+    85,
+    45,
+    10
+   ],
+   "point": [
+    495,
+    90
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 4,
+   "box": [
+    521,
+    85,
+    15,
+    14
+   ],
+   "point": [
+    528,
+    92
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 5,
+   "box": [
+    542,
+    85,
+    81,
+    10
+   ],
+   "point": [
+    582,
+    90
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 6,
+   "box": [
+    473,
+    103,
+    20,
+    10
+   ],
+   "point": [
+    483,
+    108
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 7,
+   "box": [
+    499,
+    103,
+    40,
+    14
+   ],
+   "point": [
+    519,
+    110
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 8,
+   "box": [
+    545,
+    103,
+    92,
+    10
+   ],
+   "point": [
+    591,
+    108
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 9,
+   "box": [
+    412,
+    146,
+    38,
+    10
+   ],
+   "point": [
+    431,
+    151
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "melari",
+   "file": "melari.png",
+   "cell": [
+    26,
+    31
+   ],
+   "zone": null,
+   "animations": {
+    "talk": [
+     0,
+     1,
+     2
+    ],
+    "idle": [
+     0
+    ]
+   },
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 24,
+     "role": "frame_0",
+     "src": [
+      267,
+      26,
+      24,
+      29
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_1",
+     "src": [
+      296,
+      25,
+      26,
+      31
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_2",
+     "src": [
+      326,
+      25,
+      26,
+      31
+     ],
+     "mirror_of": 1
+    }
+   ],
+   "box": [
+    267,
+    25,
+    85,
+    31
+   ]
+  },
+  {
+   "id": 1,
+   "name": "minish_carry_sword",
+   "file": "minish_carry_sword.png",
+   "cell": [
+    26,
+    35
+   ],
+   "zone": null,
+   "animations": {
+    "walk_down": [
+     0,
+     1
+    ],
+    "idle_down": [
+     0
+    ],
+    "idle_up": [
+     2
+    ],
+    "idle_left": [
+     3
+    ]
+   },
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 31,
+     "role": "frame_0",
+     "src": [
+      31,
+      92,
+      17,
+      27
+     ]
+    },
+    {
+     "item": 32,
+     "role": "frame_1",
+     "src": [
+      58,
+      91,
+      17,
+      29
+     ]
+    },
+    {
+     "item": 33,
+     "role": "frame_2",
+     "src": [
+      84,
+      87,
+      24,
+      35
+     ]
+    },
+    {
+     "item": 34,
+     "role": "frame_3",
+     "src": [
+      117,
+      96,
+      22,
+      24
+     ]
+    }
+   ],
+   "box": [
+    31,
+    87,
+    108,
+    35
+   ]
+  },
+  {
+   "id": 2,
+   "name": "spinning_disc",
+   "file": "spinning_disc.png",
+   "cell": [
+    9,
+    8
+   ],
+   "zone": null,
+   "animations": {
+    "spin": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 40,
+     "role": "frame_0",
+     "src": [
+      168,
+      145,
+      8,
+      7
+     ]
+    },
+    {
+     "item": 41,
+     "role": "frame_1",
+     "src": [
+      180,
+      144,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 42,
+     "role": "frame_2",
+     "src": [
+      191,
+      144,
+      8,
+      8
+     ],
+     "mirror_of": 1
+    },
+    {
+     "item": 43,
+     "role": "frame_3",
+     "src": [
+      203,
+      145,
+      8,
+      7
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    168,
+    144,
+    43,
+    8
+   ]
+  },
+  {
+   "id": 3,
+   "name": "minish_run",
+   "file": "minish_run.png",
+   "cell": [
+    20,
+    24
+   ],
+   "zone": null,
+   "animations": {
+    "run_right": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 44,
+     "role": "frame_0",
+     "src": [
+      36,
+      181,
+      16,
+      22
+     ]
+    },
+    {
+     "item": 45,
+     "role": "frame_1",
+     "src": [
+      61,
+      180,
+      16,
+      23
+     ]
+    },
+    {
+     "item": 46,
+     "role": "frame_2",
+     "src": [
+      83,
+      180,
+      19,
+      23
+     ]
+    },
+    {
+     "item": 47,
+     "role": "frame_3",
+     "src": [
+      108,
+      180,
+      18,
+      22
+     ]
+    },
+    {
+     "item": 48,
+     "role": "frame_4",
+     "src": [
+      131,
+      180,
+      16,
+      22
+     ]
+    },
+    {
+     "item": 49,
+     "role": "frame_5",
+     "src": [
+      153,
+      181,
+      18,
+      20
+     ]
+    },
+    {
+     "item": 50,
+     "role": "frame_6",
+     "src": [
+      177,
+      179,
+      18,
+      22
+     ]
+    }
+   ],
+   "box": [
+    36,
+    179,
+    159,
+    24
+   ]
+  },
+  {
+   "id": 4,
+   "name": "minish_turn",
+   "file": "minish_turn.png",
+   "cell": [
+    17,
+    22
+   ],
+   "zone": null,
+   "animations": {
+    "talk_up": [
+     0,
+     1,
+     2
+    ],
+    "talk_right": [
+     5,
+     6,
+     7
+    ],
+    "talk_down": [
+     8,
+     9,
+     10
+    ],
+    "spin": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 51,
+     "role": "frame_0",
+     "src": [
+      27,
+      213,
+      15,
+      21
+     ]
+    },
+    {
+     "item": 52,
+     "role": "frame_1",
+     "src": [
+      45,
+      213,
+      17,
+      21
+     ]
+    },
+    {
+     "item": 53,
+     "role": "frame_2",
+     "src": [
+      65,
+      213,
+      15,
+      21
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 54,
+     "role": "frame_3",
+     "src": [
+      84,
+      214,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 55,
+     "role": "frame_4",
+     "src": [
+      105,
+      214,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 56,
+     "role": "frame_5",
+     "src": [
+      126,
+      212,
+      15,
+      22
+     ]
+    },
+    {
+     "item": 57,
+     "role": "frame_6",
+     "src": [
+      151,
+      212,
+      16,
+      22
+     ]
+    },
+    {
+     "item": 58,
+     "role": "frame_7",
+     "src": [
+      171,
+      212,
+      17,
+      22
+     ]
+    },
+    {
+     "item": 59,
+     "role": "frame_8",
+     "src": [
+      190,
+      212,
+      17,
+      22
+     ]
+    },
+    {
+     "item": 60,
+     "role": "frame_9",
+     "src": [
+      208,
+      212,
+      17,
+      22
+     ]
+    },
+    {
+     "item": 61,
+     "role": "frame_10",
+     "src": [
+      227,
+      212,
+      17,
+      22
+     ],
+     "mirror_of": 8
+    },
+    {
+     "item": 62,
+     "role": "frame_11",
+     "src": [
+      247,
+      212,
+      17,
+      22
+     ],
+     "mirror_of": 7
+    },
+    {
+     "item": 63,
+     "role": "frame_12",
+     "src": [
+      266,
+      212,
+      16,
+      22
+     ]
+    },
+    {
+     "item": 64,
+     "role": "frame_13",
+     "src": [
+      285,
+      212,
+      15,
+      22
+     ],
+     "mirror_of": 5
+    },
+    {
+     "item": 65,
+     "role": "frame_14",
+     "src": [
+      307,
+      214,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 66,
+     "role": "frame_15",
+     "src": [
+      326,
+      214,
+      16,
+      20
+     ]
+    }
+   ],
+   "box": [
+    27,
+    212,
+    315,
+    22
+   ]
+  },
+  {
+   "id": 5,
+   "name": "minish_blacksmith",
+   "file": "minish_blacksmith.png",
+   "cell": [
+    44,
+    42
+   ],
+   "zone": 0,
+   "animations": {
+    "hammer": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      150,
+      249,
+      44,
+      32
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      207,
+      251,
+      43,
+      26
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      264,
+      244,
+      33,
+      38
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      315,
+      246,
+      41,
+      30
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_4",
+     "src": [
+      373,
+      249,
+      40,
+      31
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_5",
+     "src": [
+      426,
+      246,
+      40,
+      36
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_6",
+     "src": [
+      180,
+      293,
+      35,
+      29
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_7",
+     "src": [
+      241,
+      306,
+      36,
+      20
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_8",
+     "src": [
+      309,
+      293,
+      27,
+      36
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_9",
+     "src": [
+      355,
+      305,
+      34,
+      23
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_10",
+     "src": [
+      409,
+      297,
+      38,
+      38
+     ]
+    }
+   ],
+   "box": [
+    150,
+    244,
+    316,
+    91
+   ]
+  },
+  {
+   "id": 6,
+   "name": "mountain_minish",
+   "file": "mountain_minish.png",
+   "cell": [
+    20,
+    27
+   ],
+   "zone": null,
+   "animations": {
+    "idle_down": [
+     6
+    ],
+    "walk_down": [
+     0,
+     1
+    ],
+    "idle_up": [
+     2
+    ],
+    "walk_up": [
+     2,
+     3
+    ],
+    "idle_left": [
+     4
+    ],
+    "walk_left": [
+     4,
+     5
+    ],
+    "cheer": [
+     7
+    ]
+   },
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 20,
+     "role": "frame_0",
+     "src": [
+      40,
+      22,
+      17,
+      20
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_1",
+     "src": [
+      65,
+      22,
+      17,
+      20
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_2",
+     "src": [
+      90,
+      20,
+      19,
+      20
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_3",
+     "src": [
+      113,
+      23,
+      20,
+      18
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_4",
+     "src": [
+      39,
+      50,
+      19,
+      21
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_5",
+     "src": [
+      63,
+      49,
+      19,
+      22
+     ]
+    },
+    {
+     "item": 29,
+     "role": "frame_6",
+     "src": [
+      89,
+      48,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_7",
+     "src": [
+      112,
+      45,
+      18,
+      27
+     ]
+    }
+   ],
+   "box": [
+    39,
+    20,
+    94,
+    52
+   ]
+  },
+  {
+   "id": 7,
+   "name": "minish_carry_shield",
+   "file": "minish_carry_shield.png",
+   "cell": [
+    24,
+    31
+   ],
+   "zone": null,
+   "animations": {
+    "idle_up": [
+     0
+    ],
+    "idle_down": [
+     1
+    ]
+   },
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 35,
+     "role": "frame_0",
+     "src": [
+      32,
+      128,
+      19,
+      31
+     ]
+    },
+    {
+     "item": 36,
+     "role": "frame_1",
+     "src": [
+      56,
+      129,
+      24,
+      30
+     ]
+    }
+   ],
+   "box": [
+    32,
+    128,
+    48,
+    31
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 168,
+   "y": 78,
+   "w": 5,
+   "h": 26,
+   "area": 99,
+   "ncolors": 8,
+   "dominant": "#080808",
+   "dom_frac": 0.222,
+   "kind": "sprite",
+   "zone": 2,
+   "id": 11,
+   "file": "mountain_minish_011.png"
+  },
+  {
+   "x": 186,
+   "y": 76,
+   "w": 6,
+   "h": 27,
+   "area": 88,
+   "ncolors": 8,
+   "dominant": "#584848",
+   "dom_frac": 0.182,
+   "kind": "sprite",
+   "zone": 2,
+   "id": 12,
+   "file": "mountain_minish_012.png"
+  },
+  {
+   "x": 198,
+   "y": 78,
+   "w": 12,
+   "h": 24,
+   "area": 108,
+   "ncolors": 10,
+   "dominant": "#887878",
+   "dom_frac": 0.167,
+   "kind": "sprite",
+   "zone": 2,
+   "id": 13,
+   "file": "mountain_minish_013.png"
+  },
+  {
+   "x": 217,
+   "y": 85,
+   "w": 13,
+   "h": 24,
+   "area": 112,
+   "ncolors": 10,
+   "dominant": "#584848",
+   "dom_frac": 0.17,
+   "kind": "sprite",
+   "zone": 2,
+   "id": 14,
+   "file": "mountain_minish_014.png"
+  },
+  {
+   "x": 238,
+   "y": 93,
+   "w": 26,
+   "h": 22,
+   "area": 205,
+   "ncolors": 10,
+   "dominant": "#887878",
+   "dom_frac": 0.278,
+   "kind": "sprite",
+   "zone": 2,
+   "id": 15,
+   "file": "mountain_minish_015.png"
+  },
+  {
+   "x": 165,
+   "y": 108,
+   "w": 10,
+   "h": 31,
+   "area": 136,
+   "ncolors": 8,
+   "dominant": "#887878",
+   "dom_frac": 0.301,
+   "kind": "sprite",
+   "zone": 2,
+   "id": 16,
+   "file": "mountain_minish_016.png"
+  },
+  {
+   "x": 185,
+   "y": 110,
+   "w": 8,
+   "h": 30,
+   "area": 136,
+   "ncolors": 10,
+   "dominant": "#584848",
+   "dom_frac": 0.221,
+   "kind": "sprite",
+   "zone": 2,
+   "id": 17,
+   "file": "mountain_minish_017.png"
+  },
+  {
+   "x": 203,
+   "y": 111,
+   "w": 8,
+   "h": 28,
+   "area": 90,
+   "ncolors": 10,
+   "dominant": "#603008",
+   "dom_frac": 0.178,
+   "kind": "sprite",
+   "zone": 2,
+   "id": 18,
+   "file": "mountain_minish_018.png"
+  },
+  {
+   "x": 219,
+   "y": 113,
+   "w": 5,
+   "h": 30,
+   "area": 115,
+   "ncolors": 8,
+   "dominant": "#403030",
+   "dom_frac": 0.33,
+   "kind": "sprite",
+   "zone": 2,
+   "id": 19,
+   "file": "mountain_minish_019.png"
+  },
+  {
+   "x": 89,
+   "y": 124,
+   "w": 18,
+   "h": 36,
+   "area": 342,
+   "ncolors": 24,
+   "dominant": "#E0A000",
+   "dom_frac": 0.114,
+   "kind": "sprite",
+   "zone": null,
+   "name": "minish_spear",
+   "id": 37,
+   "file": "minish_spear.png"
+  },
+  {
+   "x": 117,
+   "y": 130,
+   "w": 18,
+   "h": 30,
+   "area": 321,
+   "ncolors": 18,
+   "dominant": "#884838",
+   "dom_frac": 0.156,
+   "kind": "sprite",
+   "zone": null,
+   "cut": true,
+   "name": "minish_pickaxe",
+   "id": 38,
+   "file": "minish_pickaxe.png"
+  },
+  {
+   "x": 169,
+   "y": 157,
+   "w": 5,
+   "h": 4,
+   "area": 16,
+   "ncolors": 5,
+   "dominant": "#000000",
+   "dom_frac": 0.438,
+   "kind": "sprite",
+   "zone": null,
+   "id": 39,
+   "file": "mountain_minish_039.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

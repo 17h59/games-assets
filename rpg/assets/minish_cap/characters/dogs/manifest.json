@@ -1,0 +1,388 @@
+{
+ "sheet": "6400",
+ "game": "minish_cap",
+ "category": "characters",
+ "title": "Dogs",
+ "type": "characters",
+ "template": "none",
+ "validation": "verified",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    6,
+    98,
+    158,
+    9
+   ],
+   "point": [
+    85,
+    102
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 1,
+   "box": [
+    6,
+    111,
+    118,
+    9
+   ],
+   "point": [
+    65,
+    115
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "dog_bark_left",
+   "file": "dog_bark_left.png",
+   "cell": [
+    23,
+    20
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      3,
+      6,
+      23,
+      20
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      31,
+      6,
+      22,
+      20
+     ]
+    }
+   ],
+   "box": [
+    3,
+    6,
+    50,
+    20
+   ]
+  },
+  {
+   "id": 1,
+   "name": "dog_jump_left",
+   "file": "dog_jump_left.png",
+   "cell": [
+    23,
+    22
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 2,
+     "role": "frame_0",
+     "src": [
+      58,
+      5,
+      22,
+      21
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_1",
+     "src": [
+      87,
+      4,
+      23,
+      22
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_2",
+     "src": [
+      115,
+      6,
+      22,
+      20
+     ]
+    }
+   ],
+   "box": [
+    58,
+    4,
+    79,
+    22
+   ]
+  },
+  {
+   "id": 2,
+   "name": "dog_bark_right",
+   "file": "dog_bark_right.png",
+   "cell": [
+    23,
+    20
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 5,
+     "role": "frame_0",
+     "src": [
+      2,
+      30,
+      23,
+      20
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_1",
+     "src": [
+      27,
+      30,
+      22,
+      20
+     ]
+    }
+   ],
+   "box": [
+    2,
+    30,
+    47,
+    20
+   ]
+  },
+  {
+   "id": 3,
+   "name": "dog_jump_right",
+   "file": "dog_jump_right.png",
+   "cell": [
+    24,
+    22
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 7,
+     "role": "frame_0",
+     "src": [
+      53,
+      29,
+      22,
+      21
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_1",
+     "src": [
+      78,
+      28,
+      23,
+      22
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_2",
+     "src": [
+      106,
+      30,
+      22,
+      20
+     ]
+    }
+   ],
+   "box": [
+    53,
+    28,
+    75,
+    22
+   ]
+  },
+  {
+   "id": 4,
+   "name": "dog_idle_down",
+   "file": "dog_idle_down.png",
+   "cell": [
+    14,
+    17
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 10,
+     "role": "frame_0",
+     "src": [
+      3,
+      53,
+      14,
+      17
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_1",
+     "src": [
+      21,
+      53,
+      14,
+      17
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_2",
+     "src": [
+      39,
+      53,
+      14,
+      17
+     ],
+     "mirror_of": 1
+    }
+   ],
+   "box": [
+    3,
+    53,
+    50,
+    17
+   ]
+  },
+  {
+   "id": 5,
+   "name": "dog_growl_left",
+   "file": "dog_growl_left.png",
+   "cell": [
+    24,
+    19
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 13,
+     "role": "frame_0",
+     "src": [
+      57,
+      51,
+      22,
+      19
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_1",
+     "src": [
+      82,
+      51,
+      21,
+      19
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_2",
+     "src": [
+      106,
+      51,
+      23,
+      19
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_3",
+     "src": [
+      133,
+      51,
+      22,
+      19
+     ]
+    }
+   ],
+   "box": [
+    57,
+    51,
+    98,
+    19
+   ]
+  },
+  {
+   "id": 6,
+   "name": "dog_idle_up",
+   "file": "dog_idle_up.png",
+   "cell": [
+    14,
+    19
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 17,
+     "role": "frame_0",
+     "src": [
+      3,
+      73,
+      14,
+      19
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_1",
+     "src": [
+      20,
+      73,
+      14,
+      18
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_2",
+     "src": [
+      38,
+      73,
+      14,
+      18
+     ],
+     "mirror_of": 1
+    }
+   ],
+   "box": [
+    3,
+    73,
+    49,
+    19
+   ]
+  }
+ ],
+ "items": [],
+ "status": "ok",
+ "missing_stages": []
+}

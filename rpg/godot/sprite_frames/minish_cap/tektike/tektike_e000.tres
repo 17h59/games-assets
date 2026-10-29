@@ -1,0 +1,60 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/tektike/tektike_e000.png" id="1_aqcl0"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3o61n"]
+atlas = ExtResource("1_aqcl0")
+region = Rect2(0, 0, 26, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_40h2p"]
+atlas = ExtResource("1_aqcl0")
+region = Rect2(26, 0, 26, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6xfv4"]
+atlas = ExtResource("1_aqcl0")
+region = Rect2(52, 0, 26, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ipbta"]
+atlas = ExtResource("1_aqcl0")
+region = Rect2(78, 0, 26, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wcu1q"]
+atlas = ExtResource("1_aqcl0")
+region = Rect2(104, 0, 26, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_545lr"]
+atlas = ExtResource("1_aqcl0")
+region = Rect2(130, 0, 26, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ojiuf"]
+atlas = ExtResource("1_aqcl0")
+region = Rect2(156, 0, 26, 26)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3o61n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_40h2p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6xfv4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ipbta")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wcu1q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_545lr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ojiuf")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

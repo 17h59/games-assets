@@ -1,0 +1,119 @@
+[gd_scene format=3]
+
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/minish_cap/sword_attacking/sword_attacking_e000.tres" id="1_u1js0"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/minish_cap/sword_attacking/sword_attacking_e001.tres" id="2_rfmky"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/minish_cap/sword_attacking/sword_attacking_e002.tres" id="3_wwqxi"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/minish_cap/sword_attacking/sword_attacking_e003.tres" id="4_j3ese"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/minish_cap/bomb_explosion/bomb_explosion.tres" id="5_wxh64"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/minish_cap/fireball_sfx/fireball_spin.tres" id="6_id8qb"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/minish_cap/fireball_sfx/flame_rise.tres" id="7_6mx0p"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/minish_cap/water_droplet/water_droplet_e000.tres" id="8_jagyo"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/minish_cap/water_droplet/water_droplet_e001.tres" id="9_r83u1"]
+
+[node name="minish_cap_effects" type="Node2D" unique_id=1328569327]
+
+[node name="sword_attacking_e000" type="AnimatedSprite2D" parent="." unique_id=1788609620]
+position = Vector2(0, 10)
+sprite_frames = ExtResource("1_u1js0")
+autoplay = "default"
+centered = false
+
+[node name="@Label@274" type="Label" parent="." unique_id=1359774925]
+theme_override_font_sizes/font_size = 6
+text = "sword_attacking_e000"
+
+[node name="sword_attacking_e001" type="AnimatedSprite2D" parent="." unique_id=309911681]
+position = Vector2(48, 10)
+sprite_frames = ExtResource("2_rfmky")
+autoplay = "default"
+centered = false
+
+[node name="@Label@275" type="Label" parent="." unique_id=895012318]
+offset_left = 48.0
+offset_right = 48.0
+theme_override_font_sizes/font_size = 6
+text = "sword_attacking_e001"
+
+[node name="sword_attacking_e002" type="AnimatedSprite2D" parent="." unique_id=697695001]
+position = Vector2(96, 10)
+sprite_frames = ExtResource("3_wwqxi")
+autoplay = "default"
+centered = false
+
+[node name="@Label@276" type="Label" parent="." unique_id=712519842]
+offset_left = 96.0
+offset_right = 96.0
+theme_override_font_sizes/font_size = 6
+text = "sword_attacking_e002"
+
+[node name="sword_attacking_e003" type="AnimatedSprite2D" parent="." unique_id=627910432]
+position = Vector2(144, 10)
+sprite_frames = ExtResource("4_j3ese")
+autoplay = "default"
+centered = false
+
+[node name="@Label@277" type="Label" parent="." unique_id=1456817584]
+offset_left = 144.0
+offset_right = 144.0
+theme_override_font_sizes/font_size = 6
+text = "sword_attacking_e003"
+
+[node name="bomb_explosion" type="AnimatedSprite2D" parent="." unique_id=204412222]
+position = Vector2(192, 10)
+sprite_frames = ExtResource("5_wxh64")
+autoplay = "default"
+centered = false
+
+[node name="@Label@278" type="Label" parent="." unique_id=1492870177]
+offset_left = 192.0
+offset_right = 192.0
+theme_override_font_sizes/font_size = 6
+text = "bomb_explosion"
+
+[node name="fireball_spin" type="AnimatedSprite2D" parent="." unique_id=198016418]
+position = Vector2(247, 10)
+sprite_frames = ExtResource("6_id8qb")
+autoplay = "default"
+centered = false
+
+[node name="@Label@279" type="Label" parent="." unique_id=2118732312]
+offset_left = 247.0
+offset_right = 247.0
+theme_override_font_sizes/font_size = 6
+text = "fireball_spin"
+
+[node name="flame_rise" type="AnimatedSprite2D" parent="." unique_id=1730062081]
+position = Vector2(295, 10)
+sprite_frames = ExtResource("7_6mx0p")
+autoplay = "default"
+centered = false
+
+[node name="@Label@280" type="Label" parent="." unique_id=541014030]
+offset_left = 295.0
+offset_right = 295.0
+theme_override_font_sizes/font_size = 6
+text = "flame_rise"
+
+[node name="water_droplet_e000" type="AnimatedSprite2D" parent="." unique_id=1294746694]
+position = Vector2(343, 10)
+sprite_frames = ExtResource("8_jagyo")
+autoplay = "default"
+centered = false
+
+[node name="@Label@281" type="Label" parent="." unique_id=1279863011]
+offset_left = 343.0
+offset_right = 343.0
+theme_override_font_sizes/font_size = 6
+text = "water_droplet_e000"
+
+[node name="water_droplet_e001" type="AnimatedSprite2D" parent="." unique_id=2007093285]
+position = Vector2(391, 10)
+sprite_frames = ExtResource("9_r83u1")
+autoplay = "default"
+centered = false
+
+[node name="@Label@282" type="Label" parent="." unique_id=295505231]
+offset_left = 391.0
+offset_right = 391.0
+theme_override_font_sizes/font_size = 6
+text = "water_droplet_e001"

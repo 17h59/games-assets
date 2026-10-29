@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/treecko_hut/flag_wave.png" id="1_4jkh6"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4gut6"]
+atlas = ExtResource("1_4jkh6")
+region = Rect2(0, 0, 31, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mr3ai"]
+atlas = ExtResource("1_4jkh6")
+region = Rect2(31, 0, 31, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2hje6"]
+atlas = ExtResource("1_4jkh6")
+region = Rect2(62, 0, 31, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nudxe"]
+atlas = ExtResource("1_4jkh6")
+region = Rect2(93, 0, 31, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f3wot"]
+atlas = ExtResource("1_4jkh6")
+region = Rect2(124, 0, 31, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fm1md"]
+atlas = ExtResource("1_4jkh6")
+region = Rect2(155, 0, 31, 24)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4gut6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mr3ai")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2hje6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nudxe")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f3wot")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fm1md")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

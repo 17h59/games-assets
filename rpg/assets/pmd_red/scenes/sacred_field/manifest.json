@@ -1,0 +1,58 @@
+{
+ "sheet": "5384",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Sacred Field",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [],
+ "items": [
+  {
+   "x": 0,
+   "y": 1,
+   "w": 121,
+   "h": 35,
+   "area": 1515,
+   "ncolors": 5,
+   "dominant": "#B8F0F8",
+   "dom_frac": 0.661,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "sacred_field_000.png"
+  },
+  {
+   "x": 359,
+   "y": 1,
+   "w": 121,
+   "h": 35,
+   "area": 1515,
+   "ncolors": 5,
+   "dominant": "#B8F0F8",
+   "dom_frac": 0.661,
+   "kind": "sprite",
+   "zone": null,
+   "id": 1,
+   "file": "sacred_field_001.png",
+   "mirror_of": 0
+  },
+  {
+   "x": 0,
+   "y": 3,
+   "w": 480,
+   "h": 309,
+   "area": 132502,
+   "ncolors": 38,
+   "dominant": "#308848",
+   "dom_frac": 0.37,
+   "kind": "sprite",
+   "zone": null,
+   "id": 2,
+   "file": "sacred_field_002.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

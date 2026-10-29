@@ -1,0 +1,731 @@
+{
+ "sheet": "65101",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Volcanic Pit",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "altar_flicker",
+   "file": "altar_flicker.png",
+   "cell": [
+    98,
+    60
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 49,
+     "role": "frame_0",
+     "src": [
+      11,
+      318,
+      98,
+      58
+     ]
+    },
+    {
+     "item": 50,
+     "role": "frame_1",
+     "src": [
+      114,
+      319,
+      91,
+      55
+     ]
+    },
+    {
+     "item": 51,
+     "role": "frame_2",
+     "src": [
+      214,
+      321,
+      91,
+      56
+     ]
+    },
+    {
+     "item": 52,
+     "role": "frame_3",
+     "src": [
+      314,
+      323,
+      96,
+      55
+     ]
+    },
+    {
+     "item": 53,
+     "role": "frame_4",
+     "src": [
+      16,
+      382,
+      87,
+      55
+     ]
+    },
+    {
+     "item": 54,
+     "role": "frame_5",
+     "src": [
+      106,
+      382,
+      94,
+      58
+     ]
+    },
+    {
+     "item": 55,
+     "role": "frame_6",
+     "src": [
+      210,
+      381,
+      95,
+      55
+     ]
+    },
+    {
+     "item": 56,
+     "role": "frame_7",
+     "src": [
+      314,
+      383,
+      94,
+      55
+     ]
+    }
+   ],
+   "box": [
+    11,
+    318,
+    399,
+    122
+   ]
+  },
+  {
+   "id": 1,
+   "name": "lava_column_large",
+   "file": "lava_column_large.png",
+   "cell": [
+    50,
+    169
+   ],
+   "zone": 0,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      484,
+      0,
+      50,
+      169
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      535,
+      0,
+      50,
+      169
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      586,
+      0,
+      50,
+      169
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      637,
+      0,
+      50,
+      169
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_4",
+     "src": [
+      688,
+      0,
+      50,
+      169
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_5",
+     "src": [
+      739,
+      0,
+      50,
+      169
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_6",
+     "src": [
+      790,
+      0,
+      50,
+      169
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_7",
+     "src": [
+      841,
+      0,
+      50,
+      169
+     ]
+    }
+   ],
+   "box": [
+    484,
+    0,
+    407,
+    169
+   ]
+  },
+  {
+   "id": 2,
+   "name": "lava_column_medium",
+   "file": "lava_column_medium.png",
+   "cell": [
+    32,
+    113
+   ],
+   "zone": 0,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 8,
+     "role": "frame_0",
+     "src": [
+      484,
+      170,
+      32,
+      113
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_1",
+     "src": [
+      517,
+      170,
+      32,
+      113
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_2",
+     "src": [
+      550,
+      170,
+      32,
+      113
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_3",
+     "src": [
+      583,
+      170,
+      32,
+      113
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_4",
+     "src": [
+      616,
+      170,
+      32,
+      113
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_5",
+     "src": [
+      649,
+      170,
+      32,
+      113
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_6",
+     "src": [
+      682,
+      170,
+      32,
+      113
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_7",
+     "src": [
+      715,
+      170,
+      32,
+      113
+     ]
+    }
+   ],
+   "box": [
+    484,
+    170,
+    263,
+    113
+   ]
+  },
+  {
+   "id": 3,
+   "name": "lava_column_small",
+   "file": "lava_column_small.png",
+   "cell": [
+    32,
+    57
+   ],
+   "zone": 0,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 16,
+     "role": "frame_0",
+     "src": [
+      484,
+      284,
+      32,
+      57
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_1",
+     "src": [
+      517,
+      284,
+      32,
+      57
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_2",
+     "src": [
+      550,
+      284,
+      32,
+      57
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_3",
+     "src": [
+      583,
+      284,
+      32,
+      57
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_4",
+     "src": [
+      616,
+      284,
+      32,
+      57
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_5",
+     "src": [
+      649,
+      284,
+      32,
+      57
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_6",
+     "src": [
+      682,
+      284,
+      32,
+      57
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_7",
+     "src": [
+      715,
+      284,
+      32,
+      57
+     ]
+    }
+   ],
+   "box": [
+    484,
+    284,
+    263,
+    57
+   ]
+  },
+  {
+   "id": 4,
+   "name": "lava_column_large_alt",
+   "file": "lava_column_large_alt.png",
+   "cell": [
+    50,
+    169
+   ],
+   "zone": 0,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 24,
+     "role": "frame_0",
+     "src": [
+      484,
+      343,
+      50,
+      169
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_1",
+     "src": [
+      535,
+      343,
+      50,
+      169
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_2",
+     "src": [
+      586,
+      343,
+      50,
+      169
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_3",
+     "src": [
+      637,
+      343,
+      50,
+      169
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_4",
+     "src": [
+      688,
+      343,
+      50,
+      169
+     ]
+    },
+    {
+     "item": 29,
+     "role": "frame_5",
+     "src": [
+      739,
+      343,
+      50,
+      169
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_6",
+     "src": [
+      790,
+      343,
+      50,
+      169
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_7",
+     "src": [
+      841,
+      343,
+      50,
+      169
+     ]
+    }
+   ],
+   "box": [
+    484,
+    343,
+    407,
+    169
+   ]
+  },
+  {
+   "id": 5,
+   "name": "lava_column_medium_alt",
+   "file": "lava_column_medium_alt.png",
+   "cell": [
+    32,
+    113
+   ],
+   "zone": 0,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 32,
+     "role": "frame_0",
+     "src": [
+      484,
+      513,
+      32,
+      113
+     ]
+    },
+    {
+     "item": 33,
+     "role": "frame_1",
+     "src": [
+      517,
+      513,
+      32,
+      113
+     ]
+    },
+    {
+     "item": 34,
+     "role": "frame_2",
+     "src": [
+      550,
+      513,
+      32,
+      113
+     ]
+    },
+    {
+     "item": 35,
+     "role": "frame_3",
+     "src": [
+      583,
+      513,
+      32,
+      113
+     ]
+    },
+    {
+     "item": 36,
+     "role": "frame_4",
+     "src": [
+      616,
+      513,
+      32,
+      113
+     ]
+    },
+    {
+     "item": 37,
+     "role": "frame_5",
+     "src": [
+      649,
+      513,
+      32,
+      113
+     ]
+    },
+    {
+     "item": 38,
+     "role": "frame_6",
+     "src": [
+      682,
+      513,
+      32,
+      113
+     ]
+    },
+    {
+     "item": 39,
+     "role": "frame_7",
+     "src": [
+      715,
+      513,
+      32,
+      113
+     ]
+    }
+   ],
+   "box": [
+    484,
+    513,
+    263,
+    113
+   ]
+  },
+  {
+   "id": 6,
+   "name": "lava_column_small_alt",
+   "file": "lava_column_small_alt.png",
+   "cell": [
+    32,
+    57
+   ],
+   "zone": 0,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 40,
+     "role": "frame_0",
+     "src": [
+      484,
+      627,
+      32,
+      57
+     ]
+    },
+    {
+     "item": 41,
+     "role": "frame_1",
+     "src": [
+      517,
+      627,
+      32,
+      57
+     ]
+    },
+    {
+     "item": 42,
+     "role": "frame_2",
+     "src": [
+      550,
+      627,
+      32,
+      57
+     ]
+    },
+    {
+     "item": 43,
+     "role": "frame_3",
+     "src": [
+      583,
+      627,
+      32,
+      57
+     ]
+    },
+    {
+     "item": 44,
+     "role": "frame_4",
+     "src": [
+      616,
+      627,
+      32,
+      57
+     ]
+    },
+    {
+     "item": 45,
+     "role": "frame_5",
+     "src": [
+      649,
+      627,
+      32,
+      57
+     ]
+    },
+    {
+     "item": 46,
+     "role": "frame_6",
+     "src": [
+      682,
+      627,
+      32,
+      57
+     ]
+    },
+    {
+     "item": 47,
+     "role": "frame_7",
+     "src": [
+      715,
+      627,
+      32,
+      57
+     ]
+    }
+   ],
+   "box": [
+    484,
+    627,
+    263,
+    57
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 480,
+   "h": 312,
+   "area": 149760,
+   "ncolors": 50,
+   "dominant": "#983008",
+   "dom_frac": 0.224,
+   "kind": "sprite",
+   "zone": null,
+   "name": "volcanic_pit_bg",
+   "id": 48,
+   "file": "volcanic_pit_bg.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

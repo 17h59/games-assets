@@ -1,0 +1,446 @@
+{
+ "sheet": "6411",
+ "game": "minish_cap",
+ "category": "monsters",
+ "title": "Beetle",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    4,
+    56,
+    36,
+    8
+   ],
+   "point": [
+    22,
+    60
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 1,
+   "box": [
+    99,
+    63,
+    14,
+    7
+   ],
+   "point": [
+    106,
+    66
+   ],
+   "name": null,
+   "folder": "set_01"
+  },
+  {
+   "id": 2,
+   "box": [
+    4,
+    68,
+    87,
+    8
+   ],
+   "point": [
+    47,
+    72
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 3,
+   "box": [
+    101,
+    72,
+    26,
+    8
+   ],
+   "point": [
+    114,
+    76
+   ],
+   "name": null,
+   "folder": "set_03"
+  },
+  {
+   "id": 4,
+   "box": [
+    4,
+    82,
+    81,
+    8
+   ],
+   "point": [
+    44,
+    86
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "beetle_curl",
+   "file": "beetle_curl.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 16,
+     "role": "frame_0",
+     "src": [
+      2,
+      37,
+      16,
+      8
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_1",
+     "src": [
+      22,
+      40,
+      10,
+      11
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_2",
+     "src": [
+      36,
+      38,
+      8,
+      7
+     ]
+    }
+   ],
+   "box": [
+    2,
+    37,
+    42,
+    14
+   ]
+  },
+  {
+   "id": 1,
+   "name": "black_beetle_curl",
+   "file": "black_beetle_curl.png",
+   "cell": [
+    16,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 19,
+     "role": "frame_0",
+     "src": [
+      72,
+      37,
+      16,
+      8
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_1",
+     "src": [
+      92,
+      40,
+      10,
+      11
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_2",
+     "src": [
+      106,
+      38,
+      8,
+      7
+     ]
+    }
+   ],
+   "box": [
+    72,
+    37,
+    42,
+    14
+   ]
+  },
+  {
+   "id": 2,
+   "name": "beetle_walk",
+   "file": "beetle_walk.png",
+   "cell": [
+    16,
+    10
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 8,
+     "role": "frame_0",
+     "src": [
+      2,
+      23,
+      16,
+      10
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_1",
+     "src": [
+      19,
+      24,
+      16,
+      9
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_2",
+     "src": [
+      36,
+      23,
+      16,
+      10
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 11,
+     "role": "frame_3",
+     "src": [
+      53,
+      24,
+      16,
+      9
+     ],
+     "mirror_of": 1
+    }
+   ],
+   "box": [
+    2,
+    23,
+    67,
+    10
+   ]
+  },
+  {
+   "id": 3,
+   "name": "black_beetle_walk",
+   "file": "black_beetle_walk.png",
+   "cell": [
+    16,
+    10
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 12,
+     "role": "frame_0",
+     "src": [
+      72,
+      23,
+      16,
+      10
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_1",
+     "src": [
+      89,
+      24,
+      16,
+      9
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_2",
+     "src": [
+      106,
+      23,
+      16,
+      10
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 15,
+     "role": "frame_3",
+     "src": [
+      123,
+      24,
+      16,
+      9
+     ],
+     "mirror_of": 1
+    }
+   ],
+   "box": [
+    72,
+    23,
+    67,
+    10
+   ]
+  },
+  {
+   "id": 4,
+   "name": "beetle_burrow",
+   "file": "beetle_burrow.png",
+   "cell": [
+    13,
+    13
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 5,
+     "role": "frame_0",
+     "src": [
+      4,
+      6,
+      12,
+      11
+     ]
+    },
+    {
+     "item": 0,
+     "role": "frame_1",
+     "src": [
+      22,
+      4,
+      10,
+      7
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_2",
+     "src": [
+      38,
+      4,
+      4,
+      4
+     ]
+    }
+   ],
+   "box": [
+    4,
+    4,
+    38,
+    13
+   ]
+  },
+  {
+   "id": 5,
+   "name": "black_beetle_burrow",
+   "file": "black_beetle_burrow.png",
+   "cell": [
+    13,
+    13
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 7,
+     "role": "frame_0",
+     "src": [
+      74,
+      6,
+      12,
+      11
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_1",
+     "src": [
+      92,
+      4,
+      10,
+      7
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_2",
+     "src": [
+      108,
+      4,
+      4,
+      4
+     ]
+    }
+   ],
+   "box": [
+    74,
+    4,
+    38,
+    13
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 53,
+   "y": 2,
+   "w": 16,
+   "h": 8,
+   "area": 76,
+   "ncolors": 9,
+   "dominant": "#000000",
+   "dom_frac": 0.316,
+   "kind": "sprite",
+   "zone": null,
+   "name": "beetle_jump",
+   "id": 2,
+   "file": "beetle_jump.png"
+  },
+  {
+   "x": 53,
+   "y": 11,
+   "w": 16,
+   "h": 8,
+   "area": 76,
+   "ncolors": 7,
+   "dominant": "#000000",
+   "dom_frac": 0.316,
+   "kind": "sprite",
+   "zone": null,
+   "name": "beetle_flipped",
+   "id": 6,
+   "file": "beetle_flipped.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

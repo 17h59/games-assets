@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/tadpole_pond/ripples.png" id="1_01prx"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_osusx"]
+atlas = ExtResource("1_01prx")
+region = Rect2(0, 0, 20, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p4fel"]
+atlas = ExtResource("1_01prx")
+region = Rect2(20, 0, 20, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bg2f6"]
+atlas = ExtResource("1_01prx")
+region = Rect2(40, 0, 20, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kbwug"]
+atlas = ExtResource("1_01prx")
+region = Rect2(60, 0, 20, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3l83l"]
+atlas = ExtResource("1_01prx")
+region = Rect2(80, 0, 20, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_osusx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p4fel")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bg2f6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kbwug")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3l83l")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

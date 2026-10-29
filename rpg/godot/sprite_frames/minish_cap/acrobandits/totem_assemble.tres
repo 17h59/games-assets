@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/acrobandits/totem_assemble.png" id="1_qtaky"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0ppbk"]
+atlas = ExtResource("1_qtaky")
+region = Rect2(0, 0, 26, 93)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6w8uu"]
+atlas = ExtResource("1_qtaky")
+region = Rect2(26, 0, 26, 93)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_654lv"]
+atlas = ExtResource("1_qtaky")
+region = Rect2(52, 0, 26, 93)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0ppbk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6w8uu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_654lv")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

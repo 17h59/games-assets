@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/pesto/pesto_e001.png" id="1_q31ax"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3bjp8"]
+atlas = ExtResource("1_q31ax")
+region = Rect2(0, 0, 12, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jsx43"]
+atlas = ExtResource("1_q31ax")
+region = Rect2(12, 0, 12, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s0krn"]
+atlas = ExtResource("1_q31ax")
+region = Rect2(24, 0, 12, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dgjxh"]
+atlas = ExtResource("1_q31ax")
+region = Rect2(36, 0, 12, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_od6kk"]
+atlas = ExtResource("1_q31ax")
+region = Rect2(48, 0, 12, 10)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3bjp8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jsx43")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s0krn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dgjxh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_od6kk")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

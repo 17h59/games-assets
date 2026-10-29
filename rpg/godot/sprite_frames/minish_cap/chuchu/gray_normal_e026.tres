@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/chuchu/gray_normal/gray_normal_e026.png" id="1_yh0iy"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_did5b"]
+atlas = ExtResource("1_yh0iy")
+region = Rect2(0, 0, 17, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6ptl5"]
+atlas = ExtResource("1_yh0iy")
+region = Rect2(17, 0, 17, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0trla"]
+atlas = ExtResource("1_yh0iy")
+region = Rect2(34, 0, 17, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_88box"]
+atlas = ExtResource("1_yh0iy")
+region = Rect2(51, 0, 17, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6fbrh"]
+atlas = ExtResource("1_yh0iy")
+region = Rect2(68, 0, 17, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_psq7s"]
+atlas = ExtResource("1_yh0iy")
+region = Rect2(85, 0, 17, 19)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_did5b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6ptl5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0trla")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_88box")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6fbrh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_psq7s")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

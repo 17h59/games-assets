@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/fire_type_moves/eruption/eruption_e005.png" id="1_2h0iu"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2icsm"]
+atlas = ExtResource("1_2h0iu")
+region = Rect2(0, 0, 15, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n8ely"]
+atlas = ExtResource("1_2h0iu")
+region = Rect2(15, 0, 15, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_riygf"]
+atlas = ExtResource("1_2h0iu")
+region = Rect2(30, 0, 15, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ldggr"]
+atlas = ExtResource("1_2h0iu")
+region = Rect2(45, 0, 15, 13)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2icsm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n8ely")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_riygf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ldggr")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

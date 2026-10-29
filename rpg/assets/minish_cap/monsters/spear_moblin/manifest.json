@@ -1,0 +1,1428 @@
+{
+ "sheet": "6556",
+ "game": "minish_cap",
+ "category": "monsters",
+ "title": "Spear Moblin",
+ "type": "sprites",
+ "template": "none",
+ "validation": "pending",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    235,
+    186,
+    101,
+    13
+   ],
+   "point": [
+    285,
+    192
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 1,
+   "box": [
+    221,
+    206,
+    127,
+    13
+   ],
+   "point": [
+    284,
+    212
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 2,
+   "box": [
+    508,
+    400,
+    87,
+    7
+   ],
+   "point": [
+    551,
+    403
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 3,
+   "box": [
+    510,
+    410,
+    80,
+    13
+   ],
+   "point": [
+    550,
+    416
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 4,
+   "box": [
+    3,
+    418,
+    20,
+    10
+   ],
+   "point": [
+    13,
+    423
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "spear_moblin_e000",
+   "file": "spear_moblin_e000.png",
+   "cell": [
+    31,
+    37
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      70,
+      38,
+      29,
+      34
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      105,
+      36,
+      26,
+      36
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      135,
+      38,
+      29,
+      34
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      171,
+      39,
+      27,
+      34
+     ]
+    }
+   ],
+   "box": [
+    70,
+    36,
+    128,
+    37
+   ]
+  },
+  {
+   "id": 1,
+   "name": "spear_moblin_e001",
+   "file": "spear_moblin_e001.png",
+   "cell": [
+    31,
+    37
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 4,
+     "role": "frame_0",
+     "src": [
+      366,
+      33,
+      29,
+      34
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_1",
+     "src": [
+      401,
+      31,
+      26,
+      36
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_2",
+     "src": [
+      431,
+      33,
+      29,
+      34
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_3",
+     "src": [
+      467,
+      34,
+      27,
+      34
+     ]
+    }
+   ],
+   "box": [
+    366,
+    31,
+    128,
+    37
+   ]
+  },
+  {
+   "id": 2,
+   "name": "spear_moblin_e002",
+   "file": "spear_moblin_e002.png",
+   "cell": [
+    44,
+    31
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 8,
+     "role": "frame_0",
+     "src": [
+      40,
+      77,
+      44,
+      29
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_1",
+     "src": [
+      90,
+      75,
+      37,
+      31
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_2",
+     "src": [
+      135,
+      77,
+      39,
+      29
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_3",
+     "src": [
+      178,
+      75,
+      37,
+      31
+     ],
+     "duplicate_of": 1
+    }
+   ],
+   "box": [
+    40,
+    75,
+    175,
+    31
+   ]
+  },
+  {
+   "id": 3,
+   "name": "spear_moblin_e003",
+   "file": "spear_moblin_e003.png",
+   "cell": [
+    44,
+    31
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 12,
+     "role": "frame_0",
+     "src": [
+      336,
+      72,
+      44,
+      29
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_1",
+     "src": [
+      386,
+      70,
+      37,
+      31
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_2",
+     "src": [
+      431,
+      72,
+      39,
+      29
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_3",
+     "src": [
+      474,
+      70,
+      37,
+      31
+     ],
+     "duplicate_of": 1
+    }
+   ],
+   "box": [
+    336,
+    70,
+    175,
+    31
+   ]
+  },
+  {
+   "id": 4,
+   "name": "spear_moblin_e004",
+   "file": "spear_moblin_e004.png",
+   "cell": [
+    44,
+    31
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 16,
+     "role": "frame_0",
+     "src": [
+      54,
+      109,
+      37,
+      31
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_1",
+     "src": [
+      95,
+      111,
+      39,
+      29
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_2",
+     "src": [
+      142,
+      109,
+      37,
+      31
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 19,
+     "role": "frame_3",
+     "src": [
+      185,
+      111,
+      44,
+      29
+     ]
+    }
+   ],
+   "box": [
+    54,
+    109,
+    175,
+    31
+   ]
+  },
+  {
+   "id": 5,
+   "name": "spear_moblin_e005",
+   "file": "spear_moblin_e005.png",
+   "cell": [
+    44,
+    31
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 20,
+     "role": "frame_0",
+     "src": [
+      350,
+      104,
+      37,
+      31
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_1",
+     "src": [
+      391,
+      106,
+      39,
+      29
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_2",
+     "src": [
+      438,
+      104,
+      37,
+      31
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 23,
+     "role": "frame_3",
+     "src": [
+      481,
+      106,
+      44,
+      29
+     ]
+    }
+   ],
+   "box": [
+    350,
+    104,
+    175,
+    31
+   ]
+  },
+  {
+   "id": 6,
+   "name": "spear_moblin_e006",
+   "file": "spear_moblin_e006.png",
+   "cell": [
+    30,
+    38
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 25,
+     "role": "frame_0",
+     "src": [
+      370,
+      141,
+      28,
+      35
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_1",
+     "src": [
+      402,
+      140,
+      26,
+      34
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_2",
+     "src": [
+      435,
+      141,
+      28,
+      35
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_3",
+     "src": [
+      467,
+      143,
+      27,
+      35
+     ]
+    }
+   ],
+   "box": [
+    370,
+    140,
+    124,
+    38
+   ]
+  },
+  {
+   "id": 7,
+   "name": "spear_moblin_e007",
+   "file": "spear_moblin_e007.png",
+   "cell": [
+    28,
+    44
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 46,
+     "role": "frame_0",
+     "src": [
+      85,
+      210,
+      26,
+      42
+     ]
+    },
+    {
+     "item": 47,
+     "role": "frame_1",
+     "src": [
+      116,
+      208,
+      26,
+      44
+     ]
+    },
+    {
+     "item": 48,
+     "role": "frame_2",
+     "src": [
+      146,
+      210,
+      26,
+      42
+     ]
+    },
+    {
+     "item": 49,
+     "role": "frame_3",
+     "src": [
+      179,
+      208,
+      26,
+      44
+     ]
+    }
+   ],
+   "box": [
+    85,
+    208,
+    120,
+    44
+   ]
+  },
+  {
+   "id": 8,
+   "name": "spear_moblin_e008",
+   "file": "spear_moblin_e008.png",
+   "cell": [
+    28,
+    44
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 50,
+     "role": "frame_0",
+     "src": [
+      381,
+      205,
+      26,
+      42
+     ]
+    },
+    {
+     "item": 51,
+     "role": "frame_1",
+     "src": [
+      412,
+      203,
+      26,
+      44
+     ]
+    },
+    {
+     "item": 52,
+     "role": "frame_2",
+     "src": [
+      442,
+      205,
+      26,
+      42
+     ]
+    },
+    {
+     "item": 53,
+     "role": "frame_3",
+     "src": [
+      475,
+      203,
+      26,
+      44
+     ]
+    }
+   ],
+   "box": [
+    381,
+    203,
+    120,
+    44
+   ]
+  },
+  {
+   "id": 9,
+   "name": "spear_moblin_e009",
+   "file": "spear_moblin_e009.png",
+   "cell": [
+    55,
+    32
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 54,
+     "role": "frame_0",
+     "src": [
+      18,
+      257,
+      53,
+      32
+     ]
+    },
+    {
+     "item": 55,
+     "role": "frame_1",
+     "src": [
+      79,
+      259,
+      53,
+      30
+     ]
+    },
+    {
+     "item": 56,
+     "role": "frame_2",
+     "src": [
+      141,
+      257,
+      53,
+      32
+     ]
+    },
+    {
+     "item": 57,
+     "role": "frame_3",
+     "src": [
+      200,
+      259,
+      53,
+      30
+     ]
+    }
+   ],
+   "box": [
+    18,
+    257,
+    235,
+    32
+   ]
+  },
+  {
+   "id": 10,
+   "name": "spear_moblin_e010",
+   "file": "spear_moblin_e010.png",
+   "cell": [
+    55,
+    32
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 58,
+     "role": "frame_0",
+     "src": [
+      314,
+      252,
+      53,
+      32
+     ]
+    },
+    {
+     "item": 59,
+     "role": "frame_1",
+     "src": [
+      375,
+      254,
+      53,
+      30
+     ]
+    },
+    {
+     "item": 60,
+     "role": "frame_2",
+     "src": [
+      437,
+      252,
+      53,
+      32
+     ]
+    },
+    {
+     "item": 61,
+     "role": "frame_3",
+     "src": [
+      496,
+      254,
+      53,
+      30
+     ]
+    }
+   ],
+   "box": [
+    314,
+    252,
+    235,
+    32
+   ]
+  },
+  {
+   "id": 11,
+   "name": "spear_moblin_e011",
+   "file": "spear_moblin_e011.png",
+   "cell": [
+    55,
+    32
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 62,
+     "role": "frame_0",
+     "src": [
+      47,
+      299,
+      53,
+      30
+     ]
+    },
+    {
+     "item": 63,
+     "role": "frame_1",
+     "src": [
+      106,
+      297,
+      53,
+      32
+     ]
+    },
+    {
+     "item": 64,
+     "role": "frame_2",
+     "src": [
+      168,
+      299,
+      53,
+      30
+     ]
+    },
+    {
+     "item": 65,
+     "role": "frame_3",
+     "src": [
+      229,
+      297,
+      53,
+      32
+     ]
+    }
+   ],
+   "box": [
+    47,
+    297,
+    235,
+    32
+   ]
+  },
+  {
+   "id": 12,
+   "name": "spear_moblin_e012",
+   "file": "spear_moblin_e012.png",
+   "cell": [
+    55,
+    32
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 66,
+     "role": "frame_0",
+     "src": [
+      343,
+      294,
+      53,
+      30
+     ]
+    },
+    {
+     "item": 67,
+     "role": "frame_1",
+     "src": [
+      402,
+      292,
+      53,
+      32
+     ]
+    },
+    {
+     "item": 68,
+     "role": "frame_2",
+     "src": [
+      464,
+      294,
+      53,
+      30
+     ]
+    },
+    {
+     "item": 69,
+     "role": "frame_3",
+     "src": [
+      525,
+      292,
+      53,
+      32
+     ]
+    }
+   ],
+   "box": [
+    343,
+    292,
+    235,
+    32
+   ]
+  },
+  {
+   "id": 13,
+   "name": "spear_moblin_e013",
+   "file": "spear_moblin_e013.png",
+   "cell": [
+    27,
+    40
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 72,
+     "role": "frame_0",
+     "src": [
+      383,
+      332,
+      27,
+      38
+     ]
+    },
+    {
+     "item": 73,
+     "role": "frame_1",
+     "src": [
+      417,
+      330,
+      26,
+      38
+     ]
+    },
+    {
+     "item": 74,
+     "role": "frame_2",
+     "src": [
+      449,
+      332,
+      27,
+      38
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 75,
+     "role": "frame_3",
+     "src": [
+      482,
+      330,
+      27,
+      38
+     ]
+    }
+   ],
+   "box": [
+    383,
+    330,
+    126,
+    40
+   ]
+  },
+  {
+   "id": 14,
+   "name": "spear_moblin_e014",
+   "file": "spear_moblin_e014.png",
+   "cell": [
+    16,
+    11
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 82,
+     "role": "frame_0",
+     "src": [
+      240,
+      395,
+      12,
+      8
+     ]
+    },
+    {
+     "item": 83,
+     "role": "frame_1",
+     "src": [
+      253,
+      393,
+      16,
+      11
+     ]
+    }
+   ],
+   "box": [
+    240,
+    393,
+    29,
+    11
+   ]
+  },
+  {
+   "id": 15,
+   "name": "spear_moblin_e015",
+   "file": "spear_moblin_e015.png",
+   "cell": [
+    30,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 84,
+     "role": "frame_0",
+     "src": [
+      270,
+      392,
+      20,
+      14
+     ]
+    },
+    {
+     "item": 85,
+     "role": "frame_1",
+     "src": [
+      291,
+      392,
+      28,
+      15
+     ]
+    },
+    {
+     "item": 86,
+     "role": "frame_2",
+     "src": [
+      320,
+      391,
+      30,
+      16
+     ]
+    },
+    {
+     "item": 87,
+     "role": "frame_3",
+     "src": [
+      351,
+      391,
+      30,
+      16
+     ]
+    },
+    {
+     "item": 88,
+     "role": "frame_4",
+     "src": [
+      382,
+      392,
+      30,
+      15
+     ]
+    },
+    {
+     "item": 89,
+     "role": "frame_5",
+     "src": [
+      413,
+      393,
+      30,
+      14
+     ]
+    },
+    {
+     "item": 90,
+     "role": "frame_6",
+     "src": [
+      444,
+      393,
+      30,
+      14
+     ]
+    }
+   ],
+   "box": [
+    270,
+    391,
+    204,
+    16
+   ]
+  },
+  {
+   "id": 16,
+   "name": "spear_moblin_e016",
+   "file": "spear_moblin_e016.png",
+   "cell": [
+    30,
+    38
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 29,
+     "role": "frame_0",
+     "src": [
+      74,
+      146,
+      28,
+      35
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_1",
+     "src": [
+      106,
+      145,
+      26,
+      34
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_2",
+     "src": [
+      139,
+      146,
+      28,
+      35
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_3",
+     "src": [
+      171,
+      148,
+      27,
+      35
+     ]
+    }
+   ],
+   "box": [
+    74,
+    145,
+    124,
+    38
+   ]
+  },
+  {
+   "id": 17,
+   "name": "spear_moblin_e017",
+   "file": "spear_moblin_e017.png",
+   "cell": [
+    27,
+    40
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 76,
+     "role": "frame_0",
+     "src": [
+      87,
+      337,
+      27,
+      38
+     ]
+    },
+    {
+     "item": 70,
+     "role": "frame_1",
+     "src": [
+      121,
+      335,
+      26,
+      38
+     ]
+    },
+    {
+     "item": 77,
+     "role": "frame_2",
+     "src": [
+      153,
+      337,
+      27,
+      38
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 71,
+     "role": "frame_3",
+     "src": [
+      186,
+      335,
+      27,
+      38
+     ]
+    }
+   ],
+   "box": [
+    87,
+    335,
+    126,
+    40
+   ]
+  },
+  {
+   "id": 18,
+   "name": "spear_moblin_e018",
+   "file": "spear_moblin_e018.png",
+   "cell": [
+    16,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 32,
+     "role": "frame_0",
+     "src": [
+      110,
+      199,
+      2,
+      2
+     ]
+    },
+    {
+     "item": 33,
+     "role": "frame_1",
+     "src": [
+      114,
+      198,
+      4,
+      4
+     ]
+    },
+    {
+     "item": 41,
+     "role": "frame_2",
+     "src": [
+      119,
+      197,
+      6,
+      6
+     ]
+    },
+    {
+     "item": 42,
+     "role": "frame_3",
+     "src": [
+      126,
+      196,
+      7,
+      7
+     ]
+    },
+    {
+     "item": 43,
+     "role": "frame_4",
+     "src": [
+      135,
+      195,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 44,
+     "role": "frame_5",
+     "src": [
+      145,
+      191,
+      13,
+      13
+     ]
+    },
+    {
+     "item": 45,
+     "role": "frame_6",
+     "src": [
+      159,
+      189,
+      16,
+      16
+     ]
+    }
+   ],
+   "box": [
+    110,
+    189,
+    65,
+    16
+   ]
+  },
+  {
+   "id": 19,
+   "name": "spear_moblin_e019",
+   "file": "spear_moblin_e019.png",
+   "cell": [
+    16,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 34,
+     "role": "frame_0",
+     "src": [
+      407,
+      194,
+      2,
+      2
+     ]
+    },
+    {
+     "item": 35,
+     "role": "frame_1",
+     "src": [
+      411,
+      193,
+      4,
+      4
+     ]
+    },
+    {
+     "item": 36,
+     "role": "frame_2",
+     "src": [
+      416,
+      192,
+      6,
+      6
+     ]
+    },
+    {
+     "item": 37,
+     "role": "frame_3",
+     "src": [
+      423,
+      191,
+      7,
+      7
+     ]
+    },
+    {
+     "item": 38,
+     "role": "frame_4",
+     "src": [
+      432,
+      190,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 39,
+     "role": "frame_5",
+     "src": [
+      442,
+      186,
+      13,
+      13
+     ]
+    },
+    {
+     "item": 40,
+     "role": "frame_6",
+     "src": [
+      456,
+      184,
+      16,
+      16
+     ]
+    }
+   ],
+   "box": [
+    407,
+    184,
+    65,
+    16
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 138,
+   "y": 385,
+   "w": 28,
+   "h": 35,
+   "area": 619,
+   "ncolors": 29,
+   "dominant": "#408870",
+   "dom_frac": 0.168,
+   "kind": "sprite",
+   "zone": null,
+   "id": 78,
+   "file": "spear_moblin_078.png"
+  },
+  {
+   "x": 201,
+   "y": 389,
+   "w": 22,
+   "h": 22,
+   "area": 116,
+   "ncolors": 4,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.448,
+   "kind": "sprite",
+   "zone": null,
+   "id": 79,
+   "file": "spear_moblin_079.png"
+  },
+  {
+   "x": 176,
+   "y": 393,
+   "w": 24,
+   "h": 15,
+   "area": 114,
+   "ncolors": 3,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.447,
+   "kind": "sprite",
+   "zone": null,
+   "id": 80,
+   "file": "spear_moblin_080.png"
+  },
+  {
+   "x": 224,
+   "y": 393,
+   "w": 14,
+   "h": 14,
+   "area": 164,
+   "ncolors": 11,
+   "dominant": "#706060",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 81,
+   "file": "spear_moblin_081.png"
+  }
+ ],
+ "status": "needs_review",
+ "missing_stages": [
+  "decoupage",
+  "regroupement",
+  "nommage"
+ ]
+}

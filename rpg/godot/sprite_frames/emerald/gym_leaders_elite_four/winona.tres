@@ -1,0 +1,42 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/emerald/characters/gym_leaders_elite_four/winona.png" id="1_d6m5h"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3tr5t"]
+atlas = ExtResource("1_d6m5h")
+region = Rect2(0, 0, 16, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1gxue"]
+atlas = ExtResource("1_d6m5h")
+region = Rect2(32, 0, 16, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_447w3"]
+atlas = ExtResource("1_d6m5h")
+region = Rect2(16, 0, 16, 20)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3tr5t")
+}],
+"loop": 1,
+"name": &"idle_down",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1gxue")
+}],
+"loop": 1,
+"name": &"idle_left",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_447w3")
+}],
+"loop": 1,
+"name": &"idle_up",
+"speed": 1.0
+}]

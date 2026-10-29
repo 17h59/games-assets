@@ -1,0 +1,60 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/link_cap/link_cap_e177.png" id="1_hoqu2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s5i3j"]
+atlas = ExtResource("1_hoqu2")
+region = Rect2(0, 0, 19, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p6oss"]
+atlas = ExtResource("1_hoqu2")
+region = Rect2(19, 0, 19, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kvhfs"]
+atlas = ExtResource("1_hoqu2")
+region = Rect2(38, 0, 19, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3dgsc"]
+atlas = ExtResource("1_hoqu2")
+region = Rect2(57, 0, 19, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xjghm"]
+atlas = ExtResource("1_hoqu2")
+region = Rect2(76, 0, 19, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ep8d1"]
+atlas = ExtResource("1_hoqu2")
+region = Rect2(95, 0, 19, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sn5l0"]
+atlas = ExtResource("1_hoqu2")
+region = Rect2(114, 0, 19, 23)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s5i3j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p6oss")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kvhfs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3dgsc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xjghm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ep8d1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sn5l0")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

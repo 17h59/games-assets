@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/poison_type_moves/poison_powder/poison_powder_e033.png" id="1_i0ej7"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m65da"]
+atlas = ExtResource("1_i0ej7")
+region = Rect2(0, 0, 34, 46)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8cvtc"]
+atlas = ExtResource("1_i0ej7")
+region = Rect2(34, 0, 34, 46)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e0wiy"]
+atlas = ExtResource("1_i0ej7")
+region = Rect2(68, 0, 34, 46)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rww2c"]
+atlas = ExtResource("1_i0ej7")
+region = Rect2(102, 0, 34, 46)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m65da")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8cvtc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e0wiy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rww2c")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

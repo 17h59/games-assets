@@ -1,0 +1,139 @@
+{
+ "sheet": "5346",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Mudkip Hut",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "flag",
+   "file": "flag.png",
+   "cell": [
+    29,
+    24
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      1,
+      1,
+      28,
+      22
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_1",
+     "src": [
+      31,
+      1,
+      28,
+      22
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_2",
+     "src": [
+      61,
+      1,
+      28,
+      22
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_3",
+     "src": [
+      91,
+      1,
+      29,
+      22
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_4",
+     "src": [
+      2,
+      29,
+      28,
+      23
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_5",
+     "src": [
+      33,
+      28,
+      28,
+      22
+     ]
+    }
+   ],
+   "box": [
+    1,
+    1,
+    119,
+    51
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 392,
+   "h": 312,
+   "area": 112585,
+   "ncolors": 108,
+   "dominant": "#70C850",
+   "dom_frac": 0.169,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "mudkip_hut_000.png"
+  },
+  {
+   "x": 89,
+   "y": 49,
+   "w": 34,
+   "h": 5,
+   "area": 87,
+   "ncolors": 3,
+   "dominant": "#20C0F8",
+   "dom_frac": 0.333,
+   "kind": "sprite",
+   "zone": null,
+   "name": "water_ripples",
+   "id": 7,
+   "file": "water_ripples.png"
+  },
+  {
+   "x": 10,
+   "y": 316,
+   "w": 350,
+   "h": 278,
+   "area": 74004,
+   "ncolors": 129,
+   "dominant": "#38A060",
+   "dom_frac": 0.088,
+   "kind": "sprite",
+   "zone": null,
+   "id": 8,
+   "file": "mudkip_hut_008.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

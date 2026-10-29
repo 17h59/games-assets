@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/pikachu_hut/flag_wave.png" id="1_iw81d"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1uhhp"]
+atlas = ExtResource("1_iw81d")
+region = Rect2(0, 0, 29, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b73b1"]
+atlas = ExtResource("1_iw81d")
+region = Rect2(29, 0, 29, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fdhhl"]
+atlas = ExtResource("1_iw81d")
+region = Rect2(58, 0, 29, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mq6ma"]
+atlas = ExtResource("1_iw81d")
+region = Rect2(87, 0, 29, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bqlec"]
+atlas = ExtResource("1_iw81d")
+region = Rect2(116, 0, 29, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s27s4"]
+atlas = ExtResource("1_iw81d")
+region = Rect2(145, 0, 29, 23)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1uhhp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b73b1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fdhhl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mq6ma")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bqlec")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s27s4")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

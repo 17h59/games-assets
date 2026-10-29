@@ -1,0 +1,1007 @@
+{
+ "sheet": "19786",
+ "game": "pmd_red",
+ "category": "effects",
+ "title": "Effects",
+ "type": "sprites",
+ "template": "none",
+ "validation": "pending",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    206,
+    63,
+    17,
+    11
+   ],
+   "point": [
+    214,
+    68
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 1,
+   "box": [
+    198,
+    77,
+    89,
+    8
+   ],
+   "point": [
+    242,
+    81
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 2,
+   "box": [
+    158,
+    110,
+    96,
+    8
+   ],
+   "point": [
+    206,
+    114
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 3,
+   "box": [
+    158,
+    122,
+    94,
+    8
+   ],
+   "point": [
+    205,
+    126
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 4,
+   "box": [
+    160,
+    134,
+    28,
+    8
+   ],
+   "point": [
+    174,
+    138
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 5,
+   "box": [
+    154,
+    181,
+    82,
+    7
+   ],
+   "point": [
+    195,
+    184
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "effects_e000",
+   "file": "effects_e000.png",
+   "cell": [
+    24,
+    8
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      6,
+      10,
+      24,
+      8
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      33,
+      10,
+      23,
+      8
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      58,
+      10,
+      24,
+      8
+     ]
+    }
+   ],
+   "box": [
+    6,
+    10,
+    76,
+    8
+   ]
+  },
+  {
+   "id": 1,
+   "name": "effects_e001",
+   "file": "effects_e001.png",
+   "cell": [
+    22,
+    8
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 3,
+     "role": "frame_0",
+     "src": [
+      90,
+      11,
+      8,
+      4
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_1",
+     "src": [
+      99,
+      10,
+      14,
+      6
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_2",
+     "src": [
+      114,
+      9,
+      22,
+      8
+     ]
+    }
+   ],
+   "box": [
+    90,
+    9,
+    46,
+    8
+   ]
+  },
+  {
+   "id": 2,
+   "name": "effects_e002",
+   "file": "effects_e002.png",
+   "cell": [
+    11,
+    12
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 7,
+     "role": "frame_0",
+     "src": [
+      154,
+      14,
+      11,
+      8
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_1",
+     "src": [
+      167,
+      13,
+      8,
+      9
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_2",
+     "src": [
+      185,
+      10,
+      7,
+      12
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_3",
+     "src": [
+      195,
+      14,
+      7,
+      8
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_4",
+     "src": [
+      204,
+      16,
+      7,
+      6
+     ]
+    }
+   ],
+   "box": [
+    154,
+    10,
+    57,
+    12
+   ]
+  },
+  {
+   "id": 3,
+   "name": "effects_e003",
+   "file": "effects_e003.png",
+   "cell": [
+    23,
+    23
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 12,
+     "role": "frame_0",
+     "src": [
+      23,
+      31,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_1",
+     "src": [
+      41,
+      24,
+      23,
+      23
+     ]
+    }
+   ],
+   "box": [
+    23,
+    24,
+    41,
+    23
+   ]
+  },
+  {
+   "id": 4,
+   "name": "effects_e004",
+   "file": "effects_e004.png",
+   "cell": [
+    9,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 14,
+     "role": "frame_0",
+     "src": [
+      74,
+      37,
+      8,
+      14
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_1",
+     "src": [
+      84,
+      37,
+      8,
+      14
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_2",
+     "src": [
+      94,
+      37,
+      9,
+      14
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_3",
+     "src": [
+      105,
+      37,
+      9,
+      14
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_4",
+     "src": [
+      116,
+      37,
+      8,
+      14
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_5",
+     "src": [
+      127,
+      37,
+      8,
+      14
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_6",
+     "src": [
+      137,
+      37,
+      8,
+      14
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_7",
+     "src": [
+      148,
+      37,
+      8,
+      14
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_8",
+     "src": [
+      158,
+      37,
+      8,
+      14
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_9",
+     "src": [
+      168,
+      37,
+      8,
+      14
+     ]
+    }
+   ],
+   "box": [
+    74,
+    37,
+    102,
+    14
+   ]
+  },
+  {
+   "id": 5,
+   "name": "effects_e005",
+   "file": "effects_e005.png",
+   "cell": [
+    5,
+    12
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 24,
+     "role": "frame_0",
+     "src": [
+      190,
+      37,
+      5,
+      8
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_1",
+     "src": [
+      197,
+      37,
+      5,
+      12
+     ]
+    }
+   ],
+   "box": [
+    190,
+    37,
+    12,
+    12
+   ]
+  },
+  {
+   "id": 6,
+   "name": "effects_e006",
+   "file": "effects_e006.png",
+   "cell": [
+    7,
+    13
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 26,
+     "role": "frame_0",
+     "src": [
+      22,
+      55,
+      7,
+      13
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_1",
+     "src": [
+      30,
+      55,
+      7,
+      13
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_2",
+     "src": [
+      38,
+      55,
+      7,
+      13
+     ]
+    },
+    {
+     "item": 29,
+     "role": "frame_3",
+     "src": [
+      46,
+      55,
+      7,
+      13
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_4",
+     "src": [
+      54,
+      55,
+      7,
+      13
+     ]
+    }
+   ],
+   "box": [
+    22,
+    55,
+    39,
+    13
+   ]
+  },
+  {
+   "id": 7,
+   "name": "effects_e007",
+   "file": "effects_e007.png",
+   "cell": [
+    5,
+    5
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 31,
+     "role": "frame_0",
+     "src": [
+      211,
+      67,
+      3,
+      3
+     ]
+    },
+    {
+     "item": 32,
+     "role": "frame_1",
+     "src": [
+      215,
+      66,
+      5,
+      5
+     ]
+    }
+   ],
+   "box": [
+    211,
+    66,
+    9,
+    5
+   ]
+  },
+  {
+   "id": 8,
+   "name": "effects_e008",
+   "file": "effects_e008.png",
+   "cell": [
+    16,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 33,
+     "role": "frame_0",
+     "src": [
+      75,
+      60,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 34,
+     "role": "frame_1",
+     "src": [
+      93,
+      60,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 35,
+     "role": "frame_2",
+     "src": [
+      111,
+      60,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 36,
+     "role": "frame_3",
+     "src": [
+      128,
+      60,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 37,
+     "role": "frame_4",
+     "src": [
+      146,
+      60,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 38,
+     "role": "frame_5",
+     "src": [
+      164,
+      60,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 39,
+     "role": "frame_6",
+     "src": [
+      182,
+      60,
+      16,
+      16
+     ]
+    }
+   ],
+   "box": [
+    75,
+    60,
+    123,
+    16
+   ]
+  },
+  {
+   "id": 9,
+   "name": "effects_e009",
+   "file": "effects_e009.png",
+   "cell": [
+    22,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 40,
+     "role": "frame_0",
+     "src": [
+      8,
+      80,
+      16,
+      15
+     ]
+    },
+    {
+     "item": 41,
+     "role": "frame_1",
+     "src": [
+      27,
+      79,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 42,
+     "role": "frame_2",
+     "src": [
+      45,
+      79,
+      22,
+      16
+     ]
+    }
+   ],
+   "box": [
+    8,
+    79,
+    59,
+    16
+   ]
+  },
+  {
+   "id": 10,
+   "name": "effects_e010",
+   "file": "effects_e010.png",
+   "cell": [
+    16,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 43,
+     "role": "frame_0",
+     "src": [
+      76,
+      81,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 44,
+     "role": "frame_1",
+     "src": [
+      93,
+      81,
+      16,
+      16
+     ]
+    }
+   ],
+   "box": [
+    76,
+    81,
+    33,
+    16
+   ]
+  },
+  {
+   "id": 11,
+   "name": "effects_e011",
+   "file": "effects_e011.png",
+   "cell": [
+    4,
+    5
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 46,
+     "role": "frame_0",
+     "src": [
+      173,
+      100,
+      4,
+      5
+     ]
+    },
+    {
+     "item": 47,
+     "role": "frame_1",
+     "src": [
+      181,
+      98,
+      4,
+      5
+     ]
+    },
+    {
+     "item": 48,
+     "role": "frame_2",
+     "src": [
+      188,
+      99,
+      4,
+      5
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 49,
+     "role": "frame_3",
+     "src": [
+      196,
+      99,
+      4,
+      5
+     ],
+     "duplicate_of": 1
+    }
+   ],
+   "box": [
+    173,
+    98,
+    27,
+    7
+   ]
+  },
+  {
+   "id": 12,
+   "name": "effects_e012",
+   "file": "effects_e012.png",
+   "cell": [
+    11,
+    8
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 51,
+     "role": "frame_0",
+     "src": [
+      34,
+      110,
+      11,
+      7
+     ]
+    },
+    {
+     "item": 52,
+     "role": "frame_1",
+     "src": [
+      47,
+      109,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 53,
+     "role": "frame_2",
+     "src": [
+      56,
+      109,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 54,
+     "role": "frame_3",
+     "src": [
+      65,
+      109,
+      5,
+      8
+     ]
+    },
+    {
+     "item": 55,
+     "role": "frame_4",
+     "src": [
+      74,
+      109,
+      5,
+      8
+     ]
+    }
+   ],
+   "box": [
+    34,
+    109,
+    45,
+    8
+   ]
+  },
+  {
+   "id": 13,
+   "name": "effects_e013",
+   "file": "effects_e013.png",
+   "cell": [
+    7,
+    7
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 56,
+     "role": "frame_0",
+     "src": [
+      101,
+      110,
+      7,
+      7
+     ]
+    },
+    {
+     "item": 57,
+     "role": "frame_1",
+     "src": [
+      110,
+      110,
+      7,
+      7
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 58,
+     "role": "frame_2",
+     "src": [
+      119,
+      110,
+      7,
+      7
+     ]
+    },
+    {
+     "item": 59,
+     "role": "frame_3",
+     "src": [
+      128,
+      110,
+      7,
+      7
+     ],
+     "mirror_of": 2
+    }
+   ],
+   "box": [
+    101,
+    110,
+    34,
+    7
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 178,
+   "y": 12,
+   "w": 4,
+   "h": 9,
+   "area": 33,
+   "ncolors": 2,
+   "dominant": "#F8F000",
+   "dom_frac": 0.818,
+   "kind": "sprite",
+   "zone": null,
+   "id": 6,
+   "file": "effects_006.png"
+  },
+  {
+   "x": 111,
+   "y": 81,
+   "w": 16,
+   "h": 16,
+   "area": 128,
+   "ncolors": 5,
+   "dominant": "#000000",
+   "dom_frac": 0.32,
+   "kind": "sprite",
+   "zone": null,
+   "id": 45,
+   "file": "effects_045.png"
+  },
+  {
+   "x": 6,
+   "y": 101,
+   "w": 16,
+   "h": 15,
+   "area": 140,
+   "ncolors": 4,
+   "dominant": "#F8F870",
+   "dom_frac": 0.614,
+   "kind": "sprite",
+   "zone": null,
+   "id": 50,
+   "file": "effects_050.png"
+  }
+ ],
+ "status": "needs_review",
+ "missing_stages": [
+  "decoupage",
+  "regroupement",
+  "nommage"
+ ]
+}

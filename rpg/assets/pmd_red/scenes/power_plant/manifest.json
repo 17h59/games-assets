@@ -1,0 +1,271 @@
+{
+ "sheet": "5381",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Power Plant",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "power_plant_e000",
+   "file": "power_plant_e000.png",
+   "cell": [
+    80,
+    49
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      487,
+      26,
+      80,
+      36
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_1",
+     "src": [
+      487,
+      64,
+      80,
+      36
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_2",
+     "src": [
+      487,
+      102,
+      80,
+      36
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_3",
+     "src": [
+      487,
+      141,
+      80,
+      36
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_4",
+     "src": [
+      487,
+      179,
+      80,
+      49
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_5",
+     "src": [
+      487,
+      230,
+      80,
+      41
+     ]
+    }
+   ],
+   "box": [
+    487,
+    26,
+    80,
+    245
+   ]
+  },
+  {
+   "id": 1,
+   "name": "power_plant_e001",
+   "file": "power_plant_e001.png",
+   "cell": [
+    64,
+    55
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 2,
+     "role": "frame_0",
+     "src": [
+      569,
+      26,
+      64,
+      55
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_1",
+     "src": [
+      569,
+      83,
+      64,
+      55
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_2",
+     "src": [
+      569,
+      140,
+      64,
+      55
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_3",
+     "src": [
+      569,
+      197,
+      64,
+      55
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_4",
+     "src": [
+      569,
+      254,
+      64,
+      55
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_5",
+     "src": [
+      569,
+      311,
+      64,
+      55
+     ],
+     "mirror_of": 1
+    }
+   ],
+   "box": [
+    569,
+    26,
+    64,
+    340
+   ]
+  },
+  {
+   "id": 2,
+   "name": "power_plant_e002",
+   "file": "power_plant_e002.png",
+   "cell": [
+    32,
+    48
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 3,
+     "role": "frame_0",
+     "src": [
+      635,
+      26,
+      32,
+      48
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_1",
+     "src": [
+      635,
+      75,
+      32,
+      48
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_2",
+     "src": [
+      635,
+      124,
+      32,
+      48
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_3",
+     "src": [
+      635,
+      173,
+      32,
+      48
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_4",
+     "src": [
+      635,
+      222,
+      32,
+      48
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_5",
+     "src": [
+      635,
+      271,
+      32,
+      48
+     ]
+    }
+   ],
+   "box": [
+    635,
+    26,
+    32,
+    293
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 3,
+   "y": 0,
+   "w": 480,
+   "h": 336,
+   "area": 148848,
+   "ncolors": 108,
+   "dominant": "#D8D0C8",
+   "dom_frac": 0.065,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "power_plant_000.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

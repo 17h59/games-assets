@@ -1,0 +1,2296 @@
+{
+ "sheet": "6546",
+ "game": "minish_cap",
+ "category": "monsters",
+ "title": "Gleerok",
+ "type": "sprites",
+ "template": "none",
+ "validation": "pending",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    372,
+    578,
+    42,
+    12
+   ],
+   "point": [
+    393,
+    584
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 1,
+   "box": [
+    464,
+    578,
+    51,
+    12
+   ],
+   "point": [
+    489,
+    584
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 2,
+   "box": [
+    384,
+    591,
+    25,
+    10
+   ],
+   "point": [
+    396,
+    596
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 3,
+   "box": [
+    454,
+    591,
+    40,
+    10
+   ],
+   "point": [
+    474,
+    596
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "gleerok_e000",
+   "file": "gleerok_e000.png",
+   "cell": [
+    39,
+    46
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 4,
+     "role": "frame_0",
+     "src": [
+      508,
+      20,
+      39,
+      46
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_1",
+     "src": [
+      546,
+      56,
+      4,
+      4
+     ]
+    }
+   ],
+   "box": [
+    508,
+    20,
+    42,
+    46
+   ]
+  },
+  {
+   "id": 1,
+   "name": "gleerok_e001",
+   "file": "gleerok_e001.png",
+   "cell": [
+    4,
+    4
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 13,
+     "role": "frame_0",
+     "src": [
+      398,
+      48,
+      4,
+      4
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_1",
+     "src": [
+      408,
+      48,
+      4,
+      4
+     ]
+    }
+   ],
+   "box": [
+    398,
+    48,
+    14,
+    4
+   ]
+  },
+  {
+   "id": 2,
+   "name": "gleerok_e002",
+   "file": "gleerok_e002.png",
+   "cell": [
+    30,
+    33
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 15,
+     "role": "frame_0",
+     "src": [
+      433,
+      24,
+      30,
+      33
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_1",
+     "src": [
+      470,
+      32,
+      25,
+      24
+     ]
+    }
+   ],
+   "box": [
+    433,
+    24,
+    62,
+    33
+   ]
+  },
+  {
+   "id": 3,
+   "name": "gleerok_e003",
+   "file": "gleerok_e003.png",
+   "cell": [
+    17,
+    18
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 21,
+     "role": "frame_0",
+     "src": [
+      398,
+      63,
+      14,
+      15
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_1",
+     "src": [
+      421,
+      63,
+      14,
+      14
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_2",
+     "src": [
+      444,
+      65,
+      17,
+      16
+     ]
+    }
+   ],
+   "box": [
+    398,
+    63,
+    63,
+    18
+   ]
+  },
+  {
+   "id": 4,
+   "name": "gleerok_e004",
+   "file": "gleerok_e004.png",
+   "cell": [
+    16,
+    17
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 24,
+     "role": "frame_0",
+     "src": [
+      353,
+      106,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_1",
+     "src": [
+      372,
+      105,
+      16,
+      16
+     ]
+    }
+   ],
+   "box": [
+    353,
+    105,
+    35,
+    17
+   ]
+  },
+  {
+   "id": 5,
+   "name": "gleerok_e005",
+   "file": "gleerok_e005.png",
+   "cell": [
+    23,
+    30
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 27,
+     "role": "frame_0",
+     "src": [
+      427,
+      100,
+      23,
+      23
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_1",
+     "src": [
+      451,
+      93,
+      23,
+      29
+     ]
+    }
+   ],
+   "box": [
+    427,
+    93,
+    47,
+    30
+   ]
+  },
+  {
+   "id": 6,
+   "name": "gleerok_e006",
+   "file": "gleerok_e006.png",
+   "cell": [
+    46,
+    41
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 30,
+     "role": "frame_0",
+     "src": [
+      511,
+      77,
+      46,
+      41
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_1",
+     "src": [
+      521,
+      118,
+      4,
+      4
+     ]
+    }
+   ],
+   "box": [
+    511,
+    77,
+    46,
+    45
+   ]
+  },
+  {
+   "id": 7,
+   "name": "gleerok_e007",
+   "file": "gleerok_e007.png",
+   "cell": [
+    5,
+    4
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 33,
+     "role": "frame_0",
+     "src": [
+      465,
+      91,
+      3,
+      4
+     ]
+    },
+    {
+     "item": 34,
+     "role": "frame_1",
+     "src": [
+      465,
+      91,
+      3,
+      4
+     ]
+    },
+    {
+     "item": 35,
+     "role": "frame_2",
+     "src": [
+      471,
+      97,
+      1,
+      2
+     ]
+    }
+   ],
+   "box": [
+    465,
+    91,
+    7,
+    8
+   ]
+  },
+  {
+   "id": 8,
+   "name": "gleerok_e008",
+   "file": "gleerok_e008.png",
+   "cell": [
+    47,
+    46
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 39,
+     "role": "frame_0",
+     "src": [
+      195,
+      112,
+      44,
+      39
+     ]
+    },
+    {
+     "item": 40,
+     "role": "frame_1",
+     "src": [
+      245,
+      111,
+      46,
+      46
+     ]
+    },
+    {
+     "item": 41,
+     "role": "frame_2",
+     "src": [
+      296,
+      111,
+      47,
+      46
+     ]
+    }
+   ],
+   "box": [
+    195,
+    111,
+    148,
+    46
+   ]
+  },
+  {
+   "id": 9,
+   "name": "gleerok_e009",
+   "file": "gleerok_e009.png",
+   "cell": [
+    26,
+    28
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 55,
+     "role": "frame_0",
+     "src": [
+      41,
+      163,
+      26,
+      28
+     ]
+    },
+    {
+     "item": 56,
+     "role": "frame_1",
+     "src": [
+      76,
+      165,
+      24,
+      22
+     ]
+    }
+   ],
+   "box": [
+    41,
+    163,
+    59,
+    28
+   ]
+  },
+  {
+   "id": 10,
+   "name": "gleerok_e010",
+   "file": "gleerok_e010.png",
+   "cell": [
+    32,
+    30
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 57,
+     "role": "frame_0",
+     "src": [
+      112,
+      163,
+      32,
+      26
+     ]
+    },
+    {
+     "item": 58,
+     "role": "frame_1",
+     "src": [
+      154,
+      164,
+      32,
+      24
+     ]
+    },
+    {
+     "item": 59,
+     "role": "frame_2",
+     "src": [
+      188,
+      163,
+      28,
+      30
+     ]
+    }
+   ],
+   "box": [
+    112,
+    163,
+    104,
+    30
+   ]
+  },
+  {
+   "id": 11,
+   "name": "gleerok_e011",
+   "file": "gleerok_e011.png",
+   "cell": [
+    33,
+    29
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 67,
+     "role": "frame_0",
+     "src": [
+      127,
+      206,
+      33,
+      24
+     ]
+    },
+    {
+     "item": 68,
+     "role": "frame_1",
+     "src": [
+      168,
+      204,
+      32,
+      29
+     ]
+    }
+   ],
+   "box": [
+    127,
+    204,
+    73,
+    29
+   ]
+  },
+  {
+   "id": 12,
+   "name": "gleerok_e012",
+   "file": "gleerok_e012.png",
+   "cell": [
+    34,
+    28
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 69,
+     "role": "frame_0",
+     "src": [
+      214,
+      211,
+      33,
+      26
+     ]
+    },
+    {
+     "item": 70,
+     "role": "frame_1",
+     "src": [
+      255,
+      212,
+      34,
+      27
+     ]
+    }
+   ],
+   "box": [
+    214,
+    211,
+    75,
+    28
+   ]
+  },
+  {
+   "id": 13,
+   "name": "gleerok_e013",
+   "file": "gleerok_e013.png",
+   "cell": [
+    16,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 71,
+     "role": "frame_0",
+     "src": [
+      336,
+      222,
+      16,
+      15
+     ]
+    },
+    {
+     "item": 72,
+     "role": "frame_1",
+     "src": [
+      362,
+      223,
+      16,
+      15
+     ]
+    }
+   ],
+   "box": [
+    336,
+    222,
+    42,
+    16
+   ]
+  },
+  {
+   "id": 14,
+   "name": "gleerok_e014",
+   "file": "gleerok_e014.png",
+   "cell": [
+    16,
+    18
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 73,
+     "role": "frame_0",
+     "src": [
+      391,
+      222,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 74,
+     "role": "frame_1",
+     "src": [
+      417,
+      223,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 75,
+     "role": "frame_2",
+     "src": [
+      442,
+      225,
+      16,
+      15
+     ]
+    }
+   ],
+   "box": [
+    391,
+    222,
+    67,
+    18
+   ]
+  },
+  {
+   "id": 15,
+   "name": "gleerok_e015",
+   "file": "gleerok_e015.png",
+   "cell": [
+    36,
+    31
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 80,
+     "role": "frame_0",
+     "src": [
+      261,
+      248,
+      36,
+      27
+     ]
+    },
+    {
+     "item": 81,
+     "role": "frame_1",
+     "src": [
+      307,
+      244,
+      28,
+      31
+     ]
+    }
+   ],
+   "box": [
+    261,
+    244,
+    74,
+    31
+   ]
+  },
+  {
+   "id": 16,
+   "name": "gleerok_e016",
+   "file": "gleerok_e016.png",
+   "cell": [
+    16,
+    15
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 84,
+     "role": "frame_0",
+     "src": [
+      416,
+      250,
+      16,
+      15
+     ]
+    },
+    {
+     "item": 85,
+     "role": "frame_1",
+     "src": [
+      442,
+      250,
+      16,
+      15
+     ]
+    }
+   ],
+   "box": [
+    416,
+    250,
+    42,
+    15
+   ]
+  },
+  {
+   "id": 17,
+   "name": "gleerok_e017",
+   "file": "gleerok_e017.png",
+   "cell": [
+    26,
+    23
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 90,
+     "role": "frame_0",
+     "src": [
+      368,
+      286,
+      17,
+      20
+     ]
+    },
+    {
+     "item": 91,
+     "role": "frame_1",
+     "src": [
+      394,
+      291,
+      26,
+      15
+     ]
+    },
+    {
+     "item": 92,
+     "role": "frame_2",
+     "src": [
+      430,
+      292,
+      16,
+      15
+     ]
+    },
+    {
+     "item": 93,
+     "role": "frame_3",
+     "src": [
+      456,
+      293,
+      16,
+      16
+     ]
+    }
+   ],
+   "box": [
+    368,
+    286,
+    104,
+    23
+   ]
+  },
+  {
+   "id": 18,
+   "name": "gleerok_e018",
+   "file": "gleerok_e018.png",
+   "cell": [
+    32,
+    27
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 95,
+     "role": "frame_0",
+     "src": [
+      72,
+      292,
+      28,
+      25
+     ]
+    },
+    {
+     "item": 96,
+     "role": "frame_1",
+     "src": [
+      109,
+      293,
+      32,
+      26
+     ]
+    }
+   ],
+   "box": [
+    72,
+    292,
+    69,
+    27
+   ]
+  },
+  {
+   "id": 19,
+   "name": "gleerok_e019",
+   "file": "gleerok_e019.png",
+   "cell": [
+    16,
+    17
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 98,
+     "role": "frame_0",
+     "src": [
+      212,
+      316,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 99,
+     "role": "frame_1",
+     "src": [
+      238,
+      317,
+      16,
+      16
+     ]
+    }
+   ],
+   "box": [
+    212,
+    316,
+    42,
+    17
+   ]
+  },
+  {
+   "id": 20,
+   "name": "gleerok_e020",
+   "file": "gleerok_e020.png",
+   "cell": [
+    16,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 102,
+     "role": "frame_0",
+     "src": [
+      321,
+      318,
+      16,
+      15
+     ]
+    },
+    {
+     "item": 103,
+     "role": "frame_1",
+     "src": [
+      347,
+      318,
+      16,
+      16
+     ]
+    }
+   ],
+   "box": [
+    321,
+    318,
+    42,
+    16
+   ]
+  },
+  {
+   "id": 21,
+   "name": "gleerok_e021",
+   "file": "gleerok_e021.png",
+   "cell": [
+    16,
+    17
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 104,
+     "role": "frame_0",
+     "src": [
+      377,
+      319,
+      16,
+      15
+     ]
+    },
+    {
+     "item": 105,
+     "role": "frame_1",
+     "src": [
+      403,
+      318,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 106,
+     "role": "frame_2",
+     "src": [
+      429,
+      319,
+      16,
+      16
+     ]
+    }
+   ],
+   "box": [
+    377,
+    318,
+    68,
+    17
+   ]
+  },
+  {
+   "id": 22,
+   "name": "gleerok_e022",
+   "file": "gleerok_e022.png",
+   "cell": [
+    18,
+    18
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 109,
+     "role": "frame_0",
+     "src": [
+      190,
+      341,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 110,
+     "role": "frame_1",
+     "src": [
+      212,
+      341,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 111,
+     "role": "frame_2",
+     "src": [
+      238,
+      343,
+      16,
+      16
+     ]
+    }
+   ],
+   "box": [
+    190,
+    341,
+    64,
+    18
+   ]
+  },
+  {
+   "id": 23,
+   "name": "gleerok_e023",
+   "file": "gleerok_e023.png",
+   "cell": [
+    16,
+    17
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 112,
+     "role": "frame_0",
+     "src": [
+      266,
+      343,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 113,
+     "role": "frame_1",
+     "src": [
+      292,
+      343,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 114,
+     "role": "frame_2",
+     "src": [
+      318,
+      344,
+      16,
+      15
+     ]
+    },
+    {
+     "item": 115,
+     "role": "frame_3",
+     "src": [
+      344,
+      345,
+      16,
+      15
+     ]
+    }
+   ],
+   "box": [
+    266,
+    343,
+    94,
+    17
+   ]
+  },
+  {
+   "id": 24,
+   "name": "gleerok_e024",
+   "file": "gleerok_e024.png",
+   "cell": [
+    16,
+    15
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 117,
+     "role": "frame_0",
+     "src": [
+      399,
+      346,
+      15,
+      15
+     ]
+    },
+    {
+     "item": 118,
+     "role": "frame_1",
+     "src": [
+      424,
+      346,
+      16,
+      15
+     ]
+    }
+   ],
+   "box": [
+    399,
+    346,
+    41,
+    15
+   ]
+  },
+  {
+   "id": 25,
+   "name": "gleerok_e025",
+   "file": "gleerok_e025.png",
+   "cell": [
+    84,
+    96
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 128,
+     "role": "frame_0",
+     "src": [
+      419,
+      437,
+      84,
+      96
+     ]
+    },
+    {
+     "item": 129,
+     "role": "frame_1",
+     "src": [
+      512,
+      443,
+      80,
+      90
+     ]
+    }
+   ],
+   "box": [
+    419,
+    437,
+    173,
+    96
+   ]
+  },
+  {
+   "id": 26,
+   "name": "gleerok_e026",
+   "file": "gleerok_e026.png",
+   "cell": [
+    53,
+    41
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 131,
+     "role": "frame_0",
+     "src": [
+      21,
+      481,
+      53,
+      40
+     ]
+    },
+    {
+     "item": 132,
+     "role": "frame_1",
+     "src": [
+      78,
+      482,
+      48,
+      40
+     ]
+    }
+   ],
+   "box": [
+    21,
+    481,
+    105,
+    41
+   ]
+  },
+  {
+   "id": 27,
+   "name": "gleerok_e027",
+   "file": "gleerok_e027.png",
+   "cell": [
+    26,
+    49
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 133,
+     "role": "frame_0",
+     "src": [
+      83,
+      570,
+      11,
+      9
+     ]
+    },
+    {
+     "item": 134,
+     "role": "frame_1",
+     "src": [
+      102,
+      532,
+      26,
+      49
+     ]
+    }
+   ],
+   "box": [
+    83,
+    532,
+    45,
+    49
+   ]
+  },
+  {
+   "id": 28,
+   "name": "gleerok_e028",
+   "file": "gleerok_e028.png",
+   "cell": [
+    50,
+    75
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      114,
+      3,
+      43,
+      66
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      171,
+      1,
+      48,
+      72
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      232,
+      0,
+      48,
+      75
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      295,
+      1,
+      48,
+      64
+     ]
+    }
+   ],
+   "box": [
+    114,
+    0,
+    229,
+    75
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 83,
+   "y": 5,
+   "w": 7,
+   "h": 16,
+   "area": 80,
+   "ncolors": 17,
+   "dominant": "#F83818",
+   "dom_frac": 0.325,
+   "kind": "sprite",
+   "zone": null,
+   "id": 6,
+   "file": "gleerok_006.png"
+  },
+  {
+   "x": 0,
+   "y": 23,
+   "w": 20,
+   "h": 13,
+   "area": 194,
+   "ncolors": 2,
+   "dominant": "#A02818",
+   "dom_frac": 0.907,
+   "kind": "sprite",
+   "zone": null,
+   "id": 7,
+   "file": "gleerok_007.png"
+  },
+  {
+   "x": 38,
+   "y": 23,
+   "w": 12,
+   "h": 10,
+   "area": 74,
+   "ncolors": 7,
+   "dominant": "#000000",
+   "dom_frac": 0.27,
+   "kind": "sprite",
+   "zone": null,
+   "id": 8,
+   "file": "gleerok_008.png"
+  },
+  {
+   "x": 64,
+   "y": 22,
+   "w": 10,
+   "h": 12,
+   "area": 69,
+   "ncolors": 18,
+   "dominant": "#F83818",
+   "dom_frac": 0.174,
+   "kind": "sprite",
+   "zone": null,
+   "id": 9,
+   "file": "gleerok_009.png"
+  },
+  {
+   "x": 82,
+   "y": 30,
+   "w": 8,
+   "h": 5,
+   "area": 32,
+   "ncolors": 4,
+   "dominant": "#701810",
+   "dom_frac": 0.812,
+   "kind": "sprite",
+   "zone": null,
+   "id": 10,
+   "file": "gleerok_010.png"
+  },
+  {
+   "x": 98,
+   "y": 24,
+   "w": 9,
+   "h": 10,
+   "area": 56,
+   "ncolors": 13,
+   "dominant": "#F83818",
+   "dom_frac": 0.214,
+   "kind": "sprite",
+   "zone": null,
+   "id": 11,
+   "file": "gleerok_011.png"
+  },
+  {
+   "x": 396,
+   "y": 19,
+   "w": 18,
+   "h": 11,
+   "area": 116,
+   "ncolors": 7,
+   "dominant": "#F85010",
+   "dom_frac": 0.241,
+   "kind": "sprite",
+   "zone": null,
+   "id": 12,
+   "file": "gleerok_012.png"
+  },
+  {
+   "x": 391,
+   "y": 37,
+   "w": 8,
+   "h": 8,
+   "area": 48,
+   "ncolors": 7,
+   "dominant": "#F85010",
+   "dom_frac": 0.271,
+   "kind": "sprite",
+   "zone": null,
+   "id": 17,
+   "file": "gleerok_017.png"
+  },
+  {
+   "x": 412,
+   "y": 37,
+   "w": 8,
+   "h": 8,
+   "area": 47,
+   "ncolors": 6,
+   "dominant": "#F85010",
+   "dom_frac": 0.277,
+   "kind": "sprite",
+   "zone": null,
+   "id": 18,
+   "file": "gleerok_018.png"
+  },
+  {
+   "x": 398,
+   "y": 82,
+   "w": 14,
+   "h": 7,
+   "area": 82,
+   "ncolors": 1,
+   "dominant": "#483800",
+   "dom_frac": 1.0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 19,
+   "file": "gleerok_019.png"
+  },
+  {
+   "x": 465,
+   "y": 61,
+   "w": 29,
+   "h": 24,
+   "area": 398,
+   "ncolors": 9,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.739,
+   "kind": "sprite",
+   "zone": null,
+   "id": 20,
+   "file": "gleerok_020.png"
+  },
+  {
+   "x": 396,
+   "y": 106,
+   "w": 16,
+   "h": 16,
+   "area": 184,
+   "ncolors": 7,
+   "dominant": "#F8E808",
+   "dom_frac": 0.353,
+   "kind": "sprite",
+   "zone": null,
+   "id": 26,
+   "file": "gleerok_026.png"
+  },
+  {
+   "x": 478,
+   "y": 103,
+   "w": 15,
+   "h": 15,
+   "area": 144,
+   "ncolors": 4,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.424,
+   "kind": "sprite",
+   "zone": null,
+   "id": 29,
+   "file": "gleerok_029.png"
+  },
+  {
+   "x": 437,
+   "y": 93,
+   "w": 4,
+   "h": 7,
+   "area": 16,
+   "ncolors": 7,
+   "dominant": "#F8E038",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 32,
+   "file": "gleerok_032.png"
+  },
+  {
+   "x": 433,
+   "y": 99,
+   "w": 3,
+   "h": 4,
+   "area": 8,
+   "ncolors": 7,
+   "dominant": "#F8E038",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 36,
+   "file": "gleerok_036.png"
+  },
+  {
+   "x": 453,
+   "y": 99,
+   "w": 3,
+   "h": 4,
+   "area": 8,
+   "ncolors": 7,
+   "dominant": "#F8E038",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 37,
+   "file": "gleerok_037.png",
+   "duplicate_of": 14
+  },
+  {
+   "x": 43,
+   "y": 130,
+   "w": 24,
+   "h": 23,
+   "area": 342,
+   "ncolors": 14,
+   "dominant": "#000000",
+   "dom_frac": 0.251,
+   "kind": "sprite",
+   "zone": null,
+   "id": 38,
+   "file": "gleerok_038.png"
+  },
+  {
+   "x": 153,
+   "y": 118,
+   "w": 30,
+   "h": 25,
+   "area": 392,
+   "ncolors": 14,
+   "dominant": "#3850C8",
+   "dom_frac": 0.337,
+   "kind": "sprite",
+   "zone": null,
+   "id": 42,
+   "file": "gleerok_042.png"
+  },
+  {
+   "x": 396,
+   "y": 127,
+   "w": 16,
+   "h": 16,
+   "area": 176,
+   "ncolors": 7,
+   "dominant": "#F8D008",
+   "dom_frac": 0.352,
+   "kind": "sprite",
+   "zone": null,
+   "id": 43,
+   "file": "gleerok_043.png"
+  },
+  {
+   "x": 433,
+   "y": 130,
+   "w": 14,
+   "h": 19,
+   "area": 172,
+   "ncolors": 9,
+   "dominant": "#F85010",
+   "dom_frac": 0.262,
+   "kind": "sprite",
+   "zone": null,
+   "id": 44,
+   "file": "gleerok_044.png"
+  },
+  {
+   "x": 475,
+   "y": 124,
+   "w": 23,
+   "h": 23,
+   "area": 364,
+   "ncolors": 4,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.58,
+   "kind": "sprite",
+   "zone": null,
+   "id": 45,
+   "file": "gleerok_045.png"
+  },
+  {
+   "x": 543,
+   "y": 121,
+   "w": 4,
+   "h": 4,
+   "area": 11,
+   "ncolors": 3,
+   "dominant": "#E8D8D8",
+   "dom_frac": 0.545,
+   "kind": "sprite",
+   "zone": null,
+   "id": 46,
+   "file": "gleerok_046.png"
+  },
+  {
+   "x": 123,
+   "y": 123,
+   "w": 8,
+   "h": 9,
+   "area": 58,
+   "ncolors": 5,
+   "dominant": "#701810",
+   "dom_frac": 0.379,
+   "kind": "sprite",
+   "zone": null,
+   "id": 47,
+   "file": "gleerok_047.png"
+  },
+  {
+   "x": 75,
+   "y": 128,
+   "w": 24,
+   "h": 31,
+   "area": 444,
+   "ncolors": 15,
+   "dominant": "#000000",
+   "dom_frac": 0.306,
+   "kind": "sprite",
+   "zone": null,
+   "id": 48,
+   "file": "gleerok_048.png"
+  },
+  {
+   "x": 408,
+   "y": 156,
+   "w": 3,
+   "h": 4,
+   "area": 7,
+   "ncolors": 3,
+   "dominant": "#F88810",
+   "dom_frac": 0.714,
+   "kind": "sprite",
+   "zone": null,
+   "id": 49,
+   "file": "gleerok_049.png"
+  },
+  {
+   "x": 376,
+   "y": 155,
+   "w": 15,
+   "h": 24,
+   "area": 165,
+   "ncolors": 7,
+   "dominant": "#F88810",
+   "dom_frac": 0.2,
+   "kind": "sprite",
+   "zone": null,
+   "id": 50,
+   "file": "gleerok_050.png"
+  },
+  {
+   "x": 403,
+   "y": 169,
+   "w": 14,
+   "h": 11,
+   "area": 86,
+   "ncolors": 5,
+   "dominant": "#F88810",
+   "dom_frac": 0.291,
+   "kind": "sprite",
+   "zone": null,
+   "id": 51,
+   "file": "gleerok_051.png"
+  },
+  {
+   "x": 432,
+   "y": 160,
+   "w": 16,
+   "h": 22,
+   "area": 200,
+   "ncolors": 7,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.255,
+   "kind": "sprite",
+   "zone": null,
+   "id": 52,
+   "file": "gleerok_052.png"
+  },
+  {
+   "x": 513,
+   "y": 132,
+   "w": 48,
+   "h": 48,
+   "area": 1128,
+   "ncolors": 5,
+   "dominant": "#D04020",
+   "dom_frac": 0.504,
+   "kind": "sprite",
+   "zone": null,
+   "id": 53,
+   "file": "gleerok_053.png"
+  },
+  {
+   "x": 478,
+   "y": 154,
+   "w": 16,
+   "h": 16,
+   "area": 209,
+   "ncolors": 4,
+   "dominant": "#E8D8D8",
+   "dom_frac": 0.402,
+   "kind": "sprite",
+   "zone": null,
+   "id": 54,
+   "file": "gleerok_054.png"
+  },
+  {
+   "x": 230,
+   "y": 165,
+   "w": 28,
+   "h": 24,
+   "area": 431,
+   "ncolors": 12,
+   "dominant": "#F8A840",
+   "dom_frac": 0.172,
+   "kind": "sprite",
+   "zone": null,
+   "id": 60,
+   "file": "gleerok_060.png"
+  },
+  {
+   "x": 271,
+   "y": 166,
+   "w": 26,
+   "h": 28,
+   "area": 398,
+   "ncolors": 12,
+   "dominant": "#F8A840",
+   "dom_frac": 0.256,
+   "kind": "sprite",
+   "zone": null,
+   "id": 61,
+   "file": "gleerok_061.png"
+  },
+  {
+   "x": 462,
+   "y": 176,
+   "w": 47,
+   "h": 42,
+   "area": 620,
+   "ncolors": 5,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.656,
+   "kind": "sprite",
+   "zone": null,
+   "id": 62,
+   "file": "gleerok_062.png"
+  },
+  {
+   "x": 300,
+   "y": 211,
+   "w": 26,
+   "h": 33,
+   "area": 458,
+   "ncolors": 15,
+   "dominant": "#000000",
+   "dom_frac": 0.153,
+   "kind": "sprite",
+   "zone": null,
+   "id": 63,
+   "file": "gleerok_063.png"
+  },
+  {
+   "x": 517,
+   "y": 187,
+   "w": 52,
+   "h": 60,
+   "area": 2326,
+   "ncolors": 4,
+   "dominant": "#F85010",
+   "dom_frac": 0.447,
+   "kind": "sprite",
+   "zone": null,
+   "id": 64,
+   "file": "gleerok_064.png"
+  },
+  {
+   "x": 37,
+   "y": 203,
+   "w": 27,
+   "h": 29,
+   "area": 451,
+   "ncolors": 15,
+   "dominant": "#000000",
+   "dom_frac": 0.224,
+   "kind": "sprite",
+   "zone": null,
+   "id": 65,
+   "file": "gleerok_065.png"
+  },
+  {
+   "x": 75,
+   "y": 206,
+   "w": 34,
+   "h": 27,
+   "area": 485,
+   "ncolors": 15,
+   "dominant": "#000000",
+   "dom_frac": 0.177,
+   "kind": "sprite",
+   "zone": null,
+   "id": 66,
+   "file": "gleerok_066.png"
+  },
+  {
+   "x": 478,
+   "y": 227,
+   "w": 15,
+   "h": 16,
+   "area": 122,
+   "ncolors": 3,
+   "dominant": "#C0B0B0",
+   "dom_frac": 0.385,
+   "kind": "sprite",
+   "zone": null,
+   "id": 76,
+   "file": "gleerok_076.png"
+  },
+  {
+   "x": 31,
+   "y": 249,
+   "w": 32,
+   "h": 26,
+   "area": 429,
+   "ncolors": 13,
+   "dominant": "#700000",
+   "dom_frac": 0.28,
+   "kind": "sprite",
+   "zone": null,
+   "id": 77,
+   "file": "gleerok_077.png"
+  },
+  {
+   "x": 77,
+   "y": 250,
+   "w": 36,
+   "h": 20,
+   "area": 440,
+   "ncolors": 11,
+   "dominant": "#786868",
+   "dom_frac": 0.2,
+   "kind": "sprite",
+   "zone": null,
+   "id": 78,
+   "file": "gleerok_078.png"
+  },
+  {
+   "x": 125,
+   "y": 246,
+   "w": 30,
+   "h": 23,
+   "area": 399,
+   "ncolors": 13,
+   "dominant": "#700000",
+   "dom_frac": 0.188,
+   "kind": "sprite",
+   "zone": null,
+   "id": 79,
+   "file": "gleerok_079.png"
+  },
+  {
+   "x": 164,
+   "y": 247,
+   "w": 40,
+   "h": 21,
+   "area": 474,
+   "ncolors": 11,
+   "dominant": "#700000",
+   "dom_frac": 0.338,
+   "kind": "sprite",
+   "zone": null,
+   "id": 82,
+   "file": "gleerok_082.png"
+  },
+  {
+   "x": 388,
+   "y": 247,
+   "w": 16,
+   "h": 15,
+   "area": 200,
+   "ncolors": 11,
+   "dominant": "#E8E0E0",
+   "dom_frac": 0.19,
+   "kind": "sprite",
+   "zone": null,
+   "id": 83,
+   "file": "gleerok_083.png"
+  },
+  {
+   "x": 212,
+   "y": 248,
+   "w": 32,
+   "h": 29,
+   "area": 450,
+   "ncolors": 13,
+   "dominant": "#700000",
+   "dom_frac": 0.284,
+   "kind": "sprite",
+   "zone": null,
+   "id": 86,
+   "file": "gleerok_086.png"
+  },
+  {
+   "x": 479,
+   "y": 250,
+   "w": 31,
+   "h": 33,
+   "area": 643,
+   "ncolors": 7,
+   "dominant": "#F85010",
+   "dom_frac": 0.435,
+   "kind": "sprite",
+   "zone": null,
+   "id": 87,
+   "file": "gleerok_087.png"
+  },
+  {
+   "x": 516,
+   "y": 255,
+   "w": 62,
+   "h": 70,
+   "area": 2008,
+   "ncolors": 5,
+   "dominant": "#D04020",
+   "dom_frac": 0.416,
+   "kind": "sprite",
+   "zone": null,
+   "id": 88,
+   "file": "gleerok_088.png"
+  },
+  {
+   "x": 341,
+   "y": 288,
+   "w": 16,
+   "h": 15,
+   "area": 196,
+   "ncolors": 10,
+   "dominant": "#E8D8D8",
+   "dom_frac": 0.306,
+   "kind": "sprite",
+   "zone": null,
+   "id": 89,
+   "file": "gleerok_089.png"
+  },
+  {
+   "x": 28,
+   "y": 287,
+   "w": 29,
+   "h": 28,
+   "area": 432,
+   "ncolors": 13,
+   "dominant": "#700000",
+   "dom_frac": 0.162,
+   "kind": "sprite",
+   "zone": null,
+   "id": 94,
+   "file": "gleerok_094.png"
+  },
+  {
+   "x": 154,
+   "y": 290,
+   "w": 28,
+   "h": 31,
+   "area": 446,
+   "ncolors": 12,
+   "dominant": "#E8D8D8",
+   "dom_frac": 0.242,
+   "kind": "sprite",
+   "zone": null,
+   "id": 97,
+   "file": "gleerok_097.png"
+  },
+  {
+   "x": 265,
+   "y": 317,
+   "w": 16,
+   "h": 15,
+   "area": 198,
+   "ncolors": 12,
+   "dominant": "#E8D8D8",
+   "dom_frac": 0.278,
+   "kind": "sprite",
+   "zone": null,
+   "id": 100,
+   "file": "gleerok_100.png"
+  },
+  {
+   "x": 293,
+   "y": 318,
+   "w": 16,
+   "h": 15,
+   "area": 194,
+   "ncolors": 12,
+   "dominant": "#E8D8D8",
+   "dom_frac": 0.247,
+   "kind": "sprite",
+   "zone": null,
+   "id": 101,
+   "file": "gleerok_101.png"
+  },
+  {
+   "x": 458,
+   "y": 319,
+   "w": 16,
+   "h": 17,
+   "area": 219,
+   "ncolors": 15,
+   "dominant": "#E8E0E0",
+   "dom_frac": 0.164,
+   "kind": "sprite",
+   "zone": null,
+   "id": 107,
+   "file": "gleerok_107.png"
+  },
+  {
+   "x": 510,
+   "y": 331,
+   "w": 76,
+   "h": 84,
+   "area": 3214,
+   "ncolors": 6,
+   "dominant": "#D04020",
+   "dom_frac": 0.337,
+   "kind": "sprite",
+   "zone": null,
+   "id": 108,
+   "file": "gleerok_108.png"
+  },
+  {
+   "x": 372,
+   "y": 346,
+   "w": 16,
+   "h": 15,
+   "area": 203,
+   "ncolors": 11,
+   "dominant": "#202890",
+   "dom_frac": 0.172,
+   "kind": "sprite",
+   "zone": null,
+   "id": 116,
+   "file": "gleerok_116.png"
+  },
+  {
+   "x": 454,
+   "y": 347,
+   "w": 16,
+   "h": 15,
+   "area": 201,
+   "ncolors": 12,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.204,
+   "kind": "sprite",
+   "zone": null,
+   "id": 119,
+   "file": "gleerok_119.png"
+  },
+  {
+   "x": 346,
+   "y": 371,
+   "w": 16,
+   "h": 16,
+   "area": 195,
+   "ncolors": 9,
+   "dominant": "#202890",
+   "dom_frac": 0.344,
+   "kind": "sprite",
+   "zone": null,
+   "id": 120,
+   "file": "gleerok_120.png"
+  },
+  {
+   "x": 373,
+   "y": 373,
+   "w": 16,
+   "h": 15,
+   "area": 191,
+   "ncolors": 10,
+   "dominant": "#202890",
+   "dom_frac": 0.309,
+   "kind": "sprite",
+   "zone": null,
+   "id": 121,
+   "file": "gleerok_121.png"
+  },
+  {
+   "x": 402,
+   "y": 375,
+   "w": 16,
+   "h": 15,
+   "area": 200,
+   "ncolors": 10,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.18,
+   "kind": "sprite",
+   "zone": null,
+   "id": 122,
+   "file": "gleerok_122.png"
+  },
+  {
+   "x": 23,
+   "y": 405,
+   "w": 47,
+   "h": 67,
+   "area": 1957,
+   "ncolors": 27,
+   "dominant": "#201808",
+   "dom_frac": 0.214,
+   "kind": "sprite",
+   "zone": null,
+   "id": 123,
+   "file": "gleerok_123.png"
+  },
+  {
+   "x": 95,
+   "y": 407,
+   "w": 48,
+   "h": 63,
+   "area": 1631,
+   "ncolors": 12,
+   "dominant": "#201808",
+   "dom_frac": 0.261,
+   "kind": "sprite",
+   "zone": null,
+   "id": 124,
+   "file": "gleerok_124.png"
+  },
+  {
+   "x": 162,
+   "y": 411,
+   "w": 46,
+   "h": 59,
+   "area": 1603,
+   "ncolors": 13,
+   "dominant": "#201808",
+   "dom_frac": 0.252,
+   "kind": "sprite",
+   "zone": null,
+   "id": 125,
+   "file": "gleerok_125.png"
+  },
+  {
+   "x": 233,
+   "y": 417,
+   "w": 50,
+   "h": 51,
+   "area": 1742,
+   "ncolors": 12,
+   "dominant": "#201808",
+   "dom_frac": 0.271,
+   "kind": "sprite",
+   "zone": null,
+   "id": 126,
+   "file": "gleerok_126.png"
+  },
+  {
+   "x": 299,
+   "y": 424,
+   "w": 45,
+   "h": 38,
+   "area": 1230,
+   "ncolors": 13,
+   "dominant": "#201808",
+   "dom_frac": 0.312,
+   "kind": "sprite",
+   "zone": null,
+   "id": 127,
+   "file": "gleerok_127.png"
+  },
+  {
+   "x": 149,
+   "y": 479,
+   "w": 128,
+   "h": 128,
+   "area": 15826,
+   "ncolors": 12,
+   "dominant": "#F80808",
+   "dom_frac": 0.259,
+   "kind": "sprite",
+   "zone": null,
+   "id": 130,
+   "file": "gleerok_130.png"
+  },
+  {
+   "x": 23,
+   "y": 543,
+   "w": 19,
+   "h": 19,
+   "area": 168,
+   "ncolors": 11,
+   "dominant": "#A06818",
+   "dom_frac": 0.232,
+   "kind": "sprite",
+   "zone": null,
+   "id": 135,
+   "file": "gleerok_135.png"
+  },
+  {
+   "x": 70,
+   "y": 534,
+   "w": 27,
+   "h": 33,
+   "area": 663,
+   "ncolors": 13,
+   "dominant": "#683810",
+   "dom_frac": 0.213,
+   "kind": "sprite",
+   "zone": null,
+   "id": 136,
+   "file": "gleerok_136.png"
+  }
+ ],
+ "status": "needs_review",
+ "missing_stages": [
+  "decoupage",
+  "regroupement",
+  "nommage"
+ ]
+}

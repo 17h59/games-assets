@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/totodile_hut/hut_flag.png" id="1_xm06b"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0a7nh"]
+atlas = ExtResource("1_xm06b")
+region = Rect2(0, 0, 31, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cfiqk"]
+atlas = ExtResource("1_xm06b")
+region = Rect2(31, 0, 31, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1gglh"]
+atlas = ExtResource("1_xm06b")
+region = Rect2(62, 0, 31, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gew4w"]
+atlas = ExtResource("1_xm06b")
+region = Rect2(93, 0, 31, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p1wde"]
+atlas = ExtResource("1_xm06b")
+region = Rect2(124, 0, 31, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ei16i"]
+atlas = ExtResource("1_xm06b")
+region = Rect2(155, 0, 31, 23)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0a7nh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cfiqk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1gglh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gew4w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p1wde")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ei16i")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

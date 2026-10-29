@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/darknut/darknut_e049.png" id="1_4uwhu"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_33jk0"]
+atlas = ExtResource("1_4uwhu")
+region = Rect2(0, 0, 29, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_437c3"]
+atlas = ExtResource("1_4uwhu")
+region = Rect2(29, 0, 29, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xao10"]
+atlas = ExtResource("1_4uwhu")
+region = Rect2(58, 0, 29, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tsw0u"]
+atlas = ExtResource("1_4uwhu")
+region = Rect2(87, 0, 29, 32)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_33jk0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_437c3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xao10")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tsw0u")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/lakitu/lakitu_panic_right.png" id="1_cng75"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_drr4v"]
+atlas = ExtResource("1_cng75")
+region = Rect2(0, 0, 21, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lb76p"]
+atlas = ExtResource("1_cng75")
+region = Rect2(21, 0, 21, 22)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_drr4v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lb76p")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

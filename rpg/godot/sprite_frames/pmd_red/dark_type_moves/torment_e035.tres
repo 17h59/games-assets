@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/dark_type_moves/torment/torment_e035.png" id="1_te8ot"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7cyce"]
+atlas = ExtResource("1_te8ot")
+region = Rect2(0, 0, 14, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_df5tn"]
+atlas = ExtResource("1_te8ot")
+region = Rect2(14, 0, 14, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_70dl4"]
+atlas = ExtResource("1_te8ot")
+region = Rect2(28, 0, 14, 19)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7cyce")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_df5tn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_70dl4")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

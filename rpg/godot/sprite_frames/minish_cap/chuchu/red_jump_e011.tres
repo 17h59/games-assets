@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/chuchu/red_jump/red_jump_e011.png" id="1_grdvv"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_owg65"]
+atlas = ExtResource("1_grdvv")
+region = Rect2(0, 0, 16, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1i84g"]
+atlas = ExtResource("1_grdvv")
+region = Rect2(16, 0, 16, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fgndq"]
+atlas = ExtResource("1_grdvv")
+region = Rect2(32, 0, 16, 24)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_owg65")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1i84g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fgndq")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

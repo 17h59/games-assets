@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/hyrule_town_residents_2/hyrule_town_residents_2_e043.png" id="1_a0y5f"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_107yu"]
+atlas = ExtResource("1_a0y5f")
+region = Rect2(0, 0, 46, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2pgcj"]
+atlas = ExtResource("1_a0y5f")
+region = Rect2(46, 0, 46, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dgq33"]
+atlas = ExtResource("1_a0y5f")
+region = Rect2(92, 0, 46, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4qf3r"]
+atlas = ExtResource("1_a0y5f")
+region = Rect2(138, 0, 46, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_as5ot"]
+atlas = ExtResource("1_a0y5f")
+region = Rect2(184, 0, 46, 44)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_107yu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2pgcj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dgq33")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4qf3r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_as5ot")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

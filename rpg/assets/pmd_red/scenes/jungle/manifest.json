@@ -1,0 +1,502 @@
+{
+ "sheet": "5368",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Jungle",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "tree_pond_water",
+   "file": "tree_pond_water.png",
+   "cell": [
+    256,
+    76
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 3,
+     "role": "frame_0",
+     "src": [
+      514,
+      0,
+      256,
+      76
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_1",
+     "src": [
+      774,
+      0,
+      256,
+      76
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_2",
+     "src": [
+      514,
+      80,
+      256,
+      76
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_3",
+     "src": [
+      774,
+      80,
+      256,
+      76
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_4",
+     "src": [
+      514,
+      160,
+      256,
+      76
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_5",
+     "src": [
+      774,
+      160,
+      256,
+      76
+     ]
+    },
+    {
+     "item": 33,
+     "role": "frame_6",
+     "src": [
+      514,
+      240,
+      256,
+      76
+     ]
+    },
+    {
+     "item": 34,
+     "role": "frame_7",
+     "src": [
+      774,
+      240,
+      256,
+      76
+     ]
+    },
+    {
+     "item": 35,
+     "role": "frame_8",
+     "src": [
+      514,
+      319,
+      256,
+      76
+     ]
+    },
+    {
+     "item": 36,
+     "role": "frame_9",
+     "src": [
+      774,
+      319,
+      256,
+      76
+     ]
+    },
+    {
+     "item": 37,
+     "role": "frame_10",
+     "src": [
+      514,
+      399,
+      256,
+      76
+     ]
+    },
+    {
+     "item": 38,
+     "role": "frame_11",
+     "src": [
+      774,
+      399,
+      256,
+      76
+     ]
+    }
+   ],
+   "box": [
+    514,
+    0,
+    516,
+    475
+   ]
+  },
+  {
+   "id": 1,
+   "name": "pond_post_ripple",
+   "file": "pond_post_ripple.png",
+   "cell": [
+    23,
+    12
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 5,
+     "role": "frame_0",
+     "src": [
+      461,
+      3,
+      23,
+      12
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_1",
+     "src": [
+      461,
+      18,
+      23,
+      12
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_2",
+     "src": [
+      461,
+      33,
+      23,
+      12
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_3",
+     "src": [
+      461,
+      48,
+      23,
+      12
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_4",
+     "src": [
+      461,
+      63,
+      23,
+      12
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_5",
+     "src": [
+      461,
+      78,
+      23,
+      12
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_6",
+     "src": [
+      461,
+      93,
+      23,
+      12
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_7",
+     "src": [
+      461,
+      108,
+      23,
+      12
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_8",
+     "src": [
+      461,
+      123,
+      23,
+      12
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_9",
+     "src": [
+      461,
+      138,
+      23,
+      12
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_10",
+     "src": [
+      461,
+      153,
+      23,
+      12
+     ]
+    },
+    {
+     "item": 29,
+     "role": "frame_11",
+     "src": [
+      461,
+      168,
+      23,
+      12
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_12",
+     "src": [
+      461,
+      183,
+      23,
+      12
+     ]
+    }
+   ],
+   "box": [
+    461,
+    3,
+    23,
+    192
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 456,
+   "h": 442,
+   "area": 154792,
+   "ncolors": 85,
+   "dominant": "#107810",
+   "dom_frac": 0.236,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "jungle_000.png"
+  },
+  {
+   "x": 487,
+   "y": 63,
+   "w": 23,
+   "h": 12,
+   "area": 276,
+   "ncolors": 6,
+   "dominant": "#00B0C0",
+   "dom_frac": 0.446,
+   "kind": "sprite",
+   "zone": null,
+   "id": 2,
+   "file": "jungle_002.png"
+  },
+  {
+   "x": 487,
+   "y": 3,
+   "w": 23,
+   "h": 12,
+   "area": 276,
+   "ncolors": 7,
+   "dominant": "#0090A0",
+   "dom_frac": 0.264,
+   "kind": "sprite",
+   "zone": null,
+   "id": 6,
+   "file": "jungle_006.png"
+  },
+  {
+   "x": 487,
+   "y": 18,
+   "w": 23,
+   "h": 12,
+   "area": 276,
+   "ncolors": 7,
+   "dominant": "#0098A8",
+   "dom_frac": 0.264,
+   "kind": "sprite",
+   "zone": null,
+   "id": 8,
+   "file": "jungle_008.png"
+  },
+  {
+   "x": 487,
+   "y": 33,
+   "w": 23,
+   "h": 12,
+   "area": 276,
+   "ncolors": 7,
+   "dominant": "#00A0B0",
+   "dom_frac": 0.264,
+   "kind": "sprite",
+   "zone": null,
+   "id": 10,
+   "file": "jungle_010.png"
+  },
+  {
+   "x": 487,
+   "y": 48,
+   "w": 23,
+   "h": 12,
+   "area": 276,
+   "ncolors": 7,
+   "dominant": "#00A8B8",
+   "dom_frac": 0.264,
+   "kind": "sprite",
+   "zone": null,
+   "id": 12,
+   "file": "jungle_012.png"
+  },
+  {
+   "x": 487,
+   "y": 78,
+   "w": 23,
+   "h": 12,
+   "area": 276,
+   "ncolors": 7,
+   "dominant": "#00B0C0",
+   "dom_frac": 0.351,
+   "kind": "sprite",
+   "zone": null,
+   "id": 14,
+   "file": "jungle_014.png"
+  },
+  {
+   "x": 487,
+   "y": 138,
+   "w": 23,
+   "h": 12,
+   "area": 276,
+   "ncolors": 8,
+   "dominant": "#00B8C8",
+   "dom_frac": 0.264,
+   "kind": "sprite",
+   "zone": null,
+   "id": 16,
+   "file": "jungle_016.png"
+  },
+  {
+   "x": 487,
+   "y": 93,
+   "w": 23,
+   "h": 12,
+   "area": 276,
+   "ncolors": 8,
+   "dominant": "#00C0D0",
+   "dom_frac": 0.264,
+   "kind": "sprite",
+   "zone": null,
+   "id": 20,
+   "file": "jungle_020.png"
+  },
+  {
+   "x": 487,
+   "y": 108,
+   "w": 23,
+   "h": 12,
+   "area": 276,
+   "ncolors": 7,
+   "dominant": "#00B0C0",
+   "dom_frac": 0.351,
+   "kind": "sprite",
+   "zone": null,
+   "id": 22,
+   "file": "jungle_022.png"
+  },
+  {
+   "x": 487,
+   "y": 123,
+   "w": 23,
+   "h": 12,
+   "area": 276,
+   "ncolors": 8,
+   "dominant": "#00C0D0",
+   "dom_frac": 0.264,
+   "kind": "sprite",
+   "zone": null,
+   "id": 24,
+   "file": "jungle_024.png"
+  },
+  {
+   "x": 487,
+   "y": 153,
+   "w": 23,
+   "h": 12,
+   "area": 276,
+   "ncolors": 7,
+   "dominant": "#00B0C0",
+   "dom_frac": 0.446,
+   "kind": "sprite",
+   "zone": null,
+   "id": 26,
+   "file": "jungle_026.png"
+  },
+  {
+   "x": 487,
+   "y": 168,
+   "w": 23,
+   "h": 12,
+   "area": 276,
+   "ncolors": 8,
+   "dominant": "#00A8B8",
+   "dom_frac": 0.264,
+   "kind": "sprite",
+   "zone": null,
+   "id": 30,
+   "file": "jungle_030.png"
+  },
+  {
+   "x": 487,
+   "y": 183,
+   "w": 23,
+   "h": 12,
+   "area": 276,
+   "ncolors": 8,
+   "dominant": "#0098A8",
+   "dom_frac": 0.264,
+   "kind": "sprite",
+   "zone": null,
+   "id": 32,
+   "file": "jungle_032.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

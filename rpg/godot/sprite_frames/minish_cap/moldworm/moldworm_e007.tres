@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/moldworm/moldworm_e007.png" id="1_ear0x"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sroet"]
+atlas = ExtResource("1_ear0x")
+region = Rect2(0, 0, 30, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jn5ux"]
+atlas = ExtResource("1_ear0x")
+region = Rect2(30, 0, 30, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k27qf"]
+atlas = ExtResource("1_ear0x")
+region = Rect2(60, 0, 30, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dnd0m"]
+atlas = ExtResource("1_ear0x")
+region = Rect2(90, 0, 30, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aiwph"]
+atlas = ExtResource("1_ear0x")
+region = Rect2(120, 0, 30, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sw46b"]
+atlas = ExtResource("1_ear0x")
+region = Rect2(150, 0, 30, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sroet")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jn5ux")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k27qf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dnd0m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aiwph")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sw46b")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

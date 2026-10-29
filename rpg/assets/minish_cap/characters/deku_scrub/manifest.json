@@ -1,0 +1,705 @@
+{
+ "sheet": "6542",
+ "game": "minish_cap",
+ "category": "characters",
+ "title": "Deku Scrub",
+ "type": "characters",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "nut",
+   "file": "nut.png",
+   "cell": [
+    8,
+    11
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      11,
+      9,
+      8,
+      11
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      22,
+      9,
+      8,
+      11
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      33,
+      10,
+      8,
+      10
+     ]
+    }
+   ],
+   "box": [
+    11,
+    9,
+    30,
+    11
+   ]
+  },
+  {
+   "id": 1,
+   "name": "bush",
+   "file": "bush.png",
+   "cell": [
+    15,
+    23
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 3,
+     "role": "frame_0",
+     "src": [
+      11,
+      26,
+      15,
+      20
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_1",
+     "src": [
+      29,
+      28,
+      15,
+      18
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_2",
+     "src": [
+      47,
+      29,
+      15,
+      20
+     ]
+    }
+   ],
+   "box": [
+    11,
+    26,
+    51,
+    23
+   ]
+  },
+  {
+   "id": 2,
+   "name": "emerge",
+   "file": "emerge.png",
+   "cell": [
+    24,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 7,
+     "role": "frame_0",
+     "src": [
+      33,
+      59,
+      22,
+      26
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_1",
+     "src": [
+      58,
+      59,
+      24,
+      26
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_2",
+     "src": [
+      85,
+      60,
+      21,
+      25
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_3",
+     "src": [
+      109,
+      60,
+      21,
+      25
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_4",
+     "src": [
+      11,
+      88,
+      14,
+      24
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_5",
+     "src": [
+      28,
+      88,
+      14,
+      24
+     ]
+    }
+   ],
+   "box": [
+    11,
+    59,
+    119,
+    53
+   ]
+  },
+  {
+   "id": 3,
+   "name": "dizzy",
+   "file": "dizzy.png",
+   "cell": [
+    26,
+    27
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 13,
+     "role": "frame_0",
+     "src": [
+      11,
+      120,
+      22,
+      25
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_1",
+     "src": [
+      36,
+      118,
+      25,
+      27
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_2",
+     "src": [
+      63,
+      119,
+      24,
+      26
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_3",
+     "src": [
+      90,
+      120,
+      23,
+      25
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_4",
+     "src": [
+      116,
+      121,
+      24,
+      24
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_5",
+     "src": [
+      11,
+      148,
+      26,
+      27
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_6",
+     "src": [
+      40,
+      149,
+      24,
+      26
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_7",
+     "src": [
+      67,
+      149,
+      24,
+      26
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_8",
+     "src": [
+      94,
+      151,
+      24,
+      24
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_9",
+     "src": [
+      121,
+      148,
+      26,
+      27
+     ],
+     "duplicate_of": 5
+    },
+    {
+     "item": 23,
+     "role": "frame_10",
+     "src": [
+      11,
+      179,
+      23,
+      26
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_11",
+     "src": [
+      37,
+      180,
+      22,
+      25
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_12",
+     "src": [
+      62,
+      178,
+      25,
+      27
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_13",
+     "src": [
+      90,
+      180,
+      23,
+      25
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_14",
+     "src": [
+      116,
+      179,
+      24,
+      26
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_15",
+     "src": [
+      11,
+      208,
+      24,
+      26
+     ],
+     "duplicate_of": 7
+    },
+    {
+     "item": 29,
+     "role": "frame_16",
+     "src": [
+      38,
+      210,
+      24,
+      24
+     ],
+     "duplicate_of": 8
+    },
+    {
+     "item": 30,
+     "role": "frame_17",
+     "src": [
+      65,
+      207,
+      26,
+      27
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_18",
+     "src": [
+      94,
+      208,
+      23,
+      26
+     ],
+     "duplicate_of": 10
+    },
+    {
+     "item": 32,
+     "role": "frame_19",
+     "src": [
+      120,
+      209,
+      22,
+      25
+     ]
+    },
+    {
+     "item": 33,
+     "role": "frame_20",
+     "src": [
+      11,
+      237,
+      25,
+      27
+     ],
+     "duplicate_of": 12
+    },
+    {
+     "item": 34,
+     "role": "frame_21",
+     "src": [
+      39,
+      239,
+      23,
+      25
+     ],
+     "duplicate_of": 13
+    },
+    {
+     "item": 35,
+     "role": "frame_22",
+     "src": [
+      65,
+      238,
+      24,
+      26
+     ],
+     "duplicate_of": 14
+    },
+    {
+     "item": 36,
+     "role": "frame_23",
+     "src": [
+      92,
+      238,
+      24,
+      26
+     ]
+    },
+    {
+     "item": 37,
+     "role": "frame_24",
+     "src": [
+      119,
+      240,
+      24,
+      24
+     ],
+     "duplicate_of": 4
+    },
+    {
+     "item": 38,
+     "role": "frame_25",
+     "src": [
+      11,
+      269,
+      22,
+      25
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 39,
+     "role": "frame_26",
+     "src": [
+      36,
+      267,
+      25,
+      27
+     ],
+     "duplicate_of": 12
+    },
+    {
+     "item": 40,
+     "role": "frame_27",
+     "src": [
+      64,
+      269,
+      23,
+      25
+     ]
+    },
+    {
+     "item": 41,
+     "role": "frame_28",
+     "src": [
+      91,
+      268,
+      24,
+      26
+     ],
+     "duplicate_of": 14
+    },
+    {
+     "item": 42,
+     "role": "frame_29",
+     "src": [
+      118,
+      268,
+      24,
+      26
+     ],
+     "duplicate_of": 23
+    },
+    {
+     "item": 43,
+     "role": "frame_30",
+     "src": [
+      11,
+      299,
+      24,
+      24
+     ]
+    },
+    {
+     "item": 44,
+     "role": "frame_31",
+     "src": [
+      38,
+      297,
+      26,
+      27
+     ]
+    },
+    {
+     "item": 45,
+     "role": "frame_32",
+     "src": [
+      67,
+      298,
+      23,
+      26
+     ],
+     "duplicate_of": 10
+    },
+    {
+     "item": 46,
+     "role": "frame_33",
+     "src": [
+      93,
+      299,
+      22,
+      25
+     ],
+     "duplicate_of": 19
+    },
+    {
+     "item": 47,
+     "role": "frame_34",
+     "src": [
+      118,
+      297,
+      25,
+      27
+     ],
+     "duplicate_of": 12
+    },
+    {
+     "item": 48,
+     "role": "frame_35",
+     "src": [
+      11,
+      328,
+      23,
+      25
+     ],
+     "duplicate_of": 13
+    },
+    {
+     "item": 49,
+     "role": "frame_36",
+     "src": [
+      37,
+      327,
+      24,
+      26
+     ],
+     "duplicate_of": 14
+    },
+    {
+     "item": 50,
+     "role": "frame_37",
+     "src": [
+      64,
+      327,
+      24,
+      26
+     ],
+     "duplicate_of": 23
+    },
+    {
+     "item": 51,
+     "role": "frame_38",
+     "src": [
+      91,
+      329,
+      24,
+      24
+     ],
+     "duplicate_of": 8
+    },
+    {
+     "item": 52,
+     "role": "frame_39",
+     "src": [
+      118,
+      326,
+      26,
+      27
+     ],
+     "duplicate_of": 17
+    },
+    {
+     "item": 53,
+     "role": "frame_40",
+     "src": [
+      11,
+      357,
+      23,
+      26
+     ]
+    },
+    {
+     "item": 54,
+     "role": "frame_41",
+     "src": [
+      37,
+      358,
+      22,
+      25
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 55,
+     "role": "frame_42",
+     "src": [
+      62,
+      356,
+      25,
+      27
+     ],
+     "duplicate_of": 12
+    },
+    {
+     "item": 56,
+     "role": "frame_43",
+     "src": [
+      90,
+      357,
+      24,
+      26
+     ],
+     "duplicate_of": 2
+    },
+    {
+     "item": 57,
+     "role": "frame_44",
+     "src": [
+      117,
+      357,
+      23,
+      26
+     ],
+     "duplicate_of": 10
+    }
+   ],
+   "box": [
+    11,
+    118,
+    136,
+    265
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 11,
+   "y": 56,
+   "w": 19,
+   "h": 29,
+   "area": 347,
+   "ncolors": 18,
+   "dominant": "#380000",
+   "dom_frac": 0.196,
+   "kind": "sprite",
+   "zone": null,
+   "name": "deku_scrub_brown",
+   "id": 6,
+   "file": "deku_scrub_brown.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

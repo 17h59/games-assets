@@ -1,0 +1,7 @@
+[gd_scene format=3]
+
+[ext_resource type="TileSet" path="res://godot/tilesets/emerald.tres" id="1_avvif"]
+
+[node name="abandoned_ship_19774_r8" type="TileMapLayer" unique_id=762791282]
+tile_map_data = PackedByteArray(0, 0, 0, 0, 1, 0, 1, 0, 28, 0, 8, 0, 0, 0, 1, 0, 1, 0, 1, 0, 29, 0, 8, 0, 0, 0)
+tile_set = ExtResource("1_avvif")

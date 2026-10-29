@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/charmander_hut/charmander_hut_e001.png" id="1_biken"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frlbg"]
+atlas = ExtResource("1_biken")
+region = Rect2(0, 0, 5, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iayxr"]
+atlas = ExtResource("1_biken")
+region = Rect2(5, 0, 5, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u2lqv"]
+atlas = ExtResource("1_biken")
+region = Rect2(10, 0, 5, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h8uul"]
+atlas = ExtResource("1_biken")
+region = Rect2(15, 0, 5, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i580u"]
+atlas = ExtResource("1_biken")
+region = Rect2(20, 0, 5, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4rdfu"]
+atlas = ExtResource("1_biken")
+region = Rect2(25, 0, 5, 10)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_frlbg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iayxr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u2lqv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h8uul")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i580u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4rdfu")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

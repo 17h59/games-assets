@@ -1,0 +1,125 @@
+{
+ "sheet": "5360",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Enclosed Island",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "enclosed_island_ring",
+   "file": "enclosed_island_ring.png",
+   "cell": [
+    339,
+    402
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      2,
+      16,
+      339,
+      402
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      395,
+      16,
+      298,
+      296
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      707,
+      22,
+      284,
+      290
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_3",
+     "src": [
+      705,
+      333,
+      288,
+      293
+     ]
+    }
+   ],
+   "box": [
+    2,
+    16,
+    991,
+    610
+   ]
+  },
+  {
+   "id": 1,
+   "name": "ripples",
+   "file": "ripples.png",
+   "cell": [
+    14,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 3,
+     "role": "frame_0",
+     "src": [
+      312,
+      324,
+      13,
+      14
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_1",
+     "src": [
+      330,
+      324,
+      13,
+      14
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_2",
+     "src": [
+      346,
+      324,
+      13,
+      14
+     ]
+    }
+   ],
+   "box": [
+    312,
+    324,
+    47,
+    14
+   ]
+  }
+ ],
+ "items": [],
+ "status": "ok",
+ "missing_stages": []
+}

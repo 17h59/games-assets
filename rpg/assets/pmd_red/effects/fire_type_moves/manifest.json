@@ -1,0 +1,7462 @@
+{
+ "sheet": "40562",
+ "game": "pmd_red",
+ "category": "effects",
+ "title": "Fire-Type Moves",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    5,
+    4,
+    50,
+    8
+   ],
+   "point": [
+    30,
+    8
+   ],
+   "name": "blast_burn",
+   "folder": "blast_burn"
+  },
+  {
+   "id": 1,
+   "box": [
+    6,
+    150,
+    50,
+    8
+   ],
+   "point": [
+    31,
+    154
+   ],
+   "name": "blaze_kick",
+   "folder": "blaze_kick"
+  },
+  {
+   "id": 2,
+   "box": [
+    550,
+    153,
+    31,
+    8
+   ],
+   "point": [
+    565,
+    157
+   ],
+   "name": "ember",
+   "folder": "ember"
+  },
+  {
+   "id": 3,
+   "box": [
+    754,
+    154,
+    40,
+    9
+   ],
+   "point": [
+    774,
+    158
+   ],
+   "name": "eruption",
+   "folder": "eruption"
+  },
+  {
+   "id": 4,
+   "box": [
+    5,
+    300,
+    47,
+    8
+   ],
+   "point": [
+    28,
+    304
+   ],
+   "name": "fire_blast",
+   "folder": "fire_blast"
+  },
+  {
+   "id": 5,
+   "box": [
+    10,
+    471,
+    51,
+    8
+   ],
+   "point": [
+    35,
+    475
+   ],
+   "name": "fire_punch",
+   "folder": "fire_punch"
+  },
+  {
+   "id": 6,
+   "box": [
+    6,
+    545,
+    42,
+    7
+   ],
+   "point": [
+    27,
+    548
+   ],
+   "name": "fire_spin",
+   "folder": "fire_spin"
+  },
+  {
+   "id": 7,
+   "box": [
+    7,
+    663,
+    61,
+    8
+   ],
+   "point": [
+    37,
+    667
+   ],
+   "name": "flame_wheel",
+   "folder": "flame_wheel"
+  },
+  {
+   "id": 8,
+   "box": [
+    8,
+    817,
+    66,
+    8
+   ],
+   "point": [
+    41,
+    821
+   ],
+   "name": "flamethrower",
+   "folder": "flamethrower"
+  },
+  {
+   "id": 9,
+   "box": [
+    8,
+    968,
+    52,
+    7
+   ],
+   "point": [
+    34,
+    971
+   ],
+   "name": "heat_wave",
+   "folder": "heat_wave"
+  },
+  {
+   "id": 10,
+   "box": [
+    10,
+    1153,
+    46,
+    8
+   ],
+   "point": [
+    33,
+    1157
+   ],
+   "name": "overheat",
+   "folder": "overheat"
+  },
+  {
+   "id": 11,
+   "box": [
+    12,
+    1244,
+    55,
+    8
+   ],
+   "point": [
+    39,
+    1248
+   ],
+   "name": "sacred_fire",
+   "folder": "sacred_fire"
+  },
+  {
+   "id": 12,
+   "box": [
+    12,
+    1432,
+    52,
+    9
+   ],
+   "point": [
+    38,
+    1436
+   ],
+   "name": "sunny_day",
+   "folder": "sunny_day"
+  },
+  {
+   "id": 13,
+   "box": [
+    10,
+    1570,
+    56,
+    10
+   ],
+   "point": [
+    38,
+    1575
+   ],
+   "name": "will_o_wisp",
+   "folder": "will_o_wisp"
+  },
+  {
+   "id": 14,
+   "box": [
+    1182,
+    1659,
+    133,
+    12
+   ],
+   "point": [
+    1248,
+    1665
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 15,
+   "box": [
+    1182,
+    1674,
+    93,
+    9
+   ],
+   "point": [
+    1228,
+    1678
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "blast_burn_e000",
+   "file": "blast_burn/blast_burn_e000.png",
+   "cell": [
+    64,
+    63
+   ],
+   "zone": null,
+   "set": 0,
+   "template": "none",
+   "frames": [
+    {
+     "item": 6,
+     "role": "frame_0",
+     "src": [
+      220,
+      34,
+      64,
+      54
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_1",
+     "src": [
+      288,
+      25,
+      63,
+      63
+     ]
+    }
+   ],
+   "box": [
+    220,
+    25,
+    131,
+    63
+   ]
+  },
+  {
+   "id": 1,
+   "name": "blast_burn_e001",
+   "file": "blast_burn/blast_burn_e001.png",
+   "cell": [
+    48,
+    45
+   ],
+   "zone": null,
+   "set": 0,
+   "template": "none",
+   "frames": [
+    {
+     "item": 16,
+     "role": "frame_0",
+     "src": [
+      2,
+      39,
+      48,
+      45
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_1",
+     "src": [
+      54,
+      40,
+      48,
+      44
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_2",
+     "src": [
+      106,
+      41,
+      48,
+      43
+     ]
+    }
+   ],
+   "box": [
+    2,
+    39,
+    152,
+    45
+   ]
+  },
+  {
+   "id": 2,
+   "name": "blast_burn_e002",
+   "file": "blast_burn/blast_burn_e002.png",
+   "cell": [
+    26,
+    57
+   ],
+   "zone": null,
+   "set": 0,
+   "template": "none",
+   "frames": [
+    {
+     "item": 25,
+     "role": "frame_0",
+     "src": [
+      546,
+      29,
+      26,
+      57
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_1",
+     "src": [
+      576,
+      30,
+      26,
+      56
+     ]
+    }
+   ],
+   "box": [
+    546,
+    29,
+    56,
+    57
+   ]
+  },
+  {
+   "id": 3,
+   "name": "blast_burn_e003",
+   "file": "blast_burn/blast_burn_e003.png",
+   "cell": [
+    10,
+    7
+   ],
+   "zone": null,
+   "set": 0,
+   "template": "none",
+   "frames": [
+    {
+     "item": 30,
+     "role": "frame_0",
+     "src": [
+      166,
+      47,
+      10,
+      7
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_1",
+     "src": [
+      182,
+      42,
+      10,
+      7
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 32,
+     "role": "frame_2",
+     "src": [
+      198,
+      47,
+      10,
+      7
+     ],
+     "duplicate_of": 0
+    }
+   ],
+   "box": [
+    166,
+    42,
+    42,
+    12
+   ]
+  },
+  {
+   "id": 4,
+   "name": "blast_burn_e004",
+   "file": "blast_burn/blast_burn_e004.png",
+   "cell": [
+    55,
+    20
+   ],
+   "zone": null,
+   "set": 0,
+   "template": "none",
+   "frames": [
+    {
+     "item": 40,
+     "role": "frame_0",
+     "src": [
+      4,
+      118,
+      52,
+      20
+     ]
+    },
+    {
+     "item": 41,
+     "role": "frame_1",
+     "src": [
+      61,
+      131,
+      10,
+      7
+     ]
+    },
+    {
+     "item": 42,
+     "role": "frame_2",
+     "src": [
+      76,
+      118,
+      55,
+      20
+     ]
+    },
+    {
+     "item": 43,
+     "role": "frame_3",
+     "src": [
+      134,
+      132,
+      8,
+      6
+     ]
+    },
+    {
+     "item": 44,
+     "role": "frame_4",
+     "src": [
+      145,
+      118,
+      55,
+      20
+     ]
+    }
+   ],
+   "box": [
+    4,
+    118,
+    196,
+    20
+   ]
+  },
+  {
+   "id": 5,
+   "name": "eruption_e005",
+   "file": "eruption/eruption_e005.png",
+   "cell": [
+    15,
+    13
+   ],
+   "zone": null,
+   "set": 3,
+   "template": "none",
+   "frames": [
+    {
+     "item": 47,
+     "role": "frame_0",
+     "src": [
+      755,
+      172,
+      15,
+      12
+     ]
+    },
+    {
+     "item": 48,
+     "role": "frame_1",
+     "src": [
+      774,
+      171,
+      13,
+      13
+     ]
+    },
+    {
+     "item": 49,
+     "role": "frame_2",
+     "src": [
+      793,
+      171,
+      11,
+      13
+     ]
+    },
+    {
+     "item": 50,
+     "role": "frame_3",
+     "src": [
+      809,
+      171,
+      13,
+      13
+     ]
+    }
+   ],
+   "box": [
+    755,
+    171,
+    67,
+    13
+   ]
+  },
+  {
+   "id": 6,
+   "name": "blaze_kick_e006",
+   "file": "blaze_kick/blaze_kick_e006.png",
+   "cell": [
+    27,
+    14
+   ],
+   "zone": null,
+   "set": 1,
+   "template": "none",
+   "frames": [
+    {
+     "item": 52,
+     "role": "frame_0",
+     "src": [
+      420,
+      177,
+      13,
+      8
+     ]
+    },
+    {
+     "item": 53,
+     "role": "frame_1",
+     "src": [
+      437,
+      176,
+      27,
+      14
+     ]
+    }
+   ],
+   "box": [
+    420,
+    176,
+    44,
+    14
+   ]
+  },
+  {
+   "id": 7,
+   "name": "blaze_kick_e007",
+   "file": "blaze_kick/blaze_kick_e007.png",
+   "cell": [
+    43,
+    20
+   ],
+   "zone": null,
+   "set": 1,
+   "template": "none",
+   "frames": [
+    {
+     "item": 55,
+     "role": "frame_0",
+     "src": [
+      276,
+      193,
+      16,
+      12
+     ]
+    },
+    {
+     "item": 56,
+     "role": "frame_1",
+     "src": [
+      289,
+      180,
+      43,
+      20
+     ]
+    }
+   ],
+   "box": [
+    276,
+    180,
+    56,
+    25
+   ]
+  },
+  {
+   "id": 8,
+   "name": "ember_e008",
+   "file": "ember/ember_e008.png",
+   "cell": [
+    34,
+    19
+   ],
+   "zone": null,
+   "set": 2,
+   "template": "none",
+   "frames": [
+    {
+     "item": 58,
+     "role": "frame_0",
+     "src": [
+      553,
+      192,
+      5,
+      8
+     ]
+    },
+    {
+     "item": 59,
+     "role": "frame_1",
+     "src": [
+      562,
+      192,
+      6,
+      8
+     ]
+    },
+    {
+     "item": 60,
+     "role": "frame_2",
+     "src": [
+      571,
+      193,
+      18,
+      6
+     ]
+    },
+    {
+     "item": 61,
+     "role": "frame_3",
+     "src": [
+      591,
+      184,
+      15,
+      16
+     ]
+    },
+    {
+     "item": 62,
+     "role": "frame_4",
+     "src": [
+      609,
+      185,
+      13,
+      15
+     ]
+    },
+    {
+     "item": 63,
+     "role": "frame_5",
+     "src": [
+      629,
+      184,
+      12,
+      16
+     ]
+    },
+    {
+     "item": 64,
+     "role": "frame_6",
+     "src": [
+      646,
+      184,
+      13,
+      16
+     ]
+    },
+    {
+     "item": 65,
+     "role": "frame_7",
+     "src": [
+      663,
+      185,
+      15,
+      15
+     ]
+    },
+    {
+     "item": 66,
+     "role": "frame_8",
+     "src": [
+      681,
+      184,
+      34,
+      16
+     ]
+    },
+    {
+     "item": 67,
+     "role": "frame_9",
+     "src": [
+      720,
+      181,
+      12,
+      19
+     ]
+    }
+   ],
+   "box": [
+    553,
+    181,
+    179,
+    19
+   ]
+  },
+  {
+   "id": 9,
+   "name": "blaze_kick_e009",
+   "file": "blaze_kick/blaze_kick_e009.png",
+   "cell": [
+    37,
+    25
+   ],
+   "zone": null,
+   "set": 1,
+   "template": "none",
+   "frames": [
+    {
+     "item": 68,
+     "role": "frame_0",
+     "src": [
+      219,
+      196,
+      15,
+      15
+     ]
+    },
+    {
+     "item": 69,
+     "role": "frame_1",
+     "src": [
+      233,
+      182,
+      37,
+      25
+     ]
+    }
+   ],
+   "box": [
+    219,
+    182,
+    51,
+    29
+   ]
+  },
+  {
+   "id": 10,
+   "name": "blaze_kick_e010",
+   "file": "blaze_kick/blaze_kick_e010.png",
+   "cell": [
+    13,
+    8
+   ],
+   "zone": null,
+   "set": 1,
+   "template": "none",
+   "frames": [
+    {
+     "item": 72,
+     "role": "frame_0",
+     "src": [
+      386,
+      184,
+      13,
+      8
+     ]
+    },
+    {
+     "item": 73,
+     "role": "frame_1",
+     "src": [
+      405,
+      188,
+      13,
+      8
+     ]
+    }
+   ],
+   "box": [
+    386,
+    184,
+    32,
+    12
+   ]
+  },
+  {
+   "id": 11,
+   "name": "blaze_kick_e011",
+   "file": "blaze_kick/blaze_kick_e011.png",
+   "cell": [
+    52,
+    48
+   ],
+   "zone": null,
+   "set": 1,
+   "template": "none",
+   "frames": [
+    {
+     "item": 75,
+     "role": "frame_0",
+     "src": [
+      161,
+      188,
+      52,
+      48
+     ]
+    },
+    {
+     "item": 76,
+     "role": "frame_1",
+     "src": [
+      223,
+      213,
+      18,
+      19
+     ]
+    },
+    {
+     "item": 77,
+     "role": "frame_2",
+     "src": [
+      247,
+      216,
+      15,
+      15
+     ]
+    }
+   ],
+   "box": [
+    161,
+    188,
+    101,
+    48
+   ]
+  },
+  {
+   "id": 12,
+   "name": "blaze_kick_e012",
+   "file": "blaze_kick/blaze_kick_e012.png",
+   "cell": [
+    45,
+    44
+   ],
+   "zone": null,
+   "set": 1,
+   "template": "none",
+   "frames": [
+    {
+     "item": 78,
+     "role": "frame_0",
+     "src": [
+      24,
+      224,
+      16,
+      15
+     ]
+    },
+    {
+     "item": 79,
+     "role": "frame_1",
+     "src": [
+      45,
+      219,
+      24,
+      21
+     ]
+    },
+    {
+     "item": 80,
+     "role": "frame_2",
+     "src": [
+      76,
+      208,
+      32,
+      32
+     ]
+    },
+    {
+     "item": 81,
+     "role": "frame_3",
+     "src": [
+      113,
+      196,
+      45,
+      44
+     ]
+    }
+   ],
+   "box": [
+    24,
+    196,
+    134,
+    44
+   ]
+  },
+  {
+   "id": 13,
+   "name": "blaze_kick_e013",
+   "file": "blaze_kick/blaze_kick_e013.png",
+   "cell": [
+    29,
+    12
+   ],
+   "zone": null,
+   "set": 1,
+   "template": "none",
+   "frames": [
+    {
+     "item": 82,
+     "role": "frame_0",
+     "src": [
+      343,
+      206,
+      29,
+      12
+     ]
+    },
+    {
+     "item": 83,
+     "role": "frame_1",
+     "src": [
+      377,
+      206,
+      24,
+      11
+     ]
+    },
+    {
+     "item": 84,
+     "role": "frame_2",
+     "src": [
+      410,
+      204,
+      24,
+      9
+     ]
+    },
+    {
+     "item": 85,
+     "role": "frame_3",
+     "src": [
+      442,
+      207,
+      13,
+      8
+     ]
+    }
+   ],
+   "box": [
+    343,
+    204,
+    112,
+    14
+   ]
+  },
+  {
+   "id": 14,
+   "name": "blaze_kick_e014",
+   "file": "blaze_kick/blaze_kick_e014.png",
+   "cell": [
+    29,
+    15
+   ],
+   "zone": null,
+   "set": 1,
+   "template": "none",
+   "frames": [
+    {
+     "item": 86,
+     "role": "frame_0",
+     "src": [
+      266,
+      213,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 87,
+     "role": "frame_1",
+     "src": [
+      281,
+      209,
+      19,
+      15
+     ]
+    },
+    {
+     "item": 88,
+     "role": "frame_2",
+     "src": [
+      307,
+      209,
+      29,
+      15
+     ]
+    }
+   ],
+   "box": [
+    266,
+    209,
+    70,
+    15
+   ]
+  },
+  {
+   "id": 15,
+   "name": "blaze_kick_e015",
+   "file": "blaze_kick/blaze_kick_e015.png",
+   "cell": [
+    32,
+    32
+   ],
+   "zone": null,
+   "set": 1,
+   "template": "none",
+   "frames": [
+    {
+     "item": 89,
+     "role": "frame_0",
+     "src": [
+      10,
+      265,
+      24,
+      21
+     ]
+    },
+    {
+     "item": 90,
+     "role": "frame_1",
+     "src": [
+      41,
+      254,
+      32,
+      32
+     ]
+    }
+   ],
+   "box": [
+    10,
+    254,
+    63,
+    32
+   ]
+  },
+  {
+   "id": 16,
+   "name": "fire_blast_e016",
+   "file": "fire_blast/fire_blast_e016.png",
+   "cell": [
+    60,
+    57
+   ],
+   "zone": null,
+   "set": 4,
+   "template": "none",
+   "frames": [
+    {
+     "item": 93,
+     "role": "frame_0",
+     "src": [
+      438,
+      334,
+      52,
+      48
+     ]
+    },
+    {
+     "item": 94,
+     "role": "frame_1",
+     "src": [
+      495,
+      335,
+      54,
+      48
+     ]
+    },
+    {
+     "item": 95,
+     "role": "frame_2",
+     "src": [
+      554,
+      327,
+      54,
+      56
+     ]
+    },
+    {
+     "item": 96,
+     "role": "frame_3",
+     "src": [
+      613,
+      334,
+      60,
+      52
+     ]
+    },
+    {
+     "item": 97,
+     "role": "frame_4",
+     "src": [
+      678,
+      326,
+      54,
+      57
+     ]
+    },
+    {
+     "item": 98,
+     "role": "frame_5",
+     "src": [
+      737,
+      327,
+      54,
+      56
+     ]
+    },
+    {
+     "item": 99,
+     "role": "frame_6",
+     "src": [
+      796,
+      326,
+      52,
+      57
+     ]
+    },
+    {
+     "item": 100,
+     "role": "frame_7",
+     "src": [
+      853,
+      327,
+      52,
+      56
+     ]
+    },
+    {
+     "item": 101,
+     "role": "frame_8",
+     "src": [
+      910,
+      327,
+      54,
+      56
+     ]
+    },
+    {
+     "item": 102,
+     "role": "frame_9",
+     "src": [
+      969,
+      326,
+      54,
+      57
+     ]
+    },
+    {
+     "item": 103,
+     "role": "frame_10",
+     "src": [
+      1028,
+      328,
+      54,
+      55
+     ]
+    },
+    {
+     "item": 104,
+     "role": "frame_11",
+     "src": [
+      1087,
+      333,
+      21,
+      50
+     ]
+    }
+   ],
+   "box": [
+    438,
+    326,
+    670,
+    60
+   ]
+  },
+  {
+   "id": 17,
+   "name": "fire_blast_e017",
+   "file": "fire_blast/fire_blast_e017.png",
+   "cell": [
+    21,
+    50
+   ],
+   "zone": null,
+   "set": 4,
+   "template": "none",
+   "frames": [
+    {
+     "item": 105,
+     "role": "frame_0",
+     "src": [
+      1120,
+      333,
+      21,
+      50
+     ]
+    },
+    {
+     "item": 106,
+     "role": "frame_1",
+     "src": [
+      1146,
+      334,
+      20,
+      49
+     ]
+    }
+   ],
+   "box": [
+    1120,
+    333,
+    46,
+    50
+   ]
+  },
+  {
+   "id": 18,
+   "name": "fire_blast_e018",
+   "file": "fire_blast/fire_blast_e018.png",
+   "cell": [
+    21,
+    50
+   ],
+   "zone": null,
+   "set": 4,
+   "template": "none",
+   "frames": [
+    {
+     "item": 107,
+     "role": "frame_0",
+     "src": [
+      1179,
+      334,
+      21,
+      49
+     ]
+    },
+    {
+     "item": 108,
+     "role": "frame_1",
+     "src": [
+      1205,
+      333,
+      13,
+      50
+     ]
+    }
+   ],
+   "box": [
+    1179,
+    333,
+    39,
+    50
+   ]
+  },
+  {
+   "id": 19,
+   "name": "fire_blast_e019",
+   "file": "fire_blast/fire_blast_e019.png",
+   "cell": [
+    16,
+    16
+   ],
+   "zone": null,
+   "set": 4,
+   "template": "none",
+   "frames": [
+    {
+     "item": 119,
+     "role": "frame_0",
+     "src": [
+      160,
+      364,
+      16,
+      13
+     ]
+    },
+    {
+     "item": 120,
+     "role": "frame_1",
+     "src": [
+      184,
+      358,
+      11,
+      16
+     ]
+    },
+    {
+     "item": 121,
+     "role": "frame_2",
+     "src": [
+      200,
+      359,
+      10,
+      15
+     ]
+    }
+   ],
+   "box": [
+    160,
+    358,
+    50,
+    19
+   ]
+  },
+  {
+   "id": 20,
+   "name": "fire_blast_e020",
+   "file": "fire_blast/fire_blast_e020.png",
+   "cell": [
+    32,
+    32
+   ],
+   "zone": null,
+   "set": 4,
+   "template": "none",
+   "frames": [
+    {
+     "item": 122,
+     "role": "frame_0",
+     "src": [
+      222,
+      361,
+      13,
+      16
+     ]
+    },
+    {
+     "item": 123,
+     "role": "frame_1",
+     "src": [
+      240,
+      345,
+      32,
+      32
+     ]
+    }
+   ],
+   "box": [
+    222,
+    345,
+    50,
+    32
+   ]
+  },
+  {
+   "id": 21,
+   "name": "fire_blast_e021",
+   "file": "fire_blast/fire_blast_e021.png",
+   "cell": [
+    38,
+    35
+   ],
+   "zone": null,
+   "set": 4,
+   "template": "none",
+   "frames": [
+    {
+     "item": 124,
+     "role": "frame_0",
+     "src": [
+      354,
+      346,
+      36,
+      30
+     ]
+    },
+    {
+     "item": 125,
+     "role": "frame_1",
+     "src": [
+      395,
+      342,
+      38,
+      35
+     ]
+    }
+   ],
+   "box": [
+    354,
+    342,
+    79,
+    35
+   ]
+  },
+  {
+   "id": 22,
+   "name": "fire_blast_e022",
+   "file": "fire_blast/fire_blast_e022.png",
+   "cell": [
+    16,
+    16
+   ],
+   "zone": null,
+   "set": 4,
+   "template": "none",
+   "frames": [
+    {
+     "item": 129,
+     "role": "frame_0",
+     "src": [
+      62,
+      348,
+      16,
+      13
+     ]
+    },
+    {
+     "item": 130,
+     "role": "frame_1",
+     "src": [
+      83,
+      347,
+      13,
+      16
+     ]
+    }
+   ],
+   "box": [
+    62,
+    347,
+    34,
+    16
+   ]
+  },
+  {
+   "id": 23,
+   "name": "fire_blast_e023",
+   "file": "fire_blast/fire_blast_e023.png",
+   "cell": [
+    8,
+    8
+   ],
+   "zone": null,
+   "set": 4,
+   "template": "none",
+   "frames": [
+    {
+     "item": 132,
+     "role": "frame_0",
+     "src": [
+      278,
+      358,
+      6,
+      6
+     ]
+    },
+    {
+     "item": 133,
+     "role": "frame_1",
+     "src": [
+      290,
+      357,
+      8,
+      8
+     ]
+    }
+   ],
+   "box": [
+    278,
+    357,
+    20,
+    8
+   ]
+  },
+  {
+   "id": 24,
+   "name": "fire_blast_e024",
+   "file": "fire_blast/fire_blast_e024.png",
+   "cell": [
+    22,
+    21
+   ],
+   "zone": null,
+   "set": 4,
+   "template": "none",
+   "frames": [
+    {
+     "item": 139,
+     "role": "frame_0",
+     "src": [
+      303,
+      351,
+      20,
+      19
+     ]
+    },
+    {
+     "item": 140,
+     "role": "frame_1",
+     "src": [
+      328,
+      350,
+      22,
+      21
+     ]
+    }
+   ],
+   "box": [
+    303,
+    350,
+    47,
+    21
+   ]
+  },
+  {
+   "id": 25,
+   "name": "fire_blast_e025",
+   "file": "fire_blast/fire_blast_e025.png",
+   "cell": [
+    51,
+    16
+   ],
+   "zone": null,
+   "set": 4,
+   "template": "none",
+   "frames": [
+    {
+     "item": 143,
+     "role": "frame_0",
+     "src": [
+      6,
+      402,
+      8,
+      16
+     ]
+    },
+    {
+     "item": 144,
+     "role": "frame_1",
+     "src": [
+      19,
+      402,
+      11,
+      16
+     ]
+    },
+    {
+     "item": 145,
+     "role": "frame_2",
+     "src": [
+      36,
+      402,
+      13,
+      16
+     ]
+    },
+    {
+     "item": 146,
+     "role": "frame_3",
+     "src": [
+      53,
+      405,
+      51,
+      10
+     ]
+    }
+   ],
+   "box": [
+    6,
+    402,
+    98,
+    16
+   ]
+  },
+  {
+   "id": 26,
+   "name": "fire_blast_e026",
+   "file": "fire_blast/fire_blast_e026.png",
+   "cell": [
+    16,
+    16
+   ],
+   "zone": null,
+   "set": 4,
+   "template": "none",
+   "frames": [
+    {
+     "item": 147,
+     "role": "frame_0",
+     "src": [
+      6,
+      441,
+      16,
+      11
+     ]
+    },
+    {
+     "item": 148,
+     "role": "frame_1",
+     "src": [
+      24,
+      440,
+      16,
+      13
+     ]
+    },
+    {
+     "item": 149,
+     "role": "frame_2",
+     "src": [
+      45,
+      439,
+      10,
+      15
+     ]
+    },
+    {
+     "item": 150,
+     "role": "frame_3",
+     "src": [
+      60,
+      438,
+      8,
+      16
+     ]
+    },
+    {
+     "item": 151,
+     "role": "frame_4",
+     "src": [
+      72,
+      438,
+      11,
+      16
+     ]
+    },
+    {
+     "item": 152,
+     "role": "frame_5",
+     "src": [
+      90,
+      438,
+      11,
+      16
+     ],
+     "duplicate_of": 4
+    }
+   ],
+   "box": [
+    6,
+    438,
+    95,
+    16
+   ]
+  },
+  {
+   "id": 27,
+   "name": "fire_blast_e027",
+   "file": "fire_blast/fire_blast_e027.png",
+   "cell": [
+    38,
+    32
+   ],
+   "zone": null,
+   "set": 4,
+   "template": "none",
+   "frames": [
+    {
+     "item": 153,
+     "role": "frame_0",
+     "src": [
+      131,
+      445,
+      6,
+      6
+     ]
+    },
+    {
+     "item": 154,
+     "role": "frame_1",
+     "src": [
+      140,
+      444,
+      18,
+      8
+     ]
+    },
+    {
+     "item": 155,
+     "role": "frame_2",
+     "src": [
+      161,
+      439,
+      14,
+      14
+     ]
+    },
+    {
+     "item": 156,
+     "role": "frame_3",
+     "src": [
+      178,
+      429,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 157,
+     "role": "frame_4",
+     "src": [
+      199,
+      421,
+      6,
+      31
+     ]
+    },
+    {
+     "item": 158,
+     "role": "frame_5",
+     "src": [
+      209,
+      429,
+      6,
+      23
+     ]
+    },
+    {
+     "item": 159,
+     "role": "frame_6",
+     "src": [
+      218,
+      420,
+      38,
+      32
+     ]
+    },
+    {
+     "item": 160,
+     "role": "frame_7",
+     "src": [
+      259,
+      421,
+      7,
+      31
+     ]
+    },
+    {
+     "item": 161,
+     "role": "frame_8",
+     "src": [
+      269,
+      420,
+      6,
+      32
+     ]
+    },
+    {
+     "item": 162,
+     "role": "frame_9",
+     "src": [
+      281,
+      444,
+      3,
+      8
+     ]
+    }
+   ],
+   "box": [
+    131,
+    420,
+    153,
+    33
+   ]
+  },
+  {
+   "id": 28,
+   "name": "fire_blast_e028",
+   "file": "fire_blast/fire_blast_e028.png",
+   "cell": [
+    69,
+    15
+   ],
+   "zone": null,
+   "set": 4,
+   "template": "none",
+   "frames": [
+    {
+     "item": 163,
+     "role": "frame_0",
+     "src": [
+      7,
+      422,
+      69,
+      12
+     ]
+    },
+    {
+     "item": 164,
+     "role": "frame_1",
+     "src": [
+      78,
+      422,
+      16,
+      13
+     ]
+    },
+    {
+     "item": 165,
+     "role": "frame_2",
+     "src": [
+      99,
+      421,
+      10,
+      15
+     ]
+    }
+   ],
+   "box": [
+    7,
+    421,
+    102,
+    15
+   ]
+  },
+  {
+   "id": 29,
+   "name": "fire_punch_e029",
+   "file": "fire_punch/fire_punch_e029.png",
+   "cell": [
+    171,
+    30
+   ],
+   "zone": null,
+   "set": 5,
+   "template": "none",
+   "frames": [
+    {
+     "item": 167,
+     "role": "frame_0",
+     "src": [
+      187,
+      487,
+      30,
+      28
+     ]
+    },
+    {
+     "item": 168,
+     "role": "frame_1",
+     "src": [
+      217,
+      481,
+      171,
+      30
+     ]
+    }
+   ],
+   "box": [
+    187,
+    481,
+    201,
+    34
+   ]
+  },
+  {
+   "id": 30,
+   "name": "fire_spin_e030",
+   "file": "fire_spin/fire_spin_e030.png",
+   "cell": [
+    11,
+    10
+   ],
+   "zone": null,
+   "set": 6,
+   "template": "none",
+   "frames": [
+    {
+     "item": 184,
+     "role": "frame_0",
+     "src": [
+      610,
+      600,
+      6,
+      8
+     ]
+    },
+    {
+     "item": 185,
+     "role": "frame_1",
+     "src": [
+      624,
+      598,
+      6,
+      8
+     ]
+    },
+    {
+     "item": 186,
+     "role": "frame_2",
+     "src": [
+      640,
+      601,
+      8,
+      6
+     ]
+    },
+    {
+     "item": 187,
+     "role": "frame_3",
+     "src": [
+      656,
+      597,
+      11,
+      10
+     ]
+    }
+   ],
+   "box": [
+    610,
+    597,
+    57,
+    11
+   ]
+  },
+  {
+   "id": 31,
+   "name": "fire_spin_e031",
+   "file": "fire_spin/fire_spin_e031.png",
+   "cell": [
+    9,
+    16
+   ],
+   "zone": null,
+   "set": 6,
+   "template": "none",
+   "frames": [
+    {
+     "item": 211,
+     "role": "frame_0",
+     "src": [
+      30,
+      629,
+      5,
+      8
+     ]
+    },
+    {
+     "item": 212,
+     "role": "frame_1",
+     "src": [
+      41,
+      632,
+      8,
+      6
+     ]
+    },
+    {
+     "item": 213,
+     "role": "frame_2",
+     "src": [
+      57,
+      622,
+      9,
+      16
+     ]
+    },
+    {
+     "item": 214,
+     "role": "frame_3",
+     "src": [
+      72,
+      627,
+      5,
+      8
+     ],
+     "duplicate_of": 0
+    }
+   ],
+   "box": [
+    30,
+    622,
+    47,
+    16
+   ]
+  },
+  {
+   "id": 32,
+   "name": "fire_spin_e032",
+   "file": "fire_spin/fire_spin_e032.png",
+   "cell": [
+    10,
+    9
+   ],
+   "zone": null,
+   "set": 6,
+   "template": "none",
+   "frames": [
+    {
+     "item": 215,
+     "role": "frame_0",
+     "src": [
+      95,
+      624,
+      10,
+      9
+     ]
+    },
+    {
+     "item": 216,
+     "role": "frame_1",
+     "src": [
+      109,
+      628,
+      8,
+      8
+     ]
+    }
+   ],
+   "box": [
+    95,
+    624,
+    22,
+    12
+   ]
+  },
+  {
+   "id": 33,
+   "name": "fire_spin_e033",
+   "file": "fire_spin/fire_spin_e033.png",
+   "cell": [
+    8,
+    18
+   ],
+   "zone": null,
+   "set": 6,
+   "template": "none",
+   "frames": [
+    {
+     "item": 222,
+     "role": "frame_0",
+     "src": [
+      393,
+      625,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 223,
+     "role": "frame_1",
+     "src": [
+      405,
+      628,
+      8,
+      6
+     ]
+    },
+    {
+     "item": 224,
+     "role": "frame_2",
+     "src": [
+      419,
+      614,
+      8,
+      18
+     ]
+    }
+   ],
+   "box": [
+    393,
+    614,
+    34,
+    20
+   ]
+  },
+  {
+   "id": 34,
+   "name": "fire_spin_e034",
+   "file": "fire_spin/fire_spin_e034.png",
+   "cell": [
+    8,
+    8
+   ],
+   "zone": null,
+   "set": 6,
+   "template": "none",
+   "frames": [
+    {
+     "item": 227,
+     "role": "frame_0",
+     "src": [
+      721,
+      627,
+      5,
+      8
+     ]
+    },
+    {
+     "item": 228,
+     "role": "frame_1",
+     "src": [
+      735,
+      629,
+      8,
+      8
+     ]
+    }
+   ],
+   "box": [
+    721,
+    627,
+    22,
+    10
+   ]
+  },
+  {
+   "id": 35,
+   "name": "fire_spin_e035",
+   "file": "fire_spin/fire_spin_e035.png",
+   "cell": [
+    8,
+    8
+   ],
+   "zone": null,
+   "set": 6,
+   "template": "none",
+   "frames": [
+    {
+     "item": 234,
+     "role": "frame_0",
+     "src": [
+      211,
+      624,
+      8,
+      6
+     ]
+    },
+    {
+     "item": 235,
+     "role": "frame_1",
+     "src": [
+      225,
+      616,
+      8,
+      8
+     ]
+    }
+   ],
+   "box": [
+    211,
+    616,
+    22,
+    14
+   ]
+  },
+  {
+   "id": 36,
+   "name": "fire_spin_e036",
+   "file": "fire_spin/fire_spin_e036.png",
+   "cell": [
+    8,
+    8
+   ],
+   "zone": null,
+   "set": 6,
+   "template": "none",
+   "frames": [
+    {
+     "item": 238,
+     "role": "frame_0",
+     "src": [
+      325,
+      621,
+      6,
+      8
+     ]
+    },
+    {
+     "item": 239,
+     "role": "frame_1",
+     "src": [
+      336,
+      621,
+      8,
+      8
+     ]
+    }
+   ],
+   "box": [
+    325,
+    621,
+    19,
+    8
+   ]
+  },
+  {
+   "id": 37,
+   "name": "fire_spin_e037",
+   "file": "fire_spin/fire_spin_e037.png",
+   "cell": [
+    13,
+    26
+   ],
+   "zone": null,
+   "set": 6,
+   "template": "none",
+   "frames": [
+    {
+     "item": 251,
+     "role": "frame_0",
+     "src": [
+      165,
+      623,
+      13,
+      19
+     ]
+    },
+    {
+     "item": 252,
+     "role": "frame_1",
+     "src": [
+      184,
+      617,
+      12,
+      26
+     ]
+    }
+   ],
+   "box": [
+    165,
+    617,
+    31,
+    26
+   ]
+  },
+  {
+   "id": 38,
+   "name": "flame_wheel_e038",
+   "file": "flame_wheel/flame_wheel_e038.png",
+   "cell": [
+    171,
+    30
+   ],
+   "zone": null,
+   "set": 7,
+   "template": "none",
+   "frames": [
+    {
+     "item": 266,
+     "role": "frame_0",
+     "src": [
+      508,
+      685,
+      30,
+      28
+     ]
+    },
+    {
+     "item": 267,
+     "role": "frame_1",
+     "src": [
+      538,
+      679,
+      171,
+      30
+     ]
+    }
+   ],
+   "box": [
+    508,
+    679,
+    201,
+    34
+   ]
+  },
+  {
+   "id": 39,
+   "name": "flame_wheel_e039",
+   "file": "flame_wheel/flame_wheel_e039.png",
+   "cell": [
+    15,
+    14
+   ],
+   "zone": null,
+   "set": 7,
+   "template": "none",
+   "frames": [
+    {
+     "item": 268,
+     "role": "frame_0",
+     "src": [
+      1,
+      716,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 269,
+     "role": "frame_1",
+     "src": [
+      17,
+      715,
+      15,
+      14
+     ]
+    }
+   ],
+   "box": [
+    1,
+    715,
+    31,
+    14
+   ]
+  },
+  {
+   "id": 40,
+   "name": "flame_wheel_e040",
+   "file": "flame_wheel/flame_wheel_e040.png",
+   "cell": [
+    18,
+    17
+   ],
+   "zone": null,
+   "set": 7,
+   "template": "none",
+   "frames": [
+    {
+     "item": 273,
+     "role": "frame_0",
+     "src": [
+      36,
+      713,
+      18,
+      17
+     ]
+    },
+    {
+     "item": 274,
+     "role": "frame_1",
+     "src": [
+      58,
+      720,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 275,
+     "role": "frame_2",
+     "src": [
+      73,
+      722,
+      12,
+      12
+     ],
+     "duplicate_of": 1
+    },
+    {
+     "item": 276,
+     "role": "frame_3",
+     "src": [
+      89,
+      713,
+      12,
+      17
+     ]
+    }
+   ],
+   "box": [
+    36,
+    713,
+    65,
+    21
+   ]
+  },
+  {
+   "id": 41,
+   "name": "flame_wheel_e041",
+   "file": "flame_wheel/flame_wheel_e041.png",
+   "cell": [
+    16,
+    16
+   ],
+   "zone": null,
+   "set": 7,
+   "template": "none",
+   "frames": [
+    {
+     "item": 279,
+     "role": "frame_0",
+     "src": [
+      255,
+      720,
+      16,
+      13
+     ]
+    },
+    {
+     "item": 280,
+     "role": "frame_1",
+     "src": [
+      279,
+      714,
+      11,
+      16
+     ]
+    },
+    {
+     "item": 281,
+     "role": "frame_2",
+     "src": [
+      294,
+      715,
+      10,
+      15
+     ]
+    }
+   ],
+   "box": [
+    255,
+    714,
+    49,
+    19
+   ]
+  },
+  {
+   "id": 42,
+   "name": "flame_wheel_e042",
+   "file": "flame_wheel/flame_wheel_e042.png",
+   "cell": [
+    51,
+    16
+   ],
+   "zone": null,
+   "set": 7,
+   "template": "none",
+   "frames": [
+    {
+     "item": 289,
+     "role": "frame_0",
+     "src": [
+      23,
+      754,
+      8,
+      16
+     ]
+    },
+    {
+     "item": 290,
+     "role": "frame_1",
+     "src": [
+      36,
+      754,
+      11,
+      16
+     ]
+    },
+    {
+     "item": 291,
+     "role": "frame_2",
+     "src": [
+      53,
+      754,
+      13,
+      16
+     ]
+    },
+    {
+     "item": 292,
+     "role": "frame_3",
+     "src": [
+      70,
+      757,
+      51,
+      10
+     ]
+    }
+   ],
+   "box": [
+    23,
+    754,
+    98,
+    16
+   ]
+  },
+  {
+   "id": 43,
+   "name": "flame_wheel_e043",
+   "file": "flame_wheel/flame_wheel_e043.png",
+   "cell": [
+    69,
+    15
+   ],
+   "zone": null,
+   "set": 7,
+   "template": "none",
+   "frames": [
+    {
+     "item": 293,
+     "role": "frame_0",
+     "src": [
+      7,
+      774,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 294,
+     "role": "frame_1",
+     "src": [
+      24,
+      774,
+      69,
+      12
+     ]
+    },
+    {
+     "item": 295,
+     "role": "frame_2",
+     "src": [
+      95,
+      774,
+      16,
+      13
+     ]
+    },
+    {
+     "item": 296,
+     "role": "frame_3",
+     "src": [
+      116,
+      773,
+      10,
+      15
+     ]
+    }
+   ],
+   "box": [
+    7,
+    773,
+    119,
+    15
+   ]
+  },
+  {
+   "id": 44,
+   "name": "flame_wheel_e044",
+   "file": "flame_wheel/flame_wheel_e044.png",
+   "cell": [
+    16,
+    16
+   ],
+   "zone": null,
+   "set": 7,
+   "template": "none",
+   "frames": [
+    {
+     "item": 297,
+     "role": "frame_0",
+     "src": [
+      23,
+      793,
+      16,
+      11
+     ]
+    },
+    {
+     "item": 298,
+     "role": "frame_1",
+     "src": [
+      41,
+      792,
+      16,
+      13
+     ]
+    },
+    {
+     "item": 299,
+     "role": "frame_2",
+     "src": [
+      62,
+      791,
+      10,
+      15
+     ]
+    },
+    {
+     "item": 300,
+     "role": "frame_3",
+     "src": [
+      77,
+      790,
+      8,
+      16
+     ]
+    },
+    {
+     "item": 301,
+     "role": "frame_4",
+     "src": [
+      89,
+      790,
+      11,
+      16
+     ]
+    },
+    {
+     "item": 302,
+     "role": "frame_5",
+     "src": [
+      107,
+      790,
+      11,
+      16
+     ],
+     "duplicate_of": 4
+    }
+   ],
+   "box": [
+    23,
+    790,
+    95,
+    16
+   ]
+  },
+  {
+   "id": 45,
+   "name": "flamethrower_e045",
+   "file": "flamethrower/flamethrower_e045.png",
+   "cell": [
+    171,
+    30
+   ],
+   "zone": null,
+   "set": 8,
+   "template": "none",
+   "frames": [
+    {
+     "item": 303,
+     "role": "frame_0",
+     "src": [
+      518,
+      845,
+      30,
+      28
+     ]
+    },
+    {
+     "item": 304,
+     "role": "frame_1",
+     "src": [
+      548,
+      839,
+      171,
+      30
+     ]
+    }
+   ],
+   "box": [
+    518,
+    839,
+    201,
+    34
+   ]
+  },
+  {
+   "id": 46,
+   "name": "flamethrower_e046",
+   "file": "flamethrower/flamethrower_e046.png",
+   "cell": [
+    331,
+    32
+   ],
+   "zone": null,
+   "set": 8,
+   "template": "none",
+   "frames": [
+    {
+     "item": 308,
+     "role": "frame_0",
+     "src": [
+      8,
+      864,
+      331,
+      32
+     ]
+    },
+    {
+     "item": 309,
+     "role": "frame_1",
+     "src": [
+      313,
+      865,
+      26,
+      27
+     ]
+    },
+    {
+     "item": 310,
+     "role": "frame_2",
+     "src": [
+      341,
+      859,
+      72,
+      32
+     ]
+    }
+   ],
+   "box": [
+    8,
+    859,
+    405,
+    37
+   ]
+  },
+  {
+   "id": 47,
+   "name": "flamethrower_e047",
+   "file": "flamethrower/flamethrower_e047.png",
+   "cell": [
+    51,
+    16
+   ],
+   "zone": null,
+   "set": 8,
+   "template": "none",
+   "frames": [
+    {
+     "item": 311,
+     "role": "frame_0",
+     "src": [
+      26,
+      908,
+      8,
+      16
+     ]
+    },
+    {
+     "item": 312,
+     "role": "frame_1",
+     "src": [
+      39,
+      908,
+      11,
+      16
+     ]
+    },
+    {
+     "item": 313,
+     "role": "frame_2",
+     "src": [
+      56,
+      908,
+      13,
+      16
+     ]
+    },
+    {
+     "item": 314,
+     "role": "frame_3",
+     "src": [
+      73,
+      911,
+      51,
+      10
+     ]
+    }
+   ],
+   "box": [
+    26,
+    908,
+    98,
+    16
+   ]
+  },
+  {
+   "id": 48,
+   "name": "flamethrower_e048",
+   "file": "flamethrower/flamethrower_e048.png",
+   "cell": [
+    69,
+    15
+   ],
+   "zone": null,
+   "set": 8,
+   "template": "none",
+   "frames": [
+    {
+     "item": 315,
+     "role": "frame_0",
+     "src": [
+      6,
+      930,
+      18,
+      8
+     ]
+    },
+    {
+     "item": 316,
+     "role": "frame_1",
+     "src": [
+      27,
+      928,
+      69,
+      12
+     ]
+    },
+    {
+     "item": 317,
+     "role": "frame_2",
+     "src": [
+      98,
+      928,
+      16,
+      13
+     ]
+    },
+    {
+     "item": 318,
+     "role": "frame_3",
+     "src": [
+      119,
+      927,
+      10,
+      15
+     ]
+    }
+   ],
+   "box": [
+    6,
+    927,
+    123,
+    15
+   ]
+  },
+  {
+   "id": 49,
+   "name": "flamethrower_e049",
+   "file": "flamethrower/flamethrower_e049.png",
+   "cell": [
+    16,
+    16
+   ],
+   "zone": null,
+   "set": 8,
+   "template": "none",
+   "frames": [
+    {
+     "item": 319,
+     "role": "frame_0",
+     "src": [
+      26,
+      947,
+      16,
+      11
+     ]
+    },
+    {
+     "item": 320,
+     "role": "frame_1",
+     "src": [
+      44,
+      946,
+      16,
+      13
+     ]
+    },
+    {
+     "item": 321,
+     "role": "frame_2",
+     "src": [
+      65,
+      945,
+      10,
+      15
+     ]
+    },
+    {
+     "item": 322,
+     "role": "frame_3",
+     "src": [
+      80,
+      944,
+      8,
+      16
+     ]
+    },
+    {
+     "item": 323,
+     "role": "frame_4",
+     "src": [
+      92,
+      944,
+      11,
+      16
+     ]
+    },
+    {
+     "item": 324,
+     "role": "frame_5",
+     "src": [
+      110,
+      944,
+      11,
+      16
+     ]
+    }
+   ],
+   "box": [
+    26,
+    944,
+    95,
+    16
+   ]
+  },
+  {
+   "id": 50,
+   "name": "overheat_e050",
+   "file": "overheat/overheat_e050.png",
+   "cell": [
+    171,
+    30
+   ],
+   "zone": null,
+   "set": 10,
+   "template": "none",
+   "frames": [
+    {
+     "item": 335,
+     "role": "frame_0",
+     "src": [
+      183,
+      1185,
+      30,
+      28
+     ]
+    },
+    {
+     "item": 336,
+     "role": "frame_1",
+     "src": [
+      213,
+      1179,
+      171,
+      30
+     ]
+    }
+   ],
+   "box": [
+    183,
+    1179,
+    201,
+    34
+   ]
+  },
+  {
+   "id": 51,
+   "name": "overheat_e051",
+   "file": "overheat/overheat_e051.png",
+   "cell": [
+    3,
+    32
+   ],
+   "zone": null,
+   "set": 10,
+   "template": "none",
+   "frames": [
+    {
+     "item": 346,
+     "role": "frame_0",
+     "src": [
+      584,
+      1209,
+      3,
+      8
+     ]
+    },
+    {
+     "item": 347,
+     "role": "frame_1",
+     "src": [
+      594,
+      1185,
+      3,
+      32
+     ]
+    }
+   ],
+   "box": [
+    584,
+    1185,
+    13,
+    32
+   ]
+  },
+  {
+   "id": 52,
+   "name": "overheat_e052",
+   "file": "overheat/overheat_e052.png",
+   "cell": [
+    3,
+    32
+   ],
+   "zone": null,
+   "set": 10,
+   "template": "none",
+   "frames": [
+    {
+     "item": 354,
+     "role": "frame_0",
+     "src": [
+      749,
+      1212,
+      3,
+      8
+     ]
+    },
+    {
+     "item": 355,
+     "role": "frame_1",
+     "src": [
+      759,
+      1188,
+      3,
+      32
+     ]
+    }
+   ],
+   "box": [
+    749,
+    1188,
+    13,
+    32
+   ]
+  },
+  {
+   "id": 53,
+   "name": "overheat_e053",
+   "file": "overheat/overheat_e053.png",
+   "cell": [
+    3,
+    16
+   ],
+   "zone": null,
+   "set": 10,
+   "template": "none",
+   "frames": [
+    {
+     "item": 356,
+     "role": "frame_0",
+     "src": [
+      785,
+      1214,
+      3,
+      5
+     ]
+    },
+    {
+     "item": 357,
+     "role": "frame_1",
+     "src": [
+      795,
+      1203,
+      3,
+      16
+     ]
+    }
+   ],
+   "box": [
+    785,
+    1203,
+    13,
+    16
+   ]
+  },
+  {
+   "id": 54,
+   "name": "sacred_fire_e054",
+   "file": "sacred_fire/sacred_fire_e054.png",
+   "cell": [
+    23,
+    75
+   ],
+   "zone": null,
+   "set": 11,
+   "template": "none",
+   "frames": [
+    {
+     "item": 377,
+     "role": "frame_0",
+     "src": [
+      82,
+      1271,
+      11,
+      58
+     ]
+    },
+    {
+     "item": 378,
+     "role": "frame_1",
+     "src": [
+      101,
+      1271,
+      11,
+      60
+     ]
+    },
+    {
+     "item": 379,
+     "role": "frame_2",
+     "src": [
+      116,
+      1257,
+      11,
+      74
+     ]
+    },
+    {
+     "item": 380,
+     "role": "frame_3",
+     "src": [
+      132,
+      1258,
+      14,
+      73
+     ]
+    },
+    {
+     "item": 381,
+     "role": "frame_4",
+     "src": [
+      150,
+      1257,
+      23,
+      75
+     ]
+    },
+    {
+     "item": 382,
+     "role": "frame_5",
+     "src": [
+      175,
+      1267,
+      8,
+      63
+     ]
+    }
+   ],
+   "box": [
+    82,
+    1257,
+    101,
+    75
+   ]
+  },
+  {
+   "id": 55,
+   "name": "sacred_fire_e055",
+   "file": "sacred_fire/sacred_fire_e055.png",
+   "cell": [
+    8,
+    64
+   ],
+   "zone": null,
+   "set": 11,
+   "template": "none",
+   "frames": [
+    {
+     "item": 383,
+     "role": "frame_0",
+     "src": [
+      214,
+      1266,
+      8,
+      63
+     ]
+    },
+    {
+     "item": 384,
+     "role": "frame_1",
+     "src": [
+      226,
+      1263,
+      8,
+      64
+     ]
+    }
+   ],
+   "box": [
+    214,
+    1263,
+    20,
+    66
+   ]
+  },
+  {
+   "id": 56,
+   "name": "sacred_fire_e056",
+   "file": "sacred_fire/sacred_fire_e056.png",
+   "cell": [
+    10,
+    76
+   ],
+   "zone": null,
+   "set": 11,
+   "template": "none",
+   "frames": [
+    {
+     "item": 386,
+     "role": "frame_0",
+     "src": [
+      301,
+      1255,
+      10,
+      75
+     ]
+    },
+    {
+     "item": 387,
+     "role": "frame_1",
+     "src": [
+      317,
+      1257,
+      10,
+      75
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 388,
+     "role": "frame_2",
+     "src": [
+      331,
+      1255,
+      6,
+      76
+     ]
+    },
+    {
+     "item": 389,
+     "role": "frame_3",
+     "src": [
+      347,
+      1256,
+      6,
+      75
+     ]
+    }
+   ],
+   "box": [
+    301,
+    1255,
+    52,
+    77
+   ]
+  },
+  {
+   "id": 57,
+   "name": "sacred_fire_e057",
+   "file": "sacred_fire/sacred_fire_e057.png",
+   "cell": [
+    171,
+    30
+   ],
+   "zone": null,
+   "set": 11,
+   "template": "none",
+   "frames": [
+    {
+     "item": 396,
+     "role": "frame_0",
+     "src": [
+      587,
+      1280,
+      30,
+      28
+     ]
+    },
+    {
+     "item": 397,
+     "role": "frame_1",
+     "src": [
+      617,
+      1274,
+      171,
+      30
+     ]
+    }
+   ],
+   "box": [
+    587,
+    1274,
+    201,
+    34
+   ]
+  },
+  {
+   "id": 58,
+   "name": "sacred_fire_e058",
+   "file": "sacred_fire/sacred_fire_e058.png",
+   "cell": [
+    38,
+    64
+   ],
+   "zone": null,
+   "set": 11,
+   "template": "none",
+   "frames": [
+    {
+     "item": 408,
+     "role": "frame_0",
+     "src": [
+      12,
+      1404,
+      2,
+      16
+     ]
+    },
+    {
+     "item": 409,
+     "role": "frame_1",
+     "src": [
+      21,
+      1388,
+      3,
+      32
+     ]
+    },
+    {
+     "item": 410,
+     "role": "frame_2",
+     "src": [
+      29,
+      1357,
+      38,
+      64
+     ]
+    },
+    {
+     "item": 411,
+     "role": "frame_3",
+     "src": [
+      70,
+      1357,
+      7,
+      64
+     ]
+    },
+    {
+     "item": 412,
+     "role": "frame_4",
+     "src": [
+      81,
+      1357,
+      4,
+      64
+     ]
+    }
+   ],
+   "box": [
+    12,
+    1357,
+    73,
+    64
+   ]
+  },
+  {
+   "id": 59,
+   "name": "sunny_day_e059",
+   "file": "sunny_day/sunny_day_e059.png",
+   "cell": [
+    32,
+    32
+   ],
+   "zone": null,
+   "set": 12,
+   "template": "none",
+   "frames": [
+    {
+     "item": 416,
+     "role": "frame_0",
+     "src": [
+      181,
+      1488,
+      32,
+      32
+     ]
+    },
+    {
+     "item": 417,
+     "role": "frame_1",
+     "src": [
+      221,
+      1494,
+      20,
+      20
+     ]
+    }
+   ],
+   "box": [
+    181,
+    1488,
+    60,
+    32
+   ]
+  },
+  {
+   "id": 60,
+   "name": "sunny_day_e060",
+   "file": "sunny_day/sunny_day_e060.png",
+   "cell": [
+    18,
+    8
+   ],
+   "zone": null,
+   "set": 12,
+   "template": "none",
+   "frames": [
+    {
+     "item": 418,
+     "role": "frame_0",
+     "src": [
+      249,
+      1500,
+      18,
+      8
+     ]
+    },
+    {
+     "item": 419,
+     "role": "frame_1",
+     "src": [
+      271,
+      1502,
+      4,
+      4
+     ]
+    }
+   ],
+   "box": [
+    249,
+    1500,
+    26,
+    8
+   ]
+  },
+  {
+   "id": 61,
+   "name": "will_o_wisp_e061",
+   "file": "will_o_wisp/will_o_wisp_e061.png",
+   "cell": [
+    27,
+    14
+   ],
+   "zone": null,
+   "set": 13,
+   "template": "none",
+   "frames": [
+    {
+     "item": 423,
+     "role": "frame_0",
+     "src": [
+      498,
+      1598,
+      13,
+      8
+     ]
+    },
+    {
+     "item": 424,
+     "role": "frame_1",
+     "src": [
+      515,
+      1597,
+      27,
+      14
+     ]
+    }
+   ],
+   "box": [
+    498,
+    1597,
+    44,
+    14
+   ]
+  },
+  {
+   "id": 62,
+   "name": "will_o_wisp_e062",
+   "file": "will_o_wisp/will_o_wisp_e062.png",
+   "cell": [
+    43,
+    20
+   ],
+   "zone": null,
+   "set": 13,
+   "template": "none",
+   "frames": [
+    {
+     "item": 425,
+     "role": "frame_0",
+     "src": [
+      354,
+      1614,
+      16,
+      12
+     ]
+    },
+    {
+     "item": 426,
+     "role": "frame_1",
+     "src": [
+      367,
+      1601,
+      43,
+      20
+     ]
+    }
+   ],
+   "box": [
+    354,
+    1601,
+    56,
+    25
+   ]
+  },
+  {
+   "id": 63,
+   "name": "will_o_wisp_e063",
+   "file": "will_o_wisp/will_o_wisp_e063.png",
+   "cell": [
+    37,
+    25
+   ],
+   "zone": null,
+   "set": 13,
+   "template": "none",
+   "frames": [
+    {
+     "item": 429,
+     "role": "frame_0",
+     "src": [
+      297,
+      1617,
+      15,
+      15
+     ]
+    },
+    {
+     "item": 430,
+     "role": "frame_1",
+     "src": [
+      311,
+      1603,
+      37,
+      25
+     ]
+    }
+   ],
+   "box": [
+    297,
+    1603,
+    51,
+    29
+   ]
+  },
+  {
+   "id": 64,
+   "name": "will_o_wisp_e064",
+   "file": "will_o_wisp/will_o_wisp_e064.png",
+   "cell": [
+    13,
+    8
+   ],
+   "zone": null,
+   "set": 13,
+   "template": "none",
+   "frames": [
+    {
+     "item": 433,
+     "role": "frame_0",
+     "src": [
+      464,
+      1605,
+      13,
+      8
+     ]
+    },
+    {
+     "item": 434,
+     "role": "frame_1",
+     "src": [
+      483,
+      1609,
+      13,
+      8
+     ]
+    }
+   ],
+   "box": [
+    464,
+    1605,
+    32,
+    12
+   ]
+  },
+  {
+   "id": 65,
+   "name": "will_o_wisp_e065",
+   "file": "will_o_wisp/will_o_wisp_e065.png",
+   "cell": [
+    52,
+    48
+   ],
+   "zone": null,
+   "set": 13,
+   "template": "none",
+   "frames": [
+    {
+     "item": 435,
+     "role": "frame_0",
+     "src": [
+      239,
+      1609,
+      52,
+      48
+     ]
+    },
+    {
+     "item": 436,
+     "role": "frame_1",
+     "src": [
+      301,
+      1634,
+      18,
+      19
+     ]
+    },
+    {
+     "item": 437,
+     "role": "frame_2",
+     "src": [
+      325,
+      1637,
+      15,
+      15
+     ]
+    }
+   ],
+   "box": [
+    239,
+    1609,
+    101,
+    48
+   ]
+  },
+  {
+   "id": 66,
+   "name": "will_o_wisp_e066",
+   "file": "will_o_wisp/will_o_wisp_e066.png",
+   "cell": [
+    45,
+    44
+   ],
+   "zone": null,
+   "set": 13,
+   "template": "none",
+   "frames": [
+    {
+     "item": 439,
+     "role": "frame_0",
+     "src": [
+      123,
+      1640,
+      24,
+      21
+     ]
+    },
+    {
+     "item": 440,
+     "role": "frame_1",
+     "src": [
+      154,
+      1629,
+      32,
+      32
+     ]
+    },
+    {
+     "item": 441,
+     "role": "frame_2",
+     "src": [
+      191,
+      1617,
+      45,
+      44
+     ]
+    }
+   ],
+   "box": [
+    123,
+    1617,
+    113,
+    44
+   ]
+  },
+  {
+   "id": 67,
+   "name": "will_o_wisp_e067",
+   "file": "will_o_wisp/will_o_wisp_e067.png",
+   "cell": [
+    29,
+    12
+   ],
+   "zone": null,
+   "set": 13,
+   "template": "none",
+   "frames": [
+    {
+     "item": 443,
+     "role": "frame_0",
+     "src": [
+      421,
+      1627,
+      29,
+      12
+     ]
+    },
+    {
+     "item": 444,
+     "role": "frame_1",
+     "src": [
+      455,
+      1627,
+      24,
+      11
+     ]
+    }
+   ],
+   "box": [
+    421,
+    1627,
+    58,
+    12
+   ]
+  },
+  {
+   "id": 68,
+   "name": "will_o_wisp_e068",
+   "file": "will_o_wisp/will_o_wisp_e068.png",
+   "cell": [
+    29,
+    15
+   ],
+   "zone": null,
+   "set": 13,
+   "template": "none",
+   "frames": [
+    {
+     "item": 446,
+     "role": "frame_0",
+     "src": [
+      359,
+      1630,
+      19,
+      15
+     ]
+    },
+    {
+     "item": 447,
+     "role": "frame_1",
+     "src": [
+      385,
+      1630,
+      29,
+      15
+     ]
+    }
+   ],
+   "box": [
+    359,
+    1630,
+    55,
+    15
+   ]
+  },
+  {
+   "id": 69,
+   "name": "will_o_wisp_e069",
+   "file": "will_o_wisp/will_o_wisp_e069.png",
+   "cell": [
+    12,
+    12
+   ],
+   "zone": null,
+   "set": 13,
+   "template": "none",
+   "frames": [
+    {
+     "item": 448,
+     "role": "frame_0",
+     "src": [
+      10,
+      1671,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 449,
+     "role": "frame_1",
+     "src": [
+      28,
+      1671,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 450,
+     "role": "frame_2",
+     "src": [
+      46,
+      1671,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 451,
+     "role": "frame_3",
+     "src": [
+      64,
+      1671,
+      12,
+      12
+     ]
+    }
+   ],
+   "box": [
+    10,
+    1671,
+    66,
+    12
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 244,
+   "y": 24,
+   "w": 16,
+   "h": 20,
+   "area": 158,
+   "ncolors": 5,
+   "dominant": "#F0E800",
+   "dom_frac": 0.285,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 0,
+   "file": "blast_burn/blast_burn_000.png"
+  },
+  {
+   "x": 452,
+   "y": 38,
+   "w": 8,
+   "h": 6,
+   "area": 32,
+   "ncolors": 5,
+   "dominant": "#980000",
+   "dom_frac": 0.375,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 1,
+   "file": "blast_burn/blast_burn_001.png"
+  },
+  {
+   "x": 524,
+   "y": 21,
+   "w": 16,
+   "h": 20,
+   "area": 158,
+   "ncolors": 5,
+   "dominant": "#F0E800",
+   "dom_frac": 0.285,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 2,
+   "file": "blast_burn/blast_burn_002.png",
+   "duplicate_of": 0
+  },
+  {
+   "x": 608,
+   "y": 22,
+   "w": 16,
+   "h": 19,
+   "area": 137,
+   "ncolors": 5,
+   "dominant": "#F08058",
+   "dom_frac": 0.255,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 3,
+   "file": "blast_burn/blast_burn_003.png"
+  },
+  {
+   "x": 692,
+   "y": 23,
+   "w": 16,
+   "h": 18,
+   "area": 77,
+   "ncolors": 5,
+   "dominant": "#D03800",
+   "dom_frac": 0.325,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 4,
+   "file": "blast_burn/blast_burn_004.png"
+  },
+  {
+   "x": 182,
+   "y": 81,
+   "w": 10,
+   "h": 7,
+   "area": 37,
+   "ncolors": 4,
+   "dominant": "#F0F0F0",
+   "dom_frac": 0.324,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 5,
+   "file": "blast_burn/blast_burn_005.png"
+  },
+  {
+   "x": 380,
+   "y": 50,
+   "w": 40,
+   "h": 38,
+   "area": 235,
+   "ncolors": 5,
+   "dominant": "#D03800",
+   "dom_frac": 0.319,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 8,
+   "file": "blast_burn/blast_burn_008.png"
+  },
+  {
+   "x": 452,
+   "y": 82,
+   "w": 8,
+   "h": 6,
+   "area": 32,
+   "ncolors": 5,
+   "dominant": "#980000",
+   "dom_frac": 0.375,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 9,
+   "file": "blast_burn/blast_burn_009.png",
+   "duplicate_of": 1
+  },
+  {
+   "x": 158,
+   "y": 61,
+   "w": 10,
+   "h": 7,
+   "area": 37,
+   "ncolors": 4,
+   "dominant": "#F0F0F0",
+   "dom_frac": 0.324,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 10,
+   "file": "blast_burn/blast_burn_010.png",
+   "duplicate_of": 5
+  },
+  {
+   "x": 206,
+   "y": 61,
+   "w": 10,
+   "h": 7,
+   "area": 37,
+   "ncolors": 4,
+   "dominant": "#F0F0F0",
+   "dom_frac": 0.324,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 11,
+   "file": "blast_burn/blast_burn_011.png",
+   "duplicate_of": 5
+  },
+  {
+   "x": 356,
+   "y": 26,
+   "w": 43,
+   "h": 42,
+   "area": 239,
+   "ncolors": 5,
+   "dominant": "#D03800",
+   "dom_frac": 0.314,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 12,
+   "file": "blast_burn/blast_burn_012.png"
+  },
+  {
+   "x": 428,
+   "y": 62,
+   "w": 8,
+   "h": 11,
+   "area": 34,
+   "ncolors": 5,
+   "dominant": "#980000",
+   "dom_frac": 0.382,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 13,
+   "file": "blast_burn/blast_burn_013.png"
+  },
+  {
+   "x": 476,
+   "y": 62,
+   "w": 8,
+   "h": 9,
+   "area": 33,
+   "ncolors": 5,
+   "dominant": "#980000",
+   "dom_frac": 0.394,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 14,
+   "file": "blast_burn/blast_burn_014.png"
+  },
+  {
+   "x": 660,
+   "y": 31,
+   "w": 26,
+   "h": 37,
+   "area": 154,
+   "ncolors": 5,
+   "dominant": "#D03800",
+   "dom_frac": 0.325,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 15,
+   "file": "blast_burn/blast_burn_015.png"
+  },
+  {
+   "x": 166,
+   "y": 74,
+   "w": 10,
+   "h": 7,
+   "area": 37,
+   "ncolors": 4,
+   "dominant": "#F0F0F0",
+   "dom_frac": 0.324,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 19,
+   "file": "blast_burn/blast_burn_019.png",
+   "duplicate_of": 5
+  },
+  {
+   "x": 198,
+   "y": 74,
+   "w": 10,
+   "h": 7,
+   "area": 37,
+   "ncolors": 4,
+   "dominant": "#F0F0F0",
+   "dom_frac": 0.324,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 20,
+   "file": "blast_burn/blast_burn_020.png",
+   "duplicate_of": 5
+  },
+  {
+   "x": 364,
+   "y": 63,
+   "w": 19,
+   "h": 18,
+   "area": 78,
+   "ncolors": 5,
+   "dominant": "#D03800",
+   "dom_frac": 0.321,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 21,
+   "file": "blast_burn/blast_burn_021.png"
+  },
+  {
+   "x": 436,
+   "y": 75,
+   "w": 8,
+   "h": 6,
+   "area": 32,
+   "ncolors": 5,
+   "dominant": "#980000",
+   "dom_frac": 0.375,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 22,
+   "file": "blast_burn/blast_burn_022.png",
+   "duplicate_of": 1
+  },
+  {
+   "x": 468,
+   "y": 75,
+   "w": 8,
+   "h": 6,
+   "area": 32,
+   "ncolors": 5,
+   "dominant": "#980000",
+   "dom_frac": 0.375,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 23,
+   "file": "blast_burn/blast_burn_023.png",
+   "duplicate_of": 1
+  },
+  {
+   "x": 492,
+   "y": 29,
+   "w": 26,
+   "h": 57,
+   "area": 474,
+   "ncolors": 5,
+   "dominant": "#F0E800",
+   "dom_frac": 0.285,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 24,
+   "file": "blast_burn/blast_burn_024.png"
+  },
+  {
+   "x": 630,
+   "y": 30,
+   "w": 26,
+   "h": 56,
+   "area": 411,
+   "ncolors": 5,
+   "dominant": "#F08058",
+   "dom_frac": 0.255,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 27,
+   "file": "blast_burn/blast_burn_027.png"
+  },
+  {
+   "x": 670,
+   "y": 68,
+   "w": 16,
+   "h": 18,
+   "area": 77,
+   "ncolors": 5,
+   "dominant": "#D03800",
+   "dom_frac": 0.325,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 28,
+   "file": "blast_burn/blast_burn_028.png",
+   "duplicate_of": 4
+  },
+  {
+   "x": 714,
+   "y": 50,
+   "w": 26,
+   "h": 36,
+   "area": 154,
+   "ncolors": 5,
+   "dominant": "#D03800",
+   "dom_frac": 0.325,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 29,
+   "file": "blast_burn/blast_burn_029.png"
+  },
+  {
+   "x": 396,
+   "y": 36,
+   "w": 16,
+   "h": 19,
+   "area": 82,
+   "ncolors": 5,
+   "dominant": "#D03800",
+   "dom_frac": 0.305,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 33,
+   "file": "blast_burn/blast_burn_033.png"
+  },
+  {
+   "x": 436,
+   "y": 48,
+   "w": 8,
+   "h": 6,
+   "area": 33,
+   "ncolors": 5,
+   "dominant": "#980000",
+   "dom_frac": 0.394,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 34,
+   "file": "blast_burn/blast_burn_034.png"
+  },
+  {
+   "x": 468,
+   "y": 48,
+   "w": 8,
+   "h": 6,
+   "area": 32,
+   "ncolors": 5,
+   "dominant": "#980000",
+   "dom_frac": 0.375,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 35,
+   "file": "blast_burn/blast_burn_035.png",
+   "duplicate_of": 1
+  },
+  {
+   "x": 714,
+   "y": 31,
+   "w": 16,
+   "h": 18,
+   "area": 77,
+   "ncolors": 5,
+   "dominant": "#D03800",
+   "dom_frac": 0.325,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 36,
+   "file": "blast_burn/blast_burn_036.png",
+   "duplicate_of": 4
+  },
+  {
+   "x": 524,
+   "y": 75,
+   "w": 16,
+   "h": 20,
+   "area": 158,
+   "ncolors": 5,
+   "dominant": "#F0E800",
+   "dom_frac": 0.285,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 37,
+   "file": "blast_burn/blast_burn_037.png",
+   "duplicate_of": 0
+  },
+  {
+   "x": 608,
+   "y": 76,
+   "w": 16,
+   "h": 19,
+   "area": 137,
+   "ncolors": 5,
+   "dominant": "#F08058",
+   "dom_frac": 0.255,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 38,
+   "file": "blast_burn/blast_burn_038.png",
+   "duplicate_of": 3
+  },
+  {
+   "x": 692,
+   "y": 77,
+   "w": 16,
+   "h": 18,
+   "area": 77,
+   "ncolors": 5,
+   "dominant": "#D03800",
+   "dom_frac": 0.325,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 39,
+   "file": "blast_burn/blast_burn_039.png",
+   "duplicate_of": 4
+  },
+  {
+   "x": 483,
+   "y": 171,
+   "w": 13,
+   "h": 8,
+   "area": 20,
+   "ncolors": 1,
+   "dominant": "#980000",
+   "dom_frac": 1.0,
+   "kind": "sprite",
+   "zone": null,
+   "set": 1,
+   "id": 45,
+   "file": "blaze_kick/blaze_kick_045.png"
+  },
+  {
+   "x": 515,
+   "y": 170,
+   "w": 13,
+   "h": 8,
+   "area": 20,
+   "ncolors": 1,
+   "dominant": "#980000",
+   "dom_frac": 1.0,
+   "kind": "sprite",
+   "zone": null,
+   "set": 1,
+   "id": 46,
+   "file": "blaze_kick/blaze_kick_046.png",
+   "duplicate_of": 30
+  },
+  {
+   "x": 353,
+   "y": 178,
+   "w": 29,
+   "h": 12,
+   "area": 88,
+   "ncolors": 2,
+   "dominant": "#980000",
+   "dom_frac": 0.955,
+   "kind": "sprite",
+   "zone": null,
+   "set": 1,
+   "id": 51,
+   "file": "blaze_kick/blaze_kick_051.png"
+  },
+  {
+   "x": 663,
+   "y": 184,
+   "w": 4,
+   "h": 5,
+   "area": 9,
+   "ncolors": 2,
+   "dominant": "#D03800",
+   "dom_frac": 0.667,
+   "kind": "sprite",
+   "zone": null,
+   "set": 2,
+   "id": 54,
+   "file": "ember/ember_054.png"
+  },
+  {
+   "x": 500,
+   "y": 197,
+   "w": 13,
+   "h": 8,
+   "area": 20,
+   "ncolors": 1,
+   "dominant": "#980000",
+   "dom_frac": 1.0,
+   "kind": "sprite",
+   "zone": null,
+   "set": 1,
+   "id": 57,
+   "file": "blaze_kick/blaze_kick_057.png",
+   "mirror_of": 30
+  },
+  {
+   "x": 468,
+   "y": 198,
+   "w": 13,
+   "h": 8,
+   "area": 20,
+   "ncolors": 1,
+   "dominant": "#980000",
+   "dom_frac": 1.0,
+   "kind": "sprite",
+   "zone": null,
+   "set": 1,
+   "id": 70,
+   "file": "blaze_kick/blaze_kick_070.png",
+   "duplicate_of": 34
+  },
+  {
+   "x": 338,
+   "y": 190,
+   "w": 13,
+   "h": 8,
+   "area": 29,
+   "ncolors": 1,
+   "dominant": "#980000",
+   "dom_frac": 1.0,
+   "kind": "sprite",
+   "zone": null,
+   "set": 1,
+   "id": 71,
+   "file": "blaze_kick/blaze_kick_071.png"
+  },
+  {
+   "x": 9,
+   "y": 227,
+   "w": 10,
+   "h": 10,
+   "area": 56,
+   "ncolors": 3,
+   "dominant": "#F0F0F0",
+   "dom_frac": 0.607,
+   "kind": "sprite",
+   "zone": null,
+   "set": 1,
+   "id": 74,
+   "file": "blaze_kick/blaze_kick_074.png"
+  },
+  {
+   "x": 22,
+   "y": 372,
+   "w": 15,
+   "h": 10,
+   "area": 80,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.463,
+   "kind": "sprite",
+   "zone": null,
+   "set": 4,
+   "id": 91,
+   "file": "fire_blast/fire_blast_091.png"
+  },
+  {
+   "x": 54,
+   "y": 374,
+   "w": 16,
+   "h": 7,
+   "area": 74,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.405,
+   "kind": "sprite",
+   "zone": null,
+   "set": 4,
+   "id": 92,
+   "file": "fire_blast/fire_blast_092.png"
+  },
+  {
+   "x": 1245,
+   "y": 333,
+   "w": 12,
+   "h": 50,
+   "area": 148,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.432,
+   "kind": "sprite",
+   "zone": null,
+   "set": 4,
+   "id": 109,
+   "file": "fire_blast/fire_blast_109.png"
+  },
+  {
+   "x": 1270,
+   "y": 375,
+   "w": 3,
+   "h": 8,
+   "area": 15,
+   "ncolors": 3,
+   "dominant": "#D03800",
+   "dom_frac": 0.533,
+   "kind": "sprite",
+   "zone": null,
+   "set": 4,
+   "id": 110,
+   "file": "fire_blast/fire_blast_110.png"
+  },
+  {
+   "x": 1303,
+   "y": 375,
+   "w": 3,
+   "h": 8,
+   "area": 15,
+   "ncolors": 3,
+   "dominant": "#D03800",
+   "dom_frac": 0.533,
+   "kind": "sprite",
+   "zone": null,
+   "set": 4,
+   "id": 111,
+   "file": "fire_blast/fire_blast_111.png",
+   "duplicate_of": 41
+  },
+  {
+   "x": 124,
+   "y": 345,
+   "w": 15,
+   "h": 10,
+   "area": 80,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.463,
+   "kind": "sprite",
+   "zone": null,
+   "set": 4,
+   "id": 112,
+   "file": "fire_blast/fire_blast_112.png"
+  },
+  {
+   "x": 168,
+   "y": 344,
+   "w": 16,
+   "h": 7,
+   "area": 74,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.405,
+   "kind": "sprite",
+   "zone": null,
+   "set": 4,
+   "id": 113,
+   "file": "fire_blast/fire_blast_113.png"
+  },
+  {
+   "x": 214,
+   "y": 344,
+   "w": 16,
+   "h": 8,
+   "area": 80,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.487,
+   "kind": "sprite",
+   "zone": null,
+   "set": 4,
+   "id": 114,
+   "file": "fire_blast/fire_blast_114.png"
+  },
+  {
+   "x": 1262,
+   "y": 335,
+   "w": 5,
+   "h": 18,
+   "area": 17,
+   "ncolors": 3,
+   "dominant": "#F08058",
+   "dom_frac": 0.471,
+   "kind": "sprite",
+   "zone": null,
+   "set": 4,
+   "id": 115,
+   "file": "fire_blast/fire_blast_115.png"
+  },
+  {
+   "x": 1307,
+   "y": 335,
+   "w": 5,
+   "h": 18,
+   "area": 17,
+   "ncolors": 3,
+   "dominant": "#D03800",
+   "dom_frac": 0.471,
+   "kind": "sprite",
+   "zone": null,
+   "set": 4,
+   "id": 116,
+   "file": "fire_blast/fire_blast_116.png",
+   "mirror_of": 46
+  },
+  {
+   "x": 88,
+   "y": 372,
+   "w": 16,
+   "h": 8,
+   "area": 80,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.487,
+   "kind": "sprite",
+   "zone": null,
+   "set": 4,
+   "id": 117,
+   "file": "fire_blast/fire_blast_117.png"
+  },
+  {
+   "x": 123,
+   "y": 368,
+   "w": 16,
+   "h": 11,
+   "area": 82,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.488,
+   "kind": "sprite",
+   "zone": null,
+   "set": 4,
+   "id": 118,
+   "file": "fire_blast/fire_blast_118.png"
+  },
+  {
+   "x": 1163,
+   "y": 369,
+   "w": 3,
+   "h": 8,
+   "area": 15,
+   "ncolors": 3,
+   "dominant": "#D03800",
+   "dom_frac": 0.533,
+   "kind": "sprite",
+   "zone": null,
+   "set": 4,
+   "id": 126,
+   "file": "fire_blast/fire_blast_126.png",
+   "duplicate_of": 41
+  },
+  {
+   "x": 1181,
+   "y": 369,
+   "w": 3,
+   "h": 8,
+   "area": 15,
+   "ncolors": 3,
+   "dominant": "#D03800",
+   "dom_frac": 0.533,
+   "kind": "sprite",
+   "zone": null,
+   "set": 4,
+   "id": 127,
+   "file": "fire_blast/fire_blast_127.png",
+   "duplicate_of": 41
+  },
+  {
+   "x": 22,
+   "y": 348,
+   "w": 16,
+   "h": 11,
+   "area": 82,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.488,
+   "kind": "sprite",
+   "zone": null,
+   "set": 4,
+   "id": 128,
+   "file": "fire_blast/fire_blast_128.png"
+  },
+  {
+   "x": 108,
+   "y": 350,
+   "w": 10,
+   "h": 15,
+   "area": 80,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.463,
+   "kind": "sprite",
+   "zone": null,
+   "set": 4,
+   "id": 131,
+   "file": "fire_blast/fire_blast_131.png"
+  },
+  {
+   "x": 1262,
+   "y": 357,
+   "w": 3,
+   "h": 8,
+   "area": 15,
+   "ncolors": 3,
+   "dominant": "#D03800",
+   "dom_frac": 0.533,
+   "kind": "sprite",
+   "zone": null,
+   "set": 4,
+   "id": 134,
+   "file": "fire_blast/fire_blast_134.png",
+   "mirror_of": 41
+  },
+  {
+   "x": 1309,
+   "y": 357,
+   "w": 3,
+   "h": 8,
+   "area": 15,
+   "ncolors": 3,
+   "dominant": "#D03800",
+   "dom_frac": 0.533,
+   "kind": "sprite",
+   "zone": null,
+   "set": 4,
+   "id": 135,
+   "file": "fire_blast/fire_blast_135.png",
+   "duplicate_of": 41
+  },
+  {
+   "x": 6,
+   "y": 357,
+   "w": 8,
+   "h": 16,
+   "area": 80,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.487,
+   "kind": "sprite",
+   "zone": null,
+   "set": 4,
+   "id": 136,
+   "file": "fire_blast/fire_blast_136.png"
+  },
+  {
+   "x": 43,
+   "y": 351,
+   "w": 11,
+   "h": 16,
+   "area": 82,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.488,
+   "kind": "sprite",
+   "zone": null,
+   "set": 4,
+   "id": 137,
+   "file": "fire_blast/fire_blast_137.png"
+  },
+  {
+   "x": 147,
+   "y": 354,
+   "w": 8,
+   "h": 16,
+   "area": 80,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.487,
+   "kind": "sprite",
+   "zone": null,
+   "set": 4,
+   "id": 138,
+   "file": "fire_blast/fire_blast_138.png"
+  },
+  {
+   "x": 1268,
+   "y": 353,
+   "w": 5,
+   "h": 18,
+   "area": 17,
+   "ncolors": 3,
+   "dominant": "#D03800",
+   "dom_frac": 0.471,
+   "kind": "sprite",
+   "zone": null,
+   "set": 4,
+   "id": 141,
+   "file": "fire_blast/fire_blast_141.png",
+   "duplicate_of": 47
+  },
+  {
+   "x": 1301,
+   "y": 353,
+   "w": 5,
+   "h": 18,
+   "area": 17,
+   "ncolors": 3,
+   "dominant": "#D03800",
+   "dom_frac": 0.471,
+   "kind": "sprite",
+   "zone": null,
+   "set": 4,
+   "id": 142,
+   "file": "fire_blast/fire_blast_142.png",
+   "duplicate_of": 47
+  },
+  {
+   "x": 279,
+   "y": 422,
+   "w": 5,
+   "h": 18,
+   "area": 17,
+   "ncolors": 3,
+   "dominant": "#D03800",
+   "dom_frac": 0.471,
+   "kind": "sprite",
+   "zone": null,
+   "set": 4,
+   "id": 166,
+   "file": "fire_blast/fire_blast_166.png",
+   "duplicate_of": 47
+  },
+  {
+   "x": 84,
+   "y": 489,
+   "w": 103,
+   "h": 36,
+   "area": 1463,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.377,
+   "kind": "sprite",
+   "zone": null,
+   "set": 5,
+   "id": 169,
+   "file": "fire_punch/fire_punch_169.png"
+  },
+  {
+   "x": 10,
+   "y": 501,
+   "w": 72,
+   "h": 32,
+   "area": 1313,
+   "ncolors": 5,
+   "dominant": "#F0F0F0",
+   "dom_frac": 0.385,
+   "kind": "sprite",
+   "zone": null,
+   "set": 5,
+   "id": 170,
+   "file": "fire_punch/fire_punch_170.png"
+  },
+  {
+   "x": 900,
+   "y": 564,
+   "w": 8,
+   "h": 6,
+   "area": 26,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.615,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 171,
+   "file": "fire_spin/fire_spin_171.png"
+  },
+  {
+   "x": 947,
+   "y": 562,
+   "w": 8,
+   "h": 6,
+   "area": 23,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.609,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 172,
+   "file": "fire_spin/fire_spin_172.png"
+  },
+  {
+   "x": 1004,
+   "y": 560,
+   "w": 6,
+   "h": 8,
+   "area": 25,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.52,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 173,
+   "file": "fire_spin/fire_spin_173.png"
+  },
+  {
+   "x": 1054,
+   "y": 562,
+   "w": 8,
+   "h": 6,
+   "area": 23,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.609,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 174,
+   "file": "fire_spin/fire_spin_174.png",
+   "duplicate_of": 65
+  },
+  {
+   "x": 847,
+   "y": 567,
+   "w": 6,
+   "h": 8,
+   "area": 25,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.52,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 175,
+   "file": "fire_spin/fire_spin_175.png",
+   "duplicate_of": 66
+  },
+  {
+   "x": 1115,
+   "y": 567,
+   "w": 6,
+   "h": 8,
+   "area": 25,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.52,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 176,
+   "file": "fire_spin/fire_spin_176.png",
+   "duplicate_of": 66
+  },
+  {
+   "x": 785,
+   "y": 578,
+   "w": 8,
+   "h": 6,
+   "area": 23,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.609,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 177,
+   "file": "fire_spin/fire_spin_177.png",
+   "duplicate_of": 65
+  },
+  {
+   "x": 426,
+   "y": 593,
+   "w": 6,
+   "h": 8,
+   "area": 25,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.52,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 178,
+   "file": "fire_spin/fire_spin_178.png",
+   "duplicate_of": 66
+  },
+  {
+   "x": 466,
+   "y": 593,
+   "w": 8,
+   "h": 6,
+   "area": 23,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.609,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 179,
+   "file": "fire_spin/fire_spin_179.png",
+   "duplicate_of": 65
+  },
+  {
+   "x": 512,
+   "y": 593,
+   "w": 6,
+   "h": 8,
+   "area": 25,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.52,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 180,
+   "file": "fire_spin/fire_spin_180.png",
+   "duplicate_of": 66
+  },
+  {
+   "x": 731,
+   "y": 588,
+   "w": 6,
+   "h": 8,
+   "area": 25,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.52,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 181,
+   "file": "fire_spin/fire_spin_181.png",
+   "duplicate_of": 66
+  },
+  {
+   "x": 382,
+   "y": 597,
+   "w": 8,
+   "h": 6,
+   "area": 23,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.609,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 182,
+   "file": "fire_spin/fire_spin_182.png",
+   "duplicate_of": 65
+  },
+  {
+   "x": 564,
+   "y": 598,
+   "w": 8,
+   "h": 6,
+   "area": 23,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.609,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 183,
+   "file": "fire_spin/fire_spin_183.png",
+   "duplicate_of": 65
+  },
+  {
+   "x": 687,
+   "y": 597,
+   "w": 8,
+   "h": 6,
+   "area": 23,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.609,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 188,
+   "file": "fire_spin/fire_spin_188.png",
+   "duplicate_of": 65
+  },
+  {
+   "x": 713,
+   "y": 598,
+   "w": 8,
+   "h": 8,
+   "area": 44,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.636,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 189,
+   "file": "fire_spin/fire_spin_189.png"
+  },
+  {
+   "x": 1066,
+   "y": 596,
+   "w": 6,
+   "h": 8,
+   "area": 25,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.52,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 190,
+   "file": "fire_spin/fire_spin_190.png",
+   "duplicate_of": 66
+  },
+  {
+   "x": 289,
+   "y": 610,
+   "w": 8,
+   "h": 6,
+   "area": 23,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.609,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 191,
+   "file": "fire_spin/fire_spin_191.png",
+   "duplicate_of": 65
+  },
+  {
+   "x": 339,
+   "y": 602,
+   "w": 6,
+   "h": 8,
+   "area": 25,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.52,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 192,
+   "file": "fire_spin/fire_spin_192.png",
+   "duplicate_of": 66
+  },
+  {
+   "x": 523,
+   "y": 607,
+   "w": 8,
+   "h": 8,
+   "area": 46,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.674,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 193,
+   "file": "fire_spin/fire_spin_193.png"
+  },
+  {
+   "x": 576,
+   "y": 602,
+   "w": 8,
+   "h": 8,
+   "area": 44,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.636,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 194,
+   "file": "fire_spin/fire_spin_194.png",
+   "duplicate_of": 78
+  },
+  {
+   "x": 774,
+   "y": 602,
+   "w": 6,
+   "h": 8,
+   "area": 37,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.486,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 195,
+   "file": "fire_spin/fire_spin_195.png"
+  },
+  {
+   "x": 831,
+   "y": 607,
+   "w": 8,
+   "h": 8,
+   "area": 46,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.674,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 196,
+   "file": "fire_spin/fire_spin_196.png",
+   "duplicate_of": 82
+  },
+  {
+   "x": 896,
+   "y": 608,
+   "w": 6,
+   "h": 8,
+   "area": 37,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.486,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 197,
+   "file": "fire_spin/fire_spin_197.png",
+   "duplicate_of": 84
+  },
+  {
+   "x": 941,
+   "y": 605,
+   "w": 8,
+   "h": 8,
+   "area": 44,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.636,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 198,
+   "file": "fire_spin/fire_spin_198.png",
+   "duplicate_of": 78
+  },
+  {
+   "x": 1076,
+   "y": 606,
+   "w": 8,
+   "h": 6,
+   "area": 26,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.615,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 199,
+   "file": "fire_spin/fire_spin_199.png",
+   "duplicate_of": 64
+  },
+  {
+   "x": 1128,
+   "y": 602,
+   "w": 5,
+   "h": 8,
+   "area": 22,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.455,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 200,
+   "file": "fire_spin/fire_spin_200.png"
+  },
+  {
+   "x": 461,
+   "y": 614,
+   "w": 8,
+   "h": 8,
+   "area": 46,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.674,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 201,
+   "file": "fire_spin/fire_spin_201.png",
+   "duplicate_of": 82
+  },
+  {
+   "x": 539,
+   "y": 614,
+   "w": 5,
+   "h": 8,
+   "area": 22,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.455,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 202,
+   "file": "fire_spin/fire_spin_202.png",
+   "duplicate_of": 89
+  },
+  {
+   "x": 595,
+   "y": 615,
+   "w": 8,
+   "h": 6,
+   "area": 26,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.615,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 203,
+   "file": "fire_spin/fire_spin_203.png",
+   "duplicate_of": 64
+  },
+  {
+   "x": 842,
+   "y": 612,
+   "w": 8,
+   "h": 8,
+   "area": 46,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.674,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 204,
+   "file": "fire_spin/fire_spin_204.png",
+   "duplicate_of": 82
+  },
+  {
+   "x": 881,
+   "y": 609,
+   "w": 8,
+   "h": 8,
+   "area": 44,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.636,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 205,
+   "file": "fire_spin/fire_spin_205.png",
+   "duplicate_of": 78
+  },
+  {
+   "x": 926,
+   "y": 610,
+   "w": 8,
+   "h": 8,
+   "area": 46,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.674,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 206,
+   "file": "fire_spin/fire_spin_206.png",
+   "duplicate_of": 82
+  },
+  {
+   "x": 963,
+   "y": 610,
+   "w": 6,
+   "h": 8,
+   "area": 37,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.486,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 207,
+   "file": "fire_spin/fire_spin_207.png",
+   "duplicate_of": 84
+  },
+  {
+   "x": 994,
+   "y": 602,
+   "w": 10,
+   "h": 15,
+   "area": 71,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.62,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 208,
+   "file": "fire_spin/fire_spin_208.png"
+  },
+  {
+   "x": 1017,
+   "y": 606,
+   "w": 12,
+   "h": 14,
+   "area": 45,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.533,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 209,
+   "file": "fire_spin/fire_spin_209.png"
+  },
+  {
+   "x": 7,
+   "y": 627,
+   "w": 6,
+   "h": 8,
+   "area": 25,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.52,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 210,
+   "file": "fire_spin/fire_spin_210.png",
+   "duplicate_of": 66
+  },
+  {
+   "x": 135,
+   "y": 626,
+   "w": 8,
+   "h": 12,
+   "area": 65,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.585,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 217,
+   "file": "fire_spin/fire_spin_217.png"
+  },
+  {
+   "x": 199,
+   "y": 626,
+   "w": 8,
+   "h": 6,
+   "area": 26,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.615,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 218,
+   "file": "fire_spin/fire_spin_218.png",
+   "duplicate_of": 64
+  },
+  {
+   "x": 239,
+   "y": 630,
+   "w": 5,
+   "h": 8,
+   "area": 22,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.455,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 219,
+   "file": "fire_spin/fire_spin_219.png",
+   "duplicate_of": 89
+  },
+  {
+   "x": 290,
+   "y": 627,
+   "w": 6,
+   "h": 8,
+   "area": 37,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.486,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 220,
+   "file": "fire_spin/fire_spin_220.png",
+   "duplicate_of": 84
+  },
+  {
+   "x": 365,
+   "y": 624,
+   "w": 8,
+   "h": 8,
+   "area": 46,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.674,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 221,
+   "file": "fire_spin/fire_spin_221.png",
+   "duplicate_of": 82
+  },
+  {
+   "x": 611,
+   "y": 627,
+   "w": 8,
+   "h": 8,
+   "area": 46,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.674,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 225,
+   "file": "fire_spin/fire_spin_225.png",
+   "duplicate_of": 82
+  },
+  {
+   "x": 644,
+   "y": 630,
+   "w": 8,
+   "h": 8,
+   "area": 44,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.636,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 226,
+   "file": "fire_spin/fire_spin_226.png",
+   "duplicate_of": 78
+  },
+  {
+   "x": 768,
+   "y": 631,
+   "w": 8,
+   "h": 6,
+   "area": 26,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.615,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 229,
+   "file": "fire_spin/fire_spin_229.png",
+   "duplicate_of": 64
+  },
+  {
+   "x": 903,
+   "y": 632,
+   "w": 8,
+   "h": 6,
+   "area": 23,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.609,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 230,
+   "file": "fire_spin/fire_spin_230.png",
+   "duplicate_of": 65
+  },
+  {
+   "x": 940,
+   "y": 629,
+   "w": 5,
+   "h": 8,
+   "area": 22,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.455,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 231,
+   "file": "fire_spin/fire_spin_231.png",
+   "duplicate_of": 89
+  },
+  {
+   "x": 20,
+   "y": 624,
+   "w": 8,
+   "h": 6,
+   "area": 23,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.609,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 232,
+   "file": "fire_spin/fire_spin_232.png",
+   "duplicate_of": 65
+  },
+  {
+   "x": 147,
+   "y": 622,
+   "w": 8,
+   "h": 8,
+   "area": 44,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.636,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 233,
+   "file": "fire_spin/fire_spin_233.png",
+   "duplicate_of": 78
+  },
+  {
+   "x": 249,
+   "y": 617,
+   "w": 6,
+   "h": 8,
+   "area": 25,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.52,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 236,
+   "file": "fire_spin/fire_spin_236.png",
+   "duplicate_of": 66
+  },
+  {
+   "x": 277,
+   "y": 617,
+   "w": 8,
+   "h": 8,
+   "area": 44,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.636,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 237,
+   "file": "fire_spin/fire_spin_237.png",
+   "duplicate_of": 78
+  },
+  {
+   "x": 378,
+   "y": 617,
+   "w": 8,
+   "h": 8,
+   "area": 44,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.636,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 240,
+   "file": "fire_spin/fire_spin_240.png",
+   "duplicate_of": 78
+  },
+  {
+   "x": 439,
+   "y": 620,
+   "w": 10,
+   "h": 9,
+   "area": 59,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.627,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 241,
+   "file": "fire_spin/fire_spin_241.png"
+  },
+  {
+   "x": 478,
+   "y": 618,
+   "w": 8,
+   "h": 6,
+   "area": 26,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.615,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 242,
+   "file": "fire_spin/fire_spin_242.png",
+   "duplicate_of": 64
+  },
+  {
+   "x": 507,
+   "y": 616,
+   "w": 8,
+   "h": 8,
+   "area": 44,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.636,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 243,
+   "file": "fire_spin/fire_spin_243.png",
+   "duplicate_of": 78
+  },
+  {
+   "x": 564,
+   "y": 621,
+   "w": 6,
+   "h": 8,
+   "area": 37,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.486,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 244,
+   "file": "fire_spin/fire_spin_244.png",
+   "duplicate_of": 84
+  },
+  {
+   "x": 645,
+   "y": 616,
+   "w": 5,
+   "h": 8,
+   "area": 22,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.455,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 245,
+   "file": "fire_spin/fire_spin_245.png",
+   "duplicate_of": 89
+  },
+  {
+   "x": 675,
+   "y": 622,
+   "w": 8,
+   "h": 6,
+   "area": 26,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.615,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 246,
+   "file": "fire_spin/fire_spin_246.png",
+   "duplicate_of": 64
+  },
+  {
+   "x": 786,
+   "y": 621,
+   "w": 6,
+   "h": 8,
+   "area": 37,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.486,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 247,
+   "file": "fire_spin/fire_spin_247.png",
+   "duplicate_of": 84
+  },
+  {
+   "x": 974,
+   "y": 622,
+   "w": 8,
+   "h": 6,
+   "area": 26,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.615,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 248,
+   "file": "fire_spin/fire_spin_248.png",
+   "duplicate_of": 64
+  },
+  {
+   "x": 20,
+   "y": 633,
+   "w": 5,
+   "h": 8,
+   "area": 22,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.455,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 249,
+   "file": "fire_spin/fire_spin_249.png",
+   "duplicate_of": 89
+  },
+  {
+   "x": 81,
+   "y": 631,
+   "w": 6,
+   "h": 8,
+   "area": 37,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.486,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 250,
+   "file": "fire_spin/fire_spin_250.png",
+   "duplicate_of": 84
+  },
+  {
+   "x": 215,
+   "y": 635,
+   "w": 8,
+   "h": 8,
+   "area": 46,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.674,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 253,
+   "file": "fire_spin/fire_spin_253.png",
+   "duplicate_of": 82
+  },
+  {
+   "x": 251,
+   "y": 632,
+   "w": 8,
+   "h": 8,
+   "area": 44,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.636,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 254,
+   "file": "fire_spin/fire_spin_254.png",
+   "duplicate_of": 78
+  },
+  {
+   "x": 276,
+   "y": 635,
+   "w": 8,
+   "h": 6,
+   "area": 26,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.615,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 255,
+   "file": "fire_spin/fire_spin_255.png",
+   "duplicate_of": 64
+  },
+  {
+   "x": 312,
+   "y": 635,
+   "w": 5,
+   "h": 8,
+   "area": 22,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.455,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 256,
+   "file": "fire_spin/fire_spin_256.png",
+   "duplicate_of": 89
+  },
+  {
+   "x": 348,
+   "y": 636,
+   "w": 8,
+   "h": 6,
+   "area": 26,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.615,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 257,
+   "file": "fire_spin/fire_spin_257.png",
+   "duplicate_of": 64
+  },
+  {
+   "x": 379,
+   "y": 632,
+   "w": 5,
+   "h": 8,
+   "area": 22,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.455,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 258,
+   "file": "fire_spin/fire_spin_258.png",
+   "duplicate_of": 89
+  },
+  {
+   "x": 662,
+   "y": 632,
+   "w": 6,
+   "h": 8,
+   "area": 37,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.486,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 259,
+   "file": "fire_spin/fire_spin_259.png",
+   "duplicate_of": 84
+  },
+  {
+   "x": 693,
+   "y": 632,
+   "w": 8,
+   "h": 8,
+   "area": 46,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.674,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 260,
+   "file": "fire_spin/fire_spin_260.png",
+   "duplicate_of": 82
+  },
+  {
+   "x": 819,
+   "y": 632,
+   "w": 5,
+   "h": 8,
+   "area": 22,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.455,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 261,
+   "file": "fire_spin/fire_spin_261.png",
+   "duplicate_of": 89
+  },
+  {
+   "x": 860,
+   "y": 633,
+   "w": 8,
+   "h": 6,
+   "area": 26,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.615,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 262,
+   "file": "fire_spin/fire_spin_262.png",
+   "duplicate_of": 64
+  },
+  {
+   "x": 220,
+   "y": 701,
+   "w": 15,
+   "h": 10,
+   "area": 80,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.463,
+   "kind": "sprite",
+   "zone": null,
+   "set": 7,
+   "id": 263,
+   "file": "flame_wheel/flame_wheel_263.png",
+   "duplicate_of": 43
+  },
+  {
+   "x": 263,
+   "y": 700,
+   "w": 16,
+   "h": 7,
+   "area": 74,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.405,
+   "kind": "sprite",
+   "zone": null,
+   "set": 7,
+   "id": 264,
+   "file": "flame_wheel/flame_wheel_264.png",
+   "duplicate_of": 44
+  },
+  {
+   "x": 308,
+   "y": 700,
+   "w": 16,
+   "h": 8,
+   "area": 80,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.487,
+   "kind": "sprite",
+   "zone": null,
+   "set": 7,
+   "id": 265,
+   "file": "flame_wheel/flame_wheel_265.png",
+   "duplicate_of": 45
+  },
+  {
+   "x": 129,
+   "y": 703,
+   "w": 47,
+   "h": 24,
+   "area": 383,
+   "ncolors": 4,
+   "dominant": "#F0F0F0",
+   "dom_frac": 0.407,
+   "kind": "sprite",
+   "zone": null,
+   "set": 7,
+   "id": 270,
+   "file": "flame_wheel/flame_wheel_270.png"
+  },
+  {
+   "x": 243,
+   "y": 710,
+   "w": 8,
+   "h": 16,
+   "area": 80,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.487,
+   "kind": "sprite",
+   "zone": null,
+   "set": 7,
+   "id": 271,
+   "file": "flame_wheel/flame_wheel_271.png",
+   "duplicate_of": 58
+  },
+  {
+   "x": 405,
+   "y": 687,
+   "w": 103,
+   "h": 36,
+   "area": 1463,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.377,
+   "kind": "sprite",
+   "zone": null,
+   "set": 7,
+   "id": 272,
+   "file": "flame_wheel/flame_wheel_272.png",
+   "duplicate_of": 62
+  },
+  {
+   "x": 185,
+   "y": 728,
+   "w": 16,
+   "h": 8,
+   "area": 80,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.487,
+   "kind": "sprite",
+   "zone": null,
+   "set": 7,
+   "id": 277,
+   "file": "flame_wheel/flame_wheel_277.png",
+   "duplicate_of": 48
+  },
+  {
+   "x": 219,
+   "y": 724,
+   "w": 16,
+   "h": 11,
+   "area": 82,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.488,
+   "kind": "sprite",
+   "zone": null,
+   "set": 7,
+   "id": 278,
+   "file": "flame_wheel/flame_wheel_278.png",
+   "duplicate_of": 49
+  },
+  {
+   "x": 316,
+   "y": 699,
+   "w": 87,
+   "h": 34,
+   "area": 1391,
+   "ncolors": 4,
+   "dominant": "#F0F0F0",
+   "dom_frac": 0.37,
+   "kind": "sprite",
+   "zone": null,
+   "set": 7,
+   "id": 282,
+   "file": "flame_wheel/flame_wheel_282.png"
+  },
+  {
+   "x": 69,
+   "y": 707,
+   "w": 12,
+   "h": 12,
+   "area": 112,
+   "ncolors": 3,
+   "dominant": "#F0F0F0",
+   "dom_frac": 0.607,
+   "kind": "sprite",
+   "zone": null,
+   "set": 7,
+   "id": 283,
+   "file": "flame_wheel/flame_wheel_283.png"
+  },
+  {
+   "x": 109,
+   "y": 704,
+   "w": 16,
+   "h": 12,
+   "area": 145,
+   "ncolors": 4,
+   "dominant": "#F0F0F0",
+   "dom_frac": 0.503,
+   "kind": "sprite",
+   "zone": null,
+   "set": 7,
+   "id": 284,
+   "file": "flame_wheel/flame_wheel_284.png"
+  },
+  {
+   "x": 180,
+   "y": 703,
+   "w": 13,
+   "h": 16,
+   "area": 79,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.456,
+   "kind": "sprite",
+   "zone": null,
+   "set": 7,
+   "id": 285,
+   "file": "flame_wheel/flame_wheel_285.png"
+  },
+  {
+   "x": 205,
+   "y": 706,
+   "w": 10,
+   "h": 15,
+   "area": 80,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.463,
+   "kind": "sprite",
+   "zone": null,
+   "set": 7,
+   "id": 286,
+   "file": "flame_wheel/flame_wheel_286.png",
+   "duplicate_of": 53
+  },
+  {
+   "x": 109,
+   "y": 726,
+   "w": 15,
+   "h": 12,
+   "area": 130,
+   "ncolors": 4,
+   "dominant": "#F0F0F0",
+   "dom_frac": 0.531,
+   "kind": "sprite",
+   "zone": null,
+   "set": 7,
+   "id": 287,
+   "file": "flame_wheel/flame_wheel_287.png"
+  },
+  {
+   "x": 150,
+   "y": 727,
+   "w": 18,
+   "h": 12,
+   "area": 136,
+   "ncolors": 4,
+   "dominant": "#F0F0F0",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "set": 7,
+   "id": 288,
+   "file": "flame_wheel/flame_wheel_288.png"
+  },
+  {
+   "x": 161,
+   "y": 863,
+   "w": 29,
+   "h": 25,
+   "area": 229,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.432,
+   "kind": "sprite",
+   "zone": null,
+   "set": 8,
+   "id": 305,
+   "file": "flamethrower/flamethrower_305.png"
+  },
+  {
+   "x": 282,
+   "y": 863,
+   "w": 29,
+   "h": 25,
+   "area": 229,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.432,
+   "kind": "sprite",
+   "zone": null,
+   "set": 8,
+   "id": 306,
+   "file": "flamethrower/flamethrower_306.png",
+   "duplicate_of": 150
+  },
+  {
+   "x": 415,
+   "y": 847,
+   "w": 103,
+   "h": 36,
+   "area": 1463,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.377,
+   "kind": "sprite",
+   "zone": null,
+   "set": 8,
+   "id": 307,
+   "file": "flamethrower/flamethrower_307.png",
+   "duplicate_of": 62
+  },
+  {
+   "x": 7,
+   "y": 981,
+   "w": 240,
+   "h": 160,
+   "area": 38400,
+   "ncolors": 12,
+   "dominant": "#601808",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "set": 9,
+   "id": 325,
+   "file": "heat_wave/heat_wave_325.png"
+  },
+  {
+   "x": 249,
+   "y": 981,
+   "w": 120,
+   "h": 160,
+   "area": 19200,
+   "ncolors": 12,
+   "dominant": "#601808",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "set": 9,
+   "id": 326,
+   "file": "heat_wave/heat_wave_326.png"
+  },
+  {
+   "x": 371,
+   "y": 981,
+   "w": 240,
+   "h": 160,
+   "area": 38400,
+   "ncolors": 12,
+   "dominant": "#601808",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "set": 9,
+   "id": 327,
+   "file": "heat_wave/heat_wave_327.png"
+  },
+  {
+   "x": 80,
+   "y": 1187,
+   "w": 103,
+   "h": 36,
+   "area": 1463,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.377,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 328,
+   "file": "overheat/overheat_328.png",
+   "duplicate_of": 62
+  },
+  {
+   "x": 495,
+   "y": 1191,
+   "w": 3,
+   "h": 32,
+   "area": 76,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.447,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 329,
+   "file": "overheat/overheat_329.png"
+  },
+  {
+   "x": 539,
+   "y": 1208,
+   "w": 3,
+   "h": 16,
+   "area": 36,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 330,
+   "file": "overheat/overheat_330.png"
+  },
+  {
+   "x": 567,
+   "y": 1192,
+   "w": 3,
+   "h": 32,
+   "area": 76,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.447,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 331,
+   "file": "overheat/overheat_331.png",
+   "duplicate_of": 157
+  },
+  {
+   "x": 627,
+   "y": 1177,
+   "w": 6,
+   "h": 47,
+   "area": 112,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.464,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 332,
+   "file": "overheat/overheat_332.png"
+  },
+  {
+   "x": 670,
+   "y": 1178,
+   "w": 6,
+   "h": 47,
+   "area": 112,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.464,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 333,
+   "file": "overheat/overheat_333.png"
+  },
+  {
+   "x": 713,
+   "y": 1178,
+   "w": 6,
+   "h": 47,
+   "area": 112,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.464,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 334,
+   "file": "overheat/overheat_334.png",
+   "duplicate_of": 160
+  },
+  {
+   "x": 403,
+   "y": 1201,
+   "w": 3,
+   "h": 8,
+   "area": 20,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 337,
+   "file": "overheat/overheat_337.png"
+  },
+  {
+   "x": 450,
+   "y": 1194,
+   "w": 3,
+   "h": 16,
+   "area": 36,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 338,
+   "file": "overheat/overheat_338.png",
+   "duplicate_of": 158
+  },
+  {
+   "x": 603,
+   "y": 1204,
+   "w": 3,
+   "h": 5,
+   "area": 11,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.545,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 339,
+   "file": "overheat/overheat_339.png"
+  },
+  {
+   "x": 637,
+   "y": 1192,
+   "w": 3,
+   "h": 16,
+   "area": 36,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 340,
+   "file": "overheat/overheat_340.png",
+   "duplicate_of": 158
+  },
+  {
+   "x": 723,
+   "y": 1193,
+   "w": 3,
+   "h": 16,
+   "area": 36,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 341,
+   "file": "overheat/overheat_341.png",
+   "duplicate_of": 158
+  },
+  {
+   "x": 768,
+   "y": 1207,
+   "w": 3,
+   "h": 5,
+   "area": 11,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.545,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 342,
+   "file": "overheat/overheat_342.png",
+   "duplicate_of": 165
+  },
+  {
+   "x": 507,
+   "y": 1184,
+   "w": 3,
+   "h": 5,
+   "area": 11,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.545,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 343,
+   "file": "overheat/overheat_343.png",
+   "duplicate_of": 165
+  },
+  {
+   "x": 551,
+   "y": 1185,
+   "w": 3,
+   "h": 8,
+   "area": 20,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 344,
+   "file": "overheat/overheat_344.png",
+   "duplicate_of": 163
+  },
+  {
+   "x": 548,
+   "y": 1200,
+   "w": 3,
+   "h": 16,
+   "area": 36,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 345,
+   "file": "overheat/overheat_345.png",
+   "duplicate_of": 158
+  },
+  {
+   "x": 618,
+   "y": 1211,
+   "w": 3,
+   "h": 5,
+   "area": 11,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.545,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 348,
+   "file": "overheat/overheat_348.png",
+   "duplicate_of": 165
+  },
+  {
+   "x": 646,
+   "y": 1208,
+   "w": 3,
+   "h": 8,
+   "area": 20,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 349,
+   "file": "overheat/overheat_349.png",
+   "duplicate_of": 163
+  },
+  {
+   "x": 661,
+   "y": 1209,
+   "w": 3,
+   "h": 8,
+   "area": 20,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 350,
+   "file": "overheat/overheat_350.png",
+   "duplicate_of": 163
+  },
+  {
+   "x": 689,
+   "y": 1201,
+   "w": 3,
+   "h": 16,
+   "area": 36,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 351,
+   "file": "overheat/overheat_351.png",
+   "duplicate_of": 158
+  },
+  {
+   "x": 704,
+   "y": 1212,
+   "w": 3,
+   "h": 5,
+   "area": 11,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.545,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 352,
+   "file": "overheat/overheat_352.png",
+   "duplicate_of": 165
+  },
+  {
+   "x": 732,
+   "y": 1209,
+   "w": 3,
+   "h": 8,
+   "area": 20,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 353,
+   "file": "overheat/overheat_353.png",
+   "duplicate_of": 163
+  },
+  {
+   "x": 817,
+   "y": 1210,
+   "w": 3,
+   "h": 8,
+   "area": 20,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 358,
+   "file": "overheat/overheat_358.png",
+   "duplicate_of": 163
+  },
+  {
+   "x": 833,
+   "y": 1211,
+   "w": 3,
+   "h": 5,
+   "area": 11,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.545,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 359,
+   "file": "overheat/overheat_359.png",
+   "duplicate_of": 165
+  },
+  {
+   "x": 386,
+   "y": 1201,
+   "w": 3,
+   "h": 5,
+   "area": 11,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.545,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 360,
+   "file": "overheat/overheat_360.png",
+   "duplicate_of": 165
+  },
+  {
+   "x": 431,
+   "y": 1201,
+   "w": 3,
+   "h": 5,
+   "area": 11,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.545,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 361,
+   "file": "overheat/overheat_361.png",
+   "duplicate_of": 165
+  },
+  {
+   "x": 459,
+   "y": 1202,
+   "w": 3,
+   "h": 5,
+   "area": 11,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.545,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 362,
+   "file": "overheat/overheat_362.png",
+   "duplicate_of": 165
+  },
+  {
+   "x": 478,
+   "y": 1194,
+   "w": 3,
+   "h": 8,
+   "area": 20,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 363,
+   "file": "overheat/overheat_363.png",
+   "duplicate_of": 163
+  },
+  {
+   "x": 504,
+   "y": 1199,
+   "w": 3,
+   "h": 8,
+   "area": 20,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 364,
+   "file": "overheat/overheat_364.png",
+   "duplicate_of": 163
+  },
+  {
+   "x": 523,
+   "y": 1191,
+   "w": 3,
+   "h": 16,
+   "area": 36,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 365,
+   "file": "overheat/overheat_365.png",
+   "duplicate_of": 158
+  },
+  {
+   "x": 558,
+   "y": 1200,
+   "w": 3,
+   "h": 5,
+   "area": 11,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.545,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 366,
+   "file": "overheat/overheat_366.png",
+   "duplicate_of": 165
+  },
+  {
+   "x": 587,
+   "y": 1186,
+   "w": 3,
+   "h": 16,
+   "area": 36,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 367,
+   "file": "overheat/overheat_367.png",
+   "duplicate_of": 158
+  },
+  {
+   "x": 680,
+   "y": 1193,
+   "w": 3,
+   "h": 8,
+   "area": 20,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 368,
+   "file": "overheat/overheat_368.png",
+   "duplicate_of": 163
+  },
+  {
+   "x": 752,
+   "y": 1189,
+   "w": 3,
+   "h": 16,
+   "area": 36,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 369,
+   "file": "overheat/overheat_369.png",
+   "duplicate_of": 158
+  },
+  {
+   "x": 788,
+   "y": 1196,
+   "w": 3,
+   "h": 8,
+   "area": 20,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 370,
+   "file": "overheat/overheat_370.png",
+   "duplicate_of": 163
+  },
+  {
+   "x": 810,
+   "y": 1198,
+   "w": 3,
+   "h": 5,
+   "area": 11,
+   "ncolors": 3,
+   "dominant": "#A868B0",
+   "dom_frac": 0.545,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 371,
+   "file": "overheat/overheat_371.png",
+   "duplicate_of": 165
+  },
+  {
+   "x": 6,
+   "y": 1199,
+   "w": 72,
+   "h": 32,
+   "area": 1312,
+   "ncolors": 4,
+   "dominant": "#F0F0F0",
+   "dom_frac": 0.385,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 372,
+   "file": "overheat/overheat_372.png"
+  },
+  {
+   "x": 8,
+   "y": 1311,
+   "w": 2,
+   "h": 16,
+   "area": 30,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.267,
+   "kind": "sprite",
+   "zone": null,
+   "set": 10,
+   "id": 373,
+   "file": "overheat/overheat_373.png"
+  },
+  {
+   "x": 25,
+   "y": 1316,
+   "w": 2,
+   "h": 16,
+   "area": 30,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.267,
+   "kind": "sprite",
+   "zone": null,
+   "set": 11,
+   "id": 374,
+   "file": "sacred_fire/sacred_fire_374.png",
+   "duplicate_of": 193
+  },
+  {
+   "x": 47,
+   "y": 1296,
+   "w": 3,
+   "h": 32,
+   "area": 88,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.432,
+   "kind": "sprite",
+   "zone": null,
+   "set": 11,
+   "id": 375,
+   "file": "sacred_fire/sacred_fire_375.png"
+  },
+  {
+   "x": 65,
+   "y": 1300,
+   "w": 3,
+   "h": 32,
+   "area": 88,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.432,
+   "kind": "sprite",
+   "zone": null,
+   "set": 11,
+   "id": 376,
+   "file": "sacred_fire/sacred_fire_376.png",
+   "duplicate_of": 195
+  },
+  {
+   "x": 265,
+   "y": 1264,
+   "w": 8,
+   "h": 64,
+   "area": 200,
+   "ncolors": 4,
+   "dominant": "#F0F0F0",
+   "dom_frac": 0.48,
+   "kind": "sprite",
+   "zone": null,
+   "set": 11,
+   "id": 385,
+   "file": "sacred_fire/sacred_fire_385.png"
+  },
+  {
+   "x": 410,
+   "y": 1294,
+   "w": 72,
+   "h": 32,
+   "area": 1313,
+   "ncolors": 5,
+   "dominant": "#F0F0F0",
+   "dom_frac": 0.385,
+   "kind": "sprite",
+   "zone": null,
+   "set": 11,
+   "id": 390,
+   "file": "sacred_fire/sacred_fire_390.png",
+   "duplicate_of": 63
+  },
+  {
+   "x": 200,
+   "y": 1257,
+   "w": 8,
+   "h": 76,
+   "area": 452,
+   "ncolors": 4,
+   "dominant": "#F0F0F0",
+   "dom_frac": 0.376,
+   "kind": "sprite",
+   "zone": null,
+   "set": 11,
+   "id": 391,
+   "file": "sacred_fire/sacred_fire_391.png"
+  },
+  {
+   "x": 237,
+   "y": 1255,
+   "w": 12,
+   "h": 78,
+   "area": 395,
+   "ncolors": 4,
+   "dominant": "#F0F0F0",
+   "dom_frac": 0.486,
+   "kind": "sprite",
+   "zone": null,
+   "set": 11,
+   "id": 392,
+   "file": "sacred_fire/sacred_fire_392.png"
+  },
+  {
+   "x": 273,
+   "y": 1255,
+   "w": 16,
+   "h": 78,
+   "area": 400,
+   "ncolors": 4,
+   "dominant": "#F0F0F0",
+   "dom_frac": 0.48,
+   "kind": "sprite",
+   "zone": null,
+   "set": 11,
+   "id": 393,
+   "file": "sacred_fire/sacred_fire_393.png"
+  },
+  {
+   "x": 357,
+   "y": 1256,
+   "w": 5,
+   "h": 46,
+   "area": 30,
+   "ncolors": 3,
+   "dominant": "#F08058",
+   "dom_frac": 0.567,
+   "kind": "sprite",
+   "zone": null,
+   "set": 11,
+   "id": 394,
+   "file": "sacred_fire/sacred_fire_394.png"
+  },
+  {
+   "x": 373,
+   "y": 1256,
+   "w": 7,
+   "h": 47,
+   "area": 31,
+   "ncolors": 3,
+   "dominant": "#F08058",
+   "dom_frac": 0.548,
+   "kind": "sprite",
+   "zone": null,
+   "set": 11,
+   "id": 395,
+   "file": "sacred_fire/sacred_fire_395.png"
+  },
+  {
+   "x": 18,
+   "y": 1302,
+   "w": 2,
+   "h": 16,
+   "area": 30,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.267,
+   "kind": "sprite",
+   "zone": null,
+   "set": 11,
+   "id": 398,
+   "file": "sacred_fire/sacred_fire_398.png",
+   "duplicate_of": 193
+  },
+  {
+   "x": 36,
+   "y": 1306,
+   "w": 2,
+   "h": 16,
+   "area": 30,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.267,
+   "kind": "sprite",
+   "zone": null,
+   "set": 11,
+   "id": 399,
+   "file": "sacred_fire/sacred_fire_399.png",
+   "duplicate_of": 193
+  },
+  {
+   "x": 54,
+   "y": 1286,
+   "w": 3,
+   "h": 32,
+   "area": 88,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.432,
+   "kind": "sprite",
+   "zone": null,
+   "set": 11,
+   "id": 400,
+   "file": "sacred_fire/sacred_fire_400.png",
+   "duplicate_of": 195
+  },
+  {
+   "x": 72,
+   "y": 1288,
+   "w": 3,
+   "h": 32,
+   "area": 88,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.432,
+   "kind": "sprite",
+   "zone": null,
+   "set": 11,
+   "id": 401,
+   "file": "sacred_fire/sacred_fire_401.png",
+   "duplicate_of": 195
+  },
+  {
+   "x": 187,
+   "y": 1260,
+   "w": 8,
+   "h": 63,
+   "area": 366,
+   "ncolors": 4,
+   "dominant": "#F0F0F0",
+   "dom_frac": 0.464,
+   "kind": "sprite",
+   "zone": null,
+   "set": 11,
+   "id": 402,
+   "file": "sacred_fire/sacred_fire_402.png"
+  },
+  {
+   "x": 253,
+   "y": 1259,
+   "w": 8,
+   "h": 64,
+   "area": 200,
+   "ncolors": 4,
+   "dominant": "#F0F0F0",
+   "dom_frac": 0.48,
+   "kind": "sprite",
+   "zone": null,
+   "set": 11,
+   "id": 403,
+   "file": "sacred_fire/sacred_fire_403.png",
+   "duplicate_of": 197
+  },
+  {
+   "x": 289,
+   "y": 1258,
+   "w": 8,
+   "h": 64,
+   "area": 200,
+   "ncolors": 4,
+   "dominant": "#F0F0F0",
+   "dom_frac": 0.48,
+   "kind": "sprite",
+   "zone": null,
+   "set": 11,
+   "id": 404,
+   "file": "sacred_fire/sacred_fire_404.png",
+   "duplicate_of": 197
+  },
+  {
+   "x": 484,
+   "y": 1282,
+   "w": 103,
+   "h": 36,
+   "area": 1463,
+   "ncolors": 4,
+   "dominant": "#D03800",
+   "dom_frac": 0.377,
+   "kind": "sprite",
+   "zone": null,
+   "set": 11,
+   "id": 405,
+   "file": "sacred_fire/sacred_fire_405.png",
+   "duplicate_of": 62
+  },
+  {
+   "x": 385,
+   "y": 1265,
+   "w": 5,
+   "h": 10,
+   "area": 8,
+   "ncolors": 3,
+   "dominant": "#D03800",
+   "dom_frac": 0.625,
+   "kind": "sprite",
+   "zone": null,
+   "set": 11,
+   "id": 406,
+   "file": "sacred_fire/sacred_fire_406.png"
+  },
+  {
+   "x": 401,
+   "y": 1264,
+   "w": 6,
+   "h": 10,
+   "area": 7,
+   "ncolors": 3,
+   "dominant": "#D03800",
+   "dom_frac": 0.714,
+   "kind": "sprite",
+   "zone": null,
+   "set": 11,
+   "id": 407,
+   "file": "sacred_fire/sacred_fire_407.png"
+  },
+  {
+   "x": 92,
+   "y": 1357,
+   "w": 4,
+   "h": 28,
+   "area": 15,
+   "ncolors": 3,
+   "dominant": "#F08058",
+   "dom_frac": 0.533,
+   "kind": "sprite",
+   "zone": null,
+   "set": 11,
+   "id": 413,
+   "file": "sacred_fire/sacred_fire_413.png"
+  },
+  {
+   "x": 9,
+   "y": 1452,
+   "w": 104,
+   "h": 104,
+   "area": 1448,
+   "ncolors": 8,
+   "dominant": "#D0D8E0",
+   "dom_frac": 0.202,
+   "kind": "sprite",
+   "zone": null,
+   "set": 12,
+   "id": 414,
+   "file": "sunny_day/sunny_day_414.png"
+  },
+  {
+   "x": 122,
+   "y": 1479,
+   "w": 50,
+   "h": 50,
+   "area": 1820,
+   "ncolors": 7,
+   "dominant": "#808068",
+   "dom_frac": 0.196,
+   "kind": "sprite",
+   "zone": null,
+   "set": 12,
+   "id": 415,
+   "file": "sunny_day/sunny_day_415.png"
+  },
+  {
+   "x": 561,
+   "y": 1592,
+   "w": 13,
+   "h": 8,
+   "area": 20,
+   "ncolors": 1,
+   "dominant": "#980000",
+   "dom_frac": 1.0,
+   "kind": "sprite",
+   "zone": null,
+   "set": 13,
+   "id": 420,
+   "file": "will_o_wisp/will_o_wisp_420.png",
+   "duplicate_of": 30
+  },
+  {
+   "x": 593,
+   "y": 1591,
+   "w": 13,
+   "h": 8,
+   "area": 20,
+   "ncolors": 1,
+   "dominant": "#980000",
+   "dom_frac": 1.0,
+   "kind": "sprite",
+   "zone": null,
+   "set": 13,
+   "id": 421,
+   "file": "will_o_wisp/will_o_wisp_421.png",
+   "duplicate_of": 30
+  },
+  {
+   "x": 431,
+   "y": 1599,
+   "w": 29,
+   "h": 12,
+   "area": 88,
+   "ncolors": 2,
+   "dominant": "#980000",
+   "dom_frac": 0.955,
+   "kind": "sprite",
+   "zone": null,
+   "set": 13,
+   "id": 422,
+   "file": "will_o_wisp/will_o_wisp_422.png",
+   "duplicate_of": 32
+  },
+  {
+   "x": 546,
+   "y": 1619,
+   "w": 13,
+   "h": 8,
+   "area": 20,
+   "ncolors": 1,
+   "dominant": "#980000",
+   "dom_frac": 1.0,
+   "kind": "sprite",
+   "zone": null,
+   "set": 13,
+   "id": 427,
+   "file": "will_o_wisp/will_o_wisp_427.png",
+   "duplicate_of": 34
+  },
+  {
+   "x": 578,
+   "y": 1618,
+   "w": 13,
+   "h": 8,
+   "area": 20,
+   "ncolors": 1,
+   "dominant": "#980000",
+   "dom_frac": 1.0,
+   "kind": "sprite",
+   "zone": null,
+   "set": 13,
+   "id": 428,
+   "file": "will_o_wisp/will_o_wisp_428.png",
+   "duplicate_of": 34
+  },
+  {
+   "x": 488,
+   "y": 1625,
+   "w": 24,
+   "h": 9,
+   "area": 49,
+   "ncolors": 1,
+   "dominant": "#980000",
+   "dom_frac": 1.0,
+   "kind": "sprite",
+   "zone": null,
+   "set": 13,
+   "id": 431,
+   "file": "will_o_wisp/will_o_wisp_431.png"
+  },
+  {
+   "x": 416,
+   "y": 1611,
+   "w": 13,
+   "h": 8,
+   "area": 29,
+   "ncolors": 1,
+   "dominant": "#980000",
+   "dom_frac": 1.0,
+   "kind": "sprite",
+   "zone": null,
+   "set": 13,
+   "id": 432,
+   "file": "will_o_wisp/will_o_wisp_432.png",
+   "duplicate_of": 36
+  },
+  {
+   "x": 8,
+   "y": 1638,
+   "w": 110,
+   "h": 23,
+   "area": 1234,
+   "ncolors": 5,
+   "dominant": "#F0F0F0",
+   "dom_frac": 0.331,
+   "kind": "sprite",
+   "zone": null,
+   "set": 13,
+   "id": 438,
+   "file": "will_o_wisp/will_o_wisp_438.png"
+  },
+  {
+   "x": 344,
+   "y": 1634,
+   "w": 8,
+   "h": 8,
+   "area": 24,
+   "ncolors": 2,
+   "dominant": "#980000",
+   "dom_frac": 0.875,
+   "kind": "sprite",
+   "zone": null,
+   "set": 13,
+   "id": 442,
+   "file": "will_o_wisp/will_o_wisp_442.png"
+  },
+  {
+   "x": 520,
+   "y": 1628,
+   "w": 13,
+   "h": 8,
+   "area": 20,
+   "ncolors": 1,
+   "dominant": "#980000",
+   "dom_frac": 1.0,
+   "kind": "sprite",
+   "zone": null,
+   "set": 13,
+   "id": 445,
+   "file": "will_o_wisp/will_o_wisp_445.png",
+   "duplicate_of": 30
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

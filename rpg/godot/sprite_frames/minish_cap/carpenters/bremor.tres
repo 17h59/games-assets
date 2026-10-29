@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/carpenters/bremor.png" id="1_vtgrj"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_036rp"]
+atlas = ExtResource("1_vtgrj")
+region = Rect2(0, 0, 27, 33)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4gig5"]
+atlas = ExtResource("1_vtgrj")
+region = Rect2(27, 0, 27, 33)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4jyhb"]
+atlas = ExtResource("1_vtgrj")
+region = Rect2(54, 0, 27, 33)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tu4j0"]
+atlas = ExtResource("1_vtgrj")
+region = Rect2(81, 0, 27, 33)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_weaaw"]
+atlas = ExtResource("1_vtgrj")
+region = Rect2(108, 0, 27, 33)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q56hb"]
+atlas = ExtResource("1_vtgrj")
+region = Rect2(135, 0, 27, 33)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_70i1u"]
+atlas = ExtResource("1_vtgrj")
+region = Rect2(162, 0, 27, 33)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d756k"]
+atlas = ExtResource("1_vtgrj")
+region = Rect2(189, 0, 27, 33)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_036rp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4gig5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4jyhb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tu4j0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_weaaw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q56hb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_70i1u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d756k")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

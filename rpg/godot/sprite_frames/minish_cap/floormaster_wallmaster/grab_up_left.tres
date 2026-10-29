@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/floormaster_wallmaster/floormaster/grab_up_left.png" id="1_vg83c"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1fwca"]
+atlas = ExtResource("1_vg83c")
+region = Rect2(0, 0, 26, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oe2b0"]
+atlas = ExtResource("1_vg83c")
+region = Rect2(26, 0, 26, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xwvny"]
+atlas = ExtResource("1_vg83c")
+region = Rect2(52, 0, 26, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ldr38"]
+atlas = ExtResource("1_vg83c")
+region = Rect2(78, 0, 26, 32)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1fwca")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oe2b0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xwvny")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ldr38")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

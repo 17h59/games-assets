@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/vaati_transfigured/vaati_transfigured_silhouette.png" id="1_imndf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_atuvo"]
+atlas = ExtResource("1_imndf")
+region = Rect2(0, 0, 60, 54)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dsipc"]
+atlas = ExtResource("1_imndf")
+region = Rect2(60, 0, 60, 54)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xorym"]
+atlas = ExtResource("1_imndf")
+region = Rect2(120, 0, 60, 54)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_60buj"]
+atlas = ExtResource("1_imndf")
+region = Rect2(180, 0, 60, 54)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_atuvo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dsipc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xorym")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_60buj")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

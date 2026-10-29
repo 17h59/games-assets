@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/spark/assembled/assembled_e003.png" id="1_wi3fh"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fc41a"]
+atlas = ExtResource("1_wi3fh")
+region = Rect2(0, 0, 16, 18)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cy340"]
+atlas = ExtResource("1_wi3fh")
+region = Rect2(16, 0, 16, 18)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_20kop"]
+atlas = ExtResource("1_wi3fh")
+region = Rect2(32, 0, 16, 18)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vkd57"]
+atlas = ExtResource("1_wi3fh")
+region = Rect2(48, 0, 16, 18)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7innc"]
+atlas = ExtResource("1_wi3fh")
+region = Rect2(64, 0, 16, 18)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ngroj"]
+atlas = ExtResource("1_wi3fh")
+region = Rect2(80, 0, 16, 18)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ouit3"]
+atlas = ExtResource("1_wi3fh")
+region = Rect2(96, 0, 16, 18)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h16dt"]
+atlas = ExtResource("1_wi3fh")
+region = Rect2(112, 0, 16, 18)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fc41a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cy340")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_20kop")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vkd57")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7innc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ngroj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ouit3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h16dt")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

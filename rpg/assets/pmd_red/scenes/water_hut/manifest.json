@@ -1,0 +1,304 @@
+{
+ "sheet": "26282",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Water Hut",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "flower_orange",
+   "file": "flower_orange.png",
+   "cell": [
+    30,
+    23
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      44,
+      565,
+      30,
+      23
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_1",
+     "src": [
+      107,
+      565,
+      30,
+      23
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_2",
+     "src": [
+      170,
+      565,
+      30,
+      23
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_3",
+     "src": [
+      233,
+      566,
+      30,
+      22
+     ]
+    }
+   ],
+   "box": [
+    44,
+    565,
+    219,
+    23
+   ]
+  },
+  {
+   "id": 1,
+   "name": "flower_yellow",
+   "file": "flower_yellow.png",
+   "cell": [
+    30,
+    23
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 8,
+     "role": "frame_0",
+     "src": [
+      44,
+      628,
+      30,
+      23
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_1",
+     "src": [
+      107,
+      628,
+      30,
+      23
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_2",
+     "src": [
+      170,
+      628,
+      30,
+      23
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_3",
+     "src": [
+      233,
+      629,
+      30,
+      22
+     ]
+    }
+   ],
+   "box": [
+    44,
+    628,
+    219,
+    23
+   ]
+  },
+  {
+   "id": 2,
+   "name": "flag_wave",
+   "file": "flag_wave.png",
+   "cell": [
+    31,
+    8
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 5,
+     "role": "frame_0",
+     "src": [
+      337,
+      574,
+      31,
+      8
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_1",
+     "src": [
+      400,
+      574,
+      31,
+      8
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_2",
+     "src": [
+      463,
+      574,
+      31,
+      8
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_3",
+     "src": [
+      337,
+      637,
+      31,
+      8
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_4",
+     "src": [
+      400,
+      637,
+      31,
+      8
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_5",
+     "src": [
+      463,
+      637,
+      31,
+      8
+     ]
+    }
+   ],
+   "box": [
+    337,
+    574,
+    157,
+    71
+   ]
+  },
+  {
+   "id": 3,
+   "name": "waterfall",
+   "file": "waterfall.png",
+   "cell": [
+    27,
+    29
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 16,
+     "role": "frame_0",
+     "src": [
+      417,
+      792,
+      27,
+      29
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_1",
+     "src": [
+      480,
+      792,
+      27,
+      29
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_2",
+     "src": [
+      417,
+      855,
+      27,
+      29
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_3",
+     "src": [
+      480,
+      855,
+      27,
+      29
+     ]
+    }
+   ],
+   "box": [
+    417,
+    792,
+    90,
+    92
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 550,
+   "h": 527,
+   "area": 289850,
+   "ncolors": 118,
+   "dominant": "#70C850",
+   "dom_frac": 0.137,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "water_hut_000.png"
+  },
+  {
+   "x": 32,
+   "y": 728,
+   "w": 332,
+   "h": 270,
+   "area": 70827,
+   "ncolors": 105,
+   "dominant": "#A89820",
+   "dom_frac": 0.15,
+   "kind": "sprite",
+   "zone": null,
+   "id": 15,
+   "file": "water_hut_015.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

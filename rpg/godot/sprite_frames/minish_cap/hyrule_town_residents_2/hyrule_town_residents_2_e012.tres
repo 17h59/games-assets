@@ -1,0 +1,74 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/hyrule_town_residents_2/hyrule_town_residents_2_e012.png" id="1_6epoj"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2vw1m"]
+atlas = ExtResource("1_6epoj")
+region = Rect2(0, 0, 20, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wjbdi"]
+atlas = ExtResource("1_6epoj")
+region = Rect2(20, 0, 20, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5qwtn"]
+atlas = ExtResource("1_6epoj")
+region = Rect2(40, 0, 20, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_01yex"]
+atlas = ExtResource("1_6epoj")
+region = Rect2(60, 0, 20, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0w5sj"]
+atlas = ExtResource("1_6epoj")
+region = Rect2(80, 0, 20, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_56rmk"]
+atlas = ExtResource("1_6epoj")
+region = Rect2(100, 0, 20, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k308q"]
+atlas = ExtResource("1_6epoj")
+region = Rect2(120, 0, 20, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xw76w"]
+atlas = ExtResource("1_6epoj")
+region = Rect2(140, 0, 20, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0yj5u"]
+atlas = ExtResource("1_6epoj")
+region = Rect2(160, 0, 20, 27)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2vw1m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wjbdi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5qwtn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_01yex")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0w5sj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_56rmk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k308q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xw76w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0yj5u")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

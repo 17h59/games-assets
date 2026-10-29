@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/fire_type_moves/sacred_fire/sacred_fire_e056.png" id="1_d4ss5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7jtif"]
+atlas = ExtResource("1_d4ss5")
+region = Rect2(0, 0, 10, 76)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wsi4q"]
+atlas = ExtResource("1_d4ss5")
+region = Rect2(10, 0, 10, 76)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ufosh"]
+atlas = ExtResource("1_d4ss5")
+region = Rect2(20, 0, 10, 76)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ryqic"]
+atlas = ExtResource("1_d4ss5")
+region = Rect2(30, 0, 10, 76)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7jtif")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wsi4q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ufosh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ryqic")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

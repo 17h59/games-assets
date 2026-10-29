@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/big_blue_chuchu/effects/lightning_vertical_orange.png" id="1_b2b3w"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l86v6"]
+atlas = ExtResource("1_b2b3w")
+region = Rect2(0, 0, 28, 49)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6ldf4"]
+atlas = ExtResource("1_b2b3w")
+region = Rect2(28, 0, 28, 49)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l86v6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6ldf4")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

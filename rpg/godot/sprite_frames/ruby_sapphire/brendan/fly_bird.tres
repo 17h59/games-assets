@@ -1,0 +1,68 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/ruby_sapphire/characters/brendan/dive/fly_bird.png" id="1_5a78p"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dtv3u"]
+atlas = ExtResource("1_5a78p")
+region = Rect2(0, 0, 24, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u0llk"]
+atlas = ExtResource("1_5a78p")
+region = Rect2(24, 0, 24, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qauwr"]
+atlas = ExtResource("1_5a78p")
+region = Rect2(0, 0, 24, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ymqsr"]
+atlas = ExtResource("1_5a78p")
+region = Rect2(0, 0, 24, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vj70e"]
+atlas = ExtResource("1_5a78p")
+region = Rect2(24, 0, 24, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8uha0"]
+atlas = ExtResource("1_5a78p")
+region = Rect2(24, 0, 24, 12)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dtv3u")
+}],
+"loop": 1,
+"name": &"idle_down",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u0llk")
+}],
+"loop": 1,
+"name": &"idle_up",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qauwr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ymqsr")
+}],
+"loop": 1,
+"name": &"walk_down",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vj70e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8uha0")
+}],
+"loop": 1,
+"name": &"walk_up",
+"speed": 6.0
+}]

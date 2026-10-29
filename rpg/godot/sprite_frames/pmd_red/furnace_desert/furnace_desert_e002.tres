@@ -1,0 +1,95 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/furnace_desert/furnace_desert_e002.png" id="1_f6ttb"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wrgh8"]
+atlas = ExtResource("1_f6ttb")
+region = Rect2(0, 0, 36, 119)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0ydf0"]
+atlas = ExtResource("1_f6ttb")
+region = Rect2(36, 0, 36, 119)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dm3h7"]
+atlas = ExtResource("1_f6ttb")
+region = Rect2(72, 0, 36, 119)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m8xai"]
+atlas = ExtResource("1_f6ttb")
+region = Rect2(108, 0, 36, 119)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iapyg"]
+atlas = ExtResource("1_f6ttb")
+region = Rect2(144, 0, 36, 119)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8ydp1"]
+atlas = ExtResource("1_f6ttb")
+region = Rect2(180, 0, 36, 119)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gfp6a"]
+atlas = ExtResource("1_f6ttb")
+region = Rect2(216, 0, 36, 119)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_23r8v"]
+atlas = ExtResource("1_f6ttb")
+region = Rect2(252, 0, 36, 119)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q6nat"]
+atlas = ExtResource("1_f6ttb")
+region = Rect2(288, 0, 36, 119)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iraan"]
+atlas = ExtResource("1_f6ttb")
+region = Rect2(324, 0, 36, 119)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gec1x"]
+atlas = ExtResource("1_f6ttb")
+region = Rect2(360, 0, 36, 119)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bon24"]
+atlas = ExtResource("1_f6ttb")
+region = Rect2(396, 0, 36, 119)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wrgh8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0ydf0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dm3h7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m8xai")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iapyg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8ydp1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gfp6a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_23r8v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q6nat")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iraan")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gec1x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bon24")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

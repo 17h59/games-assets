@@ -1,0 +1,7 @@
+[gd_scene format=4]
+
+[ext_resource type="TileSet" path="res://godot/tilesets/emerald.tres" id="1_i566d"]
+
+[node name="artisan_cave_8347_r1" type="TileMapLayer" unique_id=347495246]
+tile_map_data = PackedByteArray("AAABAAEAAwAjAD0AAAACAAEAAwAkAD0AAAADAAEAAwAlAD0AAAAEAAEAAwAmAD0AAAAFAAEAAwAnAD0AAAAGAAEAAwAoAD0AAAAHAAEAAwApAD0AAAA=")
+tile_set = ExtResource("1_i566d")

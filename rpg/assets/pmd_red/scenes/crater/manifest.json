@@ -1,0 +1,369 @@
+{
+ "sheet": "5352",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Crater",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "smoke_puff_a",
+   "file": "smoke_puff_a.png",
+   "cell": [
+    29,
+    36
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      462,
+      20,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_1",
+     "src": [
+      484,
+      11,
+      21,
+      36
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_2",
+     "src": [
+      507,
+      11,
+      23,
+      35
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_3",
+     "src": [
+      531,
+      11,
+      24,
+      33
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_4",
+     "src": [
+      556,
+      11,
+      25,
+      28
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_5",
+     "src": [
+      582,
+      11,
+      27,
+      25
+     ]
+    }
+   ],
+   "box": [
+    462,
+    11,
+    147,
+    36
+   ]
+  },
+  {
+   "id": 1,
+   "name": "smoke_puff_b",
+   "file": "smoke_puff_b.png",
+   "cell": [
+    27,
+    36
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 7,
+     "role": "frame_0",
+     "src": [
+      463,
+      64,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_1",
+     "src": [
+      483,
+      55,
+      21,
+      36
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_2",
+     "src": [
+      505,
+      55,
+      23,
+      35
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_3",
+     "src": [
+      529,
+      55,
+      24,
+      33
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_4",
+     "src": [
+      554,
+      55,
+      25,
+      28
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_5",
+     "src": [
+      580,
+      55,
+      27,
+      25
+     ]
+    }
+   ],
+   "box": [
+    463,
+    55,
+    144,
+    36
+   ]
+  },
+  {
+   "id": 2,
+   "name": "fire_burst",
+   "file": "fire_burst.png",
+   "cell": [
+    23,
+    20
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 13,
+     "role": "frame_0",
+     "src": [
+      464,
+      100,
+      20,
+      19
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_1",
+     "src": [
+      464,
+      122,
+      20,
+      18
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_2",
+     "src": [
+      464,
+      143,
+      19,
+      17
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_3",
+     "src": [
+      464,
+      162,
+      19,
+      19
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_4",
+     "src": [
+      464,
+      184,
+      20,
+      18
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_5",
+     "src": [
+      463,
+      205,
+      21,
+      19
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_6",
+     "src": [
+      463,
+      227,
+      22,
+      18
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_7",
+     "src": [
+      462,
+      248,
+      23,
+      18
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_8",
+     "src": [
+      463,
+      269,
+      22,
+      19
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_9",
+     "src": [
+      463,
+      293,
+      22,
+      18
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_10",
+     "src": [
+      463,
+      314,
+      22,
+      20
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_11",
+     "src": [
+      463,
+      337,
+      22,
+      19
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_12",
+     "src": [
+      463,
+      358,
+      23,
+      19
+     ]
+    }
+   ],
+   "box": [
+    462,
+    100,
+    24,
+    277
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 456,
+   "h": 418,
+   "area": 143848,
+   "ncolors": 62,
+   "dominant": "#301008",
+   "dom_frac": 0.195,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "crater_000.png"
+  },
+  {
+   "x": 505,
+   "y": 139,
+   "w": 99,
+   "h": 204,
+   "area": 20196,
+   "ncolors": 9,
+   "dominant": "#000000",
+   "dom_frac": 0.693,
+   "kind": "sprite",
+   "zone": null,
+   "id": 15,
+   "file": "crater_015.png"
+  },
+  {
+   "x": 607,
+   "y": 139,
+   "w": 99,
+   "h": 204,
+   "area": 20196,
+   "ncolors": 9,
+   "dominant": "#000000",
+   "dom_frac": 0.693,
+   "kind": "sprite",
+   "zone": null,
+   "id": 16,
+   "file": "crater_016.png",
+   "mirror_of": 1
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

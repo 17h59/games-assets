@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/beetle/black_beetle_burrow.png" id="1_67mlk"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rsklg"]
+atlas = ExtResource("1_67mlk")
+region = Rect2(0, 0, 13, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1ease"]
+atlas = ExtResource("1_67mlk")
+region = Rect2(13, 0, 13, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c2ge4"]
+atlas = ExtResource("1_67mlk")
+region = Rect2(26, 0, 13, 13)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rsklg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1ease")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c2ge4")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

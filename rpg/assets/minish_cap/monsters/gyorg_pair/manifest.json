@@ -1,0 +1,1166 @@
+{
+ "sheet": "6461",
+ "game": "minish_cap",
+ "category": "monsters",
+ "title": "Gyorg Pair",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "gyorg_pair_e000",
+   "file": "gyorg_pair_e000.png",
+   "cell": [
+    14,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      786,
+      3,
+      14,
+      13
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      803,
+      3,
+      14,
+      13
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      820,
+      3,
+      14,
+      14
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      837,
+      3,
+      14,
+      14
+     ]
+    }
+   ],
+   "box": [
+    786,
+    3,
+    65,
+    14
+   ]
+  },
+  {
+   "id": 1,
+   "name": "gyorg_female",
+   "file": "gyorg_female.png",
+   "cell": [
+    236,
+    171
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 4,
+     "role": "frame_0",
+     "src": [
+      8,
+      10,
+      236,
+      167
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_1",
+     "src": [
+      249,
+      7,
+      236,
+      170
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_2",
+     "src": [
+      490,
+      6,
+      236,
+      171
+     ]
+    }
+   ],
+   "box": [
+    8,
+    6,
+    718,
+    171
+   ]
+  },
+  {
+   "id": 2,
+   "name": "gyorg_pair_e002",
+   "file": "gyorg_pair_e002.png",
+   "cell": [
+    32,
+    32
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 16,
+     "role": "frame_0",
+     "src": [
+      729,
+      139,
+      30,
+      31
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_1",
+     "src": [
+      761,
+      138,
+      32,
+      32
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_2",
+     "src": [
+      794,
+      139,
+      32,
+      31
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_3",
+     "src": [
+      827,
+      138,
+      32,
+      32
+     ],
+     "mirror_of": 1
+    },
+    {
+     "item": 20,
+     "role": "frame_4",
+     "src": [
+      861,
+      139,
+      30,
+      31
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    729,
+    138,
+    162,
+    32
+   ]
+  },
+  {
+   "id": 3,
+   "name": "gyorg_pair_e003",
+   "file": "gyorg_pair_e003.png",
+   "cell": [
+    12,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 36,
+     "role": "frame_0",
+     "src": [
+      788,
+      181,
+      12,
+      14
+     ]
+    },
+    {
+     "item": 37,
+     "role": "frame_1",
+     "src": [
+      806,
+      181,
+      8,
+      14
+     ]
+    },
+    {
+     "item": 38,
+     "role": "frame_2",
+     "src": [
+      824,
+      181,
+      5,
+      14
+     ]
+    }
+   ],
+   "box": [
+    788,
+    181,
+    41,
+    14
+   ]
+  },
+  {
+   "id": 4,
+   "name": "gyorg_pair_e004",
+   "file": "gyorg_pair_e004.png",
+   "cell": [
+    16,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 44,
+     "role": "frame_0",
+     "src": [
+      550,
+      216,
+      14,
+      14
+     ]
+    },
+    {
+     "item": 45,
+     "role": "frame_1",
+     "src": [
+      566,
+      215,
+      16,
+      16
+     ]
+    }
+   ],
+   "box": [
+    550,
+    215,
+    32,
+    16
+   ]
+  },
+  {
+   "id": 5,
+   "name": "gyorg_pair_e005",
+   "file": "gyorg_pair_e005.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 60,
+     "role": "frame_0",
+     "src": [
+      594,
+      217,
+      4,
+      4
+     ]
+    },
+    {
+     "item": 61,
+     "role": "frame_1",
+     "src": [
+      602,
+      216,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    594,
+    216,
+    14,
+    6
+   ]
+  },
+  {
+   "id": 6,
+   "name": "gyorg_pair_e006",
+   "file": "gyorg_pair_e006.png",
+   "cell": [
+    25,
+    24
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 73,
+     "role": "frame_0",
+     "src": [
+      753,
+      251,
+      20,
+      24
+     ]
+    },
+    {
+     "item": 74,
+     "role": "frame_1",
+     "src": [
+      780,
+      251,
+      21,
+      24
+     ]
+    },
+    {
+     "item": 75,
+     "role": "frame_2",
+     "src": [
+      803,
+      251,
+      21,
+      24
+     ]
+    },
+    {
+     "item": 76,
+     "role": "frame_3",
+     "src": [
+      826,
+      251,
+      21,
+      24
+     ],
+     "mirror_of": 1
+    },
+    {
+     "item": 77,
+     "role": "frame_4",
+     "src": [
+      854,
+      251,
+      20,
+      24
+     ]
+    }
+   ],
+   "box": [
+    753,
+    251,
+    121,
+    24
+   ]
+  },
+  {
+   "id": 7,
+   "name": "gyorg_pair_e007",
+   "file": "gyorg_pair_e007.png",
+   "cell": [
+    14,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 7,
+     "role": "frame_0",
+     "src": [
+      786,
+      19,
+      14,
+      14
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_1",
+     "src": [
+      803,
+      19,
+      14,
+      14
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_2",
+     "src": [
+      786,
+      35,
+      14,
+      14
+     ]
+    }
+   ],
+   "box": [
+    786,
+    19,
+    31,
+    30
+   ]
+  },
+  {
+   "id": 8,
+   "name": "gyorg_pair_e008",
+   "file": "gyorg_pair_e008.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 10,
+     "role": "frame_0",
+     "src": [
+      807,
+      39,
+      6,
+      6
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_1",
+     "src": [
+      824,
+      39,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    807,
+    39,
+    23,
+    6
+   ]
+  },
+  {
+   "id": 9,
+   "name": "gyorg_pair_e009",
+   "file": "gyorg_pair_e009.png",
+   "cell": [
+    20,
+    20
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 12,
+     "role": "frame_0",
+     "src": [
+      800,
+      53,
+      20,
+      20
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_1",
+     "src": [
+      800,
+      75,
+      20,
+      20
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 14,
+     "role": "frame_2",
+     "src": [
+      801,
+      97,
+      18,
+      18
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_3",
+     "src": [
+      801,
+      117,
+      18,
+      18
+     ],
+     "duplicate_of": 2
+    }
+   ],
+   "box": [
+    800,
+    53,
+    20,
+    82
+   ]
+  },
+  {
+   "id": 10,
+   "name": "gyorg_pair_e010",
+   "file": "gyorg_pair_e010.png",
+   "cell": [
+    16,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 21,
+     "role": "frame_0",
+     "src": [
+      326,
+      181,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_1",
+     "src": [
+      343,
+      181,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_2",
+     "src": [
+      360,
+      181,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_3",
+     "src": [
+      377,
+      181,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_4",
+     "src": [
+      394,
+      181,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_5",
+     "src": [
+      411,
+      181,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_6",
+     "src": [
+      428,
+      181,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_7",
+     "src": [
+      445,
+      181,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 29,
+     "role": "frame_8",
+     "src": [
+      462,
+      181,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_9",
+     "src": [
+      479,
+      181,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_10",
+     "src": [
+      496,
+      181,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 32,
+     "role": "frame_11",
+     "src": [
+      513,
+      181,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 33,
+     "role": "frame_12",
+     "src": [
+      530,
+      181,
+      16,
+      16
+     ]
+    }
+   ],
+   "box": [
+    326,
+    181,
+    220,
+    16
+   ]
+  },
+  {
+   "id": 11,
+   "name": "gyorg_pair_e011",
+   "file": "gyorg_pair_e011.png",
+   "cell": [
+    11,
+    11
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 47,
+     "role": "frame_0",
+     "src": [
+      555,
+      187,
+      4,
+      4
+     ]
+    },
+    {
+     "item": 48,
+     "role": "frame_1",
+     "src": [
+      571,
+      186,
+      6,
+      6
+     ]
+    },
+    {
+     "item": 34,
+     "role": "frame_2",
+     "src": [
+      587,
+      185,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 35,
+     "role": "frame_3",
+     "src": [
+      603,
+      184,
+      11,
+      11
+     ]
+    }
+   ],
+   "box": [
+    555,
+    184,
+    59,
+    11
+   ]
+  },
+  {
+   "id": 12,
+   "name": "gyorg_male_swim",
+   "file": "gyorg_male_swim.png",
+   "cell": [
+    62,
+    47
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 39,
+     "role": "frame_0",
+     "src": [
+      7,
+      183,
+      52,
+      46
+     ]
+    },
+    {
+     "item": 40,
+     "role": "frame_1",
+     "src": [
+      70,
+      182,
+      56,
+      47
+     ]
+    },
+    {
+     "item": 41,
+     "role": "frame_2",
+     "src": [
+      132,
+      182,
+      62,
+      47
+     ]
+    },
+    {
+     "item": 42,
+     "role": "frame_3",
+     "src": [
+      198,
+      183,
+      60,
+      46
+     ]
+    },
+    {
+     "item": 43,
+     "role": "frame_4",
+     "src": [
+      264,
+      184,
+      58,
+      45
+     ]
+    }
+   ],
+   "box": [
+    7,
+    182,
+    315,
+    47
+   ]
+  },
+  {
+   "id": 13,
+   "name": "gyorg_pair_e013",
+   "file": "gyorg_pair_e013.png",
+   "cell": [
+    12,
+    4
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 49,
+     "role": "frame_0",
+     "src": [
+      624,
+      182,
+      12,
+      4
+     ]
+    },
+    {
+     "item": 50,
+     "role": "frame_1",
+     "src": [
+      657,
+      182,
+      12,
+      4
+     ],
+     "duplicate_of": 0
+    }
+   ],
+   "box": [
+    624,
+    182,
+    45,
+    4
+   ]
+  },
+  {
+   "id": 14,
+   "name": "gyorg_pair_e014",
+   "file": "gyorg_pair_e014.png",
+   "cell": [
+    14,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 51,
+     "role": "frame_0",
+     "src": [
+      551,
+      199,
+      13,
+      14
+     ]
+    },
+    {
+     "item": 52,
+     "role": "frame_1",
+     "src": [
+      569,
+      201,
+      11,
+      11
+     ]
+    },
+    {
+     "item": 53,
+     "role": "frame_2",
+     "src": [
+      584,
+      200,
+      14,
+      13
+     ]
+    },
+    {
+     "item": 54,
+     "role": "frame_3",
+     "src": [
+      601,
+      199,
+      14,
+      14
+     ]
+    }
+   ],
+   "box": [
+    551,
+    199,
+    64,
+    14
+   ]
+  },
+  {
+   "id": 15,
+   "name": "gyorg_larva",
+   "file": "gyorg_larva.png",
+   "cell": [
+    22,
+    24
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 55,
+     "role": "frame_0",
+     "src": [
+      619,
+      188,
+      22,
+      23
+     ]
+    },
+    {
+     "item": 56,
+     "role": "frame_1",
+     "src": [
+      653,
+      187,
+      20,
+      24
+     ]
+    },
+    {
+     "item": 58,
+     "role": "frame_2",
+     "src": [
+      619,
+      214,
+      22,
+      23
+     ]
+    },
+    {
+     "item": 59,
+     "role": "frame_3",
+     "src": [
+      653,
+      213,
+      20,
+      24
+     ]
+    }
+   ],
+   "box": [
+    619,
+    187,
+    54,
+    50
+   ]
+  },
+  {
+   "id": 16,
+   "name": "gyorg_pair_e016",
+   "file": "gyorg_pair_e016.png",
+   "cell": [
+    16,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 57,
+     "role": "frame_0",
+     "src": [
+      805,
+      199,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 46,
+     "role": "frame_1",
+     "src": [
+      805,
+      217,
+      16,
+      16
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 62,
+     "role": "frame_2",
+     "src": [
+      806,
+      235,
+      14,
+      14
+     ]
+    }
+   ],
+   "box": [
+    805,
+    199,
+    16,
+    50
+   ]
+  },
+  {
+   "id": 17,
+   "name": "gyorg_male_roll",
+   "file": "gyorg_male_roll.png",
+   "cell": [
+    62,
+    48
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 63,
+     "role": "frame_0",
+     "src": [
+      2,
+      236,
+      62,
+      47
+     ]
+    },
+    {
+     "item": 64,
+     "role": "frame_1",
+     "src": [
+      77,
+      238,
+      50,
+      45
+     ]
+    },
+    {
+     "item": 65,
+     "role": "frame_2",
+     "src": [
+      153,
+      238,
+      24,
+      45
+     ]
+    },
+    {
+     "item": 66,
+     "role": "frame_3",
+     "src": [
+      214,
+      238,
+      22,
+      46
+     ]
+    },
+    {
+     "item": 67,
+     "role": "frame_4",
+     "src": [
+      263,
+      239,
+      52,
+      44
+     ]
+    },
+    {
+     "item": 68,
+     "role": "frame_5",
+     "src": [
+      327,
+      241,
+      62,
+      42
+     ]
+    },
+    {
+     "item": 69,
+     "role": "frame_6",
+     "src": [
+      401,
+      239,
+      52,
+      44
+     ],
+     "mirror_of": 4
+    },
+    {
+     "item": 70,
+     "role": "frame_7",
+     "src": [
+      480,
+      238,
+      22,
+      46
+     ],
+     "mirror_of": 3
+    },
+    {
+     "item": 71,
+     "role": "frame_8",
+     "src": [
+      539,
+      238,
+      24,
+      45
+     ],
+     "mirror_of": 2
+    },
+    {
+     "item": 72,
+     "role": "frame_9",
+     "src": [
+      589,
+      238,
+      50,
+      45
+     ],
+     "mirror_of": 1
+    }
+   ],
+   "box": [
+    2,
+    236,
+    637,
+    48
+   ]
+  }
+ ],
+ "items": [],
+ "status": "ok",
+ "missing_stages": []
+}

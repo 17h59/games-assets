@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/hyrule_town_residents_3/boys/dark_boy_walk_up.png" id="1_a2slc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2y4jd"]
+atlas = ExtResource("1_a2slc")
+region = Rect2(0, 0, 18, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4a8kf"]
+atlas = ExtResource("1_a2slc")
+region = Rect2(18, 0, 18, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8x7f0"]
+atlas = ExtResource("1_a2slc")
+region = Rect2(36, 0, 18, 21)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2y4jd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4a8kf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8x7f0")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

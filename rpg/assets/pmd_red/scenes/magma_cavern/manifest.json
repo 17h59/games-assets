@@ -1,0 +1,333 @@
+{
+ "sheet": "75098",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Magma Cavern",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "magma_cavern_e000",
+   "file": "magma_cavern_e000.png",
+   "cell": [
+    8,
+    8
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      49,
+      360,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_1",
+     "src": [
+      61,
+      360,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_2",
+     "src": [
+      73,
+      360,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_3",
+     "src": [
+      85,
+      360,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_4",
+     "src": [
+      97,
+      360,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_5",
+     "src": [
+      109,
+      360,
+      8,
+      8
+     ],
+     "duplicate_of": 3
+    },
+    {
+     "item": 7,
+     "role": "frame_6",
+     "src": [
+      121,
+      360,
+      8,
+      8
+     ],
+     "duplicate_of": 2
+    },
+    {
+     "item": 8,
+     "role": "frame_7",
+     "src": [
+      133,
+      360,
+      8,
+      8
+     ],
+     "duplicate_of": 1
+    }
+   ],
+   "box": [
+    49,
+    360,
+    92,
+    8
+   ]
+  },
+  {
+   "id": 1,
+   "name": "magma_cavern_e001",
+   "file": "magma_cavern_e001.png",
+   "cell": [
+    8,
+    8
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 9,
+     "role": "frame_0",
+     "src": [
+      49,
+      372,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_1",
+     "src": [
+      61,
+      372,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_2",
+     "src": [
+      73,
+      372,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_3",
+     "src": [
+      85,
+      372,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_4",
+     "src": [
+      97,
+      372,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_5",
+     "src": [
+      109,
+      372,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_6",
+     "src": [
+      121,
+      372,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_7",
+     "src": [
+      133,
+      372,
+      8,
+      8
+     ]
+    }
+   ],
+   "box": [
+    49,
+    372,
+    92,
+    8
+   ]
+  },
+  {
+   "id": 2,
+   "name": "magma_cavern_e002",
+   "file": "magma_cavern_e002.png",
+   "cell": [
+    4,
+    4
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 17,
+     "role": "frame_0",
+     "src": [
+      51,
+      385,
+      4,
+      4
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_1",
+     "src": [
+      63,
+      385,
+      4,
+      4
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_2",
+     "src": [
+      75,
+      385,
+      4,
+      4
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_3",
+     "src": [
+      87,
+      385,
+      4,
+      4
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_4",
+     "src": [
+      99,
+      385,
+      4,
+      4
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_5",
+     "src": [
+      111,
+      385,
+      4,
+      4
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_6",
+     "src": [
+      123,
+      385,
+      4,
+      4
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_7",
+     "src": [
+      135,
+      385,
+      4,
+      4
+     ]
+    }
+   ],
+   "box": [
+    51,
+    385,
+    88,
+    4
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 57,
+   "y": 12,
+   "w": 318,
+   "h": 332,
+   "area": 89675,
+   "ncolors": 75,
+   "dominant": "#884828",
+   "dom_frac": 0.14,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "magma_cavern_000.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

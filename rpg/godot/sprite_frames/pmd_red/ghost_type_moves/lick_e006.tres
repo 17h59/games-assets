@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/ghost_type_moves/lick/lick_e006.png" id="1_oek8m"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jkbbr"]
+atlas = ExtResource("1_oek8m")
+region = Rect2(0, 0, 13, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qfjso"]
+atlas = ExtResource("1_oek8m")
+region = Rect2(13, 0, 13, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mjxn3"]
+atlas = ExtResource("1_oek8m")
+region = Rect2(26, 0, 13, 32)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jkbbr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qfjso")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mjxn3")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

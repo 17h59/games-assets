@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/acrobandits/totem_run.png" id="1_3d0ep"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kxjoy"]
+atlas = ExtResource("1_3d0ep")
+region = Rect2(0, 0, 30, 74)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hhymw"]
+atlas = ExtResource("1_3d0ep")
+region = Rect2(30, 0, 30, 74)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0g8ms"]
+atlas = ExtResource("1_3d0ep")
+region = Rect2(60, 0, 30, 74)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2qy5u"]
+atlas = ExtResource("1_3d0ep")
+region = Rect2(90, 0, 30, 74)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hvj0j"]
+atlas = ExtResource("1_3d0ep")
+region = Rect2(120, 0, 30, 74)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fm6at"]
+atlas = ExtResource("1_3d0ep")
+region = Rect2(150, 0, 30, 74)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kxjoy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hhymw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0g8ms")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2qy5u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hvj0j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fm6at")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

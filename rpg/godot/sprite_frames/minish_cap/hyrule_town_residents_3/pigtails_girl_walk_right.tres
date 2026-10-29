@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/hyrule_town_residents_3/girls/pigtails_girl_walk_right.png" id="1_0iba3"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o8qvj"]
+atlas = ExtResource("1_0iba3")
+region = Rect2(0, 0, 18, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kl5lu"]
+atlas = ExtResource("1_0iba3")
+region = Rect2(18, 0, 18, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8rmsu"]
+atlas = ExtResource("1_0iba3")
+region = Rect2(36, 0, 18, 23)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o8qvj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kl5lu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8rmsu")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

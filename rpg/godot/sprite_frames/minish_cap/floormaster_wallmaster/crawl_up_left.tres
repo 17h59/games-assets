@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/floormaster_wallmaster/floormaster/crawl_up_left.png" id="1_whwwt"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_llyar"]
+atlas = ExtResource("1_whwwt")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hgm65"]
+atlas = ExtResource("1_whwwt")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n4qrd"]
+atlas = ExtResource("1_whwwt")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pax2l"]
+atlas = ExtResource("1_whwwt")
+region = Rect2(96, 0, 32, 32)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_llyar")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hgm65")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n4qrd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pax2l")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

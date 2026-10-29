@@ -1,0 +1,42 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/emerald/characters/gym_leaders_elite_four/gym_leaders_elite_four_e003.png" id="1_upqwd"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g7n1g"]
+atlas = ExtResource("1_upqwd")
+region = Rect2(0, 0, 14, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ek43u"]
+atlas = ExtResource("1_upqwd")
+region = Rect2(28, 0, 14, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_02pqu"]
+atlas = ExtResource("1_upqwd")
+region = Rect2(14, 0, 14, 21)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g7n1g")
+}],
+"loop": 1,
+"name": &"idle_down",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ek43u")
+}],
+"loop": 1,
+"name": &"idle_left",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_02pqu")
+}],
+"loop": 1,
+"name": &"idle_up",
+"speed": 1.0
+}]

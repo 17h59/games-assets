@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/vaati_s_wrath/vaati_s_wrath_e018.png" id="1_dhmmh"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_upsed"]
+atlas = ExtResource("1_dhmmh")
+region = Rect2(0, 0, 50, 63)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1bcud"]
+atlas = ExtResource("1_dhmmh")
+region = Rect2(50, 0, 50, 63)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_upsed")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1bcud")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

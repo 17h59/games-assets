@@ -1,0 +1,435 @@
+{
+ "sheet": "6515",
+ "game": "minish_cap",
+ "category": "monsters",
+ "title": "Rollobite",
+ "type": "sprites",
+ "template": "none",
+ "validation": "pending",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    1,
+    56,
+    51,
+    8
+   ],
+   "point": [
+    26,
+    60
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 1,
+   "box": [
+    2,
+    69,
+    175,
+    8
+   ],
+   "point": [
+    89,
+    73
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 2,
+   "box": [
+    2,
+    83,
+    38,
+    8
+   ],
+   "point": [
+    21,
+    87
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 3,
+   "box": [
+    1,
+    97,
+    166,
+    8
+   ],
+   "point": [
+    84,
+    101
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 4,
+   "box": [
+    2,
+    111,
+    180,
+    8
+   ],
+   "point": [
+    92,
+    115
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "rollobite_e000",
+   "file": "rollobite_e000.png",
+   "cell": [
+    16,
+    13
+   ],
+   "zone": 0,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      2,
+      4,
+      10,
+      13
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      3,
+      24,
+      14,
+      10
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      3,
+      35,
+      14,
+      8
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      2,
+      44,
+      16,
+      8
+     ]
+    }
+   ],
+   "box": [
+    2,
+    4,
+    16,
+    48
+   ]
+  },
+  {
+   "id": 1,
+   "name": "rollobite_e001",
+   "file": "rollobite_e001.png",
+   "cell": [
+    18,
+    15
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 4,
+     "role": "frame_0",
+     "src": [
+      23,
+      3,
+      11,
+      14
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_1",
+     "src": [
+      36,
+      3,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_2",
+     "src": [
+      45,
+      5,
+      6,
+      11
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_3",
+     "src": [
+      55,
+      2,
+      14,
+      15
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_4",
+     "src": [
+      72,
+      2,
+      14,
+      15
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_5",
+     "src": [
+      89,
+      2,
+      14,
+      15
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_6",
+     "src": [
+      105,
+      3,
+      18,
+      14
+     ]
+    }
+   ],
+   "box": [
+    23,
+    2,
+    100,
+    15
+   ]
+  },
+  {
+   "id": 2,
+   "name": "rollobite_e002",
+   "file": "rollobite_e002.png",
+   "cell": [
+    16,
+    13
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 11,
+     "role": "frame_0",
+     "src": [
+      19,
+      19,
+      16,
+      12
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_1",
+     "src": [
+      37,
+      18,
+      14,
+      8
+     ]
+    }
+   ],
+   "box": [
+    19,
+    18,
+    32,
+    13
+   ]
+  },
+  {
+   "id": 3,
+   "name": "rollobite_e003",
+   "file": "rollobite_e003.png",
+   "cell": [
+    14,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 13,
+     "role": "frame_0",
+     "src": [
+      38,
+      27,
+      12,
+      8
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_1",
+     "src": [
+      55,
+      19,
+      14,
+      14
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_2",
+     "src": [
+      72,
+      19,
+      14,
+      14
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_3",
+     "src": [
+      89,
+      19,
+      14,
+      14
+     ]
+    }
+   ],
+   "box": [
+    38,
+    19,
+    65,
+    16
+   ]
+  },
+  {
+   "id": 4,
+   "name": "rollobite_e004",
+   "file": "rollobite_e004.png",
+   "cell": [
+    14,
+    17
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 17,
+     "role": "frame_0",
+     "src": [
+      106,
+      25,
+      14,
+      17
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_1",
+     "src": [
+      123,
+      25,
+      14,
+      17
+     ]
+    }
+   ],
+   "box": [
+    106,
+    25,
+    31,
+    17
+   ]
+  },
+  {
+   "id": 5,
+   "name": "rollobite_e005",
+   "file": "rollobite_e005.png",
+   "cell": [
+    26,
+    15
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 19,
+     "role": "frame_0",
+     "src": [
+      19,
+      38,
+      16,
+      13
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_1",
+     "src": [
+      37,
+      43,
+      14,
+      9
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_2",
+     "src": [
+      55,
+      37,
+      26,
+      14
+     ]
+    }
+   ],
+   "box": [
+    19,
+    37,
+    62,
+    15
+   ]
+  }
+ ],
+ "items": [],
+ "status": "needs_review",
+ "missing_stages": [
+  "decoupage",
+  "regroupement",
+  "nommage"
+ ]
+}

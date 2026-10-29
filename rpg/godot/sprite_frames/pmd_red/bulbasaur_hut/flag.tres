@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/bulbasaur_hut/flag.png" id="1_a4loy"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7qpnk"]
+atlas = ExtResource("1_a4loy")
+region = Rect2(0, 0, 30, 25)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_crvbh"]
+atlas = ExtResource("1_a4loy")
+region = Rect2(30, 0, 30, 25)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qkd53"]
+atlas = ExtResource("1_a4loy")
+region = Rect2(60, 0, 30, 25)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7p60j"]
+atlas = ExtResource("1_a4loy")
+region = Rect2(90, 0, 30, 25)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e7aed"]
+atlas = ExtResource("1_a4loy")
+region = Rect2(120, 0, 30, 25)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i5cjk"]
+atlas = ExtResource("1_a4loy")
+region = Rect2(150, 0, 30, 25)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7qpnk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_crvbh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qkd53")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7p60j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e7aed")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i5cjk")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

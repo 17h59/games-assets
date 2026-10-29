@@ -1,0 +1,3487 @@
+[gd_scene format=3]
+
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/acid_e000.tres" id="1_4p1ed"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/acid_e001.tres" id="2_htwag"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/acid_e002.tres" id="3_t1ryt"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/acid_armor_e003.tres" id="4_trqld"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/acid_armor_e004.tres" id="5_lt4l7"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/acid_armor_e005.tres" id="6_lqe6u"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/acid_armor_e006.tres" id="7_7x8lm"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/acid_armor_e007.tres" id="8_8kcpn"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/acid_armor_e008.tres" id="9_814b6"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/acid_armor_e009.tres" id="10_46vt5"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/acid_armor_e010.tres" id="11_tcu1t"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/acid_armor_e011.tres" id="12_p7oua"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/acid_armor_e012.tres" id="13_slulm"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/acid_armor_e013.tres" id="14_gi7qh"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/acid_armor_e014.tres" id="15_5ksry"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/acid_armor_e015.tres" id="16_6v2f3"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/poison_fang_e016.tres" id="17_st1yt"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/poison_gas_smog_e017.tres" id="18_uvjl5"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/poison_gas_smog_e018.tres" id="19_so5pq"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/poison_gas_smog_e019.tres" id="20_y0c4j"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/poison_gas_smog_e020.tres" id="21_g8rlt"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/poison_gas_smog_e021.tres" id="22_0ni80"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/poison_gas_smog_e022.tres" id="23_unds5"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/poison_gas_smog_e023.tres" id="24_wx2m1"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/poison_gas_smog_e024.tres" id="25_dabpd"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/poison_gas_smog_e025.tres" id="26_x27r7"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/poison_gas_smog_e026.tres" id="27_34or8"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/poison_gas_smog_e027.tres" id="28_6l8jb"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/poison_sting_e028.tres" id="29_7g637"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/poison_tail_e029.tres" id="30_70eby"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/poison_tail_e030.tres" id="31_sf8py"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/poison_powder_e031.tres" id="32_tngp7"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/poison_powder_e032.tres" id="33_it8kt"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/poison_powder_e033.tres" id="34_w17gp"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/poison_powder_e034.tres" id="35_4tjk3"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/poison_powder_e035.tres" id="36_lujtt"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/poison_type_moves/poison_powder_e036.tres" id="37_sdfbn"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/effects/effects_e000.tres" id="38_1s4hd"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/effects/effects_e001.tres" id="39_tjwny"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/effects/effects_e002.tres" id="40_cgj4b"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/effects/effects_e003.tres" id="41_10apn"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/effects/effects_e004.tres" id="42_iypmb"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/effects/effects_e005.tres" id="43_6p8ha"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/effects/effects_e006.tres" id="44_ipf22"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/effects/effects_e007.tres" id="45_jyna4"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/effects/effects_e008.tres" id="46_wvgo3"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/effects/effects_e009.tres" id="47_3m4u1"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/effects/effects_e010.tres" id="48_bxcvb"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/effects/effects_e011.tres" id="49_v7vtp"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/effects/effects_e012.tres" id="50_je584"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/effects/effects_e013.tres" id="51_eyy4d"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/ghost_type_moves/confuse_ray_e000.tres" id="52_434m7"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/ghost_type_moves/confuse_ray_e001.tres" id="53_mo014"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/ghost_type_moves/shadow_ball_e002.tres" id="54_ioqm0"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/ghost_type_moves/shadow_ball_e003.tres" id="55_eg3jb"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/ghost_type_moves/destiny_bond_e004.tres" id="56_2ekdb"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/ghost_type_moves/shadow_punch_e005.tres" id="57_mwcsm"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/ghost_type_moves/lick_e006.tres" id="58_st1dw"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/ghost_type_moves/astonish_e007.tres" id="59_tuism"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/ghost_type_moves/grudge_e008.tres" id="60_07iql"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/ghost_type_moves/grudge_e009.tres" id="61_kktue"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/ghost_type_moves/destiny_bond_e010.tres" id="62_heolr"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/ghost_type_moves/curse_e011.tres" id="63_qsgjr"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/ghost_type_moves/curse_e012.tres" id="64_5mgvn"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/ghost_type_moves/spite_e013.tres" id="65_uux25"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/blast_burn_e000.tres" id="66_1echn"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/blast_burn_e001.tres" id="67_yjrva"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/blast_burn_e002.tres" id="68_qtlmm"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/blast_burn_e003.tres" id="69_apo7o"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/blast_burn_e004.tres" id="70_nnguj"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/eruption_e005.tres" id="71_en1pa"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/blaze_kick_e006.tres" id="72_qu2c2"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/blaze_kick_e007.tres" id="73_sspwa"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/ember_e008.tres" id="74_tv2m4"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/blaze_kick_e009.tres" id="75_gvur7"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/blaze_kick_e010.tres" id="76_xm3nx"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/blaze_kick_e011.tres" id="77_myls2"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/blaze_kick_e012.tres" id="78_3jjmc"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/blaze_kick_e013.tres" id="79_rkutd"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/blaze_kick_e014.tres" id="80_qp3hy"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/blaze_kick_e015.tres" id="81_fbyfs"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/fire_blast_e016.tres" id="82_5woli"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/fire_blast_e017.tres" id="83_ta2t2"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/fire_blast_e018.tres" id="84_yiyj7"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/fire_blast_e019.tres" id="85_acl4e"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/fire_blast_e020.tres" id="86_no5uw"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/fire_blast_e021.tres" id="87_lng6w"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/fire_blast_e022.tres" id="88_k1rds"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/fire_blast_e023.tres" id="89_ltptb"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/fire_blast_e024.tres" id="90_3f30a"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/fire_blast_e025.tres" id="91_7ktct"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/fire_blast_e026.tres" id="92_18i1h"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/fire_blast_e027.tres" id="93_vu0lr"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/fire_blast_e028.tres" id="94_qtnwh"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/fire_punch_e029.tres" id="95_lav5k"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/fire_spin_e030.tres" id="96_f7co2"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/fire_spin_e031.tres" id="97_uld50"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/fire_spin_e032.tres" id="98_io3wm"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/fire_spin_e033.tres" id="99_pnwmi"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/fire_spin_e034.tres" id="100_ao1ky"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/fire_spin_e035.tres" id="101_m0n6n"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/fire_spin_e036.tres" id="102_k8gf5"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/fire_spin_e037.tres" id="103_ryb3i"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/flame_wheel_e038.tres" id="104_1efag"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/flame_wheel_e039.tres" id="105_lx3t6"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/flame_wheel_e040.tres" id="106_3nj7h"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/flame_wheel_e041.tres" id="107_hl1uc"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/flame_wheel_e042.tres" id="108_ljaqd"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/flame_wheel_e043.tres" id="109_5ghlo"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/flame_wheel_e044.tres" id="110_g5ky1"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/flamethrower_e045.tres" id="111_pl6oq"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/flamethrower_e046.tres" id="112_vydwu"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/flamethrower_e047.tres" id="113_pfymg"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/flamethrower_e048.tres" id="114_qdi2d"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/flamethrower_e049.tres" id="115_dp1q4"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/overheat_e050.tres" id="116_r3qeg"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/overheat_e051.tres" id="117_o6itx"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/overheat_e052.tres" id="118_kktkn"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/overheat_e053.tres" id="119_tuixa"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/sacred_fire_e054.tres" id="120_s7xf3"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/sacred_fire_e055.tres" id="121_atlbw"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/sacred_fire_e056.tres" id="122_24gsq"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/sacred_fire_e057.tres" id="123_h82k6"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/sacred_fire_e058.tres" id="124_n4vvg"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/sunny_day_e059.tres" id="125_g2vh0"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/sunny_day_e060.tres" id="126_6jxxr"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/will_o_wisp_e061.tres" id="127_27t8p"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/will_o_wisp_e062.tres" id="128_rev0m"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/will_o_wisp_e063.tres" id="129_6wg5i"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/will_o_wisp_e064.tres" id="130_5wmjk"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/will_o_wisp_e065.tres" id="131_eyu48"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/will_o_wisp_e066.tres" id="132_qcfrc"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/will_o_wisp_e067.tres" id="133_6ixhb"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/will_o_wisp_e068.tres" id="134_cjvth"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/fire_type_moves/will_o_wisp_e069.tres" id="135_oelc1"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/beat_up_e000.tres" id="136_xo23s"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/beat_up_e001.tres" id="137_ua6q1"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/beat_up_e002.tres" id="138_h454j"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/beat_up_e003.tres" id="139_txk5q"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/bite_crunch_e004.tres" id="140_8mxk3"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/bite_crunch_e005.tres" id="141_qbjoa"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/fake_tears_e006.tres" id="142_y2x6i"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/fake_tears_e007.tres" id="143_l57ja"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/fake_tears_e008.tres" id="144_dp21v"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/fake_tears_e009.tres" id="145_eu56e"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/fake_tears_e010.tres" id="146_f7q4n"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/flatter_e011.tres" id="147_1fjqb"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/flatter_e012.tres" id="148_xjw44"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/flatter_e013.tres" id="149_hh0hl"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/knock_off_e014.tres" id="150_sg2rk"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/memento_e015.tres" id="151_yydwr"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/memento_e016.tres" id="152_ql2i2"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/memento_e017.tres" id="153_bmpld"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/memento_e018.tres" id="154_a5wuy"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/memento_e019.tres" id="155_10myk"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/memento_e020.tres" id="156_2v82y"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/memento_e021.tres" id="157_hqwt1"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/memento_e022.tres" id="158_cvk5m"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/memento_e023.tres" id="159_esgjh"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/pursuit_e024.tres" id="160_l53xx"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/pursuit_e025.tres" id="161_djeac"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/snatch_e026.tres" id="162_sqcuc"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/taunt_e027.tres" id="163_8d6ta"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/taunt_e028.tres" id="164_ke2qn"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/taunt_e029.tres" id="165_wai0h"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/taunt_e030.tres" id="166_2r56h"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/taunt_e031.tres" id="167_11xy0"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/taunt_e032.tres" id="168_rbjp1"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/torment_e033.tres" id="169_2a7yt"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/torment_e034.tres" id="170_6jtil"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/torment_e035.tres" id="171_nrcn0"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/set_11_e036.tres" id="172_32gbi"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/set_11_e037.tres" id="173_seup7"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/set_11_e038.tres" id="174_4hk1b"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/dark_type_moves/flatter_e039.tres" id="175_xg6ah"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rock_type_moves/ancientpower_e000.tres" id="176_uny8f"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rock_type_moves/ancientpower_e001.tres" id="177_ep7nq"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rock_type_moves/ancientpower_e002.tres" id="178_1gvea"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rock_type_moves/ancientpower_e003.tres" id="179_162rw"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rock_type_moves/ancientpower_e004.tres" id="180_rlolu"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rock_type_moves/ancientpower_e005.tres" id="181_qoeul"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rock_type_moves/rock_blast_e006.tres" id="182_wdy6k"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rock_type_moves/rock_blast_e007.tres" id="183_nf5xp"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rock_type_moves/rock_blast_e008.tres" id="184_6jh68"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rock_type_moves/rock_blast_e009.tres" id="185_f32ah"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rock_type_moves/rock_blast_e010.tres" id="186_cgf1l"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rock_type_moves/rock_blast_e011.tres" id="187_ephu4"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rock_type_moves/rock_blast_e012.tres" id="188_y1opx"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rock_type_moves/rock_tomb_e013.tres" id="189_aygju"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rock_type_moves/rock_tomb_e014.tres" id="190_4igqk"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rock_type_moves/rock_tomb_e015.tres" id="191_ajuum"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rock_type_moves/rock_tomb_e016.tres" id="192_scjtx"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rock_type_moves/rock_tomb_e017.tres" id="193_ouby6"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rock_type_moves/rock_tomb_e018.tres" id="194_bp1ht"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rock_type_moves/rock_tomb_e019.tres" id="195_ejtyi"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rock_type_moves/rock_tomb_e020.tres" id="196_5sawx"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rock_type_moves/rock_tomb_e021.tres" id="197_aidqj"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rock_type_moves/rock_tomb_e022.tres" id="198_cefrb"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rock_type_moves/rock_tomb_e023.tres" id="199_8qds2"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rock_type_moves/rock_tomb_e024.tres" id="200_0b1ve"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rock_type_moves/rock_throw_rock_slide_e025.tres" id="201_bowr8"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rock_type_moves/rock_throw_rock_slide_e026.tres" id="202_agj42"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rock_type_moves/rock_throw_rock_slide_e027.tres" id="203_t8aig"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rock_type_moves/rollout_e028.tres" id="204_4knhf"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rock_type_moves/rollout_e029.tres" id="205_mjqt6"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rock_type_moves/rollout_e030.tres" id="206_qsrj4"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rock_type_moves/rollout_e031.tres" id="207_qiws3"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rock_type_moves/rollout_e032.tres" id="208_8ktko"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/miscellaneous_weather_effects/snow.tres" id="209_4bhe6"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/miscellaneous_weather_effects/blizzard.tres" id="210_7u5ty"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/miscellaneous_weather_effects/snow_dungeon.tres" id="211_fidwx"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/sunny/sunny.tres" id="212_nokmm"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/rain/rain.tres" id="213_h43in"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/status_effects/status_effects_e000.tres" id="214_gdkcx"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/status_effects/status_effects_e001.tres" id="215_l4osx"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/status_effects/status_effects_e002.tres" id="216_ml4pt"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/status_effects/status_effects_e003.tres" id="217_dkuhy"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/status_effects/status_effects_e004.tres" id="218_gtywc"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/status_effects/status_effects_e005.tres" id="219_g10qe"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/status_effects/status_effects_e006.tres" id="220_11hef"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/status_effects/status_effects_e007.tres" id="221_v4jqi"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/status_effects/status_effects_e008.tres" id="222_ljp3k"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/status_effects/status_effects_e009.tres" id="223_hs4my"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/status_effects/status_effects_e010.tres" id="224_b1q4j"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/status_effects/status_effects_e011.tres" id="225_bird1"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/status_effects/status_effects_e012.tres" id="226_06yx7"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/status_effects/status_effects_e013.tres" id="227_5mswd"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/status_effects/ice_block.tres" id="228_qfd7u"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/status_effects/status_effects_e015.tres" id="229_wkh11"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/status_effects/status_effects_e016.tres" id="230_btxhk"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/status_effects/status_effects_e017.tres" id="231_5xac7"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/status_effects/status_effects_e018.tres" id="232_i41c0"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/status_effects/status_effects_e019.tres" id="233_8bc4e"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/status_effects/status_effects_e020.tres" id="234_ayd51"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/status_effects/status_effects_e021.tres" id="235_fcdvf"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/status_effects/status_effects_e022.tres" id="236_n1xhi"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/pmd_red/status_effects/status_effects_e023.tres" id="237_ddhen"]
+
+[node name="pmd_red_effects" type="Node2D" unique_id=1664399426]
+
+[node name="acid_e000" type="AnimatedSprite2D" parent="." unique_id=42346826]
+position = Vector2(0, 10)
+sprite_frames = ExtResource("1_4p1ed")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1361" type="Label" parent="." unique_id=1746059571]
+theme_override_font_sizes/font_size = 6
+text = "acid_e000"
+
+[node name="acid_e001" type="AnimatedSprite2D" parent="." unique_id=1160222444]
+position = Vector2(48, 10)
+sprite_frames = ExtResource("2_htwag")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1362" type="Label" parent="." unique_id=334033578]
+offset_left = 48.0
+offset_right = 48.0
+theme_override_font_sizes/font_size = 6
+text = "acid_e001"
+
+[node name="acid_e002" type="AnimatedSprite2D" parent="." unique_id=1783222735]
+position = Vector2(96, 10)
+sprite_frames = ExtResource("3_t1ryt")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1363" type="Label" parent="." unique_id=96331019]
+offset_left = 96.0
+offset_right = 96.0
+theme_override_font_sizes/font_size = 6
+text = "acid_e002"
+
+[node name="acid_armor_e003" type="AnimatedSprite2D" parent="." unique_id=6555672]
+position = Vector2(144, 10)
+sprite_frames = ExtResource("4_trqld")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1364" type="Label" parent="." unique_id=717300734]
+offset_left = 144.0
+offset_right = 144.0
+theme_override_font_sizes/font_size = 6
+text = "acid_armor_e003"
+
+[node name="acid_armor_e004" type="AnimatedSprite2D" parent="." unique_id=620325388]
+position = Vector2(210, 10)
+sprite_frames = ExtResource("5_lt4l7")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1365" type="Label" parent="." unique_id=1611490580]
+offset_left = 210.0
+offset_right = 210.0
+theme_override_font_sizes/font_size = 6
+text = "acid_armor_e004"
+
+[node name="acid_armor_e005" type="AnimatedSprite2D" parent="." unique_id=498873378]
+position = Vector2(258, 10)
+sprite_frames = ExtResource("6_lqe6u")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1366" type="Label" parent="." unique_id=127845160]
+offset_left = 258.0
+offset_right = 258.0
+theme_override_font_sizes/font_size = 6
+text = "acid_armor_e005"
+
+[node name="acid_armor_e006" type="AnimatedSprite2D" parent="." unique_id=571063746]
+position = Vector2(306, 10)
+sprite_frames = ExtResource("7_7x8lm")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1367" type="Label" parent="." unique_id=258356908]
+offset_left = 306.0
+offset_right = 306.0
+theme_override_font_sizes/font_size = 6
+text = "acid_armor_e006"
+
+[node name="acid_armor_e007" type="AnimatedSprite2D" parent="." unique_id=493355340]
+position = Vector2(354, 10)
+sprite_frames = ExtResource("8_8kcpn")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1368" type="Label" parent="." unique_id=397682934]
+offset_left = 354.0
+offset_right = 354.0
+theme_override_font_sizes/font_size = 6
+text = "acid_armor_e007"
+
+[node name="acid_armor_e008" type="AnimatedSprite2D" parent="." unique_id=1388309648]
+position = Vector2(402, 10)
+sprite_frames = ExtResource("9_814b6")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1369" type="Label" parent="." unique_id=1235229235]
+offset_left = 402.0
+offset_right = 402.0
+theme_override_font_sizes/font_size = 6
+text = "acid_armor_e008"
+
+[node name="acid_armor_e009" type="AnimatedSprite2D" parent="." unique_id=1211612799]
+position = Vector2(450, 10)
+sprite_frames = ExtResource("10_46vt5")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1370" type="Label" parent="." unique_id=834430335]
+offset_left = 450.0
+offset_right = 450.0
+theme_override_font_sizes/font_size = 6
+text = "acid_armor_e009"
+
+[node name="acid_armor_e010" type="AnimatedSprite2D" parent="." unique_id=423893336]
+position = Vector2(498, 10)
+sprite_frames = ExtResource("11_tcu1t")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1371" type="Label" parent="." unique_id=339961593]
+offset_left = 498.0
+offset_right = 498.0
+theme_override_font_sizes/font_size = 6
+text = "acid_armor_e010"
+
+[node name="acid_armor_e011" type="AnimatedSprite2D" parent="." unique_id=1564644564]
+position = Vector2(546, 10)
+sprite_frames = ExtResource("12_p7oua")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1372" type="Label" parent="." unique_id=2054264579]
+offset_left = 546.0
+offset_right = 546.0
+theme_override_font_sizes/font_size = 6
+text = "acid_armor_e011"
+
+[node name="acid_armor_e012" type="AnimatedSprite2D" parent="." unique_id=245065002]
+position = Vector2(594, 10)
+sprite_frames = ExtResource("13_slulm")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1373" type="Label" parent="." unique_id=1620211428]
+offset_left = 594.0
+offset_right = 594.0
+theme_override_font_sizes/font_size = 6
+text = "acid_armor_e012"
+
+[node name="acid_armor_e013" type="AnimatedSprite2D" parent="." unique_id=1174684968]
+position = Vector2(642, 10)
+sprite_frames = ExtResource("14_gi7qh")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1374" type="Label" parent="." unique_id=2123056083]
+offset_left = 642.0
+offset_right = 642.0
+theme_override_font_sizes/font_size = 6
+text = "acid_armor_e013"
+
+[node name="acid_armor_e014" type="AnimatedSprite2D" parent="." unique_id=45681693]
+position = Vector2(690, 10)
+sprite_frames = ExtResource("15_5ksry")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1375" type="Label" parent="." unique_id=444813111]
+offset_left = 690.0
+offset_right = 690.0
+theme_override_font_sizes/font_size = 6
+text = "acid_armor_e014"
+
+[node name="acid_armor_e015" type="AnimatedSprite2D" parent="." unique_id=157335430]
+position = Vector2(738, 10)
+sprite_frames = ExtResource("16_6v2f3")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1376" type="Label" parent="." unique_id=230330607]
+offset_left = 738.0
+offset_right = 738.0
+theme_override_font_sizes/font_size = 6
+text = "acid_armor_e015"
+
+[node name="poison_fang_e016" type="AnimatedSprite2D" parent="." unique_id=1551138382]
+position = Vector2(786, 10)
+sprite_frames = ExtResource("17_st1yt")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1377" type="Label" parent="." unique_id=276323571]
+offset_left = 786.0
+offset_right = 786.0
+theme_override_font_sizes/font_size = 6
+text = "poison_fang_e016"
+
+[node name="poison_gas_smog_e017" type="AnimatedSprite2D" parent="." unique_id=1985739086]
+position = Vector2(834, 10)
+sprite_frames = ExtResource("18_uvjl5")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1378" type="Label" parent="." unique_id=355868081]
+offset_left = 834.0
+offset_right = 834.0
+theme_override_font_sizes/font_size = 6
+text = "poison_gas_smog_e017"
+
+[node name="poison_gas_smog_e018" type="AnimatedSprite2D" parent="." unique_id=66473534]
+position = Vector2(882, 10)
+sprite_frames = ExtResource("19_so5pq")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1379" type="Label" parent="." unique_id=208095499]
+offset_left = 882.0
+offset_right = 882.0
+theme_override_font_sizes/font_size = 6
+text = "poison_gas_smog_e018"
+
+[node name="poison_gas_smog_e019" type="AnimatedSprite2D" parent="." unique_id=270381244]
+position = Vector2(930, 10)
+sprite_frames = ExtResource("20_y0c4j")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1380" type="Label" parent="." unique_id=1387417699]
+offset_left = 930.0
+offset_right = 930.0
+theme_override_font_sizes/font_size = 6
+text = "poison_gas_smog_e019"
+
+[node name="poison_gas_smog_e020" type="AnimatedSprite2D" parent="." unique_id=460432511]
+position = Vector2(978, 10)
+sprite_frames = ExtResource("21_g8rlt")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1381" type="Label" parent="." unique_id=461544305]
+offset_left = 978.0
+offset_right = 978.0
+theme_override_font_sizes/font_size = 6
+text = "poison_gas_smog_e020"
+
+[node name="poison_gas_smog_e021" type="AnimatedSprite2D" parent="." unique_id=1700396632]
+position = Vector2(1026, 10)
+sprite_frames = ExtResource("22_0ni80")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1382" type="Label" parent="." unique_id=1725628608]
+offset_left = 1026.0
+offset_right = 1026.0
+theme_override_font_sizes/font_size = 6
+text = "poison_gas_smog_e021"
+
+[node name="poison_gas_smog_e022" type="AnimatedSprite2D" parent="." unique_id=1928783436]
+position = Vector2(1079, 10)
+sprite_frames = ExtResource("23_unds5")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1383" type="Label" parent="." unique_id=57856182]
+offset_left = 1079.0
+offset_right = 1079.0
+theme_override_font_sizes/font_size = 6
+text = "poison_gas_smog_e022"
+
+[node name="poison_gas_smog_e023" type="AnimatedSprite2D" parent="." unique_id=1413609017]
+position = Vector2(1127, 10)
+sprite_frames = ExtResource("24_wx2m1")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1384" type="Label" parent="." unique_id=1598599045]
+offset_left = 1127.0
+offset_right = 1127.0
+theme_override_font_sizes/font_size = 6
+text = "poison_gas_smog_e023"
+
+[node name="poison_gas_smog_e024" type="AnimatedSprite2D" parent="." unique_id=138987077]
+position = Vector2(0, 73)
+sprite_frames = ExtResource("25_dabpd")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1385" type="Label" parent="." unique_id=2036068670]
+offset_top = 63.0
+offset_bottom = 63.0
+theme_override_font_sizes/font_size = 6
+text = "poison_gas_smog_e024"
+
+[node name="poison_gas_smog_e025" type="AnimatedSprite2D" parent="." unique_id=94261927]
+position = Vector2(48, 73)
+sprite_frames = ExtResource("26_x27r7")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1386" type="Label" parent="." unique_id=1193060621]
+offset_left = 48.0
+offset_top = 63.0
+offset_right = 48.0
+offset_bottom = 63.0
+theme_override_font_sizes/font_size = 6
+text = "poison_gas_smog_e025"
+
+[node name="poison_gas_smog_e026" type="AnimatedSprite2D" parent="." unique_id=1707419170]
+position = Vector2(96, 73)
+sprite_frames = ExtResource("27_34or8")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1387" type="Label" parent="." unique_id=1942071961]
+offset_left = 96.0
+offset_top = 63.0
+offset_right = 96.0
+offset_bottom = 63.0
+theme_override_font_sizes/font_size = 6
+text = "poison_gas_smog_e026"
+
+[node name="poison_gas_smog_e027" type="AnimatedSprite2D" parent="." unique_id=1672801532]
+position = Vector2(144, 73)
+sprite_frames = ExtResource("28_6l8jb")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1388" type="Label" parent="." unique_id=1199490465]
+offset_left = 144.0
+offset_top = 63.0
+offset_right = 144.0
+offset_bottom = 63.0
+theme_override_font_sizes/font_size = 6
+text = "poison_gas_smog_e027"
+
+[node name="poison_sting_e028" type="AnimatedSprite2D" parent="." unique_id=430514000]
+position = Vector2(192, 73)
+sprite_frames = ExtResource("29_7g637")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1389" type="Label" parent="." unique_id=1581495974]
+offset_left = 192.0
+offset_top = 63.0
+offset_right = 192.0
+offset_bottom = 63.0
+theme_override_font_sizes/font_size = 6
+text = "poison_sting_e028"
+
+[node name="poison_tail_e029" type="AnimatedSprite2D" parent="." unique_id=963769483]
+position = Vector2(240, 73)
+sprite_frames = ExtResource("30_70eby")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1390" type="Label" parent="." unique_id=1278547149]
+offset_left = 240.0
+offset_top = 63.0
+offset_right = 240.0
+offset_bottom = 63.0
+theme_override_font_sizes/font_size = 6
+text = "poison_tail_e029"
+
+[node name="poison_tail_e030" type="AnimatedSprite2D" parent="." unique_id=1731223245]
+position = Vector2(288, 73)
+sprite_frames = ExtResource("31_sf8py")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1391" type="Label" parent="." unique_id=1984698742]
+offset_left = 288.0
+offset_top = 63.0
+offset_right = 288.0
+offset_bottom = 63.0
+theme_override_font_sizes/font_size = 6
+text = "poison_tail_e030"
+
+[node name="poison_powder_e031" type="AnimatedSprite2D" parent="." unique_id=1037648519]
+position = Vector2(336, 73)
+sprite_frames = ExtResource("32_tngp7")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1392" type="Label" parent="." unique_id=134651936]
+offset_left = 336.0
+offset_top = 63.0
+offset_right = 336.0
+offset_bottom = 63.0
+theme_override_font_sizes/font_size = 6
+text = "poison_powder_e031"
+
+[node name="poison_powder_e032" type="AnimatedSprite2D" parent="." unique_id=446836808]
+position = Vector2(384, 73)
+sprite_frames = ExtResource("33_it8kt")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1393" type="Label" parent="." unique_id=1853565185]
+offset_left = 384.0
+offset_top = 63.0
+offset_right = 384.0
+offset_bottom = 63.0
+theme_override_font_sizes/font_size = 6
+text = "poison_powder_e032"
+
+[node name="poison_powder_e033" type="AnimatedSprite2D" parent="." unique_id=1631023189]
+position = Vector2(432, 73)
+sprite_frames = ExtResource("34_w17gp")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1394" type="Label" parent="." unique_id=1307970482]
+offset_left = 432.0
+offset_top = 63.0
+offset_right = 432.0
+offset_bottom = 63.0
+theme_override_font_sizes/font_size = 6
+text = "poison_powder_e033"
+
+[node name="poison_powder_e034" type="AnimatedSprite2D" parent="." unique_id=762749898]
+position = Vector2(480, 73)
+sprite_frames = ExtResource("35_4tjk3")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1395" type="Label" parent="." unique_id=1757448253]
+offset_left = 480.0
+offset_top = 63.0
+offset_right = 480.0
+offset_bottom = 63.0
+theme_override_font_sizes/font_size = 6
+text = "poison_powder_e034"
+
+[node name="poison_powder_e035" type="AnimatedSprite2D" parent="." unique_id=784431168]
+position = Vector2(528, 73)
+sprite_frames = ExtResource("36_lujtt")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1396" type="Label" parent="." unique_id=652932155]
+offset_left = 528.0
+offset_top = 63.0
+offset_right = 528.0
+offset_bottom = 63.0
+theme_override_font_sizes/font_size = 6
+text = "poison_powder_e035"
+
+[node name="poison_powder_e036" type="AnimatedSprite2D" parent="." unique_id=441775897]
+position = Vector2(576, 73)
+sprite_frames = ExtResource("37_sdfbn")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1397" type="Label" parent="." unique_id=2058027094]
+offset_left = 576.0
+offset_top = 63.0
+offset_right = 576.0
+offset_bottom = 63.0
+theme_override_font_sizes/font_size = 6
+text = "poison_powder_e036"
+
+[node name="effects_e000" type="AnimatedSprite2D" parent="." unique_id=547729331]
+position = Vector2(624, 73)
+sprite_frames = ExtResource("38_1s4hd")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1398" type="Label" parent="." unique_id=1667514449]
+offset_left = 624.0
+offset_top = 63.0
+offset_right = 624.0
+offset_bottom = 63.0
+theme_override_font_sizes/font_size = 6
+text = "effects_e000"
+
+[node name="effects_e001" type="AnimatedSprite2D" parent="." unique_id=644366319]
+position = Vector2(672, 73)
+sprite_frames = ExtResource("39_tjwny")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1399" type="Label" parent="." unique_id=65732727]
+offset_left = 672.0
+offset_top = 63.0
+offset_right = 672.0
+offset_bottom = 63.0
+theme_override_font_sizes/font_size = 6
+text = "effects_e001"
+
+[node name="effects_e002" type="AnimatedSprite2D" parent="." unique_id=756692286]
+position = Vector2(720, 73)
+sprite_frames = ExtResource("40_cgj4b")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1400" type="Label" parent="." unique_id=1166316036]
+offset_left = 720.0
+offset_top = 63.0
+offset_right = 720.0
+offset_bottom = 63.0
+theme_override_font_sizes/font_size = 6
+text = "effects_e002"
+
+[node name="effects_e003" type="AnimatedSprite2D" parent="." unique_id=1025314265]
+position = Vector2(768, 73)
+sprite_frames = ExtResource("41_10apn")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1401" type="Label" parent="." unique_id=669018005]
+offset_left = 768.0
+offset_top = 63.0
+offset_right = 768.0
+offset_bottom = 63.0
+theme_override_font_sizes/font_size = 6
+text = "effects_e003"
+
+[node name="effects_e004" type="AnimatedSprite2D" parent="." unique_id=1978444206]
+position = Vector2(816, 73)
+sprite_frames = ExtResource("42_iypmb")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1402" type="Label" parent="." unique_id=808138135]
+offset_left = 816.0
+offset_top = 63.0
+offset_right = 816.0
+offset_bottom = 63.0
+theme_override_font_sizes/font_size = 6
+text = "effects_e004"
+
+[node name="effects_e005" type="AnimatedSprite2D" parent="." unique_id=156851504]
+position = Vector2(864, 73)
+sprite_frames = ExtResource("43_6p8ha")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1403" type="Label" parent="." unique_id=2075802067]
+offset_left = 864.0
+offset_top = 63.0
+offset_right = 864.0
+offset_bottom = 63.0
+theme_override_font_sizes/font_size = 6
+text = "effects_e005"
+
+[node name="effects_e006" type="AnimatedSprite2D" parent="." unique_id=1033522574]
+position = Vector2(912, 73)
+sprite_frames = ExtResource("44_ipf22")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1404" type="Label" parent="." unique_id=1306276037]
+offset_left = 912.0
+offset_top = 63.0
+offset_right = 912.0
+offset_bottom = 63.0
+theme_override_font_sizes/font_size = 6
+text = "effects_e006"
+
+[node name="effects_e007" type="AnimatedSprite2D" parent="." unique_id=1366002344]
+position = Vector2(960, 73)
+sprite_frames = ExtResource("45_jyna4")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1405" type="Label" parent="." unique_id=494790141]
+offset_left = 960.0
+offset_top = 63.0
+offset_right = 960.0
+offset_bottom = 63.0
+theme_override_font_sizes/font_size = 6
+text = "effects_e007"
+
+[node name="effects_e008" type="AnimatedSprite2D" parent="." unique_id=1241288990]
+position = Vector2(1008, 73)
+sprite_frames = ExtResource("46_wvgo3")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1406" type="Label" parent="." unique_id=572125441]
+offset_left = 1008.0
+offset_top = 63.0
+offset_right = 1008.0
+offset_bottom = 63.0
+theme_override_font_sizes/font_size = 6
+text = "effects_e008"
+
+[node name="effects_e009" type="AnimatedSprite2D" parent="." unique_id=943826650]
+position = Vector2(1056, 73)
+sprite_frames = ExtResource("47_3m4u1")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1407" type="Label" parent="." unique_id=1111835487]
+offset_left = 1056.0
+offset_top = 63.0
+offset_right = 1056.0
+offset_bottom = 63.0
+theme_override_font_sizes/font_size = 6
+text = "effects_e009"
+
+[node name="effects_e010" type="AnimatedSprite2D" parent="." unique_id=2053102876]
+position = Vector2(1104, 73)
+sprite_frames = ExtResource("48_bxcvb")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1408" type="Label" parent="." unique_id=1671424728]
+offset_left = 1104.0
+offset_top = 63.0
+offset_right = 1104.0
+offset_bottom = 63.0
+theme_override_font_sizes/font_size = 6
+text = "effects_e010"
+
+[node name="effects_e011" type="AnimatedSprite2D" parent="." unique_id=1626544948]
+position = Vector2(1152, 73)
+sprite_frames = ExtResource("49_v7vtp")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1409" type="Label" parent="." unique_id=1158760502]
+offset_left = 1152.0
+offset_top = 63.0
+offset_right = 1152.0
+offset_bottom = 63.0
+theme_override_font_sizes/font_size = 6
+text = "effects_e011"
+
+[node name="effects_e012" type="AnimatedSprite2D" parent="." unique_id=457229027]
+position = Vector2(0, 133)
+sprite_frames = ExtResource("50_je584")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1410" type="Label" parent="." unique_id=1033388921]
+offset_top = 123.0
+offset_bottom = 123.0
+theme_override_font_sizes/font_size = 6
+text = "effects_e012"
+
+[node name="effects_e013" type="AnimatedSprite2D" parent="." unique_id=1739781275]
+position = Vector2(48, 133)
+sprite_frames = ExtResource("51_eyy4d")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1411" type="Label" parent="." unique_id=971077705]
+offset_left = 48.0
+offset_top = 123.0
+offset_right = 48.0
+offset_bottom = 123.0
+theme_override_font_sizes/font_size = 6
+text = "effects_e013"
+
+[node name="confuse_ray_e000" type="AnimatedSprite2D" parent="." unique_id=1784714014]
+position = Vector2(96, 133)
+sprite_frames = ExtResource("52_434m7")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1412" type="Label" parent="." unique_id=407548008]
+offset_left = 96.0
+offset_top = 123.0
+offset_right = 96.0
+offset_bottom = 123.0
+theme_override_font_sizes/font_size = 6
+text = "confuse_ray_e000"
+
+[node name="confuse_ray_e001" type="AnimatedSprite2D" parent="." unique_id=2070119522]
+position = Vector2(144, 133)
+sprite_frames = ExtResource("53_mo014")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1413" type="Label" parent="." unique_id=355333225]
+offset_left = 144.0
+offset_top = 123.0
+offset_right = 144.0
+offset_bottom = 123.0
+theme_override_font_sizes/font_size = 6
+text = "confuse_ray_e001"
+
+[node name="shadow_ball_e002" type="AnimatedSprite2D" parent="." unique_id=18257078]
+position = Vector2(198, 133)
+sprite_frames = ExtResource("54_ioqm0")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1414" type="Label" parent="." unique_id=984363052]
+offset_left = 198.0
+offset_top = 123.0
+offset_right = 198.0
+offset_bottom = 123.0
+theme_override_font_sizes/font_size = 6
+text = "shadow_ball_e002"
+
+[node name="shadow_ball_e003" type="AnimatedSprite2D" parent="." unique_id=1036246605]
+position = Vector2(246, 133)
+sprite_frames = ExtResource("55_eg3jb")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1415" type="Label" parent="." unique_id=1381236657]
+offset_left = 246.0
+offset_top = 123.0
+offset_right = 246.0
+offset_bottom = 123.0
+theme_override_font_sizes/font_size = 6
+text = "shadow_ball_e003"
+
+[node name="destiny_bond_e004" type="AnimatedSprite2D" parent="." unique_id=1238439063]
+position = Vector2(294, 133)
+sprite_frames = ExtResource("56_2ekdb")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1416" type="Label" parent="." unique_id=1038984921]
+offset_left = 294.0
+offset_top = 123.0
+offset_right = 294.0
+offset_bottom = 123.0
+theme_override_font_sizes/font_size = 6
+text = "destiny_bond_e004"
+
+[node name="shadow_punch_e005" type="AnimatedSprite2D" parent="." unique_id=340338666]
+position = Vector2(342, 133)
+sprite_frames = ExtResource("57_mwcsm")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1417" type="Label" parent="." unique_id=2106359279]
+offset_left = 342.0
+offset_top = 123.0
+offset_right = 342.0
+offset_bottom = 123.0
+theme_override_font_sizes/font_size = 6
+text = "shadow_punch_e005"
+
+[node name="lick_e006" type="AnimatedSprite2D" parent="." unique_id=2111379408]
+position = Vector2(414, 133)
+sprite_frames = ExtResource("58_st1dw")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1418" type="Label" parent="." unique_id=1839688767]
+offset_left = 414.0
+offset_top = 123.0
+offset_right = 414.0
+offset_bottom = 123.0
+theme_override_font_sizes/font_size = 6
+text = "lick_e006"
+
+[node name="astonish_e007" type="AnimatedSprite2D" parent="." unique_id=568626057]
+position = Vector2(462, 133)
+sprite_frames = ExtResource("59_tuism")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1419" type="Label" parent="." unique_id=778239166]
+offset_left = 462.0
+offset_top = 123.0
+offset_right = 462.0
+offset_bottom = 123.0
+theme_override_font_sizes/font_size = 6
+text = "astonish_e007"
+
+[node name="grudge_e008" type="AnimatedSprite2D" parent="." unique_id=924118613]
+position = Vector2(510, 133)
+sprite_frames = ExtResource("60_07iql")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1420" type="Label" parent="." unique_id=2056536933]
+offset_left = 510.0
+offset_top = 123.0
+offset_right = 510.0
+offset_bottom = 123.0
+theme_override_font_sizes/font_size = 6
+text = "grudge_e008"
+
+[node name="grudge_e009" type="AnimatedSprite2D" parent="." unique_id=1551130603]
+position = Vector2(558, 133)
+sprite_frames = ExtResource("61_kktue")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1421" type="Label" parent="." unique_id=789978969]
+offset_left = 558.0
+offset_top = 123.0
+offset_right = 558.0
+offset_bottom = 123.0
+theme_override_font_sizes/font_size = 6
+text = "grudge_e009"
+
+[node name="destiny_bond_e010" type="AnimatedSprite2D" parent="." unique_id=1156037414]
+position = Vector2(606, 133)
+sprite_frames = ExtResource("62_heolr")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1422" type="Label" parent="." unique_id=1608437549]
+offset_left = 606.0
+offset_top = 123.0
+offset_right = 606.0
+offset_bottom = 123.0
+theme_override_font_sizes/font_size = 6
+text = "destiny_bond_e010"
+
+[node name="curse_e011" type="AnimatedSprite2D" parent="." unique_id=1369121385]
+position = Vector2(654, 133)
+sprite_frames = ExtResource("63_qsgjr")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1423" type="Label" parent="." unique_id=1171649279]
+offset_left = 654.0
+offset_top = 123.0
+offset_right = 654.0
+offset_bottom = 123.0
+theme_override_font_sizes/font_size = 6
+text = "curse_e011"
+
+[node name="curse_e012" type="AnimatedSprite2D" parent="." unique_id=1916640010]
+position = Vector2(702, 133)
+sprite_frames = ExtResource("64_5mgvn")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1424" type="Label" parent="." unique_id=506884817]
+offset_left = 702.0
+offset_top = 123.0
+offset_right = 702.0
+offset_bottom = 123.0
+theme_override_font_sizes/font_size = 6
+text = "curse_e012"
+
+[node name="spite_e013" type="AnimatedSprite2D" parent="." unique_id=922219601]
+position = Vector2(750, 133)
+sprite_frames = ExtResource("65_uux25")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1425" type="Label" parent="." unique_id=178933536]
+offset_left = 750.0
+offset_top = 123.0
+offset_right = 750.0
+offset_bottom = 123.0
+theme_override_font_sizes/font_size = 6
+text = "spite_e013"
+
+[node name="blast_burn_e000" type="AnimatedSprite2D" parent="." unique_id=998455279]
+position = Vector2(814, 133)
+sprite_frames = ExtResource("66_1echn")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1426" type="Label" parent="." unique_id=418274354]
+offset_left = 814.0
+offset_top = 123.0
+offset_right = 814.0
+offset_bottom = 123.0
+theme_override_font_sizes/font_size = 6
+text = "blast_burn_e000"
+
+[node name="blast_burn_e001" type="AnimatedSprite2D" parent="." unique_id=272980444]
+position = Vector2(886, 133)
+sprite_frames = ExtResource("67_yjrva")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1427" type="Label" parent="." unique_id=1972317335]
+offset_left = 886.0
+offset_top = 123.0
+offset_right = 886.0
+offset_bottom = 123.0
+theme_override_font_sizes/font_size = 6
+text = "blast_burn_e001"
+
+[node name="blast_burn_e002" type="AnimatedSprite2D" parent="." unique_id=1939452132]
+position = Vector2(942, 133)
+sprite_frames = ExtResource("68_qtlmm")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1428" type="Label" parent="." unique_id=2087920481]
+offset_left = 942.0
+offset_top = 123.0
+offset_right = 942.0
+offset_bottom = 123.0
+theme_override_font_sizes/font_size = 6
+text = "blast_burn_e002"
+
+[node name="blast_burn_e003" type="AnimatedSprite2D" parent="." unique_id=978339572]
+position = Vector2(990, 133)
+sprite_frames = ExtResource("69_apo7o")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1429" type="Label" parent="." unique_id=169848212]
+offset_left = 990.0
+offset_top = 123.0
+offset_right = 990.0
+offset_bottom = 123.0
+theme_override_font_sizes/font_size = 6
+text = "blast_burn_e003"
+
+[node name="blast_burn_e004" type="AnimatedSprite2D" parent="." unique_id=1161790132]
+position = Vector2(1038, 133)
+sprite_frames = ExtResource("70_nnguj")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1430" type="Label" parent="." unique_id=1068787811]
+offset_left = 1038.0
+offset_top = 123.0
+offset_right = 1038.0
+offset_bottom = 123.0
+theme_override_font_sizes/font_size = 6
+text = "blast_burn_e004"
+
+[node name="eruption_e005" type="AnimatedSprite2D" parent="." unique_id=1083578342]
+position = Vector2(1101, 133)
+sprite_frames = ExtResource("71_en1pa")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1431" type="Label" parent="." unique_id=1861691474]
+offset_left = 1101.0
+offset_top = 123.0
+offset_right = 1101.0
+offset_bottom = 123.0
+theme_override_font_sizes/font_size = 6
+text = "eruption_e005"
+
+[node name="blaze_kick_e006" type="AnimatedSprite2D" parent="." unique_id=357589333]
+position = Vector2(1149, 133)
+sprite_frames = ExtResource("72_qu2c2")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1432" type="Label" parent="." unique_id=579082559]
+offset_left = 1149.0
+offset_top = 123.0
+offset_right = 1149.0
+offset_bottom = 123.0
+theme_override_font_sizes/font_size = 6
+text = "blaze_kick_e006"
+
+[node name="blaze_kick_e007" type="AnimatedSprite2D" parent="." unique_id=42138560]
+position = Vector2(0, 210)
+sprite_frames = ExtResource("73_sspwa")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1433" type="Label" parent="." unique_id=402251762]
+offset_top = 200.0
+offset_bottom = 200.0
+theme_override_font_sizes/font_size = 6
+text = "blaze_kick_e007"
+
+[node name="ember_e008" type="AnimatedSprite2D" parent="." unique_id=602014259]
+position = Vector2(51, 210)
+sprite_frames = ExtResource("74_tv2m4")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1434" type="Label" parent="." unique_id=1057761277]
+offset_left = 51.0
+offset_top = 200.0
+offset_right = 51.0
+offset_bottom = 200.0
+theme_override_font_sizes/font_size = 6
+text = "ember_e008"
+
+[node name="blaze_kick_e009" type="AnimatedSprite2D" parent="." unique_id=1146538888]
+position = Vector2(99, 210)
+sprite_frames = ExtResource("75_gvur7")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1435" type="Label" parent="." unique_id=1711921031]
+offset_left = 99.0
+offset_top = 200.0
+offset_right = 99.0
+offset_bottom = 200.0
+theme_override_font_sizes/font_size = 6
+text = "blaze_kick_e009"
+
+[node name="blaze_kick_e010" type="AnimatedSprite2D" parent="." unique_id=999295635]
+position = Vector2(147, 210)
+sprite_frames = ExtResource("76_xm3nx")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1436" type="Label" parent="." unique_id=645231591]
+offset_left = 147.0
+offset_top = 200.0
+offset_right = 147.0
+offset_bottom = 200.0
+theme_override_font_sizes/font_size = 6
+text = "blaze_kick_e010"
+
+[node name="blaze_kick_e011" type="AnimatedSprite2D" parent="." unique_id=191277458]
+position = Vector2(195, 210)
+sprite_frames = ExtResource("77_myls2")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1437" type="Label" parent="." unique_id=843364858]
+offset_left = 195.0
+offset_top = 200.0
+offset_right = 195.0
+offset_bottom = 200.0
+theme_override_font_sizes/font_size = 6
+text = "blaze_kick_e011"
+
+[node name="blaze_kick_e012" type="AnimatedSprite2D" parent="." unique_id=773217504]
+position = Vector2(255, 210)
+sprite_frames = ExtResource("78_3jjmc")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1438" type="Label" parent="." unique_id=549297680]
+offset_left = 255.0
+offset_top = 200.0
+offset_right = 255.0
+offset_bottom = 200.0
+theme_override_font_sizes/font_size = 6
+text = "blaze_kick_e012"
+
+[node name="blaze_kick_e013" type="AnimatedSprite2D" parent="." unique_id=476074930]
+position = Vector2(308, 210)
+sprite_frames = ExtResource("79_rkutd")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1439" type="Label" parent="." unique_id=859785269]
+offset_left = 308.0
+offset_top = 200.0
+offset_right = 308.0
+offset_bottom = 200.0
+theme_override_font_sizes/font_size = 6
+text = "blaze_kick_e013"
+
+[node name="blaze_kick_e014" type="AnimatedSprite2D" parent="." unique_id=1590417636]
+position = Vector2(356, 210)
+sprite_frames = ExtResource("80_qp3hy")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1440" type="Label" parent="." unique_id=1578913188]
+offset_left = 356.0
+offset_top = 200.0
+offset_right = 356.0
+offset_bottom = 200.0
+theme_override_font_sizes/font_size = 6
+text = "blaze_kick_e014"
+
+[node name="blaze_kick_e015" type="AnimatedSprite2D" parent="." unique_id=2110372474]
+position = Vector2(404, 210)
+sprite_frames = ExtResource("81_fbyfs")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1441" type="Label" parent="." unique_id=2049354554]
+offset_left = 404.0
+offset_top = 200.0
+offset_right = 404.0
+offset_bottom = 200.0
+theme_override_font_sizes/font_size = 6
+text = "blaze_kick_e015"
+
+[node name="fire_blast_e016" type="AnimatedSprite2D" parent="." unique_id=1126124149]
+position = Vector2(452, 210)
+sprite_frames = ExtResource("82_5woli")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1442" type="Label" parent="." unique_id=1201154728]
+offset_left = 452.0
+offset_top = 200.0
+offset_right = 452.0
+offset_bottom = 200.0
+theme_override_font_sizes/font_size = 6
+text = "fire_blast_e016"
+
+[node name="fire_blast_e017" type="AnimatedSprite2D" parent="." unique_id=599055504]
+position = Vector2(520, 210)
+sprite_frames = ExtResource("83_ta2t2")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1443" type="Label" parent="." unique_id=326789576]
+offset_left = 520.0
+offset_top = 200.0
+offset_right = 520.0
+offset_bottom = 200.0
+theme_override_font_sizes/font_size = 6
+text = "fire_blast_e017"
+
+[node name="fire_blast_e018" type="AnimatedSprite2D" parent="." unique_id=597994599]
+position = Vector2(568, 210)
+sprite_frames = ExtResource("84_yiyj7")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1444" type="Label" parent="." unique_id=1828775794]
+offset_left = 568.0
+offset_top = 200.0
+offset_right = 568.0
+offset_bottom = 200.0
+theme_override_font_sizes/font_size = 6
+text = "fire_blast_e018"
+
+[node name="fire_blast_e019" type="AnimatedSprite2D" parent="." unique_id=1804650576]
+position = Vector2(616, 210)
+sprite_frames = ExtResource("85_acl4e")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1445" type="Label" parent="." unique_id=1312954162]
+offset_left = 616.0
+offset_top = 200.0
+offset_right = 616.0
+offset_bottom = 200.0
+theme_override_font_sizes/font_size = 6
+text = "fire_blast_e019"
+
+[node name="fire_blast_e020" type="AnimatedSprite2D" parent="." unique_id=1264922288]
+position = Vector2(664, 210)
+sprite_frames = ExtResource("86_no5uw")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1446" type="Label" parent="." unique_id=824933254]
+offset_left = 664.0
+offset_top = 200.0
+offset_right = 664.0
+offset_bottom = 200.0
+theme_override_font_sizes/font_size = 6
+text = "fire_blast_e020"
+
+[node name="fire_blast_e021" type="AnimatedSprite2D" parent="." unique_id=1486039251]
+position = Vector2(712, 210)
+sprite_frames = ExtResource("87_lng6w")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1447" type="Label" parent="." unique_id=522196249]
+offset_left = 712.0
+offset_top = 200.0
+offset_right = 712.0
+offset_bottom = 200.0
+theme_override_font_sizes/font_size = 6
+text = "fire_blast_e021"
+
+[node name="fire_blast_e022" type="AnimatedSprite2D" parent="." unique_id=506427842]
+position = Vector2(760, 210)
+sprite_frames = ExtResource("88_k1rds")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1448" type="Label" parent="." unique_id=452680352]
+offset_left = 760.0
+offset_top = 200.0
+offset_right = 760.0
+offset_bottom = 200.0
+theme_override_font_sizes/font_size = 6
+text = "fire_blast_e022"
+
+[node name="fire_blast_e023" type="AnimatedSprite2D" parent="." unique_id=1982894922]
+position = Vector2(808, 210)
+sprite_frames = ExtResource("89_ltptb")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1449" type="Label" parent="." unique_id=277588995]
+offset_left = 808.0
+offset_top = 200.0
+offset_right = 808.0
+offset_bottom = 200.0
+theme_override_font_sizes/font_size = 6
+text = "fire_blast_e023"
+
+[node name="fire_blast_e024" type="AnimatedSprite2D" parent="." unique_id=529803463]
+position = Vector2(856, 210)
+sprite_frames = ExtResource("90_3f30a")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1450" type="Label" parent="." unique_id=895270488]
+offset_left = 856.0
+offset_top = 200.0
+offset_right = 856.0
+offset_bottom = 200.0
+theme_override_font_sizes/font_size = 6
+text = "fire_blast_e024"
+
+[node name="fire_blast_e025" type="AnimatedSprite2D" parent="." unique_id=1784696030]
+position = Vector2(904, 210)
+sprite_frames = ExtResource("91_7ktct")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1451" type="Label" parent="." unique_id=1879015913]
+offset_left = 904.0
+offset_top = 200.0
+offset_right = 904.0
+offset_bottom = 200.0
+theme_override_font_sizes/font_size = 6
+text = "fire_blast_e025"
+
+[node name="fire_blast_e026" type="AnimatedSprite2D" parent="." unique_id=1146139607]
+position = Vector2(963, 210)
+sprite_frames = ExtResource("92_18i1h")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1452" type="Label" parent="." unique_id=145376201]
+offset_left = 963.0
+offset_top = 200.0
+offset_right = 963.0
+offset_bottom = 200.0
+theme_override_font_sizes/font_size = 6
+text = "fire_blast_e026"
+
+[node name="fire_blast_e027" type="AnimatedSprite2D" parent="." unique_id=1074278904]
+position = Vector2(1011, 210)
+sprite_frames = ExtResource("93_vu0lr")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1453" type="Label" parent="." unique_id=832578074]
+offset_left = 1011.0
+offset_top = 200.0
+offset_right = 1011.0
+offset_bottom = 200.0
+theme_override_font_sizes/font_size = 6
+text = "fire_blast_e027"
+
+[node name="fire_blast_e028" type="AnimatedSprite2D" parent="." unique_id=200325515]
+position = Vector2(1059, 210)
+sprite_frames = ExtResource("94_qtnwh")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1454" type="Label" parent="." unique_id=1841517164]
+offset_left = 1059.0
+offset_top = 200.0
+offset_right = 1059.0
+offset_bottom = 200.0
+theme_override_font_sizes/font_size = 6
+text = "fire_blast_e028"
+
+[node name="fire_punch_e029" type="AnimatedSprite2D" parent="." unique_id=1467329263]
+position = Vector2(0, 281)
+sprite_frames = ExtResource("95_lav5k")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1455" type="Label" parent="." unique_id=2042239494]
+offset_top = 271.0
+offset_bottom = 271.0
+theme_override_font_sizes/font_size = 6
+text = "fire_punch_e029"
+
+[node name="fire_spin_e030" type="AnimatedSprite2D" parent="." unique_id=1313025937]
+position = Vector2(179, 281)
+sprite_frames = ExtResource("96_f7co2")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1456" type="Label" parent="." unique_id=1291905206]
+offset_left = 179.0
+offset_top = 271.0
+offset_right = 179.0
+offset_bottom = 271.0
+theme_override_font_sizes/font_size = 6
+text = "fire_spin_e030"
+
+[node name="fire_spin_e031" type="AnimatedSprite2D" parent="." unique_id=608103695]
+position = Vector2(227, 281)
+sprite_frames = ExtResource("97_uld50")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1457" type="Label" parent="." unique_id=72989742]
+offset_left = 227.0
+offset_top = 271.0
+offset_right = 227.0
+offset_bottom = 271.0
+theme_override_font_sizes/font_size = 6
+text = "fire_spin_e031"
+
+[node name="fire_spin_e032" type="AnimatedSprite2D" parent="." unique_id=1002627899]
+position = Vector2(275, 281)
+sprite_frames = ExtResource("98_io3wm")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1458" type="Label" parent="." unique_id=828757235]
+offset_left = 275.0
+offset_top = 271.0
+offset_right = 275.0
+offset_bottom = 271.0
+theme_override_font_sizes/font_size = 6
+text = "fire_spin_e032"
+
+[node name="fire_spin_e033" type="AnimatedSprite2D" parent="." unique_id=1142900587]
+position = Vector2(323, 281)
+sprite_frames = ExtResource("99_pnwmi")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1459" type="Label" parent="." unique_id=2062514238]
+offset_left = 323.0
+offset_top = 271.0
+offset_right = 323.0
+offset_bottom = 271.0
+theme_override_font_sizes/font_size = 6
+text = "fire_spin_e033"
+
+[node name="fire_spin_e034" type="AnimatedSprite2D" parent="." unique_id=9292503]
+position = Vector2(371, 281)
+sprite_frames = ExtResource("100_ao1ky")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1460" type="Label" parent="." unique_id=735290656]
+offset_left = 371.0
+offset_top = 271.0
+offset_right = 371.0
+offset_bottom = 271.0
+theme_override_font_sizes/font_size = 6
+text = "fire_spin_e034"
+
+[node name="fire_spin_e035" type="AnimatedSprite2D" parent="." unique_id=484281112]
+position = Vector2(419, 281)
+sprite_frames = ExtResource("101_m0n6n")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1461" type="Label" parent="." unique_id=349393217]
+offset_left = 419.0
+offset_top = 271.0
+offset_right = 419.0
+offset_bottom = 271.0
+theme_override_font_sizes/font_size = 6
+text = "fire_spin_e035"
+
+[node name="fire_spin_e036" type="AnimatedSprite2D" parent="." unique_id=1194866957]
+position = Vector2(467, 281)
+sprite_frames = ExtResource("102_k8gf5")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1462" type="Label" parent="." unique_id=341836966]
+offset_left = 467.0
+offset_top = 271.0
+offset_right = 467.0
+offset_bottom = 271.0
+theme_override_font_sizes/font_size = 6
+text = "fire_spin_e036"
+
+[node name="fire_spin_e037" type="AnimatedSprite2D" parent="." unique_id=18156241]
+position = Vector2(515, 281)
+sprite_frames = ExtResource("103_ryb3i")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1463" type="Label" parent="." unique_id=862386235]
+offset_left = 515.0
+offset_top = 271.0
+offset_right = 515.0
+offset_bottom = 271.0
+theme_override_font_sizes/font_size = 6
+text = "fire_spin_e037"
+
+[node name="flame_wheel_e038" type="AnimatedSprite2D" parent="." unique_id=1135613842]
+position = Vector2(563, 281)
+sprite_frames = ExtResource("104_1efag")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1464" type="Label" parent="." unique_id=296877259]
+offset_left = 563.0
+offset_top = 271.0
+offset_right = 563.0
+offset_bottom = 271.0
+theme_override_font_sizes/font_size = 6
+text = "flame_wheel_e038"
+
+[node name="flame_wheel_e039" type="AnimatedSprite2D" parent="." unique_id=1437989252]
+position = Vector2(742, 281)
+sprite_frames = ExtResource("105_lx3t6")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1465" type="Label" parent="." unique_id=1835418106]
+offset_left = 742.0
+offset_top = 271.0
+offset_right = 742.0
+offset_bottom = 271.0
+theme_override_font_sizes/font_size = 6
+text = "flame_wheel_e039"
+
+[node name="flame_wheel_e040" type="AnimatedSprite2D" parent="." unique_id=842383248]
+position = Vector2(790, 281)
+sprite_frames = ExtResource("106_3nj7h")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1466" type="Label" parent="." unique_id=896757082]
+offset_left = 790.0
+offset_top = 271.0
+offset_right = 790.0
+offset_bottom = 271.0
+theme_override_font_sizes/font_size = 6
+text = "flame_wheel_e040"
+
+[node name="flame_wheel_e041" type="AnimatedSprite2D" parent="." unique_id=1644772118]
+position = Vector2(838, 281)
+sprite_frames = ExtResource("107_hl1uc")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1467" type="Label" parent="." unique_id=362736487]
+offset_left = 838.0
+offset_top = 271.0
+offset_right = 838.0
+offset_bottom = 271.0
+theme_override_font_sizes/font_size = 6
+text = "flame_wheel_e041"
+
+[node name="flame_wheel_e042" type="AnimatedSprite2D" parent="." unique_id=49649810]
+position = Vector2(886, 281)
+sprite_frames = ExtResource("108_ljaqd")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1468" type="Label" parent="." unique_id=439389689]
+offset_left = 886.0
+offset_top = 271.0
+offset_right = 886.0
+offset_bottom = 271.0
+theme_override_font_sizes/font_size = 6
+text = "flame_wheel_e042"
+
+[node name="flame_wheel_e043" type="AnimatedSprite2D" parent="." unique_id=73011420]
+position = Vector2(945, 281)
+sprite_frames = ExtResource("109_5ghlo")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1469" type="Label" parent="." unique_id=567149676]
+offset_left = 945.0
+offset_top = 271.0
+offset_right = 945.0
+offset_bottom = 271.0
+theme_override_font_sizes/font_size = 6
+text = "flame_wheel_e043"
+
+[node name="flame_wheel_e044" type="AnimatedSprite2D" parent="." unique_id=1282661279]
+position = Vector2(1022, 281)
+sprite_frames = ExtResource("110_g5ky1")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1470" type="Label" parent="." unique_id=1227843844]
+offset_left = 1022.0
+offset_top = 271.0
+offset_right = 1022.0
+offset_bottom = 271.0
+theme_override_font_sizes/font_size = 6
+text = "flame_wheel_e044"
+
+[node name="flamethrower_e045" type="AnimatedSprite2D" parent="." unique_id=373907521]
+position = Vector2(0, 325)
+sprite_frames = ExtResource("111_pl6oq")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1471" type="Label" parent="." unique_id=749761752]
+offset_top = 315.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "flamethrower_e045"
+
+[node name="flamethrower_e046" type="AnimatedSprite2D" parent="." unique_id=259329102]
+position = Vector2(179, 325)
+sprite_frames = ExtResource("112_vydwu")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1472" type="Label" parent="." unique_id=1549935230]
+offset_left = 179.0
+offset_top = 315.0
+offset_right = 179.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "flamethrower_e046"
+
+[node name="flamethrower_e047" type="AnimatedSprite2D" parent="." unique_id=371070680]
+position = Vector2(518, 325)
+sprite_frames = ExtResource("113_pfymg")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1473" type="Label" parent="." unique_id=740949762]
+offset_left = 518.0
+offset_top = 315.0
+offset_right = 518.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "flamethrower_e047"
+
+[node name="flamethrower_e048" type="AnimatedSprite2D" parent="." unique_id=746527402]
+position = Vector2(577, 325)
+sprite_frames = ExtResource("114_qdi2d")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1474" type="Label" parent="." unique_id=1528786742]
+offset_left = 577.0
+offset_top = 315.0
+offset_right = 577.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "flamethrower_e048"
+
+[node name="flamethrower_e049" type="AnimatedSprite2D" parent="." unique_id=461271451]
+position = Vector2(654, 325)
+sprite_frames = ExtResource("115_dp1q4")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1475" type="Label" parent="." unique_id=171105950]
+offset_left = 654.0
+offset_top = 315.0
+offset_right = 654.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "flamethrower_e049"
+
+[node name="overheat_e050" type="AnimatedSprite2D" parent="." unique_id=1740463658]
+position = Vector2(702, 325)
+sprite_frames = ExtResource("116_r3qeg")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1476" type="Label" parent="." unique_id=1611701251]
+offset_left = 702.0
+offset_top = 315.0
+offset_right = 702.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "overheat_e050"
+
+[node name="overheat_e051" type="AnimatedSprite2D" parent="." unique_id=1244024713]
+position = Vector2(881, 325)
+sprite_frames = ExtResource("117_o6itx")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1477" type="Label" parent="." unique_id=1778906175]
+offset_left = 881.0
+offset_top = 315.0
+offset_right = 881.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "overheat_e051"
+
+[node name="overheat_e052" type="AnimatedSprite2D" parent="." unique_id=1137664022]
+position = Vector2(929, 325)
+sprite_frames = ExtResource("118_kktkn")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1478" type="Label" parent="." unique_id=307888470]
+offset_left = 929.0
+offset_top = 315.0
+offset_right = 929.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "overheat_e052"
+
+[node name="overheat_e053" type="AnimatedSprite2D" parent="." unique_id=434269563]
+position = Vector2(977, 325)
+sprite_frames = ExtResource("119_tuixa")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1479" type="Label" parent="." unique_id=1970001073]
+offset_left = 977.0
+offset_top = 315.0
+offset_right = 977.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "overheat_e053"
+
+[node name="sacred_fire_e054" type="AnimatedSprite2D" parent="." unique_id=1989750303]
+position = Vector2(1025, 325)
+sprite_frames = ExtResource("120_s7xf3")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1480" type="Label" parent="." unique_id=1147858823]
+offset_left = 1025.0
+offset_top = 315.0
+offset_right = 1025.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "sacred_fire_e054"
+
+[node name="sacred_fire_e055" type="AnimatedSprite2D" parent="." unique_id=1092635623]
+position = Vector2(1073, 325)
+sprite_frames = ExtResource("121_atlbw")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1481" type="Label" parent="." unique_id=287244849]
+offset_left = 1073.0
+offset_top = 315.0
+offset_right = 1073.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "sacred_fire_e055"
+
+[node name="sacred_fire_e056" type="AnimatedSprite2D" parent="." unique_id=1346167309]
+position = Vector2(1121, 325)
+sprite_frames = ExtResource("122_24gsq")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1482" type="Label" parent="." unique_id=1441695471]
+offset_left = 1121.0
+offset_top = 315.0
+offset_right = 1121.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "sacred_fire_e056"
+
+[node name="sacred_fire_e057" type="AnimatedSprite2D" parent="." unique_id=1237237533]
+position = Vector2(0, 415)
+sprite_frames = ExtResource("123_h82k6")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1483" type="Label" parent="." unique_id=948126943]
+offset_top = 405.0
+offset_bottom = 405.0
+theme_override_font_sizes/font_size = 6
+text = "sacred_fire_e057"
+
+[node name="sacred_fire_e058" type="AnimatedSprite2D" parent="." unique_id=375511963]
+position = Vector2(179, 415)
+sprite_frames = ExtResource("124_n4vvg")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1484" type="Label" parent="." unique_id=504865388]
+offset_left = 179.0
+offset_top = 405.0
+offset_right = 179.0
+offset_bottom = 405.0
+theme_override_font_sizes/font_size = 6
+text = "sacred_fire_e058"
+
+[node name="sunny_day_e059" type="AnimatedSprite2D" parent="." unique_id=1923093538]
+position = Vector2(227, 415)
+sprite_frames = ExtResource("125_g2vh0")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1485" type="Label" parent="." unique_id=6646894]
+offset_left = 227.0
+offset_top = 405.0
+offset_right = 227.0
+offset_bottom = 405.0
+theme_override_font_sizes/font_size = 6
+text = "sunny_day_e059"
+
+[node name="sunny_day_e060" type="AnimatedSprite2D" parent="." unique_id=1615511149]
+position = Vector2(275, 415)
+sprite_frames = ExtResource("126_6jxxr")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1486" type="Label" parent="." unique_id=1308174271]
+offset_left = 275.0
+offset_top = 405.0
+offset_right = 275.0
+offset_bottom = 405.0
+theme_override_font_sizes/font_size = 6
+text = "sunny_day_e060"
+
+[node name="will_o_wisp_e061" type="AnimatedSprite2D" parent="." unique_id=198408245]
+position = Vector2(323, 415)
+sprite_frames = ExtResource("127_27t8p")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1487" type="Label" parent="." unique_id=668766205]
+offset_left = 323.0
+offset_top = 405.0
+offset_right = 323.0
+offset_bottom = 405.0
+theme_override_font_sizes/font_size = 6
+text = "will_o_wisp_e061"
+
+[node name="will_o_wisp_e062" type="AnimatedSprite2D" parent="." unique_id=520252017]
+position = Vector2(371, 415)
+sprite_frames = ExtResource("128_rev0m")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1488" type="Label" parent="." unique_id=1183235120]
+offset_left = 371.0
+offset_top = 405.0
+offset_right = 371.0
+offset_bottom = 405.0
+theme_override_font_sizes/font_size = 6
+text = "will_o_wisp_e062"
+
+[node name="will_o_wisp_e063" type="AnimatedSprite2D" parent="." unique_id=1116899331]
+position = Vector2(422, 415)
+sprite_frames = ExtResource("129_6wg5i")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1489" type="Label" parent="." unique_id=1873941543]
+offset_left = 422.0
+offset_top = 405.0
+offset_right = 422.0
+offset_bottom = 405.0
+theme_override_font_sizes/font_size = 6
+text = "will_o_wisp_e063"
+
+[node name="will_o_wisp_e064" type="AnimatedSprite2D" parent="." unique_id=2021203588]
+position = Vector2(470, 415)
+sprite_frames = ExtResource("130_5wmjk")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1490" type="Label" parent="." unique_id=1942369099]
+offset_left = 470.0
+offset_top = 405.0
+offset_right = 470.0
+offset_bottom = 405.0
+theme_override_font_sizes/font_size = 6
+text = "will_o_wisp_e064"
+
+[node name="will_o_wisp_e065" type="AnimatedSprite2D" parent="." unique_id=1849126912]
+position = Vector2(518, 415)
+sprite_frames = ExtResource("131_eyu48")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1491" type="Label" parent="." unique_id=1599423]
+offset_left = 518.0
+offset_top = 405.0
+offset_right = 518.0
+offset_bottom = 405.0
+theme_override_font_sizes/font_size = 6
+text = "will_o_wisp_e065"
+
+[node name="will_o_wisp_e066" type="AnimatedSprite2D" parent="." unique_id=1152986335]
+position = Vector2(578, 415)
+sprite_frames = ExtResource("132_qcfrc")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1492" type="Label" parent="." unique_id=886075422]
+offset_left = 578.0
+offset_top = 405.0
+offset_right = 578.0
+offset_bottom = 405.0
+theme_override_font_sizes/font_size = 6
+text = "will_o_wisp_e066"
+
+[node name="will_o_wisp_e067" type="AnimatedSprite2D" parent="." unique_id=1834505336]
+position = Vector2(631, 415)
+sprite_frames = ExtResource("133_6ixhb")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1493" type="Label" parent="." unique_id=1345667987]
+offset_left = 631.0
+offset_top = 405.0
+offset_right = 631.0
+offset_bottom = 405.0
+theme_override_font_sizes/font_size = 6
+text = "will_o_wisp_e067"
+
+[node name="will_o_wisp_e068" type="AnimatedSprite2D" parent="." unique_id=795244740]
+position = Vector2(679, 415)
+sprite_frames = ExtResource("134_cjvth")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1494" type="Label" parent="." unique_id=1938845682]
+offset_left = 679.0
+offset_top = 405.0
+offset_right = 679.0
+offset_bottom = 405.0
+theme_override_font_sizes/font_size = 6
+text = "will_o_wisp_e068"
+
+[node name="will_o_wisp_e069" type="AnimatedSprite2D" parent="." unique_id=677131983]
+position = Vector2(727, 415)
+sprite_frames = ExtResource("135_oelc1")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1495" type="Label" parent="." unique_id=401650259]
+offset_left = 727.0
+offset_top = 405.0
+offset_right = 727.0
+offset_bottom = 405.0
+theme_override_font_sizes/font_size = 6
+text = "will_o_wisp_e069"
+
+[node name="beat_up_e000" type="AnimatedSprite2D" parent="." unique_id=336216182]
+position = Vector2(775, 415)
+sprite_frames = ExtResource("136_xo23s")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1496" type="Label" parent="." unique_id=1495010101]
+offset_left = 775.0
+offset_top = 405.0
+offset_right = 775.0
+offset_bottom = 405.0
+theme_override_font_sizes/font_size = 6
+text = "beat_up_e000"
+
+[node name="beat_up_e001" type="AnimatedSprite2D" parent="." unique_id=90349101]
+position = Vector2(823, 415)
+sprite_frames = ExtResource("137_ua6q1")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1497" type="Label" parent="." unique_id=746446336]
+offset_left = 823.0
+offset_top = 405.0
+offset_right = 823.0
+offset_bottom = 405.0
+theme_override_font_sizes/font_size = 6
+text = "beat_up_e001"
+
+[node name="beat_up_e002" type="AnimatedSprite2D" parent="." unique_id=1464977547]
+position = Vector2(891, 415)
+sprite_frames = ExtResource("138_h454j")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1498" type="Label" parent="." unique_id=530972272]
+offset_left = 891.0
+offset_top = 405.0
+offset_right = 891.0
+offset_bottom = 405.0
+theme_override_font_sizes/font_size = 6
+text = "beat_up_e002"
+
+[node name="beat_up_e003" type="AnimatedSprite2D" parent="." unique_id=1830904115]
+position = Vector2(939, 415)
+sprite_frames = ExtResource("139_txk5q")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1499" type="Label" parent="." unique_id=1698878182]
+offset_left = 939.0
+offset_top = 405.0
+offset_right = 939.0
+offset_bottom = 405.0
+theme_override_font_sizes/font_size = 6
+text = "beat_up_e003"
+
+[node name="bite_crunch_e004" type="AnimatedSprite2D" parent="." unique_id=1552538487]
+position = Vector2(987, 415)
+sprite_frames = ExtResource("140_8mxk3")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1500" type="Label" parent="." unique_id=1651532402]
+offset_left = 987.0
+offset_top = 405.0
+offset_right = 987.0
+offset_bottom = 405.0
+theme_override_font_sizes/font_size = 6
+text = "bite_crunch_e004"
+
+[node name="bite_crunch_e005" type="AnimatedSprite2D" parent="." unique_id=1053893216]
+position = Vector2(1035, 415)
+sprite_frames = ExtResource("141_qbjoa")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1501" type="Label" parent="." unique_id=2004676327]
+offset_left = 1035.0
+offset_top = 405.0
+offset_right = 1035.0
+offset_bottom = 405.0
+theme_override_font_sizes/font_size = 6
+text = "bite_crunch_e005"
+
+[node name="fake_tears_e006" type="AnimatedSprite2D" parent="." unique_id=1549584896]
+position = Vector2(1083, 415)
+sprite_frames = ExtResource("142_y2x6i")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1502" type="Label" parent="." unique_id=926271202]
+offset_left = 1083.0
+offset_top = 405.0
+offset_right = 1083.0
+offset_bottom = 405.0
+theme_override_font_sizes/font_size = 6
+text = "fake_tears_e006"
+
+[node name="fake_tears_e007" type="AnimatedSprite2D" parent="." unique_id=860442700]
+position = Vector2(1131, 415)
+sprite_frames = ExtResource("143_l57ja")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1503" type="Label" parent="." unique_id=1964023215]
+offset_left = 1131.0
+offset_top = 405.0
+offset_right = 1131.0
+offset_bottom = 405.0
+theme_override_font_sizes/font_size = 6
+text = "fake_tears_e007"
+
+[node name="fake_tears_e008" type="AnimatedSprite2D" parent="." unique_id=1165851338]
+position = Vector2(1179, 415)
+sprite_frames = ExtResource("144_dp21v")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1504" type="Label" parent="." unique_id=1214950591]
+offset_left = 1179.0
+offset_top = 405.0
+offset_right = 1179.0
+offset_bottom = 405.0
+theme_override_font_sizes/font_size = 6
+text = "fake_tears_e008"
+
+[node name="fake_tears_e009" type="AnimatedSprite2D" parent="." unique_id=860512564]
+position = Vector2(0, 493)
+sprite_frames = ExtResource("145_eu56e")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1505" type="Label" parent="." unique_id=255273336]
+offset_top = 483.0
+offset_bottom = 483.0
+theme_override_font_sizes/font_size = 6
+text = "fake_tears_e009"
+
+[node name="fake_tears_e010" type="AnimatedSprite2D" parent="." unique_id=558284942]
+position = Vector2(48, 493)
+sprite_frames = ExtResource("146_f7q4n")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1506" type="Label" parent="." unique_id=1259928913]
+offset_left = 48.0
+offset_top = 483.0
+offset_right = 48.0
+offset_bottom = 483.0
+theme_override_font_sizes/font_size = 6
+text = "fake_tears_e010"
+
+[node name="flatter_e011" type="AnimatedSprite2D" parent="." unique_id=2049795360]
+position = Vector2(96, 493)
+sprite_frames = ExtResource("147_1fjqb")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1507" type="Label" parent="." unique_id=803379706]
+offset_left = 96.0
+offset_top = 483.0
+offset_right = 96.0
+offset_bottom = 483.0
+theme_override_font_sizes/font_size = 6
+text = "flatter_e011"
+
+[node name="flatter_e012" type="AnimatedSprite2D" parent="." unique_id=1378041888]
+position = Vector2(144, 493)
+sprite_frames = ExtResource("148_xjw44")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1508" type="Label" parent="." unique_id=1213671715]
+offset_left = 144.0
+offset_top = 483.0
+offset_right = 144.0
+offset_bottom = 483.0
+theme_override_font_sizes/font_size = 6
+text = "flatter_e012"
+
+[node name="flatter_e013" type="AnimatedSprite2D" parent="." unique_id=1566823038]
+position = Vector2(192, 493)
+sprite_frames = ExtResource("149_hh0hl")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1509" type="Label" parent="." unique_id=1463482714]
+offset_left = 192.0
+offset_top = 483.0
+offset_right = 192.0
+offset_bottom = 483.0
+theme_override_font_sizes/font_size = 6
+text = "flatter_e013"
+
+[node name="knock_off_e014" type="AnimatedSprite2D" parent="." unique_id=1040410089]
+position = Vector2(253, 493)
+sprite_frames = ExtResource("150_sg2rk")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1510" type="Label" parent="." unique_id=1108539942]
+offset_left = 253.0
+offset_top = 483.0
+offset_right = 253.0
+offset_bottom = 483.0
+theme_override_font_sizes/font_size = 6
+text = "knock_off_e014"
+
+[node name="memento_e015" type="AnimatedSprite2D" parent="." unique_id=1373472112]
+position = Vector2(301, 493)
+sprite_frames = ExtResource("151_yydwr")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1511" type="Label" parent="." unique_id=2105750673]
+offset_left = 301.0
+offset_top = 483.0
+offset_right = 301.0
+offset_bottom = 483.0
+theme_override_font_sizes/font_size = 6
+text = "memento_e015"
+
+[node name="memento_e016" type="AnimatedSprite2D" parent="." unique_id=979325443]
+position = Vector2(349, 493)
+sprite_frames = ExtResource("152_ql2i2")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1512" type="Label" parent="." unique_id=1066427354]
+offset_left = 349.0
+offset_top = 483.0
+offset_right = 349.0
+offset_bottom = 483.0
+theme_override_font_sizes/font_size = 6
+text = "memento_e016"
+
+[node name="memento_e017" type="AnimatedSprite2D" parent="." unique_id=1548826511]
+position = Vector2(397, 493)
+sprite_frames = ExtResource("153_bmpld")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1513" type="Label" parent="." unique_id=1813342685]
+offset_left = 397.0
+offset_top = 483.0
+offset_right = 397.0
+offset_bottom = 483.0
+theme_override_font_sizes/font_size = 6
+text = "memento_e017"
+
+[node name="memento_e018" type="AnimatedSprite2D" parent="." unique_id=821413247]
+position = Vector2(445, 493)
+sprite_frames = ExtResource("154_a5wuy")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1514" type="Label" parent="." unique_id=1398740863]
+offset_left = 445.0
+offset_top = 483.0
+offset_right = 445.0
+offset_bottom = 483.0
+theme_override_font_sizes/font_size = 6
+text = "memento_e018"
+
+[node name="memento_e019" type="AnimatedSprite2D" parent="." unique_id=2094732224]
+position = Vector2(493, 493)
+sprite_frames = ExtResource("155_10myk")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1515" type="Label" parent="." unique_id=502639614]
+offset_left = 493.0
+offset_top = 483.0
+offset_right = 493.0
+offset_bottom = 483.0
+theme_override_font_sizes/font_size = 6
+text = "memento_e019"
+
+[node name="memento_e020" type="AnimatedSprite2D" parent="." unique_id=479091841]
+position = Vector2(541, 493)
+sprite_frames = ExtResource("156_2v82y")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1516" type="Label" parent="." unique_id=2127729360]
+offset_left = 541.0
+offset_top = 483.0
+offset_right = 541.0
+offset_bottom = 483.0
+theme_override_font_sizes/font_size = 6
+text = "memento_e020"
+
+[node name="memento_e021" type="AnimatedSprite2D" parent="." unique_id=194910022]
+position = Vector2(589, 493)
+sprite_frames = ExtResource("157_hqwt1")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1517" type="Label" parent="." unique_id=1678919617]
+offset_left = 589.0
+offset_top = 483.0
+offset_right = 589.0
+offset_bottom = 483.0
+theme_override_font_sizes/font_size = 6
+text = "memento_e021"
+
+[node name="memento_e022" type="AnimatedSprite2D" parent="." unique_id=319597376]
+position = Vector2(657, 493)
+sprite_frames = ExtResource("158_cvk5m")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1518" type="Label" parent="." unique_id=805749801]
+offset_left = 657.0
+offset_top = 483.0
+offset_right = 657.0
+offset_bottom = 483.0
+theme_override_font_sizes/font_size = 6
+text = "memento_e022"
+
+[node name="memento_e023" type="AnimatedSprite2D" parent="." unique_id=77705527]
+position = Vector2(705, 493)
+sprite_frames = ExtResource("159_esgjh")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1519" type="Label" parent="." unique_id=16935289]
+offset_left = 705.0
+offset_top = 483.0
+offset_right = 705.0
+offset_bottom = 483.0
+theme_override_font_sizes/font_size = 6
+text = "memento_e023"
+
+[node name="pursuit_e024" type="AnimatedSprite2D" parent="." unique_id=2115513988]
+position = Vector2(753, 493)
+sprite_frames = ExtResource("160_l53xx")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1520" type="Label" parent="." unique_id=1061708950]
+offset_left = 753.0
+offset_top = 483.0
+offset_right = 753.0
+offset_bottom = 483.0
+theme_override_font_sizes/font_size = 6
+text = "pursuit_e024"
+
+[node name="pursuit_e025" type="AnimatedSprite2D" parent="." unique_id=1894416735]
+position = Vector2(801, 493)
+sprite_frames = ExtResource("161_djeac")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1521" type="Label" parent="." unique_id=526728775]
+offset_left = 801.0
+offset_top = 483.0
+offset_right = 801.0
+offset_bottom = 483.0
+theme_override_font_sizes/font_size = 6
+text = "pursuit_e025"
+
+[node name="snatch_e026" type="AnimatedSprite2D" parent="." unique_id=1243868946]
+position = Vector2(849, 493)
+sprite_frames = ExtResource("162_sqcuc")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1522" type="Label" parent="." unique_id=944733595]
+offset_left = 849.0
+offset_top = 483.0
+offset_right = 849.0
+offset_bottom = 483.0
+theme_override_font_sizes/font_size = 6
+text = "snatch_e026"
+
+[node name="taunt_e027" type="AnimatedSprite2D" parent="." unique_id=1113318754]
+position = Vector2(897, 493)
+sprite_frames = ExtResource("163_8d6ta")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1523" type="Label" parent="." unique_id=769858259]
+offset_left = 897.0
+offset_top = 483.0
+offset_right = 897.0
+offset_bottom = 483.0
+theme_override_font_sizes/font_size = 6
+text = "taunt_e027"
+
+[node name="taunt_e028" type="AnimatedSprite2D" parent="." unique_id=1915172881]
+position = Vector2(945, 493)
+sprite_frames = ExtResource("164_ke2qn")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1524" type="Label" parent="." unique_id=265550847]
+offset_left = 945.0
+offset_top = 483.0
+offset_right = 945.0
+offset_bottom = 483.0
+theme_override_font_sizes/font_size = 6
+text = "taunt_e028"
+
+[node name="taunt_e029" type="AnimatedSprite2D" parent="." unique_id=161110094]
+position = Vector2(993, 493)
+sprite_frames = ExtResource("165_wai0h")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1525" type="Label" parent="." unique_id=1326474059]
+offset_left = 993.0
+offset_top = 483.0
+offset_right = 993.0
+offset_bottom = 483.0
+theme_override_font_sizes/font_size = 6
+text = "taunt_e029"
+
+[node name="taunt_e030" type="AnimatedSprite2D" parent="." unique_id=1873866926]
+position = Vector2(1041, 493)
+sprite_frames = ExtResource("166_2r56h")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1526" type="Label" parent="." unique_id=985656581]
+offset_left = 1041.0
+offset_top = 483.0
+offset_right = 1041.0
+offset_bottom = 483.0
+theme_override_font_sizes/font_size = 6
+text = "taunt_e030"
+
+[node name="taunt_e031" type="AnimatedSprite2D" parent="." unique_id=1119828511]
+position = Vector2(1089, 493)
+sprite_frames = ExtResource("167_11xy0")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1527" type="Label" parent="." unique_id=1710277170]
+offset_left = 1089.0
+offset_top = 483.0
+offset_right = 1089.0
+offset_bottom = 483.0
+theme_override_font_sizes/font_size = 6
+text = "taunt_e031"
+
+[node name="taunt_e032" type="AnimatedSprite2D" parent="." unique_id=1627339971]
+position = Vector2(1137, 493)
+sprite_frames = ExtResource("168_rbjp1")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1528" type="Label" parent="." unique_id=479447260]
+offset_left = 1137.0
+offset_top = 483.0
+offset_right = 1137.0
+offset_bottom = 483.0
+theme_override_font_sizes/font_size = 6
+text = "taunt_e032"
+
+[node name="torment_e033" type="AnimatedSprite2D" parent="." unique_id=528616427]
+position = Vector2(0, 610)
+sprite_frames = ExtResource("169_2a7yt")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1529" type="Label" parent="." unique_id=551140313]
+offset_top = 600.0
+offset_bottom = 600.0
+theme_override_font_sizes/font_size = 6
+text = "torment_e033"
+
+[node name="torment_e034" type="AnimatedSprite2D" parent="." unique_id=41484682]
+position = Vector2(48, 610)
+sprite_frames = ExtResource("170_6jtil")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1530" type="Label" parent="." unique_id=765976305]
+offset_left = 48.0
+offset_top = 600.0
+offset_right = 48.0
+offset_bottom = 600.0
+theme_override_font_sizes/font_size = 6
+text = "torment_e034"
+
+[node name="torment_e035" type="AnimatedSprite2D" parent="." unique_id=1447190503]
+position = Vector2(96, 610)
+sprite_frames = ExtResource("171_nrcn0")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1531" type="Label" parent="." unique_id=498763619]
+offset_left = 96.0
+offset_top = 600.0
+offset_right = 96.0
+offset_bottom = 600.0
+theme_override_font_sizes/font_size = 6
+text = "torment_e035"
+
+[node name="set_11_e036" type="AnimatedSprite2D" parent="." unique_id=535256325]
+position = Vector2(144, 610)
+sprite_frames = ExtResource("172_32gbi")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1532" type="Label" parent="." unique_id=949915565]
+offset_left = 144.0
+offset_top = 600.0
+offset_right = 144.0
+offset_bottom = 600.0
+theme_override_font_sizes/font_size = 6
+text = "set_11_e036"
+
+[node name="set_11_e037" type="AnimatedSprite2D" parent="." unique_id=90252235]
+position = Vector2(192, 610)
+sprite_frames = ExtResource("173_seup7")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1533" type="Label" parent="." unique_id=581945479]
+offset_left = 192.0
+offset_top = 600.0
+offset_right = 192.0
+offset_bottom = 600.0
+theme_override_font_sizes/font_size = 6
+text = "set_11_e037"
+
+[node name="set_11_e038" type="AnimatedSprite2D" parent="." unique_id=670157408]
+position = Vector2(240, 610)
+sprite_frames = ExtResource("174_4hk1b")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1534" type="Label" parent="." unique_id=189717985]
+offset_left = 240.0
+offset_top = 600.0
+offset_right = 240.0
+offset_bottom = 600.0
+theme_override_font_sizes/font_size = 6
+text = "set_11_e038"
+
+[node name="flatter_e039" type="AnimatedSprite2D" parent="." unique_id=863477114]
+position = Vector2(288, 610)
+sprite_frames = ExtResource("175_xg6ah")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1535" type="Label" parent="." unique_id=1028043385]
+offset_left = 288.0
+offset_top = 600.0
+offset_right = 288.0
+offset_bottom = 600.0
+theme_override_font_sizes/font_size = 6
+text = "flatter_e039"
+
+[node name="ancientpower_e000" type="AnimatedSprite2D" parent="." unique_id=1163548773]
+position = Vector2(336, 610)
+sprite_frames = ExtResource("176_uny8f")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1536" type="Label" parent="." unique_id=404383935]
+offset_left = 336.0
+offset_top = 600.0
+offset_right = 336.0
+offset_bottom = 600.0
+theme_override_font_sizes/font_size = 6
+text = "ancientpower_e000"
+
+[node name="ancientpower_e001" type="AnimatedSprite2D" parent="." unique_id=1354665193]
+position = Vector2(384, 610)
+sprite_frames = ExtResource("177_ep7nq")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1537" type="Label" parent="." unique_id=134205013]
+offset_left = 384.0
+offset_top = 600.0
+offset_right = 384.0
+offset_bottom = 600.0
+theme_override_font_sizes/font_size = 6
+text = "ancientpower_e001"
+
+[node name="ancientpower_e002" type="AnimatedSprite2D" parent="." unique_id=1075868072]
+position = Vector2(432, 610)
+sprite_frames = ExtResource("178_1gvea")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1538" type="Label" parent="." unique_id=849766270]
+offset_left = 432.0
+offset_top = 600.0
+offset_right = 432.0
+offset_bottom = 600.0
+theme_override_font_sizes/font_size = 6
+text = "ancientpower_e002"
+
+[node name="ancientpower_e003" type="AnimatedSprite2D" parent="." unique_id=944644099]
+position = Vector2(480, 610)
+sprite_frames = ExtResource("179_162rw")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1539" type="Label" parent="." unique_id=779770359]
+offset_left = 480.0
+offset_top = 600.0
+offset_right = 480.0
+offset_bottom = 600.0
+theme_override_font_sizes/font_size = 6
+text = "ancientpower_e003"
+
+[node name="ancientpower_e004" type="AnimatedSprite2D" parent="." unique_id=936527786]
+position = Vector2(528, 610)
+sprite_frames = ExtResource("180_rlolu")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1540" type="Label" parent="." unique_id=1148943513]
+offset_left = 528.0
+offset_top = 600.0
+offset_right = 528.0
+offset_bottom = 600.0
+theme_override_font_sizes/font_size = 6
+text = "ancientpower_e004"
+
+[node name="ancientpower_e005" type="AnimatedSprite2D" parent="." unique_id=905174015]
+position = Vector2(576, 610)
+sprite_frames = ExtResource("181_qoeul")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1541" type="Label" parent="." unique_id=118083445]
+offset_left = 576.0
+offset_top = 600.0
+offset_right = 576.0
+offset_bottom = 600.0
+theme_override_font_sizes/font_size = 6
+text = "ancientpower_e005"
+
+[node name="rock_blast_e006" type="AnimatedSprite2D" parent="." unique_id=257194850]
+position = Vector2(624, 610)
+sprite_frames = ExtResource("182_wdy6k")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1542" type="Label" parent="." unique_id=1611585982]
+offset_left = 624.0
+offset_top = 600.0
+offset_right = 624.0
+offset_bottom = 600.0
+theme_override_font_sizes/font_size = 6
+text = "rock_blast_e006"
+
+[node name="rock_blast_e007" type="AnimatedSprite2D" parent="." unique_id=1385425399]
+position = Vector2(672, 610)
+sprite_frames = ExtResource("183_nf5xp")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1543" type="Label" parent="." unique_id=1654250509]
+offset_left = 672.0
+offset_top = 600.0
+offset_right = 672.0
+offset_bottom = 600.0
+theme_override_font_sizes/font_size = 6
+text = "rock_blast_e007"
+
+[node name="rock_blast_e008" type="AnimatedSprite2D" parent="." unique_id=1047470594]
+position = Vector2(720, 610)
+sprite_frames = ExtResource("184_6jh68")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1544" type="Label" parent="." unique_id=1978445010]
+offset_left = 720.0
+offset_top = 600.0
+offset_right = 720.0
+offset_bottom = 600.0
+theme_override_font_sizes/font_size = 6
+text = "rock_blast_e008"
+
+[node name="rock_blast_e009" type="AnimatedSprite2D" parent="." unique_id=1226582226]
+position = Vector2(768, 610)
+sprite_frames = ExtResource("185_f32ah")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1545" type="Label" parent="." unique_id=1842177884]
+offset_left = 768.0
+offset_top = 600.0
+offset_right = 768.0
+offset_bottom = 600.0
+theme_override_font_sizes/font_size = 6
+text = "rock_blast_e009"
+
+[node name="rock_blast_e010" type="AnimatedSprite2D" parent="." unique_id=1621452111]
+position = Vector2(816, 610)
+sprite_frames = ExtResource("186_cgf1l")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1546" type="Label" parent="." unique_id=698795507]
+offset_left = 816.0
+offset_top = 600.0
+offset_right = 816.0
+offset_bottom = 600.0
+theme_override_font_sizes/font_size = 6
+text = "rock_blast_e010"
+
+[node name="rock_blast_e011" type="AnimatedSprite2D" parent="." unique_id=602568291]
+position = Vector2(864, 610)
+sprite_frames = ExtResource("187_ephu4")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1547" type="Label" parent="." unique_id=1446891810]
+offset_left = 864.0
+offset_top = 600.0
+offset_right = 864.0
+offset_bottom = 600.0
+theme_override_font_sizes/font_size = 6
+text = "rock_blast_e011"
+
+[node name="rock_blast_e012" type="AnimatedSprite2D" parent="." unique_id=1561450098]
+position = Vector2(912, 610)
+sprite_frames = ExtResource("188_y1opx")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1548" type="Label" parent="." unique_id=586734449]
+offset_left = 912.0
+offset_top = 600.0
+offset_right = 912.0
+offset_bottom = 600.0
+theme_override_font_sizes/font_size = 6
+text = "rock_blast_e012"
+
+[node name="rock_tomb_e013" type="AnimatedSprite2D" parent="." unique_id=202481797]
+position = Vector2(960, 610)
+sprite_frames = ExtResource("189_aygju")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1549" type="Label" parent="." unique_id=1237646499]
+offset_left = 960.0
+offset_top = 600.0
+offset_right = 960.0
+offset_bottom = 600.0
+theme_override_font_sizes/font_size = 6
+text = "rock_tomb_e013"
+
+[node name="rock_tomb_e014" type="AnimatedSprite2D" parent="." unique_id=713020172]
+position = Vector2(1008, 610)
+sprite_frames = ExtResource("190_4igqk")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1550" type="Label" parent="." unique_id=471080178]
+offset_left = 1008.0
+offset_top = 600.0
+offset_right = 1008.0
+offset_bottom = 600.0
+theme_override_font_sizes/font_size = 6
+text = "rock_tomb_e014"
+
+[node name="rock_tomb_e015" type="AnimatedSprite2D" parent="." unique_id=1435543841]
+position = Vector2(1056, 610)
+sprite_frames = ExtResource("191_ajuum")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1551" type="Label" parent="." unique_id=1298784796]
+offset_left = 1056.0
+offset_top = 600.0
+offset_right = 1056.0
+offset_bottom = 600.0
+theme_override_font_sizes/font_size = 6
+text = "rock_tomb_e015"
+
+[node name="rock_tomb_e016" type="AnimatedSprite2D" parent="." unique_id=428552989]
+position = Vector2(1104, 610)
+sprite_frames = ExtResource("192_scjtx")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1552" type="Label" parent="." unique_id=827104450]
+offset_left = 1104.0
+offset_top = 600.0
+offset_right = 1104.0
+offset_bottom = 600.0
+theme_override_font_sizes/font_size = 6
+text = "rock_tomb_e016"
+
+[node name="rock_tomb_e017" type="AnimatedSprite2D" parent="." unique_id=274251652]
+position = Vector2(1152, 610)
+sprite_frames = ExtResource("193_ouby6")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1553" type="Label" parent="." unique_id=1848190323]
+offset_left = 1152.0
+offset_top = 600.0
+offset_right = 1152.0
+offset_bottom = 600.0
+theme_override_font_sizes/font_size = 6
+text = "rock_tomb_e017"
+
+[node name="rock_tomb_e018" type="AnimatedSprite2D" parent="." unique_id=1550628530]
+position = Vector2(0, 759)
+sprite_frames = ExtResource("194_bp1ht")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1554" type="Label" parent="." unique_id=519023438]
+offset_top = 749.0
+offset_bottom = 749.0
+theme_override_font_sizes/font_size = 6
+text = "rock_tomb_e018"
+
+[node name="rock_tomb_e019" type="AnimatedSprite2D" parent="." unique_id=610068358]
+position = Vector2(48, 759)
+sprite_frames = ExtResource("195_ejtyi")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1555" type="Label" parent="." unique_id=1319322672]
+offset_left = 48.0
+offset_top = 749.0
+offset_right = 48.0
+offset_bottom = 749.0
+theme_override_font_sizes/font_size = 6
+text = "rock_tomb_e019"
+
+[node name="rock_tomb_e020" type="AnimatedSprite2D" parent="." unique_id=2011525944]
+position = Vector2(96, 759)
+sprite_frames = ExtResource("196_5sawx")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1556" type="Label" parent="." unique_id=195575630]
+offset_left = 96.0
+offset_top = 749.0
+offset_right = 96.0
+offset_bottom = 749.0
+theme_override_font_sizes/font_size = 6
+text = "rock_tomb_e020"
+
+[node name="rock_tomb_e021" type="AnimatedSprite2D" parent="." unique_id=1069145928]
+position = Vector2(144, 759)
+sprite_frames = ExtResource("197_aidqj")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1557" type="Label" parent="." unique_id=4998386]
+offset_left = 144.0
+offset_top = 749.0
+offset_right = 144.0
+offset_bottom = 749.0
+theme_override_font_sizes/font_size = 6
+text = "rock_tomb_e021"
+
+[node name="rock_tomb_e022" type="AnimatedSprite2D" parent="." unique_id=1063237476]
+position = Vector2(192, 759)
+sprite_frames = ExtResource("198_cefrb")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1558" type="Label" parent="." unique_id=138853313]
+offset_left = 192.0
+offset_top = 749.0
+offset_right = 192.0
+offset_bottom = 749.0
+theme_override_font_sizes/font_size = 6
+text = "rock_tomb_e022"
+
+[node name="rock_tomb_e023" type="AnimatedSprite2D" parent="." unique_id=716348780]
+position = Vector2(240, 759)
+sprite_frames = ExtResource("199_8qds2")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1559" type="Label" parent="." unique_id=1585437403]
+offset_left = 240.0
+offset_top = 749.0
+offset_right = 240.0
+offset_bottom = 749.0
+theme_override_font_sizes/font_size = 6
+text = "rock_tomb_e023"
+
+[node name="rock_tomb_e024" type="AnimatedSprite2D" parent="." unique_id=1087305409]
+position = Vector2(288, 759)
+sprite_frames = ExtResource("200_0b1ve")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1560" type="Label" parent="." unique_id=1118739983]
+offset_left = 288.0
+offset_top = 749.0
+offset_right = 288.0
+offset_bottom = 749.0
+theme_override_font_sizes/font_size = 6
+text = "rock_tomb_e024"
+
+[node name="rock_throw_rock_slide_e025" type="AnimatedSprite2D" parent="." unique_id=304781648]
+position = Vector2(336, 759)
+sprite_frames = ExtResource("201_bowr8")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1561" type="Label" parent="." unique_id=1010552658]
+offset_left = 336.0
+offset_top = 749.0
+offset_right = 336.0
+offset_bottom = 749.0
+theme_override_font_sizes/font_size = 6
+text = "rock_throw_rock_slide_e025"
+
+[node name="rock_throw_rock_slide_e026" type="AnimatedSprite2D" parent="." unique_id=1991939990]
+position = Vector2(384, 759)
+sprite_frames = ExtResource("202_agj42")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1562" type="Label" parent="." unique_id=1597028697]
+offset_left = 384.0
+offset_top = 749.0
+offset_right = 384.0
+offset_bottom = 749.0
+theme_override_font_sizes/font_size = 6
+text = "rock_throw_rock_slide_e026"
+
+[node name="rock_throw_rock_slide_e027" type="AnimatedSprite2D" parent="." unique_id=210970049]
+position = Vector2(432, 759)
+sprite_frames = ExtResource("203_t8aig")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1563" type="Label" parent="." unique_id=1573710311]
+offset_left = 432.0
+offset_top = 749.0
+offset_right = 432.0
+offset_bottom = 749.0
+theme_override_font_sizes/font_size = 6
+text = "rock_throw_rock_slide_e027"
+
+[node name="rollout_e028" type="AnimatedSprite2D" parent="." unique_id=584737971]
+position = Vector2(480, 759)
+sprite_frames = ExtResource("204_4knhf")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1564" type="Label" parent="." unique_id=1795491089]
+offset_left = 480.0
+offset_top = 749.0
+offset_right = 480.0
+offset_bottom = 749.0
+theme_override_font_sizes/font_size = 6
+text = "rollout_e028"
+
+[node name="rollout_e029" type="AnimatedSprite2D" parent="." unique_id=1821597918]
+position = Vector2(528, 759)
+sprite_frames = ExtResource("205_mjqt6")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1565" type="Label" parent="." unique_id=2057596803]
+offset_left = 528.0
+offset_top = 749.0
+offset_right = 528.0
+offset_bottom = 749.0
+theme_override_font_sizes/font_size = 6
+text = "rollout_e029"
+
+[node name="rollout_e030" type="AnimatedSprite2D" parent="." unique_id=752967846]
+position = Vector2(576, 759)
+sprite_frames = ExtResource("206_qsrj4")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1566" type="Label" parent="." unique_id=860149325]
+offset_left = 576.0
+offset_top = 749.0
+offset_right = 576.0
+offset_bottom = 749.0
+theme_override_font_sizes/font_size = 6
+text = "rollout_e030"
+
+[node name="rollout_e031" type="AnimatedSprite2D" parent="." unique_id=1047439930]
+position = Vector2(624, 759)
+sprite_frames = ExtResource("207_qiws3")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1567" type="Label" parent="." unique_id=613179924]
+offset_left = 624.0
+offset_top = 749.0
+offset_right = 624.0
+offset_bottom = 749.0
+theme_override_font_sizes/font_size = 6
+text = "rollout_e031"
+
+[node name="rollout_e032" type="AnimatedSprite2D" parent="." unique_id=709247529]
+position = Vector2(672, 759)
+sprite_frames = ExtResource("208_8ktko")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1568" type="Label" parent="." unique_id=707432584]
+offset_left = 672.0
+offset_top = 749.0
+offset_right = 672.0
+offset_bottom = 749.0
+theme_override_font_sizes/font_size = 6
+text = "rollout_e032"
+
+[node name="snow" type="AnimatedSprite2D" parent="." unique_id=1362351244]
+position = Vector2(720, 759)
+sprite_frames = ExtResource("209_4bhe6")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1569" type="Label" parent="." unique_id=1402113629]
+offset_left = 720.0
+offset_top = 749.0
+offset_right = 720.0
+offset_bottom = 749.0
+theme_override_font_sizes/font_size = 6
+text = "snow"
+
+[node name="blizzard" type="AnimatedSprite2D" parent="." unique_id=1638095551]
+position = Vector2(792, 759)
+sprite_frames = ExtResource("210_7u5ty")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1570" type="Label" parent="." unique_id=1769885022]
+offset_left = 792.0
+offset_top = 749.0
+offset_right = 792.0
+offset_bottom = 749.0
+theme_override_font_sizes/font_size = 6
+text = "blizzard"
+
+[node name="snow_dungeon" type="AnimatedSprite2D" parent="." unique_id=1537246264]
+position = Vector2(840, 759)
+sprite_frames = ExtResource("211_fidwx")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1571" type="Label" parent="." unique_id=1705920886]
+offset_left = 840.0
+offset_top = 749.0
+offset_right = 840.0
+offset_bottom = 749.0
+theme_override_font_sizes/font_size = 6
+text = "snow_dungeon"
+
+[node name="sunny" type="AnimatedSprite2D" parent="." unique_id=728313853]
+position = Vector2(888, 759)
+sprite_frames = ExtResource("212_nokmm")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1572" type="Label" parent="." unique_id=1431848186]
+offset_left = 888.0
+offset_top = 749.0
+offset_right = 888.0
+offset_bottom = 749.0
+theme_override_font_sizes/font_size = 6
+text = "sunny"
+
+[node name="rain" type="AnimatedSprite2D" parent="." unique_id=1386201145]
+position = Vector2(0, 877)
+sprite_frames = ExtResource("213_h43in")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1573" type="Label" parent="." unique_id=65219142]
+offset_top = 867.0
+offset_bottom = 867.0
+theme_override_font_sizes/font_size = 6
+text = "rain"
+
+[node name="status_effects_e000" type="AnimatedSprite2D" parent="." unique_id=1238377270]
+position = Vector2(248, 877)
+sprite_frames = ExtResource("214_gdkcx")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1574" type="Label" parent="." unique_id=1386957748]
+offset_left = 248.0
+offset_top = 867.0
+offset_right = 248.0
+offset_bottom = 867.0
+theme_override_font_sizes/font_size = 6
+text = "status_effects_e000"
+
+[node name="status_effects_e001" type="AnimatedSprite2D" parent="." unique_id=108292169]
+position = Vector2(296, 877)
+sprite_frames = ExtResource("215_l4osx")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1575" type="Label" parent="." unique_id=484243802]
+offset_left = 296.0
+offset_top = 867.0
+offset_right = 296.0
+offset_bottom = 867.0
+theme_override_font_sizes/font_size = 6
+text = "status_effects_e001"
+
+[node name="status_effects_e002" type="AnimatedSprite2D" parent="." unique_id=71114807]
+position = Vector2(344, 877)
+sprite_frames = ExtResource("216_ml4pt")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1576" type="Label" parent="." unique_id=675013096]
+offset_left = 344.0
+offset_top = 867.0
+offset_right = 344.0
+offset_bottom = 867.0
+theme_override_font_sizes/font_size = 6
+text = "status_effects_e002"
+
+[node name="status_effects_e003" type="AnimatedSprite2D" parent="." unique_id=1102770924]
+position = Vector2(392, 877)
+sprite_frames = ExtResource("217_dkuhy")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1577" type="Label" parent="." unique_id=123148281]
+offset_left = 392.0
+offset_top = 867.0
+offset_right = 392.0
+offset_bottom = 867.0
+theme_override_font_sizes/font_size = 6
+text = "status_effects_e003"
+
+[node name="status_effects_e004" type="AnimatedSprite2D" parent="." unique_id=1461344808]
+position = Vector2(440, 877)
+sprite_frames = ExtResource("218_gtywc")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1578" type="Label" parent="." unique_id=936973083]
+offset_left = 440.0
+offset_top = 867.0
+offset_right = 440.0
+offset_bottom = 867.0
+theme_override_font_sizes/font_size = 6
+text = "status_effects_e004"
+
+[node name="status_effects_e005" type="AnimatedSprite2D" parent="." unique_id=850064548]
+position = Vector2(488, 877)
+sprite_frames = ExtResource("219_g10qe")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1579" type="Label" parent="." unique_id=1991658190]
+offset_left = 488.0
+offset_top = 867.0
+offset_right = 488.0
+offset_bottom = 867.0
+theme_override_font_sizes/font_size = 6
+text = "status_effects_e005"
+
+[node name="status_effects_e006" type="AnimatedSprite2D" parent="." unique_id=1373452794]
+position = Vector2(536, 877)
+sprite_frames = ExtResource("220_11hef")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1580" type="Label" parent="." unique_id=1146273494]
+offset_left = 536.0
+offset_top = 867.0
+offset_right = 536.0
+offset_bottom = 867.0
+theme_override_font_sizes/font_size = 6
+text = "status_effects_e006"
+
+[node name="status_effects_e007" type="AnimatedSprite2D" parent="." unique_id=1088496030]
+position = Vector2(584, 877)
+sprite_frames = ExtResource("221_v4jqi")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1581" type="Label" parent="." unique_id=667441889]
+offset_left = 584.0
+offset_top = 867.0
+offset_right = 584.0
+offset_bottom = 867.0
+theme_override_font_sizes/font_size = 6
+text = "status_effects_e007"
+
+[node name="status_effects_e008" type="AnimatedSprite2D" parent="." unique_id=782153734]
+position = Vector2(632, 877)
+sprite_frames = ExtResource("222_ljp3k")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1582" type="Label" parent="." unique_id=1330930077]
+offset_left = 632.0
+offset_top = 867.0
+offset_right = 632.0
+offset_bottom = 867.0
+theme_override_font_sizes/font_size = 6
+text = "status_effects_e008"
+
+[node name="status_effects_e009" type="AnimatedSprite2D" parent="." unique_id=1859275015]
+position = Vector2(680, 877)
+sprite_frames = ExtResource("223_hs4my")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1583" type="Label" parent="." unique_id=573750977]
+offset_left = 680.0
+offset_top = 867.0
+offset_right = 680.0
+offset_bottom = 867.0
+theme_override_font_sizes/font_size = 6
+text = "status_effects_e009"
+
+[node name="status_effects_e010" type="AnimatedSprite2D" parent="." unique_id=607829797]
+position = Vector2(728, 877)
+sprite_frames = ExtResource("224_b1q4j")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1584" type="Label" parent="." unique_id=850518298]
+offset_left = 728.0
+offset_top = 867.0
+offset_right = 728.0
+offset_bottom = 867.0
+theme_override_font_sizes/font_size = 6
+text = "status_effects_e010"
+
+[node name="status_effects_e011" type="AnimatedSprite2D" parent="." unique_id=970179320]
+position = Vector2(776, 877)
+sprite_frames = ExtResource("225_bird1")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1585" type="Label" parent="." unique_id=1876641889]
+offset_left = 776.0
+offset_top = 867.0
+offset_right = 776.0
+offset_bottom = 867.0
+theme_override_font_sizes/font_size = 6
+text = "status_effects_e011"
+
+[node name="status_effects_e012" type="AnimatedSprite2D" parent="." unique_id=14896949]
+position = Vector2(824, 877)
+sprite_frames = ExtResource("226_06yx7")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1586" type="Label" parent="." unique_id=1219960481]
+offset_left = 824.0
+offset_top = 867.0
+offset_right = 824.0
+offset_bottom = 867.0
+theme_override_font_sizes/font_size = 6
+text = "status_effects_e012"
+
+[node name="status_effects_e013" type="AnimatedSprite2D" parent="." unique_id=1304850922]
+position = Vector2(872, 877)
+sprite_frames = ExtResource("227_5mswd")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1587" type="Label" parent="." unique_id=1236451333]
+offset_left = 872.0
+offset_top = 867.0
+offset_right = 872.0
+offset_bottom = 867.0
+theme_override_font_sizes/font_size = 6
+text = "status_effects_e013"
+
+[node name="ice_block" type="AnimatedSprite2D" parent="." unique_id=352921732]
+position = Vector2(920, 877)
+sprite_frames = ExtResource("228_qfd7u")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1588" type="Label" parent="." unique_id=87089908]
+offset_left = 920.0
+offset_top = 867.0
+offset_right = 920.0
+offset_bottom = 867.0
+theme_override_font_sizes/font_size = 6
+text = "ice_block"
+
+[node name="status_effects_e015" type="AnimatedSprite2D" parent="." unique_id=1631477217]
+position = Vector2(968, 877)
+sprite_frames = ExtResource("229_wkh11")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1589" type="Label" parent="." unique_id=390878314]
+offset_left = 968.0
+offset_top = 867.0
+offset_right = 968.0
+offset_bottom = 867.0
+theme_override_font_sizes/font_size = 6
+text = "status_effects_e015"
+
+[node name="status_effects_e016" type="AnimatedSprite2D" parent="." unique_id=16755617]
+position = Vector2(1016, 877)
+sprite_frames = ExtResource("230_btxhk")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1590" type="Label" parent="." unique_id=1335042182]
+offset_left = 1016.0
+offset_top = 867.0
+offset_right = 1016.0
+offset_bottom = 867.0
+theme_override_font_sizes/font_size = 6
+text = "status_effects_e016"
+
+[node name="status_effects_e017" type="AnimatedSprite2D" parent="." unique_id=102431478]
+position = Vector2(1064, 877)
+sprite_frames = ExtResource("231_5xac7")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1591" type="Label" parent="." unique_id=243011849]
+offset_left = 1064.0
+offset_top = 867.0
+offset_right = 1064.0
+offset_bottom = 867.0
+theme_override_font_sizes/font_size = 6
+text = "status_effects_e017"
+
+[node name="status_effects_e018" type="AnimatedSprite2D" parent="." unique_id=784836865]
+position = Vector2(1112, 877)
+sprite_frames = ExtResource("232_i41c0")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1592" type="Label" parent="." unique_id=1181545908]
+offset_left = 1112.0
+offset_top = 867.0
+offset_right = 1112.0
+offset_bottom = 867.0
+theme_override_font_sizes/font_size = 6
+text = "status_effects_e018"
+
+[node name="status_effects_e019" type="AnimatedSprite2D" parent="." unique_id=1103004264]
+position = Vector2(1160, 877)
+sprite_frames = ExtResource("233_8bc4e")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1593" type="Label" parent="." unique_id=1701115488]
+offset_left = 1160.0
+offset_top = 867.0
+offset_right = 1160.0
+offset_bottom = 867.0
+theme_override_font_sizes/font_size = 6
+text = "status_effects_e019"
+
+[node name="status_effects_e020" type="AnimatedSprite2D" parent="." unique_id=693572054]
+position = Vector2(0, 1051)
+sprite_frames = ExtResource("234_ayd51")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1594" type="Label" parent="." unique_id=1599725783]
+offset_top = 1041.0
+offset_bottom = 1041.0
+theme_override_font_sizes/font_size = 6
+text = "status_effects_e020"
+
+[node name="status_effects_e021" type="AnimatedSprite2D" parent="." unique_id=752238242]
+position = Vector2(48, 1051)
+sprite_frames = ExtResource("235_fcdvf")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1595" type="Label" parent="." unique_id=613542652]
+offset_left = 48.0
+offset_top = 1041.0
+offset_right = 48.0
+offset_bottom = 1041.0
+theme_override_font_sizes/font_size = 6
+text = "status_effects_e021"
+
+[node name="status_effects_e022" type="AnimatedSprite2D" parent="." unique_id=1210862760]
+position = Vector2(96, 1051)
+sprite_frames = ExtResource("236_n1xhi")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1596" type="Label" parent="." unique_id=2140855421]
+offset_left = 96.0
+offset_top = 1041.0
+offset_right = 96.0
+offset_bottom = 1041.0
+theme_override_font_sizes/font_size = 6
+text = "status_effects_e022"
+
+[node name="status_effects_e023" type="AnimatedSprite2D" parent="." unique_id=2068433046]
+position = Vector2(144, 1051)
+sprite_frames = ExtResource("237_ddhen")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1597" type="Label" parent="." unique_id=426310974]
+offset_left = 144.0
+offset_top = 1041.0
+offset_right = 144.0
+offset_bottom = 1041.0
+theme_override_font_sizes/font_size = 6
+text = "status_effects_e023"

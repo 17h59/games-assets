@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/big_green_chuchu/big_green_chuchu_e009.png" id="1_m2fyw"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hk074"]
+atlas = ExtResource("1_m2fyw")
+region = Rect2(0, 0, 15, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v31kv"]
+atlas = ExtResource("1_m2fyw")
+region = Rect2(15, 0, 15, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pfqmi"]
+atlas = ExtResource("1_m2fyw")
+region = Rect2(30, 0, 15, 15)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hk074")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v31kv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pfqmi")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

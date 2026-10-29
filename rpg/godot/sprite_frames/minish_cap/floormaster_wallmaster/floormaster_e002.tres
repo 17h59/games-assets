@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/floormaster_wallmaster/floormaster/floormaster_e002.png" id="1_7dbor"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r1oeq"]
+atlas = ExtResource("1_7dbor")
+region = Rect2(0, 0, 31, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bp7l0"]
+atlas = ExtResource("1_7dbor")
+region = Rect2(31, 0, 31, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0rxid"]
+atlas = ExtResource("1_7dbor")
+region = Rect2(62, 0, 31, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ju3nn"]
+atlas = ExtResource("1_7dbor")
+region = Rect2(93, 0, 31, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mjyce"]
+atlas = ExtResource("1_7dbor")
+region = Rect2(124, 0, 31, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hmqu6"]
+atlas = ExtResource("1_7dbor")
+region = Rect2(155, 0, 31, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n1ql4"]
+atlas = ExtResource("1_7dbor")
+region = Rect2(186, 0, 31, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_phf0j"]
+atlas = ExtResource("1_7dbor")
+region = Rect2(217, 0, 31, 32)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r1oeq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bp7l0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0rxid")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ju3nn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mjyce")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hmqu6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n1ql4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_phf0j")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

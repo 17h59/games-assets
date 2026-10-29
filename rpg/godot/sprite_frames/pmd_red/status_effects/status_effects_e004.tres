@@ -1,0 +1,74 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/status_effects/status_effects_e004.png" id="1_dylop"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_we6p6"]
+atlas = ExtResource("1_dylop")
+region = Rect2(0, 0, 12, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0oh7l"]
+atlas = ExtResource("1_dylop")
+region = Rect2(12, 0, 12, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4gi51"]
+atlas = ExtResource("1_dylop")
+region = Rect2(24, 0, 12, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d7c8v"]
+atlas = ExtResource("1_dylop")
+region = Rect2(36, 0, 12, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7vybl"]
+atlas = ExtResource("1_dylop")
+region = Rect2(48, 0, 12, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_618d2"]
+atlas = ExtResource("1_dylop")
+region = Rect2(60, 0, 12, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t8fee"]
+atlas = ExtResource("1_dylop")
+region = Rect2(72, 0, 12, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fb6jq"]
+atlas = ExtResource("1_dylop")
+region = Rect2(84, 0, 12, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fu18v"]
+atlas = ExtResource("1_dylop")
+region = Rect2(96, 0, 12, 12)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_we6p6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0oh7l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4gi51")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d7c8v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7vybl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_618d2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t8fee")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fb6jq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fu18v")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

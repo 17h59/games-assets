@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/dark_type_moves/flatter/flatter_e011.png" id="1_yx2fi"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rn7le"]
+atlas = ExtResource("1_yx2fi")
+region = Rect2(0, 0, 26, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ttrfo"]
+atlas = ExtResource("1_yx2fi")
+region = Rect2(26, 0, 26, 12)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rn7le")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ttrfo")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

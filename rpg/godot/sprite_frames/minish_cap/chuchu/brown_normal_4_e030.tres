@@ -1,0 +1,123 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/chuchu/brown_normal_4/brown_normal_4_e030.png" id="1_patge"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c14gt"]
+atlas = ExtResource("1_patge")
+region = Rect2(0, 0, 16, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6cml2"]
+atlas = ExtResource("1_patge")
+region = Rect2(16, 0, 16, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ub0wm"]
+atlas = ExtResource("1_patge")
+region = Rect2(32, 0, 16, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xivl2"]
+atlas = ExtResource("1_patge")
+region = Rect2(48, 0, 16, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_olwks"]
+atlas = ExtResource("1_patge")
+region = Rect2(64, 0, 16, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ojvqe"]
+atlas = ExtResource("1_patge")
+region = Rect2(80, 0, 16, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_csghw"]
+atlas = ExtResource("1_patge")
+region = Rect2(96, 0, 16, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yd8f4"]
+atlas = ExtResource("1_patge")
+region = Rect2(112, 0, 16, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vhm85"]
+atlas = ExtResource("1_patge")
+region = Rect2(128, 0, 16, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dv8ex"]
+atlas = ExtResource("1_patge")
+region = Rect2(144, 0, 16, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_svs00"]
+atlas = ExtResource("1_patge")
+region = Rect2(160, 0, 16, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r1sq8"]
+atlas = ExtResource("1_patge")
+region = Rect2(176, 0, 16, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hvl22"]
+atlas = ExtResource("1_patge")
+region = Rect2(192, 0, 16, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hc81k"]
+atlas = ExtResource("1_patge")
+region = Rect2(208, 0, 16, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vcfpi"]
+atlas = ExtResource("1_patge")
+region = Rect2(224, 0, 16, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y78n6"]
+atlas = ExtResource("1_patge")
+region = Rect2(240, 0, 16, 21)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c14gt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6cml2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ub0wm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xivl2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_olwks")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ojvqe")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_csghw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yd8f4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vhm85")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dv8ex")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_svs00")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r1sq8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hvl22")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hc81k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vcfpi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y78n6")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

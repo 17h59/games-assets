@@ -1,0 +1,124 @@
+{
+ "sheet": "5340",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Eevee Hut",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "flag",
+   "file": "flag.png",
+   "cell": [
+    28,
+    23
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      1,
+      1,
+      28,
+      22
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_1",
+     "src": [
+      34,
+      1,
+      27,
+      22
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_2",
+     "src": [
+      67,
+      1,
+      27,
+      22
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_3",
+     "src": [
+      97,
+      1,
+      28,
+      22
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_4",
+     "src": [
+      1,
+      28,
+      28,
+      22
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_5",
+     "src": [
+      34,
+      27,
+      27,
+      22
+     ]
+    }
+   ],
+   "box": [
+    1,
+    1,
+    124,
+    49
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 392,
+   "h": 312,
+   "area": 112430,
+   "ncolors": 111,
+   "dominant": "#70C850",
+   "dom_frac": 0.172,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "eevee_hut_000.png"
+  },
+  {
+   "x": 6,
+   "y": 316,
+   "w": 348,
+   "h": 278,
+   "area": 76696,
+   "ncolors": 106,
+   "dominant": "#F8B030",
+   "dom_frac": 0.154,
+   "kind": "sprite",
+   "zone": null,
+   "id": 7,
+   "file": "eevee_hut_007.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

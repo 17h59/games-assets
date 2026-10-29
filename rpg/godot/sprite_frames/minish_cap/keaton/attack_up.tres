@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/keaton/attack_up.png" id="1_ktxbe"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f5q3e"]
+atlas = ExtResource("1_ktxbe")
+region = Rect2(0, 0, 24, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_88ghv"]
+atlas = ExtResource("1_ktxbe")
+region = Rect2(24, 0, 24, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dxavd"]
+atlas = ExtResource("1_ktxbe")
+region = Rect2(48, 0, 24, 31)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f5q3e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_88ghv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dxavd")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

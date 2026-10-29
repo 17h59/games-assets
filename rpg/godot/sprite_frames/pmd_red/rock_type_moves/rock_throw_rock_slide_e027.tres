@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/rock_type_moves/rock_throw_rock_slide/rock_throw_rock_slide_e027.png" id="1_g2h66"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yetmt"]
+atlas = ExtResource("1_g2h66")
+region = Rect2(0, 0, 10, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aap7m"]
+atlas = ExtResource("1_g2h66")
+region = Rect2(10, 0, 10, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_laulr"]
+atlas = ExtResource("1_g2h66")
+region = Rect2(20, 0, 10, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qlsrd"]
+atlas = ExtResource("1_g2h66")
+region = Rect2(30, 0, 10, 10)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yetmt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aap7m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_laulr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qlsrd")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

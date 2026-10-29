@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/peahat/peahat_e002.png" id="1_res2k"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_swb4b"]
+atlas = ExtResource("1_res2k")
+region = Rect2(0, 0, 8, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y5qpy"]
+atlas = ExtResource("1_res2k")
+region = Rect2(8, 0, 8, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a7apo"]
+atlas = ExtResource("1_res2k")
+region = Rect2(16, 0, 8, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tljqt"]
+atlas = ExtResource("1_res2k")
+region = Rect2(24, 0, 8, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gxr85"]
+atlas = ExtResource("1_res2k")
+region = Rect2(32, 0, 8, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jo1tg"]
+atlas = ExtResource("1_res2k")
+region = Rect2(40, 0, 8, 12)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_swb4b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y5qpy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a7apo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tljqt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gxr85")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jo1tg")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

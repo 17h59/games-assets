@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/lakitu/spark_fade.png" id="1_xrdep"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m0ebj"]
+atlas = ExtResource("1_xrdep")
+region = Rect2(0, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bwgrp"]
+atlas = ExtResource("1_xrdep")
+region = Rect2(8, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6xqc1"]
+atlas = ExtResource("1_xrdep")
+region = Rect2(16, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ans4c"]
+atlas = ExtResource("1_xrdep")
+region = Rect2(24, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pvn24"]
+atlas = ExtResource("1_xrdep")
+region = Rect2(32, 0, 8, 8)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m0ebj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bwgrp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6xqc1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ans4c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pvn24")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

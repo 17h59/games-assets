@@ -1,0 +1,312 @@
+{
+ "sheet": "5387",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Seafloor Cave",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "seafloor_glow",
+   "file": "seafloor_glow.png",
+   "cell": [
+    360,
+    340
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      0,
+      0,
+      360,
+      340
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      384,
+      0,
+      360,
+      336
+     ]
+    }
+   ],
+   "box": [
+    0,
+    0,
+    744,
+    340
+   ]
+  },
+  {
+   "id": 1,
+   "name": "dark_orb",
+   "file": "dark_orb.png",
+   "cell": [
+    38,
+    37
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 13,
+     "role": "frame_0",
+     "src": [
+      7,
+      340,
+      38,
+      37
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_1",
+     "src": [
+      48,
+      340,
+      38,
+      37
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_2",
+     "src": [
+      89,
+      340,
+      38,
+      37
+     ]
+    }
+   ],
+   "box": [
+    7,
+    340,
+    120,
+    37
+   ]
+  },
+  {
+   "id": 2,
+   "name": "dark_orb_shrink",
+   "file": "dark_orb_shrink.png",
+   "cell": [
+    34,
+    32
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 16,
+     "role": "frame_0",
+     "src": [
+      132,
+      341,
+      34,
+      32
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_1",
+     "src": [
+      175,
+      343,
+      30,
+      28
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_2",
+     "src": [
+      218,
+      346,
+      24,
+      22
+     ]
+    }
+   ],
+   "box": [
+    132,
+    341,
+    110,
+    32
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 367,
+   "y": 16,
+   "w": 9,
+   "h": 127,
+   "area": 352,
+   "ncolors": 4,
+   "dominant": "#868675",
+   "dom_frac": 0.435,
+   "kind": "sprite",
+   "zone": null,
+   "id": 2,
+   "file": "seafloor_cave_002.png"
+  },
+  {
+   "x": 366,
+   "y": 146,
+   "w": 11,
+   "h": 12,
+   "area": 46,
+   "ncolors": 4,
+   "dominant": "#868675",
+   "dom_frac": 0.391,
+   "kind": "sprite",
+   "zone": null,
+   "id": 3,
+   "file": "seafloor_cave_003.png"
+  },
+  {
+   "x": 365,
+   "y": 162,
+   "w": 14,
+   "h": 12,
+   "area": 42,
+   "ncolors": 4,
+   "dominant": "#868675",
+   "dom_frac": 0.452,
+   "kind": "sprite",
+   "zone": null,
+   "id": 4,
+   "file": "seafloor_cave_004.png"
+  },
+  {
+   "x": 366,
+   "y": 178,
+   "w": 13,
+   "h": 11,
+   "area": 35,
+   "ncolors": 4,
+   "dominant": "#868675",
+   "dom_frac": 0.543,
+   "kind": "sprite",
+   "zone": null,
+   "id": 5,
+   "file": "seafloor_cave_005.png"
+  },
+  {
+   "x": 369,
+   "y": 194,
+   "w": 9,
+   "h": 8,
+   "area": 11,
+   "ncolors": 3,
+   "dominant": "#A8A897",
+   "dom_frac": 0.455,
+   "kind": "sprite",
+   "zone": null,
+   "id": 6,
+   "file": "seafloor_cave_006.png"
+  },
+  {
+   "x": 374,
+   "y": 201,
+   "w": 7,
+   "h": 5,
+   "area": 8,
+   "ncolors": 3,
+   "dominant": "#868675",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "id": 7,
+   "file": "seafloor_cave_007.png"
+  },
+  {
+   "x": 367,
+   "y": 211,
+   "w": 9,
+   "h": 8,
+   "area": 11,
+   "ncolors": 3,
+   "dominant": "#A8A897",
+   "dom_frac": 0.455,
+   "kind": "sprite",
+   "zone": null,
+   "id": 8,
+   "file": "seafloor_cave_008.png",
+   "duplicate_of": 4
+  },
+  {
+   "x": 372,
+   "y": 218,
+   "w": 7,
+   "h": 5,
+   "area": 8,
+   "ncolors": 3,
+   "dominant": "#868675",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "id": 9,
+   "file": "seafloor_cave_009.png",
+   "duplicate_of": 5
+  },
+  {
+   "x": 367,
+   "y": 228,
+   "w": 10,
+   "h": 6,
+   "area": 8,
+   "ncolors": 3,
+   "dominant": "#868675",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "id": 10,
+   "file": "seafloor_cave_010.png"
+  },
+  {
+   "x": 373,
+   "y": 233,
+   "w": 8,
+   "h": 9,
+   "area": 7,
+   "ncolors": 3,
+   "dominant": "#868675",
+   "dom_frac": 0.571,
+   "kind": "sprite",
+   "zone": null,
+   "id": 11,
+   "file": "seafloor_cave_011.png"
+  },
+  {
+   "x": 367,
+   "y": 246,
+   "w": 10,
+   "h": 7,
+   "area": 8,
+   "ncolors": 3,
+   "dominant": "#868675",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "id": 12,
+   "file": "seafloor_cave_012.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

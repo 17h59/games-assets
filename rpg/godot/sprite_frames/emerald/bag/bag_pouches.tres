@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/emerald/items/bag/bag_pouches.png" id="1_pgbjx"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hqqln"]
+atlas = ExtResource("1_pgbjx")
+region = Rect2(0, 0, 56, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w8dx2"]
+atlas = ExtResource("1_pgbjx")
+region = Rect2(56, 0, 56, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fiyk3"]
+atlas = ExtResource("1_pgbjx")
+region = Rect2(112, 0, 56, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4ykfd"]
+atlas = ExtResource("1_pgbjx")
+region = Rect2(168, 0, 56, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hf6bm"]
+atlas = ExtResource("1_pgbjx")
+region = Rect2(224, 0, 56, 45)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hqqln")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w8dx2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fiyk3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4ykfd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hf6bm")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

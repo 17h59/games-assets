@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/dogs/dog_idle_down.png" id="1_bbq5x"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cihxx"]
+atlas = ExtResource("1_bbq5x")
+region = Rect2(0, 0, 14, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iys5a"]
+atlas = ExtResource("1_bbq5x")
+region = Rect2(14, 0, 14, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sfi35"]
+atlas = ExtResource("1_bbq5x")
+region = Rect2(28, 0, 14, 17)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cihxx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iys5a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sfi35")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

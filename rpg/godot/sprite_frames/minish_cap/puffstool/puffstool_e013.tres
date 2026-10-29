@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/puffstool/puffstool_e013.png" id="1_ej40a"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wjbjk"]
+atlas = ExtResource("1_ej40a")
+region = Rect2(0, 0, 22, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ml4ls"]
+atlas = ExtResource("1_ej40a")
+region = Rect2(22, 0, 22, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vq36y"]
+atlas = ExtResource("1_ej40a")
+region = Rect2(44, 0, 22, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8n3h7"]
+atlas = ExtResource("1_ej40a")
+region = Rect2(66, 0, 22, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wtsn2"]
+atlas = ExtResource("1_ej40a")
+region = Rect2(88, 0, 22, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l77in"]
+atlas = ExtResource("1_ej40a")
+region = Rect2(110, 0, 22, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7mae7"]
+atlas = ExtResource("1_ej40a")
+region = Rect2(132, 0, 22, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nrugp"]
+atlas = ExtResource("1_ej40a")
+region = Rect2(154, 0, 22, 24)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wjbjk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ml4ls")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vq36y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8n3h7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wtsn2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l77in")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7mae7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nrugp")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

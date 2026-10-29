@@ -1,0 +1,74 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/hyrule_town_residents_2/hyrule_town_residents_2_e035.png" id="1_saaah"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xk263"]
+atlas = ExtResource("1_saaah")
+region = Rect2(0, 0, 18, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o0a7j"]
+atlas = ExtResource("1_saaah")
+region = Rect2(18, 0, 18, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7x2k1"]
+atlas = ExtResource("1_saaah")
+region = Rect2(36, 0, 18, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6qivx"]
+atlas = ExtResource("1_saaah")
+region = Rect2(54, 0, 18, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j53iv"]
+atlas = ExtResource("1_saaah")
+region = Rect2(72, 0, 18, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_reniu"]
+atlas = ExtResource("1_saaah")
+region = Rect2(90, 0, 18, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c4vrw"]
+atlas = ExtResource("1_saaah")
+region = Rect2(108, 0, 18, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0eha3"]
+atlas = ExtResource("1_saaah")
+region = Rect2(126, 0, 18, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lt0cu"]
+atlas = ExtResource("1_saaah")
+region = Rect2(144, 0, 18, 23)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xk263")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o0a7j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7x2k1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6qivx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j53iv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_reniu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c4vrw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0eha3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lt0cu")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

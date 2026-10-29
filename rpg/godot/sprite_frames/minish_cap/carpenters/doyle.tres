@@ -1,0 +1,60 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/carpenters/doyle.png" id="1_shjql"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ldvb1"]
+atlas = ExtResource("1_shjql")
+region = Rect2(0, 0, 33, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ocwb2"]
+atlas = ExtResource("1_shjql")
+region = Rect2(33, 0, 33, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j842s"]
+atlas = ExtResource("1_shjql")
+region = Rect2(66, 0, 33, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nxehr"]
+atlas = ExtResource("1_shjql")
+region = Rect2(99, 0, 33, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jvwtu"]
+atlas = ExtResource("1_shjql")
+region = Rect2(132, 0, 33, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oyr5x"]
+atlas = ExtResource("1_shjql")
+region = Rect2(165, 0, 33, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u7gdu"]
+atlas = ExtResource("1_shjql")
+region = Rect2(198, 0, 33, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ldvb1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ocwb2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j842s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nxehr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jvwtu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oyr5x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u7gdu")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

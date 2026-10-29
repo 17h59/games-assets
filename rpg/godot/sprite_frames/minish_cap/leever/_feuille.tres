@@ -1,0 +1,157 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/leever/leever_blue.png" id="1_c112d"]
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/leever/leever_red.png" id="2_7flue"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qquw6"]
+atlas = ExtResource("1_c112d")
+region = Rect2(0, 0, 16, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_co1mx"]
+atlas = ExtResource("1_c112d")
+region = Rect2(16, 0, 16, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s21ay"]
+atlas = ExtResource("1_c112d")
+region = Rect2(32, 0, 16, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wnx3k"]
+atlas = ExtResource("1_c112d")
+region = Rect2(48, 0, 16, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q70rg"]
+atlas = ExtResource("1_c112d")
+region = Rect2(64, 0, 16, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p1xvw"]
+atlas = ExtResource("1_c112d")
+region = Rect2(80, 0, 16, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n6q4v"]
+atlas = ExtResource("1_c112d")
+region = Rect2(96, 0, 16, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lahl2"]
+atlas = ExtResource("1_c112d")
+region = Rect2(112, 0, 16, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5m5ur"]
+atlas = ExtResource("1_c112d")
+region = Rect2(128, 0, 16, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x4an1"]
+atlas = ExtResource("1_c112d")
+region = Rect2(144, 0, 16, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_11hpo"]
+atlas = ExtResource("2_7flue")
+region = Rect2(0, 0, 16, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1xqyb"]
+atlas = ExtResource("2_7flue")
+region = Rect2(16, 0, 16, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dpxmw"]
+atlas = ExtResource("2_7flue")
+region = Rect2(32, 0, 16, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fmovm"]
+atlas = ExtResource("2_7flue")
+region = Rect2(48, 0, 16, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_00vii"]
+atlas = ExtResource("2_7flue")
+region = Rect2(64, 0, 16, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5abn7"]
+atlas = ExtResource("2_7flue")
+region = Rect2(80, 0, 16, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k1r58"]
+atlas = ExtResource("2_7flue")
+region = Rect2(96, 0, 16, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nfq1h"]
+atlas = ExtResource("2_7flue")
+region = Rect2(112, 0, 16, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wt88c"]
+atlas = ExtResource("2_7flue")
+region = Rect2(128, 0, 16, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hrifj"]
+atlas = ExtResource("2_7flue")
+region = Rect2(144, 0, 16, 23)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qquw6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_co1mx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s21ay")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wnx3k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q70rg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p1xvw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n6q4v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lahl2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5m5ur")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x4an1")
+}],
+"loop": 1,
+"name": &"leever_blue",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_11hpo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1xqyb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dpxmw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fmovm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_00vii")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5abn7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k1r58")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nfq1h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wt88c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hrifj")
+}],
+"loop": 1,
+"name": &"leever_red",
+"speed": 8.0
+}]

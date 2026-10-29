@@ -1,0 +1,572 @@
+{
+ "sheet": "6459",
+ "game": "minish_cap",
+ "category": "monsters",
+ "title": "Ghini",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    39,
+    28,
+    52,
+    8
+   ],
+   "point": [
+    65,
+    32
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 1,
+   "box": [
+    2,
+    114,
+    31,
+    10
+   ],
+   "point": [
+    17,
+    119
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 2,
+   "box": [
+    2,
+    126,
+    87,
+    8
+   ],
+   "point": [
+    45,
+    130
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 3,
+   "box": [
+    2,
+    140,
+    81,
+    8
+   ],
+   "point": [
+    42,
+    144
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "ghini_tongue",
+   "file": "ghini_tongue.png",
+   "cell": [
+    16,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 26,
+     "role": "frame_0",
+     "src": [
+      2,
+      94,
+      6,
+      5
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_1",
+     "src": [
+      10,
+      94,
+      8,
+      16
+     ]
+    },
+    {
+     "item": 29,
+     "role": "frame_2",
+     "src": [
+      20,
+      94,
+      14,
+      13
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_3",
+     "src": [
+      36,
+      94,
+      16,
+      11
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_4",
+     "src": [
+      56,
+      96,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_5",
+     "src": [
+      72,
+      94,
+      14,
+      14
+     ]
+    },
+    {
+     "item": 32,
+     "role": "frame_6",
+     "src": [
+      88,
+      96,
+      14,
+      13
+     ]
+    }
+   ],
+   "box": [
+    2,
+    94,
+    100,
+    16
+   ]
+  },
+  {
+   "id": 1,
+   "name": "ghini_tail",
+   "file": "ghini_tail.png",
+   "cell": [
+    8,
+    5
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 18,
+     "role": "frame_0",
+     "src": [
+      3,
+      84,
+      5,
+      5
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_1",
+     "src": [
+      11,
+      84,
+      6,
+      5
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_2",
+     "src": [
+      20,
+      84,
+      6,
+      5
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_3",
+     "src": [
+      28,
+      84,
+      7,
+      5
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_4",
+     "src": [
+      37,
+      84,
+      7,
+      5
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_5",
+     "src": [
+      48,
+      84,
+      6,
+      5
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_6",
+     "src": [
+      58,
+      84,
+      5,
+      5
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_7",
+     "src": [
+      67,
+      84,
+      5,
+      5
+     ]
+    }
+   ],
+   "box": [
+    3,
+    84,
+    69,
+    5
+   ]
+  },
+  {
+   "id": 2,
+   "name": "ghini_head_left",
+   "file": "ghini_head_left.png",
+   "cell": [
+    16,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 13,
+     "role": "frame_0",
+     "src": [
+      1,
+      67,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_1",
+     "src": [
+      18,
+      67,
+      16,
+      16
+     ]
+    }
+   ],
+   "box": [
+    1,
+    67,
+    33,
+    16
+   ]
+  },
+  {
+   "id": 3,
+   "name": "ghini_head_front",
+   "file": "ghini_head_front.png",
+   "cell": [
+    16,
+    19
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 2,
+     "role": "frame_0",
+     "src": [
+      35,
+      1,
+      16,
+      17
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_1",
+     "src": [
+      1,
+      36,
+      16,
+      17
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_2",
+     "src": [
+      52,
+      1,
+      16,
+      19
+     ]
+    }
+   ],
+   "box": [
+    1,
+    1,
+    67,
+    52
+   ]
+  },
+  {
+   "id": 4,
+   "name": "ghini_lower_body",
+   "file": "ghini_lower_body.png",
+   "cell": [
+    16,
+    8
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 9,
+     "role": "frame_0",
+     "src": [
+      1,
+      59,
+      16,
+      6
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_1",
+     "src": [
+      18,
+      57,
+      16,
+      6
+     ]
+    }
+   ],
+   "box": [
+    1,
+    57,
+    33,
+    8
+   ]
+  },
+  {
+   "id": 5,
+   "name": "ghini_wisp",
+   "file": "ghini_wisp.png",
+   "cell": [
+    8,
+    7
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 15,
+     "role": "frame_0",
+     "src": [
+      38,
+      76,
+      5,
+      7
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_1",
+     "src": [
+      44,
+      76,
+      8,
+      6
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_2",
+     "src": [
+      53,
+      78,
+      5,
+      5
+     ]
+    }
+   ],
+   "box": [
+    38,
+    76,
+    20,
+    7
+   ]
+  },
+  {
+   "id": 6,
+   "name": "ghini_fly",
+   "file": "ghini_fly.png",
+   "cell": [
+    22,
+    23
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 11,
+     "role": "frame_0",
+     "src": [
+      40,
+      40,
+      22,
+      23
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_1",
+     "src": [
+      70,
+      4,
+      18,
+      21
+     ]
+    }
+   ],
+   "box": [
+    40,
+    4,
+    48,
+    59
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 2,
+   "y": 13,
+   "w": 7,
+   "h": 5,
+   "area": 28,
+   "ncolors": 6,
+   "dominant": "#90E0F8",
+   "dom_frac": 0.321,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "ghini_000.png"
+  },
+  {
+   "x": 18,
+   "y": 5,
+   "w": 8,
+   "h": 13,
+   "area": 89,
+   "ncolors": 10,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.36,
+   "kind": "sprite",
+   "zone": null,
+   "id": 1,
+   "file": "ghini_001.png"
+  },
+  {
+   "x": 1,
+   "y": 23,
+   "w": 8,
+   "h": 6,
+   "area": 29,
+   "ncolors": 6,
+   "dominant": "#3840A0",
+   "dom_frac": 0.31,
+   "kind": "sprite",
+   "zone": null,
+   "id": 4,
+   "file": "ghini_004.png"
+  },
+  {
+   "x": 12,
+   "y": 24,
+   "w": 6,
+   "h": 6,
+   "area": 29,
+   "ncolors": 5,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.483,
+   "kind": "sprite",
+   "zone": null,
+   "id": 5,
+   "file": "ghini_005.png"
+  },
+  {
+   "x": 18,
+   "y": 48,
+   "w": 6,
+   "h": 8,
+   "area": 34,
+   "ncolors": 6,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.265,
+   "kind": "sprite",
+   "zone": null,
+   "id": 8,
+   "file": "ghini_008.png"
+  },
+  {
+   "x": 66,
+   "y": 39,
+   "w": 28,
+   "h": 25,
+   "area": 336,
+   "ncolors": 14,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.271,
+   "kind": "sprite",
+   "zone": null,
+   "name": "ghini_attack",
+   "id": 12,
+   "file": "ghini_attack.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

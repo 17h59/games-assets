@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/water_hut/waterfall.png" id="1_w3uws"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1v14p"]
+atlas = ExtResource("1_w3uws")
+region = Rect2(0, 0, 27, 29)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lexth"]
+atlas = ExtResource("1_w3uws")
+region = Rect2(27, 0, 27, 29)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jdmdk"]
+atlas = ExtResource("1_w3uws")
+region = Rect2(54, 0, 27, 29)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n36hs"]
+atlas = ExtResource("1_w3uws")
+region = Rect2(81, 0, 27, 29)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1v14p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lexth")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jdmdk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n36hs")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

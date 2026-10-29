@@ -1,0 +1,93 @@
+[gd_scene format=3]
+
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/minish_cap/bound_chest/bound_chest_e000.tres" id="1_f6fua"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/minish_cap/bound_chest/bound_chest_e001.tres" id="2_b1qab"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/minish_cap/bound_chest/bound_chest_e002.tres" id="3_w8a4h"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/minish_cap/bound_chest/bound_chest_e003.tres" id="4_52rdn"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/minish_cap/bound_chest/bound_chest_e004.tres" id="5_0ne8k"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/minish_cap/bound_chest/bound_chest_e005.tres" id="6_btfq5"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/minish_cap/bound_chest/bound_chest_e006.tres" id="7_cdmdw"]
+
+[node name="minish_cap_items" type="Node2D" unique_id=1216346454]
+
+[node name="bound_chest_e000" type="AnimatedSprite2D" parent="." unique_id=1682415265]
+position = Vector2(0, 10)
+sprite_frames = ExtResource("1_f6fua")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1351" type="Label" parent="." unique_id=1652718832]
+theme_override_font_sizes/font_size = 6
+text = "bound_chest_e000"
+
+[node name="bound_chest_e001" type="AnimatedSprite2D" parent="." unique_id=1837488599]
+position = Vector2(48, 10)
+sprite_frames = ExtResource("2_b1qab")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1352" type="Label" parent="." unique_id=1659907570]
+offset_left = 48.0
+offset_right = 48.0
+theme_override_font_sizes/font_size = 6
+text = "bound_chest_e001"
+
+[node name="bound_chest_e002" type="AnimatedSprite2D" parent="." unique_id=806649336]
+position = Vector2(96, 10)
+sprite_frames = ExtResource("3_w8a4h")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1353" type="Label" parent="." unique_id=378878999]
+offset_left = 96.0
+offset_right = 96.0
+theme_override_font_sizes/font_size = 6
+text = "bound_chest_e002"
+
+[node name="bound_chest_e003" type="AnimatedSprite2D" parent="." unique_id=478874682]
+position = Vector2(144, 10)
+sprite_frames = ExtResource("4_52rdn")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1354" type="Label" parent="." unique_id=446937844]
+offset_left = 144.0
+offset_right = 144.0
+theme_override_font_sizes/font_size = 6
+text = "bound_chest_e003"
+
+[node name="bound_chest_e004" type="AnimatedSprite2D" parent="." unique_id=1591737870]
+position = Vector2(192, 10)
+sprite_frames = ExtResource("5_0ne8k")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1355" type="Label" parent="." unique_id=721037902]
+offset_left = 192.0
+offset_right = 192.0
+theme_override_font_sizes/font_size = 6
+text = "bound_chest_e004"
+
+[node name="bound_chest_e005" type="AnimatedSprite2D" parent="." unique_id=361909617]
+position = Vector2(240, 10)
+sprite_frames = ExtResource("6_btfq5")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1356" type="Label" parent="." unique_id=456413298]
+offset_left = 240.0
+offset_right = 240.0
+theme_override_font_sizes/font_size = 6
+text = "bound_chest_e005"
+
+[node name="bound_chest_e006" type="AnimatedSprite2D" parent="." unique_id=1657399996]
+position = Vector2(288, 10)
+sprite_frames = ExtResource("7_cdmdw")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1357" type="Label" parent="." unique_id=167003132]
+offset_left = 288.0
+offset_right = 288.0
+theme_override_font_sizes/font_size = 6
+text = "bound_chest_e006"

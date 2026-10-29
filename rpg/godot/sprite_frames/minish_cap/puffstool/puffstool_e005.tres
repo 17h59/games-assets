@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/puffstool/puffstool_e005.png" id="1_reft2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m01y6"]
+atlas = ExtResource("1_reft2")
+region = Rect2(0, 0, 17, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_53l7d"]
+atlas = ExtResource("1_reft2")
+region = Rect2(17, 0, 17, 20)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m01y6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_53l7d")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

@@ -1,0 +1,247 @@
+{
+ "sheet": "5359",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Echo Cave",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "cave_wall_flow",
+   "file": "cave_wall_flow.png",
+   "cell": [
+    54,
+    44
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      509,
+      5,
+      54,
+      44
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_1",
+     "src": [
+      568,
+      5,
+      53,
+      44
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_2",
+     "src": [
+      509,
+      52,
+      54,
+      44
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_3",
+     "src": [
+      568,
+      52,
+      53,
+      44
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_4",
+     "src": [
+      509,
+      99,
+      54,
+      44
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_5",
+     "src": [
+      568,
+      99,
+      53,
+      44
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_6",
+     "src": [
+      509,
+      145,
+      54,
+      44
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_7",
+     "src": [
+      568,
+      145,
+      53,
+      44
+     ]
+    }
+   ],
+   "box": [
+    509,
+    5,
+    112,
+    184
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 504,
+   "h": 360,
+   "area": 181440,
+   "ncolors": 46,
+   "dominant": "#407060",
+   "dom_frac": 0.177,
+   "kind": "sprite",
+   "zone": null,
+   "name": "echo_cave_background",
+   "id": 0,
+   "file": "echo_cave_background.png"
+  },
+  {
+   "x": 625,
+   "y": 5,
+   "w": 18,
+   "h": 28,
+   "area": 504,
+   "ncolors": 8,
+   "dominant": "#081810",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 3,
+   "file": "echo_cave_003.png"
+  },
+  {
+   "x": 645,
+   "y": 5,
+   "w": 18,
+   "h": 28,
+   "area": 504,
+   "ncolors": 8,
+   "dominant": "#081810",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 4,
+   "file": "echo_cave_004.png",
+   "mirror_of": 1
+  },
+  {
+   "x": 625,
+   "y": 35,
+   "w": 18,
+   "h": 28,
+   "area": 504,
+   "ncolors": 8,
+   "dominant": "#081810",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 5,
+   "file": "echo_cave_005.png"
+  },
+  {
+   "x": 645,
+   "y": 35,
+   "w": 18,
+   "h": 28,
+   "area": 504,
+   "ncolors": 8,
+   "dominant": "#081810",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 6,
+   "file": "echo_cave_006.png",
+   "mirror_of": 3
+  },
+  {
+   "x": 625,
+   "y": 65,
+   "w": 18,
+   "h": 27,
+   "area": 486,
+   "ncolors": 8,
+   "dominant": "#081810",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 9,
+   "file": "echo_cave_009.png"
+  },
+  {
+   "x": 645,
+   "y": 65,
+   "w": 18,
+   "h": 27,
+   "area": 486,
+   "ncolors": 8,
+   "dominant": "#081810",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 10,
+   "file": "echo_cave_010.png",
+   "mirror_of": 5
+  },
+  {
+   "x": 625,
+   "y": 94,
+   "w": 18,
+   "h": 28,
+   "area": 504,
+   "ncolors": 8,
+   "dominant": "#081810",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 11,
+   "file": "echo_cave_011.png"
+  },
+  {
+   "x": 645,
+   "y": 94,
+   "w": 18,
+   "h": 28,
+   "area": 504,
+   "ncolors": 8,
+   "dominant": "#081810",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 12,
+   "file": "echo_cave_012.png",
+   "mirror_of": 7
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

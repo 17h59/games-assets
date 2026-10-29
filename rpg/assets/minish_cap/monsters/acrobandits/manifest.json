@@ -1,0 +1,725 @@
+{
+ "sheet": "6406",
+ "game": "minish_cap",
+ "category": "monsters",
+ "title": "Acrobandits",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "peek_hole",
+   "file": "peek_hole.png",
+   "cell": [
+    25,
+    21
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      3,
+      112,
+      19,
+      15
+     ]
+    },
+    {
+     "item": 46,
+     "role": "frame_1",
+     "src": [
+      28,
+      111,
+      23,
+      17
+     ]
+    },
+    {
+     "item": 47,
+     "role": "frame_2",
+     "src": [
+      55,
+      109,
+      23,
+      19
+     ]
+    },
+    {
+     "item": 48,
+     "role": "frame_3",
+     "src": [
+      81,
+      107,
+      23,
+      21
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_4",
+     "src": [
+      107,
+      108,
+      23,
+      19
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_5",
+     "src": [
+      134,
+      108,
+      23,
+      19
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_6",
+     "src": [
+      161,
+      113,
+      23,
+      14
+     ]
+    }
+   ],
+   "box": [
+    3,
+    107,
+    181,
+    21
+   ]
+  },
+  {
+   "id": 1,
+   "name": "emerge_hole",
+   "file": "emerge_hole.png",
+   "cell": [
+    23,
+    84
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 4,
+     "role": "frame_0",
+     "src": [
+      191,
+      76,
+      23,
+      45
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_1",
+     "src": [
+      220,
+      55,
+      23,
+      66
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_2",
+     "src": [
+      250,
+      37,
+      23,
+      84
+     ]
+    }
+   ],
+   "box": [
+    191,
+    37,
+    82,
+    84
+   ]
+  },
+  {
+   "id": 2,
+   "name": "totem_jump",
+   "file": "totem_jump.png",
+   "cell": [
+    19,
+    118
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 7,
+     "role": "frame_0",
+     "src": [
+      283,
+      25,
+      15,
+      96
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_1",
+     "src": [
+      310,
+      14,
+      15,
+      107
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_2",
+     "src": [
+      335,
+      7,
+      15,
+      114
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_3",
+     "src": [
+      360,
+      3,
+      15,
+      118
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_4",
+     "src": [
+      385,
+      8,
+      19,
+      113
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_5",
+     "src": [
+      409,
+      10,
+      19,
+      111
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_6",
+     "src": [
+      435,
+      13,
+      19,
+      108
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_7",
+     "src": [
+      459,
+      17,
+      19,
+      104
+     ]
+    }
+   ],
+   "box": [
+    283,
+    3,
+    195,
+    118
+   ]
+  },
+  {
+   "id": 3,
+   "name": "totem_assemble",
+   "file": "totem_assemble.png",
+   "cell": [
+    26,
+    93
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 33,
+     "role": "frame_0",
+     "src": [
+      482,
+      23,
+      24,
+      91
+     ]
+    },
+    {
+     "item": 34,
+     "role": "frame_1",
+     "src": [
+      508,
+      42,
+      24,
+      73
+     ]
+    },
+    {
+     "item": 35,
+     "role": "frame_2",
+     "src": [
+      532,
+      40,
+      22,
+      76
+     ]
+    }
+   ],
+   "box": [
+    482,
+    23,
+    72,
+    93
+   ]
+  },
+  {
+   "id": 4,
+   "name": "totem_walk",
+   "file": "totem_walk.png",
+   "cell": [
+    26,
+    76
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 36,
+     "role": "frame_0",
+     "src": [
+      555,
+      41,
+      22,
+      76
+     ]
+    },
+    {
+     "item": 37,
+     "role": "frame_1",
+     "src": [
+      578,
+      43,
+      24,
+      74
+     ]
+    },
+    {
+     "item": 38,
+     "role": "frame_2",
+     "src": [
+      601,
+      43,
+      25,
+      74
+     ]
+    },
+    {
+     "item": 39,
+     "role": "frame_3",
+     "src": [
+      625,
+      44,
+      26,
+      73
+     ]
+    }
+   ],
+   "box": [
+    555,
+    41,
+    96,
+    76
+   ]
+  },
+  {
+   "id": 5,
+   "name": "totem_run",
+   "file": "totem_run.png",
+   "cell": [
+    30,
+    74
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 40,
+     "role": "frame_0",
+     "src": [
+      649,
+      47,
+      28,
+      71
+     ]
+    },
+    {
+     "item": 41,
+     "role": "frame_1",
+     "src": [
+      675,
+      48,
+      25,
+      71
+     ]
+    },
+    {
+     "item": 42,
+     "role": "frame_2",
+     "src": [
+      696,
+      47,
+      27,
+      72
+     ]
+    },
+    {
+     "item": 43,
+     "role": "frame_3",
+     "src": [
+      723,
+      48,
+      25,
+      71
+     ]
+    },
+    {
+     "item": 44,
+     "role": "frame_4",
+     "src": [
+      745,
+      49,
+      28,
+      71
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_5",
+     "src": [
+      769,
+      49,
+      27,
+      72
+     ]
+    }
+   ],
+   "box": [
+    649,
+    47,
+    147,
+    74
+   ]
+  },
+  {
+   "id": 6,
+   "name": "totem_collapse",
+   "file": "totem_collapse.png",
+   "cell": [
+    27,
+    59
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 16,
+     "role": "frame_0",
+     "src": [
+      796,
+      63,
+      25,
+      59
+     ]
+    },
+    {
+     "item": 45,
+     "role": "frame_1",
+     "src": [
+      822,
+      74,
+      24,
+      46
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_2",
+     "src": [
+      845,
+      89,
+      24,
+      32
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_3",
+     "src": [
+      869,
+      103,
+      18,
+      19
+     ]
+    }
+   ],
+   "box": [
+    796,
+    63,
+    91,
+    59
+   ]
+  },
+  {
+   "id": 7,
+   "name": "yellow_bandit_defeat",
+   "file": "yellow_bandit_defeat.png",
+   "cell": [
+    22,
+    20
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 21,
+     "role": "frame_0",
+     "src": [
+      936,
+      103,
+      18,
+      19
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_1",
+     "src": [
+      891,
+      102,
+      22,
+      20
+     ]
+    }
+   ],
+   "box": [
+    891,
+    102,
+    63,
+    20
+   ]
+  },
+  {
+   "id": 8,
+   "name": "brown_bandit_defeat",
+   "file": "brown_bandit_defeat.png",
+   "cell": [
+    22,
+    20
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 22,
+     "role": "frame_0",
+     "src": [
+      957,
+      103,
+      18,
+      19
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_1",
+     "src": [
+      914,
+      102,
+      22,
+      20
+     ]
+    }
+   ],
+   "box": [
+    914,
+    102,
+    61,
+    20
+   ]
+  },
+  {
+   "id": 9,
+   "name": "dive_hole",
+   "file": "dive_hole.png",
+   "cell": [
+    25,
+    35
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 23,
+     "role": "frame_0",
+     "src": [
+      980,
+      91,
+      15,
+      32
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_1",
+     "src": [
+      1002,
+      88,
+      15,
+      35
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_2",
+     "src": [
+      1020,
+      97,
+      21,
+      26
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_3",
+     "src": [
+      1044,
+      102,
+      23,
+      21
+     ]
+    }
+   ],
+   "box": [
+    980,
+    88,
+    87,
+    35
+   ]
+  },
+  {
+   "id": 10,
+   "name": "burrow_hole",
+   "file": "burrow_hole.png",
+   "cell": [
+    23,
+    23
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 27,
+     "role": "frame_0",
+     "src": [
+      1072,
+      104,
+      23,
+      20
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_1",
+     "src": [
+      1101,
+      108,
+      23,
+      18
+     ]
+    },
+    {
+     "item": 29,
+     "role": "frame_2",
+     "src": [
+      1127,
+      110,
+      23,
+      16
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_3",
+     "src": [
+      1155,
+      111,
+      23,
+      15
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_4",
+     "src": [
+      1182,
+      114,
+      19,
+      13
+     ]
+    },
+    {
+     "item": 32,
+     "role": "frame_5",
+     "src": [
+      1208,
+      117,
+      14,
+      10
+     ]
+    }
+   ],
+   "box": [
+    1072,
+    104,
+    150,
+    23
+   ]
+  }
+ ],
+ "items": [],
+ "status": "ok",
+ "missing_stages": []
+}

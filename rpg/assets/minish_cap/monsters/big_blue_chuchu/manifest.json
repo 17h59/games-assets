@@ -1,0 +1,1117 @@
+{
+ "sheet": "6460",
+ "game": "minish_cap",
+ "category": "monsters",
+ "title": "Big Blue Chuchu",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    208,
+    6,
+    26,
+    7
+   ],
+   "point": [
+    221,
+    9
+   ],
+   "name": "idle",
+   "folder": "idle"
+  },
+  {
+   "id": 1,
+   "box": [
+    7,
+    22,
+    140,
+    10
+   ],
+   "point": [
+    77,
+    27
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 2,
+   "box": [
+    18,
+    35,
+    154,
+    7
+   ],
+   "point": [
+    95,
+    38
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 3,
+   "box": [
+    19,
+    45,
+    152,
+    7
+   ],
+   "point": [
+    95,
+    48
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 4,
+   "box": [
+    13,
+    55,
+    166,
+    7
+   ],
+   "point": [
+    96,
+    58
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 5,
+   "box": [
+    165,
+    63,
+    20,
+    7
+   ],
+   "point": [
+    175,
+    66
+   ],
+   "name": "hit",
+   "folder": "hit"
+  },
+  {
+   "id": 6,
+   "box": [
+    141,
+    120,
+    68,
+    7
+   ],
+   "point": [
+    175,
+    123
+   ],
+   "name": "jumping",
+   "folder": "jumping"
+  },
+  {
+   "id": 7,
+   "box": [
+    150,
+    178,
+    50,
+    7
+   ],
+   "point": [
+    175,
+    181
+   ],
+   "name": "falling",
+   "folder": "falling"
+  },
+  {
+   "id": 8,
+   "box": [
+    149,
+    236,
+    46,
+    7
+   ],
+   "point": [
+    172,
+    239
+   ],
+   "name": "death",
+   "folder": "death"
+  },
+  {
+   "id": 9,
+   "box": [
+    8,
+    332,
+    92,
+    8
+   ],
+   "point": [
+    54,
+    336
+   ],
+   "name": "effects",
+   "folder": "effects"
+  },
+  {
+   "id": 10,
+   "box": [
+    269,
+    333,
+    71,
+    8
+   ],
+   "point": [
+    304,
+    337
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 11,
+   "box": [
+    102,
+    336,
+    166,
+    9
+   ],
+   "point": [
+    185,
+    340
+   ],
+   "name": "repeat",
+   "folder": "repeat"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "hit",
+   "file": "hit/hit.png",
+   "cell": [
+    46,
+    43
+   ],
+   "zone": null,
+   "set": 5,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      57,
+      73,
+      46,
+      42
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_1",
+     "src": [
+      105,
+      74,
+      44,
+      42
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_2",
+     "src": [
+      152,
+      73,
+      44,
+      43
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_3",
+     "src": [
+      199,
+      74,
+      44,
+      42
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_4",
+     "src": [
+      245,
+      73,
+      46,
+      43
+     ]
+    }
+   ],
+   "box": [
+    57,
+    73,
+    234,
+    43
+   ]
+  },
+  {
+   "id": 1,
+   "name": "jumping",
+   "file": "jumping/jumping.png",
+   "cell": [
+    44,
+    45
+   ],
+   "zone": null,
+   "set": 6,
+   "template": "none",
+   "frames": [
+    {
+     "item": 6,
+     "role": "frame_0",
+     "src": [
+      81,
+      130,
+      44,
+      45
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_1",
+     "src": [
+      128,
+      131,
+      44,
+      44
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_2",
+     "src": [
+      175,
+      132,
+      44,
+      43
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_3",
+     "src": [
+      222,
+      133,
+      44,
+      42
+     ]
+    }
+   ],
+   "box": [
+    81,
+    130,
+    185,
+    45
+   ]
+  },
+  {
+   "id": 2,
+   "name": "falling",
+   "file": "falling/falling.png",
+   "cell": [
+    44,
+    44
+   ],
+   "zone": null,
+   "set": 7,
+   "template": "none",
+   "frames": [
+    {
+     "item": 10,
+     "role": "frame_0",
+     "src": [
+      81,
+      190,
+      44,
+      43
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_1",
+     "src": [
+      128,
+      190,
+      44,
+      43
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_2",
+     "src": [
+      175,
+      189,
+      44,
+      44
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_3",
+     "src": [
+      222,
+      190,
+      44,
+      43
+     ],
+     "duplicate_of": 1
+    }
+   ],
+   "box": [
+    81,
+    189,
+    185,
+    44
+   ]
+  },
+  {
+   "id": 3,
+   "name": "death",
+   "file": "death/death.png",
+   "cell": [
+    44,
+    43
+   ],
+   "zone": null,
+   "set": 8,
+   "template": "none",
+   "frames": [
+    {
+     "item": 14,
+     "role": "frame_0",
+     "src": [
+      34,
+      246,
+      44,
+      43
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_1",
+     "src": [
+      81,
+      246,
+      44,
+      43
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_2",
+     "src": [
+      128,
+      246,
+      44,
+      43
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_3",
+     "src": [
+      175,
+      246,
+      44,
+      43
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_4",
+     "src": [
+      222,
+      247,
+      44,
+      42
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_5",
+     "src": [
+      269,
+      246,
+      44,
+      43
+     ]
+    }
+   ],
+   "box": [
+    34,
+    246,
+    279,
+    43
+   ]
+  },
+  {
+   "id": 4,
+   "name": "repeat",
+   "file": "repeat/repeat.png",
+   "cell": [
+    44,
+    43
+   ],
+   "zone": null,
+   "set": 11,
+   "template": "none",
+   "frames": [
+    {
+     "item": 20,
+     "role": "frame_0",
+     "src": [
+      11,
+      292,
+      44,
+      43
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_1",
+     "src": [
+      58,
+      292,
+      44,
+      43
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_2",
+     "src": [
+      105,
+      292,
+      44,
+      43
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_3",
+     "src": [
+      152,
+      292,
+      44,
+      43
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_4",
+     "src": [
+      199,
+      292,
+      44,
+      43
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_5",
+     "src": [
+      246,
+      292,
+      44,
+      43
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_6",
+     "src": [
+      293,
+      292,
+      44,
+      43
+     ]
+    }
+   ],
+   "box": [
+    11,
+    292,
+    326,
+    43
+   ]
+  },
+  {
+   "id": 5,
+   "name": "stars",
+   "file": "effects/stars.png",
+   "cell": [
+    15,
+    15
+   ],
+   "zone": null,
+   "set": 9,
+   "template": "none",
+   "frames": [
+    {
+     "item": 38,
+     "role": "frame_0",
+     "src": [
+      150,
+      360,
+      15,
+      15
+     ]
+    },
+    {
+     "item": 39,
+     "role": "frame_1",
+     "src": [
+      168,
+      362,
+      11,
+      11
+     ]
+    }
+   ],
+   "box": [
+    150,
+    360,
+    29,
+    15
+   ]
+  },
+  {
+   "id": 6,
+   "name": "droplets",
+   "file": "effects/droplets.png",
+   "cell": [
+    15,
+    25
+   ],
+   "zone": null,
+   "set": 9,
+   "template": "none",
+   "frames": [
+    {
+     "item": 40,
+     "role": "frame_0",
+     "src": [
+      183,
+      350,
+      15,
+      25
+     ]
+    },
+    {
+     "item": 41,
+     "role": "frame_1",
+     "src": [
+      199,
+      351,
+      15,
+      23
+     ]
+    }
+   ],
+   "box": [
+    183,
+    350,
+    31,
+    25
+   ]
+  },
+  {
+   "id": 7,
+   "name": "bubbles",
+   "file": "effects/bubbles.png",
+   "cell": [
+    14,
+    15
+   ],
+   "zone": null,
+   "set": 9,
+   "template": "none",
+   "frames": [
+    {
+     "item": 29,
+     "role": "frame_0",
+     "src": [
+      5,
+      360,
+      14,
+      15
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_1",
+     "src": [
+      22,
+      361,
+      13,
+      14
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_2",
+     "src": [
+      38,
+      361,
+      12,
+      13
+     ]
+    },
+    {
+     "item": 32,
+     "role": "frame_3",
+     "src": [
+      55,
+      362,
+      11,
+      12
+     ]
+    },
+    {
+     "item": 33,
+     "role": "frame_4",
+     "src": [
+      71,
+      363,
+      10,
+      10
+     ]
+    },
+    {
+     "item": 34,
+     "role": "frame_5",
+     "src": [
+      88,
+      365,
+      8,
+      7
+     ]
+    },
+    {
+     "item": 35,
+     "role": "frame_6",
+     "src": [
+      105,
+      366,
+      7,
+      5
+     ]
+    },
+    {
+     "item": 36,
+     "role": "frame_7",
+     "src": [
+      122,
+      367,
+      4,
+      3
+     ]
+    },
+    {
+     "item": 37,
+     "role": "frame_8",
+     "src": [
+      139,
+      367,
+      3,
+      3
+     ]
+    }
+   ],
+   "box": [
+    5,
+    360,
+    137,
+    15
+   ]
+  },
+  {
+   "id": 8,
+   "name": "beam_sw",
+   "file": "effects/beam_sw.png",
+   "cell": [
+    15,
+    28
+   ],
+   "zone": null,
+   "set": 9,
+   "template": "none",
+   "frames": [
+    {
+     "item": 42,
+     "role": "frame_0",
+     "src": [
+      6,
+      380,
+      15,
+      28
+     ]
+    },
+    {
+     "item": 50,
+     "role": "frame_1",
+     "src": [
+      6,
+      430,
+      15,
+      28
+     ]
+    }
+   ],
+   "box": [
+    6,
+    380,
+    15,
+    78
+   ]
+  },
+  {
+   "id": 9,
+   "name": "beam_s",
+   "file": "effects/beam_s.png",
+   "cell": [
+    7,
+    32
+   ],
+   "zone": null,
+   "set": 9,
+   "template": "none",
+   "frames": [
+    {
+     "item": 43,
+     "role": "frame_0",
+     "src": [
+      26,
+      376,
+      7,
+      32
+     ]
+    },
+    {
+     "item": 51,
+     "role": "frame_1",
+     "src": [
+      26,
+      426,
+      7,
+      32
+     ]
+    }
+   ],
+   "box": [
+    26,
+    376,
+    7,
+    82
+   ]
+  },
+  {
+   "id": 10,
+   "name": "beam_e",
+   "file": "effects/beam_e.png",
+   "cell": [
+    32,
+    7
+   ],
+   "zone": null,
+   "set": 9,
+   "template": "none",
+   "frames": [
+    {
+     "item": 44,
+     "role": "frame_0",
+     "src": [
+      39,
+      398,
+      32,
+      7
+     ]
+    },
+    {
+     "item": 52,
+     "role": "frame_1",
+     "src": [
+      39,
+      448,
+      32,
+      7
+     ]
+    }
+   ],
+   "box": [
+    39,
+    398,
+    32,
+    57
+   ]
+  },
+  {
+   "id": 11,
+   "name": "beam_se",
+   "file": "effects/beam_se.png",
+   "cell": [
+    28,
+    15
+   ],
+   "zone": null,
+   "set": 9,
+   "template": "none",
+   "frames": [
+    {
+     "item": 49,
+     "role": "frame_0",
+     "src": [
+      43,
+      377,
+      28,
+      15
+     ]
+    },
+    {
+     "item": 57,
+     "role": "frame_1",
+     "src": [
+      43,
+      427,
+      28,
+      15
+     ]
+    }
+   ],
+   "box": [
+    43,
+    377,
+    28,
+    65
+   ]
+  },
+  {
+   "id": 12,
+   "name": "lightning_zigzag_yellow",
+   "file": "effects/lightning_zigzag_yellow.png",
+   "cell": [
+    47,
+    32
+   ],
+   "zone": null,
+   "set": 9,
+   "template": "none",
+   "frames": [
+    {
+     "item": 45,
+     "role": "frame_0",
+     "src": [
+      72,
+      376,
+      31,
+      32
+     ]
+    },
+    {
+     "item": 46,
+     "role": "frame_1",
+     "src": [
+      106,
+      376,
+      47,
+      31
+     ]
+    }
+   ],
+   "box": [
+    72,
+    376,
+    81,
+    32
+   ]
+  },
+  {
+   "id": 13,
+   "name": "lightning_zigzag_orange",
+   "file": "effects/lightning_zigzag_orange.png",
+   "cell": [
+    47,
+    32
+   ],
+   "zone": null,
+   "set": 9,
+   "template": "none",
+   "frames": [
+    {
+     "item": 53,
+     "role": "frame_0",
+     "src": [
+      72,
+      426,
+      31,
+      32
+     ]
+    },
+    {
+     "item": 54,
+     "role": "frame_1",
+     "src": [
+      106,
+      426,
+      47,
+      31
+     ]
+    }
+   ],
+   "box": [
+    72,
+    426,
+    81,
+    32
+   ]
+  },
+  {
+   "id": 14,
+   "name": "lightning_vertical_yellow",
+   "file": "effects/lightning_vertical_yellow.png",
+   "cell": [
+    28,
+    49
+   ],
+   "zone": null,
+   "set": 9,
+   "template": "none",
+   "frames": [
+    {
+     "item": 47,
+     "role": "frame_0",
+     "src": [
+      158,
+      377,
+      28,
+      48
+     ]
+    },
+    {
+     "item": 48,
+     "role": "frame_1",
+     "src": [
+      187,
+      376,
+      16,
+      48
+     ]
+    }
+   ],
+   "box": [
+    158,
+    376,
+    45,
+    49
+   ]
+  },
+  {
+   "id": 15,
+   "name": "lightning_vertical_orange",
+   "file": "effects/lightning_vertical_orange.png",
+   "cell": [
+    28,
+    49
+   ],
+   "zone": null,
+   "set": 9,
+   "template": "none",
+   "frames": [
+    {
+     "item": 55,
+     "role": "frame_0",
+     "src": [
+      158,
+      427,
+      28,
+      48
+     ]
+    },
+    {
+     "item": 56,
+     "role": "frame_1",
+     "src": [
+      187,
+      426,
+      16,
+      48
+     ]
+    }
+   ],
+   "box": [
+    158,
+    426,
+    45,
+    49
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 199,
+   "y": 16,
+   "w": 44,
+   "h": 43,
+   "area": 1214,
+   "ncolors": 15,
+   "dominant": "#60E0F8",
+   "dom_frac": 0.235,
+   "kind": "sprite",
+   "zone": null,
+   "name": "idle",
+   "set": 0,
+   "id": 0,
+   "file": "idle/idle.png"
+  },
+  {
+   "x": 216,
+   "y": 347,
+   "w": 32,
+   "h": 32,
+   "area": 818,
+   "ncolors": 7,
+   "dominant": "#60E0F8",
+   "dom_frac": 0.403,
+   "kind": "sprite",
+   "zone": null,
+   "name": "body_ball",
+   "set": 9,
+   "id": 27,
+   "file": "effects/body_ball.png"
+  },
+  {
+   "x": 250,
+   "y": 357,
+   "w": 40,
+   "h": 22,
+   "area": 586,
+   "ncolors": 7,
+   "dominant": "#C8F8F8",
+   "dom_frac": 0.222,
+   "kind": "sprite",
+   "zone": null,
+   "cut": true,
+   "name": "splat",
+   "set": 9,
+   "id": 28,
+   "file": "effects/splat.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

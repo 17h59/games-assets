@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/emerald/characters/may/throw_pokeball.png" id="1_ncx8g"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3iclt"]
+atlas = ExtResource("1_ncx8g")
+region = Rect2(0, 0, 20, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qd06j"]
+atlas = ExtResource("1_ncx8g")
+region = Rect2(20, 0, 20, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g12qe"]
+atlas = ExtResource("1_ncx8g")
+region = Rect2(40, 0, 20, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d17af"]
+atlas = ExtResource("1_ncx8g")
+region = Rect2(60, 0, 20, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8fd6q"]
+atlas = ExtResource("1_ncx8g")
+region = Rect2(80, 0, 20, 22)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3iclt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qd06j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g12qe")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d17af")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8fd6q")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

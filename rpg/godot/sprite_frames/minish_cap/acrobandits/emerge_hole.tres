@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/acrobandits/emerge_hole.png" id="1_ppha3"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ixt8p"]
+atlas = ExtResource("1_ppha3")
+region = Rect2(0, 0, 23, 84)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cy0hw"]
+atlas = ExtResource("1_ppha3")
+region = Rect2(23, 0, 23, 84)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_reoyk"]
+atlas = ExtResource("1_ppha3")
+region = Rect2(46, 0, 23, 84)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ixt8p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cy0hw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_reoyk")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

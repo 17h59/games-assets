@@ -1,0 +1,74 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/keaton/keaton_e001.png" id="1_h72km"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wiveg"]
+atlas = ExtResource("1_h72km")
+region = Rect2(0, 0, 26, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v3kex"]
+atlas = ExtResource("1_h72km")
+region = Rect2(26, 0, 26, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xo74a"]
+atlas = ExtResource("1_h72km")
+region = Rect2(52, 0, 26, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1qmlc"]
+atlas = ExtResource("1_h72km")
+region = Rect2(78, 0, 26, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a1pdi"]
+atlas = ExtResource("1_h72km")
+region = Rect2(104, 0, 26, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3muvt"]
+atlas = ExtResource("1_h72km")
+region = Rect2(130, 0, 26, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6mmqm"]
+atlas = ExtResource("1_h72km")
+region = Rect2(156, 0, 26, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_csplb"]
+atlas = ExtResource("1_h72km")
+region = Rect2(182, 0, 26, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ylkvx"]
+atlas = ExtResource("1_h72km")
+region = Rect2(208, 0, 26, 26)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wiveg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v3kex")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xo74a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1qmlc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a1pdi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3muvt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6mmqm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_csplb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ylkvx")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/emerald/characters/may/intro_bike.png" id="1_tubmy"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3ptvq"]
+atlas = ExtResource("1_tubmy")
+region = Rect2(0, 0, 44, 46)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_27vc1"]
+atlas = ExtResource("1_tubmy")
+region = Rect2(44, 0, 44, 46)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_svwwk"]
+atlas = ExtResource("1_tubmy")
+region = Rect2(88, 0, 44, 46)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3ptvq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_27vc1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_svwwk")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

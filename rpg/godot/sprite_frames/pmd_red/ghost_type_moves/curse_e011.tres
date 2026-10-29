@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/ghost_type_moves/curse/curse_e011.png" id="1_jr1eq"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nhcrm"]
+atlas = ExtResource("1_jr1eq")
+region = Rect2(0, 0, 23, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gqw3t"]
+atlas = ExtResource("1_jr1eq")
+region = Rect2(23, 0, 23, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_02qmh"]
+atlas = ExtResource("1_jr1eq")
+region = Rect2(46, 0, 23, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l8cxo"]
+atlas = ExtResource("1_jr1eq")
+region = Rect2(69, 0, 23, 31)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nhcrm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gqw3t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_02qmh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l8cxo")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/chikorita_hut/flag.png" id="1_uy3vj"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6jesl"]
+atlas = ExtResource("1_uy3vj")
+region = Rect2(0, 0, 31, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gdtxj"]
+atlas = ExtResource("1_uy3vj")
+region = Rect2(31, 0, 31, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k45yr"]
+atlas = ExtResource("1_uy3vj")
+region = Rect2(62, 0, 31, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6trcb"]
+atlas = ExtResource("1_uy3vj")
+region = Rect2(93, 0, 31, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2ptib"]
+atlas = ExtResource("1_uy3vj")
+region = Rect2(124, 0, 31, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_38xmv"]
+atlas = ExtResource("1_uy3vj")
+region = Rect2(155, 0, 31, 24)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6jesl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gdtxj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k45yr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6trcb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2ptib")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_38xmv")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

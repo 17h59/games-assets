@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/magma_cavern/magma_cavern_e000.png" id="1_ttsi8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u30u3"]
+atlas = ExtResource("1_ttsi8")
+region = Rect2(0, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6d1sq"]
+atlas = ExtResource("1_ttsi8")
+region = Rect2(8, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gs8vq"]
+atlas = ExtResource("1_ttsi8")
+region = Rect2(16, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_of6uj"]
+atlas = ExtResource("1_ttsi8")
+region = Rect2(24, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_761rl"]
+atlas = ExtResource("1_ttsi8")
+region = Rect2(32, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8d2j5"]
+atlas = ExtResource("1_ttsi8")
+region = Rect2(40, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b4q03"]
+atlas = ExtResource("1_ttsi8")
+region = Rect2(48, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l0665"]
+atlas = ExtResource("1_ttsi8")
+region = Rect2(56, 0, 8, 8)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u30u3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6d1sq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gs8vq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_of6uj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_761rl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8d2j5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b4q03")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l0665")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

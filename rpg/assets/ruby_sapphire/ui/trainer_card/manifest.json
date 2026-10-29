@@ -1,0 +1,336 @@
+{
+ "sheet": "8307",
+ "game": "ruby_sapphire",
+ "category": "ui",
+ "title": "Trainer Card",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    147,
+    606,
+    161,
+    12
+   ],
+   "point": [
+    227,
+    612
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 1,
+   "box": [
+    26,
+    612,
+    56,
+    8
+   ],
+   "point": [
+    54,
+    616
+   ],
+   "name": null,
+   "folder": "set_01"
+  },
+  {
+   "id": 2,
+   "box": [
+    147,
+    621,
+    252,
+    12
+   ],
+   "point": [
+    273,
+    627
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 3,
+   "box": [
+    26,
+    626,
+    64,
+    8
+   ],
+   "point": [
+    58,
+    630
+   ],
+   "name": null,
+   "folder": "set_03"
+  },
+  {
+   "id": 4,
+   "box": [
+    438,
+    630,
+    87,
+    8
+   ],
+   "point": [
+    481,
+    634
+   ],
+   "name": null,
+   "folder": "set_04"
+  },
+  {
+   "id": 5,
+   "box": [
+    147,
+    636,
+    170,
+    12
+   ],
+   "point": [
+    232,
+    642
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 6,
+   "box": [
+    433,
+    644,
+    79,
+    8
+   ],
+   "point": [
+    472,
+    648
+   ],
+   "name": null,
+   "folder": "set_06"
+  },
+  {
+   "id": 7,
+   "box": [
+    169,
+    679,
+    212,
+    9
+   ],
+   "point": [
+    275,
+    683
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 8,
+   "box": [
+    169,
+    694,
+    125,
+    9
+   ],
+   "point": [
+    231,
+    698
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 9,
+   "box": [
+    169,
+    709,
+    92,
+    9
+   ],
+   "point": [
+    215,
+    713
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [],
+ "items": [
+  {
+   "x": 95,
+   "y": 495,
+   "w": 36,
+   "h": 53,
+   "area": 818,
+   "ncolors": 13,
+   "dominant": "#000000",
+   "dom_frac": 0.193,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "trainer_card_000.png"
+  },
+  {
+   "x": 386,
+   "y": 495,
+   "w": 37,
+   "h": 54,
+   "area": 779,
+   "ncolors": 0,
+   "dominant": "",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 1,
+   "file": "trainer_card_001.png"
+  },
+  {
+   "x": 167,
+   "y": 573,
+   "w": 16,
+   "h": 14,
+   "area": 111,
+   "ncolors": 4,
+   "dominant": "#B0B0B0",
+   "dom_frac": 0.333,
+   "kind": "sprite",
+   "zone": null,
+   "id": 2,
+   "file": "trainer_card_002.png"
+  },
+  {
+   "x": 192,
+   "y": 574,
+   "w": 14,
+   "h": 12,
+   "area": 110,
+   "ncolors": 4,
+   "dominant": "#D0D0D0",
+   "dom_frac": 0.445,
+   "kind": "sprite",
+   "zone": null,
+   "id": 3,
+   "file": "trainer_card_003.png"
+  },
+  {
+   "x": 216,
+   "y": 573,
+   "w": 14,
+   "h": 14,
+   "area": 110,
+   "ncolors": 4,
+   "dominant": "#000000",
+   "dom_frac": 0.364,
+   "kind": "sprite",
+   "zone": null,
+   "id": 4,
+   "file": "trainer_card_004.png"
+  },
+  {
+   "x": 239,
+   "y": 572,
+   "w": 16,
+   "h": 16,
+   "area": 122,
+   "ncolors": 3,
+   "dominant": "#D0D0D0",
+   "dom_frac": 0.557,
+   "kind": "sprite",
+   "zone": null,
+   "id": 5,
+   "file": "trainer_card_005.png"
+  },
+  {
+   "x": 263,
+   "y": 572,
+   "w": 16,
+   "h": 16,
+   "area": 98,
+   "ncolors": 3,
+   "dominant": "#000000",
+   "dom_frac": 0.49,
+   "kind": "sprite",
+   "zone": null,
+   "id": 6,
+   "file": "trainer_card_006.png"
+  },
+  {
+   "x": 288,
+   "y": 572,
+   "w": 14,
+   "h": 16,
+   "area": 131,
+   "ncolors": 3,
+   "dominant": "#D0D0D0",
+   "dom_frac": 0.588,
+   "kind": "sprite",
+   "zone": null,
+   "id": 7,
+   "file": "trainer_card_007.png"
+  },
+  {
+   "x": 310,
+   "y": 573,
+   "w": 16,
+   "h": 14,
+   "area": 126,
+   "ncolors": 4,
+   "dominant": "#D0D0D0",
+   "dom_frac": 0.413,
+   "kind": "sprite",
+   "zone": null,
+   "id": 8,
+   "file": "trainer_card_008.png"
+  },
+  {
+   "x": 334,
+   "y": 572,
+   "w": 16,
+   "h": 16,
+   "area": 126,
+   "ncolors": 3,
+   "dominant": "#000000",
+   "dom_frac": 0.476,
+   "kind": "sprite",
+   "zone": null,
+   "id": 9,
+   "file": "trainer_card_009.png"
+  },
+  {
+   "x": 18,
+   "y": 606,
+   "w": 89,
+   "h": 105,
+   "area": 772,
+   "ncolors": 15,
+   "dominant": "#000000",
+   "dom_frac": 0.582,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 10,
+   "file": "set_06/set_06_010.png"
+  },
+  {
+   "x": 105,
+   "y": 680,
+   "w": 28,
+   "h": 33,
+   "area": 482,
+   "ncolors": 0,
+   "dominant": "",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "set": 6,
+   "id": 11,
+   "file": "set_06/set_06_011.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

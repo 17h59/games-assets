@@ -1,0 +1,331 @@
+{
+ "sheet": "6523",
+ "game": "minish_cap",
+ "category": "monsters",
+ "title": "Spiked Beetle",
+ "type": "sprites",
+ "template": "none",
+ "validation": "pending",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "spiked_beetle_e000",
+   "file": "spiked_beetle_e000.png",
+   "cell": [
+    19,
+    22
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      9,
+      3,
+      18,
+      20
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      31,
+      4,
+      19,
+      20
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      54,
+      3,
+      19,
+      20
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      77,
+      2,
+      18,
+      20
+     ]
+    }
+   ],
+   "box": [
+    9,
+    2,
+    86,
+    22
+   ]
+  },
+  {
+   "id": 1,
+   "name": "spiked_beetle_e001",
+   "file": "spiked_beetle_e001.png",
+   "cell": [
+    18,
+    19
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 4,
+     "role": "frame_0",
+     "src": [
+      22,
+      27,
+      17,
+      19
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_1",
+     "src": [
+      42,
+      28,
+      17,
+      18
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_2",
+     "src": [
+      63,
+      27,
+      18,
+      19
+     ]
+    }
+   ],
+   "box": [
+    22,
+    27,
+    59,
+    19
+   ]
+  },
+  {
+   "id": 2,
+   "name": "spiked_beetle_e002",
+   "file": "spiked_beetle_e002.png",
+   "cell": [
+    17,
+    19
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 7,
+     "role": "frame_0",
+     "src": [
+      11,
+      51,
+      17,
+      18
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_1",
+     "src": [
+      32,
+      51,
+      17,
+      19
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_2",
+     "src": [
+      53,
+      51,
+      17,
+      19
+     ],
+     "mirror_of": 1
+    },
+    {
+     "item": 10,
+     "role": "frame_3",
+     "src": [
+      74,
+      51,
+      17,
+      18
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    11,
+    51,
+    80,
+    19
+   ]
+  },
+  {
+   "id": 3,
+   "name": "spiked_beetle_e003",
+   "file": "spiked_beetle_e003.png",
+   "cell": [
+    18,
+    19
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 11,
+     "role": "frame_0",
+     "src": [
+      22,
+      72,
+      18,
+      19
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_1",
+     "src": [
+      44,
+      73,
+      17,
+      18
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_2",
+     "src": [
+      64,
+      72,
+      17,
+      19
+     ]
+    }
+   ],
+   "box": [
+    22,
+    72,
+    59,
+    19
+   ]
+  },
+  {
+   "id": 4,
+   "name": "spiked_beetle_e004",
+   "file": "spiked_beetle_e004.png",
+   "cell": [
+    17,
+    19
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 14,
+     "role": "frame_0",
+     "src": [
+      14,
+      95,
+      17,
+      18
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_1",
+     "src": [
+      34,
+      94,
+      17,
+      18
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_2",
+     "src": [
+      54,
+      95,
+      17,
+      18
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 17,
+     "role": "frame_3",
+     "src": [
+      74,
+      94,
+      17,
+      18
+     ]
+    }
+   ],
+   "box": [
+    14,
+    94,
+    77,
+    19
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 44,
+   "y": 118,
+   "w": 17,
+   "h": 17,
+   "area": 182,
+   "ncolors": 11,
+   "dominant": "#C8C0B8",
+   "dom_frac": 0.187,
+   "kind": "sprite",
+   "zone": null,
+   "id": 18,
+   "file": "spiked_beetle_018.png"
+  },
+  {
+   "x": 42,
+   "y": 140,
+   "w": 19,
+   "h": 20,
+   "area": 220,
+   "ncolors": 13,
+   "dominant": "#605850",
+   "dom_frac": 0.159,
+   "kind": "sprite",
+   "zone": null,
+   "id": 19,
+   "file": "spiked_beetle_019.png"
+  }
+ ],
+ "status": "needs_review",
+ "missing_stages": [
+  "decoupage",
+  "regroupement",
+  "nommage"
+ ]
+}

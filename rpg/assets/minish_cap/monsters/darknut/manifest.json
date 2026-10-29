@@ -1,0 +1,5690 @@
+{
+ "sheet": "64168",
+ "game": "minish_cap",
+ "category": "monsters",
+ "title": "Darknut",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "darknut_e000",
+   "file": "darknut_e000.png",
+   "cell": [
+    50,
+    48
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      13,
+      5,
+      36,
+      47
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      54,
+      5,
+      36,
+      48
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      95,
+      5,
+      36,
+      47
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      136,
+      5,
+      36,
+      47
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_4",
+     "src": [
+      176,
+      5,
+      36,
+      48
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_5",
+     "src": [
+      218,
+      5,
+      36,
+      47
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_6",
+     "src": [
+      258,
+      5,
+      36,
+      47
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_7",
+     "src": [
+      300,
+      5,
+      36,
+      48
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_8",
+     "src": [
+      341,
+      5,
+      36,
+      47
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_9",
+     "src": [
+      382,
+      5,
+      36,
+      47
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_10",
+     "src": [
+      423,
+      5,
+      36,
+      47
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_11",
+     "src": [
+      464,
+      5,
+      36,
+      47
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_12",
+     "src": [
+      505,
+      5,
+      36,
+      47
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_13",
+     "src": [
+      545,
+      8,
+      38,
+      43
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_14",
+     "src": [
+      591,
+      9,
+      34,
+      43
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_15",
+     "src": [
+      626,
+      22,
+      50,
+      31
+     ]
+    }
+   ],
+   "box": [
+    13,
+    5,
+    663,
+    48
+   ]
+  },
+  {
+   "id": 1,
+   "name": "darknut_e001",
+   "file": "darknut_e001.png",
+   "cell": [
+    35,
+    47
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 16,
+     "role": "frame_0",
+     "src": [
+      11,
+      56,
+      31,
+      46
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_1",
+     "src": [
+      44,
+      58,
+      32,
+      44
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_2",
+     "src": [
+      78,
+      57,
+      31,
+      45
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_3",
+     "src": [
+      112,
+      56,
+      29,
+      45
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_4",
+     "src": [
+      144,
+      58,
+      31,
+      44
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_5",
+     "src": [
+      176,
+      58,
+      33,
+      44
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_6",
+     "src": [
+      217,
+      57,
+      32,
+      45
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_7",
+     "src": [
+      250,
+      57,
+      32,
+      45
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_8",
+     "src": [
+      283,
+      57,
+      31,
+      45
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_9",
+     "src": [
+      316,
+      57,
+      31,
+      45
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_10",
+     "src": [
+      349,
+      57,
+      31,
+      45
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_11",
+     "src": [
+      382,
+      57,
+      31,
+      45
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_12",
+     "src": [
+      415,
+      57,
+      31,
+      45
+     ]
+    },
+    {
+     "item": 29,
+     "role": "frame_13",
+     "src": [
+      454,
+      62,
+      33,
+      40
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_14",
+     "src": [
+      494,
+      67,
+      35,
+      34
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_15",
+     "src": [
+      536,
+      55,
+      33,
+      47
+     ]
+    }
+   ],
+   "box": [
+    11,
+    55,
+    558,
+    47
+   ]
+  },
+  {
+   "id": 2,
+   "name": "darknut_e002",
+   "file": "darknut_e002.png",
+   "cell": [
+    39,
+    36
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 32,
+     "role": "frame_0",
+     "src": [
+      12,
+      107,
+      38,
+      35
+     ]
+    },
+    {
+     "item": 33,
+     "role": "frame_1",
+     "src": [
+      53,
+      109,
+      38,
+      34
+     ]
+    },
+    {
+     "item": 34,
+     "role": "frame_2",
+     "src": [
+      93,
+      109,
+      39,
+      33
+     ]
+    },
+    {
+     "item": 35,
+     "role": "frame_3",
+     "src": [
+      136,
+      109,
+      37,
+      34
+     ]
+    },
+    {
+     "item": 36,
+     "role": "frame_4",
+     "src": [
+      175,
+      109,
+      39,
+      34
+     ]
+    },
+    {
+     "item": 37,
+     "role": "frame_5",
+     "src": [
+      217,
+      108,
+      38,
+      33
+     ]
+    },
+    {
+     "item": 38,
+     "role": "frame_6",
+     "src": [
+      257,
+      108,
+      39,
+      34
+     ]
+    },
+    {
+     "item": 39,
+     "role": "frame_7",
+     "src": [
+      300,
+      108,
+      37,
+      34
+     ]
+    },
+    {
+     "item": 40,
+     "role": "frame_8",
+     "src": [
+      341,
+      108,
+      37,
+      34
+     ]
+    },
+    {
+     "item": 41,
+     "role": "frame_9",
+     "src": [
+      382,
+      108,
+      37,
+      34
+     ]
+    },
+    {
+     "item": 42,
+     "role": "frame_10",
+     "src": [
+      423,
+      108,
+      37,
+      34
+     ]
+    },
+    {
+     "item": 43,
+     "role": "frame_11",
+     "src": [
+      464,
+      108,
+      37,
+      34
+     ]
+    },
+    {
+     "item": 44,
+     "role": "frame_12",
+     "src": [
+      505,
+      108,
+      37,
+      34
+     ]
+    }
+   ],
+   "box": [
+    12,
+    107,
+    530,
+    36
+   ]
+  },
+  {
+   "id": 3,
+   "name": "darknut_e003",
+   "file": "darknut_e003.png",
+   "cell": [
+    36,
+    41
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 45,
+     "role": "frame_0",
+     "src": [
+      13,
+      152,
+      36,
+      31
+     ]
+    },
+    {
+     "item": 46,
+     "role": "frame_1",
+     "src": [
+      54,
+      153,
+      36,
+      31
+     ]
+    },
+    {
+     "item": 47,
+     "role": "frame_2",
+     "src": [
+      95,
+      152,
+      36,
+      31
+     ]
+    },
+    {
+     "item": 48,
+     "role": "frame_3",
+     "src": [
+      136,
+      152,
+      36,
+      31
+     ]
+    },
+    {
+     "item": 49,
+     "role": "frame_4",
+     "src": [
+      176,
+      153,
+      36,
+      31
+     ]
+    },
+    {
+     "item": 50,
+     "role": "frame_5",
+     "src": [
+      218,
+      152,
+      36,
+      31
+     ]
+    },
+    {
+     "item": 51,
+     "role": "frame_6",
+     "src": [
+      257,
+      150,
+      30,
+      33
+     ]
+    },
+    {
+     "item": 52,
+     "role": "frame_7",
+     "src": [
+      291,
+      152,
+      30,
+      32
+     ]
+    },
+    {
+     "item": 53,
+     "role": "frame_8",
+     "src": [
+      324,
+      152,
+      30,
+      32
+     ]
+    },
+    {
+     "item": 54,
+     "role": "frame_9",
+     "src": [
+      357,
+      152,
+      30,
+      32
+     ]
+    },
+    {
+     "item": 55,
+     "role": "frame_10",
+     "src": [
+      390,
+      152,
+      30,
+      32
+     ]
+    },
+    {
+     "item": 56,
+     "role": "frame_11",
+     "src": [
+      425,
+      150,
+      36,
+      34
+     ]
+    },
+    {
+     "item": 57,
+     "role": "frame_12",
+     "src": [
+      466,
+      148,
+      36,
+      36
+     ]
+    },
+    {
+     "item": 58,
+     "role": "frame_13",
+     "src": [
+      507,
+      148,
+      36,
+      36
+     ]
+    },
+    {
+     "item": 59,
+     "role": "frame_14",
+     "src": [
+      548,
+      148,
+      36,
+      36
+     ]
+    },
+    {
+     "item": 60,
+     "role": "frame_15",
+     "src": [
+      589,
+      148,
+      36,
+      36
+     ]
+    },
+    {
+     "item": 61,
+     "role": "frame_16",
+     "src": [
+      629,
+      143,
+      36,
+      41
+     ]
+    },
+    {
+     "item": 62,
+     "role": "frame_17",
+     "src": [
+      668,
+      151,
+      34,
+      33
+     ]
+    }
+   ],
+   "box": [
+    13,
+    143,
+    689,
+    41
+   ]
+  },
+  {
+   "id": 4,
+   "name": "darknut_e004",
+   "file": "darknut_e004.png",
+   "cell": [
+    41,
+    40
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 64,
+     "role": "frame_0",
+     "src": [
+      13,
+      189,
+      38,
+      36
+     ]
+    },
+    {
+     "item": 65,
+     "role": "frame_1",
+     "src": [
+      55,
+      188,
+      36,
+      36
+     ]
+    },
+    {
+     "item": 66,
+     "role": "frame_2",
+     "src": [
+      94,
+      189,
+      38,
+      35
+     ]
+    },
+    {
+     "item": 67,
+     "role": "frame_3",
+     "src": [
+      135,
+      191,
+      39,
+      34
+     ]
+    },
+    {
+     "item": 68,
+     "role": "frame_4",
+     "src": [
+      176,
+      190,
+      39,
+      35
+     ]
+    },
+    {
+     "item": 69,
+     "role": "frame_5",
+     "src": [
+      217,
+      190,
+      38,
+      35
+     ]
+    },
+    {
+     "item": 70,
+     "role": "frame_6",
+     "src": [
+      258,
+      189,
+      38,
+      36
+     ]
+    },
+    {
+     "item": 71,
+     "role": "frame_7",
+     "src": [
+      300,
+      190,
+      38,
+      33
+     ]
+    },
+    {
+     "item": 72,
+     "role": "frame_8",
+     "src": [
+      339,
+      187,
+      36,
+      37
+     ]
+    },
+    {
+     "item": 73,
+     "role": "frame_9",
+     "src": [
+      381,
+      187,
+      35,
+      38
+     ]
+    },
+    {
+     "item": 74,
+     "role": "frame_10",
+     "src": [
+      423,
+      188,
+      36,
+      35
+     ]
+    },
+    {
+     "item": 75,
+     "role": "frame_11",
+     "src": [
+      464,
+      188,
+      37,
+      37
+     ]
+    },
+    {
+     "item": 76,
+     "role": "frame_12",
+     "src": [
+      505,
+      188,
+      38,
+      37
+     ]
+    },
+    {
+     "item": 77,
+     "role": "frame_13",
+     "src": [
+      544,
+      188,
+      40,
+      36
+     ]
+    },
+    {
+     "item": 78,
+     "role": "frame_14",
+     "src": [
+      585,
+      188,
+      40,
+      35
+     ]
+    },
+    {
+     "item": 79,
+     "role": "frame_15",
+     "src": [
+      628,
+      187,
+      41,
+      34
+     ]
+    },
+    {
+     "item": 80,
+     "role": "frame_16",
+     "src": [
+      677,
+      185,
+      41,
+      36
+     ]
+    }
+   ],
+   "box": [
+    13,
+    185,
+    705,
+    40
+   ]
+  },
+  {
+   "id": 5,
+   "name": "darknut_e005",
+   "file": "darknut_e005.png",
+   "cell": [
+    39,
+    46
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 81,
+     "role": "frame_0",
+     "src": [
+      16,
+      234,
+      34,
+      40
+     ]
+    },
+    {
+     "item": 82,
+     "role": "frame_1",
+     "src": [
+      52,
+      233,
+      32,
+      40
+     ]
+    },
+    {
+     "item": 83,
+     "role": "frame_2",
+     "src": [
+      91,
+      234,
+      34,
+      40
+     ]
+    },
+    {
+     "item": 84,
+     "role": "frame_3",
+     "src": [
+      132,
+      234,
+      34,
+      40
+     ]
+    },
+    {
+     "item": 85,
+     "role": "frame_4",
+     "src": [
+      174,
+      234,
+      33,
+      40
+     ]
+    },
+    {
+     "item": 86,
+     "role": "frame_5",
+     "src": [
+      208,
+      234,
+      32,
+      40
+     ]
+    },
+    {
+     "item": 87,
+     "role": "frame_6",
+     "src": [
+      247,
+      234,
+      32,
+      40
+     ]
+    },
+    {
+     "item": 88,
+     "role": "frame_7",
+     "src": [
+      284,
+      230,
+      36,
+      44
+     ]
+    },
+    {
+     "item": 89,
+     "role": "frame_8",
+     "src": [
+      325,
+      228,
+      34,
+      44
+     ]
+    },
+    {
+     "item": 90,
+     "role": "frame_9",
+     "src": [
+      366,
+      229,
+      35,
+      44
+     ]
+    },
+    {
+     "item": 91,
+     "role": "frame_10",
+     "src": [
+      406,
+      230,
+      36,
+      44
+     ]
+    },
+    {
+     "item": 92,
+     "role": "frame_11",
+     "src": [
+      447,
+      230,
+      35,
+      44
+     ]
+    },
+    {
+     "item": 93,
+     "role": "frame_12",
+     "src": [
+      488,
+      229,
+      36,
+      44
+     ]
+    },
+    {
+     "item": 94,
+     "role": "frame_13",
+     "src": [
+      529,
+      234,
+      37,
+      40
+     ]
+    },
+    {
+     "item": 95,
+     "role": "frame_14",
+     "src": [
+      570,
+      234,
+      36,
+      40
+     ]
+    },
+    {
+     "item": 96,
+     "role": "frame_15",
+     "src": [
+      611,
+      234,
+      38,
+      40
+     ]
+    },
+    {
+     "item": 97,
+     "role": "frame_16",
+     "src": [
+      651,
+      234,
+      39,
+      40
+     ]
+    }
+   ],
+   "box": [
+    16,
+    228,
+    674,
+    46
+   ]
+  },
+  {
+   "id": 6,
+   "name": "darknut_e006",
+   "file": "darknut_e006.png",
+   "cell": [
+    16,
+    20
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 98,
+     "role": "frame_0",
+     "src": [
+      694,
+      260,
+      11,
+      11
+     ]
+    },
+    {
+     "item": 99,
+     "role": "frame_1",
+     "src": [
+      713,
+      254,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 100,
+     "role": "frame_2",
+     "src": [
+      736,
+      264,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 101,
+     "role": "frame_3",
+     "src": [
+      748,
+      264,
+      8,
+      8
+     ],
+     "mirror_of": 2
+    },
+    {
+     "item": 102,
+     "role": "frame_4",
+     "src": [
+      759,
+      268,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    694,
+    254,
+    71,
+    20
+   ]
+  },
+  {
+   "id": 7,
+   "name": "darknut_e007",
+   "file": "darknut_e007.png",
+   "cell": [
+    6,
+    8
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 103,
+     "role": "frame_0",
+     "src": [
+      777,
+      268,
+      6,
+      6
+     ]
+    },
+    {
+     "item": 104,
+     "role": "frame_1",
+     "src": [
+      786,
+      266,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    777,
+    266,
+    15,
+    8
+   ]
+  },
+  {
+   "id": 8,
+   "name": "darknut_e008",
+   "file": "darknut_e008.png",
+   "cell": [
+    6,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 107,
+     "role": "frame_0",
+     "src": [
+      777,
+      250,
+      6,
+      6
+     ]
+    },
+    {
+     "item": 108,
+     "role": "frame_1",
+     "src": [
+      786,
+      244,
+      6,
+      6
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    777,
+    244,
+    15,
+    12
+   ]
+  },
+  {
+   "id": 9,
+   "name": "darknut_e009",
+   "file": "darknut_e009.png",
+   "cell": [
+    8,
+    8
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 110,
+     "role": "frame_0",
+     "src": [
+      736,
+      252,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 111,
+     "role": "frame_1",
+     "src": [
+      748,
+      252,
+      8,
+      8
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    736,
+    252,
+    20,
+    8
+   ]
+  },
+  {
+   "id": 10,
+   "name": "darknut_e010",
+   "file": "darknut_e010.png",
+   "cell": [
+    47,
+    48
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 112,
+     "role": "frame_0",
+     "src": [
+      16,
+      281,
+      43,
+      38
+     ]
+    },
+    {
+     "item": 113,
+     "role": "frame_1",
+     "src": [
+      64,
+      285,
+      42,
+      36
+     ]
+    },
+    {
+     "item": 114,
+     "role": "frame_2",
+     "src": [
+      111,
+      283,
+      44,
+      38
+     ]
+    },
+    {
+     "item": 115,
+     "role": "frame_3",
+     "src": [
+      160,
+      282,
+      45,
+      39
+     ]
+    },
+    {
+     "item": 116,
+     "role": "frame_4",
+     "src": [
+      209,
+      280,
+      47,
+      41
+     ]
+    },
+    {
+     "item": 117,
+     "role": "frame_5",
+     "src": [
+      266,
+      282,
+      46,
+      39
+     ]
+    },
+    {
+     "item": 118,
+     "role": "frame_6",
+     "src": [
+      315,
+      283,
+      44,
+      38
+     ]
+    },
+    {
+     "item": 119,
+     "role": "frame_7",
+     "src": [
+      368,
+      275,
+      39,
+      47
+     ]
+    },
+    {
+     "item": 120,
+     "role": "frame_8",
+     "src": [
+      416,
+      276,
+      41,
+      46
+     ]
+    },
+    {
+     "item": 121,
+     "role": "frame_9",
+     "src": [
+      465,
+      277,
+      42,
+      45
+     ]
+    },
+    {
+     "item": 122,
+     "role": "frame_10",
+     "src": [
+      514,
+      275,
+      42,
+      45
+     ]
+    },
+    {
+     "item": 123,
+     "role": "frame_11",
+     "src": [
+      563,
+      276,
+      41,
+      46
+     ]
+    },
+    {
+     "item": 124,
+     "role": "frame_12",
+     "src": [
+      613,
+      276,
+      39,
+      47
+     ]
+    },
+    {
+     "item": 125,
+     "role": "frame_13",
+     "src": [
+      658,
+      284,
+      44,
+      38
+     ]
+    },
+    {
+     "item": 126,
+     "role": "frame_14",
+     "src": [
+      710,
+      284,
+      43,
+      38
+     ]
+    }
+   ],
+   "box": [
+    16,
+    275,
+    737,
+    48
+   ]
+  },
+  {
+   "id": 11,
+   "name": "darknut_e011",
+   "file": "darknut_e011.png",
+   "cell": [
+    45,
+    34
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 127,
+     "role": "frame_0",
+     "src": [
+      764,
+      289,
+      45,
+      32
+     ]
+    },
+    {
+     "item": 128,
+     "role": "frame_1",
+     "src": [
+      813,
+      289,
+      45,
+      34
+     ]
+    }
+   ],
+   "box": [
+    764,
+    289,
+    94,
+    34
+   ]
+  },
+  {
+   "id": 12,
+   "name": "darknut_e012",
+   "file": "darknut_e012.png",
+   "cell": [
+    61,
+    55
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 130,
+     "role": "frame_0",
+     "src": [
+      179,
+      347,
+      34,
+      33
+     ]
+    },
+    {
+     "item": 131,
+     "role": "frame_1",
+     "src": [
+      218,
+      344,
+      38,
+      36
+     ]
+    },
+    {
+     "item": 132,
+     "role": "frame_2",
+     "src": [
+      259,
+      331,
+      36,
+      49
+     ]
+    },
+    {
+     "item": 133,
+     "role": "frame_3",
+     "src": [
+      299,
+      330,
+      39,
+      55
+     ]
+    },
+    {
+     "item": 134,
+     "role": "frame_4",
+     "src": [
+      346,
+      337,
+      51,
+      44
+     ]
+    },
+    {
+     "item": 135,
+     "role": "frame_5",
+     "src": [
+      404,
+      347,
+      61,
+      33
+     ]
+    },
+    {
+     "item": 136,
+     "role": "frame_6",
+     "src": [
+      468,
+      347,
+      60,
+      33
+     ]
+    },
+    {
+     "item": 137,
+     "role": "frame_7",
+     "src": [
+      532,
+      349,
+      48,
+      31
+     ]
+    }
+   ],
+   "box": [
+    179,
+    330,
+    401,
+    55
+   ]
+  },
+  {
+   "id": 13,
+   "name": "darknut_e013",
+   "file": "darknut_e013.png",
+   "cell": [
+    39,
+    34
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 138,
+     "role": "frame_0",
+     "src": [
+      53,
+      340,
+      39,
+      34
+     ]
+    },
+    {
+     "item": 139,
+     "role": "frame_1",
+     "src": [
+      94,
+      340,
+      39,
+      34
+     ]
+    },
+    {
+     "item": 140,
+     "role": "frame_2",
+     "src": [
+      135,
+      340,
+      39,
+      33
+     ]
+    }
+   ],
+   "box": [
+    53,
+    340,
+    121,
+    34
+   ]
+  },
+  {
+   "id": 14,
+   "name": "darknut_e014",
+   "file": "darknut_e014.png",
+   "cell": [
+    60,
+    60
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 141,
+     "role": "frame_0",
+     "src": [
+      14,
+      405,
+      36,
+      38
+     ]
+    },
+    {
+     "item": 142,
+     "role": "frame_1",
+     "src": [
+      52,
+      406,
+      39,
+      37
+     ]
+    },
+    {
+     "item": 143,
+     "role": "frame_2",
+     "src": [
+      94,
+      406,
+      39,
+      37
+     ]
+    },
+    {
+     "item": 144,
+     "role": "frame_3",
+     "src": [
+      135,
+      406,
+      36,
+      37
+     ]
+    },
+    {
+     "item": 145,
+     "role": "frame_4",
+     "src": [
+      176,
+      409,
+      39,
+      33
+     ]
+    },
+    {
+     "item": 146,
+     "role": "frame_5",
+     "src": [
+      218,
+      406,
+      35,
+      39
+     ]
+    },
+    {
+     "item": 147,
+     "role": "frame_6",
+     "src": [
+      262,
+      405,
+      52,
+      38
+     ]
+    },
+    {
+     "item": 148,
+     "role": "frame_7",
+     "src": [
+      324,
+      405,
+      60,
+      38
+     ]
+    },
+    {
+     "item": 149,
+     "role": "frame_8",
+     "src": [
+      387,
+      393,
+      42,
+      52
+     ]
+    },
+    {
+     "item": 150,
+     "role": "frame_9",
+     "src": [
+      435,
+      385,
+      35,
+      59
+     ]
+    },
+    {
+     "item": 151,
+     "role": "frame_10",
+     "src": [
+      476,
+      388,
+      34,
+      55
+     ]
+    }
+   ],
+   "box": [
+    14,
+    385,
+    496,
+    60
+   ]
+  },
+  {
+   "id": 15,
+   "name": "darknut_e015",
+   "file": "darknut_e015.png",
+   "cell": [
+    44,
+    32
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 152,
+     "role": "frame_0",
+     "src": [
+      13,
+      447,
+      41,
+      31
+     ]
+    },
+    {
+     "item": 153,
+     "role": "frame_1",
+     "src": [
+      61,
+      446,
+      37,
+      30
+     ]
+    },
+    {
+     "item": 154,
+     "role": "frame_2",
+     "src": [
+      102,
+      446,
+      36,
+      30
+     ]
+    },
+    {
+     "item": 155,
+     "role": "frame_3",
+     "src": [
+      143,
+      446,
+      36,
+      30
+     ]
+    },
+    {
+     "item": 156,
+     "role": "frame_4",
+     "src": [
+      185,
+      446,
+      33,
+      31
+     ]
+    },
+    {
+     "item": 157,
+     "role": "frame_5",
+     "src": [
+      225,
+      446,
+      44,
+      32
+     ]
+    }
+   ],
+   "box": [
+    13,
+    446,
+    256,
+    32
+   ]
+  },
+  {
+   "id": 16,
+   "name": "darknut_e016",
+   "file": "darknut_e016.png",
+   "cell": [
+    43,
+    42
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 160,
+     "role": "frame_0",
+     "src": [
+      273,
+      450,
+      40,
+      38
+     ]
+    },
+    {
+     "item": 161,
+     "role": "frame_1",
+     "src": [
+      319,
+      446,
+      43,
+      41
+     ]
+    }
+   ],
+   "box": [
+    273,
+    446,
+    89,
+    42
+   ]
+  },
+  {
+   "id": 17,
+   "name": "darknut_e017",
+   "file": "darknut_e017.png",
+   "cell": [
+    51,
+    44
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 164,
+     "role": "frame_0",
+     "src": [
+      12,
+      499,
+      31,
+      42
+     ]
+    },
+    {
+     "item": 165,
+     "role": "frame_1",
+     "src": [
+      51,
+      501,
+      33,
+      40
+     ]
+    },
+    {
+     "item": 166,
+     "role": "frame_2",
+     "src": [
+      85,
+      501,
+      32,
+      40
+     ]
+    },
+    {
+     "item": 167,
+     "role": "frame_3",
+     "src": [
+      119,
+      501,
+      31,
+      40
+     ]
+    },
+    {
+     "item": 168,
+     "role": "frame_4",
+     "src": [
+      151,
+      510,
+      36,
+      33
+     ]
+    },
+    {
+     "item": 169,
+     "role": "frame_5",
+     "src": [
+      192,
+      507,
+      42,
+      36
+     ]
+    },
+    {
+     "item": 170,
+     "role": "frame_6",
+     "src": [
+      241,
+      511,
+      46,
+      32
+     ]
+    },
+    {
+     "item": 171,
+     "role": "frame_7",
+     "src": [
+      290,
+      511,
+      51,
+      31
+     ]
+    }
+   ],
+   "box": [
+    12,
+    499,
+    329,
+    44
+   ]
+  },
+  {
+   "id": 18,
+   "name": "darknut_e018",
+   "file": "darknut_e018.png",
+   "cell": [
+    46,
+    49
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 172,
+     "role": "frame_0",
+     "src": [
+      415,
+      515,
+      46,
+      35
+     ]
+    },
+    {
+     "item": 173,
+     "role": "frame_1",
+     "src": [
+      467,
+      504,
+      36,
+      46
+     ]
+    },
+    {
+     "item": 174,
+     "role": "frame_2",
+     "src": [
+      508,
+      502,
+      36,
+      49
+     ]
+    },
+    {
+     "item": 175,
+     "role": "frame_3",
+     "src": [
+      549,
+      505,
+      36,
+      46
+     ]
+    },
+    {
+     "item": 176,
+     "role": "frame_4",
+     "src": [
+      590,
+      505,
+      36,
+      46
+     ]
+    },
+    {
+     "item": 177,
+     "role": "frame_5",
+     "src": [
+      631,
+      502,
+      36,
+      49
+     ]
+    },
+    {
+     "item": 178,
+     "role": "frame_6",
+     "src": [
+      672,
+      505,
+      36,
+      46
+     ]
+    },
+    {
+     "item": 179,
+     "role": "frame_7",
+     "src": [
+      710,
+      515,
+      37,
+      36
+     ]
+    }
+   ],
+   "box": [
+    415,
+    502,
+    332,
+    49
+   ]
+  },
+  {
+   "id": 19,
+   "name": "darknut_e019",
+   "file": "darknut_e019.png",
+   "cell": [
+    47,
+    43
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 180,
+     "role": "frame_0",
+     "src": [
+      11,
+      550,
+      32,
+      42
+     ]
+    },
+    {
+     "item": 181,
+     "role": "frame_1",
+     "src": [
+      45,
+      552,
+      47,
+      40
+     ]
+    },
+    {
+     "item": 182,
+     "role": "frame_2",
+     "src": [
+      93,
+      551,
+      40,
+      41
+     ]
+    },
+    {
+     "item": 183,
+     "role": "frame_3",
+     "src": [
+      134,
+      550,
+      40,
+      42
+     ]
+    },
+    {
+     "item": 184,
+     "role": "frame_4",
+     "src": [
+      175,
+      550,
+      40,
+      42
+     ]
+    },
+    {
+     "item": 185,
+     "role": "frame_5",
+     "src": [
+      219,
+      549,
+      36,
+      43
+     ]
+    },
+    {
+     "item": 186,
+     "role": "frame_6",
+     "src": [
+      257,
+      558,
+      33,
+      34
+     ]
+    },
+    {
+     "item": 187,
+     "role": "frame_7",
+     "src": [
+      298,
+      558,
+      37,
+      34
+     ]
+    },
+    {
+     "item": 188,
+     "role": "frame_8",
+     "src": [
+      345,
+      553,
+      46,
+      33
+     ]
+    }
+   ],
+   "box": [
+    11,
+    549,
+    380,
+    43
+   ]
+  },
+  {
+   "id": 20,
+   "name": "darknut_e020",
+   "file": "darknut_e020.png",
+   "cell": [
+    63,
+    45
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 189,
+     "role": "frame_0",
+     "src": [
+      415,
+      552,
+      38,
+      40
+     ]
+    },
+    {
+     "item": 190,
+     "role": "frame_1",
+     "src": [
+      457,
+      558,
+      62,
+      34
+     ]
+    },
+    {
+     "item": 191,
+     "role": "frame_2",
+     "src": [
+      521,
+      557,
+      62,
+      34
+     ]
+    },
+    {
+     "item": 192,
+     "role": "frame_3",
+     "src": [
+      587,
+      558,
+      63,
+      34
+     ]
+    },
+    {
+     "item": 193,
+     "role": "frame_4",
+     "src": [
+      651,
+      558,
+      61,
+      34
+     ]
+    },
+    {
+     "item": 194,
+     "role": "frame_5",
+     "src": [
+      716,
+      558,
+      61,
+      34
+     ]
+    },
+    {
+     "item": 195,
+     "role": "frame_6",
+     "src": [
+      781,
+      558,
+      63,
+      34
+     ]
+    },
+    {
+     "item": 196,
+     "role": "frame_7",
+     "src": [
+      849,
+      547,
+      29,
+      45
+     ]
+    }
+   ],
+   "box": [
+    415,
+    547,
+    463,
+    45
+   ]
+  },
+  {
+   "id": 21,
+   "name": "darknut_e021",
+   "file": "darknut_e021.png",
+   "cell": [
+    33,
+    48
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 197,
+     "role": "frame_0",
+     "src": [
+      17,
+      598,
+      33,
+      47
+     ]
+    },
+    {
+     "item": 198,
+     "role": "frame_1",
+     "src": [
+      53,
+      597,
+      31,
+      47
+     ]
+    },
+    {
+     "item": 199,
+     "role": "frame_2",
+     "src": [
+      86,
+      597,
+      31,
+      47
+     ]
+    },
+    {
+     "item": 200,
+     "role": "frame_3",
+     "src": [
+      127,
+      597,
+      30,
+      47
+     ]
+    }
+   ],
+   "box": [
+    17,
+    597,
+    140,
+    48
+   ]
+  },
+  {
+   "id": 22,
+   "name": "darknut_e022",
+   "file": "darknut_e022.png",
+   "cell": [
+    35,
+    48
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 202,
+     "role": "frame_0",
+     "src": [
+      480,
+      593,
+      35,
+      48
+     ]
+    },
+    {
+     "item": 203,
+     "role": "frame_1",
+     "src": [
+      521,
+      593,
+      35,
+      48
+     ]
+    },
+    {
+     "item": 204,
+     "role": "frame_2",
+     "src": [
+      562,
+      593,
+      35,
+      48
+     ]
+    },
+    {
+     "item": 205,
+     "role": "frame_3",
+     "src": [
+      603,
+      593,
+      35,
+      48
+     ]
+    },
+    {
+     "item": 206,
+     "role": "frame_4",
+     "src": [
+      644,
+      593,
+      35,
+      48
+     ]
+    },
+    {
+     "item": 207,
+     "role": "frame_5",
+     "src": [
+      685,
+      593,
+      35,
+      48
+     ]
+    }
+   ],
+   "box": [
+    480,
+    593,
+    240,
+    48
+   ]
+  },
+  {
+   "id": 23,
+   "name": "darknut_e023",
+   "file": "darknut_e023.png",
+   "cell": [
+    44,
+    43
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 211,
+     "role": "frame_0",
+     "src": [
+      251,
+      608,
+      44,
+      41
+     ]
+    },
+    {
+     "item": 212,
+     "role": "frame_1",
+     "src": [
+      301,
+      606,
+      38,
+      43
+     ]
+    }
+   ],
+   "box": [
+    251,
+    606,
+    88,
+    43
+   ]
+  },
+  {
+   "id": 24,
+   "name": "darknut_e024",
+   "file": "darknut_e024.png",
+   "cell": [
+    47,
+    56
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 213,
+     "role": "frame_0",
+     "src": [
+      12,
+      674,
+      47,
+      31
+     ]
+    },
+    {
+     "item": 214,
+     "role": "frame_1",
+     "src": [
+      65,
+      673,
+      42,
+      33
+     ]
+    },
+    {
+     "item": 215,
+     "role": "frame_2",
+     "src": [
+      109,
+      670,
+      33,
+      35
+     ]
+    },
+    {
+     "item": 216,
+     "role": "frame_3",
+     "src": [
+      150,
+      673,
+      36,
+      32
+     ]
+    },
+    {
+     "item": 217,
+     "role": "frame_4",
+     "src": [
+      192,
+      670,
+      39,
+      35
+     ]
+    },
+    {
+     "item": 218,
+     "role": "frame_5",
+     "src": [
+      239,
+      650,
+      25,
+      56
+     ]
+    },
+    {
+     "item": 219,
+     "role": "frame_6",
+     "src": [
+      269,
+      653,
+      27,
+      53
+     ]
+    },
+    {
+     "item": 220,
+     "role": "frame_7",
+     "src": [
+      302,
+      653,
+      25,
+      53
+     ]
+    },
+    {
+     "item": 221,
+     "role": "frame_8",
+     "src": [
+      335,
+      653,
+      24,
+      53
+     ]
+    },
+    {
+     "item": 222,
+     "role": "frame_9",
+     "src": [
+      368,
+      653,
+      24,
+      53
+     ]
+    },
+    {
+     "item": 223,
+     "role": "frame_10",
+     "src": [
+      398,
+      661,
+      29,
+      45
+     ]
+    },
+    {
+     "item": 224,
+     "role": "frame_11",
+     "src": [
+      430,
+      664,
+      35,
+      42
+     ]
+    }
+   ],
+   "box": [
+    12,
+    650,
+    453,
+    56
+   ]
+  },
+  {
+   "id": 25,
+   "name": "darknut_e025",
+   "file": "darknut_e025.png",
+   "cell": [
+    69,
+    44
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 225,
+     "role": "frame_0",
+     "src": [
+      477,
+      666,
+      41,
+      33
+     ]
+    },
+    {
+     "item": 226,
+     "role": "frame_1",
+     "src": [
+      524,
+      662,
+      37,
+      37
+     ]
+    },
+    {
+     "item": 227,
+     "role": "frame_2",
+     "src": [
+      562,
+      655,
+      32,
+      43
+     ]
+    },
+    {
+     "item": 228,
+     "role": "frame_3",
+     "src": [
+      601,
+      664,
+      34,
+      35
+     ]
+    },
+    {
+     "item": 229,
+     "role": "frame_4",
+     "src": [
+      642,
+      667,
+      49,
+      31
+     ]
+    },
+    {
+     "item": 230,
+     "role": "frame_5",
+     "src": [
+      696,
+      669,
+      69,
+      30
+     ]
+    },
+    {
+     "item": 231,
+     "role": "frame_6",
+     "src": [
+      769,
+      669,
+      68,
+      29
+     ]
+    },
+    {
+     "item": 232,
+     "role": "frame_7",
+     "src": [
+      842,
+      669,
+      69,
+      29
+     ]
+    },
+    {
+     "item": 233,
+     "role": "frame_8",
+     "src": [
+      915,
+      669,
+      64,
+      29
+     ]
+    },
+    {
+     "item": 234,
+     "role": "frame_9",
+     "src": [
+      988,
+      669,
+      64,
+      29
+     ]
+    }
+   ],
+   "box": [
+    477,
+    655,
+    575,
+    44
+   ]
+  },
+  {
+   "id": 26,
+   "name": "darknut_e026",
+   "file": "darknut_e026.png",
+   "cell": [
+    8,
+    46
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 235,
+     "role": "frame_0",
+     "src": [
+      134,
+      707,
+      8,
+      46
+     ]
+    },
+    {
+     "item": 236,
+     "role": "frame_1",
+     "src": [
+      143,
+      708,
+      8,
+      45
+     ]
+    }
+   ],
+   "box": [
+    134,
+    707,
+    17,
+    46
+   ]
+  },
+  {
+   "id": 27,
+   "name": "darknut_e027",
+   "file": "darknut_e027.png",
+   "cell": [
+    33,
+    44
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 237,
+     "role": "frame_0",
+     "src": [
+      472,
+      703,
+      32,
+      44
+     ]
+    },
+    {
+     "item": 238,
+     "role": "frame_1",
+     "src": [
+      505,
+      703,
+      33,
+      44
+     ]
+    }
+   ],
+   "box": [
+    472,
+    703,
+    66,
+    44
+   ]
+  },
+  {
+   "id": 28,
+   "name": "darknut_e028",
+   "file": "darknut_e028.png",
+   "cell": [
+    82,
+    45
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 239,
+     "role": "frame_0",
+     "src": [
+      549,
+      703,
+      36,
+      44
+     ]
+    },
+    {
+     "item": 240,
+     "role": "frame_1",
+     "src": [
+      593,
+      718,
+      82,
+      30
+     ]
+    },
+    {
+     "item": 241,
+     "role": "frame_2",
+     "src": [
+      679,
+      718,
+      76,
+      29
+     ]
+    },
+    {
+     "item": 242,
+     "role": "frame_3",
+     "src": [
+      764,
+      718,
+      81,
+      29
+     ]
+    },
+    {
+     "item": 243,
+     "role": "frame_4",
+     "src": [
+      847,
+      718,
+      78,
+      29
+     ]
+    }
+   ],
+   "box": [
+    549,
+    703,
+    376,
+    45
+   ]
+  },
+  {
+   "id": 29,
+   "name": "darknut_e029",
+   "file": "darknut_e029.png",
+   "cell": [
+    38,
+    19
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 244,
+     "role": "frame_0",
+     "src": [
+      935,
+      705,
+      36,
+      19
+     ]
+    },
+    {
+     "item": 245,
+     "role": "frame_1",
+     "src": [
+      976,
+      706,
+      32,
+      17
+     ]
+    },
+    {
+     "item": 246,
+     "role": "frame_2",
+     "src": [
+      1011,
+      705,
+      38,
+      19
+     ]
+    }
+   ],
+   "box": [
+    935,
+    705,
+    114,
+    19
+   ]
+  },
+  {
+   "id": 30,
+   "name": "darknut_e030",
+   "file": "darknut_e030.png",
+   "cell": [
+    40,
+    37
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 248,
+     "role": "frame_0",
+     "src": [
+      59,
+      758,
+      34,
+      37
+     ]
+    },
+    {
+     "item": 249,
+     "role": "frame_1",
+     "src": [
+      102,
+      758,
+      40,
+      37
+     ]
+    }
+   ],
+   "box": [
+    59,
+    758,
+    83,
+    37
+   ]
+  },
+  {
+   "id": 31,
+   "name": "darknut_e031",
+   "file": "darknut_e031.png",
+   "cell": [
+    28,
+    65
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 251,
+     "role": "frame_0",
+     "src": [
+      195,
+      733,
+      28,
+      62
+     ]
+    },
+    {
+     "item": 252,
+     "role": "frame_1",
+     "src": [
+      228,
+      730,
+      25,
+      65
+     ]
+    },
+    {
+     "item": 253,
+     "role": "frame_2",
+     "src": [
+      261,
+      731,
+      28,
+      64
+     ]
+    },
+    {
+     "item": 254,
+     "role": "frame_3",
+     "src": [
+      294,
+      733,
+      28,
+      62
+     ]
+    },
+    {
+     "item": 255,
+     "role": "frame_4",
+     "src": [
+      327,
+      730,
+      27,
+      65
+     ]
+    },
+    {
+     "item": 256,
+     "role": "frame_5",
+     "src": [
+      360,
+      731,
+      28,
+      64
+     ]
+    }
+   ],
+   "box": [
+    195,
+    730,
+    193,
+    65
+   ]
+  },
+  {
+   "id": 32,
+   "name": "darknut_e032",
+   "file": "darknut_e032.png",
+   "cell": [
+    24,
+    85
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 257,
+     "role": "frame_0",
+     "src": [
+      393,
+      720,
+      24,
+      75
+     ]
+    },
+    {
+     "item": 258,
+     "role": "frame_1",
+     "src": [
+      426,
+      710,
+      24,
+      85
+     ]
+    }
+   ],
+   "box": [
+    393,
+    710,
+    57,
+    85
+   ]
+  },
+  {
+   "id": 33,
+   "name": "darknut_e033",
+   "file": "darknut_e033.png",
+   "cell": [
+    22,
+    34
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 259,
+     "role": "frame_0",
+     "src": [
+      62,
+      722,
+      21,
+      32
+     ]
+    },
+    {
+     "item": 260,
+     "role": "frame_1",
+     "src": [
+      86,
+      721,
+      22,
+      33
+     ]
+    },
+    {
+     "item": 261,
+     "role": "frame_2",
+     "src": [
+      113,
+      720,
+      20,
+      34
+     ]
+    }
+   ],
+   "box": [
+    62,
+    720,
+    71,
+    34
+   ]
+  },
+  {
+   "id": 34,
+   "name": "darknut_e034",
+   "file": "darknut_e034.png",
+   "cell": [
+    8,
+    2
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 263,
+     "role": "frame_0",
+     "src": [
+      988,
+      729,
+      8,
+      1
+     ]
+    },
+    {
+     "item": 264,
+     "role": "frame_1",
+     "src": [
+      997,
+      728,
+      8,
+      2
+     ]
+    }
+   ],
+   "box": [
+    988,
+    728,
+    17,
+    2
+   ]
+  },
+  {
+   "id": 35,
+   "name": "darknut_e035",
+   "file": "darknut_e035.png",
+   "cell": [
+    57,
+    46
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 270,
+     "role": "frame_0",
+     "src": [
+      923,
+      758,
+      57,
+      30
+     ]
+    },
+    {
+     "item": 271,
+     "role": "frame_1",
+     "src": [
+      987,
+      742,
+      33,
+      45
+     ]
+    }
+   ],
+   "box": [
+    923,
+    742,
+    97,
+    46
+   ]
+  },
+  {
+   "id": 36,
+   "name": "darknut_e036",
+   "file": "darknut_e036.png",
+   "cell": [
+    36,
+    36
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 273,
+     "role": "frame_0",
+     "src": [
+      527,
+      811,
+      32,
+      24
+     ]
+    },
+    {
+     "item": 274,
+     "role": "frame_1",
+     "src": [
+      560,
+      803,
+      32,
+      31
+     ]
+    },
+    {
+     "item": 275,
+     "role": "frame_2",
+     "src": [
+      593,
+      803,
+      32,
+      31
+     ]
+    },
+    {
+     "item": 276,
+     "role": "frame_3",
+     "src": [
+      626,
+      805,
+      31,
+      30
+     ]
+    },
+    {
+     "item": 277,
+     "role": "frame_4",
+     "src": [
+      660,
+      805,
+      31,
+      30
+     ]
+    },
+    {
+     "item": 278,
+     "role": "frame_5",
+     "src": [
+      694,
+      804,
+      30,
+      29
+     ]
+    },
+    {
+     "item": 279,
+     "role": "frame_6",
+     "src": [
+      727,
+      799,
+      22,
+      35
+     ]
+    },
+    {
+     "item": 280,
+     "role": "frame_7",
+     "src": [
+      752,
+      800,
+      22,
+      34
+     ]
+    },
+    {
+     "item": 281,
+     "role": "frame_8",
+     "src": [
+      775,
+      800,
+      21,
+      34
+     ]
+    },
+    {
+     "item": 282,
+     "role": "frame_9",
+     "src": [
+      800,
+      800,
+      21,
+      34
+     ]
+    },
+    {
+     "item": 283,
+     "role": "frame_10",
+     "src": [
+      827,
+      810,
+      36,
+      25
+     ]
+    },
+    {
+     "item": 284,
+     "role": "frame_11",
+     "src": [
+      866,
+      805,
+      32,
+      30
+     ]
+    },
+    {
+     "item": 285,
+     "role": "frame_12",
+     "src": [
+      899,
+      805,
+      32,
+      30
+     ]
+    },
+    {
+     "item": 286,
+     "role": "frame_13",
+     "src": [
+      932,
+      806,
+      32,
+      29
+     ]
+    },
+    {
+     "item": 287,
+     "role": "frame_14",
+     "src": [
+      965,
+      806,
+      32,
+      29
+     ]
+    }
+   ],
+   "box": [
+    527,
+    799,
+    470,
+    36
+   ]
+  },
+  {
+   "id": 37,
+   "name": "darknut_e037",
+   "file": "darknut_e037.png",
+   "cell": [
+    49,
+    50
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 288,
+     "role": "frame_0",
+     "src": [
+      20,
+      810,
+      49,
+      41
+     ]
+    },
+    {
+     "item": 289,
+     "role": "frame_1",
+     "src": [
+      70,
+      814,
+      37,
+      36
+     ]
+    },
+    {
+     "item": 290,
+     "role": "frame_2",
+     "src": [
+      112,
+      803,
+      33,
+      50
+     ]
+    },
+    {
+     "item": 291,
+     "role": "frame_3",
+     "src": [
+      152,
+      814,
+      39,
+      35
+     ]
+    },
+    {
+     "item": 292,
+     "role": "frame_4",
+     "src": [
+      196,
+      812,
+      44,
+      36
+     ]
+    }
+   ],
+   "box": [
+    20,
+    803,
+    220,
+    50
+   ]
+  },
+  {
+   "id": 38,
+   "name": "darknut_e038",
+   "file": "darknut_e038.png",
+   "cell": [
+    32,
+    64
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 303,
+     "role": "frame_0",
+     "src": [
+      244,
+      808,
+      30,
+      63
+     ]
+    },
+    {
+     "item": 304,
+     "role": "frame_1",
+     "src": [
+      276,
+      810,
+      30,
+      61
+     ]
+    },
+    {
+     "item": 305,
+     "role": "frame_2",
+     "src": [
+      309,
+      811,
+      30,
+      61
+     ]
+    },
+    {
+     "item": 306,
+     "role": "frame_3",
+     "src": [
+      344,
+      810,
+      28,
+      61
+     ]
+    },
+    {
+     "item": 307,
+     "role": "frame_4",
+     "src": [
+      380,
+      810,
+      26,
+      61
+     ]
+    }
+   ],
+   "box": [
+    244,
+    808,
+    162,
+    64
+   ]
+  },
+  {
+   "id": 39,
+   "name": "darknut_e039",
+   "file": "darknut_e039.png",
+   "cell": [
+    45,
+    35
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 309,
+     "role": "frame_0",
+     "src": [
+      407,
+      809,
+      33,
+      35
+     ]
+    },
+    {
+     "item": 310,
+     "role": "frame_1",
+     "src": [
+      450,
+      812,
+      45,
+      29
+     ]
+    }
+   ],
+   "box": [
+    407,
+    809,
+    88,
+    35
+   ]
+  },
+  {
+   "id": 40,
+   "name": "darknut_e040",
+   "file": "darknut_e040.png",
+   "cell": [
+    9,
+    8
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 318,
+     "role": "frame_0",
+     "src": [
+      762,
+      839,
+      7,
+      6
+     ]
+    },
+    {
+     "item": 319,
+     "role": "frame_1",
+     "src": [
+      779,
+      840,
+      7,
+      6
+     ]
+    },
+    {
+     "item": 320,
+     "role": "frame_2",
+     "src": [
+      795,
+      840,
+      7,
+      6
+     ],
+     "duplicate_of": 1
+    },
+    {
+     "item": 321,
+     "role": "frame_3",
+     "src": [
+      812,
+      840,
+      7,
+      6
+     ]
+    },
+    {
+     "item": 322,
+     "role": "frame_4",
+     "src": [
+      828,
+      841,
+      7,
+      6
+     ]
+    },
+    {
+     "item": 323,
+     "role": "frame_5",
+     "src": [
+      844,
+      839,
+      7,
+      6
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    762,
+    839,
+    89,
+    8
+   ]
+  },
+  {
+   "id": 41,
+   "name": "darknut_e041",
+   "file": "darknut_e041.png",
+   "cell": [
+    19,
+    40
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 330,
+     "role": "frame_0",
+     "src": [
+      445,
+      845,
+      19,
+      38
+     ]
+    },
+    {
+     "item": 331,
+     "role": "frame_1",
+     "src": [
+      471,
+      851,
+      17,
+      33
+     ]
+    },
+    {
+     "item": 332,
+     "role": "frame_2",
+     "src": [
+      495,
+      849,
+      19,
+      36
+     ]
+    }
+   ],
+   "box": [
+    445,
+    845,
+    69,
+    40
+   ]
+  },
+  {
+   "id": 42,
+   "name": "darknut_e042",
+   "file": "darknut_e042.png",
+   "cell": [
+    7,
+    9
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 334,
+     "role": "frame_0",
+     "src": [
+      549,
+      848,
+      7,
+      8
+     ]
+    },
+    {
+     "item": 335,
+     "role": "frame_1",
+     "src": [
+      563,
+      849,
+      7,
+      8
+     ]
+    }
+   ],
+   "box": [
+    549,
+    848,
+    21,
+    9
+   ]
+  },
+  {
+   "id": 43,
+   "name": "darknut_e043",
+   "file": "darknut_e043.png",
+   "cell": [
+    7,
+    8
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 336,
+     "role": "frame_0",
+     "src": [
+      582,
+      848,
+      7,
+      8
+     ]
+    },
+    {
+     "item": 337,
+     "role": "frame_1",
+     "src": [
+      597,
+      848,
+      7,
+      8
+     ],
+     "duplicate_of": 0
+    }
+   ],
+   "box": [
+    582,
+    848,
+    22,
+    8
+   ]
+  },
+  {
+   "id": 44,
+   "name": "darknut_e044",
+   "file": "darknut_e044.png",
+   "cell": [
+    7,
+    8
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 349,
+     "role": "frame_0",
+     "src": [
+      1011,
+      847,
+      7,
+      8
+     ]
+    },
+    {
+     "item": 350,
+     "role": "frame_1",
+     "src": [
+      1025,
+      847,
+      7,
+      8
+     ],
+     "duplicate_of": 0
+    }
+   ],
+   "box": [
+    1011,
+    847,
+    21,
+    8
+   ]
+  },
+  {
+   "id": 45,
+   "name": "darknut_e045",
+   "file": "darknut_e045.png",
+   "cell": [
+    3,
+    20
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 352,
+     "role": "frame_0",
+     "src": [
+      471,
+      892,
+      3,
+      20
+     ]
+    },
+    {
+     "item": 353,
+     "role": "frame_1",
+     "src": [
+      471,
+      906,
+      1,
+      6
+     ]
+    }
+   ],
+   "box": [
+    471,
+    892,
+    3,
+    20
+   ]
+  },
+  {
+   "id": 46,
+   "name": "darknut_e046",
+   "file": "darknut_e046.png",
+   "cell": [
+    11,
+    56
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 356,
+     "role": "frame_0",
+     "src": [
+      850,
+      861,
+      11,
+      56
+     ]
+    },
+    {
+     "item": 357,
+     "role": "frame_1",
+     "src": [
+      867,
+      861,
+      11,
+      56
+     ]
+    },
+    {
+     "item": 358,
+     "role": "frame_2",
+     "src": [
+      884,
+      861,
+      11,
+      56
+     ]
+    },
+    {
+     "item": 359,
+     "role": "frame_3",
+     "src": [
+      901,
+      861,
+      11,
+      56
+     ]
+    }
+   ],
+   "box": [
+    850,
+    861,
+    62,
+    56
+   ]
+  },
+  {
+   "id": 47,
+   "name": "darknut_e047",
+   "file": "darknut_e047.png",
+   "cell": [
+    36,
+    35
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 362,
+     "role": "frame_0",
+     "src": [
+      528,
+      869,
+      36,
+      31
+     ]
+    },
+    {
+     "item": 363,
+     "role": "frame_1",
+     "src": [
+      569,
+      869,
+      36,
+      31
+     ]
+    },
+    {
+     "item": 364,
+     "role": "frame_2",
+     "src": [
+      610,
+      869,
+      36,
+      31
+     ]
+    },
+    {
+     "item": 365,
+     "role": "frame_3",
+     "src": [
+      651,
+      866,
+      23,
+      34
+     ]
+    },
+    {
+     "item": 366,
+     "role": "frame_4",
+     "src": [
+      676,
+      868,
+      23,
+      33
+     ]
+    },
+    {
+     "item": 367,
+     "role": "frame_5",
+     "src": [
+      701,
+      868,
+      23,
+      33
+     ]
+    },
+    {
+     "item": 368,
+     "role": "frame_6",
+     "src": [
+      725,
+      872,
+      36,
+      29
+     ]
+    },
+    {
+     "item": 369,
+     "role": "frame_7",
+     "src": [
+      766,
+      872,
+      36,
+      29
+     ]
+    },
+    {
+     "item": 370,
+     "role": "frame_8",
+     "src": [
+      807,
+      872,
+      36,
+      29
+     ]
+    }
+   ],
+   "box": [
+    528,
+    866,
+    315,
+    35
+   ]
+  },
+  {
+   "id": 48,
+   "name": "darknut_e048",
+   "file": "darknut_e048.png",
+   "cell": [
+    34,
+    51
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 372,
+     "role": "frame_0",
+     "src": [
+      67,
+      876,
+      33,
+      51
+     ]
+    },
+    {
+     "item": 373,
+     "role": "frame_1",
+     "src": [
+      105,
+      876,
+      34,
+      51
+     ]
+    }
+   ],
+   "box": [
+    67,
+    876,
+    72,
+    51
+   ]
+  },
+  {
+   "id": 49,
+   "name": "darknut_e049",
+   "file": "darknut_e049.png",
+   "cell": [
+    29,
+    32
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 386,
+     "role": "frame_0",
+     "src": [
+      532,
+      922,
+      29,
+      31
+     ]
+    },
+    {
+     "item": 387,
+     "role": "frame_1",
+     "src": [
+      564,
+      938,
+      15,
+      15
+     ]
+    },
+    {
+     "item": 388,
+     "role": "frame_2",
+     "src": [
+      582,
+      938,
+      15,
+      16
+     ]
+    },
+    {
+     "item": 389,
+     "role": "frame_3",
+     "src": [
+      599,
+      941,
+      9,
+      10
+     ]
+    }
+   ],
+   "box": [
+    532,
+    922,
+    76,
+    32
+   ]
+  },
+  {
+   "id": 50,
+   "name": "darknut_e050",
+   "file": "darknut_e050.png",
+   "cell": [
+    22,
+    22
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 391,
+     "role": "frame_0",
+     "src": [
+      651,
+      931,
+      22,
+      22
+     ]
+    },
+    {
+     "item": 392,
+     "role": "frame_1",
+     "src": [
+      676,
+      939,
+      14,
+      14
+     ]
+    }
+   ],
+   "box": [
+    651,
+    931,
+    39,
+    22
+   ]
+  },
+  {
+   "id": 51,
+   "name": "darknut_e051",
+   "file": "darknut_e051.png",
+   "cell": [
+    16,
+    13
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 393,
+     "role": "frame_0",
+     "src": [
+      694,
+      946,
+      12,
+      8
+     ]
+    },
+    {
+     "item": 394,
+     "role": "frame_1",
+     "src": [
+      709,
+      941,
+      16,
+      11
+     ]
+    }
+   ],
+   "box": [
+    694,
+    941,
+    31,
+    13
+   ]
+  },
+  {
+   "id": 52,
+   "name": "darknut_e052",
+   "file": "darknut_e052.png",
+   "cell": [
+    9,
+    9
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 395,
+     "role": "frame_0",
+     "src": [
+      906,
+      941,
+      7,
+      9
+     ]
+    },
+    {
+     "item": 396,
+     "role": "frame_1",
+     "src": [
+      916,
+      941,
+      6,
+      8
+     ]
+    },
+    {
+     "item": 397,
+     "role": "frame_2",
+     "src": [
+      926,
+      950,
+      4,
+      3
+     ]
+    },
+    {
+     "item": 398,
+     "role": "frame_3",
+     "src": [
+      932,
+      950,
+      4,
+      3
+     ],
+     "mirror_of": 2
+    },
+    {
+     "item": 399,
+     "role": "frame_4",
+     "src": [
+      940,
+      941,
+      6,
+      8
+     ],
+     "mirror_of": 1
+    }
+   ],
+   "box": [
+    906,
+    941,
+    40,
+    12
+   ]
+  },
+  {
+   "id": 53,
+   "name": "darknut_e053",
+   "file": "darknut_e053.png",
+   "cell": [
+    2,
+    8
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 401,
+     "role": "frame_0",
+     "src": [
+      422,
+      955,
+      2,
+      8
+     ]
+    },
+    {
+     "item": 402,
+     "role": "frame_1",
+     "src": [
+      425,
+      956,
+      1,
+      7
+     ]
+    }
+   ],
+   "box": [
+    422,
+    955,
+    4,
+    8
+   ]
+  },
+  {
+   "id": 54,
+   "name": "darknut_e054",
+   "file": "darknut_e054.png",
+   "cell": [
+    2,
+    8
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 406,
+     "role": "frame_0",
+     "src": [
+      471,
+      914,
+      2,
+      8
+     ]
+    },
+    {
+     "item": 407,
+     "role": "frame_1",
+     "src": [
+      474,
+      915,
+      1,
+      7
+     ]
+    }
+   ],
+   "box": [
+    471,
+    914,
+    4,
+    8
+   ]
+  },
+  {
+   "id": 55,
+   "name": "darknut_e055",
+   "file": "darknut_e055.png",
+   "cell": [
+    15,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 411,
+     "role": "frame_0",
+     "src": [
+      596,
+      924,
+      9,
+      10
+     ]
+    },
+    {
+     "item": 412,
+     "role": "frame_1",
+     "src": [
+      607,
+      921,
+      15,
+      16
+     ]
+    }
+   ],
+   "box": [
+    596,
+    921,
+    26,
+    16
+   ]
+  },
+  {
+   "id": 56,
+   "name": "darknut_e056",
+   "file": "darknut_e056.png",
+   "cell": [
+    7,
+    13
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 293,
+     "role": "frame_0",
+     "src": [
+      615,
+      845,
+      7,
+      8
+     ]
+    },
+    {
+     "item": 294,
+     "role": "frame_1",
+     "src": [
+      647,
+      844,
+      7,
+      8
+     ]
+    },
+    {
+     "item": 295,
+     "role": "frame_2",
+     "src": [
+      679,
+      843,
+      7,
+      8
+     ]
+    },
+    {
+     "item": 296,
+     "role": "frame_3",
+     "src": [
+      712,
+      841,
+      7,
+      8
+     ]
+    },
+    {
+     "item": 297,
+     "role": "frame_4",
+     "src": [
+      745,
+      840,
+      7,
+      8
+     ]
+    },
+    {
+     "item": 298,
+     "role": "frame_5",
+     "src": [
+      861,
+      842,
+      7,
+      6
+     ]
+    },
+    {
+     "item": 299,
+     "role": "frame_6",
+     "src": [
+      894,
+      842,
+      7,
+      8
+     ]
+    },
+    {
+     "item": 300,
+     "role": "frame_7",
+     "src": [
+      927,
+      843,
+      7,
+      8
+     ],
+     "duplicate_of": 2
+    },
+    {
+     "item": 301,
+     "role": "frame_8",
+     "src": [
+      960,
+      843,
+      7,
+      8
+     ],
+     "duplicate_of": 2
+    },
+    {
+     "item": 302,
+     "role": "frame_9",
+     "src": [
+      993,
+      844,
+      7,
+      8
+     ],
+     "duplicate_of": 1
+    }
+   ],
+   "box": [
+    615,
+    840,
+    385,
+    13
+   ]
+  },
+  {
+   "id": 57,
+   "name": "darknut_e057",
+   "file": "darknut_e057.png",
+   "cell": [
+    31,
+    80
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 377,
+     "role": "frame_0",
+     "src": [
+      144,
+      881,
+      30,
+      79
+     ]
+    },
+    {
+     "item": 383,
+     "role": "frame_1",
+     "src": [
+      176,
+      883,
+      30,
+      72
+     ]
+    },
+    {
+     "item": 378,
+     "role": "frame_2",
+     "src": [
+      209,
+      884,
+      30,
+      75
+     ]
+    },
+    {
+     "item": 379,
+     "role": "frame_3",
+     "src": [
+      242,
+      883,
+      30,
+      77
+     ]
+    },
+    {
+     "item": 380,
+     "role": "frame_4",
+     "src": [
+      275,
+      884,
+      30,
+      72
+     ]
+    },
+    {
+     "item": 381,
+     "role": "frame_5",
+     "src": [
+      308,
+      883,
+      30,
+      75
+     ]
+    },
+    {
+     "item": 382,
+     "role": "frame_6",
+     "src": [
+      341,
+      884,
+      30,
+      77
+     ]
+    }
+   ],
+   "box": [
+    144,
+    881,
+    227,
+    80
+   ]
+  },
+  {
+   "id": 58,
+   "name": "darknut_e058",
+   "file": "darknut_e058.png",
+   "cell": [
+    28,
+    83
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 400,
+     "role": "frame_0",
+     "src": [
+      376,
+      883,
+      28,
+      83
+     ]
+    },
+    {
+     "item": 384,
+     "role": "frame_1",
+     "src": [
+      412,
+      883,
+      26,
+      70
+     ]
+    }
+   ],
+   "box": [
+    376,
+    883,
+    62,
+    83
+   ]
+  },
+  {
+   "id": 59,
+   "name": "darknut_e059",
+   "file": "darknut_e059.png",
+   "cell": [
+    61,
+    37
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 158,
+     "role": "frame_0",
+     "src": [
+      363,
+      447,
+      56,
+      32
+     ]
+    },
+    {
+     "item": 162,
+     "role": "frame_1",
+     "src": [
+      423,
+      446,
+      61,
+      37
+     ]
+    }
+   ],
+   "box": [
+    363,
+    446,
+    121,
+    37
+   ]
+  },
+  {
+   "id": 60,
+   "name": "darknut_e060",
+   "file": "darknut_e060.png",
+   "cell": [
+    64,
+    37
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 159,
+     "role": "frame_0",
+     "src": [
+      492,
+      447,
+      64,
+      35
+     ]
+    },
+    {
+     "item": 163,
+     "role": "frame_1",
+     "src": [
+      563,
+      448,
+      50,
+      36
+     ]
+    }
+   ],
+   "box": [
+    492,
+    447,
+    121,
+    37
+   ]
+  },
+  {
+   "id": 61,
+   "name": "darknut_e061",
+   "file": "darknut_e061.png",
+   "cell": [
+    91,
+    29
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 265,
+     "role": "frame_0",
+     "src": [
+      475,
+      759,
+      77,
+      29
+     ]
+    },
+    {
+     "item": 266,
+     "role": "frame_1",
+     "src": [
+      560,
+      759,
+      80,
+      29
+     ]
+    },
+    {
+     "item": 267,
+     "role": "frame_2",
+     "src": [
+      643,
+      759,
+      79,
+      29
+     ]
+    },
+    {
+     "item": 268,
+     "role": "frame_3",
+     "src": [
+      726,
+      759,
+      80,
+      29
+     ]
+    },
+    {
+     "item": 269,
+     "role": "frame_4",
+     "src": [
+      820,
+      759,
+      91,
+      29
+     ]
+    }
+   ],
+   "box": [
+    475,
+    759,
+    436,
+    29
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 714,
+   "y": 142,
+   "w": 50,
+   "h": 36,
+   "area": 841,
+   "ncolors": 19,
+   "dominant": "#314139",
+   "dom_frac": 0.155,
+   "kind": "sprite",
+   "zone": null,
+   "id": 63,
+   "file": "darknut_063.png"
+  },
+  {
+   "x": 808,
+   "y": 266,
+   "w": 6,
+   "h": 6,
+   "area": 14,
+   "ncolors": 4,
+   "dominant": "#28A0F0",
+   "dom_frac": 0.429,
+   "kind": "sprite",
+   "zone": null,
+   "id": 105,
+   "file": "darknut_105.png"
+  },
+  {
+   "x": 759,
+   "y": 250,
+   "w": 6,
+   "h": 6,
+   "area": 14,
+   "ncolors": 4,
+   "dominant": "#28A0F0",
+   "dom_frac": 0.429,
+   "kind": "sprite",
+   "zone": null,
+   "id": 106,
+   "file": "darknut_106.png"
+  },
+  {
+   "x": 808,
+   "y": 244,
+   "w": 6,
+   "h": 6,
+   "area": 14,
+   "ncolors": 4,
+   "dominant": "#28A0F0",
+   "dom_frac": 0.429,
+   "kind": "sprite",
+   "zone": null,
+   "id": 109,
+   "file": "darknut_109.png",
+   "mirror_of": 2
+  },
+  {
+   "x": 11,
+   "y": 339,
+   "w": 40,
+   "h": 41,
+   "area": 902,
+   "ncolors": 15,
+   "dominant": "#63716B",
+   "dom_frac": 0.227,
+   "kind": "sprite",
+   "zone": null,
+   "id": 129,
+   "file": "darknut_129.png"
+  },
+  {
+   "x": 207,
+   "y": 610,
+   "w": 40,
+   "h": 37,
+   "area": 801,
+   "ncolors": 18,
+   "dominant": "#314139",
+   "dom_frac": 0.177,
+   "kind": "sprite",
+   "zone": null,
+   "id": 201,
+   "file": "darknut_201.png"
+  },
+  {
+   "x": 422,
+   "y": 593,
+   "w": 57,
+   "h": 32,
+   "area": 907,
+   "ncolors": 17,
+   "dominant": "#314139",
+   "dom_frac": 0.162,
+   "kind": "sprite",
+   "zone": null,
+   "id": 208,
+   "file": "darknut_208.png"
+  },
+  {
+   "x": 733,
+   "y": 594,
+   "w": 41,
+   "h": 31,
+   "area": 763,
+   "ncolors": 19,
+   "dominant": "#314139",
+   "dom_frac": 0.195,
+   "kind": "sprite",
+   "zone": null,
+   "id": 209,
+   "file": "darknut_209.png"
+  },
+  {
+   "x": 166,
+   "y": 605,
+   "w": 40,
+   "h": 44,
+   "area": 743,
+   "ncolors": 19,
+   "dominant": "#314139",
+   "dom_frac": 0.167,
+   "kind": "sprite",
+   "zone": null,
+   "id": 210,
+   "file": "darknut_210.png"
+  },
+  {
+   "x": 11,
+   "y": 758,
+   "w": 33,
+   "h": 37,
+   "area": 659,
+   "ncolors": 18,
+   "dominant": "#080808",
+   "dom_frac": 0.206,
+   "kind": "sprite",
+   "zone": null,
+   "id": 247,
+   "file": "darknut_247.png"
+  },
+  {
+   "x": 157,
+   "y": 731,
+   "w": 27,
+   "h": 64,
+   "area": 855,
+   "ncolors": 16,
+   "dominant": "#080808",
+   "dom_frac": 0.126,
+   "kind": "sprite",
+   "zone": null,
+   "id": 250,
+   "file": "darknut_250.png"
+  },
+  {
+   "x": 935,
+   "y": 727,
+   "w": 43,
+   "h": 10,
+   "area": 138,
+   "ncolors": 4,
+   "dominant": "#A0B0C0",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "id": 262,
+   "file": "darknut_262.png"
+  },
+  {
+   "x": 104,
+   "y": 773,
+   "w": 4,
+   "h": 3,
+   "area": 6,
+   "ncolors": 3,
+   "dominant": "#F8E038",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "id": 272,
+   "file": "darknut_272.png"
+  },
+  {
+   "x": 919,
+   "y": 861,
+   "w": 26,
+   "h": 8,
+   "area": 164,
+   "ncolors": 1,
+   "dominant": "#302038",
+   "dom_frac": 1.0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 308,
+   "file": "darknut_308.png"
+  },
+  {
+   "x": 539,
+   "y": 840,
+   "w": 7,
+   "h": 6,
+   "area": 25,
+   "ncolors": 4,
+   "dominant": "#E8B820",
+   "dom_frac": 0.28,
+   "kind": "sprite",
+   "zone": null,
+   "id": 311,
+   "file": "darknut_311.png"
+  },
+  {
+   "x": 570,
+   "y": 840,
+   "w": 7,
+   "h": 6,
+   "area": 25,
+   "ncolors": 4,
+   "dominant": "#E8B820",
+   "dom_frac": 0.28,
+   "kind": "sprite",
+   "zone": null,
+   "id": 312,
+   "file": "darknut_312.png",
+   "duplicate_of": 14
+  },
+  {
+   "x": 602,
+   "y": 839,
+   "w": 7,
+   "h": 6,
+   "area": 25,
+   "ncolors": 4,
+   "dominant": "#E8B820",
+   "dom_frac": 0.28,
+   "kind": "sprite",
+   "zone": null,
+   "id": 313,
+   "file": "darknut_313.png",
+   "duplicate_of": 14
+  },
+  {
+   "x": 633,
+   "y": 839,
+   "w": 7,
+   "h": 6,
+   "area": 25,
+   "ncolors": 4,
+   "dominant": "#E8B820",
+   "dom_frac": 0.28,
+   "kind": "sprite",
+   "zone": null,
+   "id": 314,
+   "file": "darknut_314.png",
+   "duplicate_of": 14
+  },
+  {
+   "x": 664,
+   "y": 839,
+   "w": 7,
+   "h": 6,
+   "area": 25,
+   "ncolors": 4,
+   "dominant": "#E8B820",
+   "dom_frac": 0.28,
+   "kind": "sprite",
+   "zone": null,
+   "id": 315,
+   "file": "darknut_315.png",
+   "duplicate_of": 14
+  },
+  {
+   "x": 697,
+   "y": 839,
+   "w": 7,
+   "h": 6,
+   "area": 25,
+   "ncolors": 4,
+   "dominant": "#E8B820",
+   "dom_frac": 0.28,
+   "kind": "sprite",
+   "zone": null,
+   "id": 316,
+   "file": "darknut_316.png",
+   "duplicate_of": 14
+  },
+  {
+   "x": 729,
+   "y": 839,
+   "w": 7,
+   "h": 6,
+   "area": 25,
+   "ncolors": 4,
+   "dominant": "#E8B820",
+   "dom_frac": 0.28,
+   "kind": "sprite",
+   "zone": null,
+   "id": 317,
+   "file": "darknut_317.png",
+   "duplicate_of": 14
+  },
+  {
+   "x": 878,
+   "y": 839,
+   "w": 7,
+   "h": 6,
+   "area": 25,
+   "ncolors": 4,
+   "dominant": "#E8B820",
+   "dom_frac": 0.28,
+   "kind": "sprite",
+   "zone": null,
+   "id": 324,
+   "file": "darknut_324.png",
+   "duplicate_of": 14
+  },
+  {
+   "x": 910,
+   "y": 839,
+   "w": 7,
+   "h": 6,
+   "area": 25,
+   "ncolors": 4,
+   "dominant": "#E8B820",
+   "dom_frac": 0.28,
+   "kind": "sprite",
+   "zone": null,
+   "id": 325,
+   "file": "darknut_325.png",
+   "duplicate_of": 14
+  },
+  {
+   "x": 943,
+   "y": 839,
+   "w": 7,
+   "h": 6,
+   "area": 25,
+   "ncolors": 4,
+   "dominant": "#E8B820",
+   "dom_frac": 0.28,
+   "kind": "sprite",
+   "zone": null,
+   "id": 326,
+   "file": "darknut_326.png",
+   "duplicate_of": 14
+  },
+  {
+   "x": 974,
+   "y": 839,
+   "w": 7,
+   "h": 6,
+   "area": 25,
+   "ncolors": 4,
+   "dominant": "#E8B820",
+   "dom_frac": 0.28,
+   "kind": "sprite",
+   "zone": null,
+   "id": 327,
+   "file": "darknut_327.png",
+   "duplicate_of": 14
+  },
+  {
+   "x": 1006,
+   "y": 838,
+   "w": 7,
+   "h": 6,
+   "area": 25,
+   "ncolors": 4,
+   "dominant": "#E8B820",
+   "dom_frac": 0.28,
+   "kind": "sprite",
+   "zone": null,
+   "id": 328,
+   "file": "darknut_328.png",
+   "duplicate_of": 14
+  },
+  {
+   "x": 1036,
+   "y": 839,
+   "w": 7,
+   "h": 6,
+   "area": 25,
+   "ncolors": 4,
+   "dominant": "#E8B820",
+   "dom_frac": 0.28,
+   "kind": "sprite",
+   "zone": null,
+   "id": 329,
+   "file": "darknut_329.png",
+   "duplicate_of": 14
+  },
+  {
+   "x": 530,
+   "y": 848,
+   "w": 7,
+   "h": 8,
+   "area": 32,
+   "ncolors": 5,
+   "dominant": "#F8F890",
+   "dom_frac": 0.375,
+   "kind": "sprite",
+   "zone": null,
+   "id": 333,
+   "file": "darknut_333.png"
+  },
+  {
+   "x": 630,
+   "y": 849,
+   "w": 7,
+   "h": 8,
+   "area": 32,
+   "ncolors": 5,
+   "dominant": "#F8F890",
+   "dom_frac": 0.375,
+   "kind": "sprite",
+   "zone": null,
+   "id": 338,
+   "file": "darknut_338.png",
+   "duplicate_of": 27
+  },
+  {
+   "x": 663,
+   "y": 849,
+   "w": 7,
+   "h": 8,
+   "area": 32,
+   "ncolors": 5,
+   "dominant": "#F8F890",
+   "dom_frac": 0.375,
+   "kind": "sprite",
+   "zone": null,
+   "id": 339,
+   "file": "darknut_339.png",
+   "duplicate_of": 27
+  },
+  {
+   "x": 698,
+   "y": 849,
+   "w": 7,
+   "h": 8,
+   "area": 32,
+   "ncolors": 5,
+   "dominant": "#F8F890",
+   "dom_frac": 0.375,
+   "kind": "sprite",
+   "zone": null,
+   "id": 340,
+   "file": "darknut_340.png",
+   "duplicate_of": 27
+  },
+  {
+   "x": 733,
+   "y": 849,
+   "w": 7,
+   "h": 8,
+   "area": 32,
+   "ncolors": 5,
+   "dominant": "#F8F890",
+   "dom_frac": 0.375,
+   "kind": "sprite",
+   "zone": null,
+   "id": 341,
+   "file": "darknut_341.png",
+   "duplicate_of": 27
+  },
+  {
+   "x": 768,
+   "y": 848,
+   "w": 7,
+   "h": 8,
+   "area": 32,
+   "ncolors": 5,
+   "dominant": "#F8F890",
+   "dom_frac": 0.375,
+   "kind": "sprite",
+   "zone": null,
+   "id": 342,
+   "file": "darknut_342.png",
+   "duplicate_of": 27
+  },
+  {
+   "x": 804,
+   "y": 849,
+   "w": 7,
+   "h": 8,
+   "area": 32,
+   "ncolors": 5,
+   "dominant": "#F8F890",
+   "dom_frac": 0.375,
+   "kind": "sprite",
+   "zone": null,
+   "id": 343,
+   "file": "darknut_343.png",
+   "duplicate_of": 27
+  },
+  {
+   "x": 838,
+   "y": 849,
+   "w": 7,
+   "h": 8,
+   "area": 32,
+   "ncolors": 5,
+   "dominant": "#F8F890",
+   "dom_frac": 0.375,
+   "kind": "sprite",
+   "zone": null,
+   "id": 344,
+   "file": "darknut_344.png",
+   "duplicate_of": 27
+  },
+  {
+   "x": 874,
+   "y": 849,
+   "w": 7,
+   "h": 8,
+   "area": 32,
+   "ncolors": 5,
+   "dominant": "#F8F890",
+   "dom_frac": 0.375,
+   "kind": "sprite",
+   "zone": null,
+   "id": 345,
+   "file": "darknut_345.png",
+   "duplicate_of": 27
+  },
+  {
+   "x": 908,
+   "y": 850,
+   "w": 7,
+   "h": 8,
+   "area": 32,
+   "ncolors": 5,
+   "dominant": "#F8F890",
+   "dom_frac": 0.375,
+   "kind": "sprite",
+   "zone": null,
+   "id": 346,
+   "file": "darknut_346.png",
+   "duplicate_of": 27
+  },
+  {
+   "x": 943,
+   "y": 849,
+   "w": 7,
+   "h": 8,
+   "area": 32,
+   "ncolors": 5,
+   "dominant": "#F8F890",
+   "dom_frac": 0.375,
+   "kind": "sprite",
+   "zone": null,
+   "id": 347,
+   "file": "darknut_347.png",
+   "duplicate_of": 27
+  },
+  {
+   "x": 977,
+   "y": 849,
+   "w": 7,
+   "h": 8,
+   "area": 32,
+   "ncolors": 5,
+   "dominant": "#F8F890",
+   "dom_frac": 0.375,
+   "kind": "sprite",
+   "zone": null,
+   "id": 348,
+   "file": "darknut_348.png",
+   "duplicate_of": 27
+  },
+  {
+   "x": 1043,
+   "y": 848,
+   "w": 7,
+   "h": 8,
+   "area": 32,
+   "ncolors": 5,
+   "dominant": "#F8F890",
+   "dom_frac": 0.375,
+   "kind": "sprite",
+   "zone": null,
+   "id": 351,
+   "file": "darknut_351.png",
+   "duplicate_of": 27
+  },
+  {
+   "x": 596,
+   "y": 907,
+   "w": 9,
+   "h": 10,
+   "area": 28,
+   "ncolors": 6,
+   "dominant": "#F8B828",
+   "dom_frac": 0.25,
+   "kind": "sprite",
+   "zone": null,
+   "id": 354,
+   "file": "darknut_354.png"
+  },
+  {
+   "x": 627,
+   "y": 906,
+   "w": 2,
+   "h": 12,
+   "area": 21,
+   "ncolors": 4,
+   "dominant": "#F8E038",
+   "dom_frac": 0.429,
+   "kind": "sprite",
+   "zone": null,
+   "id": 355,
+   "file": "darknut_355.png"
+  },
+  {
+   "x": 452,
+   "y": 893,
+   "w": 4,
+   "h": 10,
+   "area": 21,
+   "ncolors": 2,
+   "dominant": "#A0B0C0",
+   "dom_frac": 0.571,
+   "kind": "sprite",
+   "zone": null,
+   "id": 360,
+   "file": "darknut_360.png"
+  },
+  {
+   "x": 470,
+   "y": 898,
+   "w": 1,
+   "h": 7,
+   "area": 7,
+   "ncolors": 2,
+   "dominant": "#D0D8E8",
+   "dom_frac": 0.571,
+   "kind": "sprite",
+   "zone": null,
+   "id": 361,
+   "file": "darknut_361.png"
+  },
+  {
+   "x": 22,
+   "y": 876,
+   "w": 33,
+   "h": 51,
+   "area": 779,
+   "ncolors": 17,
+   "dominant": "#63716B",
+   "dom_frac": 0.189,
+   "kind": "sprite",
+   "zone": null,
+   "id": 371,
+   "file": "darknut_371.png"
+  },
+  {
+   "x": 452,
+   "y": 899,
+   "w": 8,
+   "h": 31,
+   "area": 95,
+   "ncolors": 3,
+   "dominant": "#A0B0C0",
+   "dom_frac": 0.474,
+   "kind": "sprite",
+   "zone": null,
+   "id": 374,
+   "file": "darknut_374.png"
+  },
+  {
+   "x": 582,
+   "y": 921,
+   "w": 6,
+   "h": 8,
+   "area": 21,
+   "ncolors": 7,
+   "dominant": "#F8B828",
+   "dom_frac": 0.286,
+   "kind": "sprite",
+   "zone": null,
+   "id": 375,
+   "file": "darknut_375.png"
+  },
+  {
+   "x": 645,
+   "y": 920,
+   "w": 2,
+   "h": 8,
+   "area": 14,
+   "ncolors": 4,
+   "dominant": "#F8E038",
+   "dom_frac": 0.357,
+   "kind": "sprite",
+   "zone": null,
+   "id": 376,
+   "file": "darknut_376.png"
+  },
+  {
+   "x": 422,
+   "y": 947,
+   "w": 1,
+   "h": 6,
+   "area": 6,
+   "ncolors": 3,
+   "dominant": "#D0D8E8",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "id": 385,
+   "file": "darknut_385.png"
+  },
+  {
+   "x": 624,
+   "y": 938,
+   "w": 15,
+   "h": 15,
+   "area": 77,
+   "ncolors": 2,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.662,
+   "kind": "sprite",
+   "zone": null,
+   "id": 390,
+   "file": "darknut_390.png"
+  },
+  {
+   "x": 122,
+   "y": 889,
+   "w": 5,
+   "h": 2,
+   "area": 7,
+   "ncolors": 3,
+   "dominant": "#F8F860",
+   "dom_frac": 0.571,
+   "kind": "sprite",
+   "zone": null,
+   "id": 403,
+   "file": "darknut_403.png"
+  },
+  {
+   "x": 455,
+   "y": 887,
+   "w": 2,
+   "h": 9,
+   "area": 11,
+   "ncolors": 3,
+   "dominant": "#708890",
+   "dom_frac": 0.545,
+   "kind": "sprite",
+   "zone": null,
+   "id": 404,
+   "file": "darknut_404.png"
+  },
+  {
+   "x": 473,
+   "y": 887,
+   "w": 1,
+   "h": 8,
+   "area": 8,
+   "ncolors": 3,
+   "dominant": "#A0B0C0",
+   "dom_frac": 0.375,
+   "kind": "sprite",
+   "zone": null,
+   "id": 405,
+   "file": "darknut_405.png"
+  },
+  {
+   "x": 582,
+   "y": 912,
+   "w": 6,
+   "h": 8,
+   "area": 21,
+   "ncolors": 7,
+   "dominant": "#F8B828",
+   "dom_frac": 0.286,
+   "kind": "sprite",
+   "zone": null,
+   "id": 408,
+   "file": "darknut_408.png"
+  },
+  {
+   "x": 607,
+   "y": 904,
+   "w": 15,
+   "h": 16,
+   "area": 53,
+   "ncolors": 6,
+   "dominant": "#F8E038",
+   "dom_frac": 0.34,
+   "kind": "sprite",
+   "zone": null,
+   "id": 409,
+   "file": "darknut_409.png"
+  },
+  {
+   "x": 636,
+   "y": 907,
+   "w": 2,
+   "h": 17,
+   "area": 31,
+   "ncolors": 5,
+   "dominant": "#F8E038",
+   "dom_frac": 0.355,
+   "kind": "sprite",
+   "zone": null,
+   "id": 410,
+   "file": "darknut_410.png"
+  },
+  {
+   "x": 616,
+   "y": 938,
+   "w": 6,
+   "h": 8,
+   "area": 21,
+   "ncolors": 7,
+   "dominant": "#F8B828",
+   "dom_frac": 0.286,
+   "kind": "sprite",
+   "zone": null,
+   "id": 413,
+   "file": "darknut_413.png",
+   "mirror_of": 46
+  },
+  {
+   "x": 641,
+   "y": 938,
+   "w": 7,
+   "h": 7,
+   "area": 37,
+   "ncolors": 2,
+   "dominant": "#F8F860",
+   "dom_frac": 0.568,
+   "kind": "sprite",
+   "zone": null,
+   "id": 414,
+   "file": "darknut_414.png"
+  },
+  {
+   "x": 896,
+   "y": 939,
+   "w": 4,
+   "h": 3,
+   "area": 8,
+   "ncolors": 2,
+   "dominant": "#706060",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "id": 415,
+   "file": "darknut_415.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

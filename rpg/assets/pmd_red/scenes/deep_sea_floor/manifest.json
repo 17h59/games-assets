@@ -1,0 +1,325 @@
+{
+ "sheet": "5357",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Deep-Sea Floor",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "bubble",
+   "file": "bubble.png",
+   "cell": [
+    14,
+    12
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      52,
+      349,
+      5,
+      3
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_1",
+     "src": [
+      63,
+      348,
+      3,
+      5
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_2",
+     "src": [
+      73,
+      349,
+      5,
+      3
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 4,
+     "role": "frame_3",
+     "src": [
+      93,
+      348,
+      5,
+      5
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_4",
+     "src": [
+      103,
+      348,
+      5,
+      5
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_5",
+     "src": [
+      114,
+      348,
+      5,
+      6
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_6",
+     "src": [
+      124,
+      348,
+      6,
+      5
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_7",
+     "src": [
+      135,
+      348,
+      6,
+      6
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_8",
+     "src": [
+      146,
+      348,
+      6,
+      7
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_9",
+     "src": [
+      157,
+      348,
+      7,
+      6
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_10",
+     "src": [
+      169,
+      348,
+      6,
+      6
+     ],
+     "duplicate_of": 7
+    },
+    {
+     "item": 12,
+     "role": "frame_11",
+     "src": [
+      181,
+      348,
+      6,
+      7
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_12",
+     "src": [
+      191,
+      348,
+      8,
+      6
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_13",
+     "src": [
+      204,
+      348,
+      9,
+      7
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_14",
+     "src": [
+      218,
+      345,
+      11,
+      12
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_15",
+     "src": [
+      235,
+      345,
+      14,
+      12
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_16",
+     "src": [
+      255,
+      345,
+      13,
+      11
+     ]
+    }
+   ],
+   "box": [
+    52,
+    345,
+    216,
+    12
+   ]
+  },
+  {
+   "id": 1,
+   "name": "sparkle_burst",
+   "file": "sparkle_burst.png",
+   "cell": [
+    12,
+    10
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 15,
+     "role": "frame_0",
+     "src": [
+      277,
+      344,
+      9,
+      8
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_1",
+     "src": [
+      294,
+      344,
+      9,
+      8
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_2",
+     "src": [
+      313,
+      343,
+      10,
+      6
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_3",
+     "src": [
+      333,
+      342,
+      10,
+      7
+     ]
+    }
+   ],
+   "box": [
+    277,
+    342,
+    66,
+    10
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 480,
+   "h": 336,
+   "area": 160030,
+   "ncolors": 97,
+   "dominant": "#002878",
+   "dom_frac": 0.226,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "deep_sea_floor_000.png"
+  },
+  {
+   "x": 282,
+   "y": 351,
+   "w": 7,
+   "h": 5,
+   "area": 8,
+   "ncolors": 3,
+   "dominant": "#909080",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "id": 22,
+   "file": "deep_sea_floor_022.png"
+  },
+  {
+   "x": 299,
+   "y": 351,
+   "w": 7,
+   "h": 5,
+   "area": 8,
+   "ncolors": 3,
+   "dominant": "#909080",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "id": 23,
+   "file": "deep_sea_floor_023.png",
+   "duplicate_of": 1
+  },
+  {
+   "x": 319,
+   "y": 348,
+   "w": 8,
+   "h": 9,
+   "area": 7,
+   "ncolors": 3,
+   "dominant": "#909080",
+   "dom_frac": 0.571,
+   "kind": "sprite",
+   "zone": null,
+   "id": 24,
+   "file": "deep_sea_floor_024.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

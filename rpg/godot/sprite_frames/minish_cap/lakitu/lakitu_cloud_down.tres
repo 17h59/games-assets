@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/lakitu/lakitu_cloud_down.png" id="1_cjmar"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8n88o"]
+atlas = ExtResource("1_cjmar")
+region = Rect2(0, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qlsoi"]
+atlas = ExtResource("1_cjmar")
+region = Rect2(24, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rx4u7"]
+atlas = ExtResource("1_cjmar")
+region = Rect2(48, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jhx4e"]
+atlas = ExtResource("1_cjmar")
+region = Rect2(72, 0, 24, 24)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8n88o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qlsoi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rx4u7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jhx4e")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

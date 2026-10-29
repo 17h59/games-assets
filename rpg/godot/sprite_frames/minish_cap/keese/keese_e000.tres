@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/keese/keese_e000.png" id="1_mg7gh"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k765f"]
+atlas = ExtResource("1_mg7gh")
+region = Rect2(0, 0, 20, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rj4cc"]
+atlas = ExtResource("1_mg7gh")
+region = Rect2(20, 0, 20, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8qedv"]
+atlas = ExtResource("1_mg7gh")
+region = Rect2(40, 0, 20, 17)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k765f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rj4cc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8qedv")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

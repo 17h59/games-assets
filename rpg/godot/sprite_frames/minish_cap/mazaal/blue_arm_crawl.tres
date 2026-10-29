@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/mazaal/deactivated/blue_arm_crawl.png" id="1_gvmrx"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mv8y8"]
+atlas = ExtResource("1_gvmrx")
+region = Rect2(0, 0, 50, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_buhsu"]
+atlas = ExtResource("1_gvmrx")
+region = Rect2(50, 0, 50, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7fc5l"]
+atlas = ExtResource("1_gvmrx")
+region = Rect2(100, 0, 50, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0l30r"]
+atlas = ExtResource("1_gvmrx")
+region = Rect2(150, 0, 50, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mfhvu"]
+atlas = ExtResource("1_gvmrx")
+region = Rect2(200, 0, 50, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d56ah"]
+atlas = ExtResource("1_gvmrx")
+region = Rect2(250, 0, 50, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qwl27"]
+atlas = ExtResource("1_gvmrx")
+region = Rect2(300, 0, 50, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_plklw"]
+atlas = ExtResource("1_gvmrx")
+region = Rect2(350, 0, 50, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mv8y8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_buhsu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7fc5l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0l30r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mfhvu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d56ah")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qwl27")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_plklw")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

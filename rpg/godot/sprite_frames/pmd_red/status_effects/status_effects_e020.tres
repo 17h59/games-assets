@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/status_effects/status_effects_e020.png" id="1_eviwb"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wld4k"]
+atlas = ExtResource("1_eviwb")
+region = Rect2(0, 0, 15, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kwdk5"]
+atlas = ExtResource("1_eviwb")
+region = Rect2(15, 0, 15, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t63bv"]
+atlas = ExtResource("1_eviwb")
+region = Rect2(30, 0, 15, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lwcax"]
+atlas = ExtResource("1_eviwb")
+region = Rect2(45, 0, 15, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_opfrs"]
+atlas = ExtResource("1_eviwb")
+region = Rect2(60, 0, 15, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h8jbd"]
+atlas = ExtResource("1_eviwb")
+region = Rect2(75, 0, 15, 24)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wld4k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kwdk5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t63bv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lwcax")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_opfrs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h8jbd")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/enclosed_island/enclosed_island_ring.png" id="1_6vwyo"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uydqk"]
+atlas = ExtResource("1_6vwyo")
+region = Rect2(0, 0, 339, 402)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_quu4u"]
+atlas = ExtResource("1_6vwyo")
+region = Rect2(339, 0, 339, 402)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ilghl"]
+atlas = ExtResource("1_6vwyo")
+region = Rect2(678, 0, 339, 402)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5nobp"]
+atlas = ExtResource("1_6vwyo")
+region = Rect2(1017, 0, 339, 402)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uydqk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_quu4u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ilghl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5nobp")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

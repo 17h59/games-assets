@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/ghini/ghini_flame.png" id="1_nyqpv"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0mtty"]
+atlas = ExtResource("1_nyqpv")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mnain"]
+atlas = ExtResource("1_nyqpv")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b1jv5"]
+atlas = ExtResource("1_nyqpv")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tgs5w"]
+atlas = ExtResource("1_nyqpv")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1wf55"]
+atlas = ExtResource("1_nyqpv")
+region = Rect2(64, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nff3v"]
+atlas = ExtResource("1_nyqpv")
+region = Rect2(80, 0, 16, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0mtty")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mnain")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b1jv5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tgs5w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1wf55")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nff3v")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

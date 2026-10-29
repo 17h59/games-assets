@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://c5rya7conj632"]
+
+[ext_resource type="PackedScene" path="res://godot/maps/emerald/littleroot_town_19776_r0.tscn" id="1_tr11e"]
+[ext_resource type="Script" uid="uid://c8hsb5b2iwmre" path="res://godot/demo/player.gd" id="3_5qjjx"]
+[ext_resource type="SpriteFrames" uid="uid://co3of0psk1oqs" path="res://godot/sprite_frames/emerald/brendan/walk.tres" id="4_8ppmw"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5r6pw"]
+size = Vector2(10, 8)
+
+[node name="DemoBourg" type="Node2D" unique_id=971913283]
+
+[node name="littleroot_town_19776_r0" parent="." unique_id=775599448 instance=ExtResource("1_tr11e")]
+
+[node name="Joueur" type="CharacterBody2D" parent="." unique_id=370343530]
+position = Vector2(232, 336)
+script = ExtResource("3_5qjjx")
+
+[node name="@CollisionShape2D@8" type="CollisionShape2D" parent="Joueur" unique_id=1176992985]
+position = Vector2(0, -2)
+shape = SubResource("RectangleShape2D_5r6pw")
+
+[node name="Sprite" type="AnimatedSprite2D" parent="Joueur" unique_id=316783827]
+sprite_frames = ExtResource("4_8ppmw")
+animation = &"walk_left"
+offset = Vector2(0, -8)
+
+[node name="Camera" type="Camera2D" parent="Joueur" unique_id=637396283]

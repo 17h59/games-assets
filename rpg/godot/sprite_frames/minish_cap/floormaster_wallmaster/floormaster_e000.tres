@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/floormaster_wallmaster/floormaster/floormaster_e000.png" id="1_qexbm"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ybsh8"]
+atlas = ExtResource("1_qexbm")
+region = Rect2(0, 0, 32, 30)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_25u6g"]
+atlas = ExtResource("1_qexbm")
+region = Rect2(32, 0, 32, 30)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5d5bc"]
+atlas = ExtResource("1_qexbm")
+region = Rect2(64, 0, 32, 30)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jfkhh"]
+atlas = ExtResource("1_qexbm")
+region = Rect2(96, 0, 32, 30)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6xj7f"]
+atlas = ExtResource("1_qexbm")
+region = Rect2(128, 0, 32, 30)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r8tal"]
+atlas = ExtResource("1_qexbm")
+region = Rect2(160, 0, 32, 30)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tfka2"]
+atlas = ExtResource("1_qexbm")
+region = Rect2(192, 0, 32, 30)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wy2s0"]
+atlas = ExtResource("1_qexbm")
+region = Rect2(224, 0, 32, 30)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ybsh8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_25u6g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5d5bc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jfkhh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6xj7f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r8tal")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tfka2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wy2s0")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

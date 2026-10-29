@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/ruby_sapphire/characters/wally/wally_battle_throw.png" id="1_wqk3j"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ehuuu"]
+atlas = ExtResource("1_wqk3j")
+region = Rect2(0, 0, 58, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1y2ah"]
+atlas = ExtResource("1_wqk3j")
+region = Rect2(58, 0, 58, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_31ltk"]
+atlas = ExtResource("1_wqk3j")
+region = Rect2(116, 0, 58, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ayf7v"]
+atlas = ExtResource("1_wqk3j")
+region = Rect2(174, 0, 58, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sries"]
+atlas = ExtResource("1_wqk3j")
+region = Rect2(232, 0, 58, 50)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ehuuu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1y2ah")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_31ltk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ayf7v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sries")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

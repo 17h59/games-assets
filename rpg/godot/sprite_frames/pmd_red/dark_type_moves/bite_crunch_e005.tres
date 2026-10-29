@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/dark_type_moves/bite_crunch/bite_crunch_e005.png" id="1_1e4ts"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2rwc7"]
+atlas = ExtResource("1_1e4ts")
+region = Rect2(0, 0, 30, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qn1ry"]
+atlas = ExtResource("1_1e4ts")
+region = Rect2(30, 0, 30, 32)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2rwc7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qn1ry")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

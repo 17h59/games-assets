@@ -1,0 +1,60 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/stalfos/stalfos_e006.png" id="1_0bx5t"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_maaj6"]
+atlas = ExtResource("1_0bx5t")
+region = Rect2(0, 0, 28, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fe1b2"]
+atlas = ExtResource("1_0bx5t")
+region = Rect2(28, 0, 28, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qpihc"]
+atlas = ExtResource("1_0bx5t")
+region = Rect2(56, 0, 28, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wb3mn"]
+atlas = ExtResource("1_0bx5t")
+region = Rect2(84, 0, 28, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kb8ib"]
+atlas = ExtResource("1_0bx5t")
+region = Rect2(112, 0, 28, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_16u16"]
+atlas = ExtResource("1_0bx5t")
+region = Rect2(140, 0, 28, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e86nc"]
+atlas = ExtResource("1_0bx5t")
+region = Rect2(168, 0, 28, 19)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_maaj6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fe1b2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qpihc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wb3mn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kb8ib")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_16u16")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e86nc")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

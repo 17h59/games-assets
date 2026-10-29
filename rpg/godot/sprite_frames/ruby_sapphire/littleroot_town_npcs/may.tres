@@ -1,0 +1,61 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/ruby_sapphire/characters/littleroot_town_npcs/may.png" id="1_bo3we"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jek3h"]
+atlas = ExtResource("1_bo3we")
+region = Rect2(16, 0, 16, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ywg1t"]
+atlas = ExtResource("1_bo3we")
+region = Rect2(32, 0, 16, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qsbpy"]
+atlas = ExtResource("1_bo3we")
+region = Rect2(0, 0, 16, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3kjw7"]
+atlas = ExtResource("1_bo3we")
+region = Rect2(48, 0, 16, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x0aj7"]
+atlas = ExtResource("1_bo3we")
+region = Rect2(32, 0, 16, 20)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jek3h")
+}],
+"loop": 1,
+"name": &"idle_down",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ywg1t")
+}],
+"loop": 1,
+"name": &"idle_left",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qsbpy")
+}],
+"loop": 1,
+"name": &"idle_up",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3kjw7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x0aj7")
+}],
+"loop": 1,
+"name": &"walk_left",
+"speed": 6.0
+}]

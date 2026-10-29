@@ -1,0 +1,18 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/emerald/characters/steven/steven_battle_pose.png" id="1_pmea5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2p8lu"]
+atlas = ExtResource("1_pmea5")
+region = Rect2(0, 0, 34, 62)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2p8lu")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

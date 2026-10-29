@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/big_green_chuchu/death.png" id="1_itaky"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ouuj7"]
+atlas = ExtResource("1_itaky")
+region = Rect2(0, 0, 44, 43)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vrq1y"]
+atlas = ExtResource("1_itaky")
+region = Rect2(44, 0, 44, 43)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xmdq7"]
+atlas = ExtResource("1_itaky")
+region = Rect2(88, 0, 44, 43)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ju2l0"]
+atlas = ExtResource("1_itaky")
+region = Rect2(132, 0, 44, 43)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5rw4u"]
+atlas = ExtResource("1_itaky")
+region = Rect2(176, 0, 44, 43)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ku5dr"]
+atlas = ExtResource("1_itaky")
+region = Rect2(220, 0, 44, 43)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ouuj7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vrq1y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xmdq7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ju2l0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5rw4u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ku5dr")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

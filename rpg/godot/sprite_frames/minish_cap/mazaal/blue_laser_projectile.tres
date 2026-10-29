@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/mazaal/laser_cannon/blue_laser_projectile.png" id="1_xfehh"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rpqdg"]
+atlas = ExtResource("1_xfehh")
+region = Rect2(0, 0, 12, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fn3dm"]
+atlas = ExtResource("1_xfehh")
+region = Rect2(12, 0, 12, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yk8up"]
+atlas = ExtResource("1_xfehh")
+region = Rect2(24, 0, 12, 21)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rpqdg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fn3dm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yk8up")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

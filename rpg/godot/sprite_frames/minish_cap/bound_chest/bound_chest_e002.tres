@@ -1,0 +1,18 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/items/bound_chest/bound_chest_e002.png" id="1_0fucm"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i7xrn"]
+atlas = ExtResource("1_0fucm")
+region = Rect2(0, 0, 13, 14)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i7xrn")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

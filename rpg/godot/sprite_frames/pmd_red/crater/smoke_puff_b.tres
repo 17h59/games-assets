@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/crater/smoke_puff_b.png" id="1_0md07"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qpdn8"]
+atlas = ExtResource("1_0md07")
+region = Rect2(0, 0, 27, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vy2s4"]
+atlas = ExtResource("1_0md07")
+region = Rect2(27, 0, 27, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l7t8c"]
+atlas = ExtResource("1_0md07")
+region = Rect2(54, 0, 27, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o0ihw"]
+atlas = ExtResource("1_0md07")
+region = Rect2(81, 0, 27, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6n6xm"]
+atlas = ExtResource("1_0md07")
+region = Rect2(108, 0, 27, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8mie6"]
+atlas = ExtResource("1_0md07")
+region = Rect2(135, 0, 27, 36)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qpdn8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vy2s4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l7t8c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o0ihw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6n6xm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8mie6")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

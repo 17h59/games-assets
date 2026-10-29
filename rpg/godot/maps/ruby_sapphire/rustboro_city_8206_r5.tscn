@@ -1,0 +1,7 @@
+[gd_scene format=3]
+
+[ext_resource type="TileSet" path="res://godot/tilesets/ruby_sapphire.tres" id="1_vjjwd"]
+
+[node name="rustboro_city_8206_r5" type="TileMapLayer" unique_id=885378595]
+tile_map_data = PackedByteArray(0, 0, 4, 0, 0, 0, 1, 0, 16, 0, 56, 0, 0, 0)
+tile_set = ExtResource("1_vjjwd")

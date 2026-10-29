@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/dark_type_moves/beat_up/beat_up_e001.png" id="1_sipbl"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2if51"]
+atlas = ExtResource("1_sipbl")
+region = Rect2(0, 0, 60, 60)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1bj2j"]
+atlas = ExtResource("1_sipbl")
+region = Rect2(60, 0, 60, 60)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vwyhk"]
+atlas = ExtResource("1_sipbl")
+region = Rect2(120, 0, 60, 60)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2if51")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1bj2j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vwyhk")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

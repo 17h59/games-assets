@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/royal_guards/field_without_spear/walk_side.png" id="1_jue55"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iyil3"]
+atlas = ExtResource("1_jue55")
+region = Rect2(0, 0, 15, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mtlxl"]
+atlas = ExtResource("1_jue55")
+region = Rect2(15, 0, 15, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v1rhk"]
+atlas = ExtResource("1_jue55")
+region = Rect2(30, 0, 15, 28)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iyil3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mtlxl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v1rhk")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

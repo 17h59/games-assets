@@ -1,0 +1,2698 @@
+[gd_scene format=3]
+
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/steam_effects/steam_effects_e000.tres" id="1_glkvt"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e000.tres" id="2_7mq3k"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e001.tres" id="3_5ndmb"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e002.tres" id="4_a3lee"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e003.tres" id="5_p6fm6"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e004.tres" id="6_kmjnq"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e005.tres" id="7_sfdrb"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e006.tres" id="8_d8nch"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e007.tres" id="9_ie3q5"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e008.tres" id="10_f8vpw"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e009.tres" id="11_7ghr6"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e010.tres" id="12_6v87f"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e011.tres" id="13_v2px6"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e012.tres" id="14_33sd1"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e013.tres" id="15_gnfx3"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e014.tres" id="16_1iecx"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e015.tres" id="17_ndog3"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e016.tres" id="18_4g21m"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e017.tres" id="19_h51mo"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e018.tres" id="20_m37sw"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e019.tres" id="21_kli4f"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e020.tres" id="22_xh0vj"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e021.tres" id="23_7co27"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e022.tres" id="24_jxp62"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e023.tres" id="25_oh6nj"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e024.tres" id="26_2dgee"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e025.tres" id="27_jdbn2"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e026.tres" id="28_bqtx3"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e027.tres" id="29_gggug"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e028.tres" id="30_adrv3"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e029.tres" id="31_d4kp1"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e030.tres" id="32_y1d2p"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e031.tres" id="33_rp2k3"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e032.tres" id="34_iulfj"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e033.tres" id="35_61xgc"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e034.tres" id="36_cp8wf"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e035.tres" id="37_42gts"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e036.tres" id="38_nagqn"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/move_effects/move_effects_e037.tres" id="39_u5fnv"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e000.tres" id="40_tuvv0"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e001.tres" id="41_cxtjy"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e002.tres" id="42_di6cg"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e003.tres" id="43_h158r"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e004.tres" id="44_vvk5c"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e005.tres" id="45_gio55"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e006.tres" id="46_67b2l"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e007.tres" id="47_iw0y1"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e008.tres" id="48_dugmg"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e009.tres" id="49_2l66p"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e010.tres" id="50_em7r5"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e011.tres" id="51_u88gr"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e012.tres" id="52_0s80m"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e013.tres" id="53_b6y7y"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e014.tres" id="54_s6sdq"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e015.tres" id="55_c7nso"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e016.tres" id="56_4yxke"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e017.tres" id="57_54yyv"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e018.tres" id="58_ggyk3"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e019.tres" id="59_wcqey"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e020.tres" id="60_74b7y"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e021.tres" id="61_l6aax"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e022.tres" id="62_byeoc"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e023.tres" id="63_8bqjh"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e024.tres" id="64_vlp6a"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e025.tres" id="65_mc1fm"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e026.tres" id="66_2mjdk"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e027.tres" id="67_koi64"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e028.tres" id="68_g6jgp"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e029.tres" id="69_guypv"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e030.tres" id="70_itotd"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e031.tres" id="71_et3hv"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e032.tres" id="72_3s0qp"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e033.tres" id="73_cxst7"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e034.tres" id="74_2eici"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e035.tres" id="75_mupov"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e036.tres" id="76_md0pw"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e037.tres" id="77_6ep4t"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e038.tres" id="78_3w2ki"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e039.tres" id="79_at2a7"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e040.tres" id="80_xo0lb"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e041.tres" id="81_evvql"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e042.tres" id="82_q1ae0"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e043.tres" id="83_sdos2"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e044.tres" id="84_3krnl"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e045.tres" id="85_n1d4n"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e046.tres" id="86_p2rn0"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e047.tres" id="87_61aoo"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e048.tres" id="88_yrfgg"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e049.tres" id="89_gofay"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e050.tres" id="90_ncjs2"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e051.tres" id="91_0exat"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e052.tres" id="92_jfdw6"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e053.tres" id="93_xvswb"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e054.tres" id="94_52fsd"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e055.tres" id="95_pc34j"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e056.tres" id="96_e4gi8"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e057.tres" id="97_8ls1u"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e058.tres" id="98_arm48"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e059.tres" id="99_6ytfh"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e060.tres" id="100_hh587"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e061.tres" id="101_cbggs"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e062.tres" id="102_c24im"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e063.tres" id="103_ryc77"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e064.tres" id="104_qcr4g"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e065.tres" id="105_p20i4"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e066.tres" id="106_djmxq"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e067.tres" id="107_mb8ms"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e068.tres" id="108_43g4k"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e069.tres" id="109_4i6wu"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e070.tres" id="110_tuipa"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e071.tres" id="111_5q71k"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e072.tres" id="112_bth2y"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e073.tres" id="113_igm3o"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e074.tres" id="114_rrgvn"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e075.tres" id="115_l4rtu"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e076.tres" id="116_fcwpt"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e077.tres" id="117_pjsec"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e078.tres" id="118_x2m4p"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e079.tres" id="119_766ex"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e080.tres" id="120_bceq5"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e081.tres" id="121_2wlf1"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e082.tres" id="122_dmuip"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e083.tres" id="123_ojxeu"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e084.tres" id="124_84fbt"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e085.tres" id="125_brqwj"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e086.tres" id="126_0mslv"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e087.tres" id="127_um006"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e088.tres" id="128_f7ab0"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e089.tres" id="129_fkl4e"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e090.tres" id="130_0wpda"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e091.tres" id="131_fxul5"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e092.tres" id="132_x8nnm"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e093.tres" id="133_x7tok"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e094.tres" id="134_ld8jk"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e095.tres" id="135_hrllg"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e096.tres" id="136_8kg7n"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e097.tres" id="137_c6t0o"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e098.tres" id="138_5nmov"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e099.tres" id="139_deni5"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e100.tres" id="140_85s2i"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e101.tres" id="141_gnsdg"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e102.tres" id="142_m217m"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e103.tres" id="143_n3gxm"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e104.tres" id="144_n34tu"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e105.tres" id="145_hvcy4"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e106.tres" id="146_i2unq"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e107.tres" id="147_jg12q"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e108.tres" id="148_mggfr"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e109.tres" id="149_pikmp"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e110.tres" id="150_5hwhr"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e111.tres" id="151_qk470"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e112.tres" id="152_0jeee"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e113.tres" id="153_sic77"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e114.tres" id="154_ubj1k"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e115.tres" id="155_km6hf"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e116.tres" id="156_ym4ca"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e117.tres" id="157_26ptp"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e118.tres" id="158_5phn1"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e119.tres" id="159_mdxqq"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e120.tres" id="160_37hru"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e121.tres" id="161_xkjyo"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e122.tres" id="162_dwmte"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e123.tres" id="163_eo5y1"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e124.tres" id="164_ni4fj"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e125.tres" id="165_04mxk"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e126.tres" id="166_u02l8"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e127.tres" id="167_g1vp5"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e128.tres" id="168_0j34q"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e129.tres" id="169_c7d2x"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e130.tres" id="170_nlr2y"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e131.tres" id="171_jbvyc"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e132.tres" id="172_p6eem"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e133.tres" id="173_8hol4"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e134.tres" id="174_knp1v"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e135.tres" id="175_s7ufi"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e136.tres" id="176_idnd1"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e137.tres" id="177_gr0qp"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e138.tres" id="178_gkj5s"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e139.tres" id="179_cgvmo"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e140.tres" id="180_0nawb"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e141.tres" id="181_koep3"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e142.tres" id="182_q7da4"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e143.tres" id="183_3nqn6"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/ruby_sapphire/shiny_pokemon_sparkle/shiny_pokemon_sparkle_e144.tres" id="184_fvcvi"]
+
+[node name="ruby_sapphire_effects" type="Node2D" unique_id=476717799]
+
+[node name="steam_effects_e000" type="AnimatedSprite2D" parent="." unique_id=2146733728]
+position = Vector2(0, 10)
+sprite_frames = ExtResource("1_glkvt")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1822" type="Label" parent="." unique_id=1048065446]
+theme_override_font_sizes/font_size = 6
+text = "steam_effects_e000"
+
+[node name="move_effects_e000" type="AnimatedSprite2D" parent="." unique_id=637388321]
+position = Vector2(48, 10)
+sprite_frames = ExtResource("2_7mq3k")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1823" type="Label" parent="." unique_id=363625162]
+offset_left = 48.0
+offset_right = 48.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e000"
+
+[node name="move_effects_e001" type="AnimatedSprite2D" parent="." unique_id=683926173]
+position = Vector2(96, 10)
+sprite_frames = ExtResource("3_5ndmb")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1824" type="Label" parent="." unique_id=375411200]
+offset_left = 96.0
+offset_right = 96.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e001"
+
+[node name="move_effects_e002" type="AnimatedSprite2D" parent="." unique_id=1435216394]
+position = Vector2(144, 10)
+sprite_frames = ExtResource("4_a3lee")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1825" type="Label" parent="." unique_id=1867103591]
+offset_left = 144.0
+offset_right = 144.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e002"
+
+[node name="move_effects_e003" type="AnimatedSprite2D" parent="." unique_id=125359537]
+position = Vector2(192, 10)
+sprite_frames = ExtResource("5_p6fm6")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1826" type="Label" parent="." unique_id=1505925808]
+offset_left = 192.0
+offset_right = 192.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e003"
+
+[node name="move_effects_e004" type="AnimatedSprite2D" parent="." unique_id=1074988707]
+position = Vector2(240, 10)
+sprite_frames = ExtResource("6_kmjnq")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1827" type="Label" parent="." unique_id=1780017847]
+offset_left = 240.0
+offset_right = 240.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e004"
+
+[node name="move_effects_e005" type="AnimatedSprite2D" parent="." unique_id=1162434834]
+position = Vector2(288, 10)
+sprite_frames = ExtResource("7_sfdrb")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1828" type="Label" parent="." unique_id=573025123]
+offset_left = 288.0
+offset_right = 288.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e005"
+
+[node name="move_effects_e006" type="AnimatedSprite2D" parent="." unique_id=1136832490]
+position = Vector2(336, 10)
+sprite_frames = ExtResource("8_d8nch")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1829" type="Label" parent="." unique_id=1681158316]
+offset_left = 336.0
+offset_right = 336.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e006"
+
+[node name="move_effects_e007" type="AnimatedSprite2D" parent="." unique_id=1186572477]
+position = Vector2(384, 10)
+sprite_frames = ExtResource("9_ie3q5")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1830" type="Label" parent="." unique_id=541326510]
+offset_left = 384.0
+offset_right = 384.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e007"
+
+[node name="move_effects_e008" type="AnimatedSprite2D" parent="." unique_id=1109904262]
+position = Vector2(432, 10)
+sprite_frames = ExtResource("10_f8vpw")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1831" type="Label" parent="." unique_id=573150620]
+offset_left = 432.0
+offset_right = 432.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e008"
+
+[node name="move_effects_e009" type="AnimatedSprite2D" parent="." unique_id=1880898694]
+position = Vector2(480, 10)
+sprite_frames = ExtResource("11_7ghr6")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1832" type="Label" parent="." unique_id=1028890437]
+offset_left = 480.0
+offset_right = 480.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e009"
+
+[node name="move_effects_e010" type="AnimatedSprite2D" parent="." unique_id=1413662347]
+position = Vector2(528, 10)
+sprite_frames = ExtResource("12_6v87f")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1833" type="Label" parent="." unique_id=656705699]
+offset_left = 528.0
+offset_right = 528.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e010"
+
+[node name="move_effects_e011" type="AnimatedSprite2D" parent="." unique_id=1637440566]
+position = Vector2(576, 10)
+sprite_frames = ExtResource("13_v2px6")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1834" type="Label" parent="." unique_id=41016227]
+offset_left = 576.0
+offset_right = 576.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e011"
+
+[node name="move_effects_e012" type="AnimatedSprite2D" parent="." unique_id=33936099]
+position = Vector2(633, 10)
+sprite_frames = ExtResource("14_33sd1")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1835" type="Label" parent="." unique_id=1442128484]
+offset_left = 633.0
+offset_right = 633.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e012"
+
+[node name="move_effects_e013" type="AnimatedSprite2D" parent="." unique_id=1775206477]
+position = Vector2(681, 10)
+sprite_frames = ExtResource("15_gnfx3")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1836" type="Label" parent="." unique_id=1191587243]
+offset_left = 681.0
+offset_right = 681.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e013"
+
+[node name="move_effects_e014" type="AnimatedSprite2D" parent="." unique_id=1075315551]
+position = Vector2(729, 10)
+sprite_frames = ExtResource("16_1iecx")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1837" type="Label" parent="." unique_id=1983114439]
+offset_left = 729.0
+offset_right = 729.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e014"
+
+[node name="move_effects_e015" type="AnimatedSprite2D" parent="." unique_id=635518261]
+position = Vector2(777, 10)
+sprite_frames = ExtResource("17_ndog3")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1838" type="Label" parent="." unique_id=1660795214]
+offset_left = 777.0
+offset_right = 777.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e015"
+
+[node name="move_effects_e016" type="AnimatedSprite2D" parent="." unique_id=1787108746]
+position = Vector2(825, 10)
+sprite_frames = ExtResource("18_4g21m")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1839" type="Label" parent="." unique_id=425603123]
+offset_left = 825.0
+offset_right = 825.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e016"
+
+[node name="move_effects_e017" type="AnimatedSprite2D" parent="." unique_id=1139380770]
+position = Vector2(873, 10)
+sprite_frames = ExtResource("19_h51mo")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1840" type="Label" parent="." unique_id=505064628]
+offset_left = 873.0
+offset_right = 873.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e017"
+
+[node name="move_effects_e018" type="AnimatedSprite2D" parent="." unique_id=1810734519]
+position = Vector2(921, 10)
+sprite_frames = ExtResource("20_m37sw")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1841" type="Label" parent="." unique_id=630101408]
+offset_left = 921.0
+offset_right = 921.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e018"
+
+[node name="move_effects_e019" type="AnimatedSprite2D" parent="." unique_id=1628126957]
+position = Vector2(969, 10)
+sprite_frames = ExtResource("21_kli4f")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1842" type="Label" parent="." unique_id=1898823922]
+offset_left = 969.0
+offset_right = 969.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e019"
+
+[node name="move_effects_e020" type="AnimatedSprite2D" parent="." unique_id=830609107]
+position = Vector2(1017, 10)
+sprite_frames = ExtResource("22_xh0vj")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1843" type="Label" parent="." unique_id=860971733]
+offset_left = 1017.0
+offset_right = 1017.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e020"
+
+[node name="move_effects_e021" type="AnimatedSprite2D" parent="." unique_id=1972707961]
+position = Vector2(1065, 10)
+sprite_frames = ExtResource("23_7co27")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1844" type="Label" parent="." unique_id=1991716521]
+offset_left = 1065.0
+offset_right = 1065.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e021"
+
+[node name="move_effects_e022" type="AnimatedSprite2D" parent="." unique_id=547284467]
+position = Vector2(1113, 10)
+sprite_frames = ExtResource("24_jxp62")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1845" type="Label" parent="." unique_id=1875550781]
+offset_left = 1113.0
+offset_right = 1113.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e022"
+
+[node name="move_effects_e023" type="AnimatedSprite2D" parent="." unique_id=967079809]
+position = Vector2(1161, 10)
+sprite_frames = ExtResource("25_oh6nj")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1846" type="Label" parent="." unique_id=1585269984]
+offset_left = 1161.0
+offset_right = 1161.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e023"
+
+[node name="move_effects_e024" type="AnimatedSprite2D" parent="." unique_id=1486638984]
+position = Vector2(0, 106)
+sprite_frames = ExtResource("26_2dgee")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1847" type="Label" parent="." unique_id=382653276]
+offset_top = 96.0
+offset_bottom = 96.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e024"
+
+[node name="move_effects_e025" type="AnimatedSprite2D" parent="." unique_id=288949617]
+position = Vector2(48, 106)
+sprite_frames = ExtResource("27_jdbn2")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1848" type="Label" parent="." unique_id=334152988]
+offset_left = 48.0
+offset_top = 96.0
+offset_right = 48.0
+offset_bottom = 96.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e025"
+
+[node name="move_effects_e026" type="AnimatedSprite2D" parent="." unique_id=2084100932]
+position = Vector2(96, 106)
+sprite_frames = ExtResource("28_bqtx3")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1849" type="Label" parent="." unique_id=369956800]
+offset_left = 96.0
+offset_top = 96.0
+offset_right = 96.0
+offset_bottom = 96.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e026"
+
+[node name="move_effects_e027" type="AnimatedSprite2D" parent="." unique_id=713515465]
+position = Vector2(144, 106)
+sprite_frames = ExtResource("29_gggug")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1850" type="Label" parent="." unique_id=1480330370]
+offset_left = 144.0
+offset_top = 96.0
+offset_right = 144.0
+offset_bottom = 96.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e027"
+
+[node name="move_effects_e028" type="AnimatedSprite2D" parent="." unique_id=754186534]
+position = Vector2(192, 106)
+sprite_frames = ExtResource("30_adrv3")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1851" type="Label" parent="." unique_id=1845166578]
+offset_left = 192.0
+offset_top = 96.0
+offset_right = 192.0
+offset_bottom = 96.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e028"
+
+[node name="move_effects_e029" type="AnimatedSprite2D" parent="." unique_id=182142211]
+position = Vector2(240, 106)
+sprite_frames = ExtResource("31_d4kp1")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1852" type="Label" parent="." unique_id=568380772]
+offset_left = 240.0
+offset_top = 96.0
+offset_right = 240.0
+offset_bottom = 96.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e029"
+
+[node name="move_effects_e030" type="AnimatedSprite2D" parent="." unique_id=1521358491]
+position = Vector2(288, 106)
+sprite_frames = ExtResource("32_y1d2p")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1853" type="Label" parent="." unique_id=14955485]
+offset_left = 288.0
+offset_top = 96.0
+offset_right = 288.0
+offset_bottom = 96.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e030"
+
+[node name="move_effects_e031" type="AnimatedSprite2D" parent="." unique_id=1659735135]
+position = Vector2(336, 106)
+sprite_frames = ExtResource("33_rp2k3")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1854" type="Label" parent="." unique_id=277891617]
+offset_left = 336.0
+offset_top = 96.0
+offset_right = 336.0
+offset_bottom = 96.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e031"
+
+[node name="move_effects_e032" type="AnimatedSprite2D" parent="." unique_id=172700743]
+position = Vector2(384, 106)
+sprite_frames = ExtResource("34_iulfj")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1855" type="Label" parent="." unique_id=1411677891]
+offset_left = 384.0
+offset_top = 96.0
+offset_right = 384.0
+offset_bottom = 96.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e032"
+
+[node name="move_effects_e033" type="AnimatedSprite2D" parent="." unique_id=1892678881]
+position = Vector2(432, 106)
+sprite_frames = ExtResource("35_61xgc")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1856" type="Label" parent="." unique_id=610545106]
+offset_left = 432.0
+offset_top = 96.0
+offset_right = 432.0
+offset_bottom = 96.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e033"
+
+[node name="move_effects_e034" type="AnimatedSprite2D" parent="." unique_id=1475912736]
+position = Vector2(480, 106)
+sprite_frames = ExtResource("36_cp8wf")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1857" type="Label" parent="." unique_id=970870843]
+offset_left = 480.0
+offset_top = 96.0
+offset_right = 480.0
+offset_bottom = 96.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e034"
+
+[node name="move_effects_e035" type="AnimatedSprite2D" parent="." unique_id=225215907]
+position = Vector2(528, 106)
+sprite_frames = ExtResource("37_42gts")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1858" type="Label" parent="." unique_id=1493274480]
+offset_left = 528.0
+offset_top = 96.0
+offset_right = 528.0
+offset_bottom = 96.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e035"
+
+[node name="move_effects_e036" type="AnimatedSprite2D" parent="." unique_id=744252549]
+position = Vector2(576, 106)
+sprite_frames = ExtResource("38_nagqn")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1859" type="Label" parent="." unique_id=1242279950]
+offset_left = 576.0
+offset_top = 96.0
+offset_right = 576.0
+offset_bottom = 96.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e036"
+
+[node name="move_effects_e037" type="AnimatedSprite2D" parent="." unique_id=1961676142]
+position = Vector2(624, 106)
+sprite_frames = ExtResource("39_u5fnv")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1860" type="Label" parent="." unique_id=1893851746]
+offset_left = 624.0
+offset_top = 96.0
+offset_right = 624.0
+offset_bottom = 96.0
+theme_override_font_sizes/font_size = 6
+text = "move_effects_e037"
+
+[node name="shiny_pokemon_sparkle_e000" type="AnimatedSprite2D" parent="." unique_id=1576921739]
+position = Vector2(672, 106)
+sprite_frames = ExtResource("40_tuvv0")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1861" type="Label" parent="." unique_id=744808629]
+offset_left = 672.0
+offset_top = 96.0
+offset_right = 672.0
+offset_bottom = 96.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e000"
+
+[node name="shiny_pokemon_sparkle_e001" type="AnimatedSprite2D" parent="." unique_id=523838479]
+position = Vector2(720, 106)
+sprite_frames = ExtResource("41_cxtjy")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1862" type="Label" parent="." unique_id=679177061]
+offset_left = 720.0
+offset_top = 96.0
+offset_right = 720.0
+offset_bottom = 96.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e001"
+
+[node name="shiny_pokemon_sparkle_e002" type="AnimatedSprite2D" parent="." unique_id=2041371289]
+position = Vector2(768, 106)
+sprite_frames = ExtResource("42_di6cg")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1863" type="Label" parent="." unique_id=273860155]
+offset_left = 768.0
+offset_top = 96.0
+offset_right = 768.0
+offset_bottom = 96.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e002"
+
+[node name="shiny_pokemon_sparkle_e003" type="AnimatedSprite2D" parent="." unique_id=433113110]
+position = Vector2(816, 106)
+sprite_frames = ExtResource("43_h158r")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1864" type="Label" parent="." unique_id=1040791250]
+offset_left = 816.0
+offset_top = 96.0
+offset_right = 816.0
+offset_bottom = 96.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e003"
+
+[node name="shiny_pokemon_sparkle_e004" type="AnimatedSprite2D" parent="." unique_id=208523231]
+position = Vector2(864, 106)
+sprite_frames = ExtResource("44_vvk5c")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1865" type="Label" parent="." unique_id=705402519]
+offset_left = 864.0
+offset_top = 96.0
+offset_right = 864.0
+offset_bottom = 96.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e004"
+
+[node name="shiny_pokemon_sparkle_e005" type="AnimatedSprite2D" parent="." unique_id=471855637]
+position = Vector2(912, 106)
+sprite_frames = ExtResource("45_gio55")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1866" type="Label" parent="." unique_id=2069495986]
+offset_left = 912.0
+offset_top = 96.0
+offset_right = 912.0
+offset_bottom = 96.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e005"
+
+[node name="shiny_pokemon_sparkle_e006" type="AnimatedSprite2D" parent="." unique_id=1428061009]
+position = Vector2(960, 106)
+sprite_frames = ExtResource("46_67b2l")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1867" type="Label" parent="." unique_id=1167169832]
+offset_left = 960.0
+offset_top = 96.0
+offset_right = 960.0
+offset_bottom = 96.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e006"
+
+[node name="shiny_pokemon_sparkle_e007" type="AnimatedSprite2D" parent="." unique_id=600540069]
+position = Vector2(1008, 106)
+sprite_frames = ExtResource("47_iw0y1")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1868" type="Label" parent="." unique_id=1341255966]
+offset_left = 1008.0
+offset_top = 96.0
+offset_right = 1008.0
+offset_bottom = 96.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e007"
+
+[node name="shiny_pokemon_sparkle_e008" type="AnimatedSprite2D" parent="." unique_id=1990931313]
+position = Vector2(1056, 106)
+sprite_frames = ExtResource("48_dugmg")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1869" type="Label" parent="." unique_id=679324237]
+offset_left = 1056.0
+offset_top = 96.0
+offset_right = 1056.0
+offset_bottom = 96.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e008"
+
+[node name="shiny_pokemon_sparkle_e009" type="AnimatedSprite2D" parent="." unique_id=17994317]
+position = Vector2(1104, 106)
+sprite_frames = ExtResource("49_2l66p")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1870" type="Label" parent="." unique_id=1450514532]
+offset_left = 1104.0
+offset_top = 96.0
+offset_right = 1104.0
+offset_bottom = 96.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e009"
+
+[node name="shiny_pokemon_sparkle_e010" type="AnimatedSprite2D" parent="." unique_id=1518288235]
+position = Vector2(1152, 106)
+sprite_frames = ExtResource("50_em7r5")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1871" type="Label" parent="." unique_id=1502269067]
+offset_left = 1152.0
+offset_top = 96.0
+offset_right = 1152.0
+offset_bottom = 96.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e010"
+
+[node name="shiny_pokemon_sparkle_e011" type="AnimatedSprite2D" parent="." unique_id=1634652137]
+position = Vector2(0, 148)
+sprite_frames = ExtResource("51_u88gr")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1872" type="Label" parent="." unique_id=279680887]
+offset_top = 138.0
+offset_bottom = 138.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e011"
+
+[node name="shiny_pokemon_sparkle_e012" type="AnimatedSprite2D" parent="." unique_id=1560702124]
+position = Vector2(48, 148)
+sprite_frames = ExtResource("52_0s80m")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1873" type="Label" parent="." unique_id=966613712]
+offset_left = 48.0
+offset_top = 138.0
+offset_right = 48.0
+offset_bottom = 138.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e012"
+
+[node name="shiny_pokemon_sparkle_e013" type="AnimatedSprite2D" parent="." unique_id=23244833]
+position = Vector2(96, 148)
+sprite_frames = ExtResource("53_b6y7y")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1874" type="Label" parent="." unique_id=1821550556]
+offset_left = 96.0
+offset_top = 138.0
+offset_right = 96.0
+offset_bottom = 138.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e013"
+
+[node name="shiny_pokemon_sparkle_e014" type="AnimatedSprite2D" parent="." unique_id=775910773]
+position = Vector2(144, 148)
+sprite_frames = ExtResource("54_s6sdq")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1875" type="Label" parent="." unique_id=1069163579]
+offset_left = 144.0
+offset_top = 138.0
+offset_right = 144.0
+offset_bottom = 138.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e014"
+
+[node name="shiny_pokemon_sparkle_e015" type="AnimatedSprite2D" parent="." unique_id=976393593]
+position = Vector2(192, 148)
+sprite_frames = ExtResource("55_c7nso")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1876" type="Label" parent="." unique_id=217417066]
+offset_left = 192.0
+offset_top = 138.0
+offset_right = 192.0
+offset_bottom = 138.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e015"
+
+[node name="shiny_pokemon_sparkle_e016" type="AnimatedSprite2D" parent="." unique_id=236807325]
+position = Vector2(240, 148)
+sprite_frames = ExtResource("56_4yxke")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1877" type="Label" parent="." unique_id=2041066131]
+offset_left = 240.0
+offset_top = 138.0
+offset_right = 240.0
+offset_bottom = 138.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e016"
+
+[node name="shiny_pokemon_sparkle_e017" type="AnimatedSprite2D" parent="." unique_id=133483300]
+position = Vector2(288, 148)
+sprite_frames = ExtResource("57_54yyv")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1878" type="Label" parent="." unique_id=1734122577]
+offset_left = 288.0
+offset_top = 138.0
+offset_right = 288.0
+offset_bottom = 138.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e017"
+
+[node name="shiny_pokemon_sparkle_e018" type="AnimatedSprite2D" parent="." unique_id=2098138489]
+position = Vector2(336, 148)
+sprite_frames = ExtResource("58_ggyk3")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1879" type="Label" parent="." unique_id=1517110133]
+offset_left = 336.0
+offset_top = 138.0
+offset_right = 336.0
+offset_bottom = 138.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e018"
+
+[node name="shiny_pokemon_sparkle_e019" type="AnimatedSprite2D" parent="." unique_id=417368599]
+position = Vector2(384, 148)
+sprite_frames = ExtResource("59_wcqey")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1880" type="Label" parent="." unique_id=327381979]
+offset_left = 384.0
+offset_top = 138.0
+offset_right = 384.0
+offset_bottom = 138.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e019"
+
+[node name="shiny_pokemon_sparkle_e020" type="AnimatedSprite2D" parent="." unique_id=1147638145]
+position = Vector2(432, 148)
+sprite_frames = ExtResource("60_74b7y")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1881" type="Label" parent="." unique_id=1151714679]
+offset_left = 432.0
+offset_top = 138.0
+offset_right = 432.0
+offset_bottom = 138.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e020"
+
+[node name="shiny_pokemon_sparkle_e021" type="AnimatedSprite2D" parent="." unique_id=1690286409]
+position = Vector2(480, 148)
+sprite_frames = ExtResource("61_l6aax")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1882" type="Label" parent="." unique_id=1087172440]
+offset_left = 480.0
+offset_top = 138.0
+offset_right = 480.0
+offset_bottom = 138.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e021"
+
+[node name="shiny_pokemon_sparkle_e022" type="AnimatedSprite2D" parent="." unique_id=983408783]
+position = Vector2(528, 148)
+sprite_frames = ExtResource("62_byeoc")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1883" type="Label" parent="." unique_id=35133714]
+offset_left = 528.0
+offset_top = 138.0
+offset_right = 528.0
+offset_bottom = 138.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e022"
+
+[node name="shiny_pokemon_sparkle_e023" type="AnimatedSprite2D" parent="." unique_id=373123667]
+position = Vector2(576, 148)
+sprite_frames = ExtResource("63_8bqjh")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1884" type="Label" parent="." unique_id=1321316588]
+offset_left = 576.0
+offset_top = 138.0
+offset_right = 576.0
+offset_bottom = 138.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e023"
+
+[node name="shiny_pokemon_sparkle_e024" type="AnimatedSprite2D" parent="." unique_id=2143888076]
+position = Vector2(624, 148)
+sprite_frames = ExtResource("64_vlp6a")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1885" type="Label" parent="." unique_id=319338504]
+offset_left = 624.0
+offset_top = 138.0
+offset_right = 624.0
+offset_bottom = 138.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e024"
+
+[node name="shiny_pokemon_sparkle_e025" type="AnimatedSprite2D" parent="." unique_id=461718951]
+position = Vector2(672, 148)
+sprite_frames = ExtResource("65_mc1fm")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1886" type="Label" parent="." unique_id=193194271]
+offset_left = 672.0
+offset_top = 138.0
+offset_right = 672.0
+offset_bottom = 138.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e025"
+
+[node name="shiny_pokemon_sparkle_e026" type="AnimatedSprite2D" parent="." unique_id=120867761]
+position = Vector2(720, 148)
+sprite_frames = ExtResource("66_2mjdk")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1887" type="Label" parent="." unique_id=250320419]
+offset_left = 720.0
+offset_top = 138.0
+offset_right = 720.0
+offset_bottom = 138.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e026"
+
+[node name="shiny_pokemon_sparkle_e027" type="AnimatedSprite2D" parent="." unique_id=1303338617]
+position = Vector2(768, 148)
+sprite_frames = ExtResource("67_koi64")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1888" type="Label" parent="." unique_id=751489018]
+offset_left = 768.0
+offset_top = 138.0
+offset_right = 768.0
+offset_bottom = 138.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e027"
+
+[node name="shiny_pokemon_sparkle_e028" type="AnimatedSprite2D" parent="." unique_id=693696790]
+position = Vector2(816, 148)
+sprite_frames = ExtResource("68_g6jgp")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1889" type="Label" parent="." unique_id=1453091713]
+offset_left = 816.0
+offset_top = 138.0
+offset_right = 816.0
+offset_bottom = 138.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e028"
+
+[node name="shiny_pokemon_sparkle_e029" type="AnimatedSprite2D" parent="." unique_id=1281742438]
+position = Vector2(864, 148)
+sprite_frames = ExtResource("69_guypv")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1890" type="Label" parent="." unique_id=1470120758]
+offset_left = 864.0
+offset_top = 138.0
+offset_right = 864.0
+offset_bottom = 138.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e029"
+
+[node name="shiny_pokemon_sparkle_e030" type="AnimatedSprite2D" parent="." unique_id=1512822173]
+position = Vector2(912, 148)
+sprite_frames = ExtResource("70_itotd")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1891" type="Label" parent="." unique_id=1178135386]
+offset_left = 912.0
+offset_top = 138.0
+offset_right = 912.0
+offset_bottom = 138.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e030"
+
+[node name="shiny_pokemon_sparkle_e031" type="AnimatedSprite2D" parent="." unique_id=1165302324]
+position = Vector2(960, 148)
+sprite_frames = ExtResource("71_et3hv")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1892" type="Label" parent="." unique_id=1732724929]
+offset_left = 960.0
+offset_top = 138.0
+offset_right = 960.0
+offset_bottom = 138.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e031"
+
+[node name="shiny_pokemon_sparkle_e032" type="AnimatedSprite2D" parent="." unique_id=1685420530]
+position = Vector2(1008, 148)
+sprite_frames = ExtResource("72_3s0qp")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1893" type="Label" parent="." unique_id=506054273]
+offset_left = 1008.0
+offset_top = 138.0
+offset_right = 1008.0
+offset_bottom = 138.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e032"
+
+[node name="shiny_pokemon_sparkle_e033" type="AnimatedSprite2D" parent="." unique_id=993244795]
+position = Vector2(1056, 148)
+sprite_frames = ExtResource("73_cxst7")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1894" type="Label" parent="." unique_id=635855551]
+offset_left = 1056.0
+offset_top = 138.0
+offset_right = 1056.0
+offset_bottom = 138.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e033"
+
+[node name="shiny_pokemon_sparkle_e034" type="AnimatedSprite2D" parent="." unique_id=2073983914]
+position = Vector2(1104, 148)
+sprite_frames = ExtResource("74_2eici")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1895" type="Label" parent="." unique_id=300634373]
+offset_left = 1104.0
+offset_top = 138.0
+offset_right = 1104.0
+offset_bottom = 138.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e034"
+
+[node name="shiny_pokemon_sparkle_e035" type="AnimatedSprite2D" parent="." unique_id=1439151241]
+position = Vector2(1152, 148)
+sprite_frames = ExtResource("75_mupov")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1896" type="Label" parent="." unique_id=81974772]
+offset_left = 1152.0
+offset_top = 138.0
+offset_right = 1152.0
+offset_bottom = 138.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e035"
+
+[node name="shiny_pokemon_sparkle_e036" type="AnimatedSprite2D" parent="." unique_id=835195284]
+position = Vector2(0, 176)
+sprite_frames = ExtResource("76_md0pw")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1897" type="Label" parent="." unique_id=690410140]
+offset_top = 166.0
+offset_bottom = 166.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e036"
+
+[node name="shiny_pokemon_sparkle_e037" type="AnimatedSprite2D" parent="." unique_id=1083134433]
+position = Vector2(48, 176)
+sprite_frames = ExtResource("77_6ep4t")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1898" type="Label" parent="." unique_id=1837402532]
+offset_left = 48.0
+offset_top = 166.0
+offset_right = 48.0
+offset_bottom = 166.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e037"
+
+[node name="shiny_pokemon_sparkle_e038" type="AnimatedSprite2D" parent="." unique_id=571328840]
+position = Vector2(96, 176)
+sprite_frames = ExtResource("78_3w2ki")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1899" type="Label" parent="." unique_id=1146580414]
+offset_left = 96.0
+offset_top = 166.0
+offset_right = 96.0
+offset_bottom = 166.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e038"
+
+[node name="shiny_pokemon_sparkle_e039" type="AnimatedSprite2D" parent="." unique_id=1664625697]
+position = Vector2(144, 176)
+sprite_frames = ExtResource("79_at2a7")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1900" type="Label" parent="." unique_id=1642511453]
+offset_left = 144.0
+offset_top = 166.0
+offset_right = 144.0
+offset_bottom = 166.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e039"
+
+[node name="shiny_pokemon_sparkle_e040" type="AnimatedSprite2D" parent="." unique_id=174775067]
+position = Vector2(192, 176)
+sprite_frames = ExtResource("80_xo0lb")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1901" type="Label" parent="." unique_id=1114830186]
+offset_left = 192.0
+offset_top = 166.0
+offset_right = 192.0
+offset_bottom = 166.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e040"
+
+[node name="shiny_pokemon_sparkle_e041" type="AnimatedSprite2D" parent="." unique_id=1328783045]
+position = Vector2(240, 176)
+sprite_frames = ExtResource("81_evvql")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1902" type="Label" parent="." unique_id=518378615]
+offset_left = 240.0
+offset_top = 166.0
+offset_right = 240.0
+offset_bottom = 166.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e041"
+
+[node name="shiny_pokemon_sparkle_e042" type="AnimatedSprite2D" parent="." unique_id=89797858]
+position = Vector2(288, 176)
+sprite_frames = ExtResource("82_q1ae0")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1903" type="Label" parent="." unique_id=799107695]
+offset_left = 288.0
+offset_top = 166.0
+offset_right = 288.0
+offset_bottom = 166.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e042"
+
+[node name="shiny_pokemon_sparkle_e043" type="AnimatedSprite2D" parent="." unique_id=1196787147]
+position = Vector2(336, 176)
+sprite_frames = ExtResource("83_sdos2")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1904" type="Label" parent="." unique_id=1691866187]
+offset_left = 336.0
+offset_top = 166.0
+offset_right = 336.0
+offset_bottom = 166.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e043"
+
+[node name="shiny_pokemon_sparkle_e044" type="AnimatedSprite2D" parent="." unique_id=2070764233]
+position = Vector2(384, 176)
+sprite_frames = ExtResource("84_3krnl")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1905" type="Label" parent="." unique_id=319353093]
+offset_left = 384.0
+offset_top = 166.0
+offset_right = 384.0
+offset_bottom = 166.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e044"
+
+[node name="shiny_pokemon_sparkle_e045" type="AnimatedSprite2D" parent="." unique_id=570609354]
+position = Vector2(432, 176)
+sprite_frames = ExtResource("85_n1d4n")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1906" type="Label" parent="." unique_id=1133187652]
+offset_left = 432.0
+offset_top = 166.0
+offset_right = 432.0
+offset_bottom = 166.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e045"
+
+[node name="shiny_pokemon_sparkle_e046" type="AnimatedSprite2D" parent="." unique_id=1676857018]
+position = Vector2(480, 176)
+sprite_frames = ExtResource("86_p2rn0")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1907" type="Label" parent="." unique_id=438125637]
+offset_left = 480.0
+offset_top = 166.0
+offset_right = 480.0
+offset_bottom = 166.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e046"
+
+[node name="shiny_pokemon_sparkle_e047" type="AnimatedSprite2D" parent="." unique_id=42610400]
+position = Vector2(528, 176)
+sprite_frames = ExtResource("87_61aoo")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1908" type="Label" parent="." unique_id=1654577135]
+offset_left = 528.0
+offset_top = 166.0
+offset_right = 528.0
+offset_bottom = 166.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e047"
+
+[node name="shiny_pokemon_sparkle_e048" type="AnimatedSprite2D" parent="." unique_id=2121025771]
+position = Vector2(576, 176)
+sprite_frames = ExtResource("88_yrfgg")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1909" type="Label" parent="." unique_id=604723842]
+offset_left = 576.0
+offset_top = 166.0
+offset_right = 576.0
+offset_bottom = 166.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e048"
+
+[node name="shiny_pokemon_sparkle_e049" type="AnimatedSprite2D" parent="." unique_id=195251731]
+position = Vector2(624, 176)
+sprite_frames = ExtResource("89_gofay")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1910" type="Label" parent="." unique_id=2029809119]
+offset_left = 624.0
+offset_top = 166.0
+offset_right = 624.0
+offset_bottom = 166.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e049"
+
+[node name="shiny_pokemon_sparkle_e050" type="AnimatedSprite2D" parent="." unique_id=1035479038]
+position = Vector2(672, 176)
+sprite_frames = ExtResource("90_ncjs2")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1911" type="Label" parent="." unique_id=1485745013]
+offset_left = 672.0
+offset_top = 166.0
+offset_right = 672.0
+offset_bottom = 166.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e050"
+
+[node name="shiny_pokemon_sparkle_e051" type="AnimatedSprite2D" parent="." unique_id=1669202900]
+position = Vector2(720, 176)
+sprite_frames = ExtResource("91_0exat")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1912" type="Label" parent="." unique_id=738659206]
+offset_left = 720.0
+offset_top = 166.0
+offset_right = 720.0
+offset_bottom = 166.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e051"
+
+[node name="shiny_pokemon_sparkle_e052" type="AnimatedSprite2D" parent="." unique_id=382076769]
+position = Vector2(768, 176)
+sprite_frames = ExtResource("92_jfdw6")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1913" type="Label" parent="." unique_id=47713579]
+offset_left = 768.0
+offset_top = 166.0
+offset_right = 768.0
+offset_bottom = 166.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e052"
+
+[node name="shiny_pokemon_sparkle_e053" type="AnimatedSprite2D" parent="." unique_id=2088328878]
+position = Vector2(816, 176)
+sprite_frames = ExtResource("93_xvswb")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1914" type="Label" parent="." unique_id=1687415525]
+offset_left = 816.0
+offset_top = 166.0
+offset_right = 816.0
+offset_bottom = 166.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e053"
+
+[node name="shiny_pokemon_sparkle_e054" type="AnimatedSprite2D" parent="." unique_id=4523758]
+position = Vector2(864, 176)
+sprite_frames = ExtResource("94_52fsd")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1915" type="Label" parent="." unique_id=142358151]
+offset_left = 864.0
+offset_top = 166.0
+offset_right = 864.0
+offset_bottom = 166.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e054"
+
+[node name="shiny_pokemon_sparkle_e055" type="AnimatedSprite2D" parent="." unique_id=377652257]
+position = Vector2(912, 176)
+sprite_frames = ExtResource("95_pc34j")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1916" type="Label" parent="." unique_id=562009684]
+offset_left = 912.0
+offset_top = 166.0
+offset_right = 912.0
+offset_bottom = 166.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e055"
+
+[node name="shiny_pokemon_sparkle_e056" type="AnimatedSprite2D" parent="." unique_id=2037655668]
+position = Vector2(960, 176)
+sprite_frames = ExtResource("96_e4gi8")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1917" type="Label" parent="." unique_id=447661373]
+offset_left = 960.0
+offset_top = 166.0
+offset_right = 960.0
+offset_bottom = 166.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e056"
+
+[node name="shiny_pokemon_sparkle_e057" type="AnimatedSprite2D" parent="." unique_id=897289037]
+position = Vector2(1008, 176)
+sprite_frames = ExtResource("97_8ls1u")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1918" type="Label" parent="." unique_id=245775440]
+offset_left = 1008.0
+offset_top = 166.0
+offset_right = 1008.0
+offset_bottom = 166.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e057"
+
+[node name="shiny_pokemon_sparkle_e058" type="AnimatedSprite2D" parent="." unique_id=603545273]
+position = Vector2(1056, 176)
+sprite_frames = ExtResource("98_arm48")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1919" type="Label" parent="." unique_id=1329505718]
+offset_left = 1056.0
+offset_top = 166.0
+offset_right = 1056.0
+offset_bottom = 166.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e058"
+
+[node name="shiny_pokemon_sparkle_e059" type="AnimatedSprite2D" parent="." unique_id=347172662]
+position = Vector2(1104, 176)
+sprite_frames = ExtResource("99_6ytfh")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1920" type="Label" parent="." unique_id=1551269091]
+offset_left = 1104.0
+offset_top = 166.0
+offset_right = 1104.0
+offset_bottom = 166.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e059"
+
+[node name="shiny_pokemon_sparkle_e060" type="AnimatedSprite2D" parent="." unique_id=886089271]
+position = Vector2(1152, 176)
+sprite_frames = ExtResource("100_hh587")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1921" type="Label" parent="." unique_id=2048163383]
+offset_left = 1152.0
+offset_top = 166.0
+offset_right = 1152.0
+offset_bottom = 166.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e060"
+
+[node name="shiny_pokemon_sparkle_e061" type="AnimatedSprite2D" parent="." unique_id=2057586862]
+position = Vector2(0, 204)
+sprite_frames = ExtResource("101_cbggs")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1922" type="Label" parent="." unique_id=1159460201]
+offset_top = 194.0
+offset_bottom = 194.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e061"
+
+[node name="shiny_pokemon_sparkle_e062" type="AnimatedSprite2D" parent="." unique_id=1974186691]
+position = Vector2(48, 204)
+sprite_frames = ExtResource("102_c24im")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1923" type="Label" parent="." unique_id=1216392925]
+offset_left = 48.0
+offset_top = 194.0
+offset_right = 48.0
+offset_bottom = 194.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e062"
+
+[node name="shiny_pokemon_sparkle_e063" type="AnimatedSprite2D" parent="." unique_id=533706085]
+position = Vector2(96, 204)
+sprite_frames = ExtResource("103_ryc77")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1924" type="Label" parent="." unique_id=1250658781]
+offset_left = 96.0
+offset_top = 194.0
+offset_right = 96.0
+offset_bottom = 194.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e063"
+
+[node name="shiny_pokemon_sparkle_e064" type="AnimatedSprite2D" parent="." unique_id=1489045438]
+position = Vector2(144, 204)
+sprite_frames = ExtResource("104_qcr4g")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1925" type="Label" parent="." unique_id=742774944]
+offset_left = 144.0
+offset_top = 194.0
+offset_right = 144.0
+offset_bottom = 194.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e064"
+
+[node name="shiny_pokemon_sparkle_e065" type="AnimatedSprite2D" parent="." unique_id=588061918]
+position = Vector2(192, 204)
+sprite_frames = ExtResource("105_p20i4")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1926" type="Label" parent="." unique_id=468465449]
+offset_left = 192.0
+offset_top = 194.0
+offset_right = 192.0
+offset_bottom = 194.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e065"
+
+[node name="shiny_pokemon_sparkle_e066" type="AnimatedSprite2D" parent="." unique_id=720979112]
+position = Vector2(240, 204)
+sprite_frames = ExtResource("106_djmxq")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1927" type="Label" parent="." unique_id=519157807]
+offset_left = 240.0
+offset_top = 194.0
+offset_right = 240.0
+offset_bottom = 194.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e066"
+
+[node name="shiny_pokemon_sparkle_e067" type="AnimatedSprite2D" parent="." unique_id=1721050263]
+position = Vector2(288, 204)
+sprite_frames = ExtResource("107_mb8ms")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1928" type="Label" parent="." unique_id=1751967074]
+offset_left = 288.0
+offset_top = 194.0
+offset_right = 288.0
+offset_bottom = 194.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e067"
+
+[node name="shiny_pokemon_sparkle_e068" type="AnimatedSprite2D" parent="." unique_id=170148773]
+position = Vector2(336, 204)
+sprite_frames = ExtResource("108_43g4k")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1929" type="Label" parent="." unique_id=332563203]
+offset_left = 336.0
+offset_top = 194.0
+offset_right = 336.0
+offset_bottom = 194.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e068"
+
+[node name="shiny_pokemon_sparkle_e069" type="AnimatedSprite2D" parent="." unique_id=2077233432]
+position = Vector2(384, 204)
+sprite_frames = ExtResource("109_4i6wu")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1930" type="Label" parent="." unique_id=1273963837]
+offset_left = 384.0
+offset_top = 194.0
+offset_right = 384.0
+offset_bottom = 194.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e069"
+
+[node name="shiny_pokemon_sparkle_e070" type="AnimatedSprite2D" parent="." unique_id=1009643667]
+position = Vector2(432, 204)
+sprite_frames = ExtResource("110_tuipa")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1931" type="Label" parent="." unique_id=1443919084]
+offset_left = 432.0
+offset_top = 194.0
+offset_right = 432.0
+offset_bottom = 194.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e070"
+
+[node name="shiny_pokemon_sparkle_e071" type="AnimatedSprite2D" parent="." unique_id=2102053819]
+position = Vector2(480, 204)
+sprite_frames = ExtResource("111_5q71k")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1932" type="Label" parent="." unique_id=128975270]
+offset_left = 480.0
+offset_top = 194.0
+offset_right = 480.0
+offset_bottom = 194.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e071"
+
+[node name="shiny_pokemon_sparkle_e072" type="AnimatedSprite2D" parent="." unique_id=1195021435]
+position = Vector2(528, 204)
+sprite_frames = ExtResource("112_bth2y")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1933" type="Label" parent="." unique_id=213744523]
+offset_left = 528.0
+offset_top = 194.0
+offset_right = 528.0
+offset_bottom = 194.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e072"
+
+[node name="shiny_pokemon_sparkle_e073" type="AnimatedSprite2D" parent="." unique_id=1225270175]
+position = Vector2(576, 204)
+sprite_frames = ExtResource("113_igm3o")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1934" type="Label" parent="." unique_id=1067435679]
+offset_left = 576.0
+offset_top = 194.0
+offset_right = 576.0
+offset_bottom = 194.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e073"
+
+[node name="shiny_pokemon_sparkle_e074" type="AnimatedSprite2D" parent="." unique_id=1999054644]
+position = Vector2(624, 204)
+sprite_frames = ExtResource("114_rrgvn")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1935" type="Label" parent="." unique_id=1273232928]
+offset_left = 624.0
+offset_top = 194.0
+offset_right = 624.0
+offset_bottom = 194.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e074"
+
+[node name="shiny_pokemon_sparkle_e075" type="AnimatedSprite2D" parent="." unique_id=2107134753]
+position = Vector2(672, 204)
+sprite_frames = ExtResource("115_l4rtu")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1936" type="Label" parent="." unique_id=952571304]
+offset_left = 672.0
+offset_top = 194.0
+offset_right = 672.0
+offset_bottom = 194.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e075"
+
+[node name="shiny_pokemon_sparkle_e076" type="AnimatedSprite2D" parent="." unique_id=1438541761]
+position = Vector2(720, 204)
+sprite_frames = ExtResource("116_fcwpt")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1937" type="Label" parent="." unique_id=1850387978]
+offset_left = 720.0
+offset_top = 194.0
+offset_right = 720.0
+offset_bottom = 194.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e076"
+
+[node name="shiny_pokemon_sparkle_e077" type="AnimatedSprite2D" parent="." unique_id=502805343]
+position = Vector2(768, 204)
+sprite_frames = ExtResource("117_pjsec")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1938" type="Label" parent="." unique_id=830854259]
+offset_left = 768.0
+offset_top = 194.0
+offset_right = 768.0
+offset_bottom = 194.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e077"
+
+[node name="shiny_pokemon_sparkle_e078" type="AnimatedSprite2D" parent="." unique_id=1742968920]
+position = Vector2(816, 204)
+sprite_frames = ExtResource("118_x2m4p")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1939" type="Label" parent="." unique_id=2003188457]
+offset_left = 816.0
+offset_top = 194.0
+offset_right = 816.0
+offset_bottom = 194.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e078"
+
+[node name="shiny_pokemon_sparkle_e079" type="AnimatedSprite2D" parent="." unique_id=1114895913]
+position = Vector2(864, 204)
+sprite_frames = ExtResource("119_766ex")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1940" type="Label" parent="." unique_id=704245816]
+offset_left = 864.0
+offset_top = 194.0
+offset_right = 864.0
+offset_bottom = 194.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e079"
+
+[node name="shiny_pokemon_sparkle_e080" type="AnimatedSprite2D" parent="." unique_id=7895167]
+position = Vector2(912, 204)
+sprite_frames = ExtResource("120_bceq5")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1941" type="Label" parent="." unique_id=1021372008]
+offset_left = 912.0
+offset_top = 194.0
+offset_right = 912.0
+offset_bottom = 194.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e080"
+
+[node name="shiny_pokemon_sparkle_e081" type="AnimatedSprite2D" parent="." unique_id=2059634102]
+position = Vector2(960, 204)
+sprite_frames = ExtResource("121_2wlf1")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1942" type="Label" parent="." unique_id=494063946]
+offset_left = 960.0
+offset_top = 194.0
+offset_right = 960.0
+offset_bottom = 194.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e081"
+
+[node name="shiny_pokemon_sparkle_e082" type="AnimatedSprite2D" parent="." unique_id=1776924627]
+position = Vector2(1008, 204)
+sprite_frames = ExtResource("122_dmuip")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1943" type="Label" parent="." unique_id=1446235698]
+offset_left = 1008.0
+offset_top = 194.0
+offset_right = 1008.0
+offset_bottom = 194.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e082"
+
+[node name="shiny_pokemon_sparkle_e083" type="AnimatedSprite2D" parent="." unique_id=1085884049]
+position = Vector2(1056, 204)
+sprite_frames = ExtResource("123_ojxeu")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1944" type="Label" parent="." unique_id=1138100220]
+offset_left = 1056.0
+offset_top = 194.0
+offset_right = 1056.0
+offset_bottom = 194.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e083"
+
+[node name="shiny_pokemon_sparkle_e084" type="AnimatedSprite2D" parent="." unique_id=1701805882]
+position = Vector2(1104, 204)
+sprite_frames = ExtResource("124_84fbt")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1945" type="Label" parent="." unique_id=2118053473]
+offset_left = 1104.0
+offset_top = 194.0
+offset_right = 1104.0
+offset_bottom = 194.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e084"
+
+[node name="shiny_pokemon_sparkle_e085" type="AnimatedSprite2D" parent="." unique_id=1740042014]
+position = Vector2(1152, 204)
+sprite_frames = ExtResource("125_brqwj")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1946" type="Label" parent="." unique_id=155781775]
+offset_left = 1152.0
+offset_top = 194.0
+offset_right = 1152.0
+offset_bottom = 194.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e085"
+
+[node name="shiny_pokemon_sparkle_e086" type="AnimatedSprite2D" parent="." unique_id=1654814663]
+position = Vector2(0, 232)
+sprite_frames = ExtResource("126_0mslv")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1947" type="Label" parent="." unique_id=1612625547]
+offset_top = 222.0
+offset_bottom = 222.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e086"
+
+[node name="shiny_pokemon_sparkle_e087" type="AnimatedSprite2D" parent="." unique_id=358120422]
+position = Vector2(48, 232)
+sprite_frames = ExtResource("127_um006")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1948" type="Label" parent="." unique_id=1169952571]
+offset_left = 48.0
+offset_top = 222.0
+offset_right = 48.0
+offset_bottom = 222.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e087"
+
+[node name="shiny_pokemon_sparkle_e088" type="AnimatedSprite2D" parent="." unique_id=602685869]
+position = Vector2(96, 232)
+sprite_frames = ExtResource("128_f7ab0")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1949" type="Label" parent="." unique_id=2049317478]
+offset_left = 96.0
+offset_top = 222.0
+offset_right = 96.0
+offset_bottom = 222.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e088"
+
+[node name="shiny_pokemon_sparkle_e089" type="AnimatedSprite2D" parent="." unique_id=667943953]
+position = Vector2(144, 232)
+sprite_frames = ExtResource("129_fkl4e")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1950" type="Label" parent="." unique_id=321140032]
+offset_left = 144.0
+offset_top = 222.0
+offset_right = 144.0
+offset_bottom = 222.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e089"
+
+[node name="shiny_pokemon_sparkle_e090" type="AnimatedSprite2D" parent="." unique_id=1266653956]
+position = Vector2(192, 232)
+sprite_frames = ExtResource("130_0wpda")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1951" type="Label" parent="." unique_id=1320238776]
+offset_left = 192.0
+offset_top = 222.0
+offset_right = 192.0
+offset_bottom = 222.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e090"
+
+[node name="shiny_pokemon_sparkle_e091" type="AnimatedSprite2D" parent="." unique_id=1271243050]
+position = Vector2(240, 232)
+sprite_frames = ExtResource("131_fxul5")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1952" type="Label" parent="." unique_id=312241012]
+offset_left = 240.0
+offset_top = 222.0
+offset_right = 240.0
+offset_bottom = 222.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e091"
+
+[node name="shiny_pokemon_sparkle_e092" type="AnimatedSprite2D" parent="." unique_id=2082216102]
+position = Vector2(288, 232)
+sprite_frames = ExtResource("132_x8nnm")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1953" type="Label" parent="." unique_id=110707883]
+offset_left = 288.0
+offset_top = 222.0
+offset_right = 288.0
+offset_bottom = 222.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e092"
+
+[node name="shiny_pokemon_sparkle_e093" type="AnimatedSprite2D" parent="." unique_id=483003523]
+position = Vector2(336, 232)
+sprite_frames = ExtResource("133_x7tok")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1954" type="Label" parent="." unique_id=782320592]
+offset_left = 336.0
+offset_top = 222.0
+offset_right = 336.0
+offset_bottom = 222.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e093"
+
+[node name="shiny_pokemon_sparkle_e094" type="AnimatedSprite2D" parent="." unique_id=1195585977]
+position = Vector2(384, 232)
+sprite_frames = ExtResource("134_ld8jk")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1955" type="Label" parent="." unique_id=1772024844]
+offset_left = 384.0
+offset_top = 222.0
+offset_right = 384.0
+offset_bottom = 222.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e094"
+
+[node name="shiny_pokemon_sparkle_e095" type="AnimatedSprite2D" parent="." unique_id=616322761]
+position = Vector2(432, 232)
+sprite_frames = ExtResource("135_hrllg")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1956" type="Label" parent="." unique_id=1832666385]
+offset_left = 432.0
+offset_top = 222.0
+offset_right = 432.0
+offset_bottom = 222.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e095"
+
+[node name="shiny_pokemon_sparkle_e096" type="AnimatedSprite2D" parent="." unique_id=2129952358]
+position = Vector2(480, 232)
+sprite_frames = ExtResource("136_8kg7n")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1957" type="Label" parent="." unique_id=577057355]
+offset_left = 480.0
+offset_top = 222.0
+offset_right = 480.0
+offset_bottom = 222.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e096"
+
+[node name="shiny_pokemon_sparkle_e097" type="AnimatedSprite2D" parent="." unique_id=169269879]
+position = Vector2(528, 232)
+sprite_frames = ExtResource("137_c6t0o")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1958" type="Label" parent="." unique_id=366099597]
+offset_left = 528.0
+offset_top = 222.0
+offset_right = 528.0
+offset_bottom = 222.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e097"
+
+[node name="shiny_pokemon_sparkle_e098" type="AnimatedSprite2D" parent="." unique_id=1839259461]
+position = Vector2(576, 232)
+sprite_frames = ExtResource("138_5nmov")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1959" type="Label" parent="." unique_id=1660789801]
+offset_left = 576.0
+offset_top = 222.0
+offset_right = 576.0
+offset_bottom = 222.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e098"
+
+[node name="shiny_pokemon_sparkle_e099" type="AnimatedSprite2D" parent="." unique_id=829290704]
+position = Vector2(624, 232)
+sprite_frames = ExtResource("139_deni5")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1960" type="Label" parent="." unique_id=922281937]
+offset_left = 624.0
+offset_top = 222.0
+offset_right = 624.0
+offset_bottom = 222.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e099"
+
+[node name="shiny_pokemon_sparkle_e100" type="AnimatedSprite2D" parent="." unique_id=2118579663]
+position = Vector2(672, 232)
+sprite_frames = ExtResource("140_85s2i")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1961" type="Label" parent="." unique_id=208981230]
+offset_left = 672.0
+offset_top = 222.0
+offset_right = 672.0
+offset_bottom = 222.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e100"
+
+[node name="shiny_pokemon_sparkle_e101" type="AnimatedSprite2D" parent="." unique_id=1525773045]
+position = Vector2(720, 232)
+sprite_frames = ExtResource("141_gnsdg")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1962" type="Label" parent="." unique_id=346948203]
+offset_left = 720.0
+offset_top = 222.0
+offset_right = 720.0
+offset_bottom = 222.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e101"
+
+[node name="shiny_pokemon_sparkle_e102" type="AnimatedSprite2D" parent="." unique_id=334021851]
+position = Vector2(768, 232)
+sprite_frames = ExtResource("142_m217m")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1963" type="Label" parent="." unique_id=1715888005]
+offset_left = 768.0
+offset_top = 222.0
+offset_right = 768.0
+offset_bottom = 222.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e102"
+
+[node name="shiny_pokemon_sparkle_e103" type="AnimatedSprite2D" parent="." unique_id=723241873]
+position = Vector2(816, 232)
+sprite_frames = ExtResource("143_n3gxm")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1964" type="Label" parent="." unique_id=1071368024]
+offset_left = 816.0
+offset_top = 222.0
+offset_right = 816.0
+offset_bottom = 222.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e103"
+
+[node name="shiny_pokemon_sparkle_e104" type="AnimatedSprite2D" parent="." unique_id=625522878]
+position = Vector2(864, 232)
+sprite_frames = ExtResource("144_n34tu")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1965" type="Label" parent="." unique_id=276203307]
+offset_left = 864.0
+offset_top = 222.0
+offset_right = 864.0
+offset_bottom = 222.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e104"
+
+[node name="shiny_pokemon_sparkle_e105" type="AnimatedSprite2D" parent="." unique_id=1899338649]
+position = Vector2(912, 232)
+sprite_frames = ExtResource("145_hvcy4")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1966" type="Label" parent="." unique_id=276888898]
+offset_left = 912.0
+offset_top = 222.0
+offset_right = 912.0
+offset_bottom = 222.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e105"
+
+[node name="shiny_pokemon_sparkle_e106" type="AnimatedSprite2D" parent="." unique_id=1559038423]
+position = Vector2(960, 232)
+sprite_frames = ExtResource("146_i2unq")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1967" type="Label" parent="." unique_id=1411303623]
+offset_left = 960.0
+offset_top = 222.0
+offset_right = 960.0
+offset_bottom = 222.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e106"
+
+[node name="shiny_pokemon_sparkle_e107" type="AnimatedSprite2D" parent="." unique_id=1508199729]
+position = Vector2(1008, 232)
+sprite_frames = ExtResource("147_jg12q")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1968" type="Label" parent="." unique_id=1156539709]
+offset_left = 1008.0
+offset_top = 222.0
+offset_right = 1008.0
+offset_bottom = 222.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e107"
+
+[node name="shiny_pokemon_sparkle_e108" type="AnimatedSprite2D" parent="." unique_id=2025554139]
+position = Vector2(1056, 232)
+sprite_frames = ExtResource("148_mggfr")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1969" type="Label" parent="." unique_id=1711634850]
+offset_left = 1056.0
+offset_top = 222.0
+offset_right = 1056.0
+offset_bottom = 222.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e108"
+
+[node name="shiny_pokemon_sparkle_e109" type="AnimatedSprite2D" parent="." unique_id=206493122]
+position = Vector2(1104, 232)
+sprite_frames = ExtResource("149_pikmp")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1970" type="Label" parent="." unique_id=1516604353]
+offset_left = 1104.0
+offset_top = 222.0
+offset_right = 1104.0
+offset_bottom = 222.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e109"
+
+[node name="shiny_pokemon_sparkle_e110" type="AnimatedSprite2D" parent="." unique_id=1398603362]
+position = Vector2(1152, 232)
+sprite_frames = ExtResource("150_5hwhr")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1971" type="Label" parent="." unique_id=152904542]
+offset_left = 1152.0
+offset_top = 222.0
+offset_right = 1152.0
+offset_bottom = 222.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e110"
+
+[node name="shiny_pokemon_sparkle_e111" type="AnimatedSprite2D" parent="." unique_id=861000979]
+position = Vector2(0, 262)
+sprite_frames = ExtResource("151_qk470")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1972" type="Label" parent="." unique_id=1138426159]
+offset_top = 252.0
+offset_bottom = 252.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e111"
+
+[node name="shiny_pokemon_sparkle_e112" type="AnimatedSprite2D" parent="." unique_id=265167447]
+position = Vector2(48, 262)
+sprite_frames = ExtResource("152_0jeee")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1973" type="Label" parent="." unique_id=861080573]
+offset_left = 48.0
+offset_top = 252.0
+offset_right = 48.0
+offset_bottom = 252.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e112"
+
+[node name="shiny_pokemon_sparkle_e113" type="AnimatedSprite2D" parent="." unique_id=1826764311]
+position = Vector2(96, 262)
+sprite_frames = ExtResource("153_sic77")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1974" type="Label" parent="." unique_id=1863458681]
+offset_left = 96.0
+offset_top = 252.0
+offset_right = 96.0
+offset_bottom = 252.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e113"
+
+[node name="shiny_pokemon_sparkle_e114" type="AnimatedSprite2D" parent="." unique_id=1240237507]
+position = Vector2(144, 262)
+sprite_frames = ExtResource("154_ubj1k")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1975" type="Label" parent="." unique_id=367309783]
+offset_left = 144.0
+offset_top = 252.0
+offset_right = 144.0
+offset_bottom = 252.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e114"
+
+[node name="shiny_pokemon_sparkle_e115" type="AnimatedSprite2D" parent="." unique_id=1357259382]
+position = Vector2(192, 262)
+sprite_frames = ExtResource("155_km6hf")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1976" type="Label" parent="." unique_id=1332975001]
+offset_left = 192.0
+offset_top = 252.0
+offset_right = 192.0
+offset_bottom = 252.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e115"
+
+[node name="shiny_pokemon_sparkle_e116" type="AnimatedSprite2D" parent="." unique_id=352965758]
+position = Vector2(240, 262)
+sprite_frames = ExtResource("156_ym4ca")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1977" type="Label" parent="." unique_id=848144450]
+offset_left = 240.0
+offset_top = 252.0
+offset_right = 240.0
+offset_bottom = 252.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e116"
+
+[node name="shiny_pokemon_sparkle_e117" type="AnimatedSprite2D" parent="." unique_id=880429832]
+position = Vector2(288, 262)
+sprite_frames = ExtResource("157_26ptp")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1978" type="Label" parent="." unique_id=195807346]
+offset_left = 288.0
+offset_top = 252.0
+offset_right = 288.0
+offset_bottom = 252.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e117"
+
+[node name="shiny_pokemon_sparkle_e118" type="AnimatedSprite2D" parent="." unique_id=1426534624]
+position = Vector2(336, 262)
+sprite_frames = ExtResource("158_5phn1")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1979" type="Label" parent="." unique_id=150633463]
+offset_left = 336.0
+offset_top = 252.0
+offset_right = 336.0
+offset_bottom = 252.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e118"
+
+[node name="shiny_pokemon_sparkle_e119" type="AnimatedSprite2D" parent="." unique_id=1341415148]
+position = Vector2(384, 262)
+sprite_frames = ExtResource("159_mdxqq")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1980" type="Label" parent="." unique_id=1232148574]
+offset_left = 384.0
+offset_top = 252.0
+offset_right = 384.0
+offset_bottom = 252.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e119"
+
+[node name="shiny_pokemon_sparkle_e120" type="AnimatedSprite2D" parent="." unique_id=1469950769]
+position = Vector2(432, 262)
+sprite_frames = ExtResource("160_37hru")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1981" type="Label" parent="." unique_id=1145651277]
+offset_left = 432.0
+offset_top = 252.0
+offset_right = 432.0
+offset_bottom = 252.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e120"
+
+[node name="shiny_pokemon_sparkle_e121" type="AnimatedSprite2D" parent="." unique_id=1928185750]
+position = Vector2(480, 262)
+sprite_frames = ExtResource("161_xkjyo")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1982" type="Label" parent="." unique_id=359974053]
+offset_left = 480.0
+offset_top = 252.0
+offset_right = 480.0
+offset_bottom = 252.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e121"
+
+[node name="shiny_pokemon_sparkle_e122" type="AnimatedSprite2D" parent="." unique_id=1065299644]
+position = Vector2(528, 262)
+sprite_frames = ExtResource("162_dwmte")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1983" type="Label" parent="." unique_id=1772766172]
+offset_left = 528.0
+offset_top = 252.0
+offset_right = 528.0
+offset_bottom = 252.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e122"
+
+[node name="shiny_pokemon_sparkle_e123" type="AnimatedSprite2D" parent="." unique_id=2026581746]
+position = Vector2(576, 262)
+sprite_frames = ExtResource("163_eo5y1")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1984" type="Label" parent="." unique_id=2018438023]
+offset_left = 576.0
+offset_top = 252.0
+offset_right = 576.0
+offset_bottom = 252.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e123"
+
+[node name="shiny_pokemon_sparkle_e124" type="AnimatedSprite2D" parent="." unique_id=1408337441]
+position = Vector2(624, 262)
+sprite_frames = ExtResource("164_ni4fj")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1985" type="Label" parent="." unique_id=1445298325]
+offset_left = 624.0
+offset_top = 252.0
+offset_right = 624.0
+offset_bottom = 252.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e124"
+
+[node name="shiny_pokemon_sparkle_e125" type="AnimatedSprite2D" parent="." unique_id=1833438875]
+position = Vector2(672, 262)
+sprite_frames = ExtResource("165_04mxk")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1986" type="Label" parent="." unique_id=1220541063]
+offset_left = 672.0
+offset_top = 252.0
+offset_right = 672.0
+offset_bottom = 252.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e125"
+
+[node name="shiny_pokemon_sparkle_e126" type="AnimatedSprite2D" parent="." unique_id=71409136]
+position = Vector2(720, 262)
+sprite_frames = ExtResource("166_u02l8")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1987" type="Label" parent="." unique_id=1024207834]
+offset_left = 720.0
+offset_top = 252.0
+offset_right = 720.0
+offset_bottom = 252.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e126"
+
+[node name="shiny_pokemon_sparkle_e127" type="AnimatedSprite2D" parent="." unique_id=28454886]
+position = Vector2(768, 262)
+sprite_frames = ExtResource("167_g1vp5")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1988" type="Label" parent="." unique_id=639286509]
+offset_left = 768.0
+offset_top = 252.0
+offset_right = 768.0
+offset_bottom = 252.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e127"
+
+[node name="shiny_pokemon_sparkle_e128" type="AnimatedSprite2D" parent="." unique_id=1213278227]
+position = Vector2(816, 262)
+sprite_frames = ExtResource("168_0j34q")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1989" type="Label" parent="." unique_id=124543438]
+offset_left = 816.0
+offset_top = 252.0
+offset_right = 816.0
+offset_bottom = 252.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e128"
+
+[node name="shiny_pokemon_sparkle_e129" type="AnimatedSprite2D" parent="." unique_id=1454774722]
+position = Vector2(864, 262)
+sprite_frames = ExtResource("169_c7d2x")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1990" type="Label" parent="." unique_id=1693404483]
+offset_left = 864.0
+offset_top = 252.0
+offset_right = 864.0
+offset_bottom = 252.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e129"
+
+[node name="shiny_pokemon_sparkle_e130" type="AnimatedSprite2D" parent="." unique_id=1828850452]
+position = Vector2(912, 262)
+sprite_frames = ExtResource("170_nlr2y")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1991" type="Label" parent="." unique_id=874629434]
+offset_left = 912.0
+offset_top = 252.0
+offset_right = 912.0
+offset_bottom = 252.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e130"
+
+[node name="shiny_pokemon_sparkle_e131" type="AnimatedSprite2D" parent="." unique_id=1452229706]
+position = Vector2(960, 262)
+sprite_frames = ExtResource("171_jbvyc")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1992" type="Label" parent="." unique_id=1435754405]
+offset_left = 960.0
+offset_top = 252.0
+offset_right = 960.0
+offset_bottom = 252.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e131"
+
+[node name="shiny_pokemon_sparkle_e132" type="AnimatedSprite2D" parent="." unique_id=1693649698]
+position = Vector2(1008, 262)
+sprite_frames = ExtResource("172_p6eem")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1993" type="Label" parent="." unique_id=767690063]
+offset_left = 1008.0
+offset_top = 252.0
+offset_right = 1008.0
+offset_bottom = 252.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e132"
+
+[node name="shiny_pokemon_sparkle_e133" type="AnimatedSprite2D" parent="." unique_id=1375283810]
+position = Vector2(1056, 262)
+sprite_frames = ExtResource("173_8hol4")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1994" type="Label" parent="." unique_id=1013548200]
+offset_left = 1056.0
+offset_top = 252.0
+offset_right = 1056.0
+offset_bottom = 252.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e133"
+
+[node name="shiny_pokemon_sparkle_e134" type="AnimatedSprite2D" parent="." unique_id=1563522167]
+position = Vector2(1104, 262)
+sprite_frames = ExtResource("174_knp1v")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1995" type="Label" parent="." unique_id=476385997]
+offset_left = 1104.0
+offset_top = 252.0
+offset_right = 1104.0
+offset_bottom = 252.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e134"
+
+[node name="shiny_pokemon_sparkle_e135" type="AnimatedSprite2D" parent="." unique_id=1034000299]
+position = Vector2(1152, 262)
+sprite_frames = ExtResource("175_s7ufi")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1996" type="Label" parent="." unique_id=884733632]
+offset_left = 1152.0
+offset_top = 252.0
+offset_right = 1152.0
+offset_bottom = 252.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e135"
+
+[node name="shiny_pokemon_sparkle_e136" type="AnimatedSprite2D" parent="." unique_id=188067471]
+position = Vector2(0, 282)
+sprite_frames = ExtResource("176_idnd1")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1997" type="Label" parent="." unique_id=835523063]
+offset_top = 272.0
+offset_bottom = 272.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e136"
+
+[node name="shiny_pokemon_sparkle_e137" type="AnimatedSprite2D" parent="." unique_id=401607031]
+position = Vector2(48, 282)
+sprite_frames = ExtResource("177_gr0qp")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1998" type="Label" parent="." unique_id=1281473491]
+offset_left = 48.0
+offset_top = 272.0
+offset_right = 48.0
+offset_bottom = 272.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e137"
+
+[node name="shiny_pokemon_sparkle_e138" type="AnimatedSprite2D" parent="." unique_id=682572737]
+position = Vector2(96, 282)
+sprite_frames = ExtResource("178_gkj5s")
+autoplay = "default"
+centered = false
+
+[node name="@Label@1999" type="Label" parent="." unique_id=775348065]
+offset_left = 96.0
+offset_top = 272.0
+offset_right = 96.0
+offset_bottom = 272.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e138"
+
+[node name="shiny_pokemon_sparkle_e139" type="AnimatedSprite2D" parent="." unique_id=1706138415]
+position = Vector2(144, 282)
+sprite_frames = ExtResource("179_cgvmo")
+autoplay = "default"
+centered = false
+
+[node name="@Label@2000" type="Label" parent="." unique_id=688602785]
+offset_left = 144.0
+offset_top = 272.0
+offset_right = 144.0
+offset_bottom = 272.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e139"
+
+[node name="shiny_pokemon_sparkle_e140" type="AnimatedSprite2D" parent="." unique_id=1209559047]
+position = Vector2(192, 282)
+sprite_frames = ExtResource("180_0nawb")
+autoplay = "default"
+centered = false
+
+[node name="@Label@2001" type="Label" parent="." unique_id=1488443701]
+offset_left = 192.0
+offset_top = 272.0
+offset_right = 192.0
+offset_bottom = 272.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e140"
+
+[node name="shiny_pokemon_sparkle_e141" type="AnimatedSprite2D" parent="." unique_id=64896664]
+position = Vector2(240, 282)
+sprite_frames = ExtResource("181_koep3")
+autoplay = "default"
+centered = false
+
+[node name="@Label@2002" type="Label" parent="." unique_id=1420625965]
+offset_left = 240.0
+offset_top = 272.0
+offset_right = 240.0
+offset_bottom = 272.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e141"
+
+[node name="shiny_pokemon_sparkle_e142" type="AnimatedSprite2D" parent="." unique_id=739943800]
+position = Vector2(288, 282)
+sprite_frames = ExtResource("182_q7da4")
+autoplay = "default"
+centered = false
+
+[node name="@Label@2003" type="Label" parent="." unique_id=160703968]
+offset_left = 288.0
+offset_top = 272.0
+offset_right = 288.0
+offset_bottom = 272.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e142"
+
+[node name="shiny_pokemon_sparkle_e143" type="AnimatedSprite2D" parent="." unique_id=1061035452]
+position = Vector2(336, 282)
+sprite_frames = ExtResource("183_3nqn6")
+autoplay = "default"
+centered = false
+
+[node name="@Label@2004" type="Label" parent="." unique_id=1367591325]
+offset_left = 336.0
+offset_top = 272.0
+offset_right = 336.0
+offset_bottom = 272.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e143"
+
+[node name="shiny_pokemon_sparkle_e144" type="AnimatedSprite2D" parent="." unique_id=1759717836]
+position = Vector2(384, 282)
+sprite_frames = ExtResource("184_fvcvi")
+autoplay = "default"
+centered = false
+
+[node name="@Label@2005" type="Label" parent="." unique_id=1528965500]
+offset_left = 384.0
+offset_top = 272.0
+offset_right = 384.0
+offset_bottom = 272.0
+theme_override_font_sizes/font_size = 6
+text = "shiny_pokemon_sparkle_e144"

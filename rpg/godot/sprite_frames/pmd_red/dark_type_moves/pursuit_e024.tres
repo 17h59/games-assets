@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/dark_type_moves/pursuit/pursuit_e024.png" id="1_crmp4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vfah2"]
+atlas = ExtResource("1_crmp4")
+region = Rect2(0, 0, 32, 103)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qg3rw"]
+atlas = ExtResource("1_crmp4")
+region = Rect2(32, 0, 32, 103)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x2yyv"]
+atlas = ExtResource("1_crmp4")
+region = Rect2(64, 0, 32, 103)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hijds"]
+atlas = ExtResource("1_crmp4")
+region = Rect2(96, 0, 32, 103)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yaolk"]
+atlas = ExtResource("1_crmp4")
+region = Rect2(128, 0, 32, 103)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vfah2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qg3rw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x2yyv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hijds")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yaolk")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

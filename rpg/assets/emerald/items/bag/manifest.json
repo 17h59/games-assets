@@ -1,0 +1,325 @@
+{
+ "sheet": "8365",
+ "game": "emerald",
+ "category": "items",
+ "title": "Bag",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "bag_pouches",
+   "file": "bag_pouches.png",
+   "cell": [
+    56,
+    45
+   ],
+   "zone": 0,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      341,
+      207,
+      54,
+      45
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      405,
+      207,
+      54,
+      45
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      468,
+      208,
+      55,
+      43
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      533,
+      208,
+      55,
+      43
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_4",
+     "src": [
+      597,
+      208,
+      54,
+      44
+     ]
+    }
+   ],
+   "box": [
+    341,
+    207,
+    310,
+    45
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 8,
+   "y": 24,
+   "w": 240,
+   "h": 160,
+   "area": 18860,
+   "ncolors": 12,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.336,
+   "kind": "sprite",
+   "zone": null,
+   "id": 5,
+   "file": "bag_005.png"
+  },
+  {
+   "x": 256,
+   "y": 24,
+   "w": 240,
+   "h": 160,
+   "area": 18860,
+   "ncolors": 12,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.336,
+   "kind": "sprite",
+   "zone": null,
+   "id": 6,
+   "file": "bag_006.png"
+  },
+  {
+   "x": 504,
+   "y": 168,
+   "w": 16,
+   "h": 16,
+   "area": 256,
+   "ncolors": 4,
+   "dominant": "#FFC86A",
+   "dom_frac": 0.688,
+   "kind": "sprite",
+   "zone": null,
+   "id": 7,
+   "file": "bag_007.png"
+  },
+  {
+   "x": 528,
+   "y": 168,
+   "w": 16,
+   "h": 16,
+   "area": 244,
+   "ncolors": 2,
+   "dominant": "#FFC86A",
+   "dom_frac": 0.762,
+   "kind": "sprite",
+   "zone": null,
+   "id": 8,
+   "file": "bag_008.png"
+  },
+  {
+   "x": 552,
+   "y": 168,
+   "w": 16,
+   "h": 16,
+   "area": 256,
+   "ncolors": 3,
+   "dominant": "#FFC86A",
+   "dom_frac": 0.727,
+   "kind": "sprite",
+   "zone": null,
+   "id": 9,
+   "file": "bag_009.png"
+  },
+  {
+   "x": 576,
+   "y": 168,
+   "w": 16,
+   "h": 16,
+   "area": 256,
+   "ncolors": 3,
+   "dominant": "#FFC86A",
+   "dom_frac": 0.727,
+   "kind": "sprite",
+   "zone": null,
+   "id": 10,
+   "file": "bag_010.png",
+   "mirror_of": 4
+  },
+  {
+   "x": 602,
+   "y": 162,
+   "w": 20,
+   "h": 20,
+   "area": 264,
+   "ncolors": 4,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.455,
+   "kind": "sprite",
+   "zone": null,
+   "id": 11,
+   "file": "bag_011.png"
+  },
+  {
+   "x": 504,
+   "y": 24,
+   "w": 80,
+   "h": 16,
+   "area": 386,
+   "ncolors": 4,
+   "dominant": "#283840",
+   "dom_frac": 0.477,
+   "kind": "sprite",
+   "zone": null,
+   "id": 12,
+   "file": "bag_012.png"
+  },
+  {
+   "x": 504,
+   "y": 48,
+   "w": 80,
+   "h": 16,
+   "area": 547,
+   "ncolors": 4,
+   "dominant": "#B89858",
+   "dom_frac": 0.355,
+   "kind": "sprite",
+   "zone": null,
+   "id": 13,
+   "file": "bag_013.png"
+  },
+  {
+   "x": 504,
+   "y": 72,
+   "w": 80,
+   "h": 16,
+   "area": 467,
+   "ncolors": 4,
+   "dominant": "#283840",
+   "dom_frac": 0.394,
+   "kind": "sprite",
+   "zone": null,
+   "id": 14,
+   "file": "bag_014.png"
+  },
+  {
+   "x": 504,
+   "y": 96,
+   "w": 80,
+   "h": 16,
+   "area": 491,
+   "ncolors": 4,
+   "dominant": "#283840",
+   "dom_frac": 0.375,
+   "kind": "sprite",
+   "zone": null,
+   "id": 15,
+   "file": "bag_015.png"
+  },
+  {
+   "x": 504,
+   "y": 120,
+   "w": 80,
+   "h": 16,
+   "area": 504,
+   "ncolors": 4,
+   "dominant": "#283840",
+   "dom_frac": 0.365,
+   "kind": "sprite",
+   "zone": null,
+   "id": 16,
+   "file": "bag_016.png"
+  },
+  {
+   "x": 12,
+   "y": 194,
+   "w": 51,
+   "h": 60,
+   "area": 2083,
+   "ncolors": 11,
+   "dominant": "#48A058",
+   "dom_frac": 0.268,
+   "kind": "sprite",
+   "zone": null,
+   "id": 17,
+   "file": "bag_017.png"
+  },
+  {
+   "x": 81,
+   "y": 194,
+   "w": 46,
+   "h": 62,
+   "area": 2061,
+   "ncolors": 11,
+   "dominant": "#48A058",
+   "dom_frac": 0.26,
+   "kind": "sprite",
+   "zone": null,
+   "id": 18,
+   "file": "bag_018.png"
+  },
+  {
+   "x": 145,
+   "y": 194,
+   "w": 51,
+   "h": 60,
+   "area": 2091,
+   "ncolors": 11,
+   "dominant": "#48A058",
+   "dom_frac": 0.267,
+   "kind": "sprite",
+   "zone": null,
+   "id": 19,
+   "file": "bag_019.png"
+  },
+  {
+   "x": 209,
+   "y": 194,
+   "w": 48,
+   "h": 60,
+   "area": 2061,
+   "ncolors": 11,
+   "dominant": "#48A058",
+   "dom_frac": 0.27,
+   "kind": "sprite",
+   "zone": null,
+   "id": 20,
+   "file": "bag_020.png"
+  },
+  {
+   "x": 273,
+   "y": 192,
+   "w": 46,
+   "h": 64,
+   "area": 1692,
+   "ncolors": 9,
+   "dominant": "#48A058",
+   "dom_frac": 0.314,
+   "kind": "sprite",
+   "zone": null,
+   "id": 21,
+   "file": "bag_021.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

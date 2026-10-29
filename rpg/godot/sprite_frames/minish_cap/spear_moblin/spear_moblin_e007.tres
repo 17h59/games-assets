@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/spear_moblin/spear_moblin_e007.png" id="1_0bluw"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wyxur"]
+atlas = ExtResource("1_0bluw")
+region = Rect2(0, 0, 28, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jdb72"]
+atlas = ExtResource("1_0bluw")
+region = Rect2(28, 0, 28, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_74a6u"]
+atlas = ExtResource("1_0bluw")
+region = Rect2(56, 0, 28, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4qlwx"]
+atlas = ExtResource("1_0bluw")
+region = Rect2(84, 0, 28, 44)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wyxur")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jdb72")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_74a6u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4qlwx")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

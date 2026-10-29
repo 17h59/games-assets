@@ -1,0 +1,74 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/furnace_desert/furnace_desert_e000.png" id="1_n65se"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tr78d"]
+atlas = ExtResource("1_n65se")
+region = Rect2(0, 0, 70, 46)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vxyma"]
+atlas = ExtResource("1_n65se")
+region = Rect2(70, 0, 70, 46)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_12rqb"]
+atlas = ExtResource("1_n65se")
+region = Rect2(140, 0, 70, 46)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tojwn"]
+atlas = ExtResource("1_n65se")
+region = Rect2(210, 0, 70, 46)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f30eh"]
+atlas = ExtResource("1_n65se")
+region = Rect2(280, 0, 70, 46)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h4mm6"]
+atlas = ExtResource("1_n65se")
+region = Rect2(350, 0, 70, 46)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4ah5l"]
+atlas = ExtResource("1_n65se")
+region = Rect2(420, 0, 70, 46)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cxt5s"]
+atlas = ExtResource("1_n65se")
+region = Rect2(490, 0, 70, 46)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pe0v0"]
+atlas = ExtResource("1_n65se")
+region = Rect2(560, 0, 70, 46)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tr78d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vxyma")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_12rqb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tojwn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f30eh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h4mm6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4ah5l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cxt5s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pe0v0")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

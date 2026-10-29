@@ -1,0 +1,60 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/darknut/darknut_e057.png" id="1_07ekx"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_upkc7"]
+atlas = ExtResource("1_07ekx")
+region = Rect2(0, 0, 31, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4oeo7"]
+atlas = ExtResource("1_07ekx")
+region = Rect2(31, 0, 31, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bk7mc"]
+atlas = ExtResource("1_07ekx")
+region = Rect2(62, 0, 31, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k7i3g"]
+atlas = ExtResource("1_07ekx")
+region = Rect2(93, 0, 31, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ua7lv"]
+atlas = ExtResource("1_07ekx")
+region = Rect2(124, 0, 31, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_elx07"]
+atlas = ExtResource("1_07ekx")
+region = Rect2(155, 0, 31, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pvtsf"]
+atlas = ExtResource("1_07ekx")
+region = Rect2(186, 0, 31, 80)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_upkc7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4oeo7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bk7mc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k7i3g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ua7lv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_elx07")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pvtsf")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

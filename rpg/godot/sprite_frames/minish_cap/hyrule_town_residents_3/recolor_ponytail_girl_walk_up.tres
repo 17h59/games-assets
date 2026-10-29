@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/hyrule_town_residents_3/recolors/recolor_ponytail_girl_walk_up.png" id="1_2naft"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ohsdt"]
+atlas = ExtResource("1_2naft")
+region = Rect2(0, 0, 18, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e26bp"]
+atlas = ExtResource("1_2naft")
+region = Rect2(18, 0, 18, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_70c18"]
+atlas = ExtResource("1_2naft")
+region = Rect2(36, 0, 18, 23)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ohsdt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e26bp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_70c18")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

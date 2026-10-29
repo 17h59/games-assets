@@ -1,0 +1,508 @@
+{
+ "sheet": "6499",
+ "game": "minish_cap",
+ "category": "items",
+ "title": "Mushroom",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    30,
+    40,
+    114,
+    8
+   ],
+   "point": [
+    87,
+    44
+   ],
+   "name": null,
+   "folder": "set_00"
+  },
+  {
+   "id": 1,
+   "box": [
+    41,
+    71,
+    36,
+    10
+   ],
+   "point": [
+    59,
+    76
+   ],
+   "name": null,
+   "folder": "set_01"
+  },
+  {
+   "id": 2,
+   "box": [
+    97,
+    71,
+    36,
+    11
+   ],
+   "point": [
+    115,
+    76
+   ],
+   "name": null,
+   "folder": "set_02"
+  },
+  {
+   "id": 3,
+   "box": [
+    30,
+    88,
+    114,
+    8
+   ],
+   "point": [
+    87,
+    92
+   ],
+   "name": null,
+   "folder": "set_03"
+  },
+  {
+   "id": 4,
+   "box": [
+    2,
+    159,
+    140,
+    10
+   ],
+   "point": [
+    72,
+    164
+   ],
+   "name": null,
+   "folder": "set_04"
+  },
+  {
+   "id": 5,
+   "box": [
+    13,
+    172,
+    154,
+    7
+   ],
+   "point": [
+    90,
+    175
+   ],
+   "name": null,
+   "folder": "set_05"
+  },
+  {
+   "id": 6,
+   "box": [
+    14,
+    182,
+    152,
+    7
+   ],
+   "point": [
+    90,
+    185
+   ],
+   "name": null,
+   "folder": "set_06"
+  },
+  {
+   "id": 7,
+   "box": [
+    8,
+    192,
+    166,
+    7
+   ],
+   "point": [
+    91,
+    195
+   ],
+   "name": null,
+   "folder": "set_07"
+  }
+ ],
+ "entities": [],
+ "items": [
+  {
+   "x": 54,
+   "y": 3,
+   "w": 16,
+   "h": 12,
+   "area": 162,
+   "ncolors": 11,
+   "dominant": "#F85010",
+   "dom_frac": 0.296,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "mushroom_000.png"
+  },
+  {
+   "x": 71,
+   "y": 3,
+   "w": 16,
+   "h": 15,
+   "area": 196,
+   "ncolors": 11,
+   "dominant": "#F85010",
+   "dom_frac": 0.347,
+   "kind": "sprite",
+   "zone": null,
+   "id": 1,
+   "file": "mushroom_001.png"
+  },
+  {
+   "x": 88,
+   "y": 2,
+   "w": 16,
+   "h": 16,
+   "area": 206,
+   "ncolors": 10,
+   "dominant": "#F85010",
+   "dom_frac": 0.35,
+   "kind": "sprite",
+   "zone": null,
+   "id": 2,
+   "file": "mushroom_002.png"
+  },
+  {
+   "x": 105,
+   "y": 3,
+   "w": 16,
+   "h": 15,
+   "area": 196,
+   "ncolors": 11,
+   "dominant": "#F85010",
+   "dom_frac": 0.347,
+   "kind": "sprite",
+   "zone": null,
+   "id": 3,
+   "file": "mushroom_003.png",
+   "duplicate_of": 1
+  },
+  {
+   "x": 80,
+   "y": 19,
+   "w": 14,
+   "h": 13,
+   "area": 152,
+   "ncolors": 9,
+   "dominant": "#A02818",
+   "dom_frac": 0.303,
+   "kind": "sprite",
+   "zone": null,
+   "id": 4,
+   "file": "mushroom_004.png"
+  },
+  {
+   "x": 11,
+   "y": 46,
+   "w": 16,
+   "h": 15,
+   "area": 196,
+   "ncolors": 11,
+   "dominant": "#F85010",
+   "dom_frac": 0.347,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 5,
+   "file": "set_00/set_00_005.png",
+   "duplicate_of": 1
+  },
+  {
+   "x": 147,
+   "y": 46,
+   "w": 16,
+   "h": 15,
+   "area": 196,
+   "ncolors": 11,
+   "dominant": "#F85010",
+   "dom_frac": 0.347,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 6,
+   "file": "set_00/set_00_006.png",
+   "duplicate_of": 1
+  },
+  {
+   "x": 46,
+   "y": 50,
+   "w": 16,
+   "h": 19,
+   "area": 224,
+   "ncolors": 13,
+   "dominant": "#F85010",
+   "dom_frac": 0.304,
+   "kind": "sprite",
+   "zone": null,
+   "name": "mushroom_orange",
+   "set": 2,
+   "id": 7,
+   "file": "set_02/mushroom_orange.png"
+  },
+  {
+   "x": 114,
+   "y": 50,
+   "w": 16,
+   "h": 19,
+   "area": 224,
+   "ncolors": 13,
+   "dominant": "#48D0F8",
+   "dom_frac": 0.304,
+   "kind": "sprite",
+   "zone": null,
+   "name": "mushroom_blue",
+   "set": 1,
+   "id": 8,
+   "file": "set_01/mushroom_blue.png"
+  },
+  {
+   "x": 11,
+   "y": 63,
+   "w": 16,
+   "h": 15,
+   "area": 194,
+   "ncolors": 10,
+   "dominant": "#F85010",
+   "dom_frac": 0.33,
+   "kind": "sprite",
+   "zone": null,
+   "set": 1,
+   "id": 9,
+   "file": "set_01/set_01_009.png"
+  },
+  {
+   "x": 147,
+   "y": 63,
+   "w": 16,
+   "h": 15,
+   "area": 194,
+   "ncolors": 10,
+   "dominant": "#F85010",
+   "dom_frac": 0.33,
+   "kind": "sprite",
+   "zone": null,
+   "set": 2,
+   "id": 10,
+   "file": "set_02/set_02_010.png",
+   "mirror_of": 9
+  },
+  {
+   "x": 28,
+   "y": 71,
+   "w": 12,
+   "h": 15,
+   "area": 141,
+   "ncolors": 11,
+   "dominant": "#A02818",
+   "dom_frac": 0.255,
+   "kind": "sprite",
+   "zone": null,
+   "set": 1,
+   "id": 11,
+   "file": "set_01/set_01_011.png"
+  },
+  {
+   "x": 134,
+   "y": 71,
+   "w": 12,
+   "h": 15,
+   "area": 141,
+   "ncolors": 11,
+   "dominant": "#A02818",
+   "dom_frac": 0.255,
+   "kind": "sprite",
+   "zone": null,
+   "set": 2,
+   "id": 12,
+   "file": "set_02/set_02_012.png",
+   "mirror_of": 11
+  },
+  {
+   "x": 11,
+   "y": 80,
+   "w": 16,
+   "h": 15,
+   "area": 196,
+   "ncolors": 11,
+   "dominant": "#F85010",
+   "dom_frac": 0.347,
+   "kind": "sprite",
+   "zone": null,
+   "set": 3,
+   "id": 13,
+   "file": "set_03/set_03_013.png",
+   "duplicate_of": 1
+  },
+  {
+   "x": 147,
+   "y": 80,
+   "w": 16,
+   "h": 15,
+   "area": 196,
+   "ncolors": 11,
+   "dominant": "#F85010",
+   "dom_frac": 0.347,
+   "kind": "sprite",
+   "zone": null,
+   "set": 3,
+   "id": 14,
+   "file": "set_03/set_03_014.png",
+   "duplicate_of": 1
+  },
+  {
+   "x": 11,
+   "y": 97,
+   "w": 16,
+   "h": 15,
+   "area": 194,
+   "ncolors": 10,
+   "dominant": "#F85010",
+   "dom_frac": 0.33,
+   "kind": "sprite",
+   "zone": null,
+   "set": 3,
+   "id": 15,
+   "file": "set_03/set_03_015.png",
+   "duplicate_of": 10
+  },
+  {
+   "x": 46,
+   "y": 98,
+   "w": 16,
+   "h": 19,
+   "area": 224,
+   "ncolors": 13,
+   "dominant": "#48F018",
+   "dom_frac": 0.304,
+   "kind": "sprite",
+   "zone": null,
+   "name": "mushroom_green",
+   "set": 3,
+   "id": 16,
+   "file": "set_03/mushroom_green.png"
+  },
+  {
+   "x": 114,
+   "y": 98,
+   "w": 16,
+   "h": 19,
+   "area": 224,
+   "ncolors": 13,
+   "dominant": "#F8E828",
+   "dom_frac": 0.304,
+   "kind": "sprite",
+   "zone": null,
+   "name": "mushroom_yellow",
+   "set": 3,
+   "id": 17,
+   "file": "set_03/mushroom_yellow.png"
+  },
+  {
+   "x": 147,
+   "y": 97,
+   "w": 16,
+   "h": 15,
+   "area": 194,
+   "ncolors": 10,
+   "dominant": "#F85010",
+   "dom_frac": 0.33,
+   "kind": "sprite",
+   "zone": null,
+   "set": 3,
+   "id": 18,
+   "file": "set_03/set_03_018.png",
+   "duplicate_of": 9
+  },
+  {
+   "x": 79,
+   "y": 125,
+   "w": 16,
+   "h": 15,
+   "area": 182,
+   "ncolors": 10,
+   "dominant": "#F85010",
+   "dom_frac": 0.275,
+   "kind": "sprite",
+   "zone": null,
+   "set": 3,
+   "id": 19,
+   "file": "set_03/set_03_019.png"
+  },
+  {
+   "x": 53,
+   "y": 141,
+   "w": 16,
+   "h": 16,
+   "area": 206,
+   "ncolors": 10,
+   "dominant": "#F85010",
+   "dom_frac": 0.35,
+   "kind": "sprite",
+   "zone": null,
+   "set": 3,
+   "id": 20,
+   "file": "set_03/set_03_020.png",
+   "duplicate_of": 2
+  },
+  {
+   "x": 70,
+   "y": 142,
+   "w": 16,
+   "h": 15,
+   "area": 196,
+   "ncolors": 11,
+   "dominant": "#F85010",
+   "dom_frac": 0.347,
+   "kind": "sprite",
+   "zone": null,
+   "set": 3,
+   "id": 21,
+   "file": "set_03/set_03_021.png",
+   "duplicate_of": 1
+  },
+  {
+   "x": 87,
+   "y": 142,
+   "w": 16,
+   "h": 12,
+   "area": 162,
+   "ncolors": 11,
+   "dominant": "#F85010",
+   "dom_frac": 0.296,
+   "kind": "sprite",
+   "zone": null,
+   "set": 3,
+   "id": 22,
+   "file": "set_03/set_03_022.png",
+   "duplicate_of": 0
+  },
+  {
+   "x": 104,
+   "y": 142,
+   "w": 16,
+   "h": 15,
+   "area": 196,
+   "ncolors": 11,
+   "dominant": "#F85010",
+   "dom_frac": 0.347,
+   "kind": "sprite",
+   "zone": null,
+   "set": 3,
+   "id": 23,
+   "file": "set_03/set_03_023.png",
+   "duplicate_of": 1
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/rock_type_moves/rollout/rollout_e028.png" id="1_1c4na"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h4b0j"]
+atlas = ExtResource("1_1c4na")
+region = Rect2(0, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6aipd"]
+atlas = ExtResource("1_1c4na")
+region = Rect2(8, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cmorv"]
+atlas = ExtResource("1_1c4na")
+region = Rect2(16, 0, 8, 8)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h4b0j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6aipd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cmorv")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

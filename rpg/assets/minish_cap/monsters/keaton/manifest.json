@@ -1,0 +1,721 @@
+{
+ "sheet": "6472",
+ "game": "minish_cap",
+ "category": "monsters",
+ "title": "Keaton",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    230,
+    264,
+    52,
+    9
+   ],
+   "point": [
+    256,
+    268
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "walk_left",
+   "file": "walk_left.png",
+   "cell": [
+    26,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      2,
+      2,
+      26,
+      26
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      30,
+      3,
+      25,
+      25
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      57,
+      2,
+      26,
+      26
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      85,
+      3,
+      25,
+      25
+     ]
+    }
+   ],
+   "box": [
+    2,
+    2,
+    108,
+    26
+   ]
+  },
+  {
+   "id": 1,
+   "name": "look_around_left",
+   "file": "look_around_left.png",
+   "cell": [
+    26,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 4,
+     "role": "frame_0",
+     "src": [
+      2,
+      29,
+      26,
+      26
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_1",
+     "src": [
+      30,
+      30,
+      23,
+      25
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_2",
+     "src": [
+      55,
+      30,
+      25,
+      25
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_3",
+     "src": [
+      82,
+      30,
+      23,
+      25
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_4",
+     "src": [
+      107,
+      29,
+      26,
+      26
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 9,
+     "role": "frame_5",
+     "src": [
+      135,
+      30,
+      23,
+      25
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_6",
+     "src": [
+      160,
+      31,
+      25,
+      24
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_7",
+     "src": [
+      187,
+      30,
+      23,
+      25
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_8",
+     "src": [
+      212,
+      29,
+      26,
+      26
+     ],
+     "duplicate_of": 0
+    }
+   ],
+   "box": [
+    2,
+    29,
+    236,
+    26
+   ]
+  },
+  {
+   "id": 2,
+   "name": "attack_left",
+   "file": "attack_left.png",
+   "cell": [
+    31,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 13,
+     "role": "frame_0",
+     "src": [
+      2,
+      57,
+      31,
+      25
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_1",
+     "src": [
+      35,
+      56,
+      30,
+      26
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_2",
+     "src": [
+      67,
+      57,
+      31,
+      25
+     ],
+     "duplicate_of": 0
+    }
+   ],
+   "box": [
+    2,
+    56,
+    96,
+    26
+   ]
+  },
+  {
+   "id": 3,
+   "name": "walk_up",
+   "file": "walk_up.png",
+   "cell": [
+    31,
+    25
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 16,
+     "role": "frame_0",
+     "src": [
+      2,
+      93,
+      30,
+      25
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_1",
+     "src": [
+      34,
+      94,
+      31,
+      24
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_2",
+     "src": [
+      67,
+      93,
+      30,
+      25
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 19,
+     "role": "frame_3",
+     "src": [
+      99,
+      93,
+      30,
+      25
+     ]
+    }
+   ],
+   "box": [
+    2,
+    93,
+    127,
+    25
+   ]
+  },
+  {
+   "id": 4,
+   "name": "look_around_up",
+   "file": "look_around_up.png",
+   "cell": [
+    32,
+    27
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 20,
+     "role": "frame_0",
+     "src": [
+      2,
+      122,
+      30,
+      25
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_1",
+     "src": [
+      35,
+      121,
+      28,
+      26
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_2",
+     "src": [
+      65,
+      120,
+      28,
+      27
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_3",
+     "src": [
+      95,
+      121,
+      28,
+      26
+     ],
+     "duplicate_of": 1
+    },
+    {
+     "item": 24,
+     "role": "frame_4",
+     "src": [
+      125,
+      122,
+      30,
+      25
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 25,
+     "role": "frame_5",
+     "src": [
+      157,
+      121,
+      29,
+      26
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_6",
+     "src": [
+      188,
+      120,
+      32,
+      27
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_7",
+     "src": [
+      222,
+      121,
+      29,
+      26
+     ],
+     "duplicate_of": 5
+    },
+    {
+     "item": 28,
+     "role": "frame_8",
+     "src": [
+      253,
+      122,
+      30,
+      25
+     ],
+     "duplicate_of": 0
+    }
+   ],
+   "box": [
+    2,
+    120,
+    281,
+    27
+   ]
+  },
+  {
+   "id": 5,
+   "name": "attack_up",
+   "file": "attack_up.png",
+   "cell": [
+    24,
+    31
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 29,
+     "role": "frame_0",
+     "src": [
+      2,
+      151,
+      24,
+      29
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_1",
+     "src": [
+      28,
+      149,
+      24,
+      31
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_2",
+     "src": [
+      54,
+      149,
+      24,
+      31
+     ]
+    }
+   ],
+   "box": [
+    2,
+    149,
+    76,
+    31
+   ]
+  },
+  {
+   "id": 6,
+   "name": "walk_down",
+   "file": "walk_down.png",
+   "cell": [
+    32,
+    25
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 32,
+     "role": "frame_0",
+     "src": [
+      2,
+      193,
+      31,
+      25
+     ]
+    },
+    {
+     "item": 33,
+     "role": "frame_1",
+     "src": [
+      35,
+      194,
+      30,
+      24
+     ]
+    },
+    {
+     "item": 34,
+     "role": "frame_2",
+     "src": [
+      67,
+      193,
+      31,
+      25
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 35,
+     "role": "frame_3",
+     "src": [
+      100,
+      194,
+      32,
+      24
+     ]
+    }
+   ],
+   "box": [
+    2,
+    193,
+    130,
+    25
+   ]
+  },
+  {
+   "id": 7,
+   "name": "look_around_down",
+   "file": "look_around_down.png",
+   "cell": [
+    31,
+    27
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 36,
+     "role": "frame_0",
+     "src": [
+      2,
+      223,
+      31,
+      25
+     ]
+    },
+    {
+     "item": 37,
+     "role": "frame_1",
+     "src": [
+      35,
+      222,
+      29,
+      26
+     ]
+    },
+    {
+     "item": 38,
+     "role": "frame_2",
+     "src": [
+      66,
+      221,
+      29,
+      27
+     ]
+    },
+    {
+     "item": 39,
+     "role": "frame_3",
+     "src": [
+      97,
+      222,
+      29,
+      26
+     ]
+    },
+    {
+     "item": 40,
+     "role": "frame_4",
+     "src": [
+      128,
+      223,
+      31,
+      25
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 41,
+     "role": "frame_5",
+     "src": [
+      161,
+      222,
+      29,
+      26
+     ]
+    },
+    {
+     "item": 42,
+     "role": "frame_6",
+     "src": [
+      192,
+      221,
+      29,
+      27
+     ]
+    },
+    {
+     "item": 43,
+     "role": "frame_7",
+     "src": [
+      223,
+      222,
+      29,
+      26
+     ]
+    },
+    {
+     "item": 44,
+     "role": "frame_8",
+     "src": [
+      254,
+      223,
+      31,
+      25
+     ],
+     "duplicate_of": 0
+    }
+   ],
+   "box": [
+    2,
+    221,
+    283,
+    27
+   ]
+  },
+  {
+   "id": 8,
+   "name": "attack_down",
+   "file": "attack_down.png",
+   "cell": [
+    24,
+    30
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 45,
+     "role": "frame_0",
+     "src": [
+      2,
+      251,
+      24,
+      30
+     ]
+    },
+    {
+     "item": 46,
+     "role": "frame_1",
+     "src": [
+      28,
+      252,
+      24,
+      29
+     ]
+    },
+    {
+     "item": 47,
+     "role": "frame_2",
+     "src": [
+      54,
+      252,
+      24,
+      29
+     ],
+     "duplicate_of": 1
+    }
+   ],
+   "box": [
+    2,
+    251,
+    76,
+    30
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 188,
+   "y": 252,
+   "w": 31,
+   "h": 25,
+   "area": 447,
+   "ncolors": 26,
+   "dominant": "#D0D4E8",
+   "dom_frac": 0.199,
+   "kind": "sprite",
+   "zone": null,
+   "name": "alt_color",
+   "set": 0,
+   "id": 48,
+   "file": "none/alt_color.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

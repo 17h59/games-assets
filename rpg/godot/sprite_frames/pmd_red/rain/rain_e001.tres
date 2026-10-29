@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/rain/rain_e001.png" id="1_00v6h"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dr0j2"]
+atlas = ExtResource("1_00v6h")
+region = Rect2(0, 0, 240, 160)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8dqc5"]
+atlas = ExtResource("1_00v6h")
+region = Rect2(240, 0, 240, 160)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_455ab"]
+atlas = ExtResource("1_00v6h")
+region = Rect2(480, 0, 240, 160)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_21hn5"]
+atlas = ExtResource("1_00v6h")
+region = Rect2(720, 0, 240, 160)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3tq82"]
+atlas = ExtResource("1_00v6h")
+region = Rect2(960, 0, 240, 160)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dr0j2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8dqc5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_455ab")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_21hn5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3tq82")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

@@ -1,0 +1,7 @@
+[gd_scene format=3]
+
+[ext_resource type="TileSet" path="res://godot/tilesets/emerald.tres" id="1_cugaf"]
+
+[node name="interior_areas_135310_r26" type="TileMapLayer" unique_id=1723986149]
+tile_map_data = PackedByteArray(0, 0, 0, 0, 0, 0, 0, 0, 52, 0, 9, 0, 0, 0, 2, 0, 0, 0, 0, 0, 53, 0, 9, 0, 0, 0)
+tile_set = ExtResource("1_cugaf")

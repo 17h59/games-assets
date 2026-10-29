@@ -1,0 +1,85 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/crow/crow_blue_fly_left.png" id="1_ie24u"]
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/crow/crow_blue_fly_up.png" id="2_wu73o"]
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/crow/crow_red_fly_left.png" id="3_ydj6m"]
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/crow/crow_red_fly_up.png" id="4_e1l51"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aaeiw"]
+atlas = ExtResource("1_ie24u")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dr4xt"]
+atlas = ExtResource("1_ie24u")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j1yth"]
+atlas = ExtResource("2_wu73o")
+region = Rect2(0, 0, 18, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wtyn8"]
+atlas = ExtResource("2_wu73o")
+region = Rect2(18, 0, 18, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8knf0"]
+atlas = ExtResource("3_ydj6m")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jjhkt"]
+atlas = ExtResource("3_ydj6m")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fosp5"]
+atlas = ExtResource("4_e1l51")
+region = Rect2(0, 0, 18, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gxie4"]
+atlas = ExtResource("4_e1l51")
+region = Rect2(18, 0, 18, 14)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aaeiw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dr4xt")
+}],
+"loop": 1,
+"name": &"crow_blue_fly_left",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j1yth")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wtyn8")
+}],
+"loop": 1,
+"name": &"crow_blue_fly_up",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8knf0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jjhkt")
+}],
+"loop": 1,
+"name": &"crow_red_fly_left",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fosp5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gxie4")
+}],
+"loop": 1,
+"name": &"crow_red_fly_up",
+"speed": 8.0
+}]

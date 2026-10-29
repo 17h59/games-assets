@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/fire_hut/fire_barrel.png" id="1_rbubw"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xahel"]
+atlas = ExtResource("1_rbubw")
+region = Rect2(0, 0, 19, 34)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qbbsy"]
+atlas = ExtResource("1_rbubw")
+region = Rect2(19, 0, 19, 34)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_74vde"]
+atlas = ExtResource("1_rbubw")
+region = Rect2(38, 0, 19, 34)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_muduw"]
+atlas = ExtResource("1_rbubw")
+region = Rect2(57, 0, 19, 34)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xyoyi"]
+atlas = ExtResource("1_rbubw")
+region = Rect2(76, 0, 19, 34)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hudxs"]
+atlas = ExtResource("1_rbubw")
+region = Rect2(95, 0, 19, 34)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xahel")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qbbsy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_74vde")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_muduw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xyoyi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hudxs")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

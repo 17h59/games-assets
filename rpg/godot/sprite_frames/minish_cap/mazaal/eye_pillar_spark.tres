@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/mazaal/pillars/eye_pillar_spark.png" id="1_g1fwr"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0gv0c"]
+atlas = ExtResource("1_g1fwr")
+region = Rect2(0, 0, 42, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_214ki"]
+atlas = ExtResource("1_g1fwr")
+region = Rect2(42, 0, 42, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a4xrj"]
+atlas = ExtResource("1_g1fwr")
+region = Rect2(84, 0, 42, 40)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0gv0c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_214ki")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a4xrj")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

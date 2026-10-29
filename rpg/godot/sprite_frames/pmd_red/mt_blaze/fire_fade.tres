@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/mt_blaze/fire_fade.png" id="1_hsi2f"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m63y8"]
+atlas = ExtResource("1_hsi2f")
+region = Rect2(0, 0, 22, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v8to2"]
+atlas = ExtResource("1_hsi2f")
+region = Rect2(22, 0, 22, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t1ptf"]
+atlas = ExtResource("1_hsi2f")
+region = Rect2(44, 0, 22, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eleax"]
+atlas = ExtResource("1_hsi2f")
+region = Rect2(66, 0, 22, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q882t"]
+atlas = ExtResource("1_hsi2f")
+region = Rect2(88, 0, 22, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j0lgd"]
+atlas = ExtResource("1_hsi2f")
+region = Rect2(110, 0, 22, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3yk8u"]
+atlas = ExtResource("1_hsi2f")
+region = Rect2(132, 0, 22, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6b3ff"]
+atlas = ExtResource("1_hsi2f")
+region = Rect2(154, 0, 22, 56)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m63y8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v8to2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t1ptf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eleax")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q882t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j0lgd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3yk8u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6b3ff")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

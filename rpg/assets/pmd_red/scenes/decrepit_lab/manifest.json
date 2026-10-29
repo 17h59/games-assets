@@ -1,0 +1,1070 @@
+{
+ "sheet": "5355",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Decrepit Lab",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "decrepit_lab_e000",
+   "file": "decrepit_lab_e000.png",
+   "cell": [
+    16,
+    16
+   ],
+   "zone": 1,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 16,
+     "role": "frame_0",
+     "src": [
+      338,
+      314,
+      16,
+      15
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_1",
+     "src": [
+      355,
+      314,
+      16,
+      15
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_2",
+     "src": [
+      372,
+      314,
+      16,
+      15
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_3",
+     "src": [
+      389,
+      314,
+      16,
+      15
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_4",
+     "src": [
+      406,
+      314,
+      16,
+      15
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_5",
+     "src": [
+      423,
+      314,
+      16,
+      15
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_6",
+     "src": [
+      440,
+      314,
+      16,
+      15
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_7",
+     "src": [
+      457,
+      314,
+      16,
+      15
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_8",
+     "src": [
+      338,
+      330,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_9",
+     "src": [
+      355,
+      330,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_10",
+     "src": [
+      372,
+      330,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_11",
+     "src": [
+      389,
+      330,
+      16,
+      16
+     ]
+    }
+   ],
+   "box": [
+    338,
+    314,
+    135,
+    32
+   ]
+  },
+  {
+   "id": 1,
+   "name": "decrepit_lab_e001",
+   "file": "decrepit_lab_e001.png",
+   "cell": [
+    16,
+    16
+   ],
+   "zone": 2,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 28,
+     "role": "frame_0",
+     "src": [
+      338,
+      357,
+      16,
+      15
+     ]
+    },
+    {
+     "item": 29,
+     "role": "frame_1",
+     "src": [
+      355,
+      357,
+      16,
+      15
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_2",
+     "src": [
+      372,
+      357,
+      16,
+      15
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_3",
+     "src": [
+      389,
+      357,
+      16,
+      15
+     ]
+    },
+    {
+     "item": 32,
+     "role": "frame_4",
+     "src": [
+      406,
+      357,
+      16,
+      15
+     ]
+    },
+    {
+     "item": 33,
+     "role": "frame_5",
+     "src": [
+      423,
+      357,
+      16,
+      15
+     ]
+    },
+    {
+     "item": 34,
+     "role": "frame_6",
+     "src": [
+      440,
+      357,
+      16,
+      15
+     ]
+    },
+    {
+     "item": 35,
+     "role": "frame_7",
+     "src": [
+      457,
+      357,
+      16,
+      15
+     ]
+    },
+    {
+     "item": 36,
+     "role": "frame_8",
+     "src": [
+      338,
+      373,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 37,
+     "role": "frame_9",
+     "src": [
+      355,
+      373,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 38,
+     "role": "frame_10",
+     "src": [
+      372,
+      373,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 39,
+     "role": "frame_11",
+     "src": [
+      389,
+      373,
+      16,
+      16
+     ]
+    }
+   ],
+   "box": [
+    338,
+    357,
+    135,
+    32
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 2,
+   "y": 314,
+   "w": 82,
+   "h": 65,
+   "area": 5330,
+   "ncolors": 34,
+   "dominant": "#981018",
+   "dom_frac": 0.484,
+   "kind": "sprite",
+   "cell": [
+    2,
+    314,
+    84,
+    67
+   ],
+   "block": 0,
+   "row": 0,
+   "col": 0,
+   "zone": 0,
+   "id": 0,
+   "file": "decrepit_lab_000.png"
+  },
+  {
+   "x": 86,
+   "y": 314,
+   "w": 82,
+   "h": 65,
+   "area": 5330,
+   "ncolors": 34,
+   "dominant": "#A01828",
+   "dom_frac": 0.484,
+   "kind": "sprite",
+   "cell": [
+    86,
+    314,
+    84,
+    67
+   ],
+   "block": 0,
+   "row": 0,
+   "col": 1,
+   "zone": 0,
+   "id": 1,
+   "file": "decrepit_lab_001.png"
+  },
+  {
+   "x": 170,
+   "y": 314,
+   "w": 82,
+   "h": 65,
+   "area": 5330,
+   "ncolors": 34,
+   "dominant": "#A01830",
+   "dom_frac": 0.484,
+   "kind": "sprite",
+   "cell": [
+    170,
+    314,
+    84,
+    67
+   ],
+   "block": 0,
+   "row": 0,
+   "col": 2,
+   "zone": 0,
+   "id": 2,
+   "file": "decrepit_lab_002.png"
+  },
+  {
+   "x": 254,
+   "y": 314,
+   "w": 82,
+   "h": 65,
+   "area": 5330,
+   "ncolors": 34,
+   "dominant": "#A01840",
+   "dom_frac": 0.484,
+   "kind": "sprite",
+   "cell": [
+    254,
+    314,
+    82,
+    67
+   ],
+   "block": 0,
+   "row": 0,
+   "col": 3,
+   "zone": 0,
+   "id": 3,
+   "file": "decrepit_lab_003.png"
+  },
+  {
+   "x": 2,
+   "y": 381,
+   "w": 82,
+   "h": 65,
+   "area": 5330,
+   "ncolors": 34,
+   "dominant": "#A01848",
+   "dom_frac": 0.484,
+   "kind": "sprite",
+   "cell": [
+    2,
+    381,
+    84,
+    67
+   ],
+   "block": 0,
+   "row": 1,
+   "col": 0,
+   "zone": 0,
+   "id": 4,
+   "file": "decrepit_lab_004.png"
+  },
+  {
+   "x": 86,
+   "y": 381,
+   "w": 82,
+   "h": 65,
+   "area": 5330,
+   "ncolors": 34,
+   "dominant": "#A81850",
+   "dom_frac": 0.484,
+   "kind": "sprite",
+   "cell": [
+    86,
+    381,
+    84,
+    67
+   ],
+   "block": 0,
+   "row": 1,
+   "col": 1,
+   "zone": 0,
+   "id": 5,
+   "file": "decrepit_lab_005.png"
+  },
+  {
+   "x": 170,
+   "y": 381,
+   "w": 82,
+   "h": 65,
+   "area": 5330,
+   "ncolors": 34,
+   "dominant": "#A81860",
+   "dom_frac": 0.484,
+   "kind": "sprite",
+   "cell": [
+    170,
+    381,
+    84,
+    67
+   ],
+   "block": 0,
+   "row": 1,
+   "col": 2,
+   "zone": 0,
+   "id": 6,
+   "file": "decrepit_lab_006.png"
+  },
+  {
+   "x": 254,
+   "y": 381,
+   "w": 82,
+   "h": 65,
+   "area": 5330,
+   "ncolors": 34,
+   "dominant": "#A81868",
+   "dom_frac": 0.484,
+   "kind": "sprite",
+   "cell": [
+    254,
+    381,
+    82,
+    67
+   ],
+   "block": 0,
+   "row": 1,
+   "col": 3,
+   "zone": 0,
+   "id": 7,
+   "file": "decrepit_lab_007.png"
+  },
+  {
+   "x": 2,
+   "y": 448,
+   "w": 82,
+   "h": 65,
+   "area": 5330,
+   "ncolors": 34,
+   "dominant": "#B01878",
+   "dom_frac": 0.484,
+   "kind": "sprite",
+   "cell": [
+    2,
+    448,
+    84,
+    67
+   ],
+   "block": 0,
+   "row": 2,
+   "col": 0,
+   "zone": 0,
+   "id": 8,
+   "file": "decrepit_lab_008.png"
+  },
+  {
+   "x": 86,
+   "y": 448,
+   "w": 82,
+   "h": 65,
+   "area": 5330,
+   "ncolors": 34,
+   "dominant": "#B02080",
+   "dom_frac": 0.484,
+   "kind": "sprite",
+   "cell": [
+    86,
+    448,
+    84,
+    67
+   ],
+   "block": 0,
+   "row": 2,
+   "col": 1,
+   "zone": 0,
+   "id": 9,
+   "file": "decrepit_lab_009.png"
+  },
+  {
+   "x": 170,
+   "y": 448,
+   "w": 82,
+   "h": 65,
+   "area": 5330,
+   "ncolors": 34,
+   "dominant": "#B02088",
+   "dom_frac": 0.484,
+   "kind": "sprite",
+   "cell": [
+    170,
+    448,
+    84,
+    67
+   ],
+   "block": 0,
+   "row": 2,
+   "col": 2,
+   "zone": 0,
+   "id": 10,
+   "file": "decrepit_lab_010.png"
+  },
+  {
+   "x": 254,
+   "y": 448,
+   "w": 82,
+   "h": 65,
+   "area": 5330,
+   "ncolors": 34,
+   "dominant": "#B02098",
+   "dom_frac": 0.484,
+   "kind": "sprite",
+   "cell": [
+    254,
+    448,
+    82,
+    67
+   ],
+   "block": 0,
+   "row": 2,
+   "col": 3,
+   "zone": 0,
+   "id": 11,
+   "file": "decrepit_lab_011.png"
+  },
+  {
+   "x": 2,
+   "y": 515,
+   "w": 82,
+   "h": 65,
+   "area": 5330,
+   "ncolors": 34,
+   "dominant": "#B820A0",
+   "dom_frac": 0.484,
+   "kind": "sprite",
+   "cell": [
+    2,
+    515,
+    84,
+    65
+   ],
+   "block": 0,
+   "row": 3,
+   "col": 0,
+   "zone": 0,
+   "id": 12,
+   "file": "decrepit_lab_012.png"
+  },
+  {
+   "x": 86,
+   "y": 515,
+   "w": 82,
+   "h": 65,
+   "area": 5330,
+   "ncolors": 34,
+   "dominant": "#B820B0",
+   "dom_frac": 0.484,
+   "kind": "sprite",
+   "cell": [
+    86,
+    515,
+    84,
+    65
+   ],
+   "block": 0,
+   "row": 3,
+   "col": 1,
+   "zone": 0,
+   "id": 13,
+   "file": "decrepit_lab_013.png"
+  },
+  {
+   "x": 170,
+   "y": 515,
+   "w": 82,
+   "h": 65,
+   "area": 5330,
+   "ncolors": 34,
+   "dominant": "#B820B8",
+   "dom_frac": 0.484,
+   "kind": "sprite",
+   "cell": [
+    170,
+    515,
+    84,
+    65
+   ],
+   "block": 0,
+   "row": 3,
+   "col": 2,
+   "zone": 0,
+   "id": 14,
+   "file": "decrepit_lab_014.png"
+  },
+  {
+   "x": 254,
+   "y": 515,
+   "w": 82,
+   "h": 65,
+   "area": 5330,
+   "ncolors": 34,
+   "dominant": "#B820C0",
+   "dom_frac": 0.484,
+   "kind": "sprite",
+   "cell": [
+    254,
+    515,
+    82,
+    65
+   ],
+   "block": 0,
+   "row": 3,
+   "col": 3,
+   "zone": 0,
+   "id": 15,
+   "file": "decrepit_lab_015.png"
+  },
+  {
+   "x": 484,
+   "y": 3,
+   "w": 94,
+   "h": 31,
+   "area": 2914,
+   "ncolors": 6,
+   "dominant": "#407080",
+   "dom_frac": 0.198,
+   "kind": "sprite",
+   "cell": [
+    484,
+    3,
+    94,
+    32
+   ],
+   "block": 0,
+   "row": 0,
+   "col": 0,
+   "zone": 3,
+   "id": 40,
+   "file": "decrepit_lab_040.png"
+  },
+  {
+   "x": 484,
+   "y": 35,
+   "w": 94,
+   "h": 31,
+   "area": 2914,
+   "ncolors": 5,
+   "dominant": "#306070",
+   "dom_frac": 0.332,
+   "kind": "sprite",
+   "cell": [
+    484,
+    35,
+    94,
+    32
+   ],
+   "block": 0,
+   "row": 1,
+   "col": 0,
+   "zone": 3,
+   "id": 41,
+   "file": "decrepit_lab_041.png"
+  },
+  {
+   "x": 484,
+   "y": 67,
+   "w": 94,
+   "h": 31,
+   "area": 2914,
+   "ncolors": 5,
+   "dominant": "#407080",
+   "dom_frac": 0.332,
+   "kind": "sprite",
+   "cell": [
+    484,
+    67,
+    94,
+    32
+   ],
+   "block": 0,
+   "row": 2,
+   "col": 0,
+   "zone": 3,
+   "id": 42,
+   "file": "decrepit_lab_042.png"
+  },
+  {
+   "x": 484,
+   "y": 99,
+   "w": 94,
+   "h": 31,
+   "area": 2914,
+   "ncolors": 5,
+   "dominant": "#407080",
+   "dom_frac": 0.332,
+   "kind": "sprite",
+   "cell": [
+    484,
+    99,
+    94,
+    32
+   ],
+   "block": 0,
+   "row": 3,
+   "col": 0,
+   "zone": 3,
+   "id": 43,
+   "file": "decrepit_lab_043.png"
+  },
+  {
+   "x": 484,
+   "y": 131,
+   "w": 94,
+   "h": 31,
+   "area": 2914,
+   "ncolors": 5,
+   "dominant": "#508090",
+   "dom_frac": 0.332,
+   "kind": "sprite",
+   "cell": [
+    484,
+    131,
+    94,
+    32
+   ],
+   "block": 0,
+   "row": 4,
+   "col": 0,
+   "zone": 3,
+   "id": 44,
+   "file": "decrepit_lab_044.png"
+  },
+  {
+   "x": 484,
+   "y": 163,
+   "w": 94,
+   "h": 31,
+   "area": 2914,
+   "ncolors": 6,
+   "dominant": "#386878",
+   "dom_frac": 0.198,
+   "kind": "sprite",
+   "cell": [
+    484,
+    163,
+    94,
+    32
+   ],
+   "block": 0,
+   "row": 5,
+   "col": 0,
+   "zone": 3,
+   "id": 45,
+   "file": "decrepit_lab_045.png"
+  },
+  {
+   "x": 484,
+   "y": 195,
+   "w": 94,
+   "h": 31,
+   "area": 2914,
+   "ncolors": 5,
+   "dominant": "#386878",
+   "dom_frac": 0.332,
+   "kind": "sprite",
+   "cell": [
+    484,
+    195,
+    94,
+    32
+   ],
+   "block": 0,
+   "row": 6,
+   "col": 0,
+   "zone": 3,
+   "id": 46,
+   "file": "decrepit_lab_046.png"
+  },
+  {
+   "x": 484,
+   "y": 227,
+   "w": 94,
+   "h": 31,
+   "area": 2914,
+   "ncolors": 5,
+   "dominant": "#386878",
+   "dom_frac": 0.332,
+   "kind": "sprite",
+   "cell": [
+    484,
+    227,
+    94,
+    32
+   ],
+   "block": 0,
+   "row": 7,
+   "col": 0,
+   "zone": 3,
+   "id": 47,
+   "file": "decrepit_lab_047.png"
+  },
+  {
+   "x": 484,
+   "y": 259,
+   "w": 94,
+   "h": 31,
+   "area": 2914,
+   "ncolors": 5,
+   "dominant": "#487888",
+   "dom_frac": 0.332,
+   "kind": "sprite",
+   "cell": [
+    484,
+    259,
+    94,
+    32
+   ],
+   "block": 0,
+   "row": 8,
+   "col": 0,
+   "zone": 3,
+   "id": 48,
+   "file": "decrepit_lab_048.png"
+  },
+  {
+   "x": 484,
+   "y": 291,
+   "w": 94,
+   "h": 31,
+   "area": 2914,
+   "ncolors": 5,
+   "dominant": "#487888",
+   "dom_frac": 0.332,
+   "kind": "sprite",
+   "cell": [
+    484,
+    291,
+    94,
+    32
+   ],
+   "block": 0,
+   "row": 9,
+   "col": 0,
+   "zone": 3,
+   "id": 49,
+   "file": "decrepit_lab_049.png"
+  },
+  {
+   "x": 484,
+   "y": 323,
+   "w": 94,
+   "h": 31,
+   "area": 2914,
+   "ncolors": 6,
+   "dominant": "#386878",
+   "dom_frac": 0.198,
+   "kind": "sprite",
+   "cell": [
+    484,
+    323,
+    94,
+    32
+   ],
+   "block": 0,
+   "row": 10,
+   "col": 0,
+   "zone": 3,
+   "id": 50,
+   "file": "decrepit_lab_050.png",
+   "duplicate_of": 21
+  },
+  {
+   "x": 484,
+   "y": 355,
+   "w": 94,
+   "h": 31,
+   "area": 2914,
+   "ncolors": 5,
+   "dominant": "#386878",
+   "dom_frac": 0.332,
+   "kind": "sprite",
+   "cell": [
+    484,
+    355,
+    94,
+    32
+   ],
+   "block": 0,
+   "row": 11,
+   "col": 0,
+   "zone": 3,
+   "id": 51,
+   "file": "decrepit_lab_051.png",
+   "duplicate_of": 22
+  },
+  {
+   "x": 484,
+   "y": 387,
+   "w": 94,
+   "h": 31,
+   "area": 2914,
+   "ncolors": 5,
+   "dominant": "#386878",
+   "dom_frac": 0.332,
+   "kind": "sprite",
+   "cell": [
+    484,
+    387,
+    94,
+    32
+   ],
+   "block": 0,
+   "row": 12,
+   "col": 0,
+   "zone": 3,
+   "id": 52,
+   "file": "decrepit_lab_052.png",
+   "duplicate_of": 23
+  },
+  {
+   "x": 484,
+   "y": 419,
+   "w": 94,
+   "h": 31,
+   "area": 2914,
+   "ncolors": 5,
+   "dominant": "#487888",
+   "dom_frac": 0.332,
+   "kind": "sprite",
+   "cell": [
+    484,
+    419,
+    94,
+    32
+   ],
+   "block": 0,
+   "row": 13,
+   "col": 0,
+   "zone": 3,
+   "id": 53,
+   "file": "decrepit_lab_053.png",
+   "duplicate_of": 24
+  },
+  {
+   "x": 484,
+   "y": 451,
+   "w": 94,
+   "h": 31,
+   "area": 2914,
+   "ncolors": 5,
+   "dominant": "#487888",
+   "dom_frac": 0.332,
+   "kind": "sprite",
+   "cell": [
+    484,
+    451,
+    94,
+    31
+   ],
+   "block": 0,
+   "row": 14,
+   "col": 0,
+   "zone": 3,
+   "id": 54,
+   "file": "decrepit_lab_054.png",
+   "duplicate_of": 25
+  },
+  {
+   "x": 0,
+   "y": 0,
+   "w": 480,
+   "h": 312,
+   "area": 149760,
+   "ncolors": 104,
+   "dominant": "#589078",
+   "dom_frac": 0.146,
+   "kind": "sprite",
+   "zone": null,
+   "id": 55,
+   "file": "decrepit_lab_055.png"
+  },
+  {
+   "x": 581,
+   "y": 3,
+   "w": 59,
+   "h": 359,
+   "area": 19320,
+   "ncolors": 11,
+   "dominant": "#305060",
+   "dom_frac": 0.286,
+   "kind": "sprite",
+   "zone": null,
+   "id": 56,
+   "file": "decrepit_lab_056.png"
+  },
+  {
+   "x": 643,
+   "y": 3,
+   "w": 30,
+   "h": 359,
+   "area": 10350,
+   "ncolors": 5,
+   "dominant": "#305060",
+   "dom_frac": 0.412,
+   "kind": "sprite",
+   "zone": null,
+   "id": 57,
+   "file": "decrepit_lab_057.png"
+  },
+  {
+   "x": 676,
+   "y": 3,
+   "w": 30,
+   "h": 359,
+   "area": 10350,
+   "ncolors": 7,
+   "dominant": "#487888",
+   "dom_frac": 0.214,
+   "kind": "sprite",
+   "zone": null,
+   "id": 58,
+   "file": "decrepit_lab_058.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

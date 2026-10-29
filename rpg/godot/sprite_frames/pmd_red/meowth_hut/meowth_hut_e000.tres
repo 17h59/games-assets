@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/meowth_hut/meowth_hut_e000.png" id="1_qhi0x"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b33tt"]
+atlas = ExtResource("1_qhi0x")
+region = Rect2(0, 0, 28, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mepyv"]
+atlas = ExtResource("1_qhi0x")
+region = Rect2(28, 0, 28, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a2gfb"]
+atlas = ExtResource("1_qhi0x")
+region = Rect2(56, 0, 28, 24)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b33tt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mepyv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a2gfb")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

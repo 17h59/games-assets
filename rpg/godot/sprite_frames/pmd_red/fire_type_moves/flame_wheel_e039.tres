@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/fire_type_moves/flame_wheel/flame_wheel_e039.png" id="1_s2weh"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gv2lc"]
+atlas = ExtResource("1_s2weh")
+region = Rect2(0, 0, 15, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r5ojh"]
+atlas = ExtResource("1_s2weh")
+region = Rect2(15, 0, 15, 14)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gv2lc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r5ojh")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

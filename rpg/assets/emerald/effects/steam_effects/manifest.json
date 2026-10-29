@@ -1,0 +1,75 @@
+{
+ "sheet": "155605",
+ "game": "emerald",
+ "category": "effects",
+ "title": "Steam Effects",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "steam",
+   "file": "steam.png",
+   "cell": [
+    8,
+    8
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      3,
+      7,
+      4,
+      4
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      8,
+      6,
+      6,
+      5
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      16,
+      4,
+      7,
+      7
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      24,
+      3,
+      8,
+      8
+     ]
+    }
+   ],
+   "box": [
+    3,
+    3,
+    29,
+    8
+   ]
+  }
+ ],
+ "items": [],
+ "status": "ok",
+ "missing_stages": []
+}

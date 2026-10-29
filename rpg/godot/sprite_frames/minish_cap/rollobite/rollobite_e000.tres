@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/rollobite/rollobite_e000.png" id="1_i26m1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x582k"]
+atlas = ExtResource("1_i26m1")
+region = Rect2(0, 0, 16, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vt445"]
+atlas = ExtResource("1_i26m1")
+region = Rect2(16, 0, 16, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t5x5j"]
+atlas = ExtResource("1_i26m1")
+region = Rect2(32, 0, 16, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gume4"]
+atlas = ExtResource("1_i26m1")
+region = Rect2(48, 0, 16, 13)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x582k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vt445")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t5x5j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gume4")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

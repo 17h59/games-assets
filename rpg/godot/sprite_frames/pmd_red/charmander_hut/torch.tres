@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/charmander_hut/torch.png" id="1_8yvl0"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w1eeh"]
+atlas = ExtResource("1_8yvl0")
+region = Rect2(0, 0, 18, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0ejb2"]
+atlas = ExtResource("1_8yvl0")
+region = Rect2(18, 0, 18, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c3q5w"]
+atlas = ExtResource("1_8yvl0")
+region = Rect2(36, 0, 18, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iuqo3"]
+atlas = ExtResource("1_8yvl0")
+region = Rect2(54, 0, 18, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pmcqg"]
+atlas = ExtResource("1_8yvl0")
+region = Rect2(72, 0, 18, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1p0wo"]
+atlas = ExtResource("1_8yvl0")
+region = Rect2(90, 0, 18, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w1eeh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0ejb2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c3q5w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iuqo3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pmcqg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1p0wo")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

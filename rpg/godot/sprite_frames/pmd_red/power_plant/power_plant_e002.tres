@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/power_plant/power_plant_e002.png" id="1_yj4l5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m24jq"]
+atlas = ExtResource("1_yj4l5")
+region = Rect2(0, 0, 32, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dnq1q"]
+atlas = ExtResource("1_yj4l5")
+region = Rect2(32, 0, 32, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1jb0i"]
+atlas = ExtResource("1_yj4l5")
+region = Rect2(64, 0, 32, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xlf62"]
+atlas = ExtResource("1_yj4l5")
+region = Rect2(96, 0, 32, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gxrvd"]
+atlas = ExtResource("1_yj4l5")
+region = Rect2(128, 0, 32, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7ibpq"]
+atlas = ExtResource("1_yj4l5")
+region = Rect2(160, 0, 32, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m24jq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dnq1q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1jb0i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xlf62")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gxrvd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7ibpq")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

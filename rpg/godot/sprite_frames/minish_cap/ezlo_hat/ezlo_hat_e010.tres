@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/ezlo_hat/ezlo_hat_e010.png" id="1_61q3c"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o1lt3"]
+atlas = ExtResource("1_61q3c")
+region = Rect2(0, 0, 8, 5)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tyeyh"]
+atlas = ExtResource("1_61q3c")
+region = Rect2(8, 0, 8, 5)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o1lt3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tyeyh")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

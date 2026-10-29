@@ -1,0 +1,124 @@
+{
+ "sheet": "5343",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Totodile Hut",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "hut_flag",
+   "file": "hut_flag.png",
+   "cell": [
+    31,
+    23
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      2,
+      2,
+      31,
+      23
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_1",
+     "src": [
+      34,
+      2,
+      30,
+      23
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_2",
+     "src": [
+      65,
+      2,
+      30,
+      23
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_3",
+     "src": [
+      97,
+      2,
+      30,
+      23
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_4",
+     "src": [
+      2,
+      27,
+      31,
+      23
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_5",
+     "src": [
+      35,
+      27,
+      31,
+      23
+     ]
+    }
+   ],
+   "box": [
+    2,
+    2,
+    125,
+    48
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 392,
+   "h": 312,
+   "area": 112138,
+   "ncolors": 0,
+   "dominant": "",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "totodile_hut_000.png"
+  },
+  {
+   "x": 10,
+   "y": 316,
+   "w": 350,
+   "h": 278,
+   "area": 74004,
+   "ncolors": 129,
+   "dominant": "#38A060",
+   "dom_frac": 0.088,
+   "kind": "sprite",
+   "zone": null,
+   "id": 7,
+   "file": "totodile_hut_007.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

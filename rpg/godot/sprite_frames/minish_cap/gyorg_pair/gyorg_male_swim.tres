@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/gyorg_pair/gyorg_male_swim.png" id="1_3a3ir"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0bjgw"]
+atlas = ExtResource("1_3a3ir")
+region = Rect2(0, 0, 62, 47)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6e25c"]
+atlas = ExtResource("1_3a3ir")
+region = Rect2(62, 0, 62, 47)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_md6uv"]
+atlas = ExtResource("1_3a3ir")
+region = Rect2(124, 0, 62, 47)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tv6yw"]
+atlas = ExtResource("1_3a3ir")
+region = Rect2(186, 0, 62, 47)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aljej"]
+atlas = ExtResource("1_3a3ir")
+region = Rect2(248, 0, 62, 47)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0bjgw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6e25c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_md6uv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tv6yw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aljej")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

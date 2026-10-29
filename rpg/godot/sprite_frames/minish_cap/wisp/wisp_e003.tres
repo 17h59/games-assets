@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/wisp/wisp_e003.png" id="1_68akk"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qntfj"]
+atlas = ExtResource("1_68akk")
+region = Rect2(0, 0, 11, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h3fjm"]
+atlas = ExtResource("1_68akk")
+region = Rect2(11, 0, 11, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_250ib"]
+atlas = ExtResource("1_68akk")
+region = Rect2(22, 0, 11, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j4gim"]
+atlas = ExtResource("1_68akk")
+region = Rect2(33, 0, 11, 12)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qntfj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h3fjm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_250ib")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j4gim")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

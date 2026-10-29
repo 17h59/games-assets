@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/din_nayru_farore_oracles/nayru.png" id="1_nnnex"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vrlq6"]
+atlas = ExtResource("1_nnnex")
+region = Rect2(0, 0, 20, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i02b2"]
+atlas = ExtResource("1_nnnex")
+region = Rect2(20, 0, 20, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rlod7"]
+atlas = ExtResource("1_nnnex")
+region = Rect2(40, 0, 20, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1jrn3"]
+atlas = ExtResource("1_nnnex")
+region = Rect2(60, 0, 20, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_63axy"]
+atlas = ExtResource("1_nnnex")
+region = Rect2(80, 0, 20, 28)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vrlq6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i02b2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rlod7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1jrn3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_63axy")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

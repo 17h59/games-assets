@@ -1,0 +1,427 @@
+{
+ "sheet": "6511",
+ "game": "minish_cap",
+ "category": "monsters",
+ "title": "Pesto",
+ "type": "sprites",
+ "template": "none",
+ "validation": "pending",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "pesto_e000",
+   "file": "pesto_e000.png",
+   "cell": [
+    7,
+    17
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 3,
+     "role": "frame_0",
+     "src": [
+      3,
+      2,
+      7,
+      17
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_1",
+     "src": [
+      12,
+      2,
+      7,
+      15
+     ]
+    }
+   ],
+   "box": [
+    3,
+    2,
+    16,
+    17
+   ]
+  },
+  {
+   "id": 1,
+   "name": "pesto_e001",
+   "file": "pesto_e001.png",
+   "cell": [
+    12,
+    10
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 5,
+     "role": "frame_0",
+     "src": [
+      33,
+      10,
+      11,
+      7
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_1",
+     "src": [
+      46,
+      3,
+      9,
+      10
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_2",
+     "src": [
+      56,
+      11,
+      10,
+      4
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_3",
+     "src": [
+      71,
+      10,
+      12,
+      8
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_4",
+     "src": [
+      85,
+      10,
+      12,
+      8
+     ],
+     "mirror_of": 3
+    }
+   ],
+   "box": [
+    33,
+    3,
+    64,
+    15
+   ]
+  },
+  {
+   "id": 2,
+   "name": "pesto_e002",
+   "file": "pesto_e002.png",
+   "cell": [
+    18,
+    20
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 13,
+     "role": "frame_0",
+     "src": [
+      9,
+      29,
+      17,
+      18
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_1",
+     "src": [
+      35,
+      27,
+      15,
+      19
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_2",
+     "src": [
+      57,
+      27,
+      17,
+      18
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_3",
+     "src": [
+      76,
+      27,
+      16,
+      18
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_4",
+     "src": [
+      100,
+      27,
+      18,
+      16
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_5",
+     "src": [
+      126,
+      27,
+      16,
+      18
+     ],
+     "mirror_of": 3
+    },
+    {
+     "item": 19,
+     "role": "frame_6",
+     "src": [
+      144,
+      27,
+      17,
+      18
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_7",
+     "src": [
+      168,
+      27,
+      15,
+      19
+     ]
+    }
+   ],
+   "box": [
+    9,
+    27,
+    174,
+    20
+   ]
+  },
+  {
+   "id": 3,
+   "name": "pesto_e003",
+   "file": "pesto_e003.png",
+   "cell": [
+    18,
+    20
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 21,
+     "role": "frame_0",
+     "src": [
+      9,
+      54,
+      17,
+      18
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_1",
+     "src": [
+      35,
+      52,
+      15,
+      19
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_2",
+     "src": [
+      57,
+      52,
+      17,
+      18
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_3",
+     "src": [
+      76,
+      52,
+      16,
+      18
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_4",
+     "src": [
+      100,
+      52,
+      18,
+      16
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_5",
+     "src": [
+      126,
+      52,
+      16,
+      18
+     ],
+     "mirror_of": 3
+    },
+    {
+     "item": 27,
+     "role": "frame_6",
+     "src": [
+      144,
+      52,
+      17,
+      18
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_7",
+     "src": [
+      168,
+      52,
+      15,
+      19
+     ]
+    }
+   ],
+   "box": [
+    9,
+    52,
+    174,
+    20
+   ]
+  },
+  {
+   "id": 4,
+   "name": "pesto_e004",
+   "file": "pesto_e004.png",
+   "cell": [
+    14,
+    6
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      22,
+      4,
+      10,
+      6
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      69,
+      1,
+      14,
+      5
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      85,
+      1,
+      14,
+      5
+     ],
+     "mirror_of": 1
+    }
+   ],
+   "box": [
+    22,
+    1,
+    77,
+    9
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 101,
+   "y": 10,
+   "w": 16,
+   "h": 16,
+   "area": 208,
+   "ncolors": 5,
+   "dominant": "#684828",
+   "dom_frac": 0.317,
+   "kind": "sprite",
+   "zone": null,
+   "id": 10,
+   "file": "pesto_010.png"
+  },
+  {
+   "x": 119,
+   "y": 2,
+   "w": 26,
+   "h": 23,
+   "area": 278,
+   "ncolors": 16,
+   "dominant": "#080808",
+   "dom_frac": 0.169,
+   "kind": "sprite",
+   "zone": null,
+   "id": 11,
+   "file": "pesto_011.png"
+  },
+  {
+   "x": 148,
+   "y": 2,
+   "w": 22,
+   "h": 23,
+   "area": 245,
+   "ncolors": 15,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.167,
+   "kind": "sprite",
+   "zone": null,
+   "cut": true,
+   "id": 12,
+   "file": "pesto_012.png"
+  }
+ ],
+ "status": "needs_review",
+ "missing_stages": [
+  "decoupage",
+  "regroupement",
+  "nommage"
+ ]
+}

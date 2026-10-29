@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/poison_type_moves/acid/acid_e002.png" id="1_pyw0j"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pr7p6"]
+atlas = ExtResource("1_pyw0j")
+region = Rect2(0, 0, 21, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rhmxb"]
+atlas = ExtResource("1_pyw0j")
+region = Rect2(21, 0, 21, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lfsc1"]
+atlas = ExtResource("1_pyw0j")
+region = Rect2(42, 0, 21, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_py3tg"]
+atlas = ExtResource("1_pyw0j")
+region = Rect2(63, 0, 21, 22)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pr7p6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rhmxb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lfsc1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_py3tg")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

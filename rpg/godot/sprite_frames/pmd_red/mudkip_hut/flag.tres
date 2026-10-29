@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/mudkip_hut/flag.png" id="1_sq2ms"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8cqod"]
+atlas = ExtResource("1_sq2ms")
+region = Rect2(0, 0, 29, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tjdfm"]
+atlas = ExtResource("1_sq2ms")
+region = Rect2(29, 0, 29, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gp8b5"]
+atlas = ExtResource("1_sq2ms")
+region = Rect2(58, 0, 29, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xxuw6"]
+atlas = ExtResource("1_sq2ms")
+region = Rect2(87, 0, 29, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dr3uf"]
+atlas = ExtResource("1_sq2ms")
+region = Rect2(116, 0, 29, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v0mg7"]
+atlas = ExtResource("1_sq2ms")
+region = Rect2(145, 0, 29, 24)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8cqod")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tjdfm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gp8b5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xxuw6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dr3uf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v0mg7")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

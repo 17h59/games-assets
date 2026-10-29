@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/poison_type_moves/poison_sting/poison_sting_e028.png" id="1_awjc8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nxkxn"]
+atlas = ExtResource("1_awjc8")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6fcoq"]
+atlas = ExtResource("1_awjc8")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gkg47"]
+atlas = ExtResource("1_awjc8")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vy8ne"]
+atlas = ExtResource("1_awjc8")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_03fuo"]
+atlas = ExtResource("1_awjc8")
+region = Rect2(64, 0, 16, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nxkxn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6fcoq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gkg47")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vy8ne")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_03fuo")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

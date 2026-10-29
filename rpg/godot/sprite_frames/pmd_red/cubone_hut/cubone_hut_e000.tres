@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/cubone_hut/cubone_hut_e000.png" id="1_ai0ue"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ciffb"]
+atlas = ExtResource("1_ai0ue")
+region = Rect2(0, 0, 30, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n1wuh"]
+atlas = ExtResource("1_ai0ue")
+region = Rect2(30, 0, 30, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vocrq"]
+atlas = ExtResource("1_ai0ue")
+region = Rect2(60, 0, 30, 23)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ciffb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n1wuh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vocrq")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

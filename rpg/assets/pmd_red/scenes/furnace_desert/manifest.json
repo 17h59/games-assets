@@ -1,0 +1,546 @@
+{
+ "sheet": "5365",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Furnace Desert",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "furnace_desert_e000",
+   "file": "furnace_desert_e000.png",
+   "cell": [
+    70,
+    46
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      463,
+      4,
+      70,
+      46
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_1",
+     "src": [
+      535,
+      4,
+      70,
+      46
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_2",
+     "src": [
+      607,
+      4,
+      70,
+      46
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_3",
+     "src": [
+      462,
+      52,
+      70,
+      46
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_4",
+     "src": [
+      535,
+      52,
+      70,
+      46
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_5",
+     "src": [
+      607,
+      52,
+      70,
+      46
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_6",
+     "src": [
+      463,
+      100,
+      70,
+      46
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_7",
+     "src": [
+      536,
+      100,
+      70,
+      46
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_8",
+     "src": [
+      608,
+      100,
+      70,
+      46
+     ]
+    }
+   ],
+   "box": [
+    462,
+    4,
+    216,
+    142
+   ]
+  },
+  {
+   "id": 1,
+   "name": "furnace_desert_e001",
+   "file": "furnace_desert_e001.png",
+   "cell": [
+    36,
+    119
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 19,
+     "role": "frame_0",
+     "src": [
+      2,
+      340,
+      36,
+      119
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_1",
+     "src": [
+      40,
+      340,
+      36,
+      119
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_2",
+     "src": [
+      78,
+      340,
+      36,
+      119
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_3",
+     "src": [
+      116,
+      340,
+      36,
+      119
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_4",
+     "src": [
+      154,
+      340,
+      36,
+      119
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_5",
+     "src": [
+      192,
+      340,
+      36,
+      119
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_6",
+     "src": [
+      230,
+      340,
+      36,
+      119
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_7",
+     "src": [
+      268,
+      340,
+      36,
+      119
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_8",
+     "src": [
+      306,
+      340,
+      36,
+      119
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_9",
+     "src": [
+      344,
+      340,
+      36,
+      119
+     ]
+    },
+    {
+     "item": 29,
+     "role": "frame_10",
+     "src": [
+      382,
+      340,
+      36,
+      119
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_11",
+     "src": [
+      420,
+      340,
+      36,
+      119
+     ]
+    }
+   ],
+   "box": [
+    2,
+    340,
+    454,
+    119
+   ]
+  },
+  {
+   "id": 2,
+   "name": "furnace_desert_e002",
+   "file": "furnace_desert_e002.png",
+   "cell": [
+    36,
+    119
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 31,
+     "role": "frame_0",
+     "src": [
+      2,
+      461,
+      36,
+      119
+     ]
+    },
+    {
+     "item": 32,
+     "role": "frame_1",
+     "src": [
+      40,
+      461,
+      36,
+      119
+     ]
+    },
+    {
+     "item": 33,
+     "role": "frame_2",
+     "src": [
+      78,
+      461,
+      36,
+      119
+     ]
+    },
+    {
+     "item": 34,
+     "role": "frame_3",
+     "src": [
+      116,
+      461,
+      36,
+      119
+     ]
+    },
+    {
+     "item": 35,
+     "role": "frame_4",
+     "src": [
+      154,
+      461,
+      36,
+      119
+     ]
+    },
+    {
+     "item": 36,
+     "role": "frame_5",
+     "src": [
+      192,
+      461,
+      36,
+      119
+     ]
+    },
+    {
+     "item": 37,
+     "role": "frame_6",
+     "src": [
+      230,
+      461,
+      36,
+      119
+     ]
+    },
+    {
+     "item": 38,
+     "role": "frame_7",
+     "src": [
+      268,
+      461,
+      36,
+      119
+     ]
+    },
+    {
+     "item": 39,
+     "role": "frame_8",
+     "src": [
+      306,
+      461,
+      36,
+      119
+     ]
+    },
+    {
+     "item": 40,
+     "role": "frame_9",
+     "src": [
+      344,
+      461,
+      36,
+      119
+     ]
+    },
+    {
+     "item": 41,
+     "role": "frame_10",
+     "src": [
+      382,
+      461,
+      36,
+      119
+     ]
+    },
+    {
+     "item": 42,
+     "role": "frame_11",
+     "src": [
+      420,
+      461,
+      36,
+      119
+     ]
+    }
+   ],
+   "box": [
+    2,
+    461,
+    454,
+    119
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 457,
+   "h": 336,
+   "area": 153552,
+   "ncolors": 55,
+   "dominant": "#F8E058",
+   "dom_frac": 0.208,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "furnace_desert_000.png"
+  },
+  {
+   "x": 505,
+   "y": 283,
+   "w": 56,
+   "h": 19,
+   "area": 1064,
+   "ncolors": 0,
+   "dominant": "",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 10,
+   "file": "furnace_desert_010.png"
+  },
+  {
+   "x": 563,
+   "y": 283,
+   "w": 58,
+   "h": 19,
+   "area": 1102,
+   "ncolors": 0,
+   "dominant": "",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 11,
+   "file": "furnace_desert_011.png"
+  },
+  {
+   "x": 621,
+   "y": 283,
+   "w": 59,
+   "h": 19,
+   "area": 1083,
+   "ncolors": 0,
+   "dominant": "",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 12,
+   "file": "furnace_desert_012.png"
+  },
+  {
+   "x": 505,
+   "y": 304,
+   "w": 56,
+   "h": 21,
+   "area": 1176,
+   "ncolors": 0,
+   "dominant": "",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 13,
+   "file": "furnace_desert_013.png"
+  },
+  {
+   "x": 563,
+   "y": 304,
+   "w": 58,
+   "h": 21,
+   "area": 1218,
+   "ncolors": 0,
+   "dominant": "",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 14,
+   "file": "furnace_desert_014.png"
+  },
+  {
+   "x": 621,
+   "y": 304,
+   "w": 59,
+   "h": 21,
+   "area": 1197,
+   "ncolors": 0,
+   "dominant": "",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 15,
+   "file": "furnace_desert_015.png"
+  },
+  {
+   "x": 505,
+   "y": 327,
+   "w": 56,
+   "h": 19,
+   "area": 1064,
+   "ncolors": 0,
+   "dominant": "",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 16,
+   "file": "furnace_desert_016.png"
+  },
+  {
+   "x": 563,
+   "y": 327,
+   "w": 58,
+   "h": 19,
+   "area": 1102,
+   "ncolors": 0,
+   "dominant": "",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 17,
+   "file": "furnace_desert_017.png"
+  },
+  {
+   "x": 621,
+   "y": 327,
+   "w": 59,
+   "h": 19,
+   "area": 1083,
+   "ncolors": 0,
+   "dominant": "",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 18,
+   "file": "furnace_desert_018.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

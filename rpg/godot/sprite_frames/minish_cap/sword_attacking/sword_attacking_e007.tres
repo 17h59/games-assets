@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/effects/sword_attacking/sword_attacking_e007.png" id="1_rwyrf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_atrrp"]
+atlas = ExtResource("1_rwyrf")
+region = Rect2(0, 0, 15, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bl3h1"]
+atlas = ExtResource("1_rwyrf")
+region = Rect2(15, 0, 15, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gv8as"]
+atlas = ExtResource("1_rwyrf")
+region = Rect2(30, 0, 15, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n8ig1"]
+atlas = ExtResource("1_rwyrf")
+region = Rect2(45, 0, 15, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gdajv"]
+atlas = ExtResource("1_rwyrf")
+region = Rect2(60, 0, 15, 19)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_atrrp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bl3h1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gv8as")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n8ig1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gdajv")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

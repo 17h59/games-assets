@@ -1,0 +1,227 @@
+{
+ "sheet": "6480",
+ "game": "minish_cap",
+ "category": "monsters",
+ "title": "Like Like",
+ "type": "sprites",
+ "template": "none",
+ "validation": "pending",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    2,
+    27,
+    48,
+    8
+   ],
+   "point": [
+    26,
+    31
+   ],
+   "name": null,
+   "folder": "set_00"
+  },
+  {
+   "id": 1,
+   "box": [
+    3,
+    40,
+    175,
+    8
+   ],
+   "point": [
+    90,
+    44
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 2,
+   "box": [
+    3,
+    54,
+    38,
+    8
+   ],
+   "point": [
+    22,
+    58
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 3,
+   "box": [
+    2,
+    68,
+    166,
+    8
+   ],
+   "point": [
+    85,
+    72
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 4,
+   "box": [
+    3,
+    82,
+    180,
+    8
+   ],
+   "point": [
+    93,
+    86
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "like_like",
+   "file": "like_like.png",
+   "cell": [
+    16,
+    23
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      2,
+      17,
+      8,
+      7
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      11,
+      14,
+      16,
+      10
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      28,
+      12,
+      16,
+      12
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      45,
+      11,
+      16,
+      13
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_4",
+     "src": [
+      63,
+      2,
+      14,
+      22
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_5",
+     "src": [
+      79,
+      6,
+      16,
+      19
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_6",
+     "src": [
+      97,
+      4,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_7",
+     "src": [
+      114,
+      6,
+      16,
+      19
+     ],
+     "duplicate_of": 5
+    },
+    {
+     "item": 8,
+     "role": "frame_8",
+     "src": [
+      131,
+      5,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_9",
+     "src": [
+      148,
+      4,
+      16,
+      21
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_10",
+     "src": [
+      166,
+      2,
+      14,
+      22
+     ],
+     "duplicate_of": 4
+    }
+   ],
+   "box": [
+    2,
+    2,
+    178,
+    23
+   ]
+  }
+ ],
+ "items": [],
+ "status": "needs_review",
+ "missing_stages": [
+  "decoupage",
+  "regroupement",
+  "nommage"
+ ]
+}

@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/keaton/keaton_e003.png" id="1_e58ut"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_466ot"]
+atlas = ExtResource("1_e58ut")
+region = Rect2(0, 0, 31, 25)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_baxd8"]
+atlas = ExtResource("1_e58ut")
+region = Rect2(31, 0, 31, 25)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qoej7"]
+atlas = ExtResource("1_e58ut")
+region = Rect2(62, 0, 31, 25)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dcubt"]
+atlas = ExtResource("1_e58ut")
+region = Rect2(93, 0, 31, 25)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_466ot")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_baxd8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qoej7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dcubt")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

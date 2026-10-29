@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/legendary_island/water_bridge.png" id="1_qdb03"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vcu6e"]
+atlas = ExtResource("1_qdb03")
+region = Rect2(0, 0, 130, 39)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6osce"]
+atlas = ExtResource("1_qdb03")
+region = Rect2(130, 0, 130, 39)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yha3k"]
+atlas = ExtResource("1_qdb03")
+region = Rect2(260, 0, 130, 39)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_alqig"]
+atlas = ExtResource("1_qdb03")
+region = Rect2(390, 0, 130, 39)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q0ayw"]
+atlas = ExtResource("1_qdb03")
+region = Rect2(520, 0, 130, 39)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vcu6e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6osce")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yha3k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_alqig")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q0ayw")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

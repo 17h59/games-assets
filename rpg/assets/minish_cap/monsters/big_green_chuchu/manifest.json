@@ -1,0 +1,656 @@
+{
+ "sheet": "6415",
+ "game": "minish_cap",
+ "category": "monsters",
+ "title": "Big Green Chuchu",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "idle",
+   "file": "idle.png",
+   "cell": [
+    44,
+    43
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      196,
+      11,
+      44,
+      43
+     ]
+    }
+   ],
+   "box": [
+    196,
+    11,
+    44,
+    43
+   ]
+  },
+  {
+   "id": 1,
+   "name": "hit",
+   "file": "hit.png",
+   "cell": [
+    46,
+    43
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      54,
+      68,
+      46,
+      43
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_1",
+     "src": [
+      102,
+      69,
+      44,
+      42
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_2",
+     "src": [
+      149,
+      68,
+      44,
+      43
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_3",
+     "src": [
+      196,
+      69,
+      44,
+      42
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_4",
+     "src": [
+      242,
+      68,
+      46,
+      43
+     ]
+    }
+   ],
+   "box": [
+    54,
+    68,
+    234,
+    43
+   ]
+  },
+  {
+   "id": 2,
+   "name": "jumping",
+   "file": "jumping.png",
+   "cell": [
+    44,
+    45
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 6,
+     "role": "frame_0",
+     "src": [
+      78,
+      125,
+      44,
+      45
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_1",
+     "src": [
+      125,
+      126,
+      44,
+      44
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_2",
+     "src": [
+      172,
+      127,
+      44,
+      43
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_3",
+     "src": [
+      219,
+      128,
+      44,
+      42
+     ]
+    }
+   ],
+   "box": [
+    78,
+    125,
+    185,
+    45
+   ]
+  },
+  {
+   "id": 3,
+   "name": "falling",
+   "file": "falling.png",
+   "cell": [
+    44,
+    44
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 10,
+     "role": "frame_0",
+     "src": [
+      78,
+      185,
+      44,
+      43
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_1",
+     "src": [
+      125,
+      185,
+      44,
+      43
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_2",
+     "src": [
+      172,
+      184,
+      44,
+      44
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_3",
+     "src": [
+      219,
+      185,
+      44,
+      43
+     ],
+     "duplicate_of": 1
+    }
+   ],
+   "box": [
+    78,
+    184,
+    185,
+    44
+   ]
+  },
+  {
+   "id": 4,
+   "name": "death",
+   "file": "death.png",
+   "cell": [
+    44,
+    43
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 14,
+     "role": "frame_0",
+     "src": [
+      31,
+      241,
+      44,
+      43
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_1",
+     "src": [
+      78,
+      241,
+      44,
+      43
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_2",
+     "src": [
+      125,
+      241,
+      44,
+      43
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_3",
+     "src": [
+      172,
+      241,
+      44,
+      43
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_4",
+     "src": [
+      219,
+      242,
+      44,
+      42
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_5",
+     "src": [
+      266,
+      241,
+      44,
+      43
+     ]
+    }
+   ],
+   "box": [
+    31,
+    241,
+    279,
+    43
+   ]
+  },
+  {
+   "id": 5,
+   "name": "death_repeat",
+   "file": "death_repeat.png",
+   "cell": [
+    44,
+    43
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 20,
+     "role": "frame_0",
+     "src": [
+      8,
+      287,
+      44,
+      43
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_1",
+     "src": [
+      55,
+      287,
+      44,
+      43
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_2",
+     "src": [
+      102,
+      287,
+      44,
+      43
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_3",
+     "src": [
+      149,
+      287,
+      44,
+      43
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_4",
+     "src": [
+      196,
+      287,
+      44,
+      43
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_5",
+     "src": [
+      243,
+      287,
+      44,
+      43
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_6",
+     "src": [
+      290,
+      287,
+      44,
+      43
+     ]
+    }
+   ],
+   "box": [
+    8,
+    287,
+    326,
+    43
+   ]
+  },
+  {
+   "id": 6,
+   "name": "big_green_chuchu_e006",
+   "file": "big_green_chuchu_e006.png",
+   "cell": [
+    32,
+    32
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 27,
+     "role": "frame_0",
+     "src": [
+      213,
+      342,
+      32,
+      32
+     ]
+    }
+   ],
+   "box": [
+    213,
+    342,
+    32,
+    32
+   ]
+  },
+  {
+   "id": 7,
+   "name": "big_green_chuchu_e007",
+   "file": "big_green_chuchu_e007.png",
+   "cell": [
+    40,
+    22
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 28,
+     "role": "frame_0",
+     "src": [
+      247,
+      352,
+      40,
+      22
+     ]
+    }
+   ],
+   "box": [
+    247,
+    352,
+    40,
+    22
+   ]
+  },
+  {
+   "id": 8,
+   "name": "big_green_chuchu_e008",
+   "file": "big_green_chuchu_e008.png",
+   "cell": [
+    14,
+    15
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 29,
+     "role": "frame_0",
+     "src": [
+      2,
+      355,
+      14,
+      15
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_1",
+     "src": [
+      19,
+      356,
+      13,
+      14
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_2",
+     "src": [
+      35,
+      356,
+      12,
+      13
+     ]
+    },
+    {
+     "item": 32,
+     "role": "frame_3",
+     "src": [
+      52,
+      357,
+      11,
+      12
+     ]
+    },
+    {
+     "item": 33,
+     "role": "frame_4",
+     "src": [
+      68,
+      358,
+      10,
+      10
+     ]
+    },
+    {
+     "item": 34,
+     "role": "frame_5",
+     "src": [
+      85,
+      360,
+      8,
+      7
+     ]
+    },
+    {
+     "item": 35,
+     "role": "frame_6",
+     "src": [
+      102,
+      361,
+      7,
+      5
+     ]
+    },
+    {
+     "item": 36,
+     "role": "frame_7",
+     "src": [
+      119,
+      362,
+      4,
+      3
+     ]
+    },
+    {
+     "item": 37,
+     "role": "frame_8",
+     "src": [
+      136,
+      362,
+      3,
+      3
+     ]
+    }
+   ],
+   "box": [
+    2,
+    355,
+    137,
+    15
+   ]
+  },
+  {
+   "id": 9,
+   "name": "stars",
+   "file": "stars.png",
+   "cell": [
+    15,
+    15
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 38,
+     "role": "frame_0",
+     "src": [
+      147,
+      355,
+      15,
+      15
+     ]
+    },
+    {
+     "item": 39,
+     "role": "frame_1",
+     "src": [
+      165,
+      357,
+      11,
+      11
+     ]
+    }
+   ],
+   "box": [
+    147,
+    355,
+    29,
+    15
+   ]
+  },
+  {
+   "id": 10,
+   "name": "big_green_chuchu_e010",
+   "file": "big_green_chuchu_e010.png",
+   "cell": [
+    15,
+    25
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 40,
+     "role": "frame_0",
+     "src": [
+      180,
+      345,
+      15,
+      25
+     ]
+    },
+    {
+     "item": 41,
+     "role": "frame_1",
+     "src": [
+      196,
+      346,
+      15,
+      23
+     ]
+    }
+   ],
+   "box": [
+    180,
+    345,
+    31,
+    25
+   ]
+  }
+ ],
+ "items": [],
+ "status": "ok",
+ "missing_stages": []
+}

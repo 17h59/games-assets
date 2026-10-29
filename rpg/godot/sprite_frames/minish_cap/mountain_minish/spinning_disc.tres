@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/mountain_minish/spinning_disc.png" id="1_47j0b"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xbqvo"]
+atlas = ExtResource("1_47j0b")
+region = Rect2(0, 0, 9, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1qsov"]
+atlas = ExtResource("1_47j0b")
+region = Rect2(9, 0, 9, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2i6v3"]
+atlas = ExtResource("1_47j0b")
+region = Rect2(18, 0, 9, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y8k7d"]
+atlas = ExtResource("1_47j0b")
+region = Rect2(27, 0, 9, 8)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xbqvo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1qsov")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2i6v3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y8k7d")
+}],
+"loop": 1,
+"name": &"spin",
+"speed": 6.0
+}]

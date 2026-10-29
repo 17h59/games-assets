@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/vaati_reborn/vaati_reborn_e017.png" id="1_nbxn7"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o3pui"]
+atlas = ExtResource("1_nbxn7")
+region = Rect2(0, 0, 45, 60)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_knf1f"]
+atlas = ExtResource("1_nbxn7")
+region = Rect2(45, 0, 45, 60)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o3pui")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_knf1f")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

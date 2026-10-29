@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/ghost_type_moves/shadow_ball/shadow_ball_e003.png" id="1_b1fdc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rbbmk"]
+atlas = ExtResource("1_b1fdc")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fn6ew"]
+atlas = ExtResource("1_b1fdc")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0s0fx"]
+atlas = ExtResource("1_b1fdc")
+region = Rect2(32, 0, 16, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rbbmk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fn6ew")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0s0fx")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

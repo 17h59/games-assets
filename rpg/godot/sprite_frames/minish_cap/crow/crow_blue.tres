@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/crow/crow_blue.png" id="1_4m26p"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y47qq"]
+atlas = ExtResource("1_4m26p")
+region = Rect2(0, 0, 18, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vp6nn"]
+atlas = ExtResource("1_4m26p")
+region = Rect2(18, 0, 18, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7k62t"]
+atlas = ExtResource("1_4m26p")
+region = Rect2(36, 0, 18, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qrswb"]
+atlas = ExtResource("1_4m26p")
+region = Rect2(54, 0, 18, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tvy3i"]
+atlas = ExtResource("1_4m26p")
+region = Rect2(72, 0, 18, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iiomc"]
+atlas = ExtResource("1_4m26p")
+region = Rect2(90, 0, 18, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y47qq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vp6nn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7k62t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qrswb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tvy3i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iiomc")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

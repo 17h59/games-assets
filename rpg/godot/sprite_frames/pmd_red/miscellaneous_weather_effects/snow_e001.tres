@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/miscellaneous_weather_effects/snow/snow_e001.png" id="1_4o67c"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rdba3"]
+atlas = ExtResource("1_4o67c")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_70pcp"]
+atlas = ExtResource("1_4o67c")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_35mvp"]
+atlas = ExtResource("1_4o67c")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jpe1d"]
+atlas = ExtResource("1_4o67c")
+region = Rect2(96, 0, 32, 32)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rdba3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_70pcp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_35mvp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jpe1d")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

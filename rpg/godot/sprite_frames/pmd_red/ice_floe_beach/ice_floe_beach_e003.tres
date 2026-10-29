@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/ice_floe_beach/ice_floe_beach_e003.png" id="1_5exp3"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2yyk5"]
+atlas = ExtResource("1_5exp3")
+region = Rect2(0, 0, 7, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fm08b"]
+atlas = ExtResource("1_5exp3")
+region = Rect2(7, 0, 7, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r17rn"]
+atlas = ExtResource("1_5exp3")
+region = Rect2(14, 0, 7, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7w8y3"]
+atlas = ExtResource("1_5exp3")
+region = Rect2(21, 0, 7, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gau3a"]
+atlas = ExtResource("1_5exp3")
+region = Rect2(28, 0, 7, 8)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2yyk5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fm08b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r17rn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7w8y3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gau3a")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

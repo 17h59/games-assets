@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/keese/keese_fly.png" id="1_2rmvk"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xkagb"]
+atlas = ExtResource("1_2rmvk")
+region = Rect2(0, 0, 20, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1qrn7"]
+atlas = ExtResource("1_2rmvk")
+region = Rect2(20, 0, 20, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yblmh"]
+atlas = ExtResource("1_2rmvk")
+region = Rect2(40, 0, 20, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_47kly"]
+atlas = ExtResource("1_2rmvk")
+region = Rect2(60, 0, 20, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_62hch"]
+atlas = ExtResource("1_2rmvk")
+region = Rect2(80, 0, 20, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c2v5c"]
+atlas = ExtResource("1_2rmvk")
+region = Rect2(100, 0, 20, 17)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xkagb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1qrn7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yblmh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_47kly")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_62hch")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c2v5c")
+}],
+"loop": 1,
+"name": &"keese_fly",
+"speed": 8.0
+}]

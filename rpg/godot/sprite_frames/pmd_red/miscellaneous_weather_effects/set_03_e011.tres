@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/miscellaneous_weather_effects/set_03/set_03_e011.png" id="1_0xu80"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cr1xc"]
+atlas = ExtResource("1_0xu80")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fm2k5"]
+atlas = ExtResource("1_0xu80")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jkiwc"]
+atlas = ExtResource("1_0xu80")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pvope"]
+atlas = ExtResource("1_0xu80")
+region = Rect2(96, 0, 32, 32)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cr1xc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fm2k5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jkiwc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pvope")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

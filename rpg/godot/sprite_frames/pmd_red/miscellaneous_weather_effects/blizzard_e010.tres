@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/miscellaneous_weather_effects/blizzard/blizzard_e010.png" id="1_wcmec"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4rj77"]
+atlas = ExtResource("1_wcmec")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nrrei"]
+atlas = ExtResource("1_wcmec")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fx7rm"]
+atlas = ExtResource("1_wcmec")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yhgia"]
+atlas = ExtResource("1_wcmec")
+region = Rect2(96, 0, 32, 32)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4rj77")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nrrei")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fx7rm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yhgia")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

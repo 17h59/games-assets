@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/machop_hut/machop_hut_e001.png" id="1_7lcpl"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7xrxa"]
+atlas = ExtResource("1_7lcpl")
+region = Rect2(0, 0, 32, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7meng"]
+atlas = ExtResource("1_7lcpl")
+region = Rect2(32, 0, 32, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0g2lt"]
+atlas = ExtResource("1_7lcpl")
+region = Rect2(64, 0, 32, 24)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7xrxa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7meng")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0g2lt")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

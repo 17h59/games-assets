@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/ghini/ghini_tail.png" id="1_f23uq"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wun7o"]
+atlas = ExtResource("1_f23uq")
+region = Rect2(0, 0, 8, 5)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_esl2o"]
+atlas = ExtResource("1_f23uq")
+region = Rect2(8, 0, 8, 5)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uaakj"]
+atlas = ExtResource("1_f23uq")
+region = Rect2(16, 0, 8, 5)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y0x43"]
+atlas = ExtResource("1_f23uq")
+region = Rect2(24, 0, 8, 5)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rlx4g"]
+atlas = ExtResource("1_f23uq")
+region = Rect2(32, 0, 8, 5)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iw6u3"]
+atlas = ExtResource("1_f23uq")
+region = Rect2(40, 0, 8, 5)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_82rtd"]
+atlas = ExtResource("1_f23uq")
+region = Rect2(48, 0, 8, 5)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5rgcu"]
+atlas = ExtResource("1_f23uq")
+region = Rect2(56, 0, 8, 5)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wun7o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_esl2o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uaakj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y0x43")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rlx4g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iw6u3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_82rtd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5rgcu")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

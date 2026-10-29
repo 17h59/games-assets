@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/floormaster_wallmaster/wallmaster/drop_grab_left.png" id="1_dwybe"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hmc0k"]
+atlas = ExtResource("1_dwybe")
+region = Rect2(0, 0, 33, 30)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ft77n"]
+atlas = ExtResource("1_dwybe")
+region = Rect2(33, 0, 33, 30)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ufxgh"]
+atlas = ExtResource("1_dwybe")
+region = Rect2(66, 0, 33, 30)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qikku"]
+atlas = ExtResource("1_dwybe")
+region = Rect2(99, 0, 33, 30)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_khlfg"]
+atlas = ExtResource("1_dwybe")
+region = Rect2(132, 0, 33, 30)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hmc0k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ft77n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ufxgh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qikku")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_khlfg")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

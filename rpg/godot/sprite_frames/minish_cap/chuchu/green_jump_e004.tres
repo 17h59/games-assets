@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/chuchu/green_jump/green_jump_e004.png" id="1_apvpu"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3j0ds"]
+atlas = ExtResource("1_apvpu")
+region = Rect2(0, 0, 16, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7eec6"]
+atlas = ExtResource("1_apvpu")
+region = Rect2(16, 0, 16, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ssdxy"]
+atlas = ExtResource("1_apvpu")
+region = Rect2(32, 0, 16, 24)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3j0ds")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7eec6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ssdxy")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

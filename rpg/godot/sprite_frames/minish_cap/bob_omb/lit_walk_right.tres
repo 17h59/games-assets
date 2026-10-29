@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/bob_omb/lit_walk_right.png" id="1_4gbta"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y3q5s"]
+atlas = ExtResource("1_4gbta")
+region = Rect2(0, 0, 17, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5mer4"]
+atlas = ExtResource("1_4gbta")
+region = Rect2(17, 0, 17, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w1xmx"]
+atlas = ExtResource("1_4gbta")
+region = Rect2(34, 0, 17, 24)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y3q5s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5mer4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w1xmx")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

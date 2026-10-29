@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/floormaster_wallmaster/floormaster/grab_down.png" id="1_3r2rp"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qmwr1"]
+atlas = ExtResource("1_3r2rp")
+region = Rect2(0, 0, 32, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p543d"]
+atlas = ExtResource("1_3r2rp")
+region = Rect2(32, 0, 32, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i2qy4"]
+atlas = ExtResource("1_3r2rp")
+region = Rect2(64, 0, 32, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ytxwi"]
+atlas = ExtResource("1_3r2rp")
+region = Rect2(96, 0, 32, 26)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qmwr1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p543d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i2qy4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ytxwi")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

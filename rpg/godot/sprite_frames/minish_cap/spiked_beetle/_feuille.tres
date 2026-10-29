@@ -1,0 +1,161 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/spiked_beetle/spiked_beetle_e000.png" id="1_e4s0t"]
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/spiked_beetle/spiked_beetle_e001.png" id="2_8chpl"]
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/spiked_beetle/spiked_beetle_e002.png" id="3_rlo85"]
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/spiked_beetle/spiked_beetle_e003.png" id="4_ysvvu"]
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/spiked_beetle/spiked_beetle_e004.png" id="5_644cv"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ubyr8"]
+atlas = ExtResource("1_e4s0t")
+region = Rect2(0, 0, 19, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i1nhv"]
+atlas = ExtResource("1_e4s0t")
+region = Rect2(19, 0, 19, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_baqxq"]
+atlas = ExtResource("1_e4s0t")
+region = Rect2(38, 0, 19, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h5vet"]
+atlas = ExtResource("1_e4s0t")
+region = Rect2(57, 0, 19, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oyiko"]
+atlas = ExtResource("2_8chpl")
+region = Rect2(0, 0, 18, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_785n3"]
+atlas = ExtResource("2_8chpl")
+region = Rect2(18, 0, 18, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ap7g2"]
+atlas = ExtResource("2_8chpl")
+region = Rect2(36, 0, 18, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_icb1f"]
+atlas = ExtResource("3_rlo85")
+region = Rect2(0, 0, 17, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jw62n"]
+atlas = ExtResource("3_rlo85")
+region = Rect2(17, 0, 17, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3lyj7"]
+atlas = ExtResource("3_rlo85")
+region = Rect2(34, 0, 17, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rut3c"]
+atlas = ExtResource("3_rlo85")
+region = Rect2(51, 0, 17, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yrkij"]
+atlas = ExtResource("4_ysvvu")
+region = Rect2(0, 0, 18, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yy8nb"]
+atlas = ExtResource("4_ysvvu")
+region = Rect2(18, 0, 18, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v8noj"]
+atlas = ExtResource("4_ysvvu")
+region = Rect2(36, 0, 18, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h1ax5"]
+atlas = ExtResource("5_644cv")
+region = Rect2(0, 0, 17, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g1ufy"]
+atlas = ExtResource("5_644cv")
+region = Rect2(17, 0, 17, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5fpgo"]
+atlas = ExtResource("5_644cv")
+region = Rect2(34, 0, 17, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_valib"]
+atlas = ExtResource("5_644cv")
+region = Rect2(51, 0, 17, 19)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ubyr8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i1nhv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_baqxq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h5vet")
+}],
+"loop": 1,
+"name": &"spiked_beetle_e000",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oyiko")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_785n3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ap7g2")
+}],
+"loop": 1,
+"name": &"spiked_beetle_e001",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_icb1f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jw62n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3lyj7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rut3c")
+}],
+"loop": 1,
+"name": &"spiked_beetle_e002",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yrkij")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yy8nb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v8noj")
+}],
+"loop": 1,
+"name": &"spiked_beetle_e003",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h1ax5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g1ufy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5fpgo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_valib")
+}],
+"loop": 1,
+"name": &"spiked_beetle_e004",
+"speed": 8.0
+}]

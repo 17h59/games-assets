@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/status_effects/status_effects_e002.png" id="1_u6vol"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rcnm1"]
+atlas = ExtResource("1_u6vol")
+region = Rect2(0, 0, 7, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xu7d3"]
+atlas = ExtResource("1_u6vol")
+region = Rect2(7, 0, 7, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nqgwq"]
+atlas = ExtResource("1_u6vol")
+region = Rect2(14, 0, 7, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1el1s"]
+atlas = ExtResource("1_u6vol")
+region = Rect2(21, 0, 7, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p1f1u"]
+atlas = ExtResource("1_u6vol")
+region = Rect2(28, 0, 7, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hxg3v"]
+atlas = ExtResource("1_u6vol")
+region = Rect2(35, 0, 7, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_spcvk"]
+atlas = ExtResource("1_u6vol")
+region = Rect2(42, 0, 7, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n7ekw"]
+atlas = ExtResource("1_u6vol")
+region = Rect2(49, 0, 7, 13)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rcnm1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xu7d3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nqgwq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1el1s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p1f1u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hxg3v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_spcvk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n7ekw")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

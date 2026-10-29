@@ -1,0 +1,60 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/dogs/dogs_e002.png" id="1_dgc6a"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a3u6v"]
+atlas = ExtResource("1_dgc6a")
+region = Rect2(0, 0, 23, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mg3wl"]
+atlas = ExtResource("1_dgc6a")
+region = Rect2(23, 0, 23, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_acxf4"]
+atlas = ExtResource("1_dgc6a")
+region = Rect2(46, 0, 23, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ihuqo"]
+atlas = ExtResource("1_dgc6a")
+region = Rect2(69, 0, 23, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0ub77"]
+atlas = ExtResource("1_dgc6a")
+region = Rect2(92, 0, 23, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4j4lo"]
+atlas = ExtResource("1_dgc6a")
+region = Rect2(115, 0, 23, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xn7is"]
+atlas = ExtResource("1_dgc6a")
+region = Rect2(138, 0, 23, 19)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a3u6v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mg3wl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_acxf4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ihuqo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0ub77")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4j4lo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xn7is")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

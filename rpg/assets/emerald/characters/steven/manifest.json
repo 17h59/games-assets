@@ -1,0 +1,232 @@
+{
+ "sheet": "19779",
+ "game": "emerald",
+ "category": "characters",
+ "title": "Steven",
+ "type": "characters",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "steven_battle_intro",
+   "file": "steven_battle_intro.png",
+   "cell": [
+    64,
+    59
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 3,
+     "role": "frame_0",
+     "src": [
+      3,
+      10,
+      41,
+      59
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_1",
+     "src": [
+      57,
+      11,
+      49,
+      58
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_2",
+     "src": [
+      121,
+      10,
+      44,
+      59
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_3",
+     "src": [
+      182,
+      10,
+      64,
+      59
+     ]
+    }
+   ],
+   "box": [
+    3,
+    10,
+    243,
+    59
+   ]
+  },
+  {
+   "id": 1,
+   "name": "steven_ow",
+   "file": "steven_ow.png",
+   "cell": [
+    16,
+    21
+   ],
+   "zone": null,
+   "animations": {
+    "idle_up": [
+     0
+    ],
+    "walk_up": [
+     1,
+     0,
+     2,
+     0
+    ],
+    "idle_down": [
+     3
+    ],
+    "walk_down": [
+     4,
+     3,
+     5,
+     3
+    ],
+    "idle_left": [
+     6
+    ],
+    "walk_left": [
+     7,
+     6,
+     8,
+     6
+    ]
+   },
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      313,
+      6,
+      16,
+      21
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      332,
+      6,
+      16,
+      21
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      351,
+      6,
+      16,
+      21
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 11,
+     "role": "frame_3",
+     "src": [
+      313,
+      31,
+      16,
+      21
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_4",
+     "src": [
+      332,
+      31,
+      16,
+      21
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_5",
+     "src": [
+      352,
+      31,
+      16,
+      21
+     ],
+     "mirror_of": 3
+    },
+    {
+     "item": 8,
+     "role": "frame_6",
+     "src": [
+      314,
+      57,
+      14,
+      21
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_7",
+     "src": [
+      334,
+      57,
+      13,
+      21
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_8",
+     "src": [
+      354,
+      57,
+      14,
+      21
+     ]
+    }
+   ],
+   "box": [
+    313,
+    6,
+    55,
+    72
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 261,
+   "y": 15,
+   "w": 34,
+   "h": 62,
+   "area": 1066,
+   "ncolors": 15,
+   "dominant": "#4A4D4A",
+   "dom_frac": 0.279,
+   "kind": "sprite",
+   "zone": null,
+   "name": "steven_battle_pose",
+   "id": 7,
+   "file": "steven_battle_pose.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

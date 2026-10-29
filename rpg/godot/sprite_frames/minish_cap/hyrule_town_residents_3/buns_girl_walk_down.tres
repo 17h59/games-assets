@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/hyrule_town_residents_3/girls/buns_girl_walk_down.png" id="1_pdjw1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tg3jl"]
+atlas = ExtResource("1_pdjw1")
+region = Rect2(0, 0, 20, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tv6x2"]
+atlas = ExtResource("1_pdjw1")
+region = Rect2(20, 0, 20, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v8uln"]
+atlas = ExtResource("1_pdjw1")
+region = Rect2(40, 0, 20, 19)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tg3jl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tv6x2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v8uln")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

@@ -1,0 +1,95 @@
+{
+ "sheet": "6475",
+ "game": "minish_cap",
+ "category": "monsters",
+ "title": "Keese",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "keese_fly",
+   "file": "keese_fly.png",
+   "cell": [
+    20,
+    17
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      3,
+      10,
+      10,
+      12
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      24,
+      13,
+      18,
+      11
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      50,
+      7,
+      16,
+      14
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      73,
+      9,
+      20,
+      12
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_4",
+     "src": [
+      106,
+      13,
+      20,
+      10
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_5",
+     "src": [
+      137,
+      10,
+      8,
+      13
+     ]
+    }
+   ],
+   "box": [
+    3,
+    7,
+    142,
+    17
+   ]
+  }
+ ],
+ "items": [],
+ "status": "ok",
+ "missing_stages": []
+}

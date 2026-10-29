@@ -1,0 +1,51 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/emerald/characters/may/run_right.png" id="1_73ipl"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5x275"]
+atlas = ExtResource("1_73ipl")
+region = Rect2(0, 0, 14, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wwsef"]
+atlas = ExtResource("1_73ipl")
+region = Rect2(14, 0, 14, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i21gl"]
+atlas = ExtResource("1_73ipl")
+region = Rect2(0, 0, 14, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eigev"]
+atlas = ExtResource("1_73ipl")
+region = Rect2(28, 0, 14, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n5f43"]
+atlas = ExtResource("1_73ipl")
+region = Rect2(0, 0, 14, 19)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5x275")
+}],
+"loop": 1,
+"name": &"idle_right",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wwsef")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i21gl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eigev")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n5f43")
+}],
+"loop": 1,
+"name": &"run_right",
+"speed": 6.0
+}]

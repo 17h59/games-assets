@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/acrobandits/totem_walk.png" id="1_3lk81"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_age40"]
+atlas = ExtResource("1_3lk81")
+region = Rect2(0, 0, 26, 76)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6esp1"]
+atlas = ExtResource("1_3lk81")
+region = Rect2(26, 0, 26, 76)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bvf0u"]
+atlas = ExtResource("1_3lk81")
+region = Rect2(52, 0, 26, 76)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_07x5j"]
+atlas = ExtResource("1_3lk81")
+region = Rect2(78, 0, 26, 76)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_age40")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6esp1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bvf0u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_07x5j")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

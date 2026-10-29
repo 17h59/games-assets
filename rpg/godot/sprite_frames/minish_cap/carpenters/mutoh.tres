@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/carpenters/mutoh.png" id="1_edg8d"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b0ed1"]
+atlas = ExtResource("1_edg8d")
+region = Rect2(0, 0, 21, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ou1bd"]
+atlas = ExtResource("1_edg8d")
+region = Rect2(21, 0, 21, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x7yfr"]
+atlas = ExtResource("1_edg8d")
+region = Rect2(42, 0, 21, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5jr7j"]
+atlas = ExtResource("1_edg8d")
+region = Rect2(63, 0, 21, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_li4yy"]
+atlas = ExtResource("1_edg8d")
+region = Rect2(84, 0, 21, 32)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b0ed1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ou1bd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x7yfr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5jr7j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_li4yy")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

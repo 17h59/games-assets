@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/dogs/dog_jump_left.png" id="1_lr8hw"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h1xh7"]
+atlas = ExtResource("1_lr8hw")
+region = Rect2(0, 0, 23, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1qal3"]
+atlas = ExtResource("1_lr8hw")
+region = Rect2(23, 0, 23, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6ucvl"]
+atlas = ExtResource("1_lr8hw")
+region = Rect2(46, 0, 23, 22)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h1xh7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1qal3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6ucvl")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

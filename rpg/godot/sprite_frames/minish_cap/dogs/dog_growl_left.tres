@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/dogs/dog_growl_left.png" id="1_xiffo"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x175v"]
+atlas = ExtResource("1_xiffo")
+region = Rect2(0, 0, 24, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q52t5"]
+atlas = ExtResource("1_xiffo")
+region = Rect2(24, 0, 24, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l8ncy"]
+atlas = ExtResource("1_xiffo")
+region = Rect2(48, 0, 24, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pmvd3"]
+atlas = ExtResource("1_xiffo")
+region = Rect2(72, 0, 24, 19)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x175v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q52t5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l8ncy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pmvd3")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

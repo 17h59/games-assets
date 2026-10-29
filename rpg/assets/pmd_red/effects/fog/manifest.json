@@ -1,0 +1,260 @@
+{
+ "sheet": "534321",
+ "game": "pmd_red",
+ "category": "effects",
+ "title": "Fog",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    8,
+    7,
+    47,
+    6
+   ],
+   "point": [
+    31,
+    10
+   ],
+   "name": "raw_palette",
+   "folder": "raw_palette"
+  },
+  {
+   "id": 1,
+   "box": [
+    8,
+    143,
+    67,
+    7
+   ],
+   "point": [
+    41,
+    146
+   ],
+   "name": "ending_cutscene",
+   "folder": "ending_cutscene"
+  },
+  {
+   "id": 2,
+   "box": [
+    58,
+    297,
+    70,
+    7
+   ],
+   "point": [
+    93,
+    300
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 3,
+   "box": [
+    141,
+    297,
+    75,
+    6
+   ],
+   "point": [
+    178,
+    300
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 4,
+   "box": [
+    16,
+    308,
+    14,
+    6
+   ],
+   "point": [
+    23,
+    311
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 5,
+   "box": [
+    43,
+    308,
+    81,
+    6
+   ],
+   "point": [
+    83,
+    311
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [],
+ "items": [
+  {
+   "x": 8,
+   "y": 22,
+   "w": 168,
+   "h": 69,
+   "area": 8494,
+   "ncolors": 12,
+   "dominant": "#191919",
+   "dom_frac": 0.131,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 0,
+   "file": "raw_palette/raw_palette_000.png"
+  },
+  {
+   "x": 177,
+   "y": 23,
+   "w": 50,
+   "h": 14,
+   "area": 431,
+   "ncolors": 3,
+   "dominant": "#191919",
+   "dom_frac": 0.443,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 1,
+   "file": "raw_palette/raw_palette_001.png"
+  },
+  {
+   "x": 25,
+   "y": 119,
+   "w": 50,
+   "h": 14,
+   "area": 431,
+   "ncolors": 3,
+   "dominant": "#191919",
+   "dom_frac": 0.443,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 2,
+   "file": "raw_palette/raw_palette_002.png",
+   "duplicate_of": 1
+  },
+  {
+   "x": 192,
+   "y": 62,
+   "w": 152,
+   "h": 69,
+   "area": 8167,
+   "ncolors": 12,
+   "dominant": "#191919",
+   "dom_frac": 0.118,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 3,
+   "file": "raw_palette/raw_palette_003.png"
+  },
+  {
+   "x": 121,
+   "y": 103,
+   "w": 50,
+   "h": 14,
+   "area": 431,
+   "ncolors": 3,
+   "dominant": "#191919",
+   "dom_frac": 0.443,
+   "kind": "sprite",
+   "zone": null,
+   "set": 0,
+   "id": 4,
+   "file": "raw_palette/raw_palette_004.png",
+   "duplicate_of": 1
+  },
+  {
+   "x": 12,
+   "y": 160,
+   "w": 158,
+   "h": 65,
+   "area": 7384,
+   "ncolors": 8,
+   "dominant": "#F7FFFF",
+   "dom_frac": 0.246,
+   "kind": "sprite",
+   "zone": null,
+   "set": 1,
+   "id": 5,
+   "file": "ending_cutscene/ending_cutscene_005.png"
+  },
+  {
+   "x": 181,
+   "y": 161,
+   "w": 42,
+   "h": 10,
+   "area": 240,
+   "ncolors": 2,
+   "dominant": "#CECECE",
+   "dom_frac": 0.571,
+   "kind": "sprite",
+   "zone": null,
+   "set": 1,
+   "id": 6,
+   "file": "ending_cutscene/ending_cutscene_006.png"
+  },
+  {
+   "x": 29,
+   "y": 257,
+   "w": 42,
+   "h": 10,
+   "area": 240,
+   "ncolors": 2,
+   "dominant": "#CECECE",
+   "dom_frac": 0.571,
+   "kind": "sprite",
+   "zone": null,
+   "set": 1,
+   "id": 7,
+   "file": "ending_cutscene/ending_cutscene_007.png",
+   "duplicate_of": 6
+  },
+  {
+   "x": 198,
+   "y": 200,
+   "w": 146,
+   "h": 65,
+   "area": 7201,
+   "ncolors": 8,
+   "dominant": "#F7FFFF",
+   "dom_frac": 0.252,
+   "kind": "sprite",
+   "zone": null,
+   "set": 1,
+   "id": 8,
+   "file": "ending_cutscene/ending_cutscene_008.png"
+  },
+  {
+   "x": 125,
+   "y": 241,
+   "w": 42,
+   "h": 10,
+   "area": 240,
+   "ncolors": 2,
+   "dominant": "#CECECE",
+   "dom_frac": 0.571,
+   "kind": "sprite",
+   "zone": null,
+   "set": 1,
+   "id": 9,
+   "file": "ending_cutscene/ending_cutscene_009.png",
+   "duplicate_of": 6
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

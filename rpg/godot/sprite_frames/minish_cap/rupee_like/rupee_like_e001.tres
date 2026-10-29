@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/rupee_like/rupee_like_e001.png" id="1_3vsgy"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4djfx"]
+atlas = ExtResource("1_3vsgy")
+region = Rect2(0, 0, 7, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j2rn2"]
+atlas = ExtResource("1_3vsgy")
+region = Rect2(7, 0, 7, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8n3yx"]
+atlas = ExtResource("1_3vsgy")
+region = Rect2(14, 0, 7, 10)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4djfx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j2rn2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8n3yx")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

@@ -1,0 +1,6103 @@
+{
+ "sheet": "6370",
+ "game": "minish_cap",
+ "category": "characters",
+ "title": "Link (Capless)",
+ "type": "characters",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "link_capless_e000",
+   "file": "link_capless_e000.png",
+   "cell": [
+    20,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      15,
+      14,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      48,
+      15,
+      19,
+      25
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      79,
+      16,
+      18,
+      24
+     ]
+    }
+   ],
+   "box": [
+    15,
+    14,
+    82,
+    26
+   ]
+  },
+  {
+   "id": 1,
+   "name": "link_capless_e001",
+   "file": "link_capless_e001.png",
+   "cell": [
+    18,
+    25
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 3,
+     "role": "frame_0",
+     "src": [
+      15,
+      54,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_1",
+     "src": [
+      47,
+      54,
+      18,
+      25
+     ]
+    }
+   ],
+   "box": [
+    15,
+    54,
+    50,
+    25
+   ]
+  },
+  {
+   "id": 2,
+   "name": "link_capless_e002",
+   "file": "link_capless_e002.png",
+   "cell": [
+    19,
+    25
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 5,
+     "role": "frame_0",
+     "src": [
+      100,
+      55,
+      19,
+      25
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_1",
+     "src": [
+      132,
+      55,
+      19,
+      25
+     ]
+    }
+   ],
+   "box": [
+    100,
+    55,
+    51,
+    25
+   ]
+  },
+  {
+   "id": 3,
+   "name": "link_capless_e003",
+   "file": "link_capless_e003.png",
+   "cell": [
+    18,
+    27
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 7,
+     "role": "frame_0",
+     "src": [
+      15,
+      95,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_1",
+     "src": [
+      47,
+      95,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_2",
+     "src": [
+      79,
+      95,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_3",
+     "src": [
+      111,
+      94,
+      18,
+      26
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_4",
+     "src": [
+      143,
+      93,
+      18,
+      27
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_5",
+     "src": [
+      175,
+      95,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_6",
+     "src": [
+      207,
+      95,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_7",
+     "src": [
+      239,
+      95,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_8",
+     "src": [
+      271,
+      94,
+      18,
+      26
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_9",
+     "src": [
+      303,
+      93,
+      18,
+      27
+     ]
+    }
+   ],
+   "box": [
+    15,
+    93,
+    306,
+    27
+   ]
+  },
+  {
+   "id": 4,
+   "name": "link_capless_e004",
+   "file": "link_capless_e004.png",
+   "cell": [
+    24,
+    27
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 17,
+     "role": "frame_0",
+     "src": [
+      354,
+      94,
+      20,
+      26
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_1",
+     "src": [
+      388,
+      95,
+      20,
+      24
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_2",
+     "src": [
+      417,
+      96,
+      22,
+      23
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_3",
+     "src": [
+      452,
+      95,
+      21,
+      25
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_4",
+     "src": [
+      484,
+      93,
+      20,
+      26
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_5",
+     "src": [
+      514,
+      94,
+      20,
+      26
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_6",
+     "src": [
+      548,
+      95,
+      19,
+      25
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_7",
+     "src": [
+      580,
+      96,
+      21,
+      24
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_8",
+     "src": [
+      612,
+      94,
+      20,
+      25
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_9",
+     "src": [
+      644,
+      93,
+      20,
+      26
+     ]
+    }
+   ],
+   "box": [
+    354,
+    93,
+    310,
+    27
+   ]
+  },
+  {
+   "id": 5,
+   "name": "link_capless_e005",
+   "file": "link_capless_e005.png",
+   "cell": [
+    18,
+    29
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 27,
+     "role": "frame_0",
+     "src": [
+      695,
+      95,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_1",
+     "src": [
+      727,
+      96,
+      18,
+      24
+     ]
+    },
+    {
+     "item": 29,
+     "role": "frame_2",
+     "src": [
+      759,
+      95,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_3",
+     "src": [
+      791,
+      93,
+      18,
+      28
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_4",
+     "src": [
+      823,
+      93,
+      18,
+      27
+     ]
+    },
+    {
+     "item": 32,
+     "role": "frame_5",
+     "src": [
+      855,
+      95,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 33,
+     "role": "frame_6",
+     "src": [
+      887,
+      96,
+      18,
+      24
+     ]
+    },
+    {
+     "item": 34,
+     "role": "frame_7",
+     "src": [
+      919,
+      95,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 35,
+     "role": "frame_8",
+     "src": [
+      951,
+      94,
+      18,
+      28
+     ]
+    },
+    {
+     "item": 36,
+     "role": "frame_9",
+     "src": [
+      983,
+      93,
+      18,
+      27
+     ]
+    }
+   ],
+   "box": [
+    695,
+    93,
+    306,
+    29
+   ]
+  },
+  {
+   "id": 6,
+   "name": "link_capless_e006",
+   "file": "link_capless_e006.png",
+   "cell": [
+    18,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 37,
+     "role": "frame_0",
+     "src": [
+      15,
+      139,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 38,
+     "role": "frame_1",
+     "src": [
+      47,
+      138,
+      18,
+      26
+     ]
+    },
+    {
+     "item": 39,
+     "role": "frame_2",
+     "src": [
+      79,
+      138,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 40,
+     "role": "frame_3",
+     "src": [
+      111,
+      140,
+      18,
+      24
+     ]
+    },
+    {
+     "item": 41,
+     "role": "frame_4",
+     "src": [
+      143,
+      139,
+      18,
+      25
+     ]
+    }
+   ],
+   "box": [
+    15,
+    138,
+    146,
+    26
+   ]
+  },
+  {
+   "id": 7,
+   "name": "link_capless_e007",
+   "file": "link_capless_e007.png",
+   "cell": [
+    22,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 42,
+     "role": "frame_0",
+     "src": [
+      195,
+      139,
+      19,
+      25
+     ]
+    },
+    {
+     "item": 43,
+     "role": "frame_1",
+     "src": [
+      227,
+      139,
+      19,
+      25
+     ]
+    },
+    {
+     "item": 44,
+     "role": "frame_2",
+     "src": [
+      259,
+      139,
+      20,
+      25
+     ]
+    },
+    {
+     "item": 45,
+     "role": "frame_3",
+     "src": [
+      290,
+      138,
+      21,
+      26
+     ]
+    },
+    {
+     "item": 46,
+     "role": "frame_4",
+     "src": [
+      324,
+      138,
+      20,
+      26
+     ]
+    }
+   ],
+   "box": [
+    195,
+    138,
+    149,
+    26
+   ]
+  },
+  {
+   "id": 8,
+   "name": "link_capless_e008",
+   "file": "link_capless_e008.png",
+   "cell": [
+    19,
+    25
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 47,
+     "role": "frame_0",
+     "src": [
+      375,
+      139,
+      18,
+      24
+     ]
+    },
+    {
+     "item": 48,
+     "role": "frame_1",
+     "src": [
+      407,
+      139,
+      18,
+      24
+     ]
+    },
+    {
+     "item": 49,
+     "role": "frame_2",
+     "src": [
+      438,
+      140,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 50,
+     "role": "frame_3",
+     "src": [
+      470,
+      139,
+      18,
+      24
+     ]
+    },
+    {
+     "item": 51,
+     "role": "frame_4",
+     "src": [
+      502,
+      140,
+      18,
+      24
+     ]
+    }
+   ],
+   "box": [
+    375,
+    139,
+    145,
+    25
+   ]
+  },
+  {
+   "id": 9,
+   "name": "link_capless_e009",
+   "file": "link_capless_e009.png",
+   "cell": [
+    18,
+    27
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 52,
+     "role": "frame_0",
+     "src": [
+      15,
+      178,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 53,
+     "role": "frame_1",
+     "src": [
+      47,
+      178,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 54,
+     "role": "frame_2",
+     "src": [
+      79,
+      178,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 55,
+     "role": "frame_3",
+     "src": [
+      111,
+      179,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 56,
+     "role": "frame_4",
+     "src": [
+      143,
+      178,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 57,
+     "role": "frame_5",
+     "src": [
+      175,
+      178,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 58,
+     "role": "frame_6",
+     "src": [
+      207,
+      177,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 59,
+     "role": "frame_7",
+     "src": [
+      239,
+      177,
+      18,
+      25
+     ]
+    }
+   ],
+   "box": [
+    15,
+    177,
+    242,
+    27
+   ]
+  },
+  {
+   "id": 10,
+   "name": "link_capless_e010",
+   "file": "link_capless_e010.png",
+   "cell": [
+    22,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 60,
+     "role": "frame_0",
+     "src": [
+      290,
+      178,
+      21,
+      26
+     ]
+    },
+    {
+     "item": 61,
+     "role": "frame_1",
+     "src": [
+      322,
+      178,
+      21,
+      26
+     ]
+    },
+    {
+     "item": 62,
+     "role": "frame_2",
+     "src": [
+      354,
+      179,
+      22,
+      25
+     ]
+    },
+    {
+     "item": 63,
+     "role": "frame_3",
+     "src": [
+      386,
+      179,
+      22,
+      25
+     ]
+    },
+    {
+     "item": 64,
+     "role": "frame_4",
+     "src": [
+      418,
+      179,
+      21,
+      25
+     ]
+    },
+    {
+     "item": 65,
+     "role": "frame_5",
+     "src": [
+      450,
+      178,
+      21,
+      26
+     ]
+    },
+    {
+     "item": 66,
+     "role": "frame_6",
+     "src": [
+      482,
+      179,
+      22,
+      25
+     ]
+    },
+    {
+     "item": 67,
+     "role": "frame_7",
+     "src": [
+      514,
+      179,
+      22,
+      25
+     ]
+    }
+   ],
+   "box": [
+    290,
+    178,
+    246,
+    26
+   ]
+  },
+  {
+   "id": 11,
+   "name": "link_capless_e011",
+   "file": "link_capless_e011.png",
+   "cell": [
+    18,
+    23
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 68,
+     "role": "frame_0",
+     "src": [
+      567,
+      181,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 69,
+     "role": "frame_1",
+     "src": [
+      599,
+      181,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 70,
+     "role": "frame_2",
+     "src": [
+      631,
+      181,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 71,
+     "role": "frame_3",
+     "src": [
+      663,
+      182,
+      18,
+      22
+     ]
+    },
+    {
+     "item": 72,
+     "role": "frame_4",
+     "src": [
+      695,
+      182,
+      18,
+      21
+     ]
+    },
+    {
+     "item": 73,
+     "role": "frame_5",
+     "src": [
+      727,
+      181,
+      17,
+      22
+     ]
+    },
+    {
+     "item": 74,
+     "role": "frame_6",
+     "src": [
+      759,
+      181,
+      18,
+      22
+     ]
+    },
+    {
+     "item": 75,
+     "role": "frame_7",
+     "src": [
+      791,
+      181,
+      18,
+      22
+     ]
+    }
+   ],
+   "box": [
+    567,
+    181,
+    242,
+    23
+   ]
+  },
+  {
+   "id": 12,
+   "name": "link_capless_e012",
+   "file": "link_capless_e012.png",
+   "cell": [
+    20,
+    24
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 76,
+     "role": "frame_0",
+     "src": [
+      14,
+      215,
+      20,
+      24
+     ]
+    },
+    {
+     "item": 77,
+     "role": "frame_1",
+     "src": [
+      46,
+      215,
+      20,
+      24
+     ]
+    },
+    {
+     "item": 78,
+     "role": "frame_2",
+     "src": [
+      79,
+      216,
+      18,
+      23
+     ]
+    }
+   ],
+   "box": [
+    14,
+    215,
+    83,
+    24
+   ]
+  },
+  {
+   "id": 13,
+   "name": "link_capless_e013",
+   "file": "link_capless_e013.png",
+   "cell": [
+    19,
+    23
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 79,
+     "role": "frame_0",
+     "src": [
+      130,
+      220,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 80,
+     "role": "frame_1",
+     "src": [
+      162,
+      220,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 81,
+     "role": "frame_2",
+     "src": [
+      192,
+      220,
+      18,
+      23
+     ]
+    }
+   ],
+   "box": [
+    130,
+    220,
+    80,
+    23
+   ]
+  },
+  {
+   "id": 14,
+   "name": "link_capless_e014",
+   "file": "link_capless_e014.png",
+   "cell": [
+    18,
+    22
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 82,
+     "role": "frame_0",
+     "src": [
+      247,
+      220,
+      18,
+      22
+     ]
+    },
+    {
+     "item": 83,
+     "role": "frame_1",
+     "src": [
+      279,
+      221,
+      18,
+      21
+     ]
+    },
+    {
+     "item": 84,
+     "role": "frame_2",
+     "src": [
+      311,
+      221,
+      18,
+      21
+     ]
+    }
+   ],
+   "box": [
+    247,
+    220,
+    82,
+    22
+   ]
+  },
+  {
+   "id": 15,
+   "name": "link_capless_e015",
+   "file": "link_capless_e015.png",
+   "cell": [
+    18,
+    27
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 85,
+     "role": "frame_0",
+     "src": [
+      15,
+      259,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 86,
+     "role": "frame_1",
+     "src": [
+      47,
+      258,
+      18,
+      26
+     ]
+    },
+    {
+     "item": 87,
+     "role": "frame_2",
+     "src": [
+      79,
+      257,
+      18,
+      26
+     ]
+    }
+   ],
+   "box": [
+    15,
+    257,
+    82,
+    27
+   ]
+  },
+  {
+   "id": 16,
+   "name": "link_capless_e016",
+   "file": "link_capless_e016.png",
+   "cell": [
+    22,
+    27
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 88,
+     "role": "frame_0",
+     "src": [
+      131,
+      258,
+      17,
+      25
+     ]
+    },
+    {
+     "item": 89,
+     "role": "frame_1",
+     "src": [
+      162,
+      257,
+      22,
+      27
+     ]
+    },
+    {
+     "item": 90,
+     "role": "frame_2",
+     "src": [
+      196,
+      259,
+      20,
+      25
+     ]
+    }
+   ],
+   "box": [
+    131,
+    257,
+    85,
+    27
+   ]
+  },
+  {
+   "id": 17,
+   "name": "link_capless_e017",
+   "file": "link_capless_e017.png",
+   "cell": [
+    13,
+    11
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 94,
+     "role": "frame_0",
+     "src": [
+      372,
+      289,
+      7,
+      7
+     ]
+    },
+    {
+     "item": 95,
+     "role": "frame_1",
+     "src": [
+      384,
+      289,
+      7,
+      7
+     ]
+    },
+    {
+     "item": 96,
+     "role": "frame_2",
+     "src": [
+      397,
+      285,
+      13,
+      11
+     ]
+    }
+   ],
+   "box": [
+    372,
+    285,
+    38,
+    11
+   ]
+  },
+  {
+   "id": 18,
+   "name": "link_capless_e018",
+   "file": "link_capless_e018.png",
+   "cell": [
+    15,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 99,
+     "role": "frame_0",
+     "src": [
+      233,
+      288,
+      13,
+      16
+     ]
+    },
+    {
+     "item": 100,
+     "role": "frame_1",
+     "src": [
+      252,
+      290,
+      15,
+      14
+     ]
+    },
+    {
+     "item": 101,
+     "role": "frame_2",
+     "src": [
+      272,
+      290,
+      15,
+      14
+     ]
+    },
+    {
+     "item": 102,
+     "role": "frame_3",
+     "src": [
+      292,
+      289,
+      15,
+      15
+     ]
+    }
+   ],
+   "box": [
+    233,
+    288,
+    74,
+    16
+   ]
+  },
+  {
+   "id": 19,
+   "name": "link_capless_e019",
+   "file": "link_capless_e019.png",
+   "cell": [
+    7,
+    21
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 103,
+     "role": "frame_0",
+     "src": [
+      324,
+      289,
+      7,
+      21
+     ]
+    },
+    {
+     "item": 104,
+     "role": "frame_1",
+     "src": [
+      336,
+      289,
+      7,
+      21
+     ]
+    },
+    {
+     "item": 105,
+     "role": "frame_2",
+     "src": [
+      348,
+      289,
+      7,
+      21
+     ]
+    }
+   ],
+   "box": [
+    324,
+    289,
+    31,
+    21
+   ]
+  },
+  {
+   "id": 20,
+   "name": "link_capless_e020",
+   "file": "link_capless_e020.png",
+   "cell": [
+    23,
+    22
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 106,
+     "role": "frame_0",
+     "src": [
+      16,
+      322,
+      23,
+      21
+     ]
+    },
+    {
+     "item": 107,
+     "role": "frame_1",
+     "src": [
+      50,
+      326,
+      20,
+      18
+     ]
+    },
+    {
+     "item": 108,
+     "role": "frame_2",
+     "src": [
+      80,
+      328,
+      15,
+      13
+     ]
+    },
+    {
+     "item": 109,
+     "role": "frame_3",
+     "src": [
+      112,
+      331,
+      10,
+      9
+     ]
+    }
+   ],
+   "box": [
+    16,
+    322,
+    106,
+    22
+   ]
+  },
+  {
+   "id": 21,
+   "name": "link_capless_e021",
+   "file": "link_capless_e021.png",
+   "cell": [
+    22,
+    28
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 110,
+     "role": "frame_0",
+     "src": [
+      14,
+      357,
+      19,
+      25
+     ]
+    },
+    {
+     "item": 111,
+     "role": "frame_1",
+     "src": [
+      47,
+      357,
+      17,
+      26
+     ]
+    },
+    {
+     "item": 112,
+     "role": "frame_2",
+     "src": [
+      80,
+      356,
+      18,
+      28
+     ]
+    },
+    {
+     "item": 113,
+     "role": "frame_3",
+     "src": [
+      109,
+      356,
+      19,
+      28
+     ]
+    },
+    {
+     "item": 114,
+     "role": "frame_4",
+     "src": [
+      141,
+      356,
+      19,
+      26
+     ]
+    },
+    {
+     "item": 115,
+     "role": "frame_5",
+     "src": [
+      173,
+      357,
+      19,
+      26
+     ]
+    },
+    {
+     "item": 116,
+     "role": "frame_6",
+     "src": [
+      206,
+      358,
+      18,
+      26
+     ]
+    },
+    {
+     "item": 117,
+     "role": "frame_7",
+     "src": [
+      238,
+      359,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 118,
+     "role": "frame_8",
+     "src": [
+      272,
+      357,
+      19,
+      26
+     ]
+    },
+    {
+     "item": 119,
+     "role": "frame_9",
+     "src": [
+      302,
+      358,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 120,
+     "role": "frame_10",
+     "src": [
+      334,
+      358,
+      18,
+      25
+     ]
+    }
+   ],
+   "box": [
+    14,
+    356,
+    338,
+    28
+   ]
+  },
+  {
+   "id": 22,
+   "name": "link_capless_e022",
+   "file": "link_capless_e022.png",
+   "cell": [
+    17,
+    25
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 121,
+     "role": "frame_0",
+     "src": [
+      388,
+      359,
+      15,
+      25
+     ]
+    },
+    {
+     "item": 122,
+     "role": "frame_1",
+     "src": [
+      420,
+      359,
+      17,
+      25
+     ]
+    }
+   ],
+   "box": [
+    388,
+    359,
+    49,
+    25
+   ]
+  },
+  {
+   "id": 23,
+   "name": "link_capless_e023",
+   "file": "link_capless_e023.png",
+   "cell": [
+    21,
+    25
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 123,
+     "role": "frame_0",
+     "src": [
+      456,
+      360,
+      19,
+      24
+     ]
+    },
+    {
+     "item": 124,
+     "role": "frame_1",
+     "src": [
+      486,
+      359,
+      19,
+      25
+     ]
+    },
+    {
+     "item": 125,
+     "role": "frame_2",
+     "src": [
+      516,
+      361,
+      21,
+      23
+     ]
+    },
+    {
+     "item": 126,
+     "role": "frame_3",
+     "src": [
+      549,
+      360,
+      19,
+      24
+     ]
+    },
+    {
+     "item": 127,
+     "role": "frame_4",
+     "src": [
+      584,
+      361,
+      19,
+      23
+     ]
+    },
+    {
+     "item": 128,
+     "role": "frame_5",
+     "src": [
+      614,
+      359,
+      20,
+      25
+     ]
+    },
+    {
+     "item": 129,
+     "role": "frame_6",
+     "src": [
+      643,
+      359,
+      19,
+      25
+     ]
+    },
+    {
+     "item": 130,
+     "role": "frame_7",
+     "src": [
+      679,
+      359,
+      19,
+      25
+     ]
+    },
+    {
+     "item": 131,
+     "role": "frame_8",
+     "src": [
+      711,
+      359,
+      19,
+      25
+     ]
+    }
+   ],
+   "box": [
+    456,
+    359,
+    274,
+    25
+   ]
+  },
+  {
+   "id": 24,
+   "name": "link_capless_e024",
+   "file": "link_capless_e024.png",
+   "cell": [
+    19,
+    25
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 132,
+     "role": "frame_0",
+     "src": [
+      760,
+      360,
+      16,
+      23
+     ]
+    },
+    {
+     "item": 133,
+     "role": "frame_1",
+     "src": [
+      791,
+      360,
+      17,
+      23
+     ]
+    },
+    {
+     "item": 134,
+     "role": "frame_2",
+     "src": [
+      821,
+      360,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 135,
+     "role": "frame_3",
+     "src": [
+      854,
+      360,
+      18,
+      22
+     ]
+    },
+    {
+     "item": 136,
+     "role": "frame_4",
+     "src": [
+      886,
+      361,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 137,
+     "role": "frame_5",
+     "src": [
+      918,
+      360,
+      18,
+      24
+     ]
+    },
+    {
+     "item": 138,
+     "role": "frame_6",
+     "src": [
+      950,
+      359,
+      18,
+      24
+     ]
+    },
+    {
+     "item": 139,
+     "role": "frame_7",
+     "src": [
+      982,
+      360,
+      18,
+      24
+     ]
+    },
+    {
+     "item": 140,
+     "role": "frame_8",
+     "src": [
+      1014,
+      360,
+      18,
+      24
+     ]
+    },
+    {
+     "item": 141,
+     "role": "frame_9",
+     "src": [
+      1046,
+      360,
+      18,
+      24
+     ]
+    },
+    {
+     "item": 142,
+     "role": "frame_10",
+     "src": [
+      1078,
+      360,
+      18,
+      24
+     ]
+    }
+   ],
+   "box": [
+    760,
+    359,
+    336,
+    25
+   ]
+  },
+  {
+   "id": 25,
+   "name": "link_capless_e025",
+   "file": "link_capless_e025.png",
+   "cell": [
+    19,
+    28
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 143,
+     "role": "frame_0",
+     "src": [
+      15,
+      397,
+      18,
+      27
+     ]
+    },
+    {
+     "item": 144,
+     "role": "frame_1",
+     "src": [
+      47,
+      401,
+      18,
+      19
+     ]
+    },
+    {
+     "item": 145,
+     "role": "frame_2",
+     "src": [
+      79,
+      403,
+      18,
+      19
+     ]
+    },
+    {
+     "item": 146,
+     "role": "frame_3",
+     "src": [
+      111,
+      401,
+      18,
+      22
+     ]
+    },
+    {
+     "item": 147,
+     "role": "frame_4",
+     "src": [
+      144,
+      401,
+      16,
+      19
+     ]
+    },
+    {
+     "item": 148,
+     "role": "frame_5",
+     "src": [
+      174,
+      398,
+      19,
+      21
+     ]
+    },
+    {
+     "item": 149,
+     "role": "frame_6",
+     "src": [
+      208,
+      401,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 150,
+     "role": "frame_7",
+     "src": [
+      242,
+      396,
+      19,
+      28
+     ]
+    },
+    {
+     "item": 151,
+     "role": "frame_8",
+     "src": [
+      271,
+      400,
+      18,
+      24
+     ]
+    }
+   ],
+   "box": [
+    15,
+    396,
+    274,
+    28
+   ]
+  },
+  {
+   "id": 26,
+   "name": "link_capless_e026",
+   "file": "link_capless_e026.png",
+   "cell": [
+    22,
+    27
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 152,
+     "role": "frame_0",
+     "src": [
+      324,
+      397,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 153,
+     "role": "frame_1",
+     "src": [
+      357,
+      398,
+      18,
+      22
+     ]
+    },
+    {
+     "item": 154,
+     "role": "frame_2",
+     "src": [
+      390,
+      400,
+      22,
+      18
+     ]
+    },
+    {
+     "item": 155,
+     "role": "frame_3",
+     "src": [
+      423,
+      404,
+      20,
+      18
+     ]
+    },
+    {
+     "item": 156,
+     "role": "frame_4",
+     "src": [
+      452,
+      401,
+      18,
+      21
+     ]
+    },
+    {
+     "item": 157,
+     "role": "frame_5",
+     "src": [
+      486,
+      400,
+      22,
+      18
+     ]
+    },
+    {
+     "item": 158,
+     "role": "frame_6",
+     "src": [
+      519,
+      400,
+      19,
+      19
+     ]
+    },
+    {
+     "item": 159,
+     "role": "frame_7",
+     "src": [
+      550,
+      398,
+      20,
+      26
+     ]
+    },
+    {
+     "item": 160,
+     "role": "frame_8",
+     "src": [
+      583,
+      401,
+      19,
+      23
+     ]
+    }
+   ],
+   "box": [
+    324,
+    397,
+    278,
+    27
+   ]
+  },
+  {
+   "id": 27,
+   "name": "link_capless_e027",
+   "file": "link_capless_e027.png",
+   "cell": [
+    19,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 161,
+     "role": "frame_0",
+     "src": [
+      631,
+      398,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 162,
+     "role": "frame_1",
+     "src": [
+      660,
+      400,
+      18,
+      22
+     ]
+    },
+    {
+     "item": 163,
+     "role": "frame_2",
+     "src": [
+      696,
+      401,
+      16,
+      19
+     ]
+    },
+    {
+     "item": 164,
+     "role": "frame_3",
+     "src": [
+      727,
+      403,
+      19,
+      21
+     ]
+    },
+    {
+     "item": 165,
+     "role": "frame_4",
+     "src": [
+      759,
+      401,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 166,
+     "role": "frame_5",
+     "src": [
+      791,
+      401,
+      18,
+      20
+     ]
+    },
+    {
+     "item": 167,
+     "role": "frame_6",
+     "src": [
+      823,
+      401,
+      18,
+      19
+     ]
+    },
+    {
+     "item": 168,
+     "role": "frame_7",
+     "src": [
+      855,
+      398,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 169,
+     "role": "frame_8",
+     "src": [
+      887,
+      402,
+      18,
+      21
+     ]
+    }
+   ],
+   "box": [
+    631,
+    398,
+    274,
+    26
+   ]
+  },
+  {
+   "id": 28,
+   "name": "link_capless_e028",
+   "file": "link_capless_e028.png",
+   "cell": [
+    18,
+    24
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 170,
+     "role": "frame_0",
+     "src": [
+      15,
+      434,
+      18,
+      22
+     ]
+    },
+    {
+     "item": 171,
+     "role": "frame_1",
+     "src": [
+      48,
+      433,
+      17,
+      23
+     ]
+    },
+    {
+     "item": 172,
+     "role": "frame_2",
+     "src": [
+      80,
+      432,
+      16,
+      21
+     ]
+    }
+   ],
+   "box": [
+    15,
+    432,
+    81,
+    24
+   ]
+  },
+  {
+   "id": 29,
+   "name": "link_capless_e029",
+   "file": "link_capless_e029.png",
+   "cell": [
+    22,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 173,
+     "role": "frame_0",
+     "src": [
+      16,
+      470,
+      17,
+      26
+     ]
+    },
+    {
+     "item": 174,
+     "role": "frame_1",
+     "src": [
+      46,
+      470,
+      18,
+      26
+     ]
+    },
+    {
+     "item": 175,
+     "role": "frame_2",
+     "src": [
+      80,
+      470,
+      18,
+      26
+     ]
+    },
+    {
+     "item": 176,
+     "role": "frame_3",
+     "src": [
+      112,
+      472,
+      19,
+      23
+     ]
+    },
+    {
+     "item": 177,
+     "role": "frame_4",
+     "src": [
+      143,
+      472,
+      17,
+      22
+     ]
+    },
+    {
+     "item": 178,
+     "role": "frame_5",
+     "src": [
+      174,
+      473,
+      18,
+      22
+     ]
+    },
+    {
+     "item": 179,
+     "role": "frame_6",
+     "src": [
+      205,
+      473,
+      19,
+      23
+     ]
+    },
+    {
+     "item": 180,
+     "role": "frame_7",
+     "src": [
+      238,
+      471,
+      18,
+      25
+     ]
+    }
+   ],
+   "box": [
+    16,
+    470,
+    240,
+    26
+   ]
+  },
+  {
+   "id": 30,
+   "name": "link_capless_e030",
+   "file": "link_capless_e030.png",
+   "cell": [
+    28,
+    27
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 181,
+     "role": "frame_0",
+     "src": [
+      16,
+      509,
+      20,
+      27
+     ]
+    },
+    {
+     "item": 182,
+     "role": "frame_1",
+     "src": [
+      51,
+      512,
+      21,
+      21
+     ]
+    },
+    {
+     "item": 183,
+     "role": "frame_2",
+     "src": [
+      80,
+      515,
+      24,
+      21
+     ]
+    },
+    {
+     "item": 184,
+     "role": "frame_3",
+     "src": [
+      108,
+      511,
+      28,
+      20
+     ]
+    },
+    {
+     "item": 185,
+     "role": "frame_4",
+     "src": [
+      141,
+      512,
+      26,
+      18
+     ]
+    }
+   ],
+   "box": [
+    16,
+    509,
+    151,
+    27
+   ]
+  },
+  {
+   "id": 31,
+   "name": "link_capless_e031",
+   "file": "link_capless_e031.png",
+   "cell": [
+    20,
+    27
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 186,
+     "role": "frame_0",
+     "src": [
+      12,
+      549,
+      20,
+      27
+     ]
+    },
+    {
+     "item": 187,
+     "role": "frame_1",
+     "src": [
+      45,
+      550,
+      19,
+      25
+     ]
+    }
+   ],
+   "box": [
+    12,
+    549,
+    52,
+    27
+   ]
+  },
+  {
+   "id": 32,
+   "name": "link_capless_e032",
+   "file": "link_capless_e032.png",
+   "cell": [
+    24,
+    28
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 188,
+     "role": "frame_0",
+     "src": [
+      14,
+      588,
+      19,
+      28
+     ]
+    },
+    {
+     "item": 189,
+     "role": "frame_1",
+     "src": [
+      46,
+      597,
+      20,
+      19
+     ]
+    },
+    {
+     "item": 190,
+     "role": "frame_2",
+     "src": [
+      78,
+      599,
+      20,
+      17
+     ]
+    },
+    {
+     "item": 191,
+     "role": "frame_3",
+     "src": [
+      112,
+      605,
+      16,
+      11
+     ]
+    },
+    {
+     "item": 192,
+     "role": "frame_4",
+     "src": [
+      141,
+      596,
+      22,
+      20
+     ]
+    },
+    {
+     "item": 193,
+     "role": "frame_5",
+     "src": [
+      172,
+      595,
+      24,
+      21
+     ]
+    },
+    {
+     "item": 194,
+     "role": "frame_6",
+     "src": [
+      205,
+      593,
+      22,
+      22
+     ]
+    },
+    {
+     "item": 195,
+     "role": "frame_7",
+     "src": [
+      237,
+      595,
+      22,
+      21
+     ]
+    }
+   ],
+   "box": [
+    14,
+    588,
+    245,
+    28
+   ]
+  },
+  {
+   "id": 33,
+   "name": "link_capless_e033",
+   "file": "link_capless_e033.png",
+   "cell": [
+    22,
+    27
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 196,
+     "role": "frame_0",
+     "src": [
+      292,
+      589,
+      20,
+      26
+     ]
+    },
+    {
+     "item": 197,
+     "role": "frame_1",
+     "src": [
+      324,
+      599,
+      20,
+      17
+     ]
+    },
+    {
+     "item": 198,
+     "role": "frame_2",
+     "src": [
+      357,
+      601,
+      19,
+      15
+     ]
+    },
+    {
+     "item": 199,
+     "role": "frame_3",
+     "src": [
+      388,
+      601,
+      17,
+      10
+     ]
+    },
+    {
+     "item": 200,
+     "role": "frame_4",
+     "src": [
+      420,
+      597,
+      18,
+      19
+     ]
+    },
+    {
+     "item": 201,
+     "role": "frame_5",
+     "src": [
+      452,
+      597,
+      20,
+      19
+     ]
+    },
+    {
+     "item": 202,
+     "role": "frame_6",
+     "src": [
+      484,
+      598,
+      22,
+      18
+     ]
+    },
+    {
+     "item": 203,
+     "role": "frame_7",
+     "src": [
+      516,
+      595,
+      21,
+      21
+     ]
+    }
+   ],
+   "box": [
+    292,
+    589,
+    245,
+    27
+   ]
+  },
+  {
+   "id": 34,
+   "name": "link_capless_e034",
+   "file": "link_capless_e034.png",
+   "cell": [
+    26,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 204,
+     "role": "frame_0",
+     "src": [
+      567,
+      590,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 205,
+     "role": "frame_1",
+     "src": [
+      600,
+      595,
+      16,
+      17
+     ]
+    },
+    {
+     "item": 206,
+     "role": "frame_2",
+     "src": [
+      632,
+      600,
+      16,
+      15
+     ]
+    },
+    {
+     "item": 207,
+     "role": "frame_3",
+     "src": [
+      665,
+      605,
+      15,
+      11
+     ]
+    },
+    {
+     "item": 208,
+     "role": "frame_4",
+     "src": [
+      694,
+      598,
+      21,
+      18
+     ]
+    },
+    {
+     "item": 209,
+     "role": "frame_5",
+     "src": [
+      725,
+      596,
+      23,
+      20
+     ]
+    },
+    {
+     "item": 210,
+     "role": "frame_6",
+     "src": [
+      755,
+      596,
+      26,
+      20
+     ]
+    },
+    {
+     "item": 211,
+     "role": "frame_7",
+     "src": [
+      789,
+      593,
+      22,
+      23
+     ]
+    }
+   ],
+   "box": [
+    567,
+    590,
+    244,
+    26
+   ]
+  },
+  {
+   "id": 35,
+   "name": "link_capless_e035",
+   "file": "link_capless_e035.png",
+   "cell": [
+    21,
+    18
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 215,
+     "role": "frame_0",
+     "src": [
+      173,
+      626,
+      21,
+      17
+     ]
+    },
+    {
+     "item": 216,
+     "role": "frame_1",
+     "src": [
+      206,
+      632,
+      18,
+      12
+     ]
+    }
+   ],
+   "box": [
+    173,
+    626,
+    51,
+    18
+   ]
+  },
+  {
+   "id": 36,
+   "name": "link_capless_e036",
+   "file": "link_capless_e036.png",
+   "cell": [
+    21,
+    18
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 217,
+     "role": "frame_0",
+     "src": [
+      452,
+      630,
+      21,
+      17
+     ]
+    },
+    {
+     "item": 218,
+     "role": "frame_1",
+     "src": [
+      484,
+      636,
+      18,
+      12
+     ]
+    }
+   ],
+   "box": [
+    452,
+    630,
+    50,
+    18
+   ]
+  },
+  {
+   "id": 37,
+   "name": "link_capless_e037",
+   "file": "link_capless_e037.png",
+   "cell": [
+    21,
+    18
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 219,
+     "role": "frame_0",
+     "src": [
+      726,
+      626,
+      21,
+      17
+     ]
+    },
+    {
+     "item": 220,
+     "role": "frame_1",
+     "src": [
+      759,
+      632,
+      18,
+      12
+     ]
+    }
+   ],
+   "box": [
+    726,
+    626,
+    51,
+    18
+   ]
+  },
+  {
+   "id": 38,
+   "name": "link_capless_e038",
+   "file": "link_capless_e038.png",
+   "cell": [
+    22,
+    27
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 221,
+     "role": "frame_0",
+     "src": [
+      13,
+      664,
+      22,
+      24
+     ]
+    },
+    {
+     "item": 222,
+     "role": "frame_1",
+     "src": [
+      47,
+      662,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 223,
+     "role": "frame_2",
+     "src": [
+      79,
+      663,
+      18,
+      22
+     ]
+    },
+    {
+     "item": 224,
+     "role": "frame_3",
+     "src": [
+      111,
+      661,
+      17,
+      22
+     ]
+    },
+    {
+     "item": 225,
+     "role": "frame_4",
+     "src": [
+      143,
+      661,
+      17,
+      23
+     ]
+    },
+    {
+     "item": 226,
+     "role": "frame_5",
+     "src": [
+      174,
+      662,
+      18,
+      22
+     ]
+    },
+    {
+     "item": 227,
+     "role": "frame_6",
+     "src": [
+      206,
+      663,
+      18,
+      20
+     ]
+    },
+    {
+     "item": 228,
+     "role": "frame_7",
+     "src": [
+      238,
+      663,
+      18,
+      21
+     ]
+    },
+    {
+     "item": 229,
+     "role": "frame_8",
+     "src": [
+      271,
+      662,
+      17,
+      22
+     ]
+    }
+   ],
+   "box": [
+    13,
+    661,
+    275,
+    27
+   ]
+  },
+  {
+   "id": 39,
+   "name": "link_capless_e039",
+   "file": "link_capless_e039.png",
+   "cell": [
+    17,
+    28
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 230,
+     "role": "frame_0",
+     "src": [
+      315,
+      661,
+      17,
+      25
+     ]
+    },
+    {
+     "item": 231,
+     "role": "frame_1",
+     "src": [
+      347,
+      661,
+      17,
+      25
+     ]
+    },
+    {
+     "item": 232,
+     "role": "frame_2",
+     "src": [
+      379,
+      661,
+      17,
+      27
+     ]
+    },
+    {
+     "item": 233,
+     "role": "frame_3",
+     "src": [
+      411,
+      660,
+      17,
+      27
+     ]
+    },
+    {
+     "item": 234,
+     "role": "frame_4",
+     "src": [
+      443,
+      662,
+      17,
+      25
+     ]
+    },
+    {
+     "item": 235,
+     "role": "frame_5",
+     "src": [
+      476,
+      663,
+      16,
+      25
+     ]
+    },
+    {
+     "item": 236,
+     "role": "frame_6",
+     "src": [
+      507,
+      662,
+      17,
+      26
+     ]
+    },
+    {
+     "item": 237,
+     "role": "frame_7",
+     "src": [
+      539,
+      662,
+      17,
+      25
+     ]
+    }
+   ],
+   "box": [
+    315,
+    660,
+    241,
+    28
+   ]
+  },
+  {
+   "id": 40,
+   "name": "link_capless_e040",
+   "file": "link_capless_e040.png",
+   "cell": [
+    5,
+    5
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 244,
+     "role": "frame_0",
+     "src": [
+      379,
+      695,
+      5,
+      5
+     ]
+    },
+    {
+     "item": 245,
+     "role": "frame_1",
+     "src": [
+      392,
+      695,
+      5,
+      5
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 246,
+     "role": "frame_2",
+     "src": [
+      411,
+      695,
+      5,
+      5
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 247,
+     "role": "frame_3",
+     "src": [
+      424,
+      695,
+      5,
+      5
+     ],
+     "duplicate_of": 1
+    }
+   ],
+   "box": [
+    379,
+    695,
+    50,
+    5
+   ]
+  },
+  {
+   "id": 41,
+   "name": "link_capless_e041",
+   "file": "link_capless_e041.png",
+   "cell": [
+    5,
+    5
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 248,
+     "role": "frame_0",
+     "src": [
+      475,
+      695,
+      5,
+      5
+     ]
+    },
+    {
+     "item": 249,
+     "role": "frame_1",
+     "src": [
+      488,
+      695,
+      5,
+      5
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 250,
+     "role": "frame_2",
+     "src": [
+      507,
+      695,
+      5,
+      5
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 251,
+     "role": "frame_3",
+     "src": [
+      520,
+      695,
+      5,
+      5
+     ],
+     "duplicate_of": 1
+    }
+   ],
+   "box": [
+    475,
+    695,
+    50,
+    5
+   ]
+  },
+  {
+   "id": 42,
+   "name": "link_capless_e042",
+   "file": "link_capless_e042.png",
+   "cell": [
+    5,
+    5
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 252,
+     "role": "frame_0",
+     "src": [
+      143,
+      707,
+      5,
+      5
+     ]
+    },
+    {
+     "item": 253,
+     "role": "frame_1",
+     "src": [
+      156,
+      707,
+      5,
+      5
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 254,
+     "role": "frame_2",
+     "src": [
+      175,
+      707,
+      5,
+      5
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 255,
+     "role": "frame_3",
+     "src": [
+      188,
+      707,
+      5,
+      5
+     ],
+     "duplicate_of": 1
+    }
+   ],
+   "box": [
+    143,
+    707,
+    50,
+    5
+   ]
+  },
+  {
+   "id": 43,
+   "name": "link_capless_e043",
+   "file": "link_capless_e043.png",
+   "cell": [
+    5,
+    5
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 256,
+     "role": "frame_0",
+     "src": [
+      239,
+      707,
+      5,
+      5
+     ]
+    },
+    {
+     "item": 257,
+     "role": "frame_1",
+     "src": [
+      252,
+      707,
+      5,
+      5
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 258,
+     "role": "frame_2",
+     "src": [
+      271,
+      707,
+      5,
+      5
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 259,
+     "role": "frame_3",
+     "src": [
+      284,
+      707,
+      5,
+      5
+     ],
+     "duplicate_of": 1
+    }
+   ],
+   "box": [
+    239,
+    707,
+    50,
+    5
+   ]
+  },
+  {
+   "id": 44,
+   "name": "link_capless_e044",
+   "file": "link_capless_e044.png",
+   "cell": [
+    20,
+    28
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 266,
+     "role": "frame_0",
+     "src": [
+      12,
+      726,
+      20,
+      26
+     ]
+    },
+    {
+     "item": 267,
+     "role": "frame_1",
+     "src": [
+      45,
+      729,
+      19,
+      23
+     ]
+    },
+    {
+     "item": 268,
+     "role": "frame_2",
+     "src": [
+      77,
+      728,
+      19,
+      24
+     ]
+    },
+    {
+     "item": 269,
+     "role": "frame_3",
+     "src": [
+      111,
+      728,
+      17,
+      24
+     ]
+    },
+    {
+     "item": 270,
+     "role": "frame_4",
+     "src": [
+      141,
+      730,
+      19,
+      24
+     ]
+    },
+    {
+     "item": 271,
+     "role": "frame_5",
+     "src": [
+      172,
+      729,
+      20,
+      22
+     ]
+    },
+    {
+     "item": 272,
+     "role": "frame_6",
+     "src": [
+      206,
+      730,
+      18,
+      21
+     ]
+    },
+    {
+     "item": 273,
+     "role": "frame_7",
+     "src": [
+      238,
+      729,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 274,
+     "role": "frame_8",
+     "src": [
+      270,
+      728,
+      18,
+      24
+     ]
+    }
+   ],
+   "box": [
+    12,
+    726,
+    276,
+    28
+   ]
+  },
+  {
+   "id": 45,
+   "name": "link_capless_e045",
+   "file": "link_capless_e045.png",
+   "cell": [
+    27,
+    23
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 275,
+     "role": "frame_0",
+     "src": [
+      310,
+      729,
+      23,
+      23
+     ]
+    },
+    {
+     "item": 276,
+     "role": "frame_1",
+     "src": [
+      340,
+      732,
+      25,
+      20
+     ]
+    },
+    {
+     "item": 277,
+     "role": "frame_2",
+     "src": [
+      372,
+      732,
+      26,
+      20
+     ]
+    },
+    {
+     "item": 278,
+     "role": "frame_3",
+     "src": [
+      404,
+      733,
+      26,
+      19
+     ]
+    },
+    {
+     "item": 279,
+     "role": "frame_4",
+     "src": [
+      436,
+      732,
+      26,
+      20
+     ]
+    },
+    {
+     "item": 280,
+     "role": "frame_5",
+     "src": [
+      468,
+      732,
+      27,
+      20
+     ]
+    },
+    {
+     "item": 281,
+     "role": "frame_6",
+     "src": [
+      500,
+      732,
+      26,
+      19
+     ]
+    },
+    {
+     "item": 282,
+     "role": "frame_7",
+     "src": [
+      532,
+      732,
+      25,
+      19
+     ]
+    }
+   ],
+   "box": [
+    310,
+    729,
+    247,
+    23
+   ]
+  },
+  {
+   "id": 46,
+   "name": "link_capless_e046",
+   "file": "link_capless_e046.png",
+   "cell": [
+    5,
+    5
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 283,
+     "role": "frame_0",
+     "src": [
+      376,
+      759,
+      5,
+      5
+     ]
+    },
+    {
+     "item": 284,
+     "role": "frame_1",
+     "src": [
+      392,
+      756,
+      5,
+      5
+     ]
+    },
+    {
+     "item": 285,
+     "role": "frame_2",
+     "src": [
+      408,
+      759,
+      5,
+      5
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 286,
+     "role": "frame_3",
+     "src": [
+      424,
+      756,
+      5,
+      5
+     ],
+     "duplicate_of": 1
+    }
+   ],
+   "box": [
+    376,
+    756,
+    53,
+    8
+   ]
+  },
+  {
+   "id": 47,
+   "name": "link_capless_e047",
+   "file": "link_capless_e047.png",
+   "cell": [
+    5,
+    5
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 287,
+     "role": "frame_0",
+     "src": [
+      472,
+      759,
+      5,
+      5
+     ]
+    },
+    {
+     "item": 288,
+     "role": "frame_1",
+     "src": [
+      488,
+      756,
+      5,
+      5
+     ]
+    },
+    {
+     "item": 289,
+     "role": "frame_2",
+     "src": [
+      504,
+      759,
+      5,
+      5
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 290,
+     "role": "frame_3",
+     "src": [
+      520,
+      756,
+      5,
+      5
+     ],
+     "duplicate_of": 1
+    }
+   ],
+   "box": [
+    472,
+    756,
+    53,
+    8
+   ]
+  },
+  {
+   "id": 48,
+   "name": "link_capless_e048",
+   "file": "link_capless_e048.png",
+   "cell": [
+    5,
+    5
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 297,
+     "role": "frame_0",
+     "src": [
+      140,
+      779,
+      5,
+      5
+     ]
+    },
+    {
+     "item": 298,
+     "role": "frame_1",
+     "src": [
+      152,
+      776,
+      5,
+      5
+     ]
+    },
+    {
+     "item": 299,
+     "role": "frame_2",
+     "src": [
+      172,
+      779,
+      5,
+      5
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 300,
+     "role": "frame_3",
+     "src": [
+      184,
+      776,
+      5,
+      5
+     ],
+     "duplicate_of": 1
+    }
+   ],
+   "box": [
+    140,
+    776,
+    49,
+    8
+   ]
+  },
+  {
+   "id": 49,
+   "name": "link_capless_e049",
+   "file": "link_capless_e049.png",
+   "cell": [
+    5,
+    5
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 301,
+     "role": "frame_0",
+     "src": [
+      236,
+      779,
+      5,
+      5
+     ]
+    },
+    {
+     "item": 302,
+     "role": "frame_1",
+     "src": [
+      252,
+      776,
+      5,
+      5
+     ]
+    },
+    {
+     "item": 303,
+     "role": "frame_2",
+     "src": [
+      268,
+      779,
+      5,
+      5
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 304,
+     "role": "frame_3",
+     "src": [
+      284,
+      776,
+      5,
+      5
+     ],
+     "duplicate_of": 1
+    }
+   ],
+   "box": [
+    236,
+    776,
+    53,
+    8
+   ]
+  },
+  {
+   "id": 50,
+   "name": "link_capless_e050",
+   "file": "link_capless_e050.png",
+   "cell": [
+    20,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 311,
+     "role": "frame_0",
+     "src": [
+      14,
+      800,
+      20,
+      23
+     ]
+    },
+    {
+     "item": 312,
+     "role": "frame_1",
+     "src": [
+      47,
+      798,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 313,
+     "role": "frame_2",
+     "src": [
+      79,
+      799,
+      18,
+      24
+     ]
+    },
+    {
+     "item": 314,
+     "role": "frame_3",
+     "src": [
+      112,
+      798,
+      16,
+      25
+     ]
+    },
+    {
+     "item": 315,
+     "role": "frame_4",
+     "src": [
+      144,
+      798,
+      17,
+      26
+     ]
+    },
+    {
+     "item": 316,
+     "role": "frame_5",
+     "src": [
+      176,
+      799,
+      17,
+      25
+     ]
+    },
+    {
+     "item": 317,
+     "role": "frame_6",
+     "src": [
+      208,
+      798,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 318,
+     "role": "frame_7",
+     "src": [
+      240,
+      799,
+      15,
+      25
+     ]
+    },
+    {
+     "item": 319,
+     "role": "frame_8",
+     "src": [
+      272,
+      800,
+      16,
+      24
+     ]
+    }
+   ],
+   "box": [
+    14,
+    798,
+    274,
+    26
+   ]
+  },
+  {
+   "id": 51,
+   "name": "link_capless_e051",
+   "file": "link_capless_e051.png",
+   "cell": [
+    16,
+    24
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 320,
+     "role": "frame_0",
+     "src": [
+      316,
+      803,
+      16,
+      19
+     ]
+    },
+    {
+     "item": 321,
+     "role": "frame_1",
+     "src": [
+      348,
+      806,
+      16,
+      21
+     ]
+    },
+    {
+     "item": 322,
+     "role": "frame_2",
+     "src": [
+      380,
+      806,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 323,
+     "role": "frame_3",
+     "src": [
+      412,
+      806,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 324,
+     "role": "frame_4",
+     "src": [
+      444,
+      806,
+      16,
+      21
+     ]
+    },
+    {
+     "item": 325,
+     "role": "frame_5",
+     "src": [
+      476,
+      806,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 326,
+     "role": "frame_6",
+     "src": [
+      508,
+      806,
+      16,
+      21
+     ]
+    },
+    {
+     "item": 327,
+     "role": "frame_7",
+     "src": [
+      540,
+      807,
+      16,
+      19
+     ]
+    }
+   ],
+   "box": [
+    316,
+    803,
+    240,
+    24
+   ]
+  },
+  {
+   "id": 52,
+   "name": "link_capless_e052",
+   "file": "link_capless_e052.png",
+   "cell": [
+    5,
+    5
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 334,
+     "role": "frame_0",
+     "src": [
+      379,
+      836,
+      5,
+      5
+     ]
+    },
+    {
+     "item": 335,
+     "role": "frame_1",
+     "src": [
+      392,
+      836,
+      5,
+      5
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 336,
+     "role": "frame_2",
+     "src": [
+      411,
+      836,
+      5,
+      5
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 337,
+     "role": "frame_3",
+     "src": [
+      424,
+      836,
+      5,
+      5
+     ],
+     "duplicate_of": 1
+    }
+   ],
+   "box": [
+    379,
+    836,
+    50,
+    5
+   ]
+  },
+  {
+   "id": 53,
+   "name": "link_capless_e053",
+   "file": "link_capless_e053.png",
+   "cell": [
+    5,
+    5
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 338,
+     "role": "frame_0",
+     "src": [
+      475,
+      836,
+      5,
+      5
+     ]
+    },
+    {
+     "item": 339,
+     "role": "frame_1",
+     "src": [
+      488,
+      836,
+      5,
+      5
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 340,
+     "role": "frame_2",
+     "src": [
+      507,
+      836,
+      5,
+      5
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 341,
+     "role": "frame_3",
+     "src": [
+      520,
+      836,
+      5,
+      5
+     ],
+     "duplicate_of": 1
+    }
+   ],
+   "box": [
+    475,
+    836,
+    50,
+    5
+   ]
+  },
+  {
+   "id": 54,
+   "name": "link_capless_e054",
+   "file": "link_capless_e054.png",
+   "cell": [
+    5,
+    5
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 342,
+     "role": "frame_0",
+     "src": [
+      111,
+      848,
+      5,
+      5
+     ]
+    },
+    {
+     "item": 343,
+     "role": "frame_1",
+     "src": [
+      124,
+      848,
+      5,
+      5
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 344,
+     "role": "frame_2",
+     "src": [
+      143,
+      848,
+      5,
+      5
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 345,
+     "role": "frame_3",
+     "src": [
+      160,
+      848,
+      5,
+      5
+     ],
+     "duplicate_of": 1
+    }
+   ],
+   "box": [
+    111,
+    848,
+    54,
+    5
+   ]
+  },
+  {
+   "id": 55,
+   "name": "link_capless_e055",
+   "file": "link_capless_e055.png",
+   "cell": [
+    5,
+    5
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 346,
+     "role": "frame_0",
+     "src": [
+      207,
+      848,
+      5,
+      5
+     ]
+    },
+    {
+     "item": 347,
+     "role": "frame_1",
+     "src": [
+      220,
+      848,
+      5,
+      5
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 348,
+     "role": "frame_2",
+     "src": [
+      239,
+      848,
+      5,
+      5
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 349,
+     "role": "frame_3",
+     "src": [
+      252,
+      848,
+      5,
+      5
+     ],
+     "duplicate_of": 1
+    }
+   ],
+   "box": [
+    207,
+    848,
+    50,
+    5
+   ]
+  },
+  {
+   "id": 56,
+   "name": "link_capless_e056",
+   "file": "link_capless_e056.png",
+   "cell": [
+    22,
+    27
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 356,
+     "role": "frame_0",
+     "src": [
+      15,
+      878,
+      18,
+      20
+     ]
+    },
+    {
+     "item": 357,
+     "role": "frame_1",
+     "src": [
+      47,
+      878,
+      18,
+      22
+     ]
+    },
+    {
+     "item": 358,
+     "role": "frame_2",
+     "src": [
+      79,
+      877,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 359,
+     "role": "frame_3",
+     "src": [
+      111,
+      876,
+      18,
+      24
+     ]
+    },
+    {
+     "item": 360,
+     "role": "frame_4",
+     "src": [
+      143,
+      875,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 361,
+     "role": "frame_5",
+     "src": [
+      175,
+      874,
+      18,
+      26
+     ]
+    },
+    {
+     "item": 362,
+     "role": "frame_6",
+     "src": [
+      205,
+      873,
+      22,
+      27
+     ]
+    },
+    {
+     "item": 363,
+     "role": "frame_7",
+     "src": [
+      239,
+      877,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 364,
+     "role": "frame_8",
+     "src": [
+      271,
+      876,
+      18,
+      23
+     ]
+    }
+   ],
+   "box": [
+    15,
+    873,
+    274,
+    27
+   ]
+  },
+  {
+   "id": 57,
+   "name": "link_capless_e057",
+   "file": "link_capless_e057.png",
+   "cell": [
+    21,
+    25
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 365,
+     "role": "frame_0",
+     "src": [
+      315,
+      877,
+      21,
+      23
+     ]
+    },
+    {
+     "item": 366,
+     "role": "frame_1",
+     "src": [
+      352,
+      877,
+      17,
+      23
+     ]
+    },
+    {
+     "item": 367,
+     "role": "frame_2",
+     "src": [
+      384,
+      878,
+      18,
+      22
+     ]
+    },
+    {
+     "item": 368,
+     "role": "frame_3",
+     "src": [
+      416,
+      877,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 369,
+     "role": "frame_4",
+     "src": [
+      448,
+      875,
+      19,
+      25
+     ]
+    },
+    {
+     "item": 370,
+     "role": "frame_5",
+     "src": [
+      480,
+      876,
+      19,
+      24
+     ]
+    },
+    {
+     "item": 371,
+     "role": "frame_6",
+     "src": [
+      512,
+      875,
+      19,
+      25
+     ]
+    },
+    {
+     "item": 372,
+     "role": "frame_7",
+     "src": [
+      544,
+      877,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 373,
+     "role": "frame_8",
+     "src": [
+      574,
+      875,
+      18,
+      25
+     ]
+    }
+   ],
+   "box": [
+    315,
+    875,
+    277,
+    25
+   ]
+  },
+  {
+   "id": 58,
+   "name": "link_capless_e058",
+   "file": "link_capless_e058.png",
+   "cell": [
+    19,
+    24
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 374,
+     "role": "frame_0",
+     "src": [
+      628,
+      877,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 375,
+     "role": "frame_1",
+     "src": [
+      659,
+      877,
+      18,
+      21
+     ]
+    },
+    {
+     "item": 376,
+     "role": "frame_2",
+     "src": [
+      691,
+      877,
+      18,
+      22
+     ]
+    },
+    {
+     "item": 377,
+     "role": "frame_3",
+     "src": [
+      723,
+      877,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 378,
+     "role": "frame_4",
+     "src": [
+      754,
+      876,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 379,
+     "role": "frame_5",
+     "src": [
+      786,
+      876,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 380,
+     "role": "frame_6",
+     "src": [
+      819,
+      877,
+      17,
+      22
+     ]
+    },
+    {
+     "item": 381,
+     "role": "frame_7",
+     "src": [
+      850,
+      877,
+      18,
+      22
+     ]
+    }
+   ],
+   "box": [
+    628,
+    876,
+    240,
+    24
+   ]
+  },
+  {
+   "id": 59,
+   "name": "link_capless_e059",
+   "file": "link_capless_e059.png",
+   "cell": [
+    5,
+    5
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 382,
+     "role": "frame_0",
+     "src": [
+      47,
+      907,
+      5,
+      5
+     ]
+    },
+    {
+     "item": 383,
+     "role": "frame_1",
+     "src": [
+      60,
+      907,
+      5,
+      5
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 384,
+     "role": "frame_2",
+     "src": [
+      79,
+      907,
+      5,
+      5
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 385,
+     "role": "frame_3",
+     "src": [
+      92,
+      907,
+      5,
+      5
+     ],
+     "duplicate_of": 1
+    }
+   ],
+   "box": [
+    47,
+    907,
+    50,
+    5
+   ]
+  },
+  {
+   "id": 60,
+   "name": "link_capless_e060",
+   "file": "link_capless_e060.png",
+   "cell": [
+    5,
+    5
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 388,
+     "role": "frame_0",
+     "src": [
+      627,
+      904,
+      5,
+      5
+     ]
+    },
+    {
+     "item": 389,
+     "role": "frame_1",
+     "src": [
+      640,
+      904,
+      5,
+      5
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 390,
+     "role": "frame_2",
+     "src": [
+      659,
+      904,
+      5,
+      5
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 391,
+     "role": "frame_3",
+     "src": [
+      672,
+      904,
+      5,
+      5
+     ],
+     "duplicate_of": 1
+    }
+   ],
+   "box": [
+    627,
+    904,
+    50,
+    5
+   ]
+  },
+  {
+   "id": 61,
+   "name": "link_capless_e061",
+   "file": "link_capless_e061.png",
+   "cell": [
+    18,
+    27
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 392,
+     "role": "frame_0",
+     "src": [
+      15,
+      927,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 393,
+     "role": "frame_1",
+     "src": [
+      47,
+      927,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 394,
+     "role": "frame_2",
+     "src": [
+      79,
+      927,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 395,
+     "role": "frame_3",
+     "src": [
+      111,
+      926,
+      18,
+      26
+     ]
+    },
+    {
+     "item": 396,
+     "role": "frame_4",
+     "src": [
+      143,
+      925,
+      18,
+      27
+     ]
+    },
+    {
+     "item": 397,
+     "role": "frame_5",
+     "src": [
+      175,
+      927,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 398,
+     "role": "frame_6",
+     "src": [
+      207,
+      927,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 399,
+     "role": "frame_7",
+     "src": [
+      239,
+      927,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 400,
+     "role": "frame_8",
+     "src": [
+      271,
+      926,
+      18,
+      26
+     ]
+    },
+    {
+     "item": 401,
+     "role": "frame_9",
+     "src": [
+      303,
+      925,
+      18,
+      27
+     ]
+    }
+   ],
+   "box": [
+    15,
+    925,
+    306,
+    27
+   ]
+  },
+  {
+   "id": 62,
+   "name": "link_capless_e062",
+   "file": "link_capless_e062.png",
+   "cell": [
+    24,
+    27
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 402,
+     "role": "frame_0",
+     "src": [
+      355,
+      926,
+      20,
+      26
+     ]
+    },
+    {
+     "item": 403,
+     "role": "frame_1",
+     "src": [
+      387,
+      927,
+      20,
+      24
+     ]
+    },
+    {
+     "item": 404,
+     "role": "frame_2",
+     "src": [
+      417,
+      928,
+      22,
+      23
+     ]
+    },
+    {
+     "item": 405,
+     "role": "frame_3",
+     "src": [
+      452,
+      926,
+      21,
+      25
+     ]
+    },
+    {
+     "item": 406,
+     "role": "frame_4",
+     "src": [
+      484,
+      925,
+      20,
+      26
+     ]
+    },
+    {
+     "item": 407,
+     "role": "frame_5",
+     "src": [
+      516,
+      926,
+      20,
+      26
+     ]
+    },
+    {
+     "item": 408,
+     "role": "frame_6",
+     "src": [
+      548,
+      927,
+      19,
+      25
+     ]
+    },
+    {
+     "item": 409,
+     "role": "frame_7",
+     "src": [
+      578,
+      928,
+      21,
+      24
+     ]
+    },
+    {
+     "item": 410,
+     "role": "frame_8",
+     "src": [
+      612,
+      926,
+      20,
+      25
+     ]
+    },
+    {
+     "item": 411,
+     "role": "frame_9",
+     "src": [
+      644,
+      925,
+      20,
+      26
+     ]
+    }
+   ],
+   "box": [
+    355,
+    925,
+    309,
+    27
+   ]
+  },
+  {
+   "id": 63,
+   "name": "link_capless_e063",
+   "file": "link_capless_e063.png",
+   "cell": [
+    18,
+    28
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 412,
+     "role": "frame_0",
+     "src": [
+      703,
+      927,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 413,
+     "role": "frame_1",
+     "src": [
+      735,
+      928,
+      18,
+      24
+     ]
+    },
+    {
+     "item": 414,
+     "role": "frame_2",
+     "src": [
+      767,
+      928,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 415,
+     "role": "frame_3",
+     "src": [
+      799,
+      926,
+      18,
+      28
+     ]
+    },
+    {
+     "item": 416,
+     "role": "frame_4",
+     "src": [
+      831,
+      926,
+      18,
+      27
+     ]
+    },
+    {
+     "item": 417,
+     "role": "frame_5",
+     "src": [
+      863,
+      927,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 418,
+     "role": "frame_6",
+     "src": [
+      895,
+      928,
+      18,
+      24
+     ]
+    },
+    {
+     "item": 419,
+     "role": "frame_7",
+     "src": [
+      927,
+      928,
+      18,
+      25
+     ]
+    },
+    {
+     "item": 420,
+     "role": "frame_8",
+     "src": [
+      959,
+      926,
+      18,
+      28
+     ]
+    },
+    {
+     "item": 421,
+     "role": "frame_9",
+     "src": [
+      991,
+      926,
+      18,
+      27
+     ]
+    }
+   ],
+   "box": [
+    703,
+    926,
+    306,
+    28
+   ]
+  },
+  {
+   "id": 64,
+   "name": "link_capless_e064",
+   "file": "link_capless_e064.png",
+   "cell": [
+    17,
+    17
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 425,
+     "role": "frame_0",
+     "src": [
+      48,
+      979,
+      15,
+      16
+     ]
+    },
+    {
+     "item": 426,
+     "role": "frame_1",
+     "src": [
+      80,
+      980,
+      16,
+      15
+     ]
+    },
+    {
+     "item": 427,
+     "role": "frame_2",
+     "src": [
+      111,
+      980,
+      17,
+      16
+     ]
+    }
+   ],
+   "box": [
+    48,
+    979,
+    80,
+    17
+   ]
+  },
+  {
+   "id": 65,
+   "name": "link_capless_e065",
+   "file": "link_capless_e065.png",
+   "cell": [
+    18,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 428,
+     "role": "frame_0",
+     "src": [
+      196,
+      977,
+      17,
+      15
+     ]
+    },
+    {
+     "item": 429,
+     "role": "frame_1",
+     "src": [
+      228,
+      976,
+      17,
+      14
+     ]
+    },
+    {
+     "item": 430,
+     "role": "frame_2",
+     "src": [
+      260,
+      976,
+      18,
+      16
+     ]
+    }
+   ],
+   "box": [
+    196,
+    976,
+    82,
+    16
+   ]
+  },
+  {
+   "id": 66,
+   "name": "link_capless_e066",
+   "file": "link_capless_e066.png",
+   "cell": [
+    16,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 431,
+     "role": "frame_0",
+     "src": [
+      353,
+      976,
+      15,
+      16
+     ]
+    },
+    {
+     "item": 432,
+     "role": "frame_1",
+     "src": [
+      384,
+      976,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 433,
+     "role": "frame_2",
+     "src": [
+      416,
+      979,
+      16,
+      13
+     ]
+    }
+   ],
+   "box": [
+    353,
+    976,
+    79,
+    16
+   ]
+  },
+  {
+   "id": 67,
+   "name": "link_capless_e067",
+   "file": "link_capless_e067.png",
+   "cell": [
+    10,
+    21
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 443,
+     "role": "frame_0",
+     "src": [
+      167,
+      1051,
+      10,
+      10
+     ]
+    },
+    {
+     "item": 444,
+     "role": "frame_1",
+     "src": [
+      188,
+      1041,
+      7,
+      21
+     ]
+    }
+   ],
+   "box": [
+    167,
+    1041,
+    28,
+    21
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 320,
+   "y": 259,
+   "w": 20,
+   "h": 25,
+   "area": 329,
+   "ncolors": 15,
+   "dominant": "#000001",
+   "dom_frac": 0.219,
+   "kind": "sprite",
+   "zone": null,
+   "id": 91,
+   "file": "link_capless_091.png"
+  },
+  {
+   "x": 133,
+   "y": 288,
+   "w": 15,
+   "h": 7,
+   "area": 62,
+   "ncolors": 8,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.29,
+   "kind": "sprite",
+   "zone": null,
+   "id": 92,
+   "file": "link_capless_092.png"
+  },
+  {
+   "x": 214,
+   "y": 291,
+   "w": 11,
+   "h": 10,
+   "area": 39,
+   "ncolors": 3,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.385,
+   "kind": "sprite",
+   "zone": null,
+   "id": 93,
+   "file": "link_capless_093.png"
+  },
+  {
+   "x": 168,
+   "y": 289,
+   "w": 7,
+   "h": 21,
+   "area": 76,
+   "ncolors": 8,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.237,
+   "kind": "sprite",
+   "zone": null,
+   "id": 97,
+   "file": "link_capless_097.png"
+  },
+  {
+   "x": 200,
+   "y": 289,
+   "w": 7,
+   "h": 21,
+   "area": 76,
+   "ncolors": 8,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.237,
+   "kind": "sprite",
+   "zone": null,
+   "id": 98,
+   "file": "link_capless_098.png",
+   "duplicate_of": 3
+  },
+  {
+   "x": 207,
+   "y": 622,
+   "w": 9,
+   "h": 3,
+   "area": 11,
+   "ncolors": 2,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.727,
+   "kind": "sprite",
+   "zone": null,
+   "id": 212,
+   "file": "link_capless_212.png"
+  },
+  {
+   "x": 487,
+   "y": 626,
+   "w": 9,
+   "h": 3,
+   "area": 11,
+   "ncolors": 2,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.727,
+   "kind": "sprite",
+   "zone": null,
+   "id": 213,
+   "file": "link_capless_213.png",
+   "duplicate_of": 5
+  },
+  {
+   "x": 759,
+   "y": 622,
+   "w": 9,
+   "h": 3,
+   "area": 11,
+   "ncolors": 2,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.727,
+   "kind": "sprite",
+   "zone": null,
+   "id": 214,
+   "file": "link_capless_214.png",
+   "duplicate_of": 5
+  },
+  {
+   "x": 119,
+   "y": 696,
+   "w": 8,
+   "h": 4,
+   "area": 19,
+   "ncolors": 4,
+   "dominant": "#F85010",
+   "dom_frac": 0.368,
+   "kind": "sprite",
+   "zone": null,
+   "id": 238,
+   "file": "link_capless_238.png"
+  },
+  {
+   "x": 151,
+   "y": 697,
+   "w": 8,
+   "h": 3,
+   "area": 17,
+   "ncolors": 4,
+   "dominant": "#F85010",
+   "dom_frac": 0.412,
+   "kind": "sprite",
+   "zone": null,
+   "id": 239,
+   "file": "link_capless_239.png"
+  },
+  {
+   "x": 183,
+   "y": 696,
+   "w": 8,
+   "h": 4,
+   "area": 23,
+   "ncolors": 4,
+   "dominant": "#D04020",
+   "dom_frac": 0.391,
+   "kind": "sprite",
+   "zone": null,
+   "id": 240,
+   "file": "link_capless_240.png"
+  },
+  {
+   "x": 215,
+   "y": 696,
+   "w": 8,
+   "h": 4,
+   "area": 23,
+   "ncolors": 4,
+   "dominant": "#D04020",
+   "dom_frac": 0.391,
+   "kind": "sprite",
+   "zone": null,
+   "id": 241,
+   "file": "link_capless_241.png"
+  },
+  {
+   "x": 247,
+   "y": 696,
+   "w": 8,
+   "h": 4,
+   "area": 18,
+   "ncolors": 4,
+   "dominant": "#D04020",
+   "dom_frac": 0.333,
+   "kind": "sprite",
+   "zone": null,
+   "id": 242,
+   "file": "link_capless_242.png"
+  },
+  {
+   "x": 279,
+   "y": 696,
+   "w": 7,
+   "h": 4,
+   "area": 16,
+   "ncolors": 4,
+   "dominant": "#D04020",
+   "dom_frac": 0.312,
+   "kind": "sprite",
+   "zone": null,
+   "id": 243,
+   "file": "link_capless_243.png"
+  },
+  {
+   "x": 385,
+   "y": 709,
+   "w": 10,
+   "h": 10,
+   "area": 79,
+   "ncolors": 4,
+   "dominant": "#F85010",
+   "dom_frac": 0.43,
+   "kind": "sprite",
+   "zone": null,
+   "id": 260,
+   "file": "link_capless_260.png"
+  },
+  {
+   "x": 417,
+   "y": 709,
+   "w": 10,
+   "h": 10,
+   "area": 74,
+   "ncolors": 4,
+   "dominant": "#F85010",
+   "dom_frac": 0.459,
+   "kind": "sprite",
+   "zone": null,
+   "id": 261,
+   "file": "link_capless_261.png"
+  },
+  {
+   "x": 449,
+   "y": 708,
+   "w": 10,
+   "h": 10,
+   "area": 70,
+   "ncolors": 4,
+   "dominant": "#F85010",
+   "dom_frac": 0.471,
+   "kind": "sprite",
+   "zone": null,
+   "id": 262,
+   "file": "link_capless_262.png"
+  },
+  {
+   "x": 481,
+   "y": 709,
+   "w": 10,
+   "h": 10,
+   "area": 72,
+   "ncolors": 4,
+   "dominant": "#F85010",
+   "dom_frac": 0.458,
+   "kind": "sprite",
+   "zone": null,
+   "id": 263,
+   "file": "link_capless_263.png"
+  },
+  {
+   "x": 513,
+   "y": 708,
+   "w": 10,
+   "h": 11,
+   "area": 78,
+   "ncolors": 4,
+   "dominant": "#F85010",
+   "dom_frac": 0.487,
+   "kind": "sprite",
+   "zone": null,
+   "id": 264,
+   "file": "link_capless_264.png"
+  },
+  {
+   "x": 545,
+   "y": 708,
+   "w": 10,
+   "h": 10,
+   "area": 72,
+   "ncolors": 4,
+   "dominant": "#F85010",
+   "dom_frac": 0.486,
+   "kind": "sprite",
+   "zone": null,
+   "id": 265,
+   "file": "link_capless_265.png"
+  },
+  {
+   "x": 119,
+   "y": 764,
+   "w": 9,
+   "h": 8,
+   "area": 49,
+   "ncolors": 4,
+   "dominant": "#D04020",
+   "dom_frac": 0.347,
+   "kind": "sprite",
+   "zone": null,
+   "id": 291,
+   "file": "link_capless_291.png"
+  },
+  {
+   "x": 151,
+   "y": 764,
+   "w": 9,
+   "h": 8,
+   "area": 50,
+   "ncolors": 4,
+   "dominant": "#D04020",
+   "dom_frac": 0.32,
+   "kind": "sprite",
+   "zone": null,
+   "id": 292,
+   "file": "link_capless_292.png"
+  },
+  {
+   "x": 183,
+   "y": 764,
+   "w": 9,
+   "h": 8,
+   "area": 51,
+   "ncolors": 4,
+   "dominant": "#D04020",
+   "dom_frac": 0.294,
+   "kind": "sprite",
+   "zone": null,
+   "id": 293,
+   "file": "link_capless_293.png"
+  },
+  {
+   "x": 215,
+   "y": 764,
+   "w": 9,
+   "h": 8,
+   "area": 51,
+   "ncolors": 4,
+   "dominant": "#D04020",
+   "dom_frac": 0.333,
+   "kind": "sprite",
+   "zone": null,
+   "id": 294,
+   "file": "link_capless_294.png"
+  },
+  {
+   "x": 247,
+   "y": 764,
+   "w": 9,
+   "h": 8,
+   "area": 50,
+   "ncolors": 4,
+   "dominant": "#D04020",
+   "dom_frac": 0.32,
+   "kind": "sprite",
+   "zone": null,
+   "id": 295,
+   "file": "link_capless_295.png"
+  },
+  {
+   "x": 279,
+   "y": 764,
+   "w": 9,
+   "h": 8,
+   "area": 51,
+   "ncolors": 4,
+   "dominant": "#F85010",
+   "dom_frac": 0.314,
+   "kind": "sprite",
+   "zone": null,
+   "id": 296,
+   "file": "link_capless_296.png"
+  },
+  {
+   "x": 386,
+   "y": 775,
+   "w": 9,
+   "h": 9,
+   "area": 53,
+   "ncolors": 3,
+   "dominant": "#F85010",
+   "dom_frac": 0.547,
+   "kind": "sprite",
+   "zone": null,
+   "id": 305,
+   "file": "link_capless_305.png"
+  },
+  {
+   "x": 418,
+   "y": 775,
+   "w": 9,
+   "h": 9,
+   "area": 53,
+   "ncolors": 3,
+   "dominant": "#F85010",
+   "dom_frac": 0.528,
+   "kind": "sprite",
+   "zone": null,
+   "id": 306,
+   "file": "link_capless_306.png"
+  },
+  {
+   "x": 450,
+   "y": 775,
+   "w": 9,
+   "h": 9,
+   "area": 50,
+   "ncolors": 3,
+   "dominant": "#F85010",
+   "dom_frac": 0.52,
+   "kind": "sprite",
+   "zone": null,
+   "id": 307,
+   "file": "link_capless_307.png"
+  },
+  {
+   "x": 482,
+   "y": 774,
+   "w": 9,
+   "h": 10,
+   "area": 54,
+   "ncolors": 3,
+   "dominant": "#F85010",
+   "dom_frac": 0.556,
+   "kind": "sprite",
+   "zone": null,
+   "id": 308,
+   "file": "link_capless_308.png"
+  },
+  {
+   "x": 515,
+   "y": 775,
+   "w": 9,
+   "h": 9,
+   "area": 52,
+   "ncolors": 3,
+   "dominant": "#F85010",
+   "dom_frac": 0.519,
+   "kind": "sprite",
+   "zone": null,
+   "id": 309,
+   "file": "link_capless_309.png"
+  },
+  {
+   "x": 547,
+   "y": 775,
+   "w": 9,
+   "h": 9,
+   "area": 49,
+   "ncolors": 3,
+   "dominant": "#F85010",
+   "dom_frac": 0.531,
+   "kind": "sprite",
+   "zone": null,
+   "id": 310,
+   "file": "link_capless_310.png"
+  },
+  {
+   "x": 117,
+   "y": 834,
+   "w": 4,
+   "h": 6,
+   "area": 15,
+   "ncolors": 4,
+   "dominant": "#701810",
+   "dom_frac": 0.333,
+   "kind": "sprite",
+   "zone": null,
+   "id": 328,
+   "file": "link_capless_328.png"
+  },
+  {
+   "x": 149,
+   "y": 834,
+   "w": 4,
+   "h": 6,
+   "area": 15,
+   "ncolors": 4,
+   "dominant": "#701810",
+   "dom_frac": 0.333,
+   "kind": "sprite",
+   "zone": null,
+   "id": 329,
+   "file": "link_capless_329.png"
+  },
+  {
+   "x": 181,
+   "y": 835,
+   "w": 4,
+   "h": 6,
+   "area": 16,
+   "ncolors": 4,
+   "dominant": "#701810",
+   "dom_frac": 0.375,
+   "kind": "sprite",
+   "zone": null,
+   "id": 330,
+   "file": "link_capless_330.png"
+  },
+  {
+   "x": 213,
+   "y": 834,
+   "w": 4,
+   "h": 6,
+   "area": 15,
+   "ncolors": 4,
+   "dominant": "#701810",
+   "dom_frac": 0.333,
+   "kind": "sprite",
+   "zone": null,
+   "id": 331,
+   "file": "link_capless_331.png",
+   "duplicate_of": 33
+  },
+  {
+   "x": 245,
+   "y": 835,
+   "w": 4,
+   "h": 5,
+   "area": 14,
+   "ncolors": 4,
+   "dominant": "#701810",
+   "dom_frac": 0.357,
+   "kind": "sprite",
+   "zone": null,
+   "id": 332,
+   "file": "link_capless_332.png"
+  },
+  {
+   "x": 277,
+   "y": 835,
+   "w": 4,
+   "h": 6,
+   "area": 14,
+   "ncolors": 4,
+   "dominant": "#701810",
+   "dom_frac": 0.357,
+   "kind": "sprite",
+   "zone": null,
+   "id": 333,
+   "file": "link_capless_333.png"
+  },
+  {
+   "x": 382,
+   "y": 848,
+   "w": 9,
+   "h": 8,
+   "area": 33,
+   "ncolors": 3,
+   "dominant": "#F85010",
+   "dom_frac": 0.394,
+   "kind": "sprite",
+   "zone": null,
+   "id": 350,
+   "file": "link_capless_350.png"
+  },
+  {
+   "x": 414,
+   "y": 848,
+   "w": 10,
+   "h": 8,
+   "area": 35,
+   "ncolors": 3,
+   "dominant": "#F85010",
+   "dom_frac": 0.429,
+   "kind": "sprite",
+   "zone": null,
+   "id": 351,
+   "file": "link_capless_351.png"
+  },
+  {
+   "x": 446,
+   "y": 848,
+   "w": 10,
+   "h": 5,
+   "area": 26,
+   "ncolors": 3,
+   "dominant": "#F85010",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "id": 352,
+   "file": "link_capless_352.png"
+  },
+  {
+   "x": 478,
+   "y": 849,
+   "w": 9,
+   "h": 6,
+   "area": 28,
+   "ncolors": 3,
+   "dominant": "#F85010",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "id": 353,
+   "file": "link_capless_353.png"
+  },
+  {
+   "x": 510,
+   "y": 849,
+   "w": 9,
+   "h": 6,
+   "area": 27,
+   "ncolors": 3,
+   "dominant": "#F85010",
+   "dom_frac": 0.556,
+   "kind": "sprite",
+   "zone": null,
+   "id": 354,
+   "file": "link_capless_354.png"
+  },
+  {
+   "x": 542,
+   "y": 848,
+   "w": 9,
+   "h": 6,
+   "area": 27,
+   "ncolors": 3,
+   "dominant": "#F85010",
+   "dom_frac": 0.556,
+   "kind": "sprite",
+   "zone": null,
+   "id": 355,
+   "file": "link_capless_355.png"
+  },
+  {
+   "x": 356,
+   "y": 904,
+   "w": 5,
+   "h": 5,
+   "area": 8,
+   "ncolors": 1,
+   "dominant": "#F8F8F8",
+   "dom_frac": 1.0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 386,
+   "file": "link_capless_386.png"
+  },
+  {
+   "x": 388,
+   "y": 904,
+   "w": 5,
+   "h": 5,
+   "area": 8,
+   "ncolors": 1,
+   "dominant": "#F8F8F8",
+   "dom_frac": 1.0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 387,
+   "file": "link_capless_387.png",
+   "duplicate_of": 44
+  },
+  {
+   "x": 14,
+   "y": 972,
+   "w": 19,
+   "h": 28,
+   "area": 343,
+   "ncolors": 15,
+   "dominant": "#F8F800",
+   "dom_frac": 0.201,
+   "kind": "sprite",
+   "zone": null,
+   "id": 422,
+   "file": "link_capless_422.png"
+  },
+  {
+   "x": 163,
+   "y": 974,
+   "w": 20,
+   "h": 26,
+   "area": 308,
+   "ncolors": 15,
+   "dominant": "#F8F800",
+   "dom_frac": 0.218,
+   "kind": "sprite",
+   "zone": null,
+   "id": 423,
+   "file": "link_capless_423.png"
+  },
+  {
+   "x": 319,
+   "y": 974,
+   "w": 17,
+   "h": 25,
+   "area": 279,
+   "ncolors": 13,
+   "dominant": "#F8F800",
+   "dom_frac": 0.258,
+   "kind": "sprite",
+   "zone": null,
+   "id": 424,
+   "file": "link_capless_424.png"
+  },
+  {
+   "x": 19,
+   "y": 1004,
+   "w": 10,
+   "h": 4,
+   "area": 30,
+   "ncolors": 3,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.533,
+   "kind": "sprite",
+   "zone": null,
+   "id": 434,
+   "file": "link_capless_434.png"
+  },
+  {
+   "x": 51,
+   "y": 1004,
+   "w": 10,
+   "h": 4,
+   "area": 30,
+   "ncolors": 3,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.533,
+   "kind": "sprite",
+   "zone": null,
+   "id": 435,
+   "file": "link_capless_435.png",
+   "duplicate_of": 49
+  },
+  {
+   "x": 83,
+   "y": 1004,
+   "w": 10,
+   "h": 10,
+   "area": 62,
+   "ncolors": 3,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.613,
+   "kind": "sprite",
+   "zone": null,
+   "id": 436,
+   "file": "link_capless_436.png"
+  },
+  {
+   "x": 165,
+   "y": 1004,
+   "w": 4,
+   "h": 4,
+   "area": 15,
+   "ncolors": 3,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.533,
+   "kind": "sprite",
+   "zone": null,
+   "id": 437,
+   "file": "link_capless_437.png"
+  },
+  {
+   "x": 197,
+   "y": 1004,
+   "w": 4,
+   "h": 4,
+   "area": 15,
+   "ncolors": 3,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.533,
+   "kind": "sprite",
+   "zone": null,
+   "id": 438,
+   "file": "link_capless_438.png",
+   "duplicate_of": 52
+  },
+  {
+   "x": 229,
+   "y": 1004,
+   "w": 4,
+   "h": 10,
+   "area": 31,
+   "ncolors": 3,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.613,
+   "kind": "sprite",
+   "zone": null,
+   "id": 439,
+   "file": "link_capless_439.png"
+  },
+  {
+   "x": 355,
+   "y": 1004,
+   "w": 10,
+   "h": 4,
+   "area": 30,
+   "ncolors": 2,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.6,
+   "kind": "sprite",
+   "zone": null,
+   "id": 440,
+   "file": "link_capless_440.png"
+  },
+  {
+   "x": 387,
+   "y": 1004,
+   "w": 10,
+   "h": 10,
+   "area": 62,
+   "ncolors": 2,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.742,
+   "kind": "sprite",
+   "zone": null,
+   "id": 441,
+   "file": "link_capless_441.png"
+  },
+  {
+   "x": 140,
+   "y": 1039,
+   "w": 19,
+   "h": 25,
+   "area": 319,
+   "ncolors": 15,
+   "dominant": "#000001",
+   "dom_frac": 0.219,
+   "kind": "sprite",
+   "zone": null,
+   "id": 442,
+   "file": "link_capless_442.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

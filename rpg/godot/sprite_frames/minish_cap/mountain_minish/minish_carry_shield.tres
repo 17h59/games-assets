@@ -1,0 +1,30 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/mountain_minish/minish_carry_shield.png" id="1_ios6s"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hq35f"]
+atlas = ExtResource("1_ios6s")
+region = Rect2(24, 0, 24, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qf260"]
+atlas = ExtResource("1_ios6s")
+region = Rect2(0, 0, 24, 31)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hq35f")
+}],
+"loop": 1,
+"name": &"idle_down",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qf260")
+}],
+"loop": 1,
+"name": &"idle_up",
+"speed": 1.0
+}]

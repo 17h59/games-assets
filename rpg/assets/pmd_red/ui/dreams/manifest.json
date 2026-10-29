@@ -1,0 +1,88 @@
+{
+ "sheet": "113178",
+ "game": "pmd_red",
+ "category": "ui",
+ "title": "Dreams",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    215,
+    13,
+    84,
+    7
+   ],
+   "point": [
+    257,
+    16
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 1,
+   "box": [
+    215,
+    25,
+    136,
+    8
+   ],
+   "point": [
+    283,
+    29
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [],
+ "items": [
+  {
+   "x": 28,
+   "y": 15,
+   "w": 132,
+   "h": 192,
+   "area": 20855,
+   "ncolors": 23,
+   "dominant": "#BDE76B",
+   "dom_frac": 0.53,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "dreams_000.png"
+  },
+  {
+   "x": 212,
+   "y": 195,
+   "w": 255,
+   "h": 192,
+   "area": 48960,
+   "ncolors": 44,
+   "dominant": "#A5D65A",
+   "dom_frac": 0.294,
+   "kind": "sprite",
+   "zone": null,
+   "id": 1,
+   "file": "dreams_001.png"
+  },
+  {
+   "x": 28,
+   "y": 208,
+   "w": 75,
+   "h": 192,
+   "area": 10030,
+   "ncolors": 4,
+   "dominant": "#A5D65A",
+   "dom_frac": 0.673,
+   "kind": "sprite",
+   "zone": null,
+   "id": 2,
+   "file": "dreams_002.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

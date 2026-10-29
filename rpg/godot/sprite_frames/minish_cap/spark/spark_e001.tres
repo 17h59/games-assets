@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/spark/spark_e001.png" id="1_i3r4k"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0gi6p"]
+atlas = ExtResource("1_i3r4k")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xmtwo"]
+atlas = ExtResource("1_i3r4k")
+region = Rect2(16, 0, 16, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0gi6p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xmtwo")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

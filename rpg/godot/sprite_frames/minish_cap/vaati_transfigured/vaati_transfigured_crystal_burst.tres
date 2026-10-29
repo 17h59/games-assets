@@ -1,0 +1,74 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/vaati_transfigured/vaati_transfigured_crystal_burst.png" id="1_3qgnv"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_752r7"]
+atlas = ExtResource("1_3qgnv")
+region = Rect2(0, 0, 18, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ae1oi"]
+atlas = ExtResource("1_3qgnv")
+region = Rect2(18, 0, 18, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7uqt0"]
+atlas = ExtResource("1_3qgnv")
+region = Rect2(36, 0, 18, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0d03d"]
+atlas = ExtResource("1_3qgnv")
+region = Rect2(54, 0, 18, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_grvdq"]
+atlas = ExtResource("1_3qgnv")
+region = Rect2(72, 0, 18, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nojjt"]
+atlas = ExtResource("1_3qgnv")
+region = Rect2(90, 0, 18, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4qncf"]
+atlas = ExtResource("1_3qgnv")
+region = Rect2(108, 0, 18, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t4tht"]
+atlas = ExtResource("1_3qgnv")
+region = Rect2(126, 0, 18, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lef47"]
+atlas = ExtResource("1_3qgnv")
+region = Rect2(144, 0, 18, 17)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_752r7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ae1oi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7uqt0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0d03d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_grvdq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nojjt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4qncf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t4tht")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lef47")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

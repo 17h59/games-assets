@@ -1,0 +1,57 @@
+{
+ "sheet": "5324",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Water Hut (Construction)",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 256,
+   "h": 242,
+   "area": 61473,
+   "ncolors": 116,
+   "dominant": "#B0F078",
+   "dom_frac": 0.168,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "water_hut_construction_000.png"
+  },
+  {
+   "x": 3,
+   "y": 246,
+   "w": 332,
+   "h": 278,
+   "area": 73340,
+   "ncolors": 104,
+   "dominant": "#A89820",
+   "dom_frac": 0.137,
+   "kind": "sprite",
+   "zone": null,
+   "id": 1,
+   "file": "water_hut_construction_001.png"
+  },
+  {
+   "x": 9,
+   "y": 251,
+   "w": 34,
+   "h": 5,
+   "area": 87,
+   "ncolors": 3,
+   "dominant": "#20C0F8",
+   "dom_frac": 0.333,
+   "kind": "sprite",
+   "zone": null,
+   "id": 2,
+   "file": "water_hut_construction_002.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

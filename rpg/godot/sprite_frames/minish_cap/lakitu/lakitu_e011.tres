@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/lakitu/lakitu_e011.png" id="1_f2pok"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5fiuo"]
+atlas = ExtResource("1_f2pok")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_18x3b"]
+atlas = ExtResource("1_f2pok")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_83xty"]
+atlas = ExtResource("1_f2pok")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l1fb1"]
+atlas = ExtResource("1_f2pok")
+region = Rect2(48, 0, 16, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5fiuo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_18x3b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_83xty")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l1fb1")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/sluggula/sluggula_e003.png" id="1_4wtlo"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1ef0v"]
+atlas = ExtResource("1_4wtlo")
+region = Rect2(0, 0, 17, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8555x"]
+atlas = ExtResource("1_4wtlo")
+region = Rect2(17, 0, 17, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ce8nu"]
+atlas = ExtResource("1_4wtlo")
+region = Rect2(34, 0, 17, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yqfah"]
+atlas = ExtResource("1_4wtlo")
+region = Rect2(51, 0, 17, 21)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1ef0v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8555x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ce8nu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yqfah")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

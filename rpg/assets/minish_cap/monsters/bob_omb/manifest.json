@@ -1,0 +1,292 @@
+{
+ "sheet": "6413",
+ "game": "minish_cap",
+ "category": "monsters",
+ "title": "Bob-omb",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    5,
+    128,
+    68,
+    5
+   ],
+   "point": [
+    39,
+    130
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 1,
+   "box": [
+    5,
+    140,
+    56,
+    5
+   ],
+   "point": [
+    33,
+    142
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 2,
+   "box": [
+    5,
+    152,
+    65,
+    5
+   ],
+   "point": [
+    37,
+    154
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 3,
+   "box": [
+    5,
+    164,
+    66,
+    5
+   ],
+   "point": [
+    38,
+    166
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "walk_left",
+   "file": "walk_left.png",
+   "cell": [
+    13,
+    17
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      35,
+      3,
+      13,
+      17
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      49,
+      4,
+      12,
+      16
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      63,
+      4,
+      12,
+      16
+     ]
+    }
+   ],
+   "box": [
+    35,
+    3,
+    40,
+    17
+   ]
+  },
+  {
+   "id": 1,
+   "name": "walk_right",
+   "file": "walk_right.png",
+   "cell": [
+    13,
+    17
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 3,
+     "role": "frame_0",
+     "src": [
+      35,
+      22,
+      12,
+      16
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_1",
+     "src": [
+      49,
+      22,
+      12,
+      16
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_2",
+     "src": [
+      62,
+      21,
+      13,
+      17
+     ]
+    }
+   ],
+   "box": [
+    35,
+    21,
+    40,
+    17
+   ]
+  },
+  {
+   "id": 2,
+   "name": "lit_walk_left",
+   "file": "lit_walk_left.png",
+   "cell": [
+    17,
+    24
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 6,
+     "role": "frame_0",
+     "src": [
+      29,
+      43,
+      16,
+      24
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_1",
+     "src": [
+      48,
+      43,
+      15,
+      24
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_2",
+     "src": [
+      64,
+      44,
+      15,
+      23
+     ]
+    }
+   ],
+   "box": [
+    29,
+    43,
+    50,
+    24
+   ]
+  },
+  {
+   "id": 3,
+   "name": "lit_walk_right",
+   "file": "lit_walk_right.png",
+   "cell": [
+    17,
+    24
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 9,
+     "role": "frame_0",
+     "src": [
+      26,
+      70,
+      15,
+      23
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_1",
+     "src": [
+      42,
+      69,
+      15,
+      24
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_2",
+     "src": [
+      60,
+      69,
+      16,
+      24
+     ]
+    }
+   ],
+   "box": [
+    26,
+    69,
+    50,
+    24
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 45,
+   "y": 97,
+   "w": 16,
+   "h": 22,
+   "area": 134,
+   "ncolors": 14,
+   "dominant": "#F8E038",
+   "dom_frac": 0.429,
+   "kind": "sprite",
+   "zone": null,
+   "name": "explode",
+   "id": 12,
+   "file": "explode.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

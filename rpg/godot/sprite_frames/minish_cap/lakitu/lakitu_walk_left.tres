@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/lakitu/lakitu_walk_left.png" id="1_lwsq5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rt36e"]
+atlas = ExtResource("1_lwsq5")
+region = Rect2(0, 0, 21, 25)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_na20j"]
+atlas = ExtResource("1_lwsq5")
+region = Rect2(21, 0, 21, 25)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ijag2"]
+atlas = ExtResource("1_lwsq5")
+region = Rect2(42, 0, 21, 25)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rt36e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_na20j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ijag2")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

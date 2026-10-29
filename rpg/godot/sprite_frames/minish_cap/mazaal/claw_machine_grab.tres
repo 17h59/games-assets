@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/mazaal/claw_machine/claw_machine_grab.png" id="1_wd58c"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hcecu"]
+atlas = ExtResource("1_wd58c")
+region = Rect2(0, 0, 32, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7clom"]
+atlas = ExtResource("1_wd58c")
+region = Rect2(32, 0, 32, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qopyq"]
+atlas = ExtResource("1_wd58c")
+region = Rect2(64, 0, 32, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8f7kn"]
+atlas = ExtResource("1_wd58c")
+region = Rect2(96, 0, 32, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8s58v"]
+atlas = ExtResource("1_wd58c")
+region = Rect2(128, 0, 32, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5g7y5"]
+atlas = ExtResource("1_wd58c")
+region = Rect2(160, 0, 32, 28)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hcecu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7clom")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qopyq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8f7kn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8s58v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5g7y5")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

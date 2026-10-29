@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/rock_type_moves/rock_tomb/rock_tomb_e017.png" id="1_fe1fc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ev6bf"]
+atlas = ExtResource("1_fe1fc")
+region = Rect2(0, 0, 26, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_20bt4"]
+atlas = ExtResource("1_fe1fc")
+region = Rect2(26, 0, 26, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0q30i"]
+atlas = ExtResource("1_fe1fc")
+region = Rect2(52, 0, 26, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_805bb"]
+atlas = ExtResource("1_fe1fc")
+region = Rect2(78, 0, 26, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4msee"]
+atlas = ExtResource("1_fe1fc")
+region = Rect2(104, 0, 26, 12)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ev6bf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_20bt4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0q30i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_805bb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4msee")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

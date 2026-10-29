@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/ghost_type_moves/confuse_ray/confuse_ray_e000.png" id="1_iyb8y"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lhohf"]
+atlas = ExtResource("1_iyb8y")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q7k5m"]
+atlas = ExtResource("1_iyb8y")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w3oi5"]
+atlas = ExtResource("1_iyb8y")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t00fg"]
+atlas = ExtResource("1_iyb8y")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xda21"]
+atlas = ExtResource("1_iyb8y")
+region = Rect2(64, 0, 16, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lhohf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q7k5m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w3oi5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t00fg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xda21")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

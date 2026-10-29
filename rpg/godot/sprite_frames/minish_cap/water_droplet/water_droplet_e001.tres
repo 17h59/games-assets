@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/effects/water_droplet/water_droplet_e001.png" id="1_dnmxk"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f02lo"]
+atlas = ExtResource("1_dnmxk")
+region = Rect2(0, 0, 6, 6)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1mxry"]
+atlas = ExtResource("1_dnmxk")
+region = Rect2(6, 0, 6, 6)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f02lo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1mxry")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

@@ -1,0 +1,124 @@
+{
+ "sheet": "5332",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Bulbasaur Hut",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "flag",
+   "file": "flag.png",
+   "cell": [
+    30,
+    25
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      4,
+      3,
+      29,
+      23
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_1",
+     "src": [
+      43,
+      3,
+      30,
+      23
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_2",
+     "src": [
+      82,
+      2,
+      29,
+      23
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_3",
+     "src": [
+      116,
+      2,
+      30,
+      23
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_4",
+     "src": [
+      9,
+      40,
+      29,
+      23
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_5",
+     "src": [
+      49,
+      38,
+      30,
+      23
+     ]
+    }
+   ],
+   "box": [
+    4,
+    2,
+    142,
+    61
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 408,
+   "h": 288,
+   "area": 181447,
+   "ncolors": 226,
+   "dominant": "#70C850",
+   "dom_frac": 0.103,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "bulbasaur_hut_000.png"
+  },
+  {
+   "x": 3,
+   "y": 290,
+   "w": 382,
+   "h": 277,
+   "area": 77320,
+   "ncolors": 0,
+   "dominant": "",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 7,
+   "file": "bulbasaur_hut_007.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

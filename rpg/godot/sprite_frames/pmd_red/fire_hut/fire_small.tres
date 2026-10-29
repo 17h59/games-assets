@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/fire_hut/fire_small.png" id="1_3kpjt"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p10uy"]
+atlas = ExtResource("1_3kpjt")
+region = Rect2(0, 0, 11, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gv5hm"]
+atlas = ExtResource("1_3kpjt")
+region = Rect2(11, 0, 11, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7atm2"]
+atlas = ExtResource("1_3kpjt")
+region = Rect2(22, 0, 11, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i3q1t"]
+atlas = ExtResource("1_3kpjt")
+region = Rect2(33, 0, 11, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ics1s"]
+atlas = ExtResource("1_3kpjt")
+region = Rect2(44, 0, 11, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dwckr"]
+atlas = ExtResource("1_3kpjt")
+region = Rect2(55, 0, 11, 17)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p10uy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gv5hm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7atm2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i3q1t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ics1s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dwckr")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

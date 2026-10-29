@@ -1,0 +1,7 @@
+[gd_scene format=3]
+
+[ext_resource type="TileSet" path="res://godot/tilesets/emerald.tres" id="1_g3k4i"]
+
+[node name="desert_underpass_18614_r3" type="TileMapLayer" unique_id=1445129722]
+tile_map_data = PackedByteArray(0, 0, 1, 0, 0, 0, 1, 0, 21, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 22, 0, 1, 0, 0, 0)
+tile_set = ExtResource("1_g3k4i")

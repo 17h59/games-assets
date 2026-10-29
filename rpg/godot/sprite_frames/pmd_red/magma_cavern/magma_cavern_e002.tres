@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/magma_cavern/magma_cavern_e002.png" id="1_r61kn"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5ykq3"]
+atlas = ExtResource("1_r61kn")
+region = Rect2(0, 0, 4, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pjn32"]
+atlas = ExtResource("1_r61kn")
+region = Rect2(4, 0, 4, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_un3wt"]
+atlas = ExtResource("1_r61kn")
+region = Rect2(8, 0, 4, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_320ls"]
+atlas = ExtResource("1_r61kn")
+region = Rect2(12, 0, 4, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fgi0n"]
+atlas = ExtResource("1_r61kn")
+region = Rect2(16, 0, 4, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ywn0v"]
+atlas = ExtResource("1_r61kn")
+region = Rect2(20, 0, 4, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kcw6x"]
+atlas = ExtResource("1_r61kn")
+region = Rect2(24, 0, 4, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6o4is"]
+atlas = ExtResource("1_r61kn")
+region = Rect2(28, 0, 4, 4)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5ykq3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pjn32")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_un3wt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_320ls")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fgi0n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ywn0v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kcw6x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6o4is")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

@@ -1,0 +1,57 @@
+{
+ "sheet": "221078",
+ "game": "pmd_red",
+ "category": "ui",
+ "title": "Mt. Thunder Entrance",
+ "type": "sprites",
+ "template": "none",
+ "entities": [],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 408,
+   "h": 253,
+   "area": 71958,
+   "ncolors": 84,
+   "dominant": "#FFFFE7",
+   "dom_frac": 0.125,
+   "kind": "sprite",
+   "id": 0,
+   "file": "mt_thunder_entrance_000.png"
+  },
+  {
+   "x": 0,
+   "y": 255,
+   "w": 325,
+   "h": 22,
+   "area": 1029,
+   "ncolors": 11,
+   "dominant": "#DFD78F",
+   "dom_frac": 0.551,
+   "kind": "sprite",
+   "id": 1,
+   "file": "mt_thunder_entrance_001.png"
+  },
+  {
+   "x": 333,
+   "y": 255,
+   "w": 75,
+   "h": 33,
+   "area": 313,
+   "ncolors": 11,
+   "dominant": "#DFD78F",
+   "dom_frac": 0.514,
+   "kind": "sprite",
+   "id": 2,
+   "file": "mt_thunder_entrance_002.png"
+  }
+ ],
+ "validation": "pending",
+ "status": "skip",
+ "missing_stages": [
+  "decoupage",
+  "regroupement",
+  "nommage"
+ ]
+}

@@ -1,0 +1,51 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/emerald/characters/may/walk_right.png" id="1_yo5hw"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p3ni1"]
+atlas = ExtResource("1_yo5hw")
+region = Rect2(0, 0, 14, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jfbtd"]
+atlas = ExtResource("1_yo5hw")
+region = Rect2(14, 0, 14, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kbn1r"]
+atlas = ExtResource("1_yo5hw")
+region = Rect2(0, 0, 14, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gioj2"]
+atlas = ExtResource("1_yo5hw")
+region = Rect2(28, 0, 14, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5nih0"]
+atlas = ExtResource("1_yo5hw")
+region = Rect2(0, 0, 14, 20)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p3ni1")
+}],
+"loop": 1,
+"name": &"idle_right",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jfbtd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kbn1r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gioj2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5nih0")
+}],
+"loop": 1,
+"name": &"walk_right",
+"speed": 6.0
+}]

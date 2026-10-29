@@ -1,0 +1,68 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/ruby_sapphire/characters/pokemon_overworld/pokemon_overworld_e025.png" id="1_bwcno"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kpq5c"]
+atlas = ExtResource("1_bwcno")
+region = Rect2(0, 0, 16, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0ybbj"]
+atlas = ExtResource("1_bwcno")
+region = Rect2(16, 0, 16, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ibtma"]
+atlas = ExtResource("1_bwcno")
+region = Rect2(0, 0, 16, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n3n1m"]
+atlas = ExtResource("1_bwcno")
+region = Rect2(0, 0, 16, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jh558"]
+atlas = ExtResource("1_bwcno")
+region = Rect2(16, 0, 16, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vxsyj"]
+atlas = ExtResource("1_bwcno")
+region = Rect2(16, 0, 16, 8)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kpq5c")
+}],
+"loop": 1,
+"name": &"idle_down",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0ybbj")
+}],
+"loop": 1,
+"name": &"idle_up",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ibtma")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n3n1m")
+}],
+"loop": 1,
+"name": &"walk_down",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jh558")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vxsyj")
+}],
+"loop": 1,
+"name": &"walk_up",
+"speed": 6.0
+}]

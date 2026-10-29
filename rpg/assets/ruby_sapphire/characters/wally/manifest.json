@@ -1,0 +1,279 @@
+{
+ "sheet": "8147",
+ "game": "ruby_sapphire",
+ "category": "characters",
+ "title": "Wally",
+ "type": "characters",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "wally_battle_throw",
+   "file": "wally_battle_throw.png",
+   "cell": [
+    58,
+    50
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      2,
+      4,
+      29,
+      48
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      36,
+      4,
+      44,
+      48
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      81,
+      2,
+      49,
+      50
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      132,
+      3,
+      58,
+      49
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_4",
+     "src": [
+      190,
+      4,
+      44,
+      48
+     ]
+    }
+   ],
+   "box": [
+    2,
+    2,
+    232,
+    50
+   ]
+  },
+  {
+   "id": 1,
+   "name": "wally_walk",
+   "file": "wally_walk.png",
+   "cell": [
+    16,
+    19
+   ],
+   "zone": null,
+   "animations": {
+    "idle_down": [
+     0
+    ],
+    "walk_down": [
+     1,
+     0,
+     2,
+     0
+    ],
+    "idle_up": [
+     3
+    ],
+    "walk_up": [
+     4,
+     3,
+     5,
+     3
+    ],
+    "idle_left": [
+     6
+    ],
+    "walk_left": [
+     7,
+     6,
+     8,
+     6
+    ],
+    "idle_right": [
+     9
+    ],
+    "walk_right": [
+     10,
+     9,
+     11,
+     9
+    ]
+   },
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 6,
+     "role": "frame_0",
+     "src": [
+      19,
+      53,
+      16,
+      19
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_1",
+     "src": [
+      18,
+      73,
+      16,
+      19
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_2",
+     "src": [
+      18,
+      93,
+      16,
+      19
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_3",
+     "src": [
+      1,
+      53,
+      16,
+      19
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_4",
+     "src": [
+      1,
+      73,
+      16,
+      19
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_5",
+     "src": [
+      1,
+      93,
+      16,
+      19
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_6",
+     "src": [
+      50,
+      53,
+      13,
+      19
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_7",
+     "src": [
+      50,
+      73,
+      13,
+      19
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_8",
+     "src": [
+      50,
+      93,
+      13,
+      19
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_9",
+     "src": [
+      36,
+      53,
+      13,
+      19
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_10",
+     "src": [
+      36,
+      73,
+      13,
+      19
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_11",
+     "src": [
+      36,
+      93,
+      13,
+      19
+     ]
+    }
+   ],
+   "box": [
+    1,
+    53,
+    62,
+    59
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 64,
+   "y": 53,
+   "w": 27,
+   "h": 57,
+   "area": 755,
+   "ncolors": 14,
+   "dominant": "#609030",
+   "dom_frac": 0.14,
+   "kind": "sprite",
+   "zone": null,
+   "name": "wally_battle_intro",
+   "id": 13,
+   "file": "wally_battle_intro.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

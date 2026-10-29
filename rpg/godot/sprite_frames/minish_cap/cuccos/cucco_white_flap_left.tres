@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/cuccos/cucco_white_flap_left.png" id="1_m1qho"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ti1hd"]
+atlas = ExtResource("1_m1qho")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_03f2i"]
+atlas = ExtResource("1_m1qho")
+region = Rect2(16, 0, 16, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ti1hd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_03f2i")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/deku_scrub/nut.png" id="1_4dgq5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mfxav"]
+atlas = ExtResource("1_4dgq5")
+region = Rect2(0, 0, 8, 11)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uh6gw"]
+atlas = ExtResource("1_4dgq5")
+region = Rect2(8, 0, 8, 11)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eqe75"]
+atlas = ExtResource("1_4dgq5")
+region = Rect2(16, 0, 8, 11)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mfxav")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uh6gw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eqe75")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

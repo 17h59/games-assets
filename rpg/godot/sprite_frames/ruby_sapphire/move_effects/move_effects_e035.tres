@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/ruby_sapphire/effects/move_effects/move_effects_e035.png" id="1_4fykw"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2kcd0"]
+atlas = ExtResource("1_4fykw")
+region = Rect2(0, 0, 10, 7)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vlua8"]
+atlas = ExtResource("1_4fykw")
+region = Rect2(10, 0, 10, 7)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2kcd0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vlua8")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

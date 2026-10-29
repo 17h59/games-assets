@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/floormaster_wallmaster/floormaster/crawl_up_right.png" id="1_hawel"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5uv67"]
+atlas = ExtResource("1_hawel")
+region = Rect2(0, 0, 31, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tuc3a"]
+atlas = ExtResource("1_hawel")
+region = Rect2(31, 0, 31, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g0ydu"]
+atlas = ExtResource("1_hawel")
+region = Rect2(62, 0, 31, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_241fw"]
+atlas = ExtResource("1_hawel")
+region = Rect2(93, 0, 31, 32)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5uv67")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tuc3a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g0ydu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_241fw")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

@@ -1,0 +1,144 @@
+{
+ "sheet": "5336",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Meowth Hut",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "meowth_hut_e000",
+   "file": "meowth_hut_e000.png",
+   "cell": [
+    28,
+    24
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      11,
+      1,
+      28,
+      23
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_1",
+     "src": [
+      48,
+      3,
+      28,
+      22
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_2",
+     "src": [
+      85,
+      3,
+      28,
+      22
+     ]
+    }
+   ],
+   "box": [
+    11,
+    1,
+    102,
+    24
+   ]
+  },
+  {
+   "id": 1,
+   "name": "meowth_hut_e001",
+   "file": "meowth_hut_e001.png",
+   "cell": [
+    30,
+    24
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 4,
+     "role": "frame_0",
+     "src": [
+      14,
+      44,
+      28,
+      22
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_1",
+     "src": [
+      53,
+      43,
+      28,
+      22
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_2",
+     "src": [
+      89,
+      42,
+      29,
+      22
+     ]
+    }
+   ],
+   "box": [
+    14,
+    42,
+    104,
+    24
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 392,
+   "h": 312,
+   "area": 111343,
+   "ncolors": 108,
+   "dominant": "#70C850",
+   "dom_frac": 0.174,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "meowth_hut_000.png"
+  },
+  {
+   "x": 6,
+   "y": 316,
+   "w": 348,
+   "h": 278,
+   "area": 76696,
+   "ncolors": 106,
+   "dominant": "#F8B030",
+   "dom_frac": 0.154,
+   "kind": "sprite",
+   "zone": null,
+   "id": 7,
+   "file": "meowth_hut_007.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

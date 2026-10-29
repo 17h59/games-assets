@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/ezlo_hat/ezlo_hat_e001.png" id="1_tus3g"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_637k2"]
+atlas = ExtResource("1_tus3g")
+region = Rect2(0, 0, 24, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dgevd"]
+atlas = ExtResource("1_tus3g")
+region = Rect2(24, 0, 24, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0vl3h"]
+atlas = ExtResource("1_tus3g")
+region = Rect2(48, 0, 24, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dntb8"]
+atlas = ExtResource("1_tus3g")
+region = Rect2(72, 0, 24, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j3jo2"]
+atlas = ExtResource("1_tus3g")
+region = Rect2(96, 0, 24, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_44xoc"]
+atlas = ExtResource("1_tus3g")
+region = Rect2(120, 0, 24, 31)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_637k2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dgevd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0vl3h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dntb8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j3jo2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_44xoc")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

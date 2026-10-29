@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/big_blue_chuchu/effects/beam_se.png" id="1_3jmld"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bv63h"]
+atlas = ExtResource("1_3jmld")
+region = Rect2(0, 0, 28, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pcn8c"]
+atlas = ExtResource("1_3jmld")
+region = Rect2(28, 0, 28, 15)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bv63h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pcn8c")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

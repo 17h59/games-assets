@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/spark/spark_halo.png" id="1_2xlr8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dfksm"]
+atlas = ExtResource("1_2xlr8")
+region = Rect2(0, 0, 16, 18)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ch30u"]
+atlas = ExtResource("1_2xlr8")
+region = Rect2(16, 0, 16, 18)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ryupw"]
+atlas = ExtResource("1_2xlr8")
+region = Rect2(32, 0, 16, 18)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xybvv"]
+atlas = ExtResource("1_2xlr8")
+region = Rect2(48, 0, 16, 18)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dfksm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ch30u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ryupw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xybvv")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/emerald/characters/may/bike_ride_right.png" id="1_aqfsk"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8iac1"]
+atlas = ExtResource("1_aqfsk")
+region = Rect2(0, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cv78j"]
+atlas = ExtResource("1_aqfsk")
+region = Rect2(24, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_omxnw"]
+atlas = ExtResource("1_aqfsk")
+region = Rect2(48, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_roq58"]
+atlas = ExtResource("1_aqfsk")
+region = Rect2(72, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i6fch"]
+atlas = ExtResource("1_aqfsk")
+region = Rect2(96, 0, 24, 24)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8iac1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cv78j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_omxnw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_roq58")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i6fch")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

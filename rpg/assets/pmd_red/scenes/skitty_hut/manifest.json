@@ -1,0 +1,139 @@
+{
+ "sheet": "5347",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Skitty Hut",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "flag",
+   "file": "flag.png",
+   "cell": [
+    29,
+    23
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      1,
+      2,
+      28,
+      22
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_1",
+     "src": [
+      34,
+      1,
+      28,
+      22
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_2",
+     "src": [
+      66,
+      1,
+      28,
+      22
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_3",
+     "src": [
+      97,
+      1,
+      28,
+      22
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_4",
+     "src": [
+      1,
+      27,
+      28,
+      22
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_5",
+     "src": [
+      33,
+      27,
+      29,
+      22
+     ]
+    }
+   ],
+   "box": [
+    1,
+    1,
+    124,
+    48
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 392,
+   "h": 312,
+   "area": 112585,
+   "ncolors": 117,
+   "dominant": "#70C850",
+   "dom_frac": 0.172,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "skitty_hut_000.png"
+  },
+  {
+   "x": 91,
+   "y": 52,
+   "w": 34,
+   "h": 5,
+   "area": 87,
+   "ncolors": 3,
+   "dominant": "#20C0F8",
+   "dom_frac": 0.333,
+   "kind": "sprite",
+   "zone": null,
+   "name": "water_ripples",
+   "id": 7,
+   "file": "water_ripples.png"
+  },
+  {
+   "x": 6,
+   "y": 316,
+   "w": 348,
+   "h": 278,
+   "area": 76696,
+   "ncolors": 106,
+   "dominant": "#F8B030",
+   "dom_frac": 0.154,
+   "kind": "sprite",
+   "zone": null,
+   "id": 8,
+   "file": "skitty_hut_008.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

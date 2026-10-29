@@ -1,0 +1,288 @@
+{
+ "sheet": "6407",
+ "game": "minish_cap",
+ "category": "monsters",
+ "title": "Spark",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    44,
+    50,
+    54,
+    10
+   ],
+   "point": [
+    71,
+    55
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 1,
+   "box": [
+    62,
+    87,
+    53,
+    8
+   ],
+   "point": [
+    88,
+    91
+   ],
+   "name": "assembled",
+   "folder": "assembled"
+  },
+  {
+   "id": 2,
+   "box": [
+    94,
+    100,
+    27,
+    10
+   ],
+   "point": [
+    107,
+    105
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "spark_assembled",
+   "file": "assembled/spark_assembled.png",
+   "cell": [
+    16,
+    18
+   ],
+   "zone": null,
+   "set": 1,
+   "template": "none",
+   "frames": [
+    {
+     "item": 10,
+     "role": "frame_0",
+     "src": [
+      40,
+      98,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_1",
+     "src": [
+      57,
+      98,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_2",
+     "src": [
+      74,
+      97,
+      16,
+      18
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_3",
+     "src": [
+      94,
+      100,
+      10,
+      10
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_4",
+     "src": [
+      111,
+      100,
+      10,
+      11
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_5",
+     "src": [
+      125,
+      97,
+      16,
+      18
+     ],
+     "duplicate_of": 2
+    }
+   ],
+   "box": [
+    40,
+    97,
+    101,
+    18
+   ]
+  },
+  {
+   "id": 1,
+   "name": "spark_skull",
+   "file": "spark_skull.png",
+   "cell": [
+    10,
+    11
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      6,
+      8,
+      10,
+      10
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_1",
+     "src": [
+      6,
+      26,
+      10,
+      11
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_2",
+     "src": [
+      6,
+      45,
+      10,
+      11
+     ],
+     "duplicate_of": 1
+    },
+    {
+     "item": 6,
+     "role": "frame_3",
+     "src": [
+      6,
+      65,
+      10,
+      10
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 7,
+     "role": "frame_4",
+     "src": [
+      6,
+      83,
+      10,
+      11
+     ],
+     "duplicate_of": 1
+    },
+    {
+     "item": 8,
+     "role": "frame_5",
+     "src": [
+      6,
+      102,
+      10,
+      11
+     ],
+     "duplicate_of": 1
+    }
+   ],
+   "box": [
+    6,
+    8,
+    10,
+    105
+   ]
+  },
+  {
+   "id": 2,
+   "name": "spark_halo",
+   "file": "spark_halo.png",
+   "cell": [
+    16,
+    18
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      20,
+      3,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_1",
+     "src": [
+      20,
+      22,
+      16,
+      16
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 5,
+     "role": "frame_2",
+     "src": [
+      20,
+      40,
+      16,
+      18
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_3",
+     "src": [
+      20,
+      97,
+      16,
+      18
+     ],
+     "duplicate_of": 2
+    }
+   ],
+   "box": [
+    20,
+    3,
+    16,
+    112
+   ]
+  }
+ ],
+ "items": [],
+ "status": "ok",
+ "missing_stages": []
+}

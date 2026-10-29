@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/mountain_minish/mountain_minish_e003.png" id="1_2v2mb"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_127gd"]
+atlas = ExtResource("1_2v2mb")
+region = Rect2(0, 0, 26, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_21e0l"]
+atlas = ExtResource("1_2v2mb")
+region = Rect2(26, 0, 26, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u6852"]
+atlas = ExtResource("1_2v2mb")
+region = Rect2(52, 0, 26, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iemnp"]
+atlas = ExtResource("1_2v2mb")
+region = Rect2(78, 0, 26, 35)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_127gd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_21e0l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u6852")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iemnp")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

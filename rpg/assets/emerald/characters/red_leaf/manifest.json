@@ -1,0 +1,326 @@
+{
+ "sheet": "8328",
+ "game": "emerald",
+ "category": "characters",
+ "title": "Red & Leaf",
+ "type": "characters",
+ "template": "none",
+ "validation": "verified",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    15,
+    69,
+    73,
+    9
+   ],
+   "point": [
+    51,
+    73
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 1,
+   "box": [
+    6,
+    86,
+    90,
+    9
+   ],
+   "point": [
+    51,
+    90
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "red",
+   "file": "red.png",
+   "cell": [
+    14,
+    20
+   ],
+   "zone": null,
+   "animations": {
+    "idle_down": [
+     0
+    ],
+    "walk_down": [
+     1,
+     0,
+     2,
+     0
+    ],
+    "idle_up": [
+     3
+    ],
+    "walk_up": [
+     4,
+     3,
+     5,
+     3
+    ],
+    "idle_left": [
+     6
+    ],
+    "walk_left": [
+     7,
+     6,
+     8,
+     6
+    ]
+   },
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      2,
+      2,
+      14,
+      19
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      19,
+      3,
+      14,
+      19
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      36,
+      3,
+      14,
+      19
+     ],
+     "mirror_of": 1
+    },
+    {
+     "item": 6,
+     "role": "frame_3",
+     "src": [
+      2,
+      24,
+      14,
+      19
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_4",
+     "src": [
+      19,
+      25,
+      14,
+      19
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_5",
+     "src": [
+      36,
+      25,
+      14,
+      19
+     ],
+     "mirror_of": 4
+    },
+    {
+     "item": 12,
+     "role": "frame_6",
+     "src": [
+      1,
+      46,
+      14,
+      19
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_7",
+     "src": [
+      18,
+      47,
+      14,
+      19
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_8",
+     "src": [
+      35,
+      47,
+      14,
+      19
+     ]
+    }
+   ],
+   "box": [
+    1,
+    2,
+    49,
+    64
+   ]
+  },
+  {
+   "id": 1,
+   "name": "leaf",
+   "file": "leaf.png",
+   "cell": [
+    16,
+    21
+   ],
+   "zone": null,
+   "animations": {
+    "idle_down": [
+     0
+    ],
+    "walk_down": [
+     1,
+     0,
+     2,
+     0
+    ],
+    "idle_up": [
+     3
+    ],
+    "walk_up": [
+     4,
+     3,
+     5,
+     3
+    ],
+    "idle_left": [
+     6
+    ],
+    "walk_left": [
+     7,
+     6,
+     8,
+     6
+    ]
+   },
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 3,
+     "role": "frame_0",
+     "src": [
+      54,
+      1,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_1",
+     "src": [
+      71,
+      2,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_2",
+     "src": [
+      88,
+      2,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_3",
+     "src": [
+      54,
+      23,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_4",
+     "src": [
+      71,
+      24,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_5",
+     "src": [
+      88,
+      24,
+      16,
+      20
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_6",
+     "src": [
+      55,
+      45,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_7",
+     "src": [
+      72,
+      46,
+      14,
+      20
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_8",
+     "src": [
+      89,
+      46,
+      14,
+      20
+     ]
+    }
+   ],
+   "box": [
+    54,
+    1,
+    50,
+    65
+   ]
+  }
+ ],
+ "items": [],
+ "status": "ok",
+ "missing_stages": []
+}

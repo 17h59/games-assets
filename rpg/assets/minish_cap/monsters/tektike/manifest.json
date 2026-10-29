@@ -1,0 +1,770 @@
+{
+ "sheet": "6557",
+ "game": "minish_cap",
+ "category": "monsters",
+ "title": "Tektike",
+ "type": "sprites",
+ "template": "none",
+ "validation": "pending",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    24,
+    118,
+    74,
+    7
+   ],
+   "point": [
+    61,
+    121
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 1,
+   "box": [
+    24,
+    129,
+    82,
+    7
+   ],
+   "point": [
+    65,
+    132
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "tektike_e000",
+   "file": "tektike_e000.png",
+   "cell": [
+    26,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      0,
+      11,
+      22,
+      15
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      24,
+      11,
+      22,
+      15
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      47,
+      11,
+      22,
+      15
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      70,
+      11,
+      20,
+      16
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_4",
+     "src": [
+      91,
+      10,
+      20,
+      17
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_5",
+     "src": [
+      112,
+      1,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_6",
+     "src": [
+      129,
+      5,
+      26,
+      21
+     ]
+    }
+   ],
+   "box": [
+    0,
+    1,
+    155,
+    26
+   ]
+  },
+  {
+   "id": 1,
+   "name": "tektike_e001",
+   "file": "tektike_e001.png",
+   "cell": [
+    26,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 7,
+     "role": "frame_0",
+     "src": [
+      156,
+      11,
+      22,
+      15
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_1",
+     "src": [
+      180,
+      11,
+      22,
+      15
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_2",
+     "src": [
+      203,
+      11,
+      22,
+      15
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_3",
+     "src": [
+      226,
+      11,
+      20,
+      16
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_4",
+     "src": [
+      247,
+      10,
+      20,
+      17
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_5",
+     "src": [
+      268,
+      1,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_6",
+     "src": [
+      285,
+      5,
+      26,
+      21
+     ]
+    }
+   ],
+   "box": [
+    156,
+    1,
+    155,
+    26
+   ]
+  },
+  {
+   "id": 2,
+   "name": "tektike_e002",
+   "file": "tektike_e002.png",
+   "cell": [
+    26,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 14,
+     "role": "frame_0",
+     "src": [
+      0,
+      38,
+      22,
+      15
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_1",
+     "src": [
+      24,
+      38,
+      22,
+      15
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_2",
+     "src": [
+      47,
+      38,
+      22,
+      15
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_3",
+     "src": [
+      70,
+      38,
+      20,
+      15
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_4",
+     "src": [
+      91,
+      37,
+      20,
+      16
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_5",
+     "src": [
+      112,
+      28,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_6",
+     "src": [
+      129,
+      32,
+      26,
+      21
+     ]
+    }
+   ],
+   "box": [
+    0,
+    28,
+    155,
+    26
+   ]
+  },
+  {
+   "id": 3,
+   "name": "tektike_e003",
+   "file": "tektike_e003.png",
+   "cell": [
+    26,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 21,
+     "role": "frame_0",
+     "src": [
+      156,
+      38,
+      22,
+      15
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_1",
+     "src": [
+      180,
+      38,
+      22,
+      15
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_2",
+     "src": [
+      203,
+      38,
+      22,
+      15
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_3",
+     "src": [
+      226,
+      38,
+      20,
+      16
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_4",
+     "src": [
+      247,
+      37,
+      20,
+      17
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_5",
+     "src": [
+      268,
+      28,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_6",
+     "src": [
+      285,
+      32,
+      26,
+      21
+     ]
+    }
+   ],
+   "box": [
+    156,
+    28,
+    155,
+    26
+   ]
+  },
+  {
+   "id": 4,
+   "name": "tektike_e004",
+   "file": "tektike_e004.png",
+   "cell": [
+    26,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 28,
+     "role": "frame_0",
+     "src": [
+      0,
+      65,
+      22,
+      15
+     ]
+    },
+    {
+     "item": 29,
+     "role": "frame_1",
+     "src": [
+      24,
+      65,
+      22,
+      15
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_2",
+     "src": [
+      47,
+      65,
+      22,
+      15
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_3",
+     "src": [
+      70,
+      65,
+      20,
+      16
+     ]
+    },
+    {
+     "item": 32,
+     "role": "frame_4",
+     "src": [
+      91,
+      64,
+      20,
+      17
+     ]
+    },
+    {
+     "item": 33,
+     "role": "frame_5",
+     "src": [
+      112,
+      55,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 34,
+     "role": "frame_6",
+     "src": [
+      129,
+      59,
+      26,
+      21
+     ]
+    }
+   ],
+   "box": [
+    0,
+    55,
+    155,
+    26
+   ]
+  },
+  {
+   "id": 5,
+   "name": "tektike_e005",
+   "file": "tektike_e005.png",
+   "cell": [
+    26,
+    27
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 35,
+     "role": "frame_0",
+     "src": [
+      156,
+      66,
+      22,
+      15
+     ]
+    },
+    {
+     "item": 36,
+     "role": "frame_1",
+     "src": [
+      180,
+      66,
+      22,
+      15
+     ]
+    },
+    {
+     "item": 37,
+     "role": "frame_2",
+     "src": [
+      203,
+      66,
+      22,
+      15
+     ]
+    },
+    {
+     "item": 38,
+     "role": "frame_3",
+     "src": [
+      226,
+      66,
+      20,
+      16
+     ]
+    },
+    {
+     "item": 39,
+     "role": "frame_4",
+     "src": [
+      247,
+      65,
+      20,
+      17
+     ]
+    },
+    {
+     "item": 40,
+     "role": "frame_5",
+     "src": [
+      268,
+      55,
+      16,
+      27
+     ]
+    },
+    {
+     "item": 41,
+     "role": "frame_6",
+     "src": [
+      285,
+      60,
+      26,
+      21
+     ]
+    }
+   ],
+   "box": [
+    156,
+    55,
+    155,
+    27
+   ]
+  },
+  {
+   "id": 6,
+   "name": "tektike_e006",
+   "file": "tektike_e006.png",
+   "cell": [
+    26,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 42,
+     "role": "frame_0",
+     "src": [
+      0,
+      92,
+      22,
+      15
+     ]
+    },
+    {
+     "item": 43,
+     "role": "frame_1",
+     "src": [
+      24,
+      92,
+      22,
+      15
+     ]
+    },
+    {
+     "item": 44,
+     "role": "frame_2",
+     "src": [
+      47,
+      92,
+      22,
+      15
+     ]
+    },
+    {
+     "item": 45,
+     "role": "frame_3",
+     "src": [
+      70,
+      92,
+      20,
+      16
+     ]
+    },
+    {
+     "item": 46,
+     "role": "frame_4",
+     "src": [
+      91,
+      91,
+      20,
+      17
+     ]
+    },
+    {
+     "item": 47,
+     "role": "frame_5",
+     "src": [
+      112,
+      82,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 48,
+     "role": "frame_6",
+     "src": [
+      129,
+      86,
+      26,
+      21
+     ]
+    }
+   ],
+   "box": [
+    0,
+    82,
+    155,
+    26
+   ]
+  },
+  {
+   "id": 7,
+   "name": "tektike_e007",
+   "file": "tektike_e007.png",
+   "cell": [
+    26,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 49,
+     "role": "frame_0",
+     "src": [
+      156,
+      92,
+      22,
+      15
+     ]
+    },
+    {
+     "item": 50,
+     "role": "frame_1",
+     "src": [
+      180,
+      92,
+      22,
+      15
+     ]
+    },
+    {
+     "item": 51,
+     "role": "frame_2",
+     "src": [
+      203,
+      92,
+      22,
+      15
+     ]
+    },
+    {
+     "item": 52,
+     "role": "frame_3",
+     "src": [
+      226,
+      92,
+      20,
+      16
+     ]
+    },
+    {
+     "item": 53,
+     "role": "frame_4",
+     "src": [
+      247,
+      91,
+      20,
+      17
+     ]
+    },
+    {
+     "item": 54,
+     "role": "frame_5",
+     "src": [
+      268,
+      82,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 55,
+     "role": "frame_6",
+     "src": [
+      285,
+      86,
+      26,
+      21
+     ]
+    }
+   ],
+   "box": [
+    156,
+    82,
+    155,
+    26
+   ]
+  }
+ ],
+ "items": [],
+ "status": "needs_review",
+ "missing_stages": [
+  "decoupage",
+  "regroupement",
+  "nommage"
+ ]
+}

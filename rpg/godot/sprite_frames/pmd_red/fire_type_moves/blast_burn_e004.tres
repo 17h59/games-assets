@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/fire_type_moves/blast_burn/blast_burn_e004.png" id="1_5uvue"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vltfa"]
+atlas = ExtResource("1_5uvue")
+region = Rect2(0, 0, 55, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n5733"]
+atlas = ExtResource("1_5uvue")
+region = Rect2(55, 0, 55, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oee0e"]
+atlas = ExtResource("1_5uvue")
+region = Rect2(110, 0, 55, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8klb0"]
+atlas = ExtResource("1_5uvue")
+region = Rect2(165, 0, 55, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lymjw"]
+atlas = ExtResource("1_5uvue")
+region = Rect2(220, 0, 55, 20)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vltfa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n5733")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oee0e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8klb0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lymjw")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

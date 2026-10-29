@@ -1,0 +1,272 @@
+{
+ "sheet": "6449",
+ "game": "minish_cap",
+ "category": "monsters",
+ "title": "Door Trap",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    9,
+    43,
+    32,
+    8
+   ],
+   "point": [
+    25,
+    47
+   ],
+   "name": "chains",
+   "folder": "chains"
+  },
+  {
+   "id": 1,
+   "box": [
+    98,
+    44,
+    140,
+    10
+   ],
+   "point": [
+    168,
+    49
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 2,
+   "box": [
+    3,
+    57,
+    46,
+    8
+   ],
+   "point": [
+    26,
+    61
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 3,
+   "box": [
+    201,
+    57,
+    62,
+    7
+   ],
+   "point": [
+    232,
+    60
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 4,
+   "box": [
+    206,
+    67,
+    56,
+    7
+   ],
+   "point": [
+    234,
+    70
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 5,
+   "box": [
+    8,
+    71,
+    36,
+    8
+   ],
+   "point": [
+    26,
+    75
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 6,
+   "box": [
+    104,
+    77,
+    166,
+    7
+   ],
+   "point": [
+    187,
+    80
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "chain",
+   "file": "chains/chain.png",
+   "cell": [
+    36,
+    7
+   ],
+   "zone": 0,
+   "set": 0,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      55,
+      38,
+      14,
+      7
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      55,
+      48,
+      26,
+      7
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      55,
+      58,
+      36,
+      7
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      55,
+      68,
+      36,
+      7
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_4",
+     "src": [
+      55,
+      78,
+      36,
+      7
+     ],
+     "duplicate_of": 2
+    }
+   ],
+   "box": [
+    55,
+    38,
+    36,
+    47
+   ]
+  },
+  {
+   "id": 1,
+   "name": "door_trap",
+   "file": "door_trap.png",
+   "cell": [
+    25,
+    26
+   ],
+   "zone": 1,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 5,
+     "role": "frame_0",
+     "src": [
+      3,
+      5,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_1",
+     "src": [
+      39,
+      6,
+      13,
+      24
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_2",
+     "src": [
+      75,
+      7,
+      7,
+      22
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_3",
+     "src": [
+      108,
+      8,
+      19,
+      20
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_4",
+     "src": [
+      141,
+      9,
+      25,
+      18
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_5",
+     "src": [
+      174,
+      10,
+      25,
+      16
+     ]
+    }
+   ],
+   "box": [
+    3,
+    5,
+    196,
+    26
+   ]
+  }
+ ],
+ "items": [],
+ "status": "ok",
+ "missing_stages": []
+}

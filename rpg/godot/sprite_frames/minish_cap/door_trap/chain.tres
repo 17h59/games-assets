@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/door_trap/chains/chain.png" id="1_r1on0"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_glm6l"]
+atlas = ExtResource("1_r1on0")
+region = Rect2(0, 0, 36, 7)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h4d1n"]
+atlas = ExtResource("1_r1on0")
+region = Rect2(36, 0, 36, 7)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kjc6a"]
+atlas = ExtResource("1_r1on0")
+region = Rect2(72, 0, 36, 7)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g426w"]
+atlas = ExtResource("1_r1on0")
+region = Rect2(108, 0, 36, 7)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ue7or"]
+atlas = ExtResource("1_r1on0")
+region = Rect2(144, 0, 36, 7)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_glm6l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h4d1n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kjc6a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g426w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ue7or")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

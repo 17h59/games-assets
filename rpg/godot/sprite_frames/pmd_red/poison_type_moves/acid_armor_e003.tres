@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/poison_type_moves/acid_armor/acid_armor_e003.png" id="1_o0gn6"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nn4b3"]
+atlas = ExtResource("1_o0gn6")
+region = Rect2(0, 0, 58, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a8g73"]
+atlas = ExtResource("1_o0gn6")
+region = Rect2(58, 0, 58, 32)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nn4b3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a8g73")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

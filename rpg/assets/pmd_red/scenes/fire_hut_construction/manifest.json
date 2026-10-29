@@ -1,0 +1,364 @@
+{
+ "sheet": "5317",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Fire Hut (Construction)",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "fire_hut_construction_e000",
+   "file": "fire_hut_construction_e000.png",
+   "cell": [
+    9,
+    13
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      265,
+      222,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_1",
+     "src": [
+      276,
+      222,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_2",
+     "src": [
+      286,
+      222,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_3",
+     "src": [
+      297,
+      222,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_4",
+     "src": [
+      308,
+      222,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_5",
+     "src": [
+      319,
+      222,
+      8,
+      13
+     ]
+    }
+   ],
+   "box": [
+    265,
+    222,
+    62,
+    13
+   ]
+  },
+  {
+   "id": 1,
+   "name": "fire_hut_construction_e001",
+   "file": "fire_hut_construction_e001.png",
+   "cell": [
+    5,
+    10
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 7,
+     "role": "frame_0",
+     "src": [
+      233,
+      247,
+      4,
+      10
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_1",
+     "src": [
+      239,
+      247,
+      4,
+      10
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_2",
+     "src": [
+      245,
+      248,
+      5,
+      9
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_3",
+     "src": [
+      252,
+      247,
+      4,
+      10
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_4",
+     "src": [
+      258,
+      248,
+      5,
+      9
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_5",
+     "src": [
+      265,
+      248,
+      4,
+      9
+     ]
+    }
+   ],
+   "box": [
+    233,
+    247,
+    36,
+    10
+   ]
+  },
+  {
+   "id": 2,
+   "name": "fire_hut_construction_e002",
+   "file": "fire_hut_construction_e002.png",
+   "cell": [
+    8,
+    15
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 13,
+     "role": "frame_0",
+     "src": [
+      277,
+      240,
+      8,
+      15
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_1",
+     "src": [
+      287,
+      241,
+      8,
+      14
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_2",
+     "src": [
+      297,
+      242,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_3",
+     "src": [
+      307,
+      242,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_4",
+     "src": [
+      317,
+      242,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_5",
+     "src": [
+      327,
+      242,
+      8,
+      13
+     ]
+    }
+   ],
+   "box": [
+    277,
+    240,
+    58,
+    15
+   ]
+  },
+  {
+   "id": 3,
+   "name": "fire_hut_construction_e003",
+   "file": "fire_hut_construction_e003.png",
+   "cell": [
+    10,
+    13
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 20,
+     "role": "frame_0",
+     "src": [
+      244,
+      539,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_1",
+     "src": [
+      256,
+      540,
+      8,
+      12
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_2",
+     "src": [
+      268,
+      540,
+      8,
+      12
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_3",
+     "src": [
+      281,
+      540,
+      8,
+      12
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_4",
+     "src": [
+      294,
+      540,
+      8,
+      12
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_5",
+     "src": [
+      306,
+      540,
+      8,
+      12
+     ]
+    }
+   ],
+   "box": [
+    244,
+    539,
+    70,
+    13
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 270,
+   "h": 242,
+   "area": 61990,
+   "ncolors": 140,
+   "dominant": "#705838",
+   "dom_frac": 0.153,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "fire_hut_construction_000.png"
+  },
+  {
+   "x": 3,
+   "y": 245,
+   "w": 332,
+   "h": 278,
+   "area": 73416,
+   "ncolors": 130,
+   "dominant": "#E8D880",
+   "dom_frac": 0.083,
+   "kind": "sprite",
+   "zone": null,
+   "id": 19,
+   "file": "fire_hut_construction_019.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

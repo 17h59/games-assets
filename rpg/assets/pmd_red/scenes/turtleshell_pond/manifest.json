@@ -1,0 +1,90 @@
+{
+ "sheet": "5397",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Turtleshell Pond",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "water_ripple",
+   "file": "water_ripple.png",
+   "cell": [
+    24,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      232,
+      352,
+      24,
+      16
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_1",
+     "src": [
+      264,
+      352,
+      24,
+      16
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_2",
+     "src": [
+      296,
+      352,
+      24,
+      16
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_3",
+     "src": [
+      328,
+      352,
+      24,
+      16
+     ]
+    }
+   ],
+   "box": [
+    232,
+    352,
+    120,
+    16
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 8,
+   "y": 8,
+   "w": 480,
+   "h": 336,
+   "area": 159360,
+   "ncolors": 128,
+   "dominant": "#7BEF6B",
+   "dom_frac": 0.157,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "turtleshell_pond_000.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

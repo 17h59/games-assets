@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/dark_type_moves/beat_up/beat_up_e000.png" id="1_q57f3"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wvcsk"]
+atlas = ExtResource("1_q57f3")
+region = Rect2(0, 0, 14, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_be6nu"]
+atlas = ExtResource("1_q57f3")
+region = Rect2(14, 0, 14, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ooupy"]
+atlas = ExtResource("1_q57f3")
+region = Rect2(28, 0, 14, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o2u12"]
+atlas = ExtResource("1_q57f3")
+region = Rect2(42, 0, 14, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ccehi"]
+atlas = ExtResource("1_q57f3")
+region = Rect2(56, 0, 14, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r1ypl"]
+atlas = ExtResource("1_q57f3")
+region = Rect2(70, 0, 14, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_31t3d"]
+atlas = ExtResource("1_q57f3")
+region = Rect2(84, 0, 14, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_exrtl"]
+atlas = ExtResource("1_q57f3")
+region = Rect2(98, 0, 14, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wvcsk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_be6nu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ooupy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o2u12")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ccehi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r1ypl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_31t3d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_exrtl")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

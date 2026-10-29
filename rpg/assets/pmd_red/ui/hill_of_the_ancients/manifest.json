@@ -1,0 +1,198 @@
+{
+ "sheet": "112438",
+ "game": "pmd_red",
+ "category": "ui",
+ "title": "Hill of the Ancients",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "hill_of_the_ancients_e000",
+   "file": "hill_of_the_ancients_e000.png",
+   "cell": [
+    96,
+    30
+   ],
+   "zone": 0,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      2,
+      1,
+      96,
+      30
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      101,
+      1,
+      96,
+      30
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      200,
+      1,
+      96,
+      30
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      2,
+      35,
+      96,
+      30
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_4",
+     "src": [
+      101,
+      35,
+      96,
+      30
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_5",
+     "src": [
+      200,
+      35,
+      96,
+      30
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_6",
+     "src": [
+      2,
+      69,
+      96,
+      30
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_7",
+     "src": [
+      102,
+      69,
+      94,
+      30
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_8",
+     "src": [
+      200,
+      69,
+      96,
+      30
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_9",
+     "src": [
+      2,
+      103,
+      96,
+      30
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_10",
+     "src": [
+      101,
+      103,
+      96,
+      30
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_11",
+     "src": [
+      200,
+      103,
+      96,
+      30
+     ]
+    }
+   ],
+   "box": [
+    2,
+    1,
+    294,
+    132
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 2,
+   "y": 137,
+   "w": 240,
+   "h": 294,
+   "area": 70560,
+   "ncolors": 59,
+   "dominant": "#D0A078",
+   "dom_frac": 0.479,
+   "kind": "sprite",
+   "zone": null,
+   "id": 12,
+   "file": "hill_of_the_ancients_012.png"
+  },
+  {
+   "x": 245,
+   "y": 174,
+   "w": 240,
+   "h": 257,
+   "area": 60886,
+   "ncolors": 52,
+   "dominant": "#D0A078",
+   "dom_frac": 0.555,
+   "kind": "sprite",
+   "zone": null,
+   "id": 13,
+   "file": "hill_of_the_ancients_013.png"
+  },
+  {
+   "x": 2,
+   "y": 434,
+   "w": 240,
+   "h": 85,
+   "area": 20400,
+   "ncolors": 4,
+   "dominant": "#F88810",
+   "dom_frac": 0.929,
+   "kind": "sprite",
+   "zone": null,
+   "id": 14,
+   "file": "hill_of_the_ancients_014.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

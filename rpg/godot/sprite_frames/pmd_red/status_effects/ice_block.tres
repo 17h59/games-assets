@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/status_effects/ice_block.png" id="1_tkcbo"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lxsj2"]
+atlas = ExtResource("1_tkcbo")
+region = Rect2(0, 0, 31, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wkvpk"]
+atlas = ExtResource("1_tkcbo")
+region = Rect2(31, 0, 31, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_to484"]
+atlas = ExtResource("1_tkcbo")
+region = Rect2(62, 0, 31, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eyiha"]
+atlas = ExtResource("1_tkcbo")
+region = Rect2(93, 0, 31, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nqd1d"]
+atlas = ExtResource("1_tkcbo")
+region = Rect2(124, 0, 31, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1fcqs"]
+atlas = ExtResource("1_tkcbo")
+region = Rect2(155, 0, 31, 31)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lxsj2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wkvpk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_to484")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eyiha")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nqd1d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1fcqs")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

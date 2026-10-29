@@ -1,0 +1,271 @@
+{
+ "sheet": "5386",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Scorched Plains",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "fire_flicker",
+   "file": "fire_flicker.png",
+   "cell": [
+    31,
+    41
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      516,
+      1,
+      31,
+      41
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_1",
+     "src": [
+      516,
+      45,
+      31,
+      41
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_2",
+     "src": [
+      516,
+      88,
+      31,
+      41
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 7,
+     "role": "frame_3",
+     "src": [
+      516,
+      131,
+      31,
+      41
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_4",
+     "src": [
+      516,
+      174,
+      31,
+      41
+     ],
+     "duplicate_of": 1
+    },
+    {
+     "item": 11,
+     "role": "frame_5",
+     "src": [
+      516,
+      218,
+      31,
+      41
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_6",
+     "src": [
+      516,
+      261,
+      31,
+      41
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_7",
+     "src": [
+      516,
+      305,
+      31,
+      41
+     ],
+     "duplicate_of": 1
+    },
+    {
+     "item": 17,
+     "role": "frame_8",
+     "src": [
+      516,
+      348,
+      31,
+      41
+     ]
+    }
+   ],
+   "box": [
+    516,
+    1,
+    31,
+    388
+   ]
+  },
+  {
+   "id": 1,
+   "name": "fire_flicker_alt",
+   "file": "fire_flicker_alt.png",
+   "cell": [
+    31,
+    41
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 2,
+     "role": "frame_0",
+     "src": [
+      550,
+      1,
+      31,
+      41
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_1",
+     "src": [
+      550,
+      45,
+      31,
+      41
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_2",
+     "src": [
+      550,
+      88,
+      31,
+      41
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 8,
+     "role": "frame_3",
+     "src": [
+      550,
+      131,
+      31,
+      41
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_4",
+     "src": [
+      550,
+      174,
+      31,
+      41
+     ],
+     "duplicate_of": 1
+    },
+    {
+     "item": 12,
+     "role": "frame_5",
+     "src": [
+      550,
+      218,
+      31,
+      41
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_6",
+     "src": [
+      550,
+      261,
+      31,
+      41
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_7",
+     "src": [
+      550,
+      305,
+      31,
+      41
+     ],
+     "duplicate_of": 1
+    },
+    {
+     "item": 18,
+     "role": "frame_8",
+     "src": [
+      550,
+      348,
+      31,
+      41
+     ]
+    }
+   ],
+   "box": [
+    550,
+    1,
+    31,
+    388
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 509,
+   "h": 339,
+   "area": 166632,
+   "ncolors": 54,
+   "dominant": "#F04018",
+   "dom_frac": 0.159,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "scorched_plains_000.png"
+  },
+  {
+   "x": 473,
+   "y": 350,
+   "w": 7,
+   "h": 7,
+   "area": 49,
+   "ncolors": 2,
+   "dominant": "#000000",
+   "dom_frac": 0.98,
+   "kind": "sprite",
+   "zone": null,
+   "name": "ember",
+   "id": 19,
+   "file": "ember.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

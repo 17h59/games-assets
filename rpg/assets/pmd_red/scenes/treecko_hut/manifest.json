@@ -1,0 +1,124 @@
+{
+ "sheet": "5344",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Treecko Hut",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "flag_wave",
+   "file": "flag_wave.png",
+   "cell": [
+    31,
+    24
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      7,
+      3,
+      30,
+      23
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_1",
+     "src": [
+      48,
+      2,
+      30,
+      23
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_2",
+     "src": [
+      89,
+      3,
+      30,
+      23
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_3",
+     "src": [
+      6,
+      42,
+      31,
+      23
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_4",
+     "src": [
+      48,
+      43,
+      31,
+      23
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_5",
+     "src": [
+      89,
+      42,
+      31,
+      23
+     ]
+    }
+   ],
+   "box": [
+    6,
+    2,
+    114,
+    64
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 408,
+   "h": 312,
+   "area": 117276,
+   "ncolors": 117,
+   "dominant": "#70C850",
+   "dom_frac": 0.167,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "treecko_hut_000.png"
+  },
+  {
+   "x": 3,
+   "y": 316,
+   "w": 382,
+   "h": 277,
+   "area": 77320,
+   "ncolors": 120,
+   "dominant": "#309810",
+   "dom_frac": 0.1,
+   "kind": "sprite",
+   "zone": null,
+   "id": 7,
+   "file": "treecko_hut_007.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

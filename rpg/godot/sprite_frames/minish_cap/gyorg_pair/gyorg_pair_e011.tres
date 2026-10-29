@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/gyorg_pair/gyorg_pair_e011.png" id="1_pjanm"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sbib0"]
+atlas = ExtResource("1_pjanm")
+region = Rect2(0, 0, 11, 11)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lqsd0"]
+atlas = ExtResource("1_pjanm")
+region = Rect2(11, 0, 11, 11)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3vjpw"]
+atlas = ExtResource("1_pjanm")
+region = Rect2(22, 0, 11, 11)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4sere"]
+atlas = ExtResource("1_pjanm")
+region = Rect2(33, 0, 11, 11)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sbib0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lqsd0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3vjpw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4sere")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

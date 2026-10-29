@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/fire_type_moves/sunny_day/sunny_day_e060.png" id="1_jc25m"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8jhga"]
+atlas = ExtResource("1_jc25m")
+region = Rect2(0, 0, 18, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v5lku"]
+atlas = ExtResource("1_jc25m")
+region = Rect2(18, 0, 18, 8)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8jhga")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v5lku")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

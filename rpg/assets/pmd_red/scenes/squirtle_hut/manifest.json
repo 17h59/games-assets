@@ -1,0 +1,138 @@
+{
+ "sheet": "5334",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Squirtle Hut",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "flag_wave",
+   "file": "flag_wave.png",
+   "cell": [
+    29,
+    23
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      2,
+      2,
+      28,
+      23
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_1",
+     "src": [
+      32,
+      2,
+      28,
+      22
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_2",
+     "src": [
+      62,
+      2,
+      28,
+      22
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_3",
+     "src": [
+      92,
+      2,
+      28,
+      22
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_4",
+     "src": [
+      2,
+      27,
+      28,
+      22
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_5",
+     "src": [
+      32,
+      27,
+      29,
+      22
+     ]
+    }
+   ],
+   "box": [
+    2,
+    2,
+    118,
+    47
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 392,
+   "h": 312,
+   "area": 112478,
+   "ncolors": 108,
+   "dominant": "#70C850",
+   "dom_frac": 0.169,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "squirtle_hut_000.png"
+  },
+  {
+   "x": 90,
+   "y": 50,
+   "w": 34,
+   "h": 5,
+   "area": 87,
+   "ncolors": 3,
+   "dominant": "#20C0F8",
+   "dom_frac": 0.333,
+   "kind": "sprite",
+   "zone": null,
+   "id": 7,
+   "file": "squirtle_hut_007.png"
+  },
+  {
+   "x": 10,
+   "y": 316,
+   "w": 350,
+   "h": 278,
+   "area": 74004,
+   "ncolors": 129,
+   "dominant": "#38A060",
+   "dom_frac": 0.088,
+   "kind": "sprite",
+   "zone": null,
+   "id": 8,
+   "file": "squirtle_hut_008.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

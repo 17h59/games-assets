@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/effects/bomb_explosion/bomb_explosion_e000.png" id="1_wvvwi"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_id620"]
+atlas = ExtResource("1_wvvwi")
+region = Rect2(0, 0, 23, 25)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8b6re"]
+atlas = ExtResource("1_wvvwi")
+region = Rect2(23, 0, 23, 25)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_raxkl"]
+atlas = ExtResource("1_wvvwi")
+region = Rect2(46, 0, 23, 25)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_id620")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8b6re")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_raxkl")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

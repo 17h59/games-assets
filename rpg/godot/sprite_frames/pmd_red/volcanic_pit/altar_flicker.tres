@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/volcanic_pit/altar_flicker.png" id="1_wc6fo"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_stxnx"]
+atlas = ExtResource("1_wc6fo")
+region = Rect2(0, 0, 98, 60)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n1d53"]
+atlas = ExtResource("1_wc6fo")
+region = Rect2(98, 0, 98, 60)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mtuyy"]
+atlas = ExtResource("1_wc6fo")
+region = Rect2(196, 0, 98, 60)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g2nab"]
+atlas = ExtResource("1_wc6fo")
+region = Rect2(294, 0, 98, 60)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7fc5j"]
+atlas = ExtResource("1_wc6fo")
+region = Rect2(392, 0, 98, 60)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p72co"]
+atlas = ExtResource("1_wc6fo")
+region = Rect2(490, 0, 98, 60)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_saauf"]
+atlas = ExtResource("1_wc6fo")
+region = Rect2(588, 0, 98, 60)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_syu01"]
+atlas = ExtResource("1_wc6fo")
+region = Rect2(686, 0, 98, 60)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_stxnx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n1d53")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mtuyy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g2nab")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7fc5j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p72co")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_saauf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_syu01")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

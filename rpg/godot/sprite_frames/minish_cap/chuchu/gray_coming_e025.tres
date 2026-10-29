@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/chuchu/gray_coming/gray_coming_e025.png" id="1_5ambp"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1cbi1"]
+atlas = ExtResource("1_5ambp")
+region = Rect2(0, 0, 16, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mef5o"]
+atlas = ExtResource("1_5ambp")
+region = Rect2(16, 0, 16, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gxjfl"]
+atlas = ExtResource("1_5ambp")
+region = Rect2(32, 0, 16, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kuoph"]
+atlas = ExtResource("1_5ambp")
+region = Rect2(48, 0, 16, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n704o"]
+atlas = ExtResource("1_5ambp")
+region = Rect2(64, 0, 16, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aute5"]
+atlas = ExtResource("1_5ambp")
+region = Rect2(80, 0, 16, 20)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1cbi1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mef5o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gxjfl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kuoph")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n704o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aute5")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

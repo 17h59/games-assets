@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/link_cap/link_cap_e067.png" id="1_h01cs"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rmh1b"]
+atlas = ExtResource("1_h01cs")
+region = Rect2(0, 0, 18, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wdupr"]
+atlas = ExtResource("1_h01cs")
+region = Rect2(18, 0, 18, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_38wcn"]
+atlas = ExtResource("1_h01cs")
+region = Rect2(36, 0, 18, 24)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rmh1b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wdupr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_38wcn")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

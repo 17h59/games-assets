@@ -1,0 +1,57 @@
+{
+ "sheet": "221080",
+ "game": "pmd_red",
+ "category": "ui",
+ "title": "Mt. Freeze Entrance",
+ "type": "sprites",
+ "template": "none",
+ "entities": [],
+ "items": [
+  {
+   "x": 0,
+   "y": 32,
+   "w": 264,
+   "h": 25,
+   "area": 1959,
+   "ncolors": 2,
+   "dominant": "#3F6FF7",
+   "dom_frac": 0.745,
+   "kind": "sprite",
+   "id": 0,
+   "file": "mt_freeze_entrance_000.png"
+  },
+  {
+   "x": 114,
+   "y": 52,
+   "w": 12,
+   "h": 3,
+   "area": 8,
+   "ncolors": 1,
+   "dominant": "#3F6FF7",
+   "dom_frac": 1.0,
+   "kind": "sprite",
+   "id": 1,
+   "file": "mt_freeze_entrance_001.png"
+  },
+  {
+   "x": 0,
+   "y": 62,
+   "w": 264,
+   "h": 226,
+   "area": 53169,
+   "ncolors": 18,
+   "dominant": "#DFE7FF",
+   "dom_frac": 0.466,
+   "kind": "sprite",
+   "id": 2,
+   "file": "mt_freeze_entrance_002.png"
+  }
+ ],
+ "validation": "pending",
+ "status": "skip",
+ "missing_stages": [
+  "decoupage",
+  "regroupement",
+  "nommage"
+ ]
+}

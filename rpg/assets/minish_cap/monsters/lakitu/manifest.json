@@ -1,0 +1,1137 @@
+{
+ "sheet": "6405",
+ "game": "minish_cap",
+ "category": "monsters",
+ "title": "Lakitu",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    366,
+    223,
+    12,
+    7
+   ],
+   "point": [
+    372,
+    226
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 1,
+   "box": [
+    3,
+    233,
+    269,
+    10
+   ],
+   "point": [
+    137,
+    238
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 2,
+   "box": [
+    3,
+    245,
+    371,
+    8
+   ],
+   "point": [
+    188,
+    249
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 3,
+   "box": [
+    3,
+    259,
+    362,
+    8
+   ],
+   "point": [
+    184,
+    263
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 4,
+   "box": [
+    3,
+    273,
+    266,
+    8
+   ],
+   "point": [
+    136,
+    277
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "lakitu_panic_right",
+   "file": "lakitu_panic_right.png",
+   "cell": [
+    21,
+    22
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 3,
+     "role": "frame_0",
+     "src": [
+      117,
+      13,
+      21,
+      20
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_1",
+     "src": [
+      149,
+      18,
+      19,
+      17
+     ]
+    }
+   ],
+   "box": [
+    117,
+    13,
+    51,
+    22
+   ]
+  },
+  {
+   "id": 1,
+   "name": "lakitu_walk_right",
+   "file": "lakitu_walk_right.png",
+   "cell": [
+    22,
+    25
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 20,
+     "role": "frame_0",
+     "src": [
+      43,
+      76,
+      20,
+      17
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_1",
+     "src": [
+      67,
+      74,
+      21,
+      16
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_2",
+     "src": [
+      96,
+      68,
+      19,
+      22
+     ]
+    }
+   ],
+   "box": [
+    43,
+    68,
+    72,
+    25
+   ]
+  },
+  {
+   "id": 2,
+   "name": "lakitu_panic_left",
+   "file": "lakitu_panic_left.png",
+   "cell": [
+    21,
+    22
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 23,
+     "role": "frame_0",
+     "src": [
+      126,
+      79,
+      21,
+      20
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_1",
+     "src": [
+      154,
+      84,
+      19,
+      17
+     ]
+    }
+   ],
+   "box": [
+    126,
+    79,
+    47,
+    22
+   ]
+  },
+  {
+   "id": 3,
+   "name": "lakitu_cloud_up",
+   "file": "lakitu_cloud_up.png",
+   "cell": [
+    24,
+    19
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 34,
+     "role": "frame_0",
+     "src": [
+      183,
+      107,
+      20,
+      19
+     ]
+    },
+    {
+     "item": 35,
+     "role": "frame_1",
+     "src": [
+      212,
+      107,
+      24,
+      18
+     ]
+    },
+    {
+     "item": 36,
+     "role": "frame_2",
+     "src": [
+      245,
+      107,
+      20,
+      19
+     ],
+     "mirror_of": 0
+    },
+    {
+     "item": 37,
+     "role": "frame_3",
+     "src": [
+      270,
+      107,
+      24,
+      18
+     ],
+     "duplicate_of": 1
+    }
+   ],
+   "box": [
+    183,
+    107,
+    111,
+    19
+   ]
+  },
+  {
+   "id": 4,
+   "name": "lakitu_e004",
+   "file": "lakitu_e004.png",
+   "cell": [
+    20,
+    12
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 38,
+     "role": "frame_0",
+     "src": [
+      139,
+      108,
+      20,
+      12
+     ]
+    },
+    {
+     "item": 39,
+     "role": "frame_1",
+     "src": [
+      169,
+      108,
+      10,
+      7
+     ]
+    }
+   ],
+   "box": [
+    139,
+    108,
+    40,
+    12
+   ]
+  },
+  {
+   "id": 5,
+   "name": "cloud_charge_1",
+   "file": "cloud_charge_1.png",
+   "cell": [
+    32,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 40,
+     "role": "frame_0",
+     "src": [
+      5,
+      136,
+      24,
+      19
+     ]
+    },
+    {
+     "item": 41,
+     "role": "frame_1",
+     "src": [
+      37,
+      136,
+      26,
+      20
+     ]
+    },
+    {
+     "item": 42,
+     "role": "frame_2",
+     "src": [
+      69,
+      135,
+      28,
+      21
+     ]
+    },
+    {
+     "item": 43,
+     "role": "frame_3",
+     "src": [
+      103,
+      136,
+      26,
+      20
+     ],
+     "duplicate_of": 1
+    },
+    {
+     "item": 44,
+     "role": "frame_4",
+     "src": [
+      133,
+      133,
+      32,
+      26
+     ]
+    }
+   ],
+   "box": [
+    5,
+    133,
+    160,
+    26
+   ]
+  },
+  {
+   "id": 6,
+   "name": "lightning_sparks",
+   "file": "lightning_sparks.png",
+   "cell": [
+    9,
+    11
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 45,
+     "role": "frame_0",
+     "src": [
+      166,
+      133,
+      9,
+      9
+     ]
+    },
+    {
+     "item": 46,
+     "role": "frame_1",
+     "src": [
+      186,
+      134,
+      9,
+      10
+     ]
+    }
+   ],
+   "box": [
+    166,
+    133,
+    29,
+    11
+   ]
+  },
+  {
+   "id": 7,
+   "name": "cloud_charge_2",
+   "file": "cloud_charge_2.png",
+   "cell": [
+    26,
+    28
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 47,
+     "role": "frame_0",
+     "src": [
+      6,
+      168,
+      22,
+      22
+     ]
+    },
+    {
+     "item": 48,
+     "role": "frame_1",
+     "src": [
+      38,
+      168,
+      24,
+      23
+     ]
+    },
+    {
+     "item": 49,
+     "role": "frame_2",
+     "src": [
+      70,
+      167,
+      26,
+      24
+     ]
+    },
+    {
+     "item": 50,
+     "role": "frame_3",
+     "src": [
+      104,
+      168,
+      24,
+      23
+     ],
+     "duplicate_of": 1
+    },
+    {
+     "item": 51,
+     "role": "frame_4",
+     "src": [
+      136,
+      165,
+      26,
+      28
+     ]
+    }
+   ],
+   "box": [
+    6,
+    165,
+    156,
+    28
+   ]
+  },
+  {
+   "id": 8,
+   "name": "spark_fade",
+   "file": "spark_fade.png",
+   "cell": [
+    8,
+    8
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 63,
+     "role": "frame_0",
+     "src": [
+      236,
+      198,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 64,
+     "role": "frame_1",
+     "src": [
+      246,
+      199,
+      6,
+      6
+     ]
+    },
+    {
+     "item": 65,
+     "role": "frame_2",
+     "src": [
+      256,
+      200,
+      4,
+      4
+     ]
+    },
+    {
+     "item": 66,
+     "role": "frame_3",
+     "src": [
+      264,
+      200,
+      5,
+      5
+     ]
+    },
+    {
+     "item": 67,
+     "role": "frame_4",
+     "src": [
+      274,
+      201,
+      3,
+      3
+     ]
+    }
+   ],
+   "box": [
+    236,
+    198,
+    41,
+    8
+   ]
+  },
+  {
+   "id": 9,
+   "name": "lakitu_cloud_right",
+   "file": "lakitu_cloud_right.png",
+   "cell": [
+    27,
+    22
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 8,
+     "role": "frame_0",
+     "src": [
+      191,
+      16,
+      24,
+      22
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_1",
+     "src": [
+      216,
+      16,
+      21,
+      21
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_2",
+     "src": [
+      241,
+      16,
+      27,
+      22
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_3",
+     "src": [
+      274,
+      16,
+      21,
+      21
+     ],
+     "duplicate_of": 1
+    }
+   ],
+   "box": [
+    191,
+    16,
+    104,
+    22
+   ]
+  },
+  {
+   "id": 10,
+   "name": "lakitu_cloud_down",
+   "file": "lakitu_cloud_down.png",
+   "cell": [
+    24,
+    24
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 18,
+     "role": "frame_0",
+     "src": [
+      182,
+      41,
+      22,
+      24
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_1",
+     "src": [
+      212,
+      41,
+      22,
+      21
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_2",
+     "src": [
+      242,
+      41,
+      22,
+      24
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_3",
+     "src": [
+      270,
+      41,
+      22,
+      21
+     ],
+     "mirror_of": 1
+    }
+   ],
+   "box": [
+    182,
+    41,
+    110,
+    24
+   ]
+  },
+  {
+   "id": 11,
+   "name": "lakitu_cloud_left",
+   "file": "lakitu_cloud_left.png",
+   "cell": [
+    27,
+    22
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 28,
+     "role": "frame_0",
+     "src": [
+      191,
+      82,
+      24,
+      22
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_1",
+     "src": [
+      219,
+      82,
+      21,
+      21
+     ]
+    },
+    {
+     "item": 29,
+     "role": "frame_2",
+     "src": [
+      246,
+      82,
+      27,
+      22
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_3",
+     "src": [
+      277,
+      82,
+      21,
+      21
+     ]
+    }
+   ],
+   "box": [
+    191,
+    82,
+    107,
+    22
+   ]
+  },
+  {
+   "id": 12,
+   "name": "lakitu_walk_up",
+   "file": "lakitu_walk_up.png",
+   "cell": [
+    22,
+    20
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 30,
+     "role": "frame_0",
+     "src": [
+      8,
+      109,
+      18,
+      20
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_1",
+     "src": [
+      41,
+      110,
+      18,
+      19
+     ]
+    },
+    {
+     "item": 32,
+     "role": "frame_2",
+     "src": [
+      72,
+      110,
+      22,
+      19
+     ]
+    },
+    {
+     "item": 33,
+     "role": "frame_3",
+     "src": [
+      107,
+      109,
+      18,
+      20
+     ]
+    }
+   ],
+   "box": [
+    8,
+    109,
+    117,
+    20
+   ]
+  },
+  {
+   "id": 13,
+   "name": "lakitu_walk_left",
+   "file": "lakitu_walk_left.png",
+   "cell": [
+    21,
+    25
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      35,
+      10,
+      20,
+      17
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      68,
+      8,
+      21,
+      16
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      91,
+      2,
+      19,
+      22
+     ]
+    }
+   ],
+   "box": [
+    35,
+    2,
+    75,
+    25
+   ]
+  },
+  {
+   "id": 14,
+   "name": "lakitu_walk_down",
+   "file": "lakitu_walk_down.png",
+   "cell": [
+    24,
+    19
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 13,
+     "role": "frame_0",
+     "src": [
+      8,
+      42,
+      16,
+      17
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_1",
+     "src": [
+      39,
+      40,
+      20,
+      17
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_2",
+     "src": [
+      70,
+      40,
+      24,
+      17
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_3",
+     "src": [
+      106,
+      41,
+      18,
+      17
+     ]
+    }
+   ],
+   "box": [
+    8,
+    40,
+    116,
+    19
+   ]
+  },
+  {
+   "id": 15,
+   "name": "lightning_orb",
+   "file": "lightning_orb.png",
+   "cell": [
+    22,
+    27
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 52,
+     "role": "frame_0",
+     "src": [
+      2,
+      199,
+      14,
+      14
+     ]
+    },
+    {
+     "item": 53,
+     "role": "frame_1",
+     "src": [
+      18,
+      198,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 58,
+     "role": "frame_2",
+     "src": [
+      40,
+      203,
+      22,
+      22
+     ]
+    },
+    {
+     "item": 59,
+     "role": "frame_3",
+     "src": [
+      75,
+      204,
+      18,
+      18
+     ]
+    }
+   ],
+   "box": [
+    2,
+    198,
+    91,
+    27
+   ]
+  },
+  {
+   "id": 16,
+   "name": "lightning_blast",
+   "file": "lightning_blast.png",
+   "cell": [
+    26,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 62,
+     "role": "frame_0",
+     "src": [
+      101,
+      198,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 54,
+     "role": "frame_1",
+     "src": [
+      113,
+      201,
+      10,
+      10
+     ]
+    },
+    {
+     "item": 55,
+     "role": "frame_2",
+     "src": [
+      128,
+      198,
+      14,
+      16
+     ]
+    },
+    {
+     "item": 56,
+     "role": "frame_3",
+     "src": [
+      144,
+      198,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 57,
+     "role": "frame_4",
+     "src": [
+      161,
+      198,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 60,
+     "role": "frame_5",
+     "src": [
+      178,
+      201,
+      24,
+      20
+     ]
+    },
+    {
+     "item": 61,
+     "role": "frame_6",
+     "src": [
+      203,
+      198,
+      26,
+      26
+     ]
+    }
+   ],
+   "box": [
+    101,
+    198,
+    128,
+    26
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 174,
+   "y": 20,
+   "w": 11,
+   "h": 11,
+   "area": 76,
+   "ncolors": 9,
+   "dominant": "#F8D040",
+   "dom_frac": 0.329,
+   "kind": "sprite",
+   "zone": null,
+   "cut": true,
+   "id": 5,
+   "file": "lakitu_005.png"
+  },
+  {
+   "x": 168,
+   "y": 44,
+   "w": 10,
+   "h": 7,
+   "area": 48,
+   "ncolors": 9,
+   "dominant": "#080808",
+   "dom_frac": 0.208,
+   "kind": "sprite",
+   "zone": null,
+   "id": 12,
+   "file": "lakitu_012.png"
+  },
+  {
+   "x": 139,
+   "y": 42,
+   "w": 18,
+   "h": 17,
+   "area": 135,
+   "ncolors": 10,
+   "dominant": "#080808",
+   "dom_frac": 0.289,
+   "kind": "sprite",
+   "zone": null,
+   "id": 15,
+   "file": "lakitu_015.png"
+  },
+  {
+   "x": 179,
+   "y": 86,
+   "w": 11,
+   "h": 11,
+   "area": 76,
+   "ncolors": 9,
+   "dominant": "#F8D040",
+   "dom_frac": 0.329,
+   "kind": "sprite",
+   "zone": null,
+   "cut": true,
+   "id": 25,
+   "file": "lakitu_025.png",
+   "mirror_of": 0
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

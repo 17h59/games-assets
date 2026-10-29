@@ -1,0 +1,670 @@
+{
+ "sheet": "5367",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Ice Floe Beach",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "ice_floe_beach_e000",
+   "file": "ice_floe_beach_e000.png",
+   "cell": [
+    6,
+    12
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 10,
+     "role": "frame_0",
+     "src": [
+      168,
+      296,
+      6,
+      6
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_1",
+     "src": [
+      198,
+      298,
+      6,
+      6
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_2",
+     "src": [
+      228,
+      300,
+      6,
+      6
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_3",
+     "src": [
+      258,
+      302,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    168,
+    296,
+    96,
+    12
+   ]
+  },
+  {
+   "id": 1,
+   "name": "ice_floe_beach_e001",
+   "file": "ice_floe_beach_e001.png",
+   "cell": [
+    6,
+    12
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 14,
+     "role": "frame_0",
+     "src": [
+      306,
+      296,
+      6,
+      6
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_1",
+     "src": [
+      336,
+      298,
+      6,
+      6
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_2",
+     "src": [
+      366,
+      300,
+      6,
+      6
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_3",
+     "src": [
+      396,
+      302,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    306,
+    296,
+    96,
+    12
+   ]
+  },
+  {
+   "id": 2,
+   "name": "ice_floe_beach_e002",
+   "file": "ice_floe_beach_e002.png",
+   "cell": [
+    5,
+    4
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 21,
+     "role": "frame_0",
+     "src": [
+      20,
+      305,
+      5,
+      4
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_1",
+     "src": [
+      50,
+      307,
+      5,
+      4
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 23,
+     "role": "frame_2",
+     "src": [
+      80,
+      309,
+      5,
+      4
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 24,
+     "role": "frame_3",
+     "src": [
+      110,
+      311,
+      5,
+      4
+     ],
+     "duplicate_of": 0
+    }
+   ],
+   "box": [
+    20,
+    305,
+    95,
+    10
+   ]
+  },
+  {
+   "id": 3,
+   "name": "ice_floe_beach_e003",
+   "file": "ice_floe_beach_e003.png",
+   "cell": [
+    7,
+    8
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 5,
+     "role": "frame_0",
+     "src": [
+      288,
+      291,
+      7,
+      4
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_1",
+     "src": [
+      319,
+      293,
+      6,
+      4
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_2",
+     "src": [
+      350,
+      294,
+      5,
+      5
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_3",
+     "src": [
+      381,
+      295,
+      4,
+      4
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_4",
+     "src": [
+      412,
+      296,
+      4,
+      5
+     ]
+    }
+   ],
+   "box": [
+    288,
+    291,
+    128,
+    10
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 480,
+   "h": 296,
+   "area": 138439,
+   "ncolors": 41,
+   "dominant": "#D6E7EF",
+   "dom_frac": 0.33,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "ice_floe_beach_000.png"
+  },
+  {
+   "x": 108,
+   "y": 292,
+   "w": 6,
+   "h": 6,
+   "area": 24,
+   "ncolors": 4,
+   "dominant": "#C6DEF7",
+   "dom_frac": 0.333,
+   "kind": "sprite",
+   "zone": null,
+   "id": 1,
+   "file": "ice_floe_beach_001.png"
+  },
+  {
+   "x": 138,
+   "y": 294,
+   "w": 6,
+   "h": 6,
+   "area": 24,
+   "ncolors": 4,
+   "dominant": "#C6DEF7",
+   "dom_frac": 0.333,
+   "kind": "sprite",
+   "zone": null,
+   "id": 2,
+   "file": "ice_floe_beach_002.png",
+   "duplicate_of": 1
+  },
+  {
+   "x": 246,
+   "y": 292,
+   "w": 6,
+   "h": 6,
+   "area": 24,
+   "ncolors": 4,
+   "dominant": "#C6DEF7",
+   "dom_frac": 0.333,
+   "kind": "sprite",
+   "zone": null,
+   "id": 3,
+   "file": "ice_floe_beach_003.png",
+   "duplicate_of": 1
+  },
+  {
+   "x": 276,
+   "y": 294,
+   "w": 6,
+   "h": 6,
+   "area": 24,
+   "ncolors": 4,
+   "dominant": "#C6DEF7",
+   "dom_frac": 0.333,
+   "kind": "sprite",
+   "zone": null,
+   "id": 4,
+   "file": "ice_floe_beach_004.png",
+   "duplicate_of": 1
+  },
+  {
+   "x": 442,
+   "y": 297,
+   "w": 5,
+   "h": 6,
+   "area": 18,
+   "ncolors": 4,
+   "dominant": "#C6DEF7",
+   "dom_frac": 0.389,
+   "kind": "sprite",
+   "zone": null,
+   "id": 18,
+   "file": "ice_floe_beach_018.png"
+  },
+  {
+   "x": 472,
+   "y": 298,
+   "w": 5,
+   "h": 7,
+   "area": 18,
+   "ncolors": 4,
+   "dominant": "#C6DEF7",
+   "dom_frac": 0.389,
+   "kind": "sprite",
+   "zone": null,
+   "id": 19,
+   "file": "ice_floe_beach_019.png"
+  },
+  {
+   "x": 502,
+   "y": 299,
+   "w": 5,
+   "h": 8,
+   "area": 18,
+   "ncolors": 4,
+   "dominant": "#C6DEF7",
+   "dom_frac": 0.389,
+   "kind": "sprite",
+   "zone": null,
+   "id": 20,
+   "file": "ice_floe_beach_020.png"
+  },
+  {
+   "x": 288,
+   "y": 304,
+   "w": 6,
+   "h": 6,
+   "area": 24,
+   "ncolors": 4,
+   "dominant": "#C6DEF7",
+   "dom_frac": 0.333,
+   "kind": "sprite",
+   "zone": null,
+   "id": 25,
+   "file": "ice_floe_beach_025.png",
+   "duplicate_of": 1
+  },
+  {
+   "x": 320,
+   "y": 306,
+   "w": 4,
+   "h": 6,
+   "area": 17,
+   "ncolors": 4,
+   "dominant": "#C6DEF7",
+   "dom_frac": 0.294,
+   "kind": "sprite",
+   "zone": null,
+   "id": 26,
+   "file": "ice_floe_beach_026.png"
+  },
+  {
+   "x": 350,
+   "y": 308,
+   "w": 4,
+   "h": 4,
+   "area": 14,
+   "ncolors": 4,
+   "dominant": "#C6DEF7",
+   "dom_frac": 0.429,
+   "kind": "sprite",
+   "zone": null,
+   "id": 27,
+   "file": "ice_floe_beach_027.png"
+  },
+  {
+   "x": 380,
+   "y": 308,
+   "w": 4,
+   "h": 6,
+   "area": 17,
+   "ncolors": 4,
+   "dominant": "#C6DEF7",
+   "dom_frac": 0.294,
+   "kind": "sprite",
+   "zone": null,
+   "id": 28,
+   "file": "ice_floe_beach_028.png"
+  },
+  {
+   "x": 426,
+   "y": 304,
+   "w": 6,
+   "h": 6,
+   "area": 24,
+   "ncolors": 4,
+   "dominant": "#C6DEF7",
+   "dom_frac": 0.333,
+   "kind": "sprite",
+   "zone": null,
+   "id": 29,
+   "file": "ice_floe_beach_029.png",
+   "duplicate_of": 1
+  },
+  {
+   "x": 4,
+   "y": 310,
+   "w": 6,
+   "h": 8,
+   "area": 28,
+   "ncolors": 4,
+   "dominant": "#ADCEEF",
+   "dom_frac": 0.286,
+   "kind": "sprite",
+   "zone": null,
+   "id": 30,
+   "file": "ice_floe_beach_030.png"
+  },
+  {
+   "x": 20,
+   "y": 318,
+   "w": 4,
+   "h": 2,
+   "area": 7,
+   "ncolors": 3,
+   "dominant": "#C6DEF7",
+   "dom_frac": 0.429,
+   "kind": "sprite",
+   "zone": null,
+   "id": 31,
+   "file": "ice_floe_beach_031.png"
+  },
+  {
+   "x": 34,
+   "y": 312,
+   "w": 7,
+   "h": 7,
+   "area": 28,
+   "ncolors": 4,
+   "dominant": "#ADCEEF",
+   "dom_frac": 0.286,
+   "kind": "sprite",
+   "zone": null,
+   "id": 32,
+   "file": "ice_floe_beach_032.png"
+  },
+  {
+   "x": 64,
+   "y": 314,
+   "w": 8,
+   "h": 6,
+   "area": 28,
+   "ncolors": 4,
+   "dominant": "#ADCEEF",
+   "dom_frac": 0.286,
+   "kind": "sprite",
+   "zone": null,
+   "id": 33,
+   "file": "ice_floe_beach_033.png"
+  },
+  {
+   "x": 96,
+   "y": 316,
+   "w": 7,
+   "h": 4,
+   "area": 16,
+   "ncolors": 4,
+   "dominant": "#ADCEEF",
+   "dom_frac": 0.25,
+   "kind": "sprite",
+   "zone": null,
+   "id": 34,
+   "file": "ice_floe_beach_034.png"
+  },
+  {
+   "x": 126,
+   "y": 318,
+   "w": 4,
+   "h": 2,
+   "area": 7,
+   "ncolors": 3,
+   "dominant": "#C6DEF7",
+   "dom_frac": 0.429,
+   "kind": "sprite",
+   "zone": null,
+   "id": 35,
+   "file": "ice_floe_beach_035.png"
+  },
+  {
+   "x": 140,
+   "y": 313,
+   "w": 5,
+   "h": 4,
+   "area": 14,
+   "ncolors": 4,
+   "dominant": "#C6DEF7",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "id": 36,
+   "file": "ice_floe_beach_036.png"
+  },
+  {
+   "x": 170,
+   "y": 315,
+   "w": 5,
+   "h": 4,
+   "area": 14,
+   "ncolors": 4,
+   "dominant": "#C6DEF7",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "id": 37,
+   "file": "ice_floe_beach_037.png",
+   "duplicate_of": 19
+  },
+  {
+   "x": 200,
+   "y": 317,
+   "w": 5,
+   "h": 3,
+   "area": 11,
+   "ncolors": 4,
+   "dominant": "#C6DEF7",
+   "dom_frac": 0.545,
+   "kind": "sprite",
+   "zone": null,
+   "id": 38,
+   "file": "ice_floe_beach_038.png"
+  },
+  {
+   "x": 410,
+   "y": 310,
+   "w": 6,
+   "h": 6,
+   "area": 24,
+   "ncolors": 4,
+   "dominant": "#C6DEF7",
+   "dom_frac": 0.333,
+   "kind": "sprite",
+   "zone": null,
+   "id": 39,
+   "file": "ice_floe_beach_039.png",
+   "duplicate_of": 1
+  },
+  {
+   "x": 440,
+   "y": 312,
+   "w": 6,
+   "h": 6,
+   "area": 24,
+   "ncolors": 4,
+   "dominant": "#C6DEF7",
+   "dom_frac": 0.333,
+   "kind": "sprite",
+   "zone": null,
+   "id": 40,
+   "file": "ice_floe_beach_040.png",
+   "duplicate_of": 1
+  },
+  {
+   "x": 456,
+   "y": 306,
+   "w": 6,
+   "h": 10,
+   "area": 28,
+   "ncolors": 4,
+   "dominant": "#ADCEEF",
+   "dom_frac": 0.286,
+   "kind": "sprite",
+   "zone": null,
+   "id": 41,
+   "file": "ice_floe_beach_041.png"
+  },
+  {
+   "x": 470,
+   "y": 314,
+   "w": 6,
+   "h": 6,
+   "area": 24,
+   "ncolors": 4,
+   "dominant": "#C6DEF7",
+   "dom_frac": 0.333,
+   "kind": "sprite",
+   "zone": null,
+   "id": 42,
+   "file": "ice_floe_beach_042.png",
+   "duplicate_of": 1
+  },
+  {
+   "x": 486,
+   "y": 308,
+   "w": 6,
+   "h": 9,
+   "area": 28,
+   "ncolors": 4,
+   "dominant": "#ADCEEF",
+   "dom_frac": 0.286,
+   "kind": "sprite",
+   "zone": null,
+   "id": 43,
+   "file": "ice_floe_beach_043.png"
+  },
+  {
+   "x": 500,
+   "y": 316,
+   "w": 6,
+   "h": 4,
+   "area": 17,
+   "ncolors": 4,
+   "dominant": "#C6DEF7",
+   "dom_frac": 0.294,
+   "kind": "sprite",
+   "zone": null,
+   "id": 44,
+   "file": "ice_floe_beach_044.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

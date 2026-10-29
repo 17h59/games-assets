@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/ghost_type_moves/destiny_bond/destiny_bond_e004.png" id="1_do60q"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ufx21"]
+atlas = ExtResource("1_do60q")
+region = Rect2(0, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q34ek"]
+atlas = ExtResource("1_do60q")
+region = Rect2(24, 0, 24, 24)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ufx21")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q34ek")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/cuccos/chick_jump_left.png" id="1_o8dor"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aly28"]
+atlas = ExtResource("1_o8dor")
+region = Rect2(0, 0, 9, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_spkk1"]
+atlas = ExtResource("1_o8dor")
+region = Rect2(9, 0, 9, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ehodb"]
+atlas = ExtResource("1_o8dor")
+region = Rect2(18, 0, 9, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gh3yo"]
+atlas = ExtResource("1_o8dor")
+region = Rect2(27, 0, 9, 12)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aly28")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_spkk1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ehodb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gh3yo")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

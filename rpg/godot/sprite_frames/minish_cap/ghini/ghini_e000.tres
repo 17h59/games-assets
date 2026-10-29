@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/ghini/ghini_e000.png" id="1_i6slt"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_avna7"]
+atlas = ExtResource("1_i6slt")
+region = Rect2(0, 0, 8, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eligp"]
+atlas = ExtResource("1_i6slt")
+region = Rect2(8, 0, 8, 13)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_avna7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eligp")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

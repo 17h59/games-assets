@@ -1,0 +1,74 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/ghost_type_moves/curse/curse_e012.png" id="1_gfy5e"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4baw0"]
+atlas = ExtResource("1_gfy5e")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3uipn"]
+atlas = ExtResource("1_gfy5e")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w5tof"]
+atlas = ExtResource("1_gfy5e")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hc6e8"]
+atlas = ExtResource("1_gfy5e")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2bhvi"]
+atlas = ExtResource("1_gfy5e")
+region = Rect2(64, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tlt6d"]
+atlas = ExtResource("1_gfy5e")
+region = Rect2(80, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sjffp"]
+atlas = ExtResource("1_gfy5e")
+region = Rect2(96, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_exl1m"]
+atlas = ExtResource("1_gfy5e")
+region = Rect2(112, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nvmvv"]
+atlas = ExtResource("1_gfy5e")
+region = Rect2(128, 0, 16, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4baw0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3uipn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w5tof")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hc6e8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2bhvi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tlt6d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sjffp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_exl1m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nvmvv")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/emerald/characters/red_leaf/red_left.png" id="1_arq1e"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_utv7y"]
+atlas = ExtResource("1_arq1e")
+region = Rect2(0, 0, 14, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r74bw"]
+atlas = ExtResource("1_arq1e")
+region = Rect2(14, 0, 14, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vgg8k"]
+atlas = ExtResource("1_arq1e")
+region = Rect2(28, 0, 14, 20)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_utv7y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r74bw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vgg8k")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

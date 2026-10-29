@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/healing_forest/water_sparkle.png" id="1_0cnf1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_it7dv"]
+atlas = ExtResource("1_0cnf1")
+region = Rect2(0, 0, 17, 81)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_62ldk"]
+atlas = ExtResource("1_0cnf1")
+region = Rect2(17, 0, 17, 81)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_it7dv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_62ldk")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/hyrule_town_residents_2/hyrule_town_residents_2_e058.png" id="1_hqmko"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t53kk"]
+atlas = ExtResource("1_hqmko")
+region = Rect2(0, 0, 22, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lgg55"]
+atlas = ExtResource("1_hqmko")
+region = Rect2(22, 0, 22, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s5dxu"]
+atlas = ExtResource("1_hqmko")
+region = Rect2(44, 0, 22, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0iuyo"]
+atlas = ExtResource("1_hqmko")
+region = Rect2(66, 0, 22, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bwopd"]
+atlas = ExtResource("1_hqmko")
+region = Rect2(88, 0, 22, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4gv4k"]
+atlas = ExtResource("1_hqmko")
+region = Rect2(110, 0, 22, 35)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t53kk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lgg55")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s5dxu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0iuyo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bwopd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4gv4k")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

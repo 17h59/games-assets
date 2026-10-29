@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/dark_type_moves/memento/memento_e016.png" id="1_gorgi"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_efowq"]
+atlas = ExtResource("1_gorgi")
+region = Rect2(0, 0, 3, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e6yjm"]
+atlas = ExtResource("1_gorgi")
+region = Rect2(3, 0, 3, 32)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_efowq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e6yjm")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

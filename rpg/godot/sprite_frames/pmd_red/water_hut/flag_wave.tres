@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/water_hut/flag_wave.png" id="1_66at4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1xnl0"]
+atlas = ExtResource("1_66at4")
+region = Rect2(0, 0, 31, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fbrud"]
+atlas = ExtResource("1_66at4")
+region = Rect2(31, 0, 31, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5it11"]
+atlas = ExtResource("1_66at4")
+region = Rect2(62, 0, 31, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pwp7q"]
+atlas = ExtResource("1_66at4")
+region = Rect2(93, 0, 31, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2i1v2"]
+atlas = ExtResource("1_66at4")
+region = Rect2(124, 0, 31, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k3048"]
+atlas = ExtResource("1_66at4")
+region = Rect2(155, 0, 31, 8)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1xnl0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fbrud")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5it11")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pwp7q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2i1v2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k3048")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

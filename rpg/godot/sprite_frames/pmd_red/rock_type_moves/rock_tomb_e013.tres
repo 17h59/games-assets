@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/rock_type_moves/rock_tomb/rock_tomb_e013.png" id="1_8le5o"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5yp2i"]
+atlas = ExtResource("1_8le5o")
+region = Rect2(0, 0, 11, 9)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pq6nj"]
+atlas = ExtResource("1_8le5o")
+region = Rect2(11, 0, 11, 9)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5yp2i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pq6nj")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

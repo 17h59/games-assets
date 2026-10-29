@@ -1,0 +1,3283 @@
+{
+ "sheet": "6396",
+ "game": "minish_cap",
+ "category": "characters",
+ "title": "Blade Brothers",
+ "type": "characters",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "blade_brothers_e000",
+   "file": "blade_brothers_e000.png",
+   "cell": [
+    46,
+    34
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      0,
+      49,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      18,
+      50,
+      16,
+      25
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      36,
+      45,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      54,
+      41,
+      16,
+      34
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_4",
+     "src": [
+      72,
+      48,
+      14,
+      27
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_5",
+     "src": [
+      90,
+      47,
+      15,
+      28
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_6",
+     "src": [
+      106,
+      42,
+      16,
+      33
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_7",
+     "src": [
+      124,
+      44,
+      20,
+      31
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_8",
+     "src": [
+      146,
+      42,
+      20,
+      33
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_9",
+     "src": [
+      168,
+      47,
+      22,
+      28
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_10",
+     "src": [
+      192,
+      49,
+      22,
+      26
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_11",
+     "src": [
+      216,
+      49,
+      22,
+      26
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_12",
+     "src": [
+      240,
+      49,
+      18,
+      26
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_13",
+     "src": [
+      260,
+      49,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_14",
+     "src": [
+      278,
+      50,
+      21,
+      25
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_15",
+     "src": [
+      301,
+      48,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_16",
+     "src": [
+      322,
+      48,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_17",
+     "src": [
+      343,
+      48,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_18",
+     "src": [
+      364,
+      48,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_19",
+     "src": [
+      385,
+      48,
+      23,
+      27
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_20",
+     "src": [
+      408,
+      48,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_21",
+     "src": [
+      429,
+      48,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_22",
+     "src": [
+      450,
+      49,
+      24,
+      26
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_23",
+     "src": [
+      476,
+      48,
+      30,
+      27
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_24",
+     "src": [
+      508,
+      48,
+      38,
+      27
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_25",
+     "src": [
+      548,
+      48,
+      46,
+      27
+     ]
+    }
+   ],
+   "box": [
+    0,
+    41,
+    594,
+    34
+   ]
+  },
+  {
+   "id": 1,
+   "name": "blade_brothers_e001",
+   "file": "blade_brothers_e001.png",
+   "cell": [
+    15,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 27,
+     "role": "frame_0",
+     "src": [
+      649,
+      49,
+      15,
+      26
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_1",
+     "src": [
+      666,
+      49,
+      15,
+      26
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    649,
+    49,
+    32,
+    26
+   ]
+  },
+  {
+   "id": 2,
+   "name": "blade_brothers_e002",
+   "file": "blade_brothers_e002.png",
+   "cell": [
+    46,
+    34
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 29,
+     "role": "frame_0",
+     "src": [
+      0,
+      98,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_1",
+     "src": [
+      18,
+      99,
+      16,
+      25
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_2",
+     "src": [
+      36,
+      94,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 32,
+     "role": "frame_3",
+     "src": [
+      54,
+      90,
+      16,
+      34
+     ]
+    },
+    {
+     "item": 33,
+     "role": "frame_4",
+     "src": [
+      72,
+      97,
+      14,
+      27
+     ]
+    },
+    {
+     "item": 34,
+     "role": "frame_5",
+     "src": [
+      88,
+      96,
+      16,
+      28
+     ]
+    },
+    {
+     "item": 35,
+     "role": "frame_6",
+     "src": [
+      106,
+      91,
+      16,
+      33
+     ]
+    },
+    {
+     "item": 36,
+     "role": "frame_7",
+     "src": [
+      124,
+      93,
+      20,
+      31
+     ]
+    },
+    {
+     "item": 37,
+     "role": "frame_8",
+     "src": [
+      146,
+      91,
+      20,
+      33
+     ]
+    },
+    {
+     "item": 38,
+     "role": "frame_9",
+     "src": [
+      168,
+      96,
+      22,
+      28
+     ]
+    },
+    {
+     "item": 39,
+     "role": "frame_10",
+     "src": [
+      192,
+      98,
+      22,
+      26
+     ]
+    },
+    {
+     "item": 40,
+     "role": "frame_11",
+     "src": [
+      216,
+      98,
+      22,
+      26
+     ]
+    },
+    {
+     "item": 41,
+     "role": "frame_12",
+     "src": [
+      240,
+      98,
+      18,
+      26
+     ]
+    },
+    {
+     "item": 42,
+     "role": "frame_13",
+     "src": [
+      260,
+      98,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 43,
+     "role": "frame_14",
+     "src": [
+      278,
+      99,
+      21,
+      25
+     ]
+    },
+    {
+     "item": 44,
+     "role": "frame_15",
+     "src": [
+      301,
+      97,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 45,
+     "role": "frame_16",
+     "src": [
+      322,
+      97,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 46,
+     "role": "frame_17",
+     "src": [
+      343,
+      97,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 47,
+     "role": "frame_18",
+     "src": [
+      364,
+      97,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 48,
+     "role": "frame_19",
+     "src": [
+      385,
+      97,
+      23,
+      27
+     ]
+    },
+    {
+     "item": 49,
+     "role": "frame_20",
+     "src": [
+      408,
+      97,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 50,
+     "role": "frame_21",
+     "src": [
+      429,
+      97,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 51,
+     "role": "frame_22",
+     "src": [
+      451,
+      98,
+      22,
+      26
+     ]
+    },
+    {
+     "item": 52,
+     "role": "frame_23",
+     "src": [
+      476,
+      97,
+      30,
+      27
+     ]
+    },
+    {
+     "item": 53,
+     "role": "frame_24",
+     "src": [
+      508,
+      97,
+      38,
+      27
+     ]
+    },
+    {
+     "item": 54,
+     "role": "frame_25",
+     "src": [
+      548,
+      97,
+      46,
+      27
+     ]
+    }
+   ],
+   "box": [
+    0,
+    90,
+    594,
+    34
+   ]
+  },
+  {
+   "id": 3,
+   "name": "blade_brothers_e003",
+   "file": "blade_brothers_e003.png",
+   "cell": [
+    15,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 56,
+     "role": "frame_0",
+     "src": [
+      649,
+      98,
+      15,
+      26
+     ]
+    },
+    {
+     "item": 57,
+     "role": "frame_1",
+     "src": [
+      666,
+      98,
+      15,
+      26
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    649,
+    98,
+    32,
+    26
+   ]
+  },
+  {
+   "id": 4,
+   "name": "blade_brothers_e004",
+   "file": "blade_brothers_e004.png",
+   "cell": [
+    44,
+    34
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 58,
+     "role": "frame_0",
+     "src": [
+      0,
+      147,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 59,
+     "role": "frame_1",
+     "src": [
+      18,
+      148,
+      16,
+      25
+     ]
+    },
+    {
+     "item": 60,
+     "role": "frame_2",
+     "src": [
+      36,
+      143,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 61,
+     "role": "frame_3",
+     "src": [
+      54,
+      139,
+      16,
+      34
+     ]
+    },
+    {
+     "item": 62,
+     "role": "frame_4",
+     "src": [
+      72,
+      146,
+      14,
+      27
+     ]
+    },
+    {
+     "item": 63,
+     "role": "frame_5",
+     "src": [
+      88,
+      145,
+      16,
+      28
+     ]
+    },
+    {
+     "item": 64,
+     "role": "frame_6",
+     "src": [
+      106,
+      140,
+      16,
+      33
+     ]
+    },
+    {
+     "item": 65,
+     "role": "frame_7",
+     "src": [
+      124,
+      142,
+      20,
+      31
+     ]
+    },
+    {
+     "item": 66,
+     "role": "frame_8",
+     "src": [
+      146,
+      140,
+      20,
+      33
+     ]
+    },
+    {
+     "item": 67,
+     "role": "frame_9",
+     "src": [
+      168,
+      145,
+      22,
+      28
+     ]
+    },
+    {
+     "item": 68,
+     "role": "frame_10",
+     "src": [
+      192,
+      147,
+      22,
+      26
+     ]
+    },
+    {
+     "item": 69,
+     "role": "frame_11",
+     "src": [
+      216,
+      147,
+      22,
+      26
+     ]
+    },
+    {
+     "item": 70,
+     "role": "frame_12",
+     "src": [
+      240,
+      147,
+      18,
+      26
+     ]
+    },
+    {
+     "item": 71,
+     "role": "frame_13",
+     "src": [
+      260,
+      147,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 72,
+     "role": "frame_14",
+     "src": [
+      278,
+      148,
+      21,
+      25
+     ]
+    },
+    {
+     "item": 73,
+     "role": "frame_15",
+     "src": [
+      301,
+      146,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 74,
+     "role": "frame_16",
+     "src": [
+      322,
+      146,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 75,
+     "role": "frame_17",
+     "src": [
+      343,
+      146,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 76,
+     "role": "frame_18",
+     "src": [
+      364,
+      146,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 77,
+     "role": "frame_19",
+     "src": [
+      385,
+      146,
+      23,
+      27
+     ]
+    },
+    {
+     "item": 78,
+     "role": "frame_20",
+     "src": [
+      408,
+      146,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 79,
+     "role": "frame_21",
+     "src": [
+      429,
+      146,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 80,
+     "role": "frame_22",
+     "src": [
+      451,
+      147,
+      21,
+      26
+     ]
+    },
+    {
+     "item": 81,
+     "role": "frame_23",
+     "src": [
+      477,
+      146,
+      28,
+      27
+     ]
+    },
+    {
+     "item": 82,
+     "role": "frame_24",
+     "src": [
+      509,
+      146,
+      36,
+      27
+     ]
+    },
+    {
+     "item": 83,
+     "role": "frame_25",
+     "src": [
+      549,
+      146,
+      44,
+      27
+     ]
+    }
+   ],
+   "box": [
+    0,
+    139,
+    593,
+    34
+   ]
+  },
+  {
+   "id": 5,
+   "name": "blade_brothers_e005",
+   "file": "blade_brothers_e005.png",
+   "cell": [
+    15,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 85,
+     "role": "frame_0",
+     "src": [
+      649,
+      147,
+      15,
+      26
+     ]
+    },
+    {
+     "item": 86,
+     "role": "frame_1",
+     "src": [
+      666,
+      147,
+      15,
+      26
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    649,
+    147,
+    32,
+    26
+   ]
+  },
+  {
+   "id": 6,
+   "name": "blade_brothers_e006",
+   "file": "blade_brothers_e006.png",
+   "cell": [
+    44,
+    34
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 87,
+     "role": "frame_0",
+     "src": [
+      0,
+      196,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 88,
+     "role": "frame_1",
+     "src": [
+      18,
+      197,
+      16,
+      25
+     ]
+    },
+    {
+     "item": 89,
+     "role": "frame_2",
+     "src": [
+      36,
+      192,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 90,
+     "role": "frame_3",
+     "src": [
+      54,
+      188,
+      16,
+      34
+     ]
+    },
+    {
+     "item": 91,
+     "role": "frame_4",
+     "src": [
+      72,
+      195,
+      14,
+      27
+     ]
+    },
+    {
+     "item": 92,
+     "role": "frame_5",
+     "src": [
+      88,
+      194,
+      16,
+      28
+     ]
+    },
+    {
+     "item": 93,
+     "role": "frame_6",
+     "src": [
+      106,
+      189,
+      16,
+      33
+     ]
+    },
+    {
+     "item": 94,
+     "role": "frame_7",
+     "src": [
+      124,
+      191,
+      20,
+      31
+     ]
+    },
+    {
+     "item": 95,
+     "role": "frame_8",
+     "src": [
+      146,
+      189,
+      20,
+      33
+     ]
+    },
+    {
+     "item": 96,
+     "role": "frame_9",
+     "src": [
+      168,
+      194,
+      22,
+      28
+     ]
+    },
+    {
+     "item": 97,
+     "role": "frame_10",
+     "src": [
+      192,
+      196,
+      22,
+      26
+     ]
+    },
+    {
+     "item": 98,
+     "role": "frame_11",
+     "src": [
+      216,
+      196,
+      22,
+      26
+     ]
+    },
+    {
+     "item": 99,
+     "role": "frame_12",
+     "src": [
+      240,
+      196,
+      18,
+      26
+     ]
+    },
+    {
+     "item": 100,
+     "role": "frame_13",
+     "src": [
+      260,
+      196,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 101,
+     "role": "frame_14",
+     "src": [
+      278,
+      197,
+      21,
+      25
+     ]
+    },
+    {
+     "item": 102,
+     "role": "frame_15",
+     "src": [
+      301,
+      195,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 103,
+     "role": "frame_16",
+     "src": [
+      322,
+      195,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 104,
+     "role": "frame_17",
+     "src": [
+      343,
+      195,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 105,
+     "role": "frame_18",
+     "src": [
+      364,
+      195,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 106,
+     "role": "frame_19",
+     "src": [
+      385,
+      195,
+      23,
+      27
+     ]
+    },
+    {
+     "item": 107,
+     "role": "frame_20",
+     "src": [
+      408,
+      195,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 108,
+     "role": "frame_21",
+     "src": [
+      429,
+      195,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 109,
+     "role": "frame_22",
+     "src": [
+      451,
+      196,
+      20,
+      26
+     ]
+    },
+    {
+     "item": 110,
+     "role": "frame_23",
+     "src": [
+      478,
+      195,
+      26,
+      27
+     ]
+    },
+    {
+     "item": 111,
+     "role": "frame_24",
+     "src": [
+      509,
+      195,
+      36,
+      27
+     ]
+    },
+    {
+     "item": 112,
+     "role": "frame_25",
+     "src": [
+      549,
+      195,
+      44,
+      27
+     ]
+    }
+   ],
+   "box": [
+    0,
+    188,
+    593,
+    34
+   ]
+  },
+  {
+   "id": 7,
+   "name": "blade_brothers_e007",
+   "file": "blade_brothers_e007.png",
+   "cell": [
+    15,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 114,
+     "role": "frame_0",
+     "src": [
+      649,
+      195,
+      15,
+      26
+     ]
+    },
+    {
+     "item": 115,
+     "role": "frame_1",
+     "src": [
+      666,
+      195,
+      15,
+      26
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    649,
+    195,
+    32,
+    26
+   ]
+  },
+  {
+   "id": 8,
+   "name": "blade_brothers_e008",
+   "file": "blade_brothers_e008.png",
+   "cell": [
+    44,
+    34
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 116,
+     "role": "frame_0",
+     "src": [
+      0,
+      246,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 117,
+     "role": "frame_1",
+     "src": [
+      18,
+      247,
+      16,
+      25
+     ]
+    },
+    {
+     "item": 118,
+     "role": "frame_2",
+     "src": [
+      36,
+      242,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 119,
+     "role": "frame_3",
+     "src": [
+      54,
+      238,
+      16,
+      34
+     ]
+    },
+    {
+     "item": 120,
+     "role": "frame_4",
+     "src": [
+      72,
+      245,
+      14,
+      27
+     ]
+    },
+    {
+     "item": 121,
+     "role": "frame_5",
+     "src": [
+      88,
+      244,
+      16,
+      28
+     ]
+    },
+    {
+     "item": 122,
+     "role": "frame_6",
+     "src": [
+      106,
+      239,
+      16,
+      33
+     ]
+    },
+    {
+     "item": 123,
+     "role": "frame_7",
+     "src": [
+      124,
+      241,
+      20,
+      31
+     ]
+    },
+    {
+     "item": 124,
+     "role": "frame_8",
+     "src": [
+      146,
+      239,
+      20,
+      33
+     ]
+    },
+    {
+     "item": 125,
+     "role": "frame_9",
+     "src": [
+      168,
+      244,
+      22,
+      28
+     ]
+    },
+    {
+     "item": 126,
+     "role": "frame_10",
+     "src": [
+      192,
+      246,
+      22,
+      26
+     ]
+    },
+    {
+     "item": 127,
+     "role": "frame_11",
+     "src": [
+      216,
+      246,
+      22,
+      26
+     ]
+    },
+    {
+     "item": 128,
+     "role": "frame_12",
+     "src": [
+      240,
+      246,
+      18,
+      26
+     ]
+    },
+    {
+     "item": 129,
+     "role": "frame_13",
+     "src": [
+      260,
+      246,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 130,
+     "role": "frame_14",
+     "src": [
+      278,
+      247,
+      21,
+      25
+     ]
+    },
+    {
+     "item": 131,
+     "role": "frame_15",
+     "src": [
+      301,
+      245,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 132,
+     "role": "frame_16",
+     "src": [
+      322,
+      245,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 133,
+     "role": "frame_17",
+     "src": [
+      343,
+      245,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 134,
+     "role": "frame_18",
+     "src": [
+      364,
+      245,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 135,
+     "role": "frame_19",
+     "src": [
+      385,
+      245,
+      23,
+      27
+     ]
+    },
+    {
+     "item": 136,
+     "role": "frame_20",
+     "src": [
+      408,
+      245,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 137,
+     "role": "frame_21",
+     "src": [
+      429,
+      245,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 138,
+     "role": "frame_22",
+     "src": [
+      451,
+      246,
+      20,
+      26
+     ]
+    },
+    {
+     "item": 139,
+     "role": "frame_23",
+     "src": [
+      478,
+      245,
+      26,
+      27
+     ]
+    },
+    {
+     "item": 140,
+     "role": "frame_24",
+     "src": [
+      509,
+      245,
+      36,
+      27
+     ]
+    },
+    {
+     "item": 141,
+     "role": "frame_25",
+     "src": [
+      549,
+      245,
+      44,
+      27
+     ]
+    }
+   ],
+   "box": [
+    0,
+    238,
+    593,
+    34
+   ]
+  },
+  {
+   "id": 9,
+   "name": "blade_brothers_e009",
+   "file": "blade_brothers_e009.png",
+   "cell": [
+    15,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 143,
+     "role": "frame_0",
+     "src": [
+      649,
+      246,
+      15,
+      26
+     ]
+    },
+    {
+     "item": 144,
+     "role": "frame_1",
+     "src": [
+      666,
+      246,
+      15,
+      26
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    649,
+    246,
+    32,
+    26
+   ]
+  },
+  {
+   "id": 10,
+   "name": "blade_brothers_e010",
+   "file": "blade_brothers_e010.png",
+   "cell": [
+    44,
+    34
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 145,
+     "role": "frame_0",
+     "src": [
+      0,
+      296,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 146,
+     "role": "frame_1",
+     "src": [
+      18,
+      297,
+      16,
+      25
+     ]
+    },
+    {
+     "item": 147,
+     "role": "frame_2",
+     "src": [
+      36,
+      292,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 148,
+     "role": "frame_3",
+     "src": [
+      54,
+      288,
+      16,
+      34
+     ]
+    },
+    {
+     "item": 149,
+     "role": "frame_4",
+     "src": [
+      72,
+      295,
+      14,
+      27
+     ]
+    },
+    {
+     "item": 150,
+     "role": "frame_5",
+     "src": [
+      88,
+      294,
+      16,
+      28
+     ]
+    },
+    {
+     "item": 151,
+     "role": "frame_6",
+     "src": [
+      106,
+      289,
+      16,
+      33
+     ]
+    },
+    {
+     "item": 152,
+     "role": "frame_7",
+     "src": [
+      124,
+      291,
+      20,
+      31
+     ]
+    },
+    {
+     "item": 153,
+     "role": "frame_8",
+     "src": [
+      146,
+      289,
+      20,
+      33
+     ]
+    },
+    {
+     "item": 154,
+     "role": "frame_9",
+     "src": [
+      168,
+      294,
+      22,
+      28
+     ]
+    },
+    {
+     "item": 155,
+     "role": "frame_10",
+     "src": [
+      191,
+      296,
+      22,
+      26
+     ]
+    },
+    {
+     "item": 156,
+     "role": "frame_11",
+     "src": [
+      215,
+      296,
+      22,
+      26
+     ]
+    },
+    {
+     "item": 157,
+     "role": "frame_12",
+     "src": [
+      239,
+      296,
+      18,
+      26
+     ]
+    },
+    {
+     "item": 158,
+     "role": "frame_13",
+     "src": [
+      259,
+      296,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 159,
+     "role": "frame_14",
+     "src": [
+      277,
+      297,
+      21,
+      25
+     ]
+    },
+    {
+     "item": 160,
+     "role": "frame_15",
+     "src": [
+      300,
+      295,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 161,
+     "role": "frame_16",
+     "src": [
+      321,
+      295,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 162,
+     "role": "frame_17",
+     "src": [
+      342,
+      295,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 163,
+     "role": "frame_18",
+     "src": [
+      363,
+      295,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 164,
+     "role": "frame_19",
+     "src": [
+      383,
+      295,
+      23,
+      27
+     ]
+    },
+    {
+     "item": 165,
+     "role": "frame_20",
+     "src": [
+      408,
+      295,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 166,
+     "role": "frame_21",
+     "src": [
+      429,
+      295,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 167,
+     "role": "frame_22",
+     "src": [
+      452,
+      296,
+      20,
+      26
+     ]
+    },
+    {
+     "item": 168,
+     "role": "frame_23",
+     "src": [
+      479,
+      295,
+      26,
+      27
+     ]
+    },
+    {
+     "item": 169,
+     "role": "frame_24",
+     "src": [
+      510,
+      295,
+      36,
+      27
+     ]
+    },
+    {
+     "item": 170,
+     "role": "frame_25",
+     "src": [
+      550,
+      295,
+      44,
+      27
+     ]
+    }
+   ],
+   "box": [
+    0,
+    288,
+    594,
+    34
+   ]
+  },
+  {
+   "id": 11,
+   "name": "blade_brothers_e011",
+   "file": "blade_brothers_e011.png",
+   "cell": [
+    15,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 172,
+     "role": "frame_0",
+     "src": [
+      651,
+      296,
+      15,
+      26
+     ]
+    },
+    {
+     "item": 173,
+     "role": "frame_1",
+     "src": [
+      668,
+      296,
+      15,
+      26
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    651,
+    296,
+    32,
+    26
+   ]
+  },
+  {
+   "id": 12,
+   "name": "blade_brothers_e012",
+   "file": "blade_brothers_e012.png",
+   "cell": [
+    46,
+    34
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 174,
+     "role": "frame_0",
+     "src": [
+      6,
+      350,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 175,
+     "role": "frame_1",
+     "src": [
+      24,
+      351,
+      16,
+      25
+     ]
+    },
+    {
+     "item": 176,
+     "role": "frame_2",
+     "src": [
+      42,
+      346,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 177,
+     "role": "frame_3",
+     "src": [
+      60,
+      342,
+      16,
+      34
+     ]
+    },
+    {
+     "item": 178,
+     "role": "frame_4",
+     "src": [
+      78,
+      349,
+      14,
+      27
+     ]
+    },
+    {
+     "item": 179,
+     "role": "frame_5",
+     "src": [
+      94,
+      348,
+      16,
+      28
+     ]
+    },
+    {
+     "item": 180,
+     "role": "frame_6",
+     "src": [
+      112,
+      343,
+      16,
+      33
+     ]
+    },
+    {
+     "item": 181,
+     "role": "frame_7",
+     "src": [
+      130,
+      345,
+      20,
+      31
+     ]
+    },
+    {
+     "item": 182,
+     "role": "frame_8",
+     "src": [
+      152,
+      343,
+      20,
+      33
+     ]
+    },
+    {
+     "item": 183,
+     "role": "frame_9",
+     "src": [
+      174,
+      348,
+      22,
+      28
+     ]
+    },
+    {
+     "item": 184,
+     "role": "frame_10",
+     "src": [
+      198,
+      350,
+      22,
+      26
+     ]
+    },
+    {
+     "item": 185,
+     "role": "frame_11",
+     "src": [
+      222,
+      350,
+      22,
+      26
+     ]
+    },
+    {
+     "item": 186,
+     "role": "frame_12",
+     "src": [
+      246,
+      350,
+      18,
+      26
+     ]
+    },
+    {
+     "item": 187,
+     "role": "frame_13",
+     "src": [
+      266,
+      350,
+      16,
+      26
+     ]
+    },
+    {
+     "item": 188,
+     "role": "frame_14",
+     "src": [
+      284,
+      351,
+      21,
+      25
+     ]
+    },
+    {
+     "item": 189,
+     "role": "frame_15",
+     "src": [
+      307,
+      349,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 190,
+     "role": "frame_16",
+     "src": [
+      328,
+      349,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 191,
+     "role": "frame_17",
+     "src": [
+      349,
+      349,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 192,
+     "role": "frame_18",
+     "src": [
+      370,
+      349,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 193,
+     "role": "frame_19",
+     "src": [
+      391,
+      349,
+      23,
+      27
+     ]
+    },
+    {
+     "item": 194,
+     "role": "frame_20",
+     "src": [
+      414,
+      349,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 195,
+     "role": "frame_21",
+     "src": [
+      435,
+      349,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 196,
+     "role": "frame_22",
+     "src": [
+      456,
+      350,
+      24,
+      26
+     ]
+    },
+    {
+     "item": 197,
+     "role": "frame_23",
+     "src": [
+      482,
+      349,
+      30,
+      27
+     ]
+    },
+    {
+     "item": 198,
+     "role": "frame_24",
+     "src": [
+      514,
+      349,
+      38,
+      27
+     ]
+    },
+    {
+     "item": 199,
+     "role": "frame_25",
+     "src": [
+      554,
+      349,
+      46,
+      27
+     ]
+    }
+   ],
+   "box": [
+    6,
+    342,
+    594,
+    34
+   ]
+  },
+  {
+   "id": 13,
+   "name": "blade_brothers_e013",
+   "file": "blade_brothers_e013.png",
+   "cell": [
+    15,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 201,
+     "role": "frame_0",
+     "src": [
+      655,
+      350,
+      15,
+      26
+     ]
+    },
+    {
+     "item": 202,
+     "role": "frame_1",
+     "src": [
+      672,
+      350,
+      15,
+      26
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    655,
+    350,
+    32,
+    26
+   ]
+  },
+  {
+   "id": 14,
+   "name": "blade_brothers_e014",
+   "file": "blade_brothers_e014.png",
+   "cell": [
+    16,
+    30
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 203,
+     "role": "frame_0",
+     "src": [
+      7,
+      398,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 204,
+     "role": "frame_1",
+     "src": [
+      24,
+      398,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 205,
+     "role": "frame_2",
+     "src": [
+      41,
+      398,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 206,
+     "role": "frame_3",
+     "src": [
+      58,
+      398,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 207,
+     "role": "frame_4",
+     "src": [
+      75,
+      398,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 208,
+     "role": "frame_5",
+     "src": [
+      92,
+      398,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 209,
+     "role": "frame_6",
+     "src": [
+      109,
+      398,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 210,
+     "role": "frame_7",
+     "src": [
+      126,
+      398,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 211,
+     "role": "frame_8",
+     "src": [
+      143,
+      398,
+      16,
+      30
+     ],
+     "duplicate_of": 1
+    },
+    {
+     "item": 212,
+     "role": "frame_9",
+     "src": [
+      160,
+      398,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 213,
+     "role": "frame_10",
+     "src": [
+      177,
+      398,
+      16,
+      30
+     ],
+     "duplicate_of": 3
+    },
+    {
+     "item": 214,
+     "role": "frame_11",
+     "src": [
+      194,
+      398,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 215,
+     "role": "frame_12",
+     "src": [
+      211,
+      398,
+      16,
+      30
+     ],
+     "duplicate_of": 6
+    },
+    {
+     "item": 216,
+     "role": "frame_13",
+     "src": [
+      228,
+      398,
+      16,
+      30
+     ],
+     "duplicate_of": 0
+    }
+   ],
+   "box": [
+    7,
+    398,
+    237,
+    30
+   ]
+  },
+  {
+   "id": 15,
+   "name": "blade_brothers_e015",
+   "file": "blade_brothers_e015.png",
+   "cell": [
+    18,
+    30
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 218,
+     "role": "frame_0",
+     "src": [
+      8,
+      443,
+      17,
+      30
+     ]
+    },
+    {
+     "item": 219,
+     "role": "frame_1",
+     "src": [
+      26,
+      443,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 220,
+     "role": "frame_2",
+     "src": [
+      43,
+      443,
+      15,
+      30
+     ]
+    },
+    {
+     "item": 221,
+     "role": "frame_3",
+     "src": [
+      59,
+      443,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 222,
+     "role": "frame_4",
+     "src": [
+      76,
+      443,
+      17,
+      30
+     ]
+    },
+    {
+     "item": 223,
+     "role": "frame_5",
+     "src": [
+      94,
+      443,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 224,
+     "role": "frame_6",
+     "src": [
+      111,
+      443,
+      15,
+      30
+     ]
+    },
+    {
+     "item": 225,
+     "role": "frame_7",
+     "src": [
+      127,
+      443,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 226,
+     "role": "frame_8",
+     "src": [
+      144,
+      443,
+      17,
+      30
+     ]
+    },
+    {
+     "item": 227,
+     "role": "frame_9",
+     "src": [
+      162,
+      443,
+      17,
+      30
+     ]
+    },
+    {
+     "item": 228,
+     "role": "frame_10",
+     "src": [
+      180,
+      443,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 229,
+     "role": "frame_11",
+     "src": [
+      197,
+      443,
+      15,
+      30
+     ]
+    },
+    {
+     "item": 230,
+     "role": "frame_12",
+     "src": [
+      213,
+      443,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 231,
+     "role": "frame_13",
+     "src": [
+      230,
+      443,
+      16,
+      30
+     ]
+    }
+   ],
+   "box": [
+    8,
+    443,
+    238,
+    30
+   ]
+  },
+  {
+   "id": 16,
+   "name": "blade_brothers_e016",
+   "file": "blade_brothers_e016.png",
+   "cell": [
+    18,
+    30
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 232,
+     "role": "frame_0",
+     "src": [
+      9,
+      476,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 233,
+     "role": "frame_1",
+     "src": [
+      26,
+      476,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 234,
+     "role": "frame_2",
+     "src": [
+      43,
+      476,
+      15,
+      30
+     ]
+    },
+    {
+     "item": 235,
+     "role": "frame_3",
+     "src": [
+      59,
+      476,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 236,
+     "role": "frame_4",
+     "src": [
+      76,
+      476,
+      17,
+      30
+     ]
+    },
+    {
+     "item": 237,
+     "role": "frame_5",
+     "src": [
+      94,
+      476,
+      17,
+      30
+     ]
+    },
+    {
+     "item": 238,
+     "role": "frame_6",
+     "src": [
+      112,
+      476,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 239,
+     "role": "frame_7",
+     "src": [
+      129,
+      476,
+      15,
+      30
+     ]
+    },
+    {
+     "item": 240,
+     "role": "frame_8",
+     "src": [
+      145,
+      476,
+      16,
+      30
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 241,
+     "role": "frame_9",
+     "src": [
+      162,
+      476,
+      17,
+      30
+     ]
+    },
+    {
+     "item": 242,
+     "role": "frame_10",
+     "src": [
+      180,
+      476,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 243,
+     "role": "frame_11",
+     "src": [
+      197,
+      476,
+      15,
+      30
+     ]
+    },
+    {
+     "item": 244,
+     "role": "frame_12",
+     "src": [
+      213,
+      476,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 245,
+     "role": "frame_13",
+     "src": [
+      230,
+      476,
+      17,
+      30
+     ]
+    }
+   ],
+   "box": [
+    9,
+    476,
+    238,
+    30
+   ]
+  },
+  {
+   "id": 17,
+   "name": "blade_brothers_e017",
+   "file": "blade_brothers_e017.png",
+   "cell": [
+    22,
+    40
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 246,
+     "role": "frame_0",
+     "src": [
+      10,
+      523,
+      16,
+      29
+     ]
+    },
+    {
+     "item": 247,
+     "role": "frame_1",
+     "src": [
+      27,
+      522,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 248,
+     "role": "frame_2",
+     "src": [
+      44,
+      525,
+      14,
+      27
+     ]
+    },
+    {
+     "item": 249,
+     "role": "frame_3",
+     "src": [
+      59,
+      519,
+      16,
+      33
+     ]
+    },
+    {
+     "item": 250,
+     "role": "frame_4",
+     "src": [
+      76,
+      513,
+      16,
+      39
+     ]
+    },
+    {
+     "item": 251,
+     "role": "frame_5",
+     "src": [
+      93,
+      518,
+      20,
+      34
+     ]
+    },
+    {
+     "item": 252,
+     "role": "frame_6",
+     "src": [
+      114,
+      518,
+      20,
+      35
+     ]
+    },
+    {
+     "item": 253,
+     "role": "frame_7",
+     "src": [
+      135,
+      524,
+      22,
+      29
+     ]
+    },
+    {
+     "item": 254,
+     "role": "frame_8",
+     "src": [
+      158,
+      525,
+      22,
+      28
+     ]
+    },
+    {
+     "item": 255,
+     "role": "frame_9",
+     "src": [
+      181,
+      525,
+      22,
+      28
+     ]
+    },
+    {
+     "item": 256,
+     "role": "frame_10",
+     "src": [
+      204,
+      524,
+      18,
+      29
+     ]
+    },
+    {
+     "item": 257,
+     "role": "frame_11",
+     "src": [
+      223,
+      525,
+      19,
+      28
+     ]
+    },
+    {
+     "item": 258,
+     "role": "frame_12",
+     "src": [
+      243,
+      525,
+      19,
+      28
+     ]
+    },
+    {
+     "item": 259,
+     "role": "frame_13",
+     "src": [
+      264,
+      525,
+      19,
+      28
+     ]
+    },
+    {
+     "item": 260,
+     "role": "frame_14",
+     "src": [
+      287,
+      525,
+      19,
+      28
+     ]
+    }
+   ],
+   "box": [
+    10,
+    513,
+    296,
+    40
+   ]
+  },
+  {
+   "id": 18,
+   "name": "blade_brothers_e018",
+   "file": "blade_brothers_e018.png",
+   "cell": [
+    34,
+    31
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 261,
+     "role": "frame_0",
+     "src": [
+      11,
+      564,
+      24,
+      28
+     ]
+    },
+    {
+     "item": 262,
+     "role": "frame_1",
+     "src": [
+      36,
+      561,
+      34,
+      31
+     ]
+    }
+   ],
+   "box": [
+    11,
+    561,
+    59,
+    31
+   ]
+  },
+  {
+   "id": 19,
+   "name": "blade_brothers_e019",
+   "file": "blade_brothers_e019.png",
+   "cell": [
+    19,
+    28
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 265,
+     "role": "frame_0",
+     "src": [
+      175,
+      564,
+      19,
+      28
+     ]
+    },
+    {
+     "item": 266,
+     "role": "frame_1",
+     "src": [
+      195,
+      564,
+      19,
+      28
+     ]
+    },
+    {
+     "item": 267,
+     "role": "frame_2",
+     "src": [
+      215,
+      564,
+      19,
+      28
+     ]
+    },
+    {
+     "item": 268,
+     "role": "frame_3",
+     "src": [
+      235,
+      564,
+      19,
+      28
+     ]
+    },
+    {
+     "item": 269,
+     "role": "frame_4",
+     "src": [
+      255,
+      564,
+      19,
+      28
+     ]
+    },
+    {
+     "item": 270,
+     "role": "frame_5",
+     "src": [
+      275,
+      564,
+      19,
+      28
+     ]
+    },
+    {
+     "item": 271,
+     "role": "frame_6",
+     "src": [
+      295,
+      564,
+      19,
+      28
+     ],
+     "duplicate_of": 5
+    },
+    {
+     "item": 272,
+     "role": "frame_7",
+     "src": [
+      315,
+      564,
+      19,
+      28
+     ]
+    }
+   ],
+   "box": [
+    175,
+    564,
+    159,
+    28
+   ]
+  },
+  {
+   "id": 20,
+   "name": "blade_brothers_e020",
+   "file": "blade_brothers_e020.png",
+   "cell": [
+    19,
+    28
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 274,
+     "role": "frame_0",
+     "src": [
+      11,
+      595,
+      19,
+      28
+     ]
+    },
+    {
+     "item": 275,
+     "role": "frame_1",
+     "src": [
+      31,
+      595,
+      19,
+      28
+     ]
+    },
+    {
+     "item": 276,
+     "role": "frame_2",
+     "src": [
+      51,
+      595,
+      19,
+      28
+     ]
+    },
+    {
+     "item": 277,
+     "role": "frame_3",
+     "src": [
+      71,
+      595,
+      19,
+      28
+     ]
+    },
+    {
+     "item": 278,
+     "role": "frame_4",
+     "src": [
+      91,
+      595,
+      19,
+      28
+     ]
+    }
+   ],
+   "box": [
+    11,
+    595,
+    99,
+    28
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 608,
+   "y": 48,
+   "w": 28,
+   "h": 27,
+   "area": 395,
+   "ncolors": 18,
+   "dominant": "#F8D8C0",
+   "dom_frac": 0.124,
+   "kind": "sprite",
+   "zone": null,
+   "id": 26,
+   "file": "blade_brothers_026.png"
+  },
+  {
+   "x": 608,
+   "y": 98,
+   "w": 28,
+   "h": 27,
+   "area": 396,
+   "ncolors": 17,
+   "dominant": "#F8D8C0",
+   "dom_frac": 0.124,
+   "kind": "sprite",
+   "zone": null,
+   "id": 55,
+   "file": "blade_brothers_055.png"
+  },
+  {
+   "x": 608,
+   "y": 146,
+   "w": 28,
+   "h": 27,
+   "area": 396,
+   "ncolors": 20,
+   "dominant": "#F8D8C0",
+   "dom_frac": 0.124,
+   "kind": "sprite",
+   "zone": null,
+   "id": 84,
+   "file": "blade_brothers_084.png"
+  },
+  {
+   "x": 608,
+   "y": 195,
+   "w": 28,
+   "h": 27,
+   "area": 396,
+   "ncolors": 20,
+   "dominant": "#F8D8C0",
+   "dom_frac": 0.124,
+   "kind": "sprite",
+   "zone": null,
+   "id": 113,
+   "file": "blade_brothers_113.png"
+  },
+  {
+   "x": 608,
+   "y": 245,
+   "w": 28,
+   "h": 27,
+   "area": 396,
+   "ncolors": 19,
+   "dominant": "#F8D8C0",
+   "dom_frac": 0.124,
+   "kind": "sprite",
+   "zone": null,
+   "id": 142,
+   "file": "blade_brothers_142.png"
+  },
+  {
+   "x": 609,
+   "y": 295,
+   "w": 28,
+   "h": 27,
+   "area": 396,
+   "ncolors": 18,
+   "dominant": "#704830",
+   "dom_frac": 0.164,
+   "kind": "sprite",
+   "zone": null,
+   "id": 171,
+   "file": "blade_brothers_171.png"
+  },
+  {
+   "x": 614,
+   "y": 349,
+   "w": 28,
+   "h": 27,
+   "area": 396,
+   "ncolors": 19,
+   "dominant": "#F8D8C0",
+   "dom_frac": 0.124,
+   "kind": "sprite",
+   "zone": null,
+   "id": 200,
+   "file": "blade_brothers_200.png"
+  },
+  {
+   "x": 465,
+   "y": 436,
+   "w": 96,
+   "h": 54,
+   "area": 2491,
+   "ncolors": 86,
+   "dominant": "#202020",
+   "dom_frac": 0.091,
+   "kind": "sprite",
+   "zone": null,
+   "id": 217,
+   "file": "blade_brothers_217.png"
+  },
+  {
+   "x": 90,
+   "y": 585,
+   "w": 15,
+   "h": 7,
+   "area": 91,
+   "ncolors": 6,
+   "dominant": "#684000",
+   "dom_frac": 0.308,
+   "kind": "sprite",
+   "zone": null,
+   "id": 263,
+   "file": "blade_brothers_263.png"
+  },
+  {
+   "x": 137,
+   "y": 564,
+   "w": 19,
+   "h": 28,
+   "area": 399,
+   "ncolors": 18,
+   "dominant": "#E8F0D0",
+   "dom_frac": 0.123,
+   "kind": "sprite",
+   "zone": null,
+   "id": 264,
+   "file": "blade_brothers_264.png"
+  },
+  {
+   "x": 87,
+   "y": 564,
+   "w": 19,
+   "h": 20,
+   "area": 289,
+   "ncolors": 15,
+   "dominant": "#E8F0D0",
+   "dom_frac": 0.17,
+   "kind": "sprite",
+   "zone": null,
+   "id": 273,
+   "file": "blade_brothers_273.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

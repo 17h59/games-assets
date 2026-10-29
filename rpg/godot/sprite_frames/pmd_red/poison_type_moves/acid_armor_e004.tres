@@ -1,0 +1,60 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/poison_type_moves/acid_armor/acid_armor_e004.png" id="1_b2p7h"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kovq6"]
+atlas = ExtResource("1_b2p7h")
+region = Rect2(0, 0, 32, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_prjiw"]
+atlas = ExtResource("1_b2p7h")
+region = Rect2(32, 0, 32, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jxvok"]
+atlas = ExtResource("1_b2p7h")
+region = Rect2(64, 0, 32, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y6isx"]
+atlas = ExtResource("1_b2p7h")
+region = Rect2(96, 0, 32, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j0xqi"]
+atlas = ExtResource("1_b2p7h")
+region = Rect2(128, 0, 32, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0y057"]
+atlas = ExtResource("1_b2p7h")
+region = Rect2(160, 0, 32, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1f0kl"]
+atlas = ExtResource("1_b2p7h")
+region = Rect2(192, 0, 32, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kovq6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_prjiw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jxvok")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y6isx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j0xqi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0y057")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1f0kl")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/deku_scrub/deku_scrub_e006.png" id="1_2p7vd"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mvr6l"]
+atlas = ExtResource("1_2p7vd")
+region = Rect2(0, 0, 25, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_thqg5"]
+atlas = ExtResource("1_2p7vd")
+region = Rect2(25, 0, 25, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eickp"]
+atlas = ExtResource("1_2p7vd")
+region = Rect2(50, 0, 25, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_an6b5"]
+atlas = ExtResource("1_2p7vd")
+region = Rect2(75, 0, 25, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ibue2"]
+atlas = ExtResource("1_2p7vd")
+region = Rect2(100, 0, 25, 27)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mvr6l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_thqg5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eickp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_an6b5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ibue2")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

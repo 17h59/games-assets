@@ -1,0 +1,18 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/big_green_chuchu/big_green_chuchu_e006.png" id="1_um2bk"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jbjul"]
+atlas = ExtResource("1_um2bk")
+region = Rect2(0, 0, 32, 32)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jbjul")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

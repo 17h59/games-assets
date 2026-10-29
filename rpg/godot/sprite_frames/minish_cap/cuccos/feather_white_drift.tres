@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/cuccos/feather_white_drift.png" id="1_mkdrq"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xqyv5"]
+atlas = ExtResource("1_mkdrq")
+region = Rect2(0, 0, 8, 6)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ravq5"]
+atlas = ExtResource("1_mkdrq")
+region = Rect2(8, 0, 8, 6)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_owqco"]
+atlas = ExtResource("1_mkdrq")
+region = Rect2(16, 0, 8, 6)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hvf1g"]
+atlas = ExtResource("1_mkdrq")
+region = Rect2(24, 0, 8, 6)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nthls"]
+atlas = ExtResource("1_mkdrq")
+region = Rect2(32, 0, 8, 6)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j4h1q"]
+atlas = ExtResource("1_mkdrq")
+region = Rect2(40, 0, 8, 6)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xqyv5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ravq5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_owqco")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hvf1g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nthls")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j4h1q")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

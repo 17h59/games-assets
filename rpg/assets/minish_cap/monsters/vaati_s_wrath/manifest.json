@@ -1,0 +1,2377 @@
+{
+ "sheet": "6535",
+ "game": "minish_cap",
+ "category": "monsters",
+ "title": "Vaati's Wrath",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "vaati_s_wrath_e000",
+   "file": "vaati_s_wrath_e000.png",
+   "cell": [
+    30,
+    15
+   ],
+   "zone": 3,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 2,
+     "role": "frame_0",
+     "src": [
+      2,
+      155,
+      12,
+      15
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_1",
+     "src": [
+      19,
+      157,
+      10,
+      13
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_2",
+     "src": [
+      34,
+      164,
+      10,
+      6
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_3",
+     "src": [
+      49,
+      155,
+      29,
+      15
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_4",
+     "src": [
+      82,
+      155,
+      21,
+      15
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_5",
+     "src": [
+      113,
+      156,
+      15,
+      14
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_6",
+     "src": [
+      132,
+      165,
+      5,
+      5
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_7",
+     "src": [
+      145,
+      155,
+      30,
+      15
+     ]
+    }
+   ],
+   "box": [
+    2,
+    155,
+    173,
+    15
+   ]
+  },
+  {
+   "id": 1,
+   "name": "vaati_s_wrath_e001",
+   "file": "vaati_s_wrath_e001.png",
+   "cell": [
+    13,
+    11
+   ],
+   "zone": 3,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 13,
+     "role": "frame_0",
+     "src": [
+      178,
+      155,
+      13,
+      11
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_1",
+     "src": [
+      194,
+      155,
+      10,
+      8
+     ]
+    }
+   ],
+   "box": [
+    178,
+    155,
+    26,
+    11
+   ]
+  },
+  {
+   "id": 2,
+   "name": "vaati_s_wrath_e002",
+   "file": "vaati_s_wrath_e002.png",
+   "cell": [
+    22,
+    15
+   ],
+   "zone": 6,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 16,
+     "role": "frame_0",
+     "src": [
+      7,
+      131,
+      9,
+      15
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_1",
+     "src": [
+      19,
+      131,
+      22,
+      15
+     ]
+    }
+   ],
+   "box": [
+    7,
+    131,
+    34,
+    15
+   ]
+  },
+  {
+   "id": 3,
+   "name": "vaati_s_wrath_e003",
+   "file": "vaati_s_wrath_e003.png",
+   "cell": [
+    5,
+    10
+   ],
+   "zone": 6,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 22,
+     "role": "frame_0",
+     "src": [
+      86,
+      130,
+      4,
+      7
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_1",
+     "src": [
+      95,
+      132,
+      5,
+      8
+     ]
+    }
+   ],
+   "box": [
+    86,
+    130,
+    14,
+    10
+   ]
+  },
+  {
+   "id": 4,
+   "name": "vaati_s_wrath_e004",
+   "file": "vaati_s_wrath_e004.png",
+   "cell": [
+    113,
+    19
+   ],
+   "zone": 7,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 24,
+     "role": "frame_0",
+     "src": [
+      0,
+      174,
+      14,
+      11
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_1",
+     "src": [
+      18,
+      170,
+      26,
+      17
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_2",
+     "src": [
+      34,
+      173,
+      16,
+      15
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_3",
+     "src": [
+      53,
+      170,
+      23,
+      17
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_4",
+     "src": [
+      70,
+      170,
+      113,
+      19
+     ]
+    }
+   ],
+   "box": [
+    0,
+    170,
+    183,
+    19
+   ]
+  },
+  {
+   "id": 5,
+   "name": "vaati_s_wrath_e005",
+   "file": "vaati_s_wrath_e005.png",
+   "cell": [
+    33,
+    14
+   ],
+   "zone": 7,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 31,
+     "role": "frame_0",
+     "src": [
+      0,
+      191,
+      33,
+      14
+     ]
+    },
+    {
+     "item": 32,
+     "role": "frame_1",
+     "src": [
+      34,
+      193,
+      16,
+      9
+     ]
+    },
+    {
+     "item": 33,
+     "role": "frame_2",
+     "src": [
+      52,
+      191,
+      16,
+      10
+     ]
+    },
+    {
+     "item": 34,
+     "role": "frame_3",
+     "src": [
+      69,
+      191,
+      28,
+      13
+     ]
+    },
+    {
+     "item": 35,
+     "role": "frame_4",
+     "src": [
+      104,
+      191,
+      10,
+      13
+     ]
+    },
+    {
+     "item": 36,
+     "role": "frame_5",
+     "src": [
+      120,
+      191,
+      13,
+      12
+     ]
+    },
+    {
+     "item": 37,
+     "role": "frame_6",
+     "src": [
+      137,
+      191,
+      14,
+      11
+     ]
+    }
+   ],
+   "box": [
+    0,
+    191,
+    151,
+    14
+   ]
+  },
+  {
+   "id": 6,
+   "name": "vaati_s_wrath_e006",
+   "file": "vaati_s_wrath_e006.png",
+   "cell": [
+    197,
+    76
+   ],
+   "zone": 7,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 38,
+     "role": "frame_0",
+     "src": [
+      0,
+      206,
+      197,
+      76
+     ]
+    },
+    {
+     "item": 39,
+     "role": "frame_1",
+     "src": [
+      4,
+      257,
+      23,
+      25
+     ]
+    }
+   ],
+   "box": [
+    0,
+    206,
+    197,
+    76
+   ]
+  },
+  {
+   "id": 7,
+   "name": "vaati_s_wrath_e007",
+   "file": "vaati_s_wrath_e007.png",
+   "cell": [
+    23,
+    25
+   ],
+   "zone": 7,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 40,
+     "role": "frame_0",
+     "src": [
+      38,
+      259,
+      23,
+      23
+     ]
+    },
+    {
+     "item": 41,
+     "role": "frame_1",
+     "src": [
+      71,
+      257,
+      23,
+      25
+     ]
+    }
+   ],
+   "box": [
+    38,
+    257,
+    56,
+    25
+   ]
+  },
+  {
+   "id": 8,
+   "name": "bell",
+   "file": "bell.png",
+   "cell": [
+    30,
+    24
+   ],
+   "zone": 7,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 45,
+     "role": "frame_0",
+     "src": [
+      374,
+      206,
+      28,
+      22
+     ]
+    },
+    {
+     "item": 46,
+     "role": "frame_1",
+     "src": [
+      406,
+      206,
+      29,
+      24
+     ]
+    },
+    {
+     "item": 47,
+     "role": "frame_2",
+     "src": [
+      439,
+      206,
+      30,
+      24
+     ]
+    }
+   ],
+   "box": [
+    374,
+    206,
+    95,
+    24
+   ]
+  },
+  {
+   "id": 9,
+   "name": "vaati_s_wrath_e009",
+   "file": "vaati_s_wrath_e009.png",
+   "cell": [
+    28,
+    30
+   ],
+   "zone": 7,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 50,
+     "role": "frame_0",
+     "src": [
+      268,
+      207,
+      24,
+      30
+     ]
+    },
+    {
+     "item": 51,
+     "role": "frame_1",
+     "src": [
+      300,
+      207,
+      26,
+      30
+     ]
+    },
+    {
+     "item": 52,
+     "role": "frame_2",
+     "src": [
+      332,
+      208,
+      28,
+      29
+     ]
+    }
+   ],
+   "box": [
+    268,
+    207,
+    92,
+    30
+   ]
+  },
+  {
+   "id": 10,
+   "name": "vaati_s_wrath_e010",
+   "file": "vaati_s_wrath_e010.png",
+   "cell": [
+    13,
+    16
+   ],
+   "zone": 7,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 55,
+     "role": "frame_0",
+     "src": [
+      167,
+      247,
+      12,
+      6
+     ]
+    },
+    {
+     "item": 56,
+     "role": "frame_1",
+     "src": [
+      185,
+      247,
+      10,
+      8
+     ]
+    },
+    {
+     "item": 57,
+     "role": "frame_2",
+     "src": [
+      200,
+      239,
+      13,
+      16
+     ]
+    }
+   ],
+   "box": [
+    167,
+    239,
+    46,
+    16
+   ]
+  },
+  {
+   "id": 11,
+   "name": "vaati_s_wrath_e011",
+   "file": "vaati_s_wrath_e011.png",
+   "cell": [
+    12,
+    12
+   ],
+   "zone": 7,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 58,
+     "role": "frame_0",
+     "src": [
+      167,
+      258,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 59,
+     "role": "frame_1",
+     "src": [
+      184,
+      258,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 60,
+     "role": "frame_2",
+     "src": [
+      201,
+      258,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 61,
+     "role": "frame_3",
+     "src": [
+      218,
+      258,
+      12,
+      12
+     ]
+    }
+   ],
+   "box": [
+    167,
+    258,
+    63,
+    12
+   ]
+  },
+  {
+   "id": 12,
+   "name": "vaati_s_wrath_e012",
+   "file": "vaati_s_wrath_e012.png",
+   "cell": [
+    12,
+    10
+   ],
+   "zone": 7,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 67,
+     "role": "frame_0",
+     "src": [
+      186,
+      293,
+      10,
+      10
+     ]
+    },
+    {
+     "item": 68,
+     "role": "frame_1",
+     "src": [
+      202,
+      293,
+      12,
+      10
+     ]
+    },
+    {
+     "item": 69,
+     "role": "frame_2",
+     "src": [
+      223,
+      296,
+      4,
+      4
+     ]
+    },
+    {
+     "item": 70,
+     "role": "frame_3",
+     "src": [
+      237,
+      293,
+      10,
+      10
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 71,
+     "role": "frame_4",
+     "src": [
+      253,
+      293,
+      12,
+      10
+     ],
+     "duplicate_of": 1
+    }
+   ],
+   "box": [
+    186,
+    293,
+    79,
+    10
+   ]
+  },
+  {
+   "id": 13,
+   "name": "vaati_s_wrath_e013",
+   "file": "vaati_s_wrath_e013.png",
+   "cell": [
+    29,
+    20
+   ],
+   "zone": 7,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 72,
+     "role": "frame_0",
+     "src": [
+      2,
+      293,
+      24,
+      17
+     ]
+    },
+    {
+     "item": 73,
+     "role": "frame_1",
+     "src": [
+      35,
+      292,
+      28,
+      19
+     ]
+    },
+    {
+     "item": 74,
+     "role": "frame_2",
+     "src": [
+      69,
+      291,
+      27,
+      20
+     ]
+    },
+    {
+     "item": 75,
+     "role": "frame_3",
+     "src": [
+      101,
+      291,
+      26,
+      20
+     ]
+    }
+   ],
+   "box": [
+    2,
+    291,
+    125,
+    20
+   ]
+  },
+  {
+   "id": 14,
+   "name": "vaati_s_wrath_e014",
+   "file": "vaati_s_wrath_e014.png",
+   "cell": [
+    67,
+    32
+   ],
+   "zone": 7,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 77,
+     "role": "frame_0",
+     "src": [
+      269,
+      291,
+      32,
+      32
+     ]
+    },
+    {
+     "item": 78,
+     "role": "frame_1",
+     "src": [
+      303,
+      291,
+      67,
+      32
+     ]
+    }
+   ],
+   "box": [
+    269,
+    291,
+    101,
+    32
+   ]
+  },
+  {
+   "id": 15,
+   "name": "vaati_s_wrath_e015",
+   "file": "vaati_s_wrath_e015.png",
+   "cell": [
+    32,
+    42
+   ],
+   "zone": 7,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 79,
+     "role": "frame_0",
+     "src": [
+      0,
+      314,
+      32,
+      42
+     ]
+    },
+    {
+     "item": 80,
+     "role": "frame_1",
+     "src": [
+      20,
+      351,
+      4,
+      4
+     ]
+    }
+   ],
+   "box": [
+    0,
+    314,
+    32,
+    42
+   ]
+  },
+  {
+   "id": 16,
+   "name": "vaati_s_wrath_e016",
+   "file": "vaati_s_wrath_e016.png",
+   "cell": [
+    16,
+    15
+   ],
+   "zone": 7,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 81,
+     "role": "frame_0",
+     "src": [
+      1,
+      365,
+      16,
+      8
+     ]
+    },
+    {
+     "item": 82,
+     "role": "frame_1",
+     "src": [
+      21,
+      360,
+      10,
+      10
+     ]
+    },
+    {
+     "item": 83,
+     "role": "frame_2",
+     "src": [
+      35,
+      365,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 84,
+     "role": "frame_3",
+     "src": [
+      47,
+      360,
+      10,
+      10
+     ],
+     "duplicate_of": 1
+    },
+    {
+     "item": 85,
+     "role": "frame_4",
+     "src": [
+      63,
+      358,
+      13,
+      13
+     ]
+    },
+    {
+     "item": 86,
+     "role": "frame_5",
+     "src": [
+      81,
+      360,
+      10,
+      10
+     ],
+     "duplicate_of": 1
+    },
+    {
+     "item": 87,
+     "role": "frame_6",
+     "src": [
+      97,
+      358,
+      13,
+      13
+     ],
+     "duplicate_of": 4
+    },
+    {
+     "item": 88,
+     "role": "frame_7",
+     "src": [
+      113,
+      358,
+      15,
+      14
+     ]
+    },
+    {
+     "item": 89,
+     "role": "frame_8",
+     "src": [
+      132,
+      360,
+      10,
+      10
+     ]
+    },
+    {
+     "item": 90,
+     "role": "frame_9",
+     "src": [
+      148,
+      358,
+      13,
+      13
+     ],
+     "duplicate_of": 4
+    },
+    {
+     "item": 91,
+     "role": "frame_10",
+     "src": [
+      166,
+      360,
+      10,
+      10
+     ]
+    }
+   ],
+   "box": [
+    1,
+    358,
+    175,
+    15
+   ]
+  },
+  {
+   "id": 17,
+   "name": "vaati_s_wrath_e017",
+   "file": "vaati_s_wrath_e017.png",
+   "cell": [
+    12,
+    12
+   ],
+   "zone": 7,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 97,
+     "role": "frame_0",
+     "src": [
+      5,
+      430,
+      6,
+      6
+     ]
+    },
+    {
+     "item": 98,
+     "role": "frame_1",
+     "src": [
+      20,
+      428,
+      10,
+      10
+     ]
+    },
+    {
+     "item": 99,
+     "role": "frame_2",
+     "src": [
+      36,
+      427,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 100,
+     "role": "frame_3",
+     "src": [
+      53,
+      428,
+      12,
+      10
+     ]
+    },
+    {
+     "item": 101,
+     "role": "frame_4",
+     "src": [
+      70,
+      427,
+      12,
+      12
+     ]
+    }
+   ],
+   "box": [
+    5,
+    427,
+    77,
+    12
+   ]
+  },
+  {
+   "id": 18,
+   "name": "vaati_s_wrath_e018",
+   "file": "vaati_s_wrath_e018.png",
+   "cell": [
+    50,
+    63
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 120,
+     "role": "frame_0",
+     "src": [
+      7,
+      66,
+      50,
+      63
+     ]
+    },
+    {
+     "item": 121,
+     "role": "frame_1",
+     "src": [
+      65,
+      77,
+      48,
+      52
+     ]
+    }
+   ],
+   "box": [
+    7,
+    66,
+    106,
+    63
+   ]
+  },
+  {
+   "id": 19,
+   "name": "vaati_s_wrath_e019",
+   "file": "vaati_s_wrath_e019.png",
+   "cell": [
+    29,
+    8
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 123,
+     "role": "frame_0",
+     "src": [
+      208,
+      148,
+      16,
+      7
+     ]
+    },
+    {
+     "item": 124,
+     "role": "frame_1",
+     "src": [
+      227,
+      147,
+      29,
+      8
+     ]
+    }
+   ],
+   "box": [
+    208,
+    147,
+    48,
+    8
+   ]
+  },
+  {
+   "id": 20,
+   "name": "vaati_s_wrath_e020",
+   "file": "vaati_s_wrath_e020.png",
+   "cell": [
+    236,
+    160
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 130,
+     "role": "frame_0",
+     "src": [
+      9,
+      466,
+      236,
+      159
+     ]
+    },
+    {
+     "item": 131,
+     "role": "frame_1",
+     "src": [
+      9,
+      594,
+      38,
+      32
+     ]
+    }
+   ],
+   "box": [
+    9,
+    466,
+    236,
+    160
+   ]
+  },
+  {
+   "id": 21,
+   "name": "vaati_s_wrath_e021",
+   "file": "vaati_s_wrath_e021.png",
+   "cell": [
+    14,
+    24
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 141,
+     "role": "frame_0",
+     "src": [
+      170,
+      628,
+      14,
+      14
+     ]
+    },
+    {
+     "item": 142,
+     "role": "frame_1",
+     "src": [
+      192,
+      618,
+      12,
+      19
+     ]
+    },
+    {
+     "item": 143,
+     "role": "frame_2",
+     "src": [
+      206,
+      622,
+      10,
+      20
+     ]
+    }
+   ],
+   "box": [
+    170,
+    618,
+    46,
+    24
+   ]
+  },
+  {
+   "id": 22,
+   "name": "vaati_s_wrath_e022",
+   "file": "vaati_s_wrath_e022.png",
+   "cell": [
+    12,
+    24
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 148,
+     "role": "frame_0",
+     "src": [
+      72,
+      642,
+      12,
+      19
+     ]
+    },
+    {
+     "item": 149,
+     "role": "frame_1",
+     "src": [
+      86,
+      646,
+      10,
+      20
+     ]
+    }
+   ],
+   "box": [
+    72,
+    642,
+    24,
+    24
+   ]
+  },
+  {
+   "id": 23,
+   "name": "vaati_s_wrath_e023",
+   "file": "vaati_s_wrath_e023.png",
+   "cell": [
+    10,
+    10
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 151,
+     "role": "frame_0",
+     "src": [
+      227,
+      653,
+      10,
+      9
+     ]
+    },
+    {
+     "item": 152,
+     "role": "frame_1",
+     "src": [
+      244,
+      659,
+      4,
+      4
+     ]
+    }
+   ],
+   "box": [
+    227,
+    653,
+    21,
+    10
+   ]
+  },
+  {
+   "id": 24,
+   "name": "vaati_s_wrath_e024",
+   "file": "vaati_s_wrath_e024.png",
+   "cell": [
+    5,
+    10
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 154,
+     "role": "frame_0",
+     "src": [
+      156,
+      651,
+      4,
+      4
+     ]
+    },
+    {
+     "item": 155,
+     "role": "frame_1",
+     "src": [
+      170,
+      645,
+      5,
+      9
+     ]
+    }
+   ],
+   "box": [
+    156,
+    645,
+    19,
+    10
+   ]
+  },
+  {
+   "id": 25,
+   "name": "head_idle",
+   "file": "head_idle.png",
+   "cell": [
+    62,
+    63
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 102,
+     "role": "frame_0",
+     "src": [
+      6,
+      1,
+      53,
+      63
+     ]
+    },
+    {
+     "item": 103,
+     "role": "frame_1",
+     "src": [
+      71,
+      1,
+      53,
+      63
+     ]
+    },
+    {
+     "item": 104,
+     "role": "frame_2",
+     "src": [
+      137,
+      1,
+      52,
+      63
+     ]
+    },
+    {
+     "item": 105,
+     "role": "frame_3",
+     "src": [
+      200,
+      1,
+      53,
+      63
+     ]
+    },
+    {
+     "item": 106,
+     "role": "frame_4",
+     "src": [
+      265,
+      1,
+      53,
+      63
+     ]
+    },
+    {
+     "item": 107,
+     "role": "frame_5",
+     "src": [
+      330,
+      1,
+      54,
+      63
+     ]
+    },
+    {
+     "item": 108,
+     "role": "frame_6",
+     "src": [
+      392,
+      1,
+      60,
+      63
+     ]
+    },
+    {
+     "item": 109,
+     "role": "frame_7",
+     "src": [
+      456,
+      1,
+      62,
+      63
+     ]
+    },
+    {
+     "item": 110,
+     "role": "frame_8",
+     "src": [
+      521,
+      1,
+      62,
+      63
+     ]
+    },
+    {
+     "item": 111,
+     "role": "frame_9",
+     "src": [
+      587,
+      1,
+      60,
+      63
+     ]
+    },
+    {
+     "item": 112,
+     "role": "frame_10",
+     "src": [
+      656,
+      1,
+      52,
+      63
+     ]
+    },
+    {
+     "item": 113,
+     "role": "frame_11",
+     "src": [
+      722,
+      1,
+      50,
+      63
+     ]
+    },
+    {
+     "item": 114,
+     "role": "frame_12",
+     "src": [
+      787,
+      1,
+      50,
+      63
+     ]
+    },
+    {
+     "item": 115,
+     "role": "frame_13",
+     "src": [
+      851,
+      1,
+      49,
+      63
+     ]
+    }
+   ],
+   "box": [
+    6,
+    1,
+    894,
+    63
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 130,
+   "y": 98,
+   "w": 34,
+   "h": 17,
+   "area": 328,
+   "ncolors": 0,
+   "dominant": "",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": 2,
+   "id": 0,
+   "file": "vaati_s_wrath_000.png"
+  },
+  {
+   "x": 130,
+   "y": 115,
+   "w": 34,
+   "h": 18,
+   "area": 394,
+   "ncolors": 0,
+   "dominant": "",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": 2,
+   "id": 1,
+   "file": "vaati_s_wrath_001.png"
+  },
+  {
+   "x": 208,
+   "y": 155,
+   "w": 37,
+   "h": 15,
+   "area": 144,
+   "ncolors": 4,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.479,
+   "kind": "sprite",
+   "zone": 3,
+   "id": 10,
+   "file": "vaati_s_wrath_010.png"
+  },
+  {
+   "x": 32,
+   "y": 155,
+   "w": 7,
+   "h": 6,
+   "area": 22,
+   "ncolors": 2,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.591,
+   "kind": "sprite",
+   "zone": 3,
+   "id": 11,
+   "file": "vaati_s_wrath_011.png"
+  },
+  {
+   "x": 131,
+   "y": 155,
+   "w": 11,
+   "h": 8,
+   "area": 57,
+   "ncolors": 4,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.351,
+   "kind": "sprite",
+   "zone": 3,
+   "id": 12,
+   "file": "vaati_s_wrath_012.png"
+  },
+  {
+   "x": 249,
+   "y": 155,
+   "w": 7,
+   "h": 8,
+   "area": 31,
+   "ncolors": 4,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.355,
+   "kind": "sprite",
+   "zone": 3,
+   "id": 15,
+   "file": "vaati_s_wrath_015.png"
+  },
+  {
+   "x": 56,
+   "y": 131,
+   "w": 9,
+   "h": 15,
+   "area": 69,
+   "ncolors": 6,
+   "dominant": "#C8B020",
+   "dom_frac": 0.377,
+   "kind": "sprite",
+   "zone": 6,
+   "id": 18,
+   "file": "vaati_s_wrath_018.png"
+  },
+  {
+   "x": 76,
+   "y": 132,
+   "w": 6,
+   "h": 13,
+   "area": 50,
+   "ncolors": 6,
+   "dominant": "#C8B020",
+   "dom_frac": 0.32,
+   "kind": "sprite",
+   "zone": 6,
+   "id": 19,
+   "file": "vaati_s_wrath_019.png"
+  },
+  {
+   "x": 116,
+   "y": 130,
+   "w": 11,
+   "h": 16,
+   "area": 60,
+   "ncolors": 6,
+   "dominant": "#000000",
+   "dom_frac": 0.367,
+   "kind": "sprite",
+   "zone": 6,
+   "id": 20,
+   "file": "vaati_s_wrath_020.png"
+  },
+  {
+   "x": 44,
+   "y": 130,
+   "w": 5,
+   "h": 7,
+   "area": 23,
+   "ncolors": 4,
+   "dominant": "#000000",
+   "dom_frac": 0.304,
+   "kind": "sprite",
+   "zone": 6,
+   "id": 21,
+   "file": "vaati_s_wrath_021.png"
+  },
+  {
+   "x": 101,
+   "y": 170,
+   "w": 7,
+   "h": 1,
+   "area": 6,
+   "ncolors": 3,
+   "dominant": "#E890A8",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": 7,
+   "id": 29,
+   "file": "vaati_s_wrath_029.png"
+  },
+  {
+   "x": 134,
+   "y": 170,
+   "w": 6,
+   "h": 1,
+   "area": 6,
+   "ncolors": 3,
+   "dominant": "#F8D0E8",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": 7,
+   "id": 30,
+   "file": "vaati_s_wrath_030.png"
+  },
+  {
+   "x": 136,
+   "y": 259,
+   "w": 23,
+   "h": 23,
+   "area": 361,
+   "ncolors": 5,
+   "dominant": "#000000",
+   "dom_frac": 0.59,
+   "kind": "sprite",
+   "zone": 7,
+   "id": 42,
+   "file": "vaati_s_wrath_042.png"
+  },
+  {
+   "x": 167,
+   "y": 275,
+   "w": 12,
+   "h": 12,
+   "area": 112,
+   "ncolors": 9,
+   "dominant": "#F800F8",
+   "dom_frac": 0.33,
+   "kind": "sprite",
+   "zone": 7,
+   "id": 43,
+   "file": "vaati_s_wrath_043.png"
+  },
+  {
+   "x": 206,
+   "y": 214,
+   "w": 16,
+   "h": 17,
+   "area": 190,
+   "ncolors": 5,
+   "dominant": "#C8B020",
+   "dom_frac": 0.289,
+   "kind": "sprite",
+   "zone": 7,
+   "id": 44,
+   "file": "vaati_s_wrath_044.png"
+  },
+  {
+   "x": 1,
+   "y": 207,
+   "w": 30,
+   "h": 29,
+   "area": 347,
+   "ncolors": 7,
+   "dominant": "#000000",
+   "dom_frac": 0.291,
+   "kind": "sprite",
+   "zone": 7,
+   "id": 48,
+   "file": "vaati_s_wrath_048.png"
+  },
+  {
+   "x": 237,
+   "y": 210,
+   "w": 20,
+   "h": 27,
+   "area": 372,
+   "ncolors": 6,
+   "dominant": "#000000",
+   "dom_frac": 0.29,
+   "kind": "sprite",
+   "zone": 7,
+   "id": 49,
+   "file": "vaati_s_wrath_049.png"
+  },
+  {
+   "x": 365,
+   "y": 208,
+   "w": 4,
+   "h": 4,
+   "area": 12,
+   "ncolors": 3,
+   "dominant": "#B03018",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": 7,
+   "id": 53,
+   "file": "vaati_s_wrath_053.png"
+  },
+  {
+   "x": 365,
+   "y": 217,
+   "w": 4,
+   "h": 4,
+   "area": 12,
+   "ncolors": 3,
+   "dominant": "#F8C058",
+   "dom_frac": 0.333,
+   "kind": "sprite",
+   "zone": 7,
+   "id": 54,
+   "file": "vaati_s_wrath_054.png"
+  },
+  {
+   "x": 45,
+   "y": 299,
+   "w": 7,
+   "h": 5,
+   "area": 14,
+   "ncolors": 2,
+   "dominant": "#181060",
+   "dom_frac": 0.714,
+   "kind": "sprite",
+   "zone": 7,
+   "id": 62,
+   "file": "vaati_s_wrath_062.png"
+  },
+  {
+   "x": 75,
+   "y": 296,
+   "w": 11,
+   "h": 9,
+   "area": 31,
+   "ncolors": 3,
+   "dominant": "#181060",
+   "dom_frac": 0.71,
+   "kind": "sprite",
+   "zone": 7,
+   "id": 63,
+   "file": "vaati_s_wrath_063.png"
+  },
+  {
+   "x": 167,
+   "y": 295,
+   "w": 4,
+   "h": 10,
+   "area": 24,
+   "ncolors": 4,
+   "dominant": "#D0D8F8",
+   "dom_frac": 0.333,
+   "kind": "sprite",
+   "zone": 7,
+   "id": 64,
+   "file": "vaati_s_wrath_064.png"
+  },
+  {
+   "x": 174,
+   "y": 293,
+   "w": 8,
+   "h": 10,
+   "area": 56,
+   "ncolors": 4,
+   "dominant": "#48D0F8",
+   "dom_frac": 0.357,
+   "kind": "sprite",
+   "zone": 7,
+   "id": 65,
+   "file": "vaati_s_wrath_065.png"
+  },
+  {
+   "x": 183,
+   "y": 273,
+   "w": 66,
+   "h": 32,
+   "area": 777,
+   "ncolors": 12,
+   "dominant": "#D0D8F8",
+   "dom_frac": 0.265,
+   "kind": "sprite",
+   "zone": 7,
+   "id": 66,
+   "file": "vaati_s_wrath_066.png"
+  },
+  {
+   "x": 127,
+   "y": 316,
+   "w": 6,
+   "h": 6,
+   "area": 6,
+   "ncolors": 3,
+   "dominant": "#383088",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": 7,
+   "id": 76,
+   "file": "vaati_s_wrath_076.png"
+  },
+  {
+   "x": 0,
+   "y": 375,
+   "w": 57,
+   "h": 31,
+   "area": 560,
+   "ncolors": 5,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.373,
+   "kind": "sprite",
+   "zone": 7,
+   "id": 92,
+   "file": "vaati_s_wrath_092.png"
+  },
+  {
+   "x": 59,
+   "y": 382,
+   "w": 23,
+   "h": 16,
+   "area": 186,
+   "ncolors": 5,
+   "dominant": "#6860B0",
+   "dom_frac": 0.301,
+   "kind": "sprite",
+   "zone": 7,
+   "id": 93,
+   "file": "vaati_s_wrath_093.png"
+  },
+  {
+   "x": 100,
+   "y": 382,
+   "w": 15,
+   "h": 16,
+   "area": 112,
+   "ncolors": 5,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.357,
+   "kind": "sprite",
+   "zone": 7,
+   "id": 94,
+   "file": "vaati_s_wrath_094.png"
+  },
+  {
+   "x": 1,
+   "y": 407,
+   "w": 30,
+   "h": 8,
+   "area": 102,
+   "ncolors": 4,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.48,
+   "kind": "sprite",
+   "zone": 7,
+   "id": 95,
+   "file": "vaati_s_wrath_095.png"
+  },
+  {
+   "x": 1,
+   "y": 416,
+   "w": 30,
+   "h": 8,
+   "area": 102,
+   "ncolors": 4,
+   "dominant": "#F8F8F8",
+   "dom_frac": 0.48,
+   "kind": "sprite",
+   "zone": 7,
+   "id": 96,
+   "file": "vaati_s_wrath_096.png",
+   "mirror_of": 28
+  },
+  {
+   "x": 139,
+   "y": 22,
+   "w": 2,
+   "h": 3,
+   "area": 3,
+   "ncolors": 17,
+   "dominant": "#000000",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 116,
+   "file": "vaati_s_wrath_116.png"
+  },
+  {
+   "x": 185,
+   "y": 18,
+   "w": 1,
+   "h": 1,
+   "area": 1,
+   "ncolors": 17,
+   "dominant": "#000000",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 117,
+   "file": "vaati_s_wrath_117.png"
+  },
+  {
+   "x": 135,
+   "y": 28,
+   "w": 2,
+   "h": 3,
+   "area": 3,
+   "ncolors": 17,
+   "dominant": "#000000",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 118,
+   "file": "vaati_s_wrath_118.png",
+   "mirror_of": 30
+  },
+  {
+   "x": 135,
+   "y": 65,
+   "w": 24,
+   "h": 13,
+   "area": 202,
+   "ncolors": 17,
+   "dominant": "#000000",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "id": 119,
+   "file": "vaati_s_wrath_119.png"
+  },
+  {
+   "x": 135,
+   "y": 82,
+   "w": 24,
+   "h": 15,
+   "area": 218,
+   "ncolors": 5,
+   "dominant": "#F8D0E8",
+   "dom_frac": 0.349,
+   "kind": "sprite",
+   "zone": null,
+   "id": 122,
+   "file": "vaati_s_wrath_122.png"
+  },
+  {
+   "x": 16,
+   "y": 458,
+   "w": 12,
+   "h": 19,
+   "area": 34,
+   "ncolors": 4,
+   "dominant": "#700058",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "id": 125,
+   "file": "vaati_s_wrath_125.png"
+  },
+  {
+   "x": 131,
+   "y": 469,
+   "w": 4,
+   "h": 5,
+   "area": 16,
+   "ncolors": 3,
+   "dominant": "#580880",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "id": 126,
+   "file": "vaati_s_wrath_126.png"
+  },
+  {
+   "x": 30,
+   "y": 462,
+   "w": 10,
+   "h": 20,
+   "area": 33,
+   "ncolors": 6,
+   "dominant": "#600058",
+   "dom_frac": 0.333,
+   "kind": "sprite",
+   "zone": null,
+   "id": 127,
+   "file": "vaati_s_wrath_127.png"
+  },
+  {
+   "x": 72,
+   "y": 466,
+   "w": 12,
+   "h": 19,
+   "area": 34,
+   "ncolors": 4,
+   "dominant": "#700058",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "id": 128,
+   "file": "vaati_s_wrath_128.png",
+   "duplicate_of": 35
+  },
+  {
+   "x": 226,
+   "y": 468,
+   "w": 14,
+   "h": 14,
+   "area": 145,
+   "ncolors": 9,
+   "dominant": "#700058",
+   "dom_frac": 0.228,
+   "kind": "sprite",
+   "zone": null,
+   "id": 129,
+   "file": "vaati_s_wrath_129.png"
+  },
+  {
+   "x": 58,
+   "y": 621,
+   "w": 5,
+   "h": 7,
+   "area": 20,
+   "ncolors": 6,
+   "dominant": "#580880",
+   "dom_frac": 0.4,
+   "kind": "sprite",
+   "zone": null,
+   "id": 132,
+   "file": "vaati_s_wrath_132.png"
+  },
+  {
+   "x": 86,
+   "y": 470,
+   "w": 10,
+   "h": 20,
+   "area": 33,
+   "ncolors": 6,
+   "dominant": "#600058",
+   "dom_frac": 0.333,
+   "kind": "sprite",
+   "zone": null,
+   "id": 133,
+   "file": "vaati_s_wrath_133.png",
+   "duplicate_of": 37
+  },
+  {
+   "x": 25,
+   "y": 498,
+   "w": 5,
+   "h": 5,
+   "area": 13,
+   "ncolors": 3,
+   "dominant": "#880058",
+   "dom_frac": 0.615,
+   "kind": "sprite",
+   "zone": null,
+   "id": 134,
+   "file": "vaati_s_wrath_134.png"
+  },
+  {
+   "x": 98,
+   "y": 493,
+   "w": 5,
+   "h": 9,
+   "area": 23,
+   "ncolors": 7,
+   "dominant": "#580880",
+   "dom_frac": 0.348,
+   "kind": "sprite",
+   "zone": null,
+   "id": 135,
+   "file": "vaati_s_wrath_135.png"
+  },
+  {
+   "x": 89,
+   "y": 511,
+   "w": 4,
+   "h": 7,
+   "area": 12,
+   "ncolors": 5,
+   "dominant": "#700058",
+   "dom_frac": 0.583,
+   "kind": "sprite",
+   "zone": null,
+   "id": 136,
+   "file": "vaati_s_wrath_136.png"
+  },
+  {
+   "x": 100,
+   "y": 515,
+   "w": 4,
+   "h": 4,
+   "area": 12,
+   "ncolors": 3,
+   "dominant": "#580880",
+   "dom_frac": 0.667,
+   "kind": "sprite",
+   "zone": null,
+   "id": 137,
+   "file": "vaati_s_wrath_137.png"
+  },
+  {
+   "x": 44,
+   "y": 603,
+   "w": 4,
+   "h": 4,
+   "area": 12,
+   "ncolors": 3,
+   "dominant": "#580880",
+   "dom_frac": 0.667,
+   "kind": "sprite",
+   "zone": null,
+   "id": 138,
+   "file": "vaati_s_wrath_138.png",
+   "duplicate_of": 45
+  },
+  {
+   "x": 8,
+   "y": 613,
+   "w": 4,
+   "h": 4,
+   "area": 12,
+   "ncolors": 3,
+   "dominant": "#580880",
+   "dom_frac": 0.667,
+   "kind": "sprite",
+   "zone": null,
+   "id": 139,
+   "file": "vaati_s_wrath_139.png"
+  },
+  {
+   "x": 233,
+   "y": 618,
+   "w": 5,
+   "h": 5,
+   "area": 13,
+   "ncolors": 3,
+   "dominant": "#880058",
+   "dom_frac": 0.615,
+   "kind": "sprite",
+   "zone": null,
+   "id": 140,
+   "file": "vaati_s_wrath_140.png",
+   "duplicate_of": 42
+  },
+  {
+   "x": 9,
+   "y": 666,
+   "w": 5,
+   "h": 5,
+   "area": 13,
+   "ncolors": 3,
+   "dominant": "#880058",
+   "dom_frac": 0.615,
+   "kind": "sprite",
+   "zone": null,
+   "id": 144,
+   "file": "vaati_s_wrath_144.png",
+   "duplicate_of": 42
+  },
+  {
+   "x": 121,
+   "y": 642,
+   "w": 38,
+   "h": 32,
+   "area": 850,
+   "ncolors": 10,
+   "dominant": "#A80060",
+   "dom_frac": 0.216,
+   "kind": "sprite",
+   "zone": null,
+   "id": 145,
+   "file": "vaati_s_wrath_145.png"
+  },
+  {
+   "x": 200,
+   "y": 658,
+   "w": 12,
+   "h": 19,
+   "area": 34,
+   "ncolors": 4,
+   "dominant": "#700058",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "id": 146,
+   "file": "vaati_s_wrath_146.png",
+   "duplicate_of": 35
+  },
+  {
+   "x": 35,
+   "y": 661,
+   "w": 9,
+   "h": 5,
+   "area": 21,
+   "ncolors": 5,
+   "dominant": "#580880",
+   "dom_frac": 0.381,
+   "kind": "sprite",
+   "zone": null,
+   "id": 147,
+   "file": "vaati_s_wrath_147.png"
+  },
+  {
+   "x": 120,
+   "y": 661,
+   "w": 4,
+   "h": 4,
+   "area": 12,
+   "ncolors": 3,
+   "dominant": "#580880",
+   "dom_frac": 0.667,
+   "kind": "sprite",
+   "zone": null,
+   "id": 150,
+   "file": "vaati_s_wrath_150.png",
+   "duplicate_of": 47
+  },
+  {
+   "x": 43,
+   "y": 653,
+   "w": 4,
+   "h": 5,
+   "area": 16,
+   "ncolors": 3,
+   "dominant": "#580880",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "id": 153,
+   "file": "vaati_s_wrath_153.png",
+   "duplicate_of": 36
+  },
+  {
+   "x": 81,
+   "y": 682,
+   "w": 5,
+   "h": 5,
+   "area": 13,
+   "ncolors": 3,
+   "dominant": "#880058",
+   "dom_frac": 0.615,
+   "kind": "sprite",
+   "zone": null,
+   "id": 156,
+   "file": "vaati_s_wrath_156.png",
+   "duplicate_of": 42
+  },
+  {
+   "x": 214,
+   "y": 662,
+   "w": 10,
+   "h": 20,
+   "area": 33,
+   "ncolors": 6,
+   "dominant": "#600058",
+   "dom_frac": 0.333,
+   "kind": "sprite",
+   "zone": null,
+   "id": 157,
+   "file": "vaati_s_wrath_157.png",
+   "duplicate_of": 37
+  },
+  {
+   "x": 179,
+   "y": 685,
+   "w": 9,
+   "h": 5,
+   "area": 21,
+   "ncolors": 5,
+   "dominant": "#580880",
+   "dom_frac": 0.381,
+   "kind": "sprite",
+   "zone": null,
+   "id": 158,
+   "file": "vaati_s_wrath_158.png",
+   "duplicate_of": 52
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

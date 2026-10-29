@@ -1,0 +1,7 @@
+[gd_scene format=3]
+
+[ext_resource type="TileSet" path="res://godot/tilesets/ruby_sapphire.tres" id="1_tae20"]
+
+[node name="objects_8190_r5" type="TileMapLayer" unique_id=1561835468]
+tile_map_data = PackedByteArray(0, 0, 0, 0, 0, 0, 0, 0, 41, 0, 18, 0, 0, 0, 1, 0, 0, 0, 0, 0, 42, 0, 18, 0, 0, 0)
+tile_set = ExtResource("1_tae20")

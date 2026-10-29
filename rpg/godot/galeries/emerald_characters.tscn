@@ -1,0 +1,2735 @@
+[gd_scene format=3]
+
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/steven/steven_battle_intro.tres" id="1_8fj7r"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/steven/steven_ow.tres" id="2_fj3m3"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/gym_leaders_elite_four/roxanne.tres" id="3_vh5a3"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/gym_leaders_elite_four/brawly.tres" id="4_3i1wv"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/gym_leaders_elite_four/wattson.tres" id="5_wn5gj"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/gym_leaders_elite_four/flannery.tres" id="6_gdnkv"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/gym_leaders_elite_four/winona.tres" id="7_ujwnf"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/gym_leaders_elite_four/tate.tres" id="8_s7vlx"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/gym_leaders_elite_four/liza.tres" id="9_1a0ws"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/gym_leaders_elite_four/sidney.tres" id="10_okvgj"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/gym_leaders_elite_four/phoebe.tres" id="11_yjy4f"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/gym_leaders_elite_four/glacia.tres" id="12_nn7dq"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/gym_leaders_elite_four/drake.tres" id="13_aphcn"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/gym_leaders_elite_four/norman.tres" id="14_0jfni"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/gym_leaders_elite_four/wallace.tres" id="15_5m4f0"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/gym_leaders_elite_four/steven.tres" id="16_avvk1"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/gym_leaders_elite_four/juan.tres" id="17_k4xu1"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/brendan/walk.tres" id="18_8kmku"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/brendan/run.tres" id="19_kpff1"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/brendan/mach_bike.tres" id="20_k7brh"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/brendan/acro_bike.tres" id="21_2h6mm"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/brendan/acro_bike_wheelie.tres" id="22_xval4"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/brendan/surf.tres" id="23_up0ea"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/brendan/dive.tres" id="24_54n7j"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/brendan/shadows.tres" id="25_a57vi"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/brendan/throw_pokeball.tres" id="26_heg8m"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/brendan/use_item.tres" id="27_74kwl"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/brendan/fish.tres" id="28_4als6"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/brendan/battle_intro.tres" id="29_0fpej"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/may/walk.tres" id="30_1ikou"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/may/walk_right.tres" id="31_mab0t"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/may/run.tres" id="32_4maj5"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/may/run_right.tres" id="33_w3jkd"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/may/throw_pokeball.tres" id="34_fvoy4"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/may/fish_right.tres" id="35_c2xlf"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/may/fish_up.tres" id="36_4l2o4"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/may/fish_left.tres" id="37_uclhx"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/may/fish_down.tres" id="38_byxg5"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/may/surf.tres" id="39_i3o21"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/may/surf_throw_pokeball.tres" id="40_bmr3t"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/may/surf_fish_right.tres" id="41_aknb4"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/may/surf_fish_down.tres" id="42_3ibii"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/may/surf_fish_left.tres" id="43_06wrs"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/may/surf_fish_up.tres" id="44_o74ik"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/may/bike_idle.tres" id="45_0mpdk"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/may/bike_ride_right.tres" id="46_7p3vo"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/may/bike_ride_up.tres" id="47_l4pq7"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/may/bike_ride_down.tres" id="48_51qtt"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/may/bike_wheelie.tres" id="49_y22ds"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/may/bike_stand.tres" id="50_buvor"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/may/watering.tres" id="51_opdjd"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/may/battle_intro.tres" id="52_1qtmm"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/may/intro_bike.tres" id="53_dwna0"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/wally/wally_ow.tres" id="54_epddi"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/wally/wally_battle_intro.tres" id="55_v35h4"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/wally/wally_pose.tres" id="56_x0h3m"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/red_leaf/red.tres" id="57_4wve7"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/red_leaf/leaf.tres" id="58_3c4v4"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e000.tres" id="59_vmqqg"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e001.tres" id="60_tfrsa"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e002.tres" id="61_ug0vm"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e003.tres" id="62_pq0vf"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e004.tres" id="63_wnxwd"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e005.tres" id="64_bif1y"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e006.tres" id="65_fxr7l"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e007.tres" id="66_ktkab"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e008.tres" id="67_egsg2"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e009.tres" id="68_4wlfm"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e010.tres" id="69_etm12"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e011.tres" id="70_dci4x"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e012.tres" id="71_wpy7q"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e013.tres" id="72_dl8yy"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e014.tres" id="73_huaj1"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e015.tres" id="74_bmgua"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e016.tres" id="75_1l2hu"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e017.tres" id="76_nrp76"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e018.tres" id="77_l8ckw"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e019.tres" id="78_6i8ue"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e020.tres" id="79_d3dmj"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e021.tres" id="80_p3neu"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e022.tres" id="81_dkijc"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e023.tres" id="82_0hqmc"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e024.tres" id="83_dp3jj"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e025.tres" id="84_mciqk"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e026.tres" id="85_mw3kt"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e027.tres" id="86_ak2j4"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e028.tres" id="87_ntspt"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e029.tres" id="88_rrfwi"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e030.tres" id="89_dwhbc"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e031.tres" id="90_qkj78"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e032.tres" id="91_imt3f"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e033.tres" id="92_ytfcf"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e034.tres" id="93_t5yo3"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e035.tres" id="94_ocphw"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e036.tres" id="95_ybiqp"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e037.tres" id="96_qrkrh"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e038.tres" id="97_s3dmr"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e039.tres" id="98_3rcip"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e040.tres" id="99_tv7vy"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e041.tres" id="100_vdoet"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e042.tres" id="101_aka1g"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e043.tres" id="102_0b1e5"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e044.tres" id="103_2blve"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e045.tres" id="104_6gmv4"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e046.tres" id="105_nmo51"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e047.tres" id="106_y2cej"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e048.tres" id="107_1spfd"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e049.tres" id="108_nueey"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e050.tres" id="109_3gv6a"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e051.tres" id="110_2qqks"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e052.tres" id="111_fjnta"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e053.tres" id="112_boml4"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e054.tres" id="113_vcea4"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e055.tres" id="114_cxttk"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e056.tres" id="115_qoeel"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e057.tres" id="116_nm4rc"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e058.tres" id="117_vxcp6"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e059.tres" id="118_s2s1m"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e060.tres" id="119_heuom"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e061.tres" id="120_ls4xw"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e062.tres" id="121_36soo"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e063.tres" id="122_ovpib"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e064.tres" id="123_a1onl"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e065.tres" id="124_x2gv8"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e066.tres" id="125_kq7v2"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e067.tres" id="126_8kcis"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e068.tres" id="127_ta8y6"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e069.tres" id="128_1ofui"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e070.tres" id="129_adgdn"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e071.tres" id="130_pcql6"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e072.tres" id="131_44jct"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e073.tres" id="132_r25rq"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e074.tres" id="133_6iyex"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e075.tres" id="134_6rvd8"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e076.tres" id="135_oqv5u"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e077.tres" id="136_utuur"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e078.tres" id="137_lwhk5"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e079.tres" id="138_hyj6p"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e080.tres" id="139_hh70m"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e081.tres" id="140_od50r"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e082.tres" id="141_ovrwg"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e083.tres" id="142_e7ssg"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e084.tres" id="143_55j00"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e085.tres" id="144_bhgie"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e086.tres" id="145_miw4b"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e087.tres" id="146_2cwd2"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e088.tres" id="147_tormj"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e089.tres" id="148_3ih1r"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e090.tres" id="149_i6qem"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e091.tres" id="150_jnfmv"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e092.tres" id="151_vbx4q"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e093.tres" id="152_c0ff6"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e094.tres" id="153_e5j6p"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e095.tres" id="154_g3xh7"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e096.tres" id="155_57wua"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e097.tres" id="156_4p0nj"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e098.tres" id="157_uiogw"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e099.tres" id="158_u7thp"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e100.tres" id="159_odoa6"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e101.tres" id="160_hyji0"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e102.tres" id="161_yg31v"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e103.tres" id="162_5v1ew"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e104.tres" id="163_4jm2a"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e105.tres" id="164_c1ijq"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e106.tres" id="165_parxh"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e107.tres" id="166_1ts6s"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e108.tres" id="167_g7xof"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e109.tres" id="168_gyj0p"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/npcs/npcs_e110.tres" id="169_c7ddx"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/frontier_brains/anabel.tres" id="170_4u5ew"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/frontier_brains/tucker.tres" id="171_m18in"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/frontier_brains/greta.tres" id="172_tj7f5"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/frontier_brains/spenser.tres" id="173_drno6"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/frontier_brains/brandon.tres" id="174_haw5n"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/frontier_brains/lucy.tres" id="175_h1y2b"]
+[ext_resource type="SpriteFrames" path="res://godot/sprite_frames/emerald/frontier_brains/noland.tres" id="176_d6n2v"]
+
+[node name="emerald_characters" type="Node2D" unique_id=317788732]
+
+[node name="steven_battle_intro" type="AnimatedSprite2D" parent="." unique_id=579407001]
+position = Vector2(0, 10)
+sprite_frames = ExtResource("1_8fj7r")
+autoplay = "default"
+centered = false
+
+[node name="@Label@92" type="Label" parent="." unique_id=939528747]
+theme_override_font_sizes/font_size = 6
+text = "steven_battle_intro"
+
+[node name="steven_ow" type="AnimatedSprite2D" parent="." unique_id=995349428]
+position = Vector2(72, 10)
+sprite_frames = ExtResource("2_fj3m3")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@93" type="Label" parent="." unique_id=1674488968]
+offset_left = 72.0
+offset_right = 72.0
+theme_override_font_sizes/font_size = 6
+text = "steven_ow"
+
+[node name="roxanne" type="AnimatedSprite2D" parent="." unique_id=985939937]
+position = Vector2(120, 10)
+sprite_frames = ExtResource("3_vh5a3")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@94" type="Label" parent="." unique_id=1278222692]
+offset_left = 120.0
+offset_right = 120.0
+theme_override_font_sizes/font_size = 6
+text = "roxanne"
+
+[node name="brawly" type="AnimatedSprite2D" parent="." unique_id=2042215770]
+position = Vector2(168, 10)
+sprite_frames = ExtResource("4_3i1wv")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@95" type="Label" parent="." unique_id=518054237]
+offset_left = 168.0
+offset_right = 168.0
+theme_override_font_sizes/font_size = 6
+text = "brawly"
+
+[node name="wattson" type="AnimatedSprite2D" parent="." unique_id=1865601807]
+position = Vector2(216, 10)
+sprite_frames = ExtResource("5_wn5gj")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@96" type="Label" parent="." unique_id=93257269]
+offset_left = 216.0
+offset_right = 216.0
+theme_override_font_sizes/font_size = 6
+text = "wattson"
+
+[node name="flannery" type="AnimatedSprite2D" parent="." unique_id=1880133984]
+position = Vector2(264, 10)
+sprite_frames = ExtResource("6_gdnkv")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@97" type="Label" parent="." unique_id=368999492]
+offset_left = 264.0
+offset_right = 264.0
+theme_override_font_sizes/font_size = 6
+text = "flannery"
+
+[node name="winona" type="AnimatedSprite2D" parent="." unique_id=758735501]
+position = Vector2(312, 10)
+sprite_frames = ExtResource("7_ujwnf")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@98" type="Label" parent="." unique_id=36919424]
+offset_left = 312.0
+offset_right = 312.0
+theme_override_font_sizes/font_size = 6
+text = "winona"
+
+[node name="tate" type="AnimatedSprite2D" parent="." unique_id=104001374]
+position = Vector2(360, 10)
+sprite_frames = ExtResource("8_s7vlx")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@99" type="Label" parent="." unique_id=811130588]
+offset_left = 360.0
+offset_right = 360.0
+theme_override_font_sizes/font_size = 6
+text = "tate"
+
+[node name="liza" type="AnimatedSprite2D" parent="." unique_id=2010467327]
+position = Vector2(408, 10)
+sprite_frames = ExtResource("9_1a0ws")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@100" type="Label" parent="." unique_id=721120443]
+offset_left = 408.0
+offset_right = 408.0
+theme_override_font_sizes/font_size = 6
+text = "liza"
+
+[node name="sidney" type="AnimatedSprite2D" parent="." unique_id=817792404]
+position = Vector2(456, 10)
+sprite_frames = ExtResource("10_okvgj")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@101" type="Label" parent="." unique_id=497789101]
+offset_left = 456.0
+offset_right = 456.0
+theme_override_font_sizes/font_size = 6
+text = "sidney"
+
+[node name="phoebe" type="AnimatedSprite2D" parent="." unique_id=375861511]
+position = Vector2(504, 10)
+sprite_frames = ExtResource("11_yjy4f")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@102" type="Label" parent="." unique_id=1920965669]
+offset_left = 504.0
+offset_right = 504.0
+theme_override_font_sizes/font_size = 6
+text = "phoebe"
+
+[node name="glacia" type="AnimatedSprite2D" parent="." unique_id=1079140414]
+position = Vector2(552, 10)
+sprite_frames = ExtResource("12_nn7dq")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@103" type="Label" parent="." unique_id=677168719]
+offset_left = 552.0
+offset_right = 552.0
+theme_override_font_sizes/font_size = 6
+text = "glacia"
+
+[node name="drake" type="AnimatedSprite2D" parent="." unique_id=983031201]
+position = Vector2(600, 10)
+sprite_frames = ExtResource("13_aphcn")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@104" type="Label" parent="." unique_id=79483409]
+offset_left = 600.0
+offset_right = 600.0
+theme_override_font_sizes/font_size = 6
+text = "drake"
+
+[node name="norman" type="AnimatedSprite2D" parent="." unique_id=820412754]
+position = Vector2(648, 10)
+sprite_frames = ExtResource("14_0jfni")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@105" type="Label" parent="." unique_id=887048331]
+offset_left = 648.0
+offset_right = 648.0
+theme_override_font_sizes/font_size = 6
+text = "norman"
+
+[node name="wallace" type="AnimatedSprite2D" parent="." unique_id=1781502274]
+position = Vector2(696, 10)
+sprite_frames = ExtResource("15_5m4f0")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@106" type="Label" parent="." unique_id=1515840831]
+offset_left = 696.0
+offset_right = 696.0
+theme_override_font_sizes/font_size = 6
+text = "wallace"
+
+[node name="steven" type="AnimatedSprite2D" parent="." unique_id=2140320313]
+position = Vector2(744, 10)
+sprite_frames = ExtResource("16_avvk1")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@107" type="Label" parent="." unique_id=569055628]
+offset_left = 744.0
+offset_right = 744.0
+theme_override_font_sizes/font_size = 6
+text = "steven"
+
+[node name="juan" type="AnimatedSprite2D" parent="." unique_id=106677558]
+position = Vector2(792, 10)
+sprite_frames = ExtResource("17_k4xu1")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@108" type="Label" parent="." unique_id=1062122838]
+offset_left = 792.0
+offset_right = 792.0
+theme_override_font_sizes/font_size = 6
+text = "juan"
+
+[node name="walk" type="AnimatedSprite2D" parent="." unique_id=1202266864]
+position = Vector2(840, 10)
+sprite_frames = ExtResource("18_8kmku")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@109" type="Label" parent="." unique_id=2108002792]
+offset_left = 840.0
+offset_right = 840.0
+theme_override_font_sizes/font_size = 6
+text = "walk"
+
+[node name="run" type="AnimatedSprite2D" parent="." unique_id=1031730122]
+position = Vector2(888, 10)
+sprite_frames = ExtResource("19_kpff1")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@110" type="Label" parent="." unique_id=970999989]
+offset_left = 888.0
+offset_right = 888.0
+theme_override_font_sizes/font_size = 6
+text = "run"
+
+[node name="mach_bike" type="AnimatedSprite2D" parent="." unique_id=808494218]
+position = Vector2(936, 10)
+sprite_frames = ExtResource("20_k7brh")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@111" type="Label" parent="." unique_id=1815740695]
+offset_left = 936.0
+offset_right = 936.0
+theme_override_font_sizes/font_size = 6
+text = "mach_bike"
+
+[node name="acro_bike" type="AnimatedSprite2D" parent="." unique_id=1533196106]
+position = Vector2(984, 10)
+sprite_frames = ExtResource("21_2h6mm")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@112" type="Label" parent="." unique_id=880561578]
+offset_left = 984.0
+offset_right = 984.0
+theme_override_font_sizes/font_size = 6
+text = "acro_bike"
+
+[node name="acro_bike_wheelie" type="AnimatedSprite2D" parent="." unique_id=636789182]
+position = Vector2(1032, 10)
+sprite_frames = ExtResource("22_xval4")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@113" type="Label" parent="." unique_id=91106803]
+offset_left = 1032.0
+offset_right = 1032.0
+theme_override_font_sizes/font_size = 6
+text = "acro_bike_wheelie"
+
+[node name="surf" type="AnimatedSprite2D" parent="." unique_id=2000409170]
+position = Vector2(1080, 10)
+sprite_frames = ExtResource("23_up0ea")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@114" type="Label" parent="." unique_id=601395055]
+offset_left = 1080.0
+offset_right = 1080.0
+theme_override_font_sizes/font_size = 6
+text = "surf"
+
+[node name="dive" type="AnimatedSprite2D" parent="." unique_id=1266895288]
+position = Vector2(1128, 10)
+sprite_frames = ExtResource("24_54n7j")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@115" type="Label" parent="." unique_id=892422703]
+offset_left = 1128.0
+offset_right = 1128.0
+theme_override_font_sizes/font_size = 6
+text = "dive"
+
+[node name="shadows" type="AnimatedSprite2D" parent="." unique_id=2144791771]
+position = Vector2(0, 83)
+sprite_frames = ExtResource("25_a57vi")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@116" type="Label" parent="." unique_id=1334882511]
+offset_top = 73.0
+offset_bottom = 73.0
+theme_override_font_sizes/font_size = 6
+text = "shadows"
+
+[node name="throw_pokeball" type="AnimatedSprite2D" parent="." unique_id=400670613]
+position = Vector2(48, 83)
+sprite_frames = ExtResource("26_heg8m")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@117" type="Label" parent="." unique_id=1382825019]
+offset_left = 48.0
+offset_top = 73.0
+offset_right = 48.0
+offset_bottom = 73.0
+theme_override_font_sizes/font_size = 6
+text = "throw_pokeball"
+
+[node name="use_item" type="AnimatedSprite2D" parent="." unique_id=1963384891]
+position = Vector2(96, 83)
+sprite_frames = ExtResource("27_74kwl")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@118" type="Label" parent="." unique_id=1470572894]
+offset_left = 96.0
+offset_top = 73.0
+offset_right = 96.0
+offset_bottom = 73.0
+theme_override_font_sizes/font_size = 6
+text = "use_item"
+
+[node name="fish" type="AnimatedSprite2D" parent="." unique_id=989197642]
+position = Vector2(144, 83)
+sprite_frames = ExtResource("28_4als6")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@119" type="Label" parent="." unique_id=2091857175]
+offset_left = 144.0
+offset_top = 73.0
+offset_right = 144.0
+offset_bottom = 73.0
+theme_override_font_sizes/font_size = 6
+text = "fish"
+
+[node name="battle_intro" type="AnimatedSprite2D" parent="." unique_id=646349928]
+position = Vector2(192, 83)
+sprite_frames = ExtResource("29_0fpej")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@120" type="Label" parent="." unique_id=2321750]
+offset_left = 192.0
+offset_top = 73.0
+offset_right = 192.0
+offset_bottom = 73.0
+theme_override_font_sizes/font_size = 6
+text = "battle_intro"
+
+[node name="@AnimatedSprite2D@121" type="AnimatedSprite2D" parent="." unique_id=889734436]
+position = Vector2(264, 83)
+sprite_frames = ExtResource("30_1ikou")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@122" type="Label" parent="." unique_id=1829872710]
+offset_left = 264.0
+offset_top = 73.0
+offset_right = 264.0
+offset_bottom = 73.0
+theme_override_font_sizes/font_size = 6
+text = "walk"
+
+[node name="walk_right" type="AnimatedSprite2D" parent="." unique_id=602921145]
+position = Vector2(312, 83)
+sprite_frames = ExtResource("31_mab0t")
+animation = &"idle_right"
+autoplay = "idle_right"
+centered = false
+
+[node name="@Label@123" type="Label" parent="." unique_id=1568571823]
+offset_left = 312.0
+offset_top = 73.0
+offset_right = 312.0
+offset_bottom = 73.0
+theme_override_font_sizes/font_size = 6
+text = "walk_right"
+
+[node name="@AnimatedSprite2D@124" type="AnimatedSprite2D" parent="." unique_id=140409587]
+position = Vector2(360, 83)
+sprite_frames = ExtResource("32_4maj5")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@125" type="Label" parent="." unique_id=1128468800]
+offset_left = 360.0
+offset_top = 73.0
+offset_right = 360.0
+offset_bottom = 73.0
+theme_override_font_sizes/font_size = 6
+text = "run"
+
+[node name="run_right" type="AnimatedSprite2D" parent="." unique_id=683492620]
+position = Vector2(408, 83)
+sprite_frames = ExtResource("33_w3jkd")
+animation = &"idle_right"
+autoplay = "idle_right"
+centered = false
+
+[node name="@Label@126" type="Label" parent="." unique_id=1744360864]
+offset_left = 408.0
+offset_top = 73.0
+offset_right = 408.0
+offset_bottom = 73.0
+theme_override_font_sizes/font_size = 6
+text = "run_right"
+
+[node name="@AnimatedSprite2D@127" type="AnimatedSprite2D" parent="." unique_id=1009537947]
+position = Vector2(456, 83)
+sprite_frames = ExtResource("34_fvoy4")
+autoplay = "default"
+centered = false
+
+[node name="@Label@128" type="Label" parent="." unique_id=1156650766]
+offset_left = 456.0
+offset_top = 73.0
+offset_right = 456.0
+offset_bottom = 73.0
+theme_override_font_sizes/font_size = 6
+text = "throw_pokeball"
+
+[node name="fish_right" type="AnimatedSprite2D" parent="." unique_id=392030573]
+position = Vector2(504, 83)
+sprite_frames = ExtResource("35_c2xlf")
+autoplay = "default"
+centered = false
+
+[node name="@Label@129" type="Label" parent="." unique_id=1273311057]
+offset_left = 504.0
+offset_top = 73.0
+offset_right = 504.0
+offset_bottom = 73.0
+theme_override_font_sizes/font_size = 6
+text = "fish_right"
+
+[node name="fish_up" type="AnimatedSprite2D" parent="." unique_id=1607162850]
+position = Vector2(552, 83)
+sprite_frames = ExtResource("36_4l2o4")
+autoplay = "default"
+centered = false
+
+[node name="@Label@130" type="Label" parent="." unique_id=1495801592]
+offset_left = 552.0
+offset_top = 73.0
+offset_right = 552.0
+offset_bottom = 73.0
+theme_override_font_sizes/font_size = 6
+text = "fish_up"
+
+[node name="fish_left" type="AnimatedSprite2D" parent="." unique_id=1668776353]
+position = Vector2(600, 83)
+sprite_frames = ExtResource("37_uclhx")
+autoplay = "default"
+centered = false
+
+[node name="@Label@131" type="Label" parent="." unique_id=803589781]
+offset_left = 600.0
+offset_top = 73.0
+offset_right = 600.0
+offset_bottom = 73.0
+theme_override_font_sizes/font_size = 6
+text = "fish_left"
+
+[node name="fish_down" type="AnimatedSprite2D" parent="." unique_id=964215325]
+position = Vector2(648, 83)
+sprite_frames = ExtResource("38_byxg5")
+autoplay = "default"
+centered = false
+
+[node name="@Label@132" type="Label" parent="." unique_id=637426627]
+offset_left = 648.0
+offset_top = 73.0
+offset_right = 648.0
+offset_bottom = 73.0
+theme_override_font_sizes/font_size = 6
+text = "fish_down"
+
+[node name="@AnimatedSprite2D@133" type="AnimatedSprite2D" parent="." unique_id=140099625]
+position = Vector2(696, 83)
+sprite_frames = ExtResource("39_i3o21")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@134" type="Label" parent="." unique_id=1480535174]
+offset_left = 696.0
+offset_top = 73.0
+offset_right = 696.0
+offset_bottom = 73.0
+theme_override_font_sizes/font_size = 6
+text = "surf"
+
+[node name="surf_throw_pokeball" type="AnimatedSprite2D" parent="." unique_id=2048614330]
+position = Vector2(744, 83)
+sprite_frames = ExtResource("40_bmr3t")
+autoplay = "default"
+centered = false
+
+[node name="@Label@135" type="Label" parent="." unique_id=735292091]
+offset_left = 744.0
+offset_top = 73.0
+offset_right = 744.0
+offset_bottom = 73.0
+theme_override_font_sizes/font_size = 6
+text = "surf_throw_pokeball"
+
+[node name="surf_fish_right" type="AnimatedSprite2D" parent="." unique_id=1298727997]
+position = Vector2(792, 83)
+sprite_frames = ExtResource("41_aknb4")
+autoplay = "default"
+centered = false
+
+[node name="@Label@136" type="Label" parent="." unique_id=162200887]
+offset_left = 792.0
+offset_top = 73.0
+offset_right = 792.0
+offset_bottom = 73.0
+theme_override_font_sizes/font_size = 6
+text = "surf_fish_right"
+
+[node name="surf_fish_down" type="AnimatedSprite2D" parent="." unique_id=252674433]
+position = Vector2(840, 83)
+sprite_frames = ExtResource("42_3ibii")
+autoplay = "default"
+centered = false
+
+[node name="@Label@137" type="Label" parent="." unique_id=1972106809]
+offset_left = 840.0
+offset_top = 73.0
+offset_right = 840.0
+offset_bottom = 73.0
+theme_override_font_sizes/font_size = 6
+text = "surf_fish_down"
+
+[node name="surf_fish_left" type="AnimatedSprite2D" parent="." unique_id=1638547739]
+position = Vector2(888, 83)
+sprite_frames = ExtResource("43_06wrs")
+autoplay = "default"
+centered = false
+
+[node name="@Label@138" type="Label" parent="." unique_id=168875392]
+offset_left = 888.0
+offset_top = 73.0
+offset_right = 888.0
+offset_bottom = 73.0
+theme_override_font_sizes/font_size = 6
+text = "surf_fish_left"
+
+[node name="surf_fish_up" type="AnimatedSprite2D" parent="." unique_id=1035752560]
+position = Vector2(936, 83)
+sprite_frames = ExtResource("44_o74ik")
+autoplay = "default"
+centered = false
+
+[node name="@Label@139" type="Label" parent="." unique_id=360317142]
+offset_left = 936.0
+offset_top = 73.0
+offset_right = 936.0
+offset_bottom = 73.0
+theme_override_font_sizes/font_size = 6
+text = "surf_fish_up"
+
+[node name="bike_idle" type="AnimatedSprite2D" parent="." unique_id=1681326832]
+position = Vector2(984, 83)
+sprite_frames = ExtResource("45_0mpdk")
+autoplay = "default"
+centered = false
+
+[node name="@Label@140" type="Label" parent="." unique_id=1196472684]
+offset_left = 984.0
+offset_top = 73.0
+offset_right = 984.0
+offset_bottom = 73.0
+theme_override_font_sizes/font_size = 6
+text = "bike_idle"
+
+[node name="bike_ride_right" type="AnimatedSprite2D" parent="." unique_id=1803616156]
+position = Vector2(1032, 83)
+sprite_frames = ExtResource("46_7p3vo")
+autoplay = "default"
+centered = false
+
+[node name="@Label@141" type="Label" parent="." unique_id=1220364388]
+offset_left = 1032.0
+offset_top = 73.0
+offset_right = 1032.0
+offset_bottom = 73.0
+theme_override_font_sizes/font_size = 6
+text = "bike_ride_right"
+
+[node name="bike_ride_up" type="AnimatedSprite2D" parent="." unique_id=335193365]
+position = Vector2(1080, 83)
+sprite_frames = ExtResource("47_l4pq7")
+autoplay = "default"
+centered = false
+
+[node name="@Label@142" type="Label" parent="." unique_id=1329690253]
+offset_left = 1080.0
+offset_top = 73.0
+offset_right = 1080.0
+offset_bottom = 73.0
+theme_override_font_sizes/font_size = 6
+text = "bike_ride_up"
+
+[node name="bike_ride_down" type="AnimatedSprite2D" parent="." unique_id=1446636107]
+position = Vector2(1128, 83)
+sprite_frames = ExtResource("48_51qtt")
+autoplay = "default"
+centered = false
+
+[node name="@Label@143" type="Label" parent="." unique_id=472669013]
+offset_left = 1128.0
+offset_top = 73.0
+offset_right = 1128.0
+offset_bottom = 73.0
+theme_override_font_sizes/font_size = 6
+text = "bike_ride_down"
+
+[node name="bike_wheelie" type="AnimatedSprite2D" parent="." unique_id=529224130]
+position = Vector2(1176, 83)
+sprite_frames = ExtResource("49_y22ds")
+autoplay = "default"
+centered = false
+
+[node name="@Label@144" type="Label" parent="." unique_id=1591165356]
+offset_left = 1176.0
+offset_top = 73.0
+offset_right = 1176.0
+offset_bottom = 73.0
+theme_override_font_sizes/font_size = 6
+text = "bike_wheelie"
+
+[node name="bike_stand" type="AnimatedSprite2D" parent="." unique_id=1948031990]
+position = Vector2(0, 149)
+sprite_frames = ExtResource("50_buvor")
+autoplay = "default"
+centered = false
+
+[node name="@Label@145" type="Label" parent="." unique_id=911479429]
+offset_top = 139.0
+offset_bottom = 139.0
+theme_override_font_sizes/font_size = 6
+text = "bike_stand"
+
+[node name="watering" type="AnimatedSprite2D" parent="." unique_id=1463381147]
+position = Vector2(48, 149)
+sprite_frames = ExtResource("51_opdjd")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@146" type="Label" parent="." unique_id=1327640112]
+offset_left = 48.0
+offset_top = 139.0
+offset_right = 48.0
+offset_bottom = 139.0
+theme_override_font_sizes/font_size = 6
+text = "watering"
+
+[node name="@AnimatedSprite2D@147" type="AnimatedSprite2D" parent="." unique_id=506238139]
+position = Vector2(96, 149)
+sprite_frames = ExtResource("52_1qtmm")
+autoplay = "default"
+centered = false
+
+[node name="@Label@148" type="Label" parent="." unique_id=223001901]
+offset_left = 96.0
+offset_top = 139.0
+offset_right = 96.0
+offset_bottom = 139.0
+theme_override_font_sizes/font_size = 6
+text = "battle_intro"
+
+[node name="intro_bike" type="AnimatedSprite2D" parent="." unique_id=969959498]
+position = Vector2(159, 149)
+sprite_frames = ExtResource("53_dwna0")
+autoplay = "default"
+centered = false
+
+[node name="@Label@149" type="Label" parent="." unique_id=772517626]
+offset_left = 159.0
+offset_top = 139.0
+offset_right = 159.0
+offset_bottom = 139.0
+theme_override_font_sizes/font_size = 6
+text = "intro_bike"
+
+[node name="wally_ow" type="AnimatedSprite2D" parent="." unique_id=1097111025]
+position = Vector2(211, 149)
+sprite_frames = ExtResource("54_epddi")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@150" type="Label" parent="." unique_id=1837099763]
+offset_left = 211.0
+offset_top = 139.0
+offset_right = 211.0
+offset_bottom = 139.0
+theme_override_font_sizes/font_size = 6
+text = "wally_ow"
+
+[node name="wally_battle_intro" type="AnimatedSprite2D" parent="." unique_id=258809475]
+position = Vector2(259, 149)
+sprite_frames = ExtResource("55_v35h4")
+autoplay = "default"
+centered = false
+
+[node name="@Label@151" type="Label" parent="." unique_id=368219978]
+offset_left = 259.0
+offset_top = 139.0
+offset_right = 259.0
+offset_bottom = 139.0
+theme_override_font_sizes/font_size = 6
+text = "wally_battle_intro"
+
+[node name="wally_pose" type="AnimatedSprite2D" parent="." unique_id=1185779193]
+position = Vector2(325, 149)
+sprite_frames = ExtResource("56_x0h3m")
+autoplay = "default"
+centered = false
+
+[node name="@Label@152" type="Label" parent="." unique_id=159449994]
+offset_left = 325.0
+offset_top = 139.0
+offset_right = 325.0
+offset_bottom = 139.0
+theme_override_font_sizes/font_size = 6
+text = "wally_pose"
+
+[node name="red" type="AnimatedSprite2D" parent="." unique_id=2006265426]
+position = Vector2(373, 149)
+sprite_frames = ExtResource("57_4wve7")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@153" type="Label" parent="." unique_id=551637996]
+offset_left = 373.0
+offset_top = 139.0
+offset_right = 373.0
+offset_bottom = 139.0
+theme_override_font_sizes/font_size = 6
+text = "red"
+
+[node name="leaf" type="AnimatedSprite2D" parent="." unique_id=1468736636]
+position = Vector2(421, 149)
+sprite_frames = ExtResource("58_3c4v4")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@154" type="Label" parent="." unique_id=1066448711]
+offset_left = 421.0
+offset_top = 139.0
+offset_right = 421.0
+offset_bottom = 139.0
+theme_override_font_sizes/font_size = 6
+text = "leaf"
+
+[node name="npcs_e000" type="AnimatedSprite2D" parent="." unique_id=883635502]
+position = Vector2(469, 149)
+sprite_frames = ExtResource("59_vmqqg")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@155" type="Label" parent="." unique_id=323502433]
+offset_left = 469.0
+offset_top = 139.0
+offset_right = 469.0
+offset_bottom = 139.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e000"
+
+[node name="npcs_e001" type="AnimatedSprite2D" parent="." unique_id=1734576110]
+position = Vector2(517, 149)
+sprite_frames = ExtResource("60_tfrsa")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@156" type="Label" parent="." unique_id=1743780420]
+offset_left = 517.0
+offset_top = 139.0
+offset_right = 517.0
+offset_bottom = 139.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e001"
+
+[node name="npcs_e002" type="AnimatedSprite2D" parent="." unique_id=225572028]
+position = Vector2(565, 149)
+sprite_frames = ExtResource("61_ug0vm")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@157" type="Label" parent="." unique_id=1234870971]
+offset_left = 565.0
+offset_top = 139.0
+offset_right = 565.0
+offset_bottom = 139.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e002"
+
+[node name="npcs_e003" type="AnimatedSprite2D" parent="." unique_id=1694344057]
+position = Vector2(613, 149)
+sprite_frames = ExtResource("62_pq0vf")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@158" type="Label" parent="." unique_id=425818342]
+offset_left = 613.0
+offset_top = 139.0
+offset_right = 613.0
+offset_bottom = 139.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e003"
+
+[node name="npcs_e004" type="AnimatedSprite2D" parent="." unique_id=1651506883]
+position = Vector2(661, 149)
+sprite_frames = ExtResource("63_wnxwd")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@159" type="Label" parent="." unique_id=30600190]
+offset_left = 661.0
+offset_top = 139.0
+offset_right = 661.0
+offset_bottom = 139.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e004"
+
+[node name="npcs_e005" type="AnimatedSprite2D" parent="." unique_id=1763687806]
+position = Vector2(709, 149)
+sprite_frames = ExtResource("64_bif1y")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@160" type="Label" parent="." unique_id=1196876816]
+offset_left = 709.0
+offset_top = 139.0
+offset_right = 709.0
+offset_bottom = 139.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e005"
+
+[node name="npcs_e006" type="AnimatedSprite2D" parent="." unique_id=137243592]
+position = Vector2(757, 149)
+sprite_frames = ExtResource("65_fxr7l")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@161" type="Label" parent="." unique_id=801762955]
+offset_left = 757.0
+offset_top = 139.0
+offset_right = 757.0
+offset_bottom = 139.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e006"
+
+[node name="npcs_e007" type="AnimatedSprite2D" parent="." unique_id=2102299687]
+position = Vector2(805, 149)
+sprite_frames = ExtResource("66_ktkab")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@162" type="Label" parent="." unique_id=518593122]
+offset_left = 805.0
+offset_top = 139.0
+offset_right = 805.0
+offset_bottom = 139.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e007"
+
+[node name="npcs_e008" type="AnimatedSprite2D" parent="." unique_id=1247289844]
+position = Vector2(853, 149)
+sprite_frames = ExtResource("67_egsg2")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@163" type="Label" parent="." unique_id=1529567716]
+offset_left = 853.0
+offset_top = 139.0
+offset_right = 853.0
+offset_bottom = 139.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e008"
+
+[node name="npcs_e009" type="AnimatedSprite2D" parent="." unique_id=480487329]
+position = Vector2(901, 149)
+sprite_frames = ExtResource("68_4wlfm")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@164" type="Label" parent="." unique_id=1868352984]
+offset_left = 901.0
+offset_top = 139.0
+offset_right = 901.0
+offset_bottom = 139.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e009"
+
+[node name="npcs_e010" type="AnimatedSprite2D" parent="." unique_id=1133555188]
+position = Vector2(949, 149)
+sprite_frames = ExtResource("69_etm12")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@165" type="Label" parent="." unique_id=2061066044]
+offset_left = 949.0
+offset_top = 139.0
+offset_right = 949.0
+offset_bottom = 139.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e010"
+
+[node name="npcs_e011" type="AnimatedSprite2D" parent="." unique_id=116916104]
+position = Vector2(997, 149)
+sprite_frames = ExtResource("70_dci4x")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@166" type="Label" parent="." unique_id=251773173]
+offset_left = 997.0
+offset_top = 139.0
+offset_right = 997.0
+offset_bottom = 139.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e011"
+
+[node name="npcs_e012" type="AnimatedSprite2D" parent="." unique_id=1116368624]
+position = Vector2(1045, 149)
+sprite_frames = ExtResource("71_wpy7q")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@167" type="Label" parent="." unique_id=1000153436]
+offset_left = 1045.0
+offset_top = 139.0
+offset_right = 1045.0
+offset_bottom = 139.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e012"
+
+[node name="npcs_e013" type="AnimatedSprite2D" parent="." unique_id=425958044]
+position = Vector2(1093, 149)
+sprite_frames = ExtResource("72_dl8yy")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@168" type="Label" parent="." unique_id=1576864321]
+offset_left = 1093.0
+offset_top = 139.0
+offset_right = 1093.0
+offset_bottom = 139.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e013"
+
+[node name="npcs_e014" type="AnimatedSprite2D" parent="." unique_id=742814575]
+position = Vector2(1141, 149)
+sprite_frames = ExtResource("73_huaj1")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@169" type="Label" parent="." unique_id=664828553]
+offset_left = 1141.0
+offset_top = 139.0
+offset_right = 1141.0
+offset_bottom = 139.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e014"
+
+[node name="npcs_e015" type="AnimatedSprite2D" parent="." unique_id=1603975560]
+position = Vector2(0, 220)
+sprite_frames = ExtResource("74_bmgua")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@170" type="Label" parent="." unique_id=941346677]
+offset_top = 210.0
+offset_bottom = 210.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e015"
+
+[node name="npcs_e016" type="AnimatedSprite2D" parent="." unique_id=1824521058]
+position = Vector2(48, 220)
+sprite_frames = ExtResource("75_1l2hu")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@171" type="Label" parent="." unique_id=1302211001]
+offset_left = 48.0
+offset_top = 210.0
+offset_right = 48.0
+offset_bottom = 210.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e016"
+
+[node name="npcs_e017" type="AnimatedSprite2D" parent="." unique_id=924678267]
+position = Vector2(96, 220)
+sprite_frames = ExtResource("76_nrp76")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@172" type="Label" parent="." unique_id=373205692]
+offset_left = 96.0
+offset_top = 210.0
+offset_right = 96.0
+offset_bottom = 210.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e017"
+
+[node name="npcs_e018" type="AnimatedSprite2D" parent="." unique_id=1107637172]
+position = Vector2(144, 220)
+sprite_frames = ExtResource("77_l8ckw")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@173" type="Label" parent="." unique_id=2056720287]
+offset_left = 144.0
+offset_top = 210.0
+offset_right = 144.0
+offset_bottom = 210.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e018"
+
+[node name="npcs_e019" type="AnimatedSprite2D" parent="." unique_id=1202786258]
+position = Vector2(192, 220)
+sprite_frames = ExtResource("78_6i8ue")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@174" type="Label" parent="." unique_id=1511836599]
+offset_left = 192.0
+offset_top = 210.0
+offset_right = 192.0
+offset_bottom = 210.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e019"
+
+[node name="npcs_e020" type="AnimatedSprite2D" parent="." unique_id=1765874449]
+position = Vector2(240, 220)
+sprite_frames = ExtResource("79_d3dmj")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@175" type="Label" parent="." unique_id=441446018]
+offset_left = 240.0
+offset_top = 210.0
+offset_right = 240.0
+offset_bottom = 210.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e020"
+
+[node name="npcs_e021" type="AnimatedSprite2D" parent="." unique_id=1653703806]
+position = Vector2(288, 220)
+sprite_frames = ExtResource("80_p3neu")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@176" type="Label" parent="." unique_id=509960196]
+offset_left = 288.0
+offset_top = 210.0
+offset_right = 288.0
+offset_bottom = 210.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e021"
+
+[node name="npcs_e022" type="AnimatedSprite2D" parent="." unique_id=661602330]
+position = Vector2(336, 220)
+sprite_frames = ExtResource("81_dkijc")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@177" type="Label" parent="." unique_id=443462167]
+offset_left = 336.0
+offset_top = 210.0
+offset_right = 336.0
+offset_bottom = 210.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e022"
+
+[node name="npcs_e023" type="AnimatedSprite2D" parent="." unique_id=1492251505]
+position = Vector2(384, 220)
+sprite_frames = ExtResource("82_0hqmc")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@178" type="Label" parent="." unique_id=1767602510]
+offset_left = 384.0
+offset_top = 210.0
+offset_right = 384.0
+offset_bottom = 210.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e023"
+
+[node name="npcs_e024" type="AnimatedSprite2D" parent="." unique_id=1615586410]
+position = Vector2(432, 220)
+sprite_frames = ExtResource("83_dp3jj")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@179" type="Label" parent="." unique_id=805143033]
+offset_left = 432.0
+offset_top = 210.0
+offset_right = 432.0
+offset_bottom = 210.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e024"
+
+[node name="npcs_e025" type="AnimatedSprite2D" parent="." unique_id=1742498120]
+position = Vector2(480, 220)
+sprite_frames = ExtResource("84_mciqk")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@180" type="Label" parent="." unique_id=1674956248]
+offset_left = 480.0
+offset_top = 210.0
+offset_right = 480.0
+offset_bottom = 210.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e025"
+
+[node name="npcs_e026" type="AnimatedSprite2D" parent="." unique_id=1088170527]
+position = Vector2(528, 220)
+sprite_frames = ExtResource("85_mw3kt")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@181" type="Label" parent="." unique_id=289272670]
+offset_left = 528.0
+offset_top = 210.0
+offset_right = 528.0
+offset_bottom = 210.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e026"
+
+[node name="npcs_e027" type="AnimatedSprite2D" parent="." unique_id=475405689]
+position = Vector2(576, 220)
+sprite_frames = ExtResource("86_ak2j4")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@182" type="Label" parent="." unique_id=1805013529]
+offset_left = 576.0
+offset_top = 210.0
+offset_right = 576.0
+offset_bottom = 210.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e027"
+
+[node name="npcs_e028" type="AnimatedSprite2D" parent="." unique_id=523886678]
+position = Vector2(624, 220)
+sprite_frames = ExtResource("87_ntspt")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@183" type="Label" parent="." unique_id=58306261]
+offset_left = 624.0
+offset_top = 210.0
+offset_right = 624.0
+offset_bottom = 210.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e028"
+
+[node name="npcs_e029" type="AnimatedSprite2D" parent="." unique_id=1445264700]
+position = Vector2(672, 220)
+sprite_frames = ExtResource("88_rrfwi")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@184" type="Label" parent="." unique_id=1073146940]
+offset_left = 672.0
+offset_top = 210.0
+offset_right = 672.0
+offset_bottom = 210.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e029"
+
+[node name="npcs_e030" type="AnimatedSprite2D" parent="." unique_id=1491123568]
+position = Vector2(720, 220)
+sprite_frames = ExtResource("89_dwhbc")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@185" type="Label" parent="." unique_id=907423179]
+offset_left = 720.0
+offset_top = 210.0
+offset_right = 720.0
+offset_bottom = 210.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e030"
+
+[node name="npcs_e031" type="AnimatedSprite2D" parent="." unique_id=1611193790]
+position = Vector2(768, 220)
+sprite_frames = ExtResource("90_qkj78")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@186" type="Label" parent="." unique_id=14602538]
+offset_left = 768.0
+offset_top = 210.0
+offset_right = 768.0
+offset_bottom = 210.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e031"
+
+[node name="npcs_e032" type="AnimatedSprite2D" parent="." unique_id=43198410]
+position = Vector2(816, 220)
+sprite_frames = ExtResource("91_imt3f")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@187" type="Label" parent="." unique_id=457855410]
+offset_left = 816.0
+offset_top = 210.0
+offset_right = 816.0
+offset_bottom = 210.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e032"
+
+[node name="npcs_e033" type="AnimatedSprite2D" parent="." unique_id=565709488]
+position = Vector2(864, 220)
+sprite_frames = ExtResource("92_ytfcf")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@188" type="Label" parent="." unique_id=1350449186]
+offset_left = 864.0
+offset_top = 210.0
+offset_right = 864.0
+offset_bottom = 210.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e033"
+
+[node name="npcs_e034" type="AnimatedSprite2D" parent="." unique_id=871497875]
+position = Vector2(912, 220)
+sprite_frames = ExtResource("93_t5yo3")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@189" type="Label" parent="." unique_id=1227071209]
+offset_left = 912.0
+offset_top = 210.0
+offset_right = 912.0
+offset_bottom = 210.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e034"
+
+[node name="npcs_e035" type="AnimatedSprite2D" parent="." unique_id=45760469]
+position = Vector2(960, 220)
+sprite_frames = ExtResource("94_ocphw")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@190" type="Label" parent="." unique_id=734730729]
+offset_left = 960.0
+offset_top = 210.0
+offset_right = 960.0
+offset_bottom = 210.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e035"
+
+[node name="npcs_e036" type="AnimatedSprite2D" parent="." unique_id=1356906874]
+position = Vector2(1008, 220)
+sprite_frames = ExtResource("95_ybiqp")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@191" type="Label" parent="." unique_id=145268408]
+offset_left = 1008.0
+offset_top = 210.0
+offset_right = 1008.0
+offset_bottom = 210.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e036"
+
+[node name="npcs_e037" type="AnimatedSprite2D" parent="." unique_id=1125342911]
+position = Vector2(1056, 220)
+sprite_frames = ExtResource("96_qrkrh")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@192" type="Label" parent="." unique_id=1900955561]
+offset_left = 1056.0
+offset_top = 210.0
+offset_right = 1056.0
+offset_bottom = 210.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e037"
+
+[node name="npcs_e038" type="AnimatedSprite2D" parent="." unique_id=1659339851]
+position = Vector2(1104, 220)
+sprite_frames = ExtResource("97_s3dmr")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@193" type="Label" parent="." unique_id=584459231]
+offset_left = 1104.0
+offset_top = 210.0
+offset_right = 1104.0
+offset_bottom = 210.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e038"
+
+[node name="npcs_e039" type="AnimatedSprite2D" parent="." unique_id=1306429294]
+position = Vector2(1152, 220)
+sprite_frames = ExtResource("98_3rcip")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@194" type="Label" parent="." unique_id=1778453181]
+offset_left = 1152.0
+offset_top = 210.0
+offset_right = 1152.0
+offset_bottom = 210.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e039"
+
+[node name="npcs_e040" type="AnimatedSprite2D" parent="." unique_id=141189771]
+position = Vector2(0, 255)
+sprite_frames = ExtResource("99_tv7vy")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@195" type="Label" parent="." unique_id=789317253]
+offset_top = 245.0
+offset_bottom = 245.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e040"
+
+[node name="npcs_e041" type="AnimatedSprite2D" parent="." unique_id=150357923]
+position = Vector2(48, 255)
+sprite_frames = ExtResource("100_vdoet")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@196" type="Label" parent="." unique_id=1559139613]
+offset_left = 48.0
+offset_top = 245.0
+offset_right = 48.0
+offset_bottom = 245.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e041"
+
+[node name="npcs_e042" type="AnimatedSprite2D" parent="." unique_id=644846056]
+position = Vector2(96, 255)
+sprite_frames = ExtResource("101_aka1g")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@197" type="Label" parent="." unique_id=1077239721]
+offset_left = 96.0
+offset_top = 245.0
+offset_right = 96.0
+offset_bottom = 245.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e042"
+
+[node name="npcs_e043" type="AnimatedSprite2D" parent="." unique_id=1333446969]
+position = Vector2(144, 255)
+sprite_frames = ExtResource("102_0b1e5")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@198" type="Label" parent="." unique_id=426013159]
+offset_left = 144.0
+offset_top = 245.0
+offset_right = 144.0
+offset_bottom = 245.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e043"
+
+[node name="npcs_e044" type="AnimatedSprite2D" parent="." unique_id=623556363]
+position = Vector2(192, 255)
+sprite_frames = ExtResource("103_2blve")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@199" type="Label" parent="." unique_id=2048270905]
+offset_left = 192.0
+offset_top = 245.0
+offset_right = 192.0
+offset_bottom = 245.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e044"
+
+[node name="npcs_e045" type="AnimatedSprite2D" parent="." unique_id=80520023]
+position = Vector2(240, 255)
+sprite_frames = ExtResource("104_6gmv4")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@200" type="Label" parent="." unique_id=678158884]
+offset_left = 240.0
+offset_top = 245.0
+offset_right = 240.0
+offset_bottom = 245.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e045"
+
+[node name="npcs_e046" type="AnimatedSprite2D" parent="." unique_id=1479251127]
+position = Vector2(288, 255)
+sprite_frames = ExtResource("105_nmo51")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@201" type="Label" parent="." unique_id=75152247]
+offset_left = 288.0
+offset_top = 245.0
+offset_right = 288.0
+offset_bottom = 245.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e046"
+
+[node name="npcs_e047" type="AnimatedSprite2D" parent="." unique_id=1662765853]
+position = Vector2(336, 255)
+sprite_frames = ExtResource("106_y2cej")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@202" type="Label" parent="." unique_id=810077634]
+offset_left = 336.0
+offset_top = 245.0
+offset_right = 336.0
+offset_bottom = 245.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e047"
+
+[node name="npcs_e048" type="AnimatedSprite2D" parent="." unique_id=2087359352]
+position = Vector2(384, 255)
+sprite_frames = ExtResource("107_1spfd")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@203" type="Label" parent="." unique_id=1011223271]
+offset_left = 384.0
+offset_top = 245.0
+offset_right = 384.0
+offset_bottom = 245.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e048"
+
+[node name="npcs_e049" type="AnimatedSprite2D" parent="." unique_id=484108232]
+position = Vector2(432, 255)
+sprite_frames = ExtResource("108_nueey")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@204" type="Label" parent="." unique_id=380084491]
+offset_left = 432.0
+offset_top = 245.0
+offset_right = 432.0
+offset_bottom = 245.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e049"
+
+[node name="npcs_e050" type="AnimatedSprite2D" parent="." unique_id=1651508477]
+position = Vector2(480, 255)
+sprite_frames = ExtResource("109_3gv6a")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@205" type="Label" parent="." unique_id=901445162]
+offset_left = 480.0
+offset_top = 245.0
+offset_right = 480.0
+offset_bottom = 245.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e050"
+
+[node name="npcs_e051" type="AnimatedSprite2D" parent="." unique_id=1889639312]
+position = Vector2(528, 255)
+sprite_frames = ExtResource("110_2qqks")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@206" type="Label" parent="." unique_id=1698304064]
+offset_left = 528.0
+offset_top = 245.0
+offset_right = 528.0
+offset_bottom = 245.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e051"
+
+[node name="npcs_e052" type="AnimatedSprite2D" parent="." unique_id=547744085]
+position = Vector2(576, 255)
+sprite_frames = ExtResource("111_fjnta")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@207" type="Label" parent="." unique_id=2074761947]
+offset_left = 576.0
+offset_top = 245.0
+offset_right = 576.0
+offset_bottom = 245.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e052"
+
+[node name="npcs_e053" type="AnimatedSprite2D" parent="." unique_id=1323451709]
+position = Vector2(624, 255)
+sprite_frames = ExtResource("112_boml4")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@208" type="Label" parent="." unique_id=2003908394]
+offset_left = 624.0
+offset_top = 245.0
+offset_right = 624.0
+offset_bottom = 245.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e053"
+
+[node name="npcs_e054" type="AnimatedSprite2D" parent="." unique_id=2101789811]
+position = Vector2(672, 255)
+sprite_frames = ExtResource("113_vcea4")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@209" type="Label" parent="." unique_id=248268305]
+offset_left = 672.0
+offset_top = 245.0
+offset_right = 672.0
+offset_bottom = 245.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e054"
+
+[node name="npcs_e055" type="AnimatedSprite2D" parent="." unique_id=108654771]
+position = Vector2(720, 255)
+sprite_frames = ExtResource("114_cxttk")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@210" type="Label" parent="." unique_id=1906275722]
+offset_left = 720.0
+offset_top = 245.0
+offset_right = 720.0
+offset_bottom = 245.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e055"
+
+[node name="npcs_e056" type="AnimatedSprite2D" parent="." unique_id=162283024]
+position = Vector2(768, 255)
+sprite_frames = ExtResource("115_qoeel")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@211" type="Label" parent="." unique_id=1584448025]
+offset_left = 768.0
+offset_top = 245.0
+offset_right = 768.0
+offset_bottom = 245.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e056"
+
+[node name="npcs_e057" type="AnimatedSprite2D" parent="." unique_id=1616865090]
+position = Vector2(816, 255)
+sprite_frames = ExtResource("116_nm4rc")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@212" type="Label" parent="." unique_id=1097914443]
+offset_left = 816.0
+offset_top = 245.0
+offset_right = 816.0
+offset_bottom = 245.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e057"
+
+[node name="npcs_e058" type="AnimatedSprite2D" parent="." unique_id=1972196872]
+position = Vector2(864, 255)
+sprite_frames = ExtResource("117_vxcp6")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@213" type="Label" parent="." unique_id=1242222789]
+offset_left = 864.0
+offset_top = 245.0
+offset_right = 864.0
+offset_bottom = 245.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e058"
+
+[node name="npcs_e059" type="AnimatedSprite2D" parent="." unique_id=1768785602]
+position = Vector2(912, 255)
+sprite_frames = ExtResource("118_s2s1m")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@214" type="Label" parent="." unique_id=1942005437]
+offset_left = 912.0
+offset_top = 245.0
+offset_right = 912.0
+offset_bottom = 245.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e059"
+
+[node name="npcs_e060" type="AnimatedSprite2D" parent="." unique_id=950825801]
+position = Vector2(960, 255)
+sprite_frames = ExtResource("119_heuom")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@215" type="Label" parent="." unique_id=1851343811]
+offset_left = 960.0
+offset_top = 245.0
+offset_right = 960.0
+offset_bottom = 245.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e060"
+
+[node name="npcs_e061" type="AnimatedSprite2D" parent="." unique_id=704305244]
+position = Vector2(1008, 255)
+sprite_frames = ExtResource("120_ls4xw")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@216" type="Label" parent="." unique_id=516153777]
+offset_left = 1008.0
+offset_top = 245.0
+offset_right = 1008.0
+offset_bottom = 245.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e061"
+
+[node name="npcs_e062" type="AnimatedSprite2D" parent="." unique_id=1660091150]
+position = Vector2(1056, 255)
+sprite_frames = ExtResource("121_36soo")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@217" type="Label" parent="." unique_id=1832454861]
+offset_left = 1056.0
+offset_top = 245.0
+offset_right = 1056.0
+offset_bottom = 245.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e062"
+
+[node name="npcs_e063" type="AnimatedSprite2D" parent="." unique_id=1934952685]
+position = Vector2(1104, 255)
+sprite_frames = ExtResource("122_ovpib")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@218" type="Label" parent="." unique_id=1593286957]
+offset_left = 1104.0
+offset_top = 245.0
+offset_right = 1104.0
+offset_bottom = 245.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e063"
+
+[node name="npcs_e064" type="AnimatedSprite2D" parent="." unique_id=1050432454]
+position = Vector2(1152, 255)
+sprite_frames = ExtResource("123_a1onl")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@219" type="Label" parent="." unique_id=2143476529]
+offset_left = 1152.0
+offset_top = 245.0
+offset_right = 1152.0
+offset_bottom = 245.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e064"
+
+[node name="npcs_e065" type="AnimatedSprite2D" parent="." unique_id=1032419657]
+position = Vector2(0, 290)
+sprite_frames = ExtResource("124_x2gv8")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@220" type="Label" parent="." unique_id=1739216312]
+offset_top = 280.0
+offset_bottom = 280.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e065"
+
+[node name="npcs_e066" type="AnimatedSprite2D" parent="." unique_id=1572774530]
+position = Vector2(48, 290)
+sprite_frames = ExtResource("125_kq7v2")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@221" type="Label" parent="." unique_id=1137115390]
+offset_left = 48.0
+offset_top = 280.0
+offset_right = 48.0
+offset_bottom = 280.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e066"
+
+[node name="npcs_e067" type="AnimatedSprite2D" parent="." unique_id=184376663]
+position = Vector2(96, 290)
+sprite_frames = ExtResource("126_8kcis")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@222" type="Label" parent="." unique_id=1678250059]
+offset_left = 96.0
+offset_top = 280.0
+offset_right = 96.0
+offset_bottom = 280.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e067"
+
+[node name="npcs_e068" type="AnimatedSprite2D" parent="." unique_id=419787487]
+position = Vector2(144, 290)
+sprite_frames = ExtResource("127_ta8y6")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@223" type="Label" parent="." unique_id=707285764]
+offset_left = 144.0
+offset_top = 280.0
+offset_right = 144.0
+offset_bottom = 280.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e068"
+
+[node name="npcs_e069" type="AnimatedSprite2D" parent="." unique_id=349095422]
+position = Vector2(192, 290)
+sprite_frames = ExtResource("128_1ofui")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@224" type="Label" parent="." unique_id=858490376]
+offset_left = 192.0
+offset_top = 280.0
+offset_right = 192.0
+offset_bottom = 280.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e069"
+
+[node name="npcs_e070" type="AnimatedSprite2D" parent="." unique_id=998314162]
+position = Vector2(240, 290)
+sprite_frames = ExtResource("129_adgdn")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@225" type="Label" parent="." unique_id=756289614]
+offset_left = 240.0
+offset_top = 280.0
+offset_right = 240.0
+offset_bottom = 280.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e070"
+
+[node name="npcs_e071" type="AnimatedSprite2D" parent="." unique_id=1296637734]
+position = Vector2(288, 290)
+sprite_frames = ExtResource("130_pcql6")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@226" type="Label" parent="." unique_id=83306894]
+offset_left = 288.0
+offset_top = 280.0
+offset_right = 288.0
+offset_bottom = 280.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e071"
+
+[node name="npcs_e072" type="AnimatedSprite2D" parent="." unique_id=498649415]
+position = Vector2(336, 290)
+sprite_frames = ExtResource("131_44jct")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@227" type="Label" parent="." unique_id=1912103680]
+offset_left = 336.0
+offset_top = 280.0
+offset_right = 336.0
+offset_bottom = 280.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e072"
+
+[node name="npcs_e073" type="AnimatedSprite2D" parent="." unique_id=456070685]
+position = Vector2(384, 290)
+sprite_frames = ExtResource("132_r25rq")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@228" type="Label" parent="." unique_id=1950236397]
+offset_left = 384.0
+offset_top = 280.0
+offset_right = 384.0
+offset_bottom = 280.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e073"
+
+[node name="npcs_e074" type="AnimatedSprite2D" parent="." unique_id=1584299349]
+position = Vector2(432, 290)
+sprite_frames = ExtResource("133_6iyex")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@229" type="Label" parent="." unique_id=1279432228]
+offset_left = 432.0
+offset_top = 280.0
+offset_right = 432.0
+offset_bottom = 280.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e074"
+
+[node name="npcs_e075" type="AnimatedSprite2D" parent="." unique_id=1299680681]
+position = Vector2(480, 290)
+sprite_frames = ExtResource("134_6rvd8")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@230" type="Label" parent="." unique_id=1172112650]
+offset_left = 480.0
+offset_top = 280.0
+offset_right = 480.0
+offset_bottom = 280.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e075"
+
+[node name="npcs_e076" type="AnimatedSprite2D" parent="." unique_id=2046503306]
+position = Vector2(528, 290)
+sprite_frames = ExtResource("135_oqv5u")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@231" type="Label" parent="." unique_id=1662427393]
+offset_left = 528.0
+offset_top = 280.0
+offset_right = 528.0
+offset_bottom = 280.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e076"
+
+[node name="npcs_e077" type="AnimatedSprite2D" parent="." unique_id=88872648]
+position = Vector2(576, 290)
+sprite_frames = ExtResource("136_utuur")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@232" type="Label" parent="." unique_id=1842324610]
+offset_left = 576.0
+offset_top = 280.0
+offset_right = 576.0
+offset_bottom = 280.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e077"
+
+[node name="npcs_e078" type="AnimatedSprite2D" parent="." unique_id=1250145764]
+position = Vector2(624, 290)
+sprite_frames = ExtResource("137_lwhk5")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@233" type="Label" parent="." unique_id=15249629]
+offset_left = 624.0
+offset_top = 280.0
+offset_right = 624.0
+offset_bottom = 280.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e078"
+
+[node name="npcs_e079" type="AnimatedSprite2D" parent="." unique_id=43242705]
+position = Vector2(672, 290)
+sprite_frames = ExtResource("138_hyj6p")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@234" type="Label" parent="." unique_id=2146495084]
+offset_left = 672.0
+offset_top = 280.0
+offset_right = 672.0
+offset_bottom = 280.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e079"
+
+[node name="npcs_e080" type="AnimatedSprite2D" parent="." unique_id=472382557]
+position = Vector2(720, 290)
+sprite_frames = ExtResource("139_hh70m")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@235" type="Label" parent="." unique_id=2053339694]
+offset_left = 720.0
+offset_top = 280.0
+offset_right = 720.0
+offset_bottom = 280.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e080"
+
+[node name="npcs_e081" type="AnimatedSprite2D" parent="." unique_id=824761840]
+position = Vector2(768, 290)
+sprite_frames = ExtResource("140_od50r")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@236" type="Label" parent="." unique_id=1357840186]
+offset_left = 768.0
+offset_top = 280.0
+offset_right = 768.0
+offset_bottom = 280.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e081"
+
+[node name="npcs_e082" type="AnimatedSprite2D" parent="." unique_id=695898921]
+position = Vector2(816, 290)
+sprite_frames = ExtResource("141_ovrwg")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@237" type="Label" parent="." unique_id=1747819548]
+offset_left = 816.0
+offset_top = 280.0
+offset_right = 816.0
+offset_bottom = 280.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e082"
+
+[node name="npcs_e083" type="AnimatedSprite2D" parent="." unique_id=1496161948]
+position = Vector2(864, 290)
+sprite_frames = ExtResource("142_e7ssg")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@238" type="Label" parent="." unique_id=554228939]
+offset_left = 864.0
+offset_top = 280.0
+offset_right = 864.0
+offset_bottom = 280.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e083"
+
+[node name="npcs_e084" type="AnimatedSprite2D" parent="." unique_id=1551556969]
+position = Vector2(912, 290)
+sprite_frames = ExtResource("143_55j00")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@239" type="Label" parent="." unique_id=2042809621]
+offset_left = 912.0
+offset_top = 280.0
+offset_right = 912.0
+offset_bottom = 280.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e084"
+
+[node name="npcs_e085" type="AnimatedSprite2D" parent="." unique_id=354723630]
+position = Vector2(960, 290)
+sprite_frames = ExtResource("144_bhgie")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@240" type="Label" parent="." unique_id=1748510829]
+offset_left = 960.0
+offset_top = 280.0
+offset_right = 960.0
+offset_bottom = 280.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e085"
+
+[node name="npcs_e086" type="AnimatedSprite2D" parent="." unique_id=1943593981]
+position = Vector2(1008, 290)
+sprite_frames = ExtResource("145_miw4b")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@241" type="Label" parent="." unique_id=1202035719]
+offset_left = 1008.0
+offset_top = 280.0
+offset_right = 1008.0
+offset_bottom = 280.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e086"
+
+[node name="npcs_e087" type="AnimatedSprite2D" parent="." unique_id=716855931]
+position = Vector2(1056, 290)
+sprite_frames = ExtResource("146_2cwd2")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@242" type="Label" parent="." unique_id=1807335056]
+offset_left = 1056.0
+offset_top = 280.0
+offset_right = 1056.0
+offset_bottom = 280.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e087"
+
+[node name="npcs_e088" type="AnimatedSprite2D" parent="." unique_id=560015550]
+position = Vector2(1104, 290)
+sprite_frames = ExtResource("147_tormj")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@243" type="Label" parent="." unique_id=2054410131]
+offset_left = 1104.0
+offset_top = 280.0
+offset_right = 1104.0
+offset_bottom = 280.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e088"
+
+[node name="npcs_e089" type="AnimatedSprite2D" parent="." unique_id=640750933]
+position = Vector2(1152, 290)
+sprite_frames = ExtResource("148_3ih1r")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@244" type="Label" parent="." unique_id=983618337]
+offset_left = 1152.0
+offset_top = 280.0
+offset_right = 1152.0
+offset_bottom = 280.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e089"
+
+[node name="npcs_e090" type="AnimatedSprite2D" parent="." unique_id=615132058]
+position = Vector2(0, 325)
+sprite_frames = ExtResource("149_i6qem")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@245" type="Label" parent="." unique_id=1927512243]
+offset_top = 315.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e090"
+
+[node name="npcs_e091" type="AnimatedSprite2D" parent="." unique_id=1933656115]
+position = Vector2(48, 325)
+sprite_frames = ExtResource("150_jnfmv")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@246" type="Label" parent="." unique_id=2053135958]
+offset_left = 48.0
+offset_top = 315.0
+offset_right = 48.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e091"
+
+[node name="npcs_e092" type="AnimatedSprite2D" parent="." unique_id=1316773231]
+position = Vector2(96, 325)
+sprite_frames = ExtResource("151_vbx4q")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@247" type="Label" parent="." unique_id=220986547]
+offset_left = 96.0
+offset_top = 315.0
+offset_right = 96.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e092"
+
+[node name="npcs_e093" type="AnimatedSprite2D" parent="." unique_id=1915398944]
+position = Vector2(144, 325)
+sprite_frames = ExtResource("152_c0ff6")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@248" type="Label" parent="." unique_id=767723422]
+offset_left = 144.0
+offset_top = 315.0
+offset_right = 144.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e093"
+
+[node name="npcs_e094" type="AnimatedSprite2D" parent="." unique_id=1120066443]
+position = Vector2(192, 325)
+sprite_frames = ExtResource("153_e5j6p")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@249" type="Label" parent="." unique_id=879661320]
+offset_left = 192.0
+offset_top = 315.0
+offset_right = 192.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e094"
+
+[node name="npcs_e095" type="AnimatedSprite2D" parent="." unique_id=1555917165]
+position = Vector2(240, 325)
+sprite_frames = ExtResource("154_g3xh7")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@250" type="Label" parent="." unique_id=361712615]
+offset_left = 240.0
+offset_top = 315.0
+offset_right = 240.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e095"
+
+[node name="npcs_e096" type="AnimatedSprite2D" parent="." unique_id=470218232]
+position = Vector2(288, 325)
+sprite_frames = ExtResource("155_57wua")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@251" type="Label" parent="." unique_id=233305483]
+offset_left = 288.0
+offset_top = 315.0
+offset_right = 288.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e096"
+
+[node name="npcs_e097" type="AnimatedSprite2D" parent="." unique_id=440629926]
+position = Vector2(336, 325)
+sprite_frames = ExtResource("156_4p0nj")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@252" type="Label" parent="." unique_id=853258475]
+offset_left = 336.0
+offset_top = 315.0
+offset_right = 336.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e097"
+
+[node name="npcs_e098" type="AnimatedSprite2D" parent="." unique_id=855507045]
+position = Vector2(384, 325)
+sprite_frames = ExtResource("157_uiogw")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@253" type="Label" parent="." unique_id=610718738]
+offset_left = 384.0
+offset_top = 315.0
+offset_right = 384.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e098"
+
+[node name="npcs_e099" type="AnimatedSprite2D" parent="." unique_id=1748906590]
+position = Vector2(432, 325)
+sprite_frames = ExtResource("158_u7thp")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@254" type="Label" parent="." unique_id=1039876705]
+offset_left = 432.0
+offset_top = 315.0
+offset_right = 432.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e099"
+
+[node name="npcs_e100" type="AnimatedSprite2D" parent="." unique_id=1988872936]
+position = Vector2(480, 325)
+sprite_frames = ExtResource("159_odoa6")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@255" type="Label" parent="." unique_id=1703287313]
+offset_left = 480.0
+offset_top = 315.0
+offset_right = 480.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e100"
+
+[node name="npcs_e101" type="AnimatedSprite2D" parent="." unique_id=661235570]
+position = Vector2(528, 325)
+sprite_frames = ExtResource("160_hyji0")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@256" type="Label" parent="." unique_id=688500420]
+offset_left = 528.0
+offset_top = 315.0
+offset_right = 528.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e101"
+
+[node name="npcs_e102" type="AnimatedSprite2D" parent="." unique_id=352347547]
+position = Vector2(576, 325)
+sprite_frames = ExtResource("161_yg31v")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@257" type="Label" parent="." unique_id=1004573453]
+offset_left = 576.0
+offset_top = 315.0
+offset_right = 576.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e102"
+
+[node name="npcs_e103" type="AnimatedSprite2D" parent="." unique_id=1131384234]
+position = Vector2(624, 325)
+sprite_frames = ExtResource("162_5v1ew")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@258" type="Label" parent="." unique_id=1208155476]
+offset_left = 624.0
+offset_top = 315.0
+offset_right = 624.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e103"
+
+[node name="npcs_e104" type="AnimatedSprite2D" parent="." unique_id=496477533]
+position = Vector2(672, 325)
+sprite_frames = ExtResource("163_4jm2a")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@259" type="Label" parent="." unique_id=591182494]
+offset_left = 672.0
+offset_top = 315.0
+offset_right = 672.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e104"
+
+[node name="npcs_e105" type="AnimatedSprite2D" parent="." unique_id=759899536]
+position = Vector2(720, 325)
+sprite_frames = ExtResource("164_c1ijq")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@260" type="Label" parent="." unique_id=1681955714]
+offset_left = 720.0
+offset_top = 315.0
+offset_right = 720.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e105"
+
+[node name="npcs_e106" type="AnimatedSprite2D" parent="." unique_id=328051776]
+position = Vector2(768, 325)
+sprite_frames = ExtResource("165_parxh")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@261" type="Label" parent="." unique_id=1096842065]
+offset_left = 768.0
+offset_top = 315.0
+offset_right = 768.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e106"
+
+[node name="npcs_e107" type="AnimatedSprite2D" parent="." unique_id=1835947921]
+position = Vector2(816, 325)
+sprite_frames = ExtResource("166_1ts6s")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@262" type="Label" parent="." unique_id=1715561015]
+offset_left = 816.0
+offset_top = 315.0
+offset_right = 816.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e107"
+
+[node name="npcs_e108" type="AnimatedSprite2D" parent="." unique_id=753906161]
+position = Vector2(864, 325)
+sprite_frames = ExtResource("167_g7xof")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@263" type="Label" parent="." unique_id=1913117704]
+offset_left = 864.0
+offset_top = 315.0
+offset_right = 864.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e108"
+
+[node name="npcs_e109" type="AnimatedSprite2D" parent="." unique_id=866088633]
+position = Vector2(912, 325)
+sprite_frames = ExtResource("168_gyj0p")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@264" type="Label" parent="." unique_id=1052876721]
+offset_left = 912.0
+offset_top = 315.0
+offset_right = 912.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e109"
+
+[node name="npcs_e110" type="AnimatedSprite2D" parent="." unique_id=284984631]
+position = Vector2(960, 325)
+sprite_frames = ExtResource("169_c7ddx")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@265" type="Label" parent="." unique_id=1015953445]
+offset_left = 960.0
+offset_top = 315.0
+offset_right = 960.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "npcs_e110"
+
+[node name="anabel" type="AnimatedSprite2D" parent="." unique_id=471426145]
+position = Vector2(1008, 325)
+sprite_frames = ExtResource("170_4u5ew")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@266" type="Label" parent="." unique_id=1406582835]
+offset_left = 1008.0
+offset_top = 315.0
+offset_right = 1008.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "anabel"
+
+[node name="tucker" type="AnimatedSprite2D" parent="." unique_id=842911034]
+position = Vector2(1056, 325)
+sprite_frames = ExtResource("171_m18in")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@267" type="Label" parent="." unique_id=1568431399]
+offset_left = 1056.0
+offset_top = 315.0
+offset_right = 1056.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "tucker"
+
+[node name="greta" type="AnimatedSprite2D" parent="." unique_id=155490081]
+position = Vector2(1104, 325)
+sprite_frames = ExtResource("172_tj7f5")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@268" type="Label" parent="." unique_id=1505975975]
+offset_left = 1104.0
+offset_top = 315.0
+offset_right = 1104.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "greta"
+
+[node name="spenser" type="AnimatedSprite2D" parent="." unique_id=1379182606]
+position = Vector2(1152, 325)
+sprite_frames = ExtResource("173_drno6")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@269" type="Label" parent="." unique_id=607241491]
+offset_left = 1152.0
+offset_top = 315.0
+offset_right = 1152.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 6
+text = "spenser"
+
+[node name="brandon" type="AnimatedSprite2D" parent="." unique_id=720920579]
+position = Vector2(0, 368)
+sprite_frames = ExtResource("174_haw5n")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@270" type="Label" parent="." unique_id=1913584847]
+offset_top = 358.0
+offset_bottom = 358.0
+theme_override_font_sizes/font_size = 6
+text = "brandon"
+
+[node name="lucy" type="AnimatedSprite2D" parent="." unique_id=912462662]
+position = Vector2(48, 368)
+sprite_frames = ExtResource("175_h1y2b")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@271" type="Label" parent="." unique_id=1831597307]
+offset_left = 48.0
+offset_top = 358.0
+offset_right = 48.0
+offset_bottom = 358.0
+theme_override_font_sizes/font_size = 6
+text = "lucy"
+
+[node name="noland" type="AnimatedSprite2D" parent="." unique_id=985929706]
+position = Vector2(96, 368)
+sprite_frames = ExtResource("176_d6n2v")
+animation = &"idle_down"
+autoplay = "idle_down"
+centered = false
+
+[node name="@Label@272" type="Label" parent="." unique_id=1986160038]
+offset_left = 96.0
+offset_top = 358.0
+offset_right = 96.0
+offset_bottom = 358.0
+theme_override_font_sizes/font_size = 6
+text = "noland"

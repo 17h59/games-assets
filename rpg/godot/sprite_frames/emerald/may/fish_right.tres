@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/emerald/characters/may/fish_right.png" id="1_vrlbd"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lj015"]
+atlas = ExtResource("1_vrlbd")
+region = Rect2(0, 0, 29, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6gyt3"]
+atlas = ExtResource("1_vrlbd")
+region = Rect2(29, 0, 29, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xjibc"]
+atlas = ExtResource("1_vrlbd")
+region = Rect2(58, 0, 29, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xcohs"]
+atlas = ExtResource("1_vrlbd")
+region = Rect2(87, 0, 29, 27)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lj015")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6gyt3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xjibc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xcohs")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

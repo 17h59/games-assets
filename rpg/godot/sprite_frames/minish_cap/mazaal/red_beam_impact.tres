@@ -1,0 +1,60 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/mazaal/laser_beam_particles/red_beam_impact.png" id="1_d6f02"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lkcua"]
+atlas = ExtResource("1_d6f02")
+region = Rect2(0, 0, 22, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r1diy"]
+atlas = ExtResource("1_d6f02")
+region = Rect2(22, 0, 22, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6pmoa"]
+atlas = ExtResource("1_d6f02")
+region = Rect2(44, 0, 22, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5qtw2"]
+atlas = ExtResource("1_d6f02")
+region = Rect2(66, 0, 22, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6jj66"]
+atlas = ExtResource("1_d6f02")
+region = Rect2(88, 0, 22, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4d2ry"]
+atlas = ExtResource("1_d6f02")
+region = Rect2(110, 0, 22, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2qqes"]
+atlas = ExtResource("1_d6f02")
+region = Rect2(132, 0, 22, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lkcua")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r1diy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6pmoa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5qtw2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6jj66")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4d2ry")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2qqes")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

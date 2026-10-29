@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/keaton/walk_down.png" id="1_xl0ck"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m4uq5"]
+atlas = ExtResource("1_xl0ck")
+region = Rect2(0, 0, 32, 25)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j1iq2"]
+atlas = ExtResource("1_xl0ck")
+region = Rect2(32, 0, 32, 25)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jdpdf"]
+atlas = ExtResource("1_xl0ck")
+region = Rect2(64, 0, 32, 25)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t4b5c"]
+atlas = ExtResource("1_xl0ck")
+region = Rect2(96, 0, 32, 25)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m4uq5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j1iq2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jdpdf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t4b5c")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

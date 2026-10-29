@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/royal_guards/with_spear/with_spear_e007.png" id="1_ypgfb"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o13bo"]
+atlas = ExtResource("1_ypgfb")
+region = Rect2(0, 0, 16, 29)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wwe6c"]
+atlas = ExtResource("1_ypgfb")
+region = Rect2(16, 0, 16, 29)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5mfmm"]
+atlas = ExtResource("1_ypgfb")
+region = Rect2(32, 0, 16, 29)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o13bo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wwe6c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5mfmm")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

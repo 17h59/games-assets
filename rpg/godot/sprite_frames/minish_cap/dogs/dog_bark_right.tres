@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/dogs/dog_bark_right.png" id="1_oajeg"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o83a0"]
+atlas = ExtResource("1_oajeg")
+region = Rect2(0, 0, 23, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mnutm"]
+atlas = ExtResource("1_oajeg")
+region = Rect2(23, 0, 23, 20)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o83a0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mnutm")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

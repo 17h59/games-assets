@@ -1,0 +1,60 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/lakitu/lightning_blast.png" id="1_hjr50"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_no1d3"]
+atlas = ExtResource("1_hjr50")
+region = Rect2(0, 0, 26, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4uem5"]
+atlas = ExtResource("1_hjr50")
+region = Rect2(26, 0, 26, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d4uny"]
+atlas = ExtResource("1_hjr50")
+region = Rect2(52, 0, 26, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tj3nb"]
+atlas = ExtResource("1_hjr50")
+region = Rect2(78, 0, 26, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4n1bm"]
+atlas = ExtResource("1_hjr50")
+region = Rect2(104, 0, 26, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_icyl3"]
+atlas = ExtResource("1_hjr50")
+region = Rect2(130, 0, 26, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fddfh"]
+atlas = ExtResource("1_hjr50")
+region = Rect2(156, 0, 26, 26)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_no1d3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4uem5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d4uny")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tj3nb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4n1bm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_icyl3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fddfh")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

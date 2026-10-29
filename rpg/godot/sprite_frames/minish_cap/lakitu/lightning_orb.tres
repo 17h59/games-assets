@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/lakitu/lightning_orb.png" id="1_omeiy"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jg8lw"]
+atlas = ExtResource("1_omeiy")
+region = Rect2(0, 0, 22, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vvam3"]
+atlas = ExtResource("1_omeiy")
+region = Rect2(22, 0, 22, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bvurt"]
+atlas = ExtResource("1_omeiy")
+region = Rect2(44, 0, 22, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_24rxq"]
+atlas = ExtResource("1_omeiy")
+region = Rect2(66, 0, 22, 27)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jg8lw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vvam3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bvurt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_24rxq")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

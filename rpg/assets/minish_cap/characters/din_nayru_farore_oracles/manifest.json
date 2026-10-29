@@ -1,0 +1,292 @@
+{
+ "sheet": "24932",
+ "game": "minish_cap",
+ "category": "characters",
+ "title": "Din, Nayru & Farore (Oracles)",
+ "type": "characters",
+ "template": "none",
+ "validation": "verified",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    47,
+    81,
+    171,
+    15
+   ],
+   "point": [
+    132,
+    88
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 1,
+   "box": [
+    162,
+    81,
+    14,
+    9
+   ],
+   "point": [
+    169,
+    85
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 2,
+   "box": [
+    222,
+    81,
+    28,
+    8
+   ],
+   "point": [
+    236,
+    85
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "din",
+   "file": "din.png",
+   "cell": [
+    23,
+    30
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      1,
+      4,
+      17,
+      29
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      26,
+      4,
+      17,
+      29
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      51,
+      3,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      68,
+      3,
+      16,
+      30
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_4",
+     "src": [
+      85,
+      4,
+      23,
+      28
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_5",
+     "src": [
+      112,
+      4,
+      21,
+      28
+     ]
+    }
+   ],
+   "box": [
+    1,
+    3,
+    132,
+    30
+   ]
+  },
+  {
+   "id": 1,
+   "name": "nayru",
+   "file": "nayru.png",
+   "cell": [
+    20,
+    28
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 6,
+     "role": "frame_0",
+     "src": [
+      144,
+      6,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_1",
+     "src": [
+      169,
+      5,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_2",
+     "src": [
+      194,
+      6,
+      19,
+      27
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_3",
+     "src": [
+      214,
+      6,
+      20,
+      27
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_4",
+     "src": [
+      243,
+      6,
+      19,
+      27
+     ]
+    }
+   ],
+   "box": [
+    144,
+    5,
+    118,
+    28
+   ]
+  },
+  {
+   "id": 2,
+   "name": "farore",
+   "file": "farore.png",
+   "cell": [
+    19,
+    26
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 11,
+     "role": "frame_0",
+     "src": [
+      7,
+      38,
+      19,
+      23
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_1",
+     "src": [
+      39,
+      39,
+      19,
+      25
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_2",
+     "src": [
+      71,
+      39,
+      19,
+      25
+     ],
+     "mirror_of": 1
+    },
+    {
+     "item": 14,
+     "role": "frame_3",
+     "src": [
+      97,
+      38,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_4",
+     "src": [
+      128,
+      38,
+      18,
+      23
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_5",
+     "src": [
+      153,
+      38,
+      10,
+      23
+     ]
+    }
+   ],
+   "box": [
+    7,
+    38,
+    156,
+    26
+   ]
+  }
+ ],
+ "items": [],
+ "status": "ok",
+ "missing_stages": []
+}

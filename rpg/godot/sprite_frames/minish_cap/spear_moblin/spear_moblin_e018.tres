@@ -1,0 +1,60 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/spear_moblin/spear_moblin_e018.png" id="1_xcjx8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v6tu6"]
+atlas = ExtResource("1_xcjx8")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l3m8c"]
+atlas = ExtResource("1_xcjx8")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_226vf"]
+atlas = ExtResource("1_xcjx8")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i4ktk"]
+atlas = ExtResource("1_xcjx8")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bjs1j"]
+atlas = ExtResource("1_xcjx8")
+region = Rect2(64, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tgo56"]
+atlas = ExtResource("1_xcjx8")
+region = Rect2(80, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tiudu"]
+atlas = ExtResource("1_xcjx8")
+region = Rect2(96, 0, 16, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v6tu6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l3m8c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_226vf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i4ktk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bjs1j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tgo56")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tiudu")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

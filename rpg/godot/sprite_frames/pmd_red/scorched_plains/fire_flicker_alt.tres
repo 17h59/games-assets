@@ -1,0 +1,74 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/scorched_plains/fire_flicker_alt.png" id="1_t5yhl"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4xw4i"]
+atlas = ExtResource("1_t5yhl")
+region = Rect2(0, 0, 31, 41)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sxd4a"]
+atlas = ExtResource("1_t5yhl")
+region = Rect2(31, 0, 31, 41)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e2ndw"]
+atlas = ExtResource("1_t5yhl")
+region = Rect2(62, 0, 31, 41)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_46vid"]
+atlas = ExtResource("1_t5yhl")
+region = Rect2(93, 0, 31, 41)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6ki2b"]
+atlas = ExtResource("1_t5yhl")
+region = Rect2(124, 0, 31, 41)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gnc4r"]
+atlas = ExtResource("1_t5yhl")
+region = Rect2(155, 0, 31, 41)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rt3m6"]
+atlas = ExtResource("1_t5yhl")
+region = Rect2(186, 0, 31, 41)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i854l"]
+atlas = ExtResource("1_t5yhl")
+region = Rect2(217, 0, 31, 41)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tkwn4"]
+atlas = ExtResource("1_t5yhl")
+region = Rect2(248, 0, 31, 41)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4xw4i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sxd4a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e2ndw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_46vid")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6ki2b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gnc4r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rt3m6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i854l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tkwn4")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

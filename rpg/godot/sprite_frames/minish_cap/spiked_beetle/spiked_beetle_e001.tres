@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/spiked_beetle/spiked_beetle_e001.png" id="1_mei6v"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ppshj"]
+atlas = ExtResource("1_mei6v")
+region = Rect2(0, 0, 18, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aekq3"]
+atlas = ExtResource("1_mei6v")
+region = Rect2(18, 0, 18, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3sdgo"]
+atlas = ExtResource("1_mei6v")
+region = Rect2(36, 0, 18, 19)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ppshj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aekq3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3sdgo")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

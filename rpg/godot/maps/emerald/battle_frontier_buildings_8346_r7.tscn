@@ -1,0 +1,7 @@
+[gd_scene format=4]
+
+[ext_resource type="TileSet" path="res://godot/tilesets/emerald.tres" id="1_epgr1"]
+
+[node name="battle_frontier_buildings_8346_r7" type="TileMapLayer" unique_id=484213260]
+tile_map_data = PackedByteArray("AAABAAAAAQATACMAAAADAAAAAQAVACMAAAAAAAEAAQANACQAAAAEAAEAAQAOACQAAAAAAAMAAwA1ADsAAAAEAAMAAwA1ADsAAAA=")
+tile_set = ExtResource("1_epgr1")

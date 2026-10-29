@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/hyrule_town_residents_3/girls/buns_girl_walk_right.png" id="1_t02yb"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iw361"]
+atlas = ExtResource("1_t02yb")
+region = Rect2(0, 0, 15, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s82ak"]
+atlas = ExtResource("1_t02yb")
+region = Rect2(15, 0, 15, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ako5o"]
+atlas = ExtResource("1_t02yb")
+region = Rect2(30, 0, 15, 20)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iw361")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s82ak")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ako5o")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

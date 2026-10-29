@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/vaati_transfigured/vaati_transfigured_crest_spikes.png" id="1_h3tkg"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4octm"]
+atlas = ExtResource("1_h3tkg")
+region = Rect2(0, 0, 24, 11)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sjjpn"]
+atlas = ExtResource("1_h3tkg")
+region = Rect2(24, 0, 24, 11)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3n0j4"]
+atlas = ExtResource("1_h3tkg")
+region = Rect2(48, 0, 24, 11)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fuu1a"]
+atlas = ExtResource("1_h3tkg")
+region = Rect2(72, 0, 24, 11)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4octm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sjjpn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3n0j4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fuu1a")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

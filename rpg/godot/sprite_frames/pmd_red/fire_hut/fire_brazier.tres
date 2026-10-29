@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/fire_hut/fire_brazier.png" id="1_hci0b"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uhx5l"]
+atlas = ExtResource("1_hci0b")
+region = Rect2(0, 0, 22, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x8yds"]
+atlas = ExtResource("1_hci0b")
+region = Rect2(22, 0, 22, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wc28a"]
+atlas = ExtResource("1_hci0b")
+region = Rect2(44, 0, 22, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ot8wn"]
+atlas = ExtResource("1_hci0b")
+region = Rect2(66, 0, 22, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ryr7n"]
+atlas = ExtResource("1_hci0b")
+region = Rect2(88, 0, 22, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uhbpd"]
+atlas = ExtResource("1_hci0b")
+region = Rect2(110, 0, 22, 24)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uhx5l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x8yds")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wc28a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ot8wn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ryr7n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uhbpd")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

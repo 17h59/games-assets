@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/hyrule_town_residents_3/boys/spiky_boy_walk_down.png" id="1_ibqye"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xqs1d"]
+atlas = ExtResource("1_ibqye")
+region = Rect2(0, 0, 18, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_266yd"]
+atlas = ExtResource("1_ibqye")
+region = Rect2(18, 0, 18, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8x2kd"]
+atlas = ExtResource("1_ibqye")
+region = Rect2(36, 0, 18, 22)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xqs1d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_266yd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8x2kd")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

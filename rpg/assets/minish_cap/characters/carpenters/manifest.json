@@ -1,0 +1,516 @@
+{
+ "sheet": "6384",
+ "game": "minish_cap",
+ "category": "characters",
+ "title": "Carpenters",
+ "type": "characters",
+ "template": "none",
+ "validation": "verified",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    136,
+    201,
+    199,
+    10
+   ],
+   "point": [
+    235,
+    206
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 1,
+   "box": [
+    136,
+    217,
+    77,
+    10
+   ],
+   "point": [
+    174,
+    222
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 2,
+   "box": [
+    135,
+    238,
+    142,
+    15
+   ],
+   "point": [
+    206,
+    245
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 3,
+   "box": [
+    224,
+    260,
+    92,
+    10
+   ],
+   "point": [
+    270,
+    265
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "mutoh",
+   "file": "mutoh.png",
+   "cell": [
+    21,
+    32
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 5,
+     "role": "frame_0",
+     "src": [
+      5,
+      31,
+      20,
+      30
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_1",
+     "src": [
+      29,
+      32,
+      20,
+      30
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_2",
+     "src": [
+      53,
+      32,
+      20,
+      31
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_3",
+     "src": [
+      76,
+      32,
+      20,
+      31
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_4",
+     "src": [
+      99,
+      32,
+      20,
+      30
+     ]
+    }
+   ],
+   "box": [
+    5,
+    31,
+    114,
+    32
+   ]
+  },
+  {
+   "id": 1,
+   "name": "mack",
+   "file": "mack.png",
+   "cell": [
+    33,
+    48
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      144,
+      28,
+      32,
+      45
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      179,
+      27,
+      30,
+      46
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      214,
+      26,
+      30,
+      47
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      247,
+      26,
+      31,
+      47
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_4",
+     "src": [
+      281,
+      25,
+      32,
+      47
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_5",
+     "src": [
+      144,
+      74,
+      33,
+      46
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_6",
+     "src": [
+      181,
+      77,
+      32,
+      45
+     ]
+    }
+   ],
+   "box": [
+    144,
+    25,
+    169,
+    97
+   ]
+  },
+  {
+   "id": 2,
+   "name": "doyle",
+   "file": "doyle.png",
+   "cell": [
+    33,
+    48
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 10,
+     "role": "frame_0",
+     "src": [
+      2,
+      68,
+      32,
+      43
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_1",
+     "src": [
+      35,
+      71,
+      32,
+      43
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_2",
+     "src": [
+      70,
+      71,
+      30,
+      44
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_3",
+     "src": [
+      105,
+      71,
+      30,
+      45
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_4",
+     "src": [
+      3,
+      113,
+      31,
+      45
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_5",
+     "src": [
+      37,
+      115,
+      32,
+      45
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_6",
+     "src": [
+      70,
+      116,
+      33,
+      44
+     ]
+    }
+   ],
+   "box": [
+    2,
+    68,
+    133,
+    92
+   ]
+  },
+  {
+   "id": 3,
+   "name": "brent",
+   "file": "brent.png",
+   "cell": [
+    27,
+    33
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 19,
+     "role": "frame_0",
+     "src": [
+      4,
+      167,
+      26,
+      31
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_1",
+     "src": [
+      33,
+      167,
+      26,
+      31
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_2",
+     "src": [
+      63,
+      166,
+      26,
+      32
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_3",
+     "src": [
+      91,
+      165,
+      26,
+      33
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_4",
+     "src": [
+      3,
+      200,
+      27,
+      33
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_5",
+     "src": [
+      34,
+      200,
+      26,
+      32
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_6",
+     "src": [
+      62,
+      200,
+      26,
+      32
+     ]
+    }
+   ],
+   "box": [
+    3,
+    165,
+    114,
+    68
+   ]
+  },
+  {
+   "id": 4,
+   "name": "bremor",
+   "file": "bremor.png",
+   "cell": [
+    27,
+    33
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 26,
+     "role": "frame_0",
+     "src": [
+      2,
+      239,
+      26,
+      31
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_1",
+     "src": [
+      33,
+      239,
+      26,
+      31
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_2",
+     "src": [
+      62,
+      239,
+      26,
+      32
+     ]
+    },
+    {
+     "item": 29,
+     "role": "frame_3",
+     "src": [
+      92,
+      239,
+      26,
+      33
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_4",
+     "src": [
+      2,
+      275,
+      27,
+      33
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_5",
+     "src": [
+      34,
+      276,
+      26,
+      32
+     ]
+    },
+    {
+     "item": 32,
+     "role": "frame_6",
+     "src": [
+      63,
+      276,
+      26,
+      32
+     ]
+    },
+    {
+     "item": 33,
+     "role": "frame_7",
+     "src": [
+      93,
+      277,
+      26,
+      31
+     ]
+    }
+   ],
+   "box": [
+    2,
+    239,
+    117,
+    69
+   ]
+  }
+ ],
+ "items": [],
+ "status": "ok",
+ "missing_stages": []
+}

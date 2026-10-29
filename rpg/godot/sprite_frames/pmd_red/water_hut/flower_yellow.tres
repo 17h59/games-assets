@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/water_hut/flower_yellow.png" id="1_856s5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ieq16"]
+atlas = ExtResource("1_856s5")
+region = Rect2(0, 0, 30, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q7go1"]
+atlas = ExtResource("1_856s5")
+region = Rect2(30, 0, 30, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pmspm"]
+atlas = ExtResource("1_856s5")
+region = Rect2(60, 0, 30, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bntwc"]
+atlas = ExtResource("1_856s5")
+region = Rect2(90, 0, 30, 23)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ieq16")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q7go1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pmspm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bntwc")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

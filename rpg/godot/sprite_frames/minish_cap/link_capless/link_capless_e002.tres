@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/link_capless/link_capless_e002.png" id="1_i7u6n"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lqgiy"]
+atlas = ExtResource("1_i7u6n")
+region = Rect2(0, 0, 19, 25)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cld32"]
+atlas = ExtResource("1_i7u6n")
+region = Rect2(19, 0, 19, 25)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lqgiy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cld32")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

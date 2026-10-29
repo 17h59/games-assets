@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/hyrule_town_residents_3/recolors/recolors_e038.png" id="1_jiunc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_slnfi"]
+atlas = ExtResource("1_jiunc")
+region = Rect2(0, 0, 18, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a30s3"]
+atlas = ExtResource("1_jiunc")
+region = Rect2(18, 0, 18, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5tjuf"]
+atlas = ExtResource("1_jiunc")
+region = Rect2(36, 0, 18, 23)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_slnfi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a30s3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5tjuf")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

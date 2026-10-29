@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/charmander_hut/charmander_hut_e002.png" id="1_vhd70"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ecyt8"]
+atlas = ExtResource("1_vhd70")
+region = Rect2(0, 0, 8, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jkj50"]
+atlas = ExtResource("1_vhd70")
+region = Rect2(8, 0, 8, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kvpos"]
+atlas = ExtResource("1_vhd70")
+region = Rect2(16, 0, 8, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_adole"]
+atlas = ExtResource("1_vhd70")
+region = Rect2(24, 0, 8, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3qmk6"]
+atlas = ExtResource("1_vhd70")
+region = Rect2(32, 0, 8, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ou17v"]
+atlas = ExtResource("1_vhd70")
+region = Rect2(40, 0, 8, 15)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ecyt8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jkj50")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kvpos")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_adole")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3qmk6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ou17v")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

@@ -1,0 +1,531 @@
+{
+ "sheet": "6448",
+ "game": "minish_cap",
+ "category": "monsters",
+ "title": "Wisp",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    126,
+    130,
+    25,
+    12
+   ],
+   "point": [
+    138,
+    136
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 1,
+   "box": [
+    5,
+    176,
+    140,
+    10
+   ],
+   "point": [
+    75,
+    181
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 2,
+   "box": [
+    108,
+    189,
+    62,
+    7
+   ],
+   "point": [
+    139,
+    192
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 3,
+   "box": [
+    113,
+    199,
+    56,
+    7
+   ],
+   "point": [
+    141,
+    202
+   ],
+   "name": "none",
+   "folder": "none"
+  },
+  {
+   "id": 4,
+   "box": [
+    11,
+    209,
+    166,
+    7
+   ],
+   "point": [
+    94,
+    212
+   ],
+   "name": "none",
+   "folder": "none"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "flames_red",
+   "file": "flames_red.png",
+   "cell": [
+    18,
+    18
+   ],
+   "zone": 0,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      45,
+      9,
+      18,
+      18
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_1",
+     "src": [
+      44,
+      37,
+      18,
+      17
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_2",
+     "src": [
+      47,
+      62,
+      16,
+      18
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_3",
+     "src": [
+      45,
+      89,
+      17,
+      17
+     ]
+    }
+   ],
+   "box": [
+    44,
+    9,
+    19,
+    97
+   ]
+  },
+  {
+   "id": 1,
+   "name": "flames_blue",
+   "file": "flames_blue.png",
+   "cell": [
+    18,
+    18
+   ],
+   "zone": 0,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 3,
+     "role": "frame_0",
+     "src": [
+      99,
+      9,
+      18,
+      18
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_1",
+     "src": [
+      98,
+      37,
+      18,
+      17
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_2",
+     "src": [
+      101,
+      62,
+      16,
+      18
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_3",
+     "src": [
+      99,
+      89,
+      17,
+      17
+     ]
+    }
+   ],
+   "box": [
+    98,
+    9,
+    19,
+    97
+   ]
+  },
+  {
+   "id": 2,
+   "name": "skull_red",
+   "file": "skull_red.png",
+   "cell": [
+    11,
+    12
+   ],
+   "zone": 0,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      22,
+      15,
+      11,
+      12
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_1",
+     "src": [
+      22,
+      41,
+      11,
+      12
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_2",
+     "src": [
+      22,
+      67,
+      11,
+      12
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_3",
+     "src": [
+      22,
+      93,
+      11,
+      12
+     ]
+    }
+   ],
+   "box": [
+    22,
+    15,
+    11,
+    90
+   ]
+  },
+  {
+   "id": 3,
+   "name": "skull_blue",
+   "file": "skull_blue.png",
+   "cell": [
+    11,
+    12
+   ],
+   "zone": 0,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 2,
+     "role": "frame_0",
+     "src": [
+      76,
+      15,
+      11,
+      12
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_1",
+     "src": [
+      76,
+      41,
+      11,
+      12
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_2",
+     "src": [
+      76,
+      67,
+      11,
+      12
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_3",
+     "src": [
+      76,
+      93,
+      11,
+      12
+     ]
+    }
+   ],
+   "box": [
+    76,
+    15,
+    11,
+    90
+   ]
+  },
+  {
+   "id": 4,
+   "name": "particles_red",
+   "file": "particles_red.png",
+   "cell": [
+    5,
+    8
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 16,
+     "role": "frame_0",
+     "src": [
+      23,
+      108,
+      5,
+      8
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_1",
+     "src": [
+      32,
+      110,
+      5,
+      6
+     ]
+    }
+   ],
+   "box": [
+    23,
+    108,
+    14,
+    8
+   ]
+  },
+  {
+   "id": 5,
+   "name": "particles_blue",
+   "file": "particles_blue.png",
+   "cell": [
+    5,
+    8
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 18,
+     "role": "frame_0",
+     "src": [
+      77,
+      108,
+      5,
+      8
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_1",
+     "src": [
+      86,
+      110,
+      5,
+      6
+     ]
+    }
+   ],
+   "box": [
+    77,
+    108,
+    14,
+    8
+   ]
+  },
+  {
+   "id": 6,
+   "name": "wisp_red",
+   "file": "wisp_red.png",
+   "cell": [
+    19,
+    19
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 20,
+     "role": "frame_0",
+     "src": [
+      21,
+      119,
+      18,
+      18
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_1",
+     "src": [
+      42,
+      121,
+      18,
+      17
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_2",
+     "src": [
+      65,
+      120,
+      16,
+      18
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_3",
+     "src": [
+      87,
+      121,
+      17,
+      17
+     ]
+    }
+   ],
+   "box": [
+    21,
+    119,
+    83,
+    19
+   ]
+  },
+  {
+   "id": 7,
+   "name": "wisp_blue",
+   "file": "wisp_blue.png",
+   "cell": [
+    19,
+    19
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 24,
+     "role": "frame_0",
+     "src": [
+      21,
+      141,
+      18,
+      18
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_1",
+     "src": [
+      42,
+      143,
+      18,
+      17
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_2",
+     "src": [
+      65,
+      142,
+      16,
+      18
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_3",
+     "src": [
+      87,
+      143,
+      17,
+      17
+     ]
+    }
+   ],
+   "box": [
+    21,
+    141,
+    83,
+    19
+   ]
+  }
+ ],
+ "items": [],
+ "status": "ok",
+ "missing_stages": []
+}

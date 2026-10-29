@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/link_cap/link_cap_e033.png" id="1_delda"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gfmyk"]
+atlas = ExtResource("1_delda")
+region = Rect2(0, 0, 20, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j2wmg"]
+atlas = ExtResource("1_delda")
+region = Rect2(20, 0, 20, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_whp2x"]
+atlas = ExtResource("1_delda")
+region = Rect2(40, 0, 20, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7vh7y"]
+atlas = ExtResource("1_delda")
+region = Rect2(60, 0, 20, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7oo3o"]
+atlas = ExtResource("1_delda")
+region = Rect2(80, 0, 20, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bgo2v"]
+atlas = ExtResource("1_delda")
+region = Rect2(100, 0, 20, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i6vpp"]
+atlas = ExtResource("1_delda")
+region = Rect2(120, 0, 20, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0afdp"]
+atlas = ExtResource("1_delda")
+region = Rect2(140, 0, 20, 27)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gfmyk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j2wmg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_whp2x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7vh7y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7oo3o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bgo2v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i6vpp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0afdp")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

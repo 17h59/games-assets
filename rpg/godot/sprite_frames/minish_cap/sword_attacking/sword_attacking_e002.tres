@@ -1,0 +1,74 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/effects/sword_attacking/sword_attacking_e002.png" id="1_guhv6"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_joplh"]
+atlas = ExtResource("1_guhv6")
+region = Rect2(0, 0, 15, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8esr4"]
+atlas = ExtResource("1_guhv6")
+region = Rect2(15, 0, 15, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m8miv"]
+atlas = ExtResource("1_guhv6")
+region = Rect2(30, 0, 15, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g4nrb"]
+atlas = ExtResource("1_guhv6")
+region = Rect2(45, 0, 15, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_21130"]
+atlas = ExtResource("1_guhv6")
+region = Rect2(60, 0, 15, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2xr72"]
+atlas = ExtResource("1_guhv6")
+region = Rect2(75, 0, 15, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_27vy6"]
+atlas = ExtResource("1_guhv6")
+region = Rect2(90, 0, 15, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_te2io"]
+atlas = ExtResource("1_guhv6")
+region = Rect2(105, 0, 15, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ltslc"]
+atlas = ExtResource("1_guhv6")
+region = Rect2(120, 0, 15, 19)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_joplh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8esr4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m8miv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g4nrb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_21130")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2xr72")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_27vy6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_te2io")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ltslc")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

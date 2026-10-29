@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/dark_type_moves/flatter/flatter_e013.png" id="1_mhsjm"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0b7tp"]
+atlas = ExtResource("1_mhsjm")
+region = Rect2(0, 0, 53, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0ysoo"]
+atlas = ExtResource("1_mhsjm")
+region = Rect2(53, 0, 53, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w31vw"]
+atlas = ExtResource("1_mhsjm")
+region = Rect2(106, 0, 53, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_linjf"]
+atlas = ExtResource("1_mhsjm")
+region = Rect2(159, 0, 53, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ltk68"]
+atlas = ExtResource("1_mhsjm")
+region = Rect2(212, 0, 53, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dmoaq"]
+atlas = ExtResource("1_mhsjm")
+region = Rect2(265, 0, 53, 15)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0b7tp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0ysoo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w31vw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_linjf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ltk68")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dmoaq")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

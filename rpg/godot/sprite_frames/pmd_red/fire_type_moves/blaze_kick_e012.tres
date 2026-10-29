@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/fire_type_moves/blaze_kick/blaze_kick_e012.png" id="1_qg4g8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d837v"]
+atlas = ExtResource("1_qg4g8")
+region = Rect2(0, 0, 45, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2tfhp"]
+atlas = ExtResource("1_qg4g8")
+region = Rect2(45, 0, 45, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6gcl5"]
+atlas = ExtResource("1_qg4g8")
+region = Rect2(90, 0, 45, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0xogi"]
+atlas = ExtResource("1_qg4g8")
+region = Rect2(135, 0, 45, 44)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d837v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2tfhp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6gcl5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0xogi")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

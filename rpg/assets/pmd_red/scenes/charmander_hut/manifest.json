@@ -1,0 +1,524 @@
+{
+ "sheet": "5333",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Charmander Hut",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "flag",
+   "file": "flag.png",
+   "cell": [
+    31,
+    24
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      1,
+      1,
+      29,
+      22
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_1",
+     "src": [
+      39,
+      1,
+      29,
+      22
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_2",
+     "src": [
+      77,
+      1,
+      29,
+      22
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_3",
+     "src": [
+      0,
+      27,
+      31,
+      23
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_4",
+     "src": [
+      31,
+      27,
+      28,
+      22
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_5",
+     "src": [
+      60,
+      26,
+      30,
+      22
+     ]
+    }
+   ],
+   "box": [
+    0,
+    1,
+    106,
+    49
+   ]
+  },
+  {
+   "id": 1,
+   "name": "charmander_hut_e001",
+   "file": "charmander_hut_e001.png",
+   "cell": [
+    5,
+    10
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 7,
+     "role": "frame_0",
+     "src": [
+      2,
+      60,
+      4,
+      10
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_1",
+     "src": [
+      8,
+      60,
+      4,
+      10
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_2",
+     "src": [
+      14,
+      61,
+      5,
+      9
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_3",
+     "src": [
+      21,
+      60,
+      4,
+      10
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_4",
+     "src": [
+      27,
+      61,
+      5,
+      9
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_5",
+     "src": [
+      34,
+      61,
+      4,
+      9
+     ]
+    }
+   ],
+   "box": [
+    2,
+    60,
+    36,
+    10
+   ]
+  },
+  {
+   "id": 2,
+   "name": "charmander_hut_e002",
+   "file": "charmander_hut_e002.png",
+   "cell": [
+    8,
+    15
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 13,
+     "role": "frame_0",
+     "src": [
+      46,
+      53,
+      8,
+      15
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_1",
+     "src": [
+      56,
+      54,
+      8,
+      14
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_2",
+     "src": [
+      66,
+      55,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_3",
+     "src": [
+      76,
+      55,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_4",
+     "src": [
+      86,
+      55,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_5",
+     "src": [
+      96,
+      55,
+      8,
+      13
+     ]
+    }
+   ],
+   "box": [
+    46,
+    53,
+    58,
+    15
+   ]
+  },
+  {
+   "id": 3,
+   "name": "charmander_hut_e003",
+   "file": "charmander_hut_e003.png",
+   "cell": [
+    9,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 19,
+     "role": "frame_0",
+     "src": [
+      2,
+      316,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_1",
+     "src": [
+      13,
+      316,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_2",
+     "src": [
+      23,
+      316,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_3",
+     "src": [
+      34,
+      315,
+      8,
+      14
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_4",
+     "src": [
+      45,
+      316,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_5",
+     "src": [
+      56,
+      316,
+      8,
+      13
+     ]
+    }
+   ],
+   "box": [
+    2,
+    315,
+    62,
+    14
+   ]
+  },
+  {
+   "id": 4,
+   "name": "torch",
+   "file": "torch.png",
+   "cell": [
+    18,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 25,
+     "role": "frame_0",
+     "src": [
+      268,
+      317,
+      13,
+      16
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_1",
+     "src": [
+      281,
+      317,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_2",
+     "src": [
+      298,
+      317,
+      14,
+      16
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_3",
+     "src": [
+      313,
+      317,
+      14,
+      16
+     ]
+    },
+    {
+     "item": 29,
+     "role": "frame_4",
+     "src": [
+      328,
+      317,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_5",
+     "src": [
+      344,
+      317,
+      13,
+      16
+     ]
+    }
+   ],
+   "box": [
+    268,
+    317,
+    89,
+    16
+   ]
+  },
+  {
+   "id": 5,
+   "name": "charmander_hut_e005",
+   "file": "charmander_hut_e005.png",
+   "cell": [
+    10,
+    13
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 32,
+     "role": "frame_0",
+     "src": [
+      288,
+      337,
+      8,
+      13
+     ]
+    },
+    {
+     "item": 33,
+     "role": "frame_1",
+     "src": [
+      300,
+      338,
+      8,
+      12
+     ]
+    },
+    {
+     "item": 34,
+     "role": "frame_2",
+     "src": [
+      312,
+      338,
+      8,
+      12
+     ]
+    },
+    {
+     "item": 35,
+     "role": "frame_3",
+     "src": [
+      325,
+      338,
+      8,
+      12
+     ]
+    },
+    {
+     "item": 36,
+     "role": "frame_4",
+     "src": [
+      338,
+      338,
+      8,
+      12
+     ]
+    },
+    {
+     "item": 37,
+     "role": "frame_5",
+     "src": [
+      350,
+      338,
+      8,
+      12
+     ]
+    }
+   ],
+   "box": [
+    288,
+    337,
+    70,
+    13
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 360,
+   "h": 312,
+   "area": 103345,
+   "ncolors": 166,
+   "dominant": "#70C850",
+   "dom_frac": 0.171,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "charmander_hut_000.png"
+  },
+  {
+   "x": 7,
+   "y": 315,
+   "w": 346,
+   "h": 278,
+   "area": 74213,
+   "ncolors": 123,
+   "dominant": "#904020",
+   "dom_frac": 0.077,
+   "kind": "sprite",
+   "zone": null,
+   "id": 31,
+   "file": "charmander_hut_031.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

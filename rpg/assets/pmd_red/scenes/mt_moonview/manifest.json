@@ -1,0 +1,160 @@
+{
+ "sheet": "5375",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Mt. Moonview",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "moon",
+   "file": "moon.png",
+   "cell": [
+    60,
+    62
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      194,
+      2,
+      60,
+      60
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_1",
+     "src": [
+      511,
+      4,
+      60,
+      60
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_2",
+     "src": [
+      576,
+      4,
+      60,
+      60
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_3",
+     "src": [
+      511,
+      67,
+      60,
+      60
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_4",
+     "src": [
+      576,
+      67,
+      60,
+      60
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_5",
+     "src": [
+      511,
+      130,
+      60,
+      60
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_6",
+     "src": [
+      576,
+      130,
+      60,
+      60
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_7",
+     "src": [
+      511,
+      193,
+      60,
+      60
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_8",
+     "src": [
+      576,
+      193,
+      60,
+      60
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_9",
+     "src": [
+      511,
+      257,
+      60,
+      60
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_10",
+     "src": [
+      576,
+      257,
+      60,
+      60
+     ]
+    }
+   ],
+   "box": [
+    194,
+    2,
+    442,
+    315
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 648,
+   "h": 444,
+   "area": 167743,
+   "ncolors": 70,
+   "dominant": "#FFFFFF",
+   "dom_frac": 0.256,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "mt_moonview_000.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

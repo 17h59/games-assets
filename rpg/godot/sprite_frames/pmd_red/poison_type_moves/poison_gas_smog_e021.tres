@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/poison_type_moves/poison_gas_smog/poison_gas_smog_e021.png" id="1_oabvf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iqxo6"]
+atlas = ExtResource("1_oabvf")
+region = Rect2(0, 0, 45, 49)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3wxq4"]
+atlas = ExtResource("1_oabvf")
+region = Rect2(45, 0, 45, 49)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p0ae1"]
+atlas = ExtResource("1_oabvf")
+region = Rect2(90, 0, 45, 49)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_130ae"]
+atlas = ExtResource("1_oabvf")
+region = Rect2(135, 0, 45, 49)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_votom"]
+atlas = ExtResource("1_oabvf")
+region = Rect2(180, 0, 45, 49)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iqxo6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3wxq4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p0ae1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_130ae")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_votom")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

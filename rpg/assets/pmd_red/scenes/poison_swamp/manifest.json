@@ -1,0 +1,190 @@
+{
+ "sheet": "5380",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Poison Swamp",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "poison_swamp_e000",
+   "file": "poison_swamp_e000.png",
+   "cell": [
+    21,
+    17
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      304,
+      357,
+      11,
+      7
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_1",
+     "src": [
+      321,
+      356,
+      13,
+      8
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_2",
+     "src": [
+      340,
+      357,
+      8,
+      6
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_3",
+     "src": [
+      356,
+      355,
+      14,
+      8
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_4",
+     "src": [
+      374,
+      353,
+      18,
+      13
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_5",
+     "src": [
+      395,
+      351,
+      20,
+      17
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_6",
+     "src": [
+      418,
+      352,
+      21,
+      16
+     ]
+    }
+   ],
+   "box": [
+    304,
+    351,
+    135,
+    17
+   ]
+  },
+  {
+   "id": 1,
+   "name": "poison_swamp_e001",
+   "file": "poison_swamp_e001.png",
+   "cell": [
+    12,
+    9
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 8,
+     "role": "frame_0",
+     "src": [
+      306,
+      374,
+      7,
+      6
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_1",
+     "src": [
+      321,
+      374,
+      8,
+      7
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_2",
+     "src": [
+      339,
+      374,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_3",
+     "src": [
+      358,
+      374,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_4",
+     "src": [
+      373,
+      373,
+      8,
+      8
+     ]
+    }
+   ],
+   "box": [
+    306,
+    373,
+    75,
+    9
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 456,
+   "h": 441,
+   "area": 154792,
+   "ncolors": 62,
+   "dominant": "#7868C8",
+   "dom_frac": 0.246,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "poison_swamp_000.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

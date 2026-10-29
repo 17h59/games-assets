@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/rock_type_moves/rock_blast/rock_blast_e009.png" id="1_ifyxp"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wpnfr"]
+atlas = ExtResource("1_ifyxp")
+region = Rect2(0, 0, 6, 6)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_18kgm"]
+atlas = ExtResource("1_ifyxp")
+region = Rect2(6, 0, 6, 6)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wpnfr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_18kgm")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

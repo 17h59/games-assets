@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/hyrule_town_residents_3/boys/boys_e013.png" id="1_664lc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nws5o"]
+atlas = ExtResource("1_664lc")
+region = Rect2(0, 0, 18, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xlam5"]
+atlas = ExtResource("1_664lc")
+region = Rect2(18, 0, 18, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ogctk"]
+atlas = ExtResource("1_664lc")
+region = Rect2(36, 0, 18, 21)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nws5o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xlam5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ogctk")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

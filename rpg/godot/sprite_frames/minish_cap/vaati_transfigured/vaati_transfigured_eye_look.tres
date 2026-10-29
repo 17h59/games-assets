@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/vaati_transfigured/vaati_transfigured_eye_look.png" id="1_by6pi"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vp4xr"]
+atlas = ExtResource("1_by6pi")
+region = Rect2(0, 0, 28, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m17b8"]
+atlas = ExtResource("1_by6pi")
+region = Rect2(28, 0, 28, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dxuv3"]
+atlas = ExtResource("1_by6pi")
+region = Rect2(56, 0, 28, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qhwlt"]
+atlas = ExtResource("1_by6pi")
+region = Rect2(84, 0, 28, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8m5oi"]
+atlas = ExtResource("1_by6pi")
+region = Rect2(112, 0, 28, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q8253"]
+atlas = ExtResource("1_by6pi")
+region = Rect2(140, 0, 28, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f1eh2"]
+atlas = ExtResource("1_by6pi")
+region = Rect2(168, 0, 28, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_osrd4"]
+atlas = ExtResource("1_by6pi")
+region = Rect2(196, 0, 28, 21)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vp4xr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m17b8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dxuv3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qhwlt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8m5oi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q8253")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f1eh2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_osrd4")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/effects/ghost_type_moves/grudge/grudge_e008.png" id="1_h8krq"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bd0k6"]
+atlas = ExtResource("1_h8krq")
+region = Rect2(0, 0, 8, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jdsy2"]
+atlas = ExtResource("1_h8krq")
+region = Rect2(8, 0, 8, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p07rd"]
+atlas = ExtResource("1_h8krq")
+region = Rect2(16, 0, 8, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k2tr6"]
+atlas = ExtResource("1_h8krq")
+region = Rect2(24, 0, 8, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ayg78"]
+atlas = ExtResource("1_h8krq")
+region = Rect2(32, 0, 8, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4e538"]
+atlas = ExtResource("1_h8krq")
+region = Rect2(40, 0, 8, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5oan5"]
+atlas = ExtResource("1_h8krq")
+region = Rect2(48, 0, 8, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_se3c5"]
+atlas = ExtResource("1_h8krq")
+region = Rect2(56, 0, 8, 32)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bd0k6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jdsy2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p07rd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k2tr6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ayg78")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4e538")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5oan5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_se3c5")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

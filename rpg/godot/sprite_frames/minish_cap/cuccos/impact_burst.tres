@@ -1,0 +1,25 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/cuccos/impact_burst.png" id="1_hcn4n"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dn6ec"]
+atlas = ExtResource("1_hcn4n")
+region = Rect2(0, 0, 29, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n6r6r"]
+atlas = ExtResource("1_hcn4n")
+region = Rect2(29, 0, 29, 31)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dn6ec")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n6r6r")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

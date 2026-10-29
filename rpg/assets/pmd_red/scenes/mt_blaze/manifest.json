@@ -1,0 +1,504 @@
+{
+ "sheet": "65097",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Mt. Blaze",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "lava_spark",
+   "file": "lava_spark.png",
+   "cell": [
+    24,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 2,
+     "role": "frame_0",
+     "src": [
+      71,
+      520,
+      17,
+      3
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_1",
+     "src": [
+      118,
+      521,
+      17,
+      3
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_2",
+     "src": [
+      151,
+      522,
+      17,
+      3
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_3",
+     "src": [
+      193,
+      521,
+      17,
+      3
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_4",
+     "src": [
+      228,
+      520,
+      17,
+      6
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_5",
+     "src": [
+      271,
+      516,
+      16,
+      7
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_6",
+     "src": [
+      303,
+      517,
+      16,
+      7
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_7",
+     "src": [
+      335,
+      517,
+      16,
+      7
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_8",
+     "src": [
+      365,
+      518,
+      16,
+      7
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_9",
+     "src": [
+      394,
+      519,
+      16,
+      7
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_10",
+     "src": [
+      455,
+      512,
+      24,
+      12
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_11",
+     "src": [
+      489,
+      513,
+      24,
+      12
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_12",
+     "src": [
+      521,
+      513,
+      24,
+      12
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_13",
+     "src": [
+      552,
+      514,
+      24,
+      12
+     ]
+    }
+   ],
+   "box": [
+    71,
+    512,
+    505,
+    14
+   ]
+  },
+  {
+   "id": 1,
+   "name": "fire_rise",
+   "file": "fire_rise.png",
+   "cell": [
+    24,
+    54
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 16,
+     "role": "frame_0",
+     "src": [
+      6,
+      593,
+      11,
+      6
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_1",
+     "src": [
+      29,
+      593,
+      16,
+      8
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_2",
+     "src": [
+      55,
+      593,
+      20,
+      10
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_3",
+     "src": [
+      91,
+      593,
+      24,
+      12
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_4",
+     "src": [
+      124,
+      592,
+      24,
+      12
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_5",
+     "src": [
+      158,
+      590,
+      23,
+      14
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_6",
+     "src": [
+      192,
+      583,
+      22,
+      22
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_7",
+     "src": [
+      224,
+      574,
+      22,
+      30
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_8",
+     "src": [
+      258,
+      567,
+      22,
+      38
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_9",
+     "src": [
+      293,
+      558,
+      23,
+      46
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_10",
+     "src": [
+      328,
+      552,
+      22,
+      52
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_11",
+     "src": [
+      365,
+      551,
+      23,
+      52
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_12",
+     "src": [
+      404,
+      551,
+      22,
+      52
+     ]
+    },
+    {
+     "item": 29,
+     "role": "frame_13",
+     "src": [
+      433,
+      551,
+      22,
+      52
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_14",
+     "src": [
+      467,
+      551,
+      22,
+      52
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_15",
+     "src": [
+      501,
+      551,
+      22,
+      52
+     ]
+    },
+    {
+     "item": 32,
+     "role": "frame_16",
+     "src": [
+      536,
+      551,
+      22,
+      52
+     ]
+    },
+    {
+     "item": 33,
+     "role": "frame_17",
+     "src": [
+      570,
+      551,
+      22,
+      48
+     ]
+    }
+   ],
+   "box": [
+    6,
+    551,
+    586,
+    54
+   ]
+  },
+  {
+   "id": 2,
+   "name": "fire_fade",
+   "file": "fire_fade.png",
+   "cell": [
+    22,
+    56
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 34,
+     "role": "frame_0",
+     "src": [
+      24,
+      635,
+      22,
+      48
+     ]
+    },
+    {
+     "item": 35,
+     "role": "frame_1",
+     "src": [
+      97,
+      636,
+      22,
+      48
+     ]
+    },
+    {
+     "item": 36,
+     "role": "frame_2",
+     "src": [
+      62,
+      636,
+      21,
+      55
+     ]
+    },
+    {
+     "item": 37,
+     "role": "frame_3",
+     "src": [
+      135,
+      636,
+      21,
+      39
+     ]
+    },
+    {
+     "item": 38,
+     "role": "frame_4",
+     "src": [
+      180,
+      646,
+      21,
+      29
+     ]
+    },
+    {
+     "item": 39,
+     "role": "frame_5",
+     "src": [
+      226,
+      651,
+      21,
+      23
+     ]
+    },
+    {
+     "item": 40,
+     "role": "frame_6",
+     "src": [
+      254,
+      652,
+      21,
+      17
+     ]
+    },
+    {
+     "item": 41,
+     "role": "frame_7",
+     "src": [
+      299,
+      652,
+      15,
+      8
+     ]
+    }
+   ],
+   "box": [
+    24,
+    635,
+    290,
+    56
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 536,
+   "h": 480,
+   "area": 254336,
+   "ncolors": 45,
+   "dominant": "#A88068",
+   "dom_frac": 0.284,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "mt_blaze_000.png"
+  },
+  {
+   "x": 603,
+   "y": 432,
+   "w": 25,
+   "h": 100,
+   "area": 2500,
+   "ncolors": 4,
+   "dominant": "#D88028",
+   "dom_frac": 0.25,
+   "kind": "sprite",
+   "zone": null,
+   "id": 1,
+   "file": "mt_blaze_001.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

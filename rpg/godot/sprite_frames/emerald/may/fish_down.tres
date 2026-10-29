@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/emerald/characters/may/fish_down.png" id="1_wwd4j"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tppa8"]
+atlas = ExtResource("1_wwd4j")
+region = Rect2(0, 0, 17, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vdg4i"]
+atlas = ExtResource("1_wwd4j")
+region = Rect2(17, 0, 17, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_11uax"]
+atlas = ExtResource("1_wwd4j")
+region = Rect2(34, 0, 17, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8pmnw"]
+atlas = ExtResource("1_wwd4j")
+region = Rect2(51, 0, 17, 35)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tppa8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vdg4i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_11uax")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8pmnw")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

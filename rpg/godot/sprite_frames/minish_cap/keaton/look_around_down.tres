@@ -1,0 +1,74 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/keaton/look_around_down.png" id="1_nl25j"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cmf3v"]
+atlas = ExtResource("1_nl25j")
+region = Rect2(0, 0, 31, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_emvcq"]
+atlas = ExtResource("1_nl25j")
+region = Rect2(31, 0, 31, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6bn7p"]
+atlas = ExtResource("1_nl25j")
+region = Rect2(62, 0, 31, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_674hd"]
+atlas = ExtResource("1_nl25j")
+region = Rect2(93, 0, 31, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ch53s"]
+atlas = ExtResource("1_nl25j")
+region = Rect2(124, 0, 31, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g5mb7"]
+atlas = ExtResource("1_nl25j")
+region = Rect2(155, 0, 31, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qx30x"]
+atlas = ExtResource("1_nl25j")
+region = Rect2(186, 0, 31, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i7hx0"]
+atlas = ExtResource("1_nl25j")
+region = Rect2(217, 0, 31, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7faa2"]
+atlas = ExtResource("1_nl25j")
+region = Rect2(248, 0, 31, 27)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cmf3v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_emvcq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6bn7p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_674hd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ch53s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g5mb7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qx30x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i7hx0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7faa2")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

@@ -1,0 +1,181 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/beetle/beetle_burrow.png" id="1_4lal3"]
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/beetle/beetle_curl.png" id="2_87ye1"]
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/beetle/beetle_walk.png" id="3_7mv5r"]
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/beetle/black_beetle_burrow.png" id="4_o37p3"]
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/beetle/black_beetle_curl.png" id="5_0np2o"]
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/beetle/black_beetle_walk.png" id="6_4jts3"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5winb"]
+atlas = ExtResource("1_4lal3")
+region = Rect2(0, 0, 13, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bp3fb"]
+atlas = ExtResource("1_4lal3")
+region = Rect2(13, 0, 13, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ygs7r"]
+atlas = ExtResource("1_4lal3")
+region = Rect2(26, 0, 13, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r2bry"]
+atlas = ExtResource("2_87ye1")
+region = Rect2(0, 0, 16, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jqfqe"]
+atlas = ExtResource("2_87ye1")
+region = Rect2(16, 0, 16, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_45mtt"]
+atlas = ExtResource("2_87ye1")
+region = Rect2(32, 0, 16, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ymcko"]
+atlas = ExtResource("3_7mv5r")
+region = Rect2(0, 0, 16, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_36u13"]
+atlas = ExtResource("3_7mv5r")
+region = Rect2(16, 0, 16, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h1npx"]
+atlas = ExtResource("3_7mv5r")
+region = Rect2(32, 0, 16, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vhwul"]
+atlas = ExtResource("3_7mv5r")
+region = Rect2(48, 0, 16, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xeyta"]
+atlas = ExtResource("4_o37p3")
+region = Rect2(0, 0, 13, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2b5vy"]
+atlas = ExtResource("4_o37p3")
+region = Rect2(13, 0, 13, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0en5l"]
+atlas = ExtResource("4_o37p3")
+region = Rect2(26, 0, 13, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wvdu3"]
+atlas = ExtResource("5_0np2o")
+region = Rect2(0, 0, 16, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q2ij7"]
+atlas = ExtResource("5_0np2o")
+region = Rect2(16, 0, 16, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2dt67"]
+atlas = ExtResource("5_0np2o")
+region = Rect2(32, 0, 16, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_st36c"]
+atlas = ExtResource("6_4jts3")
+region = Rect2(0, 0, 16, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5nxlw"]
+atlas = ExtResource("6_4jts3")
+region = Rect2(16, 0, 16, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_afwqo"]
+atlas = ExtResource("6_4jts3")
+region = Rect2(32, 0, 16, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qaiqc"]
+atlas = ExtResource("6_4jts3")
+region = Rect2(48, 0, 16, 10)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5winb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bp3fb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ygs7r")
+}],
+"loop": 1,
+"name": &"beetle_burrow",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r2bry")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jqfqe")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_45mtt")
+}],
+"loop": 1,
+"name": &"beetle_curl",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ymcko")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_36u13")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h1npx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vhwul")
+}],
+"loop": 1,
+"name": &"beetle_walk",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xeyta")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2b5vy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0en5l")
+}],
+"loop": 1,
+"name": &"black_beetle_burrow",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wvdu3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q2ij7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2dt67")
+}],
+"loop": 1,
+"name": &"black_beetle_curl",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_st36c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5nxlw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_afwqo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qaiqc")
+}],
+"loop": 1,
+"name": &"black_beetle_walk",
+"speed": 8.0
+}]

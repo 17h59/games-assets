@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/emerald/characters/red_leaf/leaf_down.png" id="1_keai0"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bfkmo"]
+atlas = ExtResource("1_keai0")
+region = Rect2(0, 0, 16, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jia60"]
+atlas = ExtResource("1_keai0")
+region = Rect2(16, 0, 16, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_royui"]
+atlas = ExtResource("1_keai0")
+region = Rect2(32, 0, 16, 21)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bfkmo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jia60")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_royui")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

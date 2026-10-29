@@ -1,0 +1,637 @@
+{
+ "sheet": "6497",
+ "game": "minish_cap",
+ "category": "monsters",
+ "title": "Moldorms",
+ "type": "sprites",
+ "template": "none",
+ "validation": "pending",
+ "sets": [
+  {
+   "id": 0,
+   "box": [
+    10,
+    89,
+    140,
+    10
+   ],
+   "point": [
+    80,
+    94
+   ],
+   "name": null,
+   "folder": "set_00"
+  },
+  {
+   "id": 1,
+   "box": [
+    21,
+    102,
+    154,
+    7
+   ],
+   "point": [
+    98,
+    105
+   ],
+   "name": null,
+   "folder": "set_01"
+  },
+  {
+   "id": 2,
+   "box": [
+    22,
+    112,
+    152,
+    7
+   ],
+   "point": [
+    98,
+    115
+   ],
+   "name": null,
+   "folder": "set_02"
+  },
+  {
+   "id": 3,
+   "box": [
+    16,
+    122,
+    166,
+    7
+   ],
+   "point": [
+    99,
+    125
+   ],
+   "name": null,
+   "folder": "set_03"
+  }
+ ],
+ "entities": [
+  {
+   "id": 0,
+   "name": "moldorms_e000",
+   "file": "moldorms_e000.png",
+   "cell": [
+    12,
+    12
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 11,
+     "role": "frame_0",
+     "src": [
+      100,
+      27,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_1",
+     "src": [
+      122,
+      27,
+      12,
+      12
+     ],
+     "duplicate_of": 0
+    }
+   ],
+   "box": [
+    100,
+    27,
+    34,
+    12
+   ]
+  },
+  {
+   "id": 1,
+   "name": "moldorms_e001",
+   "file": "moldorms_e001.png",
+   "cell": [
+    10,
+    10
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 13,
+     "role": "frame_0",
+     "src": [
+      156,
+      30,
+      10,
+      10
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_1",
+     "src": [
+      174,
+      30,
+      10,
+      10
+     ],
+     "duplicate_of": 0
+    }
+   ],
+   "box": [
+    156,
+    30,
+    28,
+    10
+   ]
+  },
+  {
+   "id": 2,
+   "name": "moldorms_e002",
+   "file": "moldorms_e002.png",
+   "cell": [
+    9,
+    9
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 15,
+     "role": "frame_0",
+     "src": [
+      204,
+      30,
+      9,
+      9
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_1",
+     "src": [
+      223,
+      30,
+      9,
+      9
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    204,
+    30,
+    28,
+    9
+   ]
+  },
+  {
+   "id": 3,
+   "name": "moldorms_e003",
+   "file": "moldorms_e003.png",
+   "cell": [
+    12,
+    12
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 18,
+     "role": "frame_0",
+     "src": [
+      133,
+      38,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_1",
+     "src": [
+      147,
+      39,
+      10,
+      10
+     ]
+    }
+   ],
+   "box": [
+    133,
+    38,
+    24,
+    12
+   ]
+  },
+  {
+   "id": 4,
+   "name": "moldorms_e004",
+   "file": "moldorms_e004.png",
+   "cell": [
+    10,
+    10
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 20,
+     "role": "frame_0",
+     "src": [
+      183,
+      39,
+      10,
+      10
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_1",
+     "src": [
+      196,
+      39,
+      9,
+      10
+     ]
+    }
+   ],
+   "box": [
+    183,
+    39,
+    22,
+    10
+   ]
+  },
+  {
+   "id": 5,
+   "name": "moldorms_e005",
+   "file": "moldorms_e005.png",
+   "cell": [
+    12,
+    12
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 23,
+     "role": "frame_0",
+     "src": [
+      100,
+      49,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_1",
+     "src": [
+      122,
+      49,
+      12,
+      12
+     ],
+     "duplicate_of": 0
+    }
+   ],
+   "box": [
+    100,
+    49,
+    34,
+    12
+   ]
+  },
+  {
+   "id": 6,
+   "name": "moldorms_e006",
+   "file": "moldorms_e006.png",
+   "cell": [
+    10,
+    10
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 25,
+     "role": "frame_0",
+     "src": [
+      156,
+      48,
+      10,
+      10
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_1",
+     "src": [
+      174,
+      48,
+      10,
+      10
+     ],
+     "duplicate_of": 0
+    }
+   ],
+   "box": [
+    156,
+    48,
+    28,
+    10
+   ]
+  },
+  {
+   "id": 7,
+   "name": "moldorms_e007",
+   "file": "moldorms_e007.png",
+   "cell": [
+    9,
+    9
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 27,
+     "role": "frame_0",
+     "src": [
+      204,
+      49,
+      9,
+      9
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_1",
+     "src": [
+      223,
+      49,
+      9,
+      9
+     ],
+     "mirror_of": 0
+    }
+   ],
+   "box": [
+    204,
+    49,
+    28,
+    9
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 37,
+   "y": 2,
+   "w": 16,
+   "h": 20,
+   "area": 240,
+   "ncolors": 13,
+   "dominant": "#402828",
+   "dom_frac": 0.233,
+   "kind": "sprite",
+   "zone": 0,
+   "id": 0,
+   "file": "moldorms_000.png"
+  },
+  {
+   "x": 19,
+   "y": 18,
+   "w": 19,
+   "h": 19,
+   "area": 235,
+   "ncolors": 12,
+   "dominant": "#402828",
+   "dom_frac": 0.221,
+   "kind": "sprite",
+   "zone": 0,
+   "id": 1,
+   "file": "moldorms_001.png"
+  },
+  {
+   "x": 52,
+   "y": 18,
+   "w": 19,
+   "h": 19,
+   "area": 235,
+   "ncolors": 12,
+   "dominant": "#402828",
+   "dom_frac": 0.221,
+   "kind": "sprite",
+   "zone": 0,
+   "id": 2,
+   "file": "moldorms_002.png",
+   "mirror_of": 1
+  },
+  {
+   "x": 3,
+   "y": 36,
+   "w": 20,
+   "h": 16,
+   "area": 240,
+   "ncolors": 13,
+   "dominant": "#402828",
+   "dom_frac": 0.233,
+   "kind": "sprite",
+   "zone": 0,
+   "id": 3,
+   "file": "moldorms_003.png"
+  },
+  {
+   "x": 67,
+   "y": 36,
+   "w": 20,
+   "h": 16,
+   "area": 240,
+   "ncolors": 13,
+   "dominant": "#402828",
+   "dom_frac": 0.233,
+   "kind": "sprite",
+   "zone": 0,
+   "id": 4,
+   "file": "moldorms_004.png",
+   "mirror_of": 3
+  },
+  {
+   "x": 19,
+   "y": 51,
+   "w": 19,
+   "h": 19,
+   "area": 235,
+   "ncolors": 12,
+   "dominant": "#402828",
+   "dom_frac": 0.221,
+   "kind": "sprite",
+   "zone": 0,
+   "id": 5,
+   "file": "moldorms_005.png"
+  },
+  {
+   "x": 52,
+   "y": 51,
+   "w": 19,
+   "h": 19,
+   "area": 235,
+   "ncolors": 12,
+   "dominant": "#402828",
+   "dom_frac": 0.221,
+   "kind": "sprite",
+   "zone": 0,
+   "id": 6,
+   "file": "moldorms_006.png",
+   "mirror_of": 5
+  },
+  {
+   "x": 37,
+   "y": 66,
+   "w": 16,
+   "h": 20,
+   "area": 240,
+   "ncolors": 13,
+   "dominant": "#402828",
+   "dom_frac": 0.233,
+   "kind": "sprite",
+   "zone": 0,
+   "id": 7,
+   "file": "moldorms_007.png"
+  },
+  {
+   "x": 111,
+   "y": 16,
+   "w": 12,
+   "h": 12,
+   "area": 120,
+   "ncolors": 8,
+   "dominant": "#402828",
+   "dom_frac": 0.3,
+   "kind": "sprite",
+   "zone": null,
+   "id": 8,
+   "file": "moldorms_008.png"
+  },
+  {
+   "x": 165,
+   "y": 21,
+   "w": 10,
+   "h": 10,
+   "area": 76,
+   "ncolors": 6,
+   "dominant": "#080808",
+   "dom_frac": 0.316,
+   "kind": "sprite",
+   "zone": null,
+   "id": 9,
+   "file": "moldorms_009.png"
+  },
+  {
+   "x": 213,
+   "y": 22,
+   "w": 10,
+   "h": 9,
+   "area": 60,
+   "ncolors": 5,
+   "dominant": "#080808",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "id": 10,
+   "file": "moldorms_010.png"
+  },
+  {
+   "x": 89,
+   "y": 38,
+   "w": 12,
+   "h": 12,
+   "area": 120,
+   "ncolors": 8,
+   "dominant": "#402828",
+   "dom_frac": 0.3,
+   "kind": "sprite",
+   "zone": null,
+   "id": 17,
+   "file": "moldorms_017.png",
+   "duplicate_of": 8
+  },
+  {
+   "x": 231,
+   "y": 39,
+   "w": 9,
+   "h": 10,
+   "area": 60,
+   "ncolors": 5,
+   "dominant": "#080808",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "id": 22,
+   "file": "moldorms_022.png"
+  },
+  {
+   "x": 111,
+   "y": 60,
+   "w": 12,
+   "h": 12,
+   "area": 120,
+   "ncolors": 8,
+   "dominant": "#402828",
+   "dom_frac": 0.3,
+   "kind": "sprite",
+   "zone": null,
+   "id": 29,
+   "file": "moldorms_029.png",
+   "duplicate_of": 8
+  },
+  {
+   "x": 165,
+   "y": 57,
+   "w": 10,
+   "h": 10,
+   "area": 76,
+   "ncolors": 6,
+   "dominant": "#080808",
+   "dom_frac": 0.316,
+   "kind": "sprite",
+   "zone": null,
+   "id": 30,
+   "file": "moldorms_030.png",
+   "duplicate_of": 9
+  },
+  {
+   "x": 213,
+   "y": 57,
+   "w": 10,
+   "h": 9,
+   "area": 60,
+   "ncolors": 5,
+   "dominant": "#080808",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "id": 31,
+   "file": "moldorms_031.png"
+  }
+ ],
+ "status": "needs_review",
+ "missing_stages": [
+  "decoupage",
+  "regroupement",
+  "nommage"
+ ]
+}

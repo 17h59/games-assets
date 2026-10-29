@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/emerald/effects/steam_effects/steam_effects_e000.png" id="1_by4iw"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fpsky"]
+atlas = ExtResource("1_by4iw")
+region = Rect2(0, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6d08c"]
+atlas = ExtResource("1_by4iw")
+region = Rect2(8, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gv2dw"]
+atlas = ExtResource("1_by4iw")
+region = Rect2(16, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_43q40"]
+atlas = ExtResource("1_by4iw")
+region = Rect2(24, 0, 8, 8)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fpsky")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6d08c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gv2dw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_43q40")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

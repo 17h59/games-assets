@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/effects/fireball_sfx/fireball_spin.png" id="1_fm86i"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j1anu"]
+atlas = ExtResource("1_fm86i")
+region = Rect2(0, 0, 14, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_58m72"]
+atlas = ExtResource("1_fm86i")
+region = Rect2(14, 0, 14, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iy3dh"]
+atlas = ExtResource("1_fm86i")
+region = Rect2(28, 0, 14, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hjrd2"]
+atlas = ExtResource("1_fm86i")
+region = Rect2(42, 0, 14, 14)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j1anu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_58m72")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iy3dh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hjrd2")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]

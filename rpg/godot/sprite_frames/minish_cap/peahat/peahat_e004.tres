@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/peahat/peahat_e004.png" id="1_bi04j"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yqaxc"]
+atlas = ExtResource("1_bi04j")
+region = Rect2(0, 0, 20, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ion7k"]
+atlas = ExtResource("1_bi04j")
+region = Rect2(20, 0, 20, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mu7bt"]
+atlas = ExtResource("1_bi04j")
+region = Rect2(40, 0, 20, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nnvdl"]
+atlas = ExtResource("1_bi04j")
+region = Rect2(60, 0, 20, 14)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yqaxc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ion7k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mu7bt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nnvdl")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/emerald/characters/may/set_03/set_03_e015.png" id="1_50m4v"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mq8ct"]
+atlas = ExtResource("1_50m4v")
+region = Rect2(0, 0, 30, 37)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dq4wo"]
+atlas = ExtResource("1_50m4v")
+region = Rect2(30, 0, 30, 37)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ck57o"]
+atlas = ExtResource("1_50m4v")
+region = Rect2(60, 0, 30, 37)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mq8ct")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dq4wo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ck57o")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

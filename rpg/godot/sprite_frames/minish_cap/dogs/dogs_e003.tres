@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/dogs/dogs_e003.png" id="1_8oimx"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0nuj8"]
+atlas = ExtResource("1_8oimx")
+region = Rect2(0, 0, 14, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aqcd2"]
+atlas = ExtResource("1_8oimx")
+region = Rect2(14, 0, 14, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y7pik"]
+atlas = ExtResource("1_8oimx")
+region = Rect2(28, 0, 14, 19)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0nuj8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aqcd2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y7pik")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

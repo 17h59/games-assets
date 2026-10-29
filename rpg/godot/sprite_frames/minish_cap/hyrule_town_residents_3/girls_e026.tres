@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/characters/hyrule_town_residents_3/girls/girls_e026.png" id="1_iq0di"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wxm8a"]
+atlas = ExtResource("1_iq0di")
+region = Rect2(0, 0, 22, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qalim"]
+atlas = ExtResource("1_iq0di")
+region = Rect2(22, 0, 22, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dwoot"]
+atlas = ExtResource("1_iq0di")
+region = Rect2(44, 0, 22, 22)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wxm8a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qalim")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dwoot")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 6.0
+}]

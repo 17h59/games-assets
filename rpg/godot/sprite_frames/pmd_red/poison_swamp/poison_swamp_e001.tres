@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pmd_red/scenes/poison_swamp/poison_swamp_e001.png" id="1_3sk50"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mitns"]
+atlas = ExtResource("1_3sk50")
+region = Rect2(0, 0, 12, 9)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5eex3"]
+atlas = ExtResource("1_3sk50")
+region = Rect2(12, 0, 12, 9)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_52n5r"]
+atlas = ExtResource("1_3sk50")
+region = Rect2(24, 0, 12, 9)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bv6fn"]
+atlas = ExtResource("1_3sk50")
+region = Rect2(36, 0, 12, 9)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bj6c2"]
+atlas = ExtResource("1_3sk50")
+region = Rect2(48, 0, 12, 9)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mitns")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5eex3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_52n5r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bv6fn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bj6c2")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

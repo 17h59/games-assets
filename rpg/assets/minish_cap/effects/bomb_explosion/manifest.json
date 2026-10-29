@@ -1,0 +1,145 @@
+{
+ "sheet": "37862",
+ "game": "minish_cap",
+ "category": "effects",
+ "title": "Bomb Explosion",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "bomb_explosion",
+   "file": "bomb_explosion.png",
+   "cell": [
+    47,
+    43
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      7,
+      23,
+      15,
+      15
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_1",
+     "src": [
+      36,
+      10,
+      47,
+      43
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_2",
+     "src": [
+      96,
+      21,
+      26,
+      23
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_3",
+     "src": [
+      138,
+      22,
+      14,
+      13
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_4",
+     "src": [
+      166,
+      17,
+      18,
+      18
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_5",
+     "src": [
+      198,
+      14,
+      23,
+      25
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_6",
+     "src": [
+      233,
+      8,
+      30,
+      33
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_7",
+     "src": [
+      272,
+      6,
+      32,
+      35
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_8",
+     "src": [
+      315,
+      5,
+      30,
+      36
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_9",
+     "src": [
+      356,
+      4,
+      20,
+      24
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_10",
+     "src": [
+      390,
+      2,
+      13,
+      13
+     ]
+    }
+   ],
+   "box": [
+    7,
+    2,
+    396,
+    51
+   ]
+  }
+ ],
+ "items": [],
+ "status": "ok",
+ "missing_stages": []
+}

@@ -1,0 +1,90 @@
+{
+ "sheet": "75100",
+ "game": "pmd_red",
+ "category": "scenes",
+ "title": "Mt. Thunder",
+ "type": "sprites",
+ "template": "none",
+ "validation": "verified",
+ "sets": [],
+ "entities": [
+  {
+   "id": 0,
+   "name": "lightning",
+   "file": "lightning.png",
+   "cell": [
+    24,
+    126
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      121,
+      372,
+      8,
+      71
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_1",
+     "src": [
+      169,
+      372,
+      16,
+      64
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_2",
+     "src": [
+      219,
+      372,
+      24,
+      126
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_3",
+     "src": [
+      284,
+      372,
+      23,
+      103
+     ]
+    }
+   ],
+   "box": [
+    121,
+    372,
+    186,
+    126
+   ]
+  }
+ ],
+ "items": [
+  {
+   "x": 0,
+   "y": 0,
+   "w": 432,
+   "h": 352,
+   "area": 149760,
+   "ncolors": 80,
+   "dominant": "#E8E0A0",
+   "dom_frac": 0.206,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "mt_thunder_000.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
+}

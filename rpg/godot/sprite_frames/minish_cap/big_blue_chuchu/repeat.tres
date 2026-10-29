@@ -1,0 +1,60 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/minish_cap/monsters/big_blue_chuchu/repeat/repeat.png" id="1_5twgj"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n76fb"]
+atlas = ExtResource("1_5twgj")
+region = Rect2(0, 0, 44, 43)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_136rs"]
+atlas = ExtResource("1_5twgj")
+region = Rect2(44, 0, 44, 43)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a1is8"]
+atlas = ExtResource("1_5twgj")
+region = Rect2(88, 0, 44, 43)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_syfkq"]
+atlas = ExtResource("1_5twgj")
+region = Rect2(132, 0, 44, 43)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_10u1k"]
+atlas = ExtResource("1_5twgj")
+region = Rect2(176, 0, 44, 43)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k0dpj"]
+atlas = ExtResource("1_5twgj")
+region = Rect2(220, 0, 44, 43)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mfjx6"]
+atlas = ExtResource("1_5twgj")
+region = Rect2(264, 0, 44, 43)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n76fb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_136rs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a1is8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_syfkq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_10u1k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k0dpj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mfjx6")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]
