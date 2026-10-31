@@ -5,7 +5,7 @@
  "title": "Rupee Like",
  "type": "sprites",
  "template": "none",
- "validation": "pending",
+ "validation": "verified",
  "sets": [
   {
    "id": 0,
@@ -19,8 +19,8 @@
     72,
     96
    ],
-   "name": null,
-   "folder": "set_00"
+   "name": "none",
+   "folder": "none"
   },
   {
    "id": 1,
@@ -34,8 +34,8 @@
     90,
     107
    ],
-   "name": null,
-   "folder": "set_01"
+   "name": "none",
+   "folder": "none"
   },
   {
    "id": 2,
@@ -49,8 +49,8 @@
     90,
     117
    ],
-   "name": null,
-   "folder": "set_02"
+   "name": "none",
+   "folder": "none"
   },
   {
    "id": 3,
@@ -64,15 +64,15 @@
     91,
     127
    ],
-   "name": null,
-   "folder": "set_03"
+   "name": "none",
+   "folder": "none"
   }
  ],
  "entities": [
   {
    "id": 0,
-   "name": "rupee_like_e000",
-   "file": "rupee_like_e000.png",
+   "name": "emerge",
+   "file": "emerge.png",
    "cell": [
     17,
     29
@@ -182,8 +182,8 @@
   },
   {
    "id": 1,
-   "name": "rupee_like_e001",
-   "file": "rupee_like_e001.png",
+   "name": "red_rupee",
+   "file": "red_rupee.png",
    "cell": [
     7,
     10
@@ -233,8 +233,8 @@
   },
   {
    "id": 2,
-   "name": "rupee_like_e002",
-   "file": "rupee_like_e002.png",
+   "name": "green_rupee",
+   "file": "green_rupee.png",
    "cell": [
     7,
     10
@@ -284,8 +284,8 @@
   },
   {
    "id": 3,
-   "name": "rupee_like_e003",
-   "file": "rupee_like_e003.png",
+   "name": "blue_rupee",
+   "file": "blue_rupee.png",
    "cell": [
     7,
     10
@@ -335,8 +335,8 @@
   },
   {
    "id": 4,
-   "name": "rupee_like_e004",
-   "file": "rupee_like_e004.png",
+   "name": "move",
+   "file": "move.png",
    "cell": [
     16,
     25
@@ -405,8 +405,8 @@
   },
   {
    "id": 5,
-   "name": "rupee_like_e005",
-   "file": "rupee_like_e005.png",
+   "name": "swallow",
+   "file": "swallow.png",
    "cell": [
     16,
     25
@@ -485,10 +485,6 @@
   }
  ],
  "items": [],
- "status": "needs_review",
- "missing_stages": [
-  "decoupage",
-  "regroupement",
-  "nommage"
- ]
+ "status": "ok",
+ "missing_stages": []
 }

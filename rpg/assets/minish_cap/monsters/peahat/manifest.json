@@ -5,7 +5,7 @@
  "title": "Peahat",
  "type": "sprites",
  "template": "none",
- "validation": "pending",
+ "validation": "verified",
  "sets": [
   {
    "id": 0,
@@ -116,48 +116,8 @@
  "entities": [
   {
    "id": 0,
-   "name": "peahat_e000",
-   "file": "peahat_e000.png",
-   "cell": [
-    13,
-    13
-   ],
-   "zone": null,
-   "set": null,
-   "template": "none",
-   "frames": [
-    {
-     "item": 8,
-     "role": "frame_0",
-     "src": [
-      8,
-      22,
-      6,
-      10
-     ]
-    },
-    {
-     "item": 9,
-     "role": "frame_1",
-     "src": [
-      22,
-      19,
-      13,
-      10
-     ]
-    }
-   ],
-   "box": [
-    8,
-    19,
-    27,
-    13
-   ]
-  },
-  {
-   "id": 1,
-   "name": "peahat_e001",
-   "file": "peahat_e001.png",
+   "name": "stun_stars",
+   "file": "stun_stars.png",
    "cell": [
     7,
     8
@@ -195,9 +155,9 @@
    ]
   },
   {
-   "id": 2,
-   "name": "peahat_e002",
-   "file": "peahat_e002.png",
+   "id": 1,
+   "name": "green_vines",
+   "file": "green_vines.png",
    "cell": [
     8,
     12
@@ -277,9 +237,9 @@
    ]
   },
   {
-   "id": 3,
-   "name": "peahat_e003",
-   "file": "peahat_e003.png",
+   "id": 2,
+   "name": "peahat_red_body",
+   "file": "peahat_red_body.png",
    "cell": [
     16,
     18
@@ -347,9 +307,9 @@
    ]
   },
   {
-   "id": 4,
-   "name": "peahat_e004",
-   "file": "peahat_e004.png",
+   "id": 3,
+   "name": "peahat_red_propeller",
+   "file": "peahat_red_propeller.png",
    "cell": [
     20,
     14
@@ -408,9 +368,9 @@
    ]
   },
   {
-   "id": 5,
-   "name": "peahat_e005",
-   "file": "peahat_e005.png",
+   "id": 4,
+   "name": "peahat_green_propeller",
+   "file": "peahat_green_propeller.png",
    "cell": [
     20,
     14
@@ -467,98 +427,149 @@
     98,
     14
    ]
+  },
+  {
+   "id": 5,
+   "name": "peahat_red_propeller_cut",
+   "file": "peahat_red_propeller_cut.png",
+   "cell": [
+    18,
+    13
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 8,
+     "role": "frame_0",
+     "src": [
+      8,
+      22,
+      6,
+      10
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_1",
+     "src": [
+      22,
+      19,
+      13,
+      10
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_2",
+     "src": [
+      52,
+      23,
+      18,
+      7
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_3",
+     "src": [
+      87,
+      19,
+      13,
+      10
+     ]
+    }
+   ],
+   "box": [
+    8,
+    19,
+    92,
+    13
+   ]
+  },
+  {
+   "id": 6,
+   "name": "bomb",
+   "file": "bomb.png",
+   "cell": [
+    12,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 12,
+     "role": "frame_0",
+     "src": [
+      107,
+      19,
+      12,
+      16
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_1",
+     "src": [
+      124,
+      19,
+      12,
+      16
+     ]
+    }
+   ],
+   "box": [
+    107,
+    19,
+    29,
+    16
+   ]
+  },
+  {
+   "id": 7,
+   "name": "peahat_green_body",
+   "file": "peahat_green_body.png",
+   "cell": [
+    16,
+    15
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 16,
+     "role": "frame_0",
+     "src": [
+      106,
+      36,
+      14,
+      13
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_1",
+     "src": [
+      122,
+      36,
+      16,
+      15
+     ]
+    }
+   ],
+   "box": [
+    106,
+    36,
+    32,
+    15
+   ]
   }
  ],
- "items": [
-  {
-   "x": 52,
-   "y": 23,
-   "w": 18,
-   "h": 7,
-   "area": 64,
-   "ncolors": 9,
-   "dominant": "#888088",
-   "dom_frac": 0.25,
-   "kind": "sprite",
-   "zone": null,
-   "id": 10,
-   "file": "peahat_010.png"
-  },
-  {
-   "x": 87,
-   "y": 19,
-   "w": 13,
-   "h": 10,
-   "area": 60,
-   "ncolors": 9,
-   "dominant": "#888088",
-   "dom_frac": 0.25,
-   "kind": "sprite",
-   "zone": null,
-   "id": 11,
-   "file": "peahat_011.png"
-  },
-  {
-   "x": 107,
-   "y": 19,
-   "w": 12,
-   "h": 16,
-   "area": 142,
-   "ncolors": 12,
-   "dominant": "#2068C8",
-   "dom_frac": 0.239,
-   "kind": "sprite",
-   "zone": null,
-   "id": 12,
-   "file": "peahat_012.png"
-  },
-  {
-   "x": 124,
-   "y": 19,
-   "w": 12,
-   "h": 16,
-   "area": 142,
-   "ncolors": 12,
-   "dominant": "#A02818",
-   "dom_frac": 0.239,
-   "kind": "sprite",
-   "zone": null,
-   "id": 13,
-   "file": "peahat_013.png"
-  },
-  {
-   "x": 106,
-   "y": 36,
-   "w": 14,
-   "h": 13,
-   "area": 148,
-   "ncolors": 11,
-   "dominant": "#585058",
-   "dom_frac": 0.243,
-   "kind": "sprite",
-   "zone": null,
-   "id": 16,
-   "file": "peahat_016.png"
-  },
-  {
-   "x": 122,
-   "y": 36,
-   "w": 16,
-   "h": 15,
-   "area": 194,
-   "ncolors": 10,
-   "dominant": "#383038",
-   "dom_frac": 0.309,
-   "kind": "sprite",
-   "zone": null,
-   "id": 23,
-   "file": "peahat_023.png"
-  }
- ],
- "status": "needs_review",
- "missing_stages": [
-  "decoupage",
-  "regroupement",
-  "nommage"
- ]
+ "items": [],
+ "status": "ok",
+ "missing_stages": []
 }

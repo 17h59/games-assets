@@ -5,7 +5,7 @@
  "title": "Tektike",
  "type": "sprites",
  "template": "none",
- "validation": "pending",
+ "validation": "verified",
  "sets": [
   {
    "id": 0,
@@ -41,8 +41,8 @@
  "entities": [
   {
    "id": 0,
-   "name": "tektike_e000",
-   "file": "tektike_e000.png",
+   "name": "tektite_red",
+   "file": "tektite_red.png",
    "cell": [
     26,
     26
@@ -131,8 +131,8 @@
   },
   {
    "id": 1,
-   "name": "tektike_e001",
-   "file": "tektike_e001.png",
+   "name": "tektite_green",
+   "file": "tektite_green.png",
    "cell": [
     26,
     26
@@ -221,8 +221,8 @@
   },
   {
    "id": 2,
-   "name": "tektike_e002",
-   "file": "tektike_e002.png",
+   "name": "tektite_blue",
+   "file": "tektite_blue.png",
    "cell": [
     26,
     26
@@ -311,8 +311,8 @@
   },
   {
    "id": 3,
-   "name": "tektike_e003",
-   "file": "tektike_e003.png",
+   "name": "tektite_grey",
+   "file": "tektite_grey.png",
    "cell": [
     26,
     26
@@ -401,8 +401,8 @@
   },
   {
    "id": 4,
-   "name": "tektike_e004",
-   "file": "tektike_e004.png",
+   "name": "tektite_yellow",
+   "file": "tektite_yellow.png",
    "cell": [
     26,
     26
@@ -491,8 +491,8 @@
   },
   {
    "id": 5,
-   "name": "tektike_e005",
-   "file": "tektike_e005.png",
+   "name": "tektite_orange",
+   "file": "tektite_orange.png",
    "cell": [
     26,
     27
@@ -581,8 +581,8 @@
   },
   {
    "id": 6,
-   "name": "tektike_e006",
-   "file": "tektike_e006.png",
+   "name": "tektite_purple",
+   "file": "tektite_purple.png",
    "cell": [
     26,
     26
@@ -671,8 +671,8 @@
   },
   {
    "id": 7,
-   "name": "tektike_e007",
-   "file": "tektike_e007.png",
+   "name": "tektite_cyan",
+   "file": "tektite_cyan.png",
    "cell": [
     26,
     26
@@ -761,10 +761,6 @@
   }
  ],
  "items": [],
- "status": "needs_review",
- "missing_stages": [
-  "decoupage",
-  "regroupement",
-  "nommage"
- ]
+ "status": "ok",
+ "missing_stages": []
 }

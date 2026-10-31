@@ -5,7 +5,7 @@
  "title": "Ghost-Type Moves",
  "type": "sprites",
  "template": "none",
- "validation": "pending",
+ "validation": "verified",
  "sets": [
   {
    "id": 0,
@@ -130,50 +130,20 @@
   {
    "id": 8,
    "box": [
-    378,
+    395,
     307,
-    87,
-    5
+    70,
+    8
    ],
    "point": [
-    421,
-    309
+    430,
+    311
    ],
    "name": "shadow_punch",
    "folder": "shadow_punch"
   },
   {
    "id": 9,
-   "box": [
-    218,
-    311,
-    29,
-    1
-   ],
-   "point": [
-    232,
-    311
-   ],
-   "name": "none",
-   "folder": "none"
-  },
-  {
-   "id": 10,
-   "box": [
-    267,
-    311,
-    45,
-    1
-   ],
-   "point": [
-    289,
-    311
-   ],
-   "name": "none",
-   "folder": "none"
-  },
-  {
-   "id": 11,
    "box": [
     56,
     335,
@@ -188,7 +158,7 @@
    "folder": "lick"
   },
   {
-   "id": 12,
+   "id": 10,
    "box": [
     71,
     369,
@@ -203,7 +173,7 @@
    "folder": "astonish"
   },
   {
-   "id": 13,
+   "id": 11,
    "box": [
     340,
     387,
@@ -218,7 +188,7 @@
    "folder": "grudge"
   },
   {
-   "id": 14,
+   "id": 12,
    "box": [
     351,
     421,
@@ -236,8 +206,8 @@
  "entities": [
   {
    "id": 0,
-   "name": "confuse_ray_e000",
-   "file": "confuse_ray/confuse_ray_e000.png",
+   "name": "confuse_ray",
+   "file": "confuse_ray/confuse_ray.png",
    "cell": [
     16,
     16
@@ -306,14 +276,14 @@
   },
   {
    "id": 1,
-   "name": "confuse_ray_e001",
-   "file": "confuse_ray/confuse_ray_e001.png",
+   "name": "spite_glow",
+   "file": "spite/spite_glow.png",
    "cell": [
     46,
     42
    ],
    "zone": null,
-   "set": 1,
+   "set": 2,
    "template": "none",
    "frames": [
     {
@@ -376,144 +346,14 @@
   },
   {
    "id": 2,
-   "name": "shadow_ball_e002",
-   "file": "shadow_ball/shadow_ball_e002.png",
-   "cell": [
-    32,
-    32
-   ],
-   "zone": null,
-   "set": 4,
-   "template": "none",
-   "frames": [
-    {
-     "item": 22,
-     "role": "frame_0",
-     "src": [
-      1,
-      228,
-      32,
-      32
-     ]
-    },
-    {
-     "item": 23,
-     "role": "frame_1",
-     "src": [
-      38,
-      228,
-      32,
-      32
-     ]
-    },
-    {
-     "item": 24,
-     "role": "frame_2",
-     "src": [
-      75,
-      229,
-      30,
-      30
-     ]
-    },
-    {
-     "item": 25,
-     "role": "frame_3",
-     "src": [
-      110,
-      229,
-      30,
-      30
-     ]
-    },
-    {
-     "item": 26,
-     "role": "frame_4",
-     "src": [
-      145,
-      230,
-      28,
-      28
-     ]
-    },
-    {
-     "item": 27,
-     "role": "frame_5",
-     "src": [
-      178,
-      233,
-      22,
-      22
-     ]
-    }
-   ],
-   "box": [
-    1,
-    228,
-    199,
-    32
-   ]
-  },
-  {
-   "id": 3,
-   "name": "shadow_ball_e003",
-   "file": "shadow_ball/shadow_ball_e003.png",
-   "cell": [
-    16,
-    16
-   ],
-   "zone": null,
-   "set": 4,
-   "template": "none",
-   "frames": [
-    {
-     "item": 28,
-     "role": "frame_0",
-     "src": [
-      205,
-      236,
-      16,
-      16
-     ]
-    },
-    {
-     "item": 29,
-     "role": "frame_1",
-     "src": [
-      226,
-      237,
-      14,
-      14
-     ]
-    },
-    {
-     "item": 30,
-     "role": "frame_2",
-     "src": [
-      245,
-      240,
-      8,
-      8
-     ]
-    }
-   ],
-   "box": [
-    205,
-    236,
-    48,
-    16
-   ]
-  },
-  {
-   "id": 4,
-   "name": "destiny_bond_e004",
-   "file": "destiny_bond/destiny_bond_e004.png",
+   "name": "shadow_ball",
+   "file": "shadow_ball/shadow_ball.png",
    "cell": [
     24,
     24
    ],
    "zone": null,
-   "set": 3,
+   "set": 4,
    "template": "none",
    "frames": [
     {
@@ -545,69 +385,19 @@
    ]
   },
   {
-   "id": 5,
-   "name": "shadow_punch_e005",
-   "file": "shadow_punch/shadow_punch_e005.png",
-   "cell": [
-    64,
-    32
-   ],
-   "zone": null,
-   "set": 8,
-   "template": "none",
-   "frames": [
-    {
-     "item": 33,
-     "role": "frame_0",
-     "src": [
-      49,
-      297,
-      32,
-      28
-     ]
-    },
-    {
-     "item": 34,
-     "role": "frame_1",
-     "src": [
-      86,
-      295,
-      58,
-      32
-     ]
-    },
-    {
-     "item": 35,
-     "role": "frame_2",
-     "src": [
-      149,
-      295,
-      64,
-      32
-     ]
-    }
-   ],
-   "box": [
-    49,
-    295,
-    164,
-    32
-   ]
-  },
-  {
-   "id": 6,
-   "name": "lick_e006",
-   "file": "lick/lick_e006.png",
+   "id": 3,
+   "name": "lick",
+   "file": "lick/lick.png",
    "cell": [
     13,
     32
    ],
    "zone": null,
-   "set": 11,
+   "set": 9,
    "template": "none",
    "frames": [
     {
-     "item": 38,
+     "item": 40,
      "role": "frame_0",
      "src": [
       1,
@@ -617,7 +407,7 @@
      ]
     },
     {
-     "item": 39,
+     "item": 41,
      "role": "frame_1",
      "src": [
       19,
@@ -627,7 +417,7 @@
      ]
     },
     {
-     "item": 40,
+     "item": 42,
      "role": "frame_2",
      "src": [
       37,
@@ -645,19 +435,19 @@
    ]
   },
   {
-   "id": 7,
-   "name": "astonish_e007",
-   "file": "astonish/astonish_e007.png",
+   "id": 4,
+   "name": "astonish",
+   "file": "astonish/astonish.png",
    "cell": [
     11,
     8
    ],
    "zone": null,
-   "set": 12,
+   "set": 10,
    "template": "none",
    "frames": [
     {
-     "item": 41,
+     "item": 43,
      "role": "frame_0",
      "src": [
       1,
@@ -667,7 +457,7 @@
      ]
     },
     {
-     "item": 42,
+     "item": 44,
      "role": "frame_1",
      "src": [
       14,
@@ -677,7 +467,7 @@
      ]
     },
     {
-     "item": 43,
+     "item": 45,
      "role": "frame_2",
      "src": [
       28,
@@ -687,7 +477,7 @@
      ]
     },
     {
-     "item": 44,
+     "item": 46,
      "role": "frame_3",
      "src": [
       44,
@@ -697,7 +487,7 @@
      ]
     },
     {
-     "item": 45,
+     "item": 47,
      "role": "frame_4",
      "src": [
       55,
@@ -715,19 +505,19 @@
    ]
   },
   {
-   "id": 8,
-   "name": "grudge_e008",
-   "file": "grudge/grudge_e008.png",
+   "id": 5,
+   "name": "grudge_flame",
+   "file": "grudge/grudge_flame.png",
    "cell": [
     8,
     32
    ],
    "zone": null,
-   "set": 13,
+   "set": 11,
    "template": "none",
    "frames": [
     {
-     "item": 46,
+     "item": 48,
      "role": "frame_0",
      "src": [
       1,
@@ -737,7 +527,7 @@
      ]
     },
     {
-     "item": 47,
+     "item": 49,
      "role": "frame_1",
      "src": [
       14,
@@ -747,7 +537,7 @@
      ]
     },
     {
-     "item": 48,
+     "item": 50,
      "role": "frame_2",
      "src": [
       27,
@@ -757,7 +547,7 @@
      ]
     },
     {
-     "item": 49,
+     "item": 51,
      "role": "frame_3",
      "src": [
       40,
@@ -767,7 +557,7 @@
      ]
     },
     {
-     "item": 50,
+     "item": 52,
      "role": "frame_4",
      "src": [
       53,
@@ -777,7 +567,7 @@
      ]
     },
     {
-     "item": 51,
+     "item": 53,
      "role": "frame_5",
      "src": [
       66,
@@ -787,7 +577,7 @@
      ]
     },
     {
-     "item": 52,
+     "item": 54,
      "role": "frame_6",
      "src": [
       79,
@@ -797,7 +587,7 @@
      ]
     },
     {
-     "item": 53,
+     "item": 55,
      "role": "frame_7",
      "src": [
       92,
@@ -815,19 +605,19 @@
    ]
   },
   {
-   "id": 9,
-   "name": "grudge_e009",
-   "file": "grudge/grudge_e009.png",
+   "id": 6,
+   "name": "grudge_shield",
+   "file": "grudge/grudge_shield.png",
    "cell": [
     12,
     14
    ],
    "zone": null,
-   "set": 13,
+   "set": 11,
    "template": "none",
    "frames": [
     {
-     "item": 54,
+     "item": 56,
      "role": "frame_0",
      "src": [
       119,
@@ -837,7 +627,7 @@
      ]
     },
     {
-     "item": 55,
+     "item": 57,
      "role": "frame_1",
      "src": [
       136,
@@ -847,7 +637,7 @@
      ]
     },
     {
-     "item": 56,
+     "item": 58,
      "role": "frame_2",
      "src": [
       153,
@@ -857,7 +647,7 @@
      ]
     },
     {
-     "item": 57,
+     "item": 59,
      "role": "frame_3",
      "src": [
       170,
@@ -867,7 +657,7 @@
      ]
     },
     {
-     "item": 58,
+     "item": 60,
      "role": "frame_4",
      "src": [
       187,
@@ -877,7 +667,7 @@
      ]
     },
     {
-     "item": 59,
+     "item": 61,
      "role": "frame_5",
      "src": [
       204,
@@ -887,7 +677,7 @@
      ]
     },
     {
-     "item": 60,
+     "item": 62,
      "role": "frame_6",
      "src": [
       221,
@@ -897,7 +687,7 @@
      ]
     },
     {
-     "item": 61,
+     "item": 63,
      "role": "frame_7",
      "src": [
       238,
@@ -907,7 +697,7 @@
      ]
     },
     {
-     "item": 62,
+     "item": 64,
      "role": "frame_8",
      "src": [
       255,
@@ -917,7 +707,7 @@
      ]
     },
     {
-     "item": 63,
+     "item": 65,
      "role": "frame_9",
      "src": [
       272,
@@ -927,7 +717,7 @@
      ]
     },
     {
-     "item": 64,
+     "item": 66,
      "role": "frame_10",
      "src": [
       289,
@@ -937,7 +727,7 @@
      ]
     },
     {
-     "item": 65,
+     "item": 67,
      "role": "frame_11",
      "src": [
       306,
@@ -947,7 +737,7 @@
      ]
     },
     {
-     "item": 66,
+     "item": 68,
      "role": "frame_12",
      "src": [
       323,
@@ -965,19 +755,19 @@
    ]
   },
   {
-   "id": 10,
-   "name": "destiny_bond_e010",
-   "file": "destiny_bond/destiny_bond_e010.png",
+   "id": 7,
+   "name": "curse_nail",
+   "file": "curse/curse_nail.png",
    "cell": [
     15,
     7
    ],
    "zone": null,
-   "set": 3,
+   "set": 12,
    "template": "none",
    "frames": [
     {
-     "item": 67,
+     "item": 69,
      "role": "frame_0",
      "src": [
       1,
@@ -987,7 +777,7 @@
      ]
     },
     {
-     "item": 68,
+     "item": 70,
      "role": "frame_1",
      "src": [
       21,
@@ -997,7 +787,7 @@
      ]
     },
     {
-     "item": 69,
+     "item": 71,
      "role": "frame_2",
      "src": [
       36,
@@ -1015,19 +805,19 @@
    ]
   },
   {
-   "id": 11,
-   "name": "curse_e011",
-   "file": "curse/curse_e011.png",
+   "id": 8,
+   "name": "curse_ghost",
+   "file": "curse/curse_ghost.png",
    "cell": [
     23,
     31
    ],
    "zone": null,
-   "set": 14,
+   "set": 12,
    "template": "none",
    "frames": [
     {
-     "item": 70,
+     "item": 72,
      "role": "frame_0",
      "src": [
       63,
@@ -1037,7 +827,7 @@
      ]
     },
     {
-     "item": 71,
+     "item": 73,
      "role": "frame_1",
      "src": [
       84,
@@ -1047,7 +837,7 @@
      ]
     },
     {
-     "item": 72,
+     "item": 74,
      "role": "frame_2",
      "src": [
       109,
@@ -1057,7 +847,7 @@
      ]
     },
     {
-     "item": 73,
+     "item": 75,
      "role": "frame_3",
      "src": [
       137,
@@ -1075,19 +865,19 @@
    ]
   },
   {
-   "id": 12,
-   "name": "curse_e012",
-   "file": "curse/curse_e012.png",
+   "id": 9,
+   "name": "curse_skull",
+   "file": "curse/curse_skull.png",
    "cell": [
     16,
     16
    ],
    "zone": null,
-   "set": 14,
+   "set": 12,
    "template": "none",
    "frames": [
     {
-     "item": 74,
+     "item": 76,
      "role": "frame_0",
      "src": [
       179,
@@ -1097,7 +887,7 @@
      ]
     },
     {
-     "item": 75,
+     "item": 77,
      "role": "frame_1",
      "src": [
       198,
@@ -1107,7 +897,7 @@
      ]
     },
     {
-     "item": 76,
+     "item": 78,
      "role": "frame_2",
      "src": [
       217,
@@ -1118,7 +908,7 @@
      "duplicate_of": 0
     },
     {
-     "item": 77,
+     "item": 79,
      "role": "frame_3",
      "src": [
       236,
@@ -1129,7 +919,7 @@
      "duplicate_of": 1
     },
     {
-     "item": 78,
+     "item": 80,
      "role": "frame_4",
      "src": [
       255,
@@ -1139,7 +929,7 @@
      ]
     },
     {
-     "item": 79,
+     "item": 81,
      "role": "frame_5",
      "src": [
       274,
@@ -1149,7 +939,7 @@
      ]
     },
     {
-     "item": 80,
+     "item": 82,
      "role": "frame_6",
      "src": [
       293,
@@ -1159,7 +949,7 @@
      ]
     },
     {
-     "item": 81,
+     "item": 83,
      "role": "frame_7",
      "src": [
       314,
@@ -1169,7 +959,7 @@
      ]
     },
     {
-     "item": 82,
+     "item": 84,
      "role": "frame_8",
      "src": [
       335,
@@ -1187,9 +977,9 @@
    ]
   },
   {
-   "id": 13,
-   "name": "spite_e013",
-   "file": "spite/spite_e013.png",
+   "id": 10,
+   "name": "spite_ghost",
+   "file": "spite/spite_ghost.png",
    "cell": [
     56,
     31
@@ -1295,39 +1085,249 @@
     400,
     31
    ]
+  },
+  {
+   "id": 11,
+   "name": "night_shade",
+   "file": "night_shade/night_shade.png",
+   "cell": [
+    94,
+    94
+   ],
+   "zone": null,
+   "set": 0,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      1,
+      9,
+      78,
+      78
+     ]
+    },
+    {
+     "item": 0,
+     "role": "frame_1",
+     "src": [
+      84,
+      1,
+      94,
+      94
+     ]
+    }
+   ],
+   "box": [
+    1,
+    1,
+    177,
+    94
+   ]
+  },
+  {
+   "id": 12,
+   "name": "shadow_ball_charge",
+   "file": "shadow_ball/shadow_ball_charge.png",
+   "cell": [
+    32,
+    32
+   ],
+   "zone": null,
+   "set": 4,
+   "template": "none",
+   "frames": [
+    {
+     "item": 22,
+     "role": "frame_0",
+     "src": [
+      1,
+      228,
+      32,
+      32
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_1",
+     "src": [
+      38,
+      228,
+      32,
+      32
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_2",
+     "src": [
+      75,
+      229,
+      30,
+      30
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_3",
+     "src": [
+      110,
+      229,
+      30,
+      30
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_4",
+     "src": [
+      145,
+      230,
+      28,
+      28
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_5",
+     "src": [
+      178,
+      233,
+      22,
+      22
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_6",
+     "src": [
+      205,
+      236,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 29,
+     "role": "frame_7",
+     "src": [
+      226,
+      237,
+      14,
+      14
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_8",
+     "src": [
+      245,
+      240,
+      8,
+      8
+     ]
+    }
+   ],
+   "box": [
+    1,
+    228,
+    252,
+    32
+   ]
+  },
+  {
+   "id": 13,
+   "name": "shadow_punch",
+   "file": "shadow_punch/shadow_punch.png",
+   "cell": [
+    88,
+    32
+   ],
+   "zone": null,
+   "set": 8,
+   "template": "none",
+   "frames": [
+    {
+     "item": 37,
+     "role": "frame_0",
+     "src": [
+      1,
+      304,
+      14,
+      14
+     ]
+    },
+    {
+     "item": 33,
+     "role": "frame_1",
+     "src": [
+      20,
+      299,
+      24,
+      24
+     ]
+    },
+    {
+     "item": 34,
+     "role": "frame_2",
+     "src": [
+      49,
+      297,
+      32,
+      28
+     ]
+    },
+    {
+     "item": 35,
+     "role": "frame_3",
+     "src": [
+      86,
+      295,
+      58,
+      32
+     ]
+    },
+    {
+     "item": 36,
+     "role": "frame_4",
+     "src": [
+      149,
+      295,
+      64,
+      32
+     ]
+    },
+    {
+     "item": 38,
+     "role": "frame_5",
+     "src": [
+      218,
+      311,
+      78,
+      1
+     ]
+    },
+    {
+     "item": 39,
+     "role": "frame_6",
+     "src": [
+      301,
+      311,
+      88,
+      1
+     ]
+    }
+   ],
+   "box": [
+    1,
+    295,
+    388,
+    32
+   ]
   }
  ],
  "items": [
-  {
-   "x": 84,
-   "y": 1,
-   "w": 94,
-   "h": 94,
-   "area": 7038,
-   "ncolors": 15,
-   "dominant": "#B05878",
-   "dom_frac": 0.164,
-   "kind": "sprite",
-   "zone": null,
-   "set": 0,
-   "id": 0,
-   "file": "night_shade/night_shade_000.png"
-  },
-  {
-   "x": 1,
-   "y": 9,
-   "w": 78,
-   "h": 78,
-   "area": 4858,
-   "ncolors": 15,
-   "dominant": "#A86080",
-   "dom_frac": 0.178,
-   "kind": "sprite",
-   "zone": null,
-   "set": 0,
-   "id": 1,
-   "file": "night_shade/night_shade_001.png"
-  },
   {
    "x": 1,
    "y": 204,
@@ -1339,45 +1339,12 @@
    "dom_frac": 0.815,
    "kind": "sprite",
    "zone": null,
+   "name": "destiny_bond",
    "set": 3,
    "id": 21,
-   "file": "destiny_bond/destiny_bond_021.png"
-  },
-  {
-   "x": 1,
-   "y": 304,
-   "w": 14,
-   "h": 14,
-   "area": 164,
-   "ncolors": 3,
-   "dominant": "#88F060",
-   "dom_frac": 0.439,
-   "kind": "sprite",
-   "zone": null,
-   "set": 8,
-   "id": 36,
-   "file": "shadow_punch/shadow_punch_036.png"
-  },
-  {
-   "x": 20,
-   "y": 299,
-   "w": 24,
-   "h": 24,
-   "area": 240,
-   "ncolors": 6,
-   "dominant": "#F0F0F0",
-   "dom_frac": 0.45,
-   "kind": "sprite",
-   "zone": null,
-   "set": 8,
-   "id": 37,
-   "file": "shadow_punch/shadow_punch_037.png"
+   "file": "destiny_bond/destiny_bond.png"
   }
  ],
- "status": "needs_review",
- "missing_stages": [
-  "decoupage",
-  "regroupement",
-  "nommage"
- ]
+ "status": "ok",
+ "missing_stages": []
 }

@@ -5,7 +5,7 @@
  "title": "Moldworm",
  "type": "sprites",
  "template": "none",
- "validation": "pending",
+ "validation": "verified",
  "sets": [
   {
    "id": 0,
@@ -71,48 +71,8 @@
  "entities": [
   {
    "id": 0,
-   "name": "moldworm_e000",
-   "file": "moldworm_e000.png",
-   "cell": [
-    11,
-    13
-   ],
-   "zone": null,
-   "set": null,
-   "template": "none",
-   "frames": [
-    {
-     "item": 0,
-     "role": "frame_0",
-     "src": [
-      63,
-      4,
-      11,
-      11
-     ]
-    },
-    {
-     "item": 1,
-     "role": "frame_1",
-     "src": [
-      78,
-      2,
-      7,
-      7
-     ]
-    }
-   ],
-   "box": [
-    63,
-    2,
-    22,
-    13
-   ]
-  },
-  {
-   "id": 1,
-   "name": "moldworm_e001",
-   "file": "moldworm_e001.png",
+   "name": "head_front",
+   "file": "head_front.png",
    "cell": [
     14,
     17
@@ -150,9 +110,9 @@
    ]
   },
   {
-   "id": 2,
-   "name": "moldworm_e002",
-   "file": "moldworm_e002.png",
+   "id": 1,
+   "name": "head_side",
+   "file": "head_side.png",
    "cell": [
     18,
     16
@@ -190,9 +150,9 @@
    ]
   },
   {
-   "id": 3,
-   "name": "moldworm_e003",
-   "file": "moldworm_e003.png",
+   "id": 2,
+   "name": "body_segment_large",
+   "file": "body_segment_large.png",
    "cell": [
     16,
     16
@@ -240,9 +200,9 @@
    ]
   },
   {
-   "id": 4,
-   "name": "moldworm_e004",
-   "file": "moldworm_e004.png",
+   "id": 3,
+   "name": "head_diag_up",
+   "file": "head_diag_up.png",
    "cell": [
     17,
     16
@@ -280,9 +240,9 @@
    ]
   },
   {
-   "id": 5,
-   "name": "moldworm_e005",
-   "file": "moldworm_e005.png",
+   "id": 4,
+   "name": "head_back",
+   "file": "head_back.png",
    "cell": [
     14,
     16
@@ -320,9 +280,9 @@
    ]
   },
   {
-   "id": 6,
-   "name": "moldworm_e006",
-   "file": "moldworm_e006.png",
+   "id": 5,
+   "name": "head_diag_down",
+   "file": "head_diag_down.png",
    "cell": [
     17,
     16
@@ -360,9 +320,9 @@
    ]
   },
   {
-   "id": 7,
-   "name": "moldworm_e007",
-   "file": "moldworm_e007.png",
+   "id": 6,
+   "name": "sand_burrow",
+   "file": "sand_burrow.png",
    "cell": [
     30,
     16
@@ -438,36 +398,73 @@
     132,
     16
    ]
+  },
+  {
+   "id": 7,
+   "name": "body_segment_small",
+   "file": "body_segment_small.png",
+   "cell": [
+    14,
+    14
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 4,
+     "role": "frame_0",
+     "src": [
+      45,
+      3,
+      13,
+      13
+     ]
+    },
+    {
+     "item": 0,
+     "role": "frame_1",
+     "src": [
+      63,
+      4,
+      11,
+      11
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_2",
+     "src": [
+      78,
+      2,
+      7,
+      7
+     ]
+    }
+   ],
+   "box": [
+    45,
+    2,
+    40,
+    14
+   ]
   }
  ],
  "items": [
   {
-   "x": 45,
+   "x": 79,
    "y": 3,
-   "w": 13,
-   "h": 13,
-   "area": 137,
-   "ncolors": 4,
-   "dominant": "#F8C0A0",
-   "dom_frac": 0.533,
-   "kind": "sprite",
-   "zone": null,
-   "id": 4,
-   "file": "moldworm_004.png"
-  },
-  {
-   "x": 82,
-   "y": 3,
-   "w": 41,
-   "h": 53,
-   "area": 874,
-   "ncolors": 21,
+   "w": 44,
+   "h": 54,
+   "area": 662,
+   "ncolors": 5,
    "dominant": "#F87050",
-   "dom_frac": 0.418,
+   "dom_frac": 0.551,
    "kind": "sprite",
    "zone": null,
+   "name": "worm_assembled_tail",
    "id": 7,
-   "file": "moldworm_007.png"
+   "file": "worm_assembled_tail.png"
   },
   {
    "x": 102,
@@ -480,14 +477,11 @@
    "dom_frac": 0.343,
    "kind": "sprite",
    "zone": null,
+   "name": "worm_assembled_burrowed",
    "id": 15,
-   "file": "moldworm_015.png"
+   "file": "worm_assembled_burrowed.png"
   }
  ],
- "status": "needs_review",
- "missing_stages": [
-  "decoupage",
-  "regroupement",
-  "nommage"
- ]
+ "status": "ok",
+ "missing_stages": []
 }

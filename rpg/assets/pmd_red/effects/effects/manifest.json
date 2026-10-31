@@ -5,7 +5,7 @@
  "title": "Effects",
  "type": "sprites",
  "template": "none",
- "validation": "pending",
+ "validation": "verified",
  "sets": [
   {
    "id": 0,
@@ -101,8 +101,8 @@
  "entities": [
   {
    "id": 0,
-   "name": "effects_e000",
-   "file": "effects_e000.png",
+   "name": "water_ripple",
+   "file": "water_ripple.png",
    "cell": [
     24,
     8
@@ -125,9 +125,9 @@
      "item": 1,
      "role": "frame_1",
      "src": [
-      33,
+      32,
       10,
-      23,
+      24,
       8
      ]
     },
@@ -151,8 +151,8 @@
   },
   {
    "id": 1,
-   "name": "effects_e001",
-   "file": "effects_e001.png",
+   "name": "shadow",
+   "file": "shadow.png",
    "cell": [
     22,
     8
@@ -201,78 +201,8 @@
   },
   {
    "id": 2,
-   "name": "effects_e002",
-   "file": "effects_e002.png",
-   "cell": [
-    11,
-    12
-   ],
-   "zone": null,
-   "set": null,
-   "template": "none",
-   "frames": [
-    {
-     "item": 7,
-     "role": "frame_0",
-     "src": [
-      154,
-      14,
-      11,
-      8
-     ]
-    },
-    {
-     "item": 8,
-     "role": "frame_1",
-     "src": [
-      167,
-      13,
-      8,
-      9
-     ]
-    },
-    {
-     "item": 9,
-     "role": "frame_2",
-     "src": [
-      185,
-      10,
-      7,
-      12
-     ]
-    },
-    {
-     "item": 10,
-     "role": "frame_3",
-     "src": [
-      195,
-      14,
-      7,
-      8
-     ]
-    },
-    {
-     "item": 11,
-     "role": "frame_4",
-     "src": [
-      204,
-      16,
-      7,
-      6
-     ]
-    }
-   ],
-   "box": [
-    154,
-    10,
-    57,
-    12
-   ]
-  },
-  {
-   "id": 3,
-   "name": "effects_e003",
-   "file": "effects_e003.png",
+   "name": "impact_flash",
+   "file": "impact_flash.png",
    "cell": [
     23,
     23
@@ -310,9 +240,9 @@
    ]
   },
   {
-   "id": 4,
-   "name": "effects_e004",
-   "file": "effects_e004.png",
+   "id": 3,
+   "name": "question_mark",
+   "file": "question_mark.png",
    "cell": [
     9,
     14
@@ -430,9 +360,9 @@
    ]
   },
   {
-   "id": 5,
-   "name": "effects_e005",
-   "file": "effects_e005.png",
+   "id": 4,
+   "name": "sweat_drop",
+   "file": "sweat_drop.png",
    "cell": [
     5,
     12
@@ -470,9 +400,9 @@
    ]
   },
   {
-   "id": 6,
-   "name": "effects_e006",
-   "file": "effects_e006.png",
+   "id": 5,
+   "name": "exclamation_mark",
+   "file": "exclamation_mark.png",
    "cell": [
     7,
     13
@@ -540,9 +470,9 @@
    ]
   },
   {
-   "id": 7,
-   "name": "effects_e007",
-   "file": "effects_e007.png",
+   "id": 6,
+   "name": "sparkles",
+   "file": "sparkles.png",
    "cell": [
     5,
     5
@@ -555,6 +485,16 @@
      "item": 31,
      "role": "frame_0",
      "src": [
+      209,
+      68,
+      1,
+      1
+     ]
+    },
+    {
+     "item": 32,
+     "role": "frame_1",
+     "src": [
       211,
       67,
       3,
@@ -562,8 +502,8 @@
      ]
     },
     {
-     "item": 32,
-     "role": "frame_1",
+     "item": 33,
+     "role": "frame_2",
      "src": [
       215,
       66,
@@ -573,16 +513,16 @@
     }
    ],
    "box": [
-    211,
+    209,
     66,
-    9,
+    11,
     5
    ]
   },
   {
-   "id": 8,
-   "name": "effects_e008",
-   "file": "effects_e008.png",
+   "id": 7,
+   "name": "rainbow_wing",
+   "file": "rainbow_wing.png",
    "cell": [
     16,
     16
@@ -592,7 +532,7 @@
    "template": "none",
    "frames": [
     {
-     "item": 33,
+     "item": 34,
      "role": "frame_0",
      "src": [
       75,
@@ -602,7 +542,7 @@
      ]
     },
     {
-     "item": 34,
+     "item": 35,
      "role": "frame_1",
      "src": [
       93,
@@ -612,7 +552,7 @@
      ]
     },
     {
-     "item": 35,
+     "item": 36,
      "role": "frame_2",
      "src": [
       111,
@@ -622,7 +562,7 @@
      ]
     },
     {
-     "item": 36,
+     "item": 37,
      "role": "frame_3",
      "src": [
       128,
@@ -632,7 +572,7 @@
      ]
     },
     {
-     "item": 37,
+     "item": 38,
      "role": "frame_4",
      "src": [
       146,
@@ -642,7 +582,7 @@
      ]
     },
     {
-     "item": 38,
+     "item": 39,
      "role": "frame_5",
      "src": [
       164,
@@ -652,7 +592,7 @@
      ]
     },
     {
-     "item": 39,
+     "item": 40,
      "role": "frame_6",
      "src": [
       182,
@@ -670,9 +610,9 @@
    ]
   },
   {
-   "id": 9,
-   "name": "effects_e009",
-   "file": "effects_e009.png",
+   "id": 8,
+   "name": "electric_spark",
+   "file": "electric_spark.png",
    "cell": [
     22,
     16
@@ -682,7 +622,7 @@
    "template": "none",
    "frames": [
     {
-     "item": 40,
+     "item": 41,
      "role": "frame_0",
      "src": [
       8,
@@ -692,7 +632,7 @@
      ]
     },
     {
-     "item": 41,
+     "item": 42,
      "role": "frame_1",
      "src": [
       27,
@@ -702,7 +642,7 @@
      ]
     },
     {
-     "item": 42,
+     "item": 43,
      "role": "frame_2",
      "src": [
       45,
@@ -720,49 +660,9 @@
    ]
   },
   {
-   "id": 10,
-   "name": "effects_e010",
-   "file": "effects_e010.png",
-   "cell": [
-    16,
-    16
-   ],
-   "zone": null,
-   "set": null,
-   "template": "none",
-   "frames": [
-    {
-     "item": 43,
-     "role": "frame_0",
-     "src": [
-      76,
-      81,
-      16,
-      16
-     ]
-    },
-    {
-     "item": 44,
-     "role": "frame_1",
-     "src": [
-      93,
-      81,
-      16,
-      16
-     ]
-    }
-   ],
-   "box": [
-    76,
-    81,
-    33,
-    16
-   ]
-  },
-  {
-   "id": 11,
-   "name": "effects_e011",
-   "file": "effects_e011.png",
+   "id": 9,
+   "name": "mystery_effect",
+   "file": "mystery_effect.png",
    "cell": [
     4,
     5
@@ -772,7 +672,7 @@
    "template": "none",
    "frames": [
     {
-     "item": 46,
+     "item": 47,
      "role": "frame_0",
      "src": [
       173,
@@ -782,7 +682,7 @@
      ]
     },
     {
-     "item": 47,
+     "item": 48,
      "role": "frame_1",
      "src": [
       181,
@@ -792,7 +692,7 @@
      ]
     },
     {
-     "item": 48,
+     "item": 49,
      "role": "frame_2",
      "src": [
       188,
@@ -803,7 +703,7 @@
      "duplicate_of": 0
     },
     {
-     "item": 49,
+     "item": 50,
      "role": "frame_3",
      "src": [
       196,
@@ -822,9 +722,9 @@
    ]
   },
   {
-   "id": 12,
-   "name": "effects_e012",
-   "file": "effects_e012.png",
+   "id": 10,
+   "name": "cursor_arrows",
+   "file": "cursor_arrows.png",
    "cell": [
     11,
     8
@@ -834,7 +734,7 @@
    "template": "none",
    "frames": [
     {
-     "item": 51,
+     "item": 52,
      "role": "frame_0",
      "src": [
       34,
@@ -844,7 +744,7 @@
      ]
     },
     {
-     "item": 52,
+     "item": 53,
      "role": "frame_1",
      "src": [
       47,
@@ -854,7 +754,7 @@
      ]
     },
     {
-     "item": 53,
+     "item": 54,
      "role": "frame_2",
      "src": [
       56,
@@ -864,7 +764,7 @@
      ]
     },
     {
-     "item": 54,
+     "item": 55,
      "role": "frame_3",
      "src": [
       65,
@@ -874,7 +774,7 @@
      ]
     },
     {
-     "item": 55,
+     "item": 56,
      "role": "frame_4",
      "src": [
       74,
@@ -892,9 +792,9 @@
    ]
   },
   {
-   "id": 13,
-   "name": "effects_e013",
-   "file": "effects_e013.png",
+   "id": 11,
+   "name": "corner_brackets",
+   "file": "corner_brackets.png",
    "cell": [
     7,
     7
@@ -904,7 +804,7 @@
    "template": "none",
    "frames": [
     {
-     "item": 56,
+     "item": 57,
      "role": "frame_0",
      "src": [
       101,
@@ -914,7 +814,7 @@
      ]
     },
     {
-     "item": 57,
+     "item": 58,
      "role": "frame_1",
      "src": [
       110,
@@ -925,7 +825,7 @@
      "mirror_of": 0
     },
     {
-     "item": 58,
+     "item": 59,
      "role": "frame_2",
      "src": [
       119,
@@ -935,7 +835,7 @@
      ]
     },
     {
-     "item": 59,
+     "item": 60,
      "role": "frame_3",
      "src": [
       128,
@@ -952,22 +852,119 @@
     34,
     7
    ]
+  },
+  {
+   "id": 12,
+   "name": "light_rays",
+   "file": "light_rays.png",
+   "cell": [
+    11,
+    12
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 7,
+     "role": "frame_0",
+     "src": [
+      154,
+      14,
+      11,
+      8
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_1",
+     "src": [
+      167,
+      13,
+      8,
+      9
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_2",
+     "src": [
+      178,
+      12,
+      4,
+      9
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_3",
+     "src": [
+      185,
+      10,
+      7,
+      12
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_4",
+     "src": [
+      195,
+      14,
+      7,
+      8
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_5",
+     "src": [
+      204,
+      16,
+      7,
+      6
+     ]
+    }
+   ],
+   "box": [
+    154,
+    10,
+    57,
+    12
+   ]
   }
  ],
  "items": [
   {
-   "x": 178,
-   "y": 12,
-   "w": 4,
-   "h": 9,
-   "area": 33,
-   "ncolors": 2,
-   "dominant": "#F8F000",
-   "dom_frac": 0.818,
+   "x": 76,
+   "y": 81,
+   "w": 16,
+   "h": 16,
+   "area": 128,
+   "ncolors": 8,
+   "dominant": "#000000",
+   "dom_frac": 0.375,
    "kind": "sprite",
    "zone": null,
-   "id": 6,
-   "file": "effects_006.png"
+   "name": "sunset_wing",
+   "id": 44,
+   "file": "sunset_wing.png"
+  },
+  {
+   "x": 93,
+   "y": 81,
+   "w": 16,
+   "h": 16,
+   "area": 128,
+   "ncolors": 4,
+   "dominant": "#000000",
+   "dom_frac": 0.375,
+   "kind": "sprite",
+   "zone": null,
+   "cut": true,
+   "name": "red_wing",
+   "id": 45,
+   "file": "red_wing.png"
   },
   {
    "x": 111,
@@ -980,8 +977,9 @@
    "dom_frac": 0.32,
    "kind": "sprite",
    "zone": null,
-   "id": 45,
-   "file": "effects_045.png"
+   "name": "clear_wing",
+   "id": 46,
+   "file": "clear_wing.png"
   },
   {
    "x": 6,
@@ -994,14 +992,11 @@
    "dom_frac": 0.614,
    "kind": "sprite",
    "zone": null,
-   "id": 50,
-   "file": "effects_050.png"
+   "name": "warning_sign",
+   "id": 51,
+   "file": "warning_sign.png"
   }
  ],
- "status": "needs_review",
- "missing_stages": [
-  "decoupage",
-  "regroupement",
-  "nommage"
- ]
+ "status": "ok",
+ "missing_stages": []
 }

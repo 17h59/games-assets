@@ -5,7 +5,7 @@
  "title": "Spear Moblin",
  "type": "sprites",
  "template": "none",
- "validation": "pending",
+ "validation": "verified",
  "sets": [
   {
    "id": 0,
@@ -86,8 +86,8 @@
  "entities": [
   {
    "id": 0,
-   "name": "spear_moblin_e000",
-   "file": "spear_moblin_e000.png",
+   "name": "blue_walk_up",
+   "file": "blue_walk_up.png",
    "cell": [
     31,
     37
@@ -146,8 +146,8 @@
   },
   {
    "id": 1,
-   "name": "spear_moblin_e001",
-   "file": "spear_moblin_e001.png",
+   "name": "red_walk_up",
+   "file": "red_walk_up.png",
    "cell": [
     31,
     37
@@ -206,8 +206,8 @@
   },
   {
    "id": 2,
-   "name": "spear_moblin_e002",
-   "file": "spear_moblin_e002.png",
+   "name": "blue_walk_left",
+   "file": "blue_walk_left.png",
    "cell": [
     44,
     31
@@ -267,8 +267,8 @@
   },
   {
    "id": 3,
-   "name": "spear_moblin_e003",
-   "file": "spear_moblin_e003.png",
+   "name": "red_walk_left",
+   "file": "red_walk_left.png",
    "cell": [
     44,
     31
@@ -328,8 +328,8 @@
   },
   {
    "id": 4,
-   "name": "spear_moblin_e004",
-   "file": "spear_moblin_e004.png",
+   "name": "blue_walk_right",
+   "file": "blue_walk_right.png",
    "cell": [
     44,
     31
@@ -389,8 +389,8 @@
   },
   {
    "id": 5,
-   "name": "spear_moblin_e005",
-   "file": "spear_moblin_e005.png",
+   "name": "red_walk_right",
+   "file": "red_walk_right.png",
    "cell": [
     44,
     31
@@ -450,8 +450,8 @@
   },
   {
    "id": 6,
-   "name": "spear_moblin_e006",
-   "file": "spear_moblin_e006.png",
+   "name": "red_walk_down",
+   "file": "red_walk_down.png",
    "cell": [
     30,
     38
@@ -510,8 +510,8 @@
   },
   {
    "id": 7,
-   "name": "spear_moblin_e007",
-   "file": "spear_moblin_e007.png",
+   "name": "blue_charge_up",
+   "file": "blue_charge_up.png",
    "cell": [
     28,
     44
@@ -570,8 +570,8 @@
   },
   {
    "id": 8,
-   "name": "spear_moblin_e008",
-   "file": "spear_moblin_e008.png",
+   "name": "red_charge_up",
+   "file": "red_charge_up.png",
    "cell": [
     28,
     44
@@ -630,8 +630,8 @@
   },
   {
    "id": 9,
-   "name": "spear_moblin_e009",
-   "file": "spear_moblin_e009.png",
+   "name": "blue_charge_left",
+   "file": "blue_charge_left.png",
    "cell": [
     55,
     32
@@ -690,8 +690,8 @@
   },
   {
    "id": 10,
-   "name": "spear_moblin_e010",
-   "file": "spear_moblin_e010.png",
+   "name": "red_charge_left",
+   "file": "red_charge_left.png",
    "cell": [
     55,
     32
@@ -750,8 +750,8 @@
   },
   {
    "id": 11,
-   "name": "spear_moblin_e011",
-   "file": "spear_moblin_e011.png",
+   "name": "blue_charge_right",
+   "file": "blue_charge_right.png",
    "cell": [
     55,
     32
@@ -810,8 +810,8 @@
   },
   {
    "id": 12,
-   "name": "spear_moblin_e012",
-   "file": "spear_moblin_e012.png",
+   "name": "red_charge_right",
+   "file": "red_charge_right.png",
    "cell": [
     55,
     32
@@ -870,8 +870,8 @@
   },
   {
    "id": 13,
-   "name": "spear_moblin_e013",
-   "file": "spear_moblin_e013.png",
+   "name": "red_charge_down",
+   "file": "red_charge_down.png",
    "cell": [
     27,
     40
@@ -931,138 +931,8 @@
   },
   {
    "id": 14,
-   "name": "spear_moblin_e014",
-   "file": "spear_moblin_e014.png",
-   "cell": [
-    16,
-    11
-   ],
-   "zone": null,
-   "set": null,
-   "template": "none",
-   "frames": [
-    {
-     "item": 82,
-     "role": "frame_0",
-     "src": [
-      240,
-      395,
-      12,
-      8
-     ]
-    },
-    {
-     "item": 83,
-     "role": "frame_1",
-     "src": [
-      253,
-      393,
-      16,
-      11
-     ]
-    }
-   ],
-   "box": [
-    240,
-    393,
-    29,
-    11
-   ]
-  },
-  {
-   "id": 15,
-   "name": "spear_moblin_e015",
-   "file": "spear_moblin_e015.png",
-   "cell": [
-    30,
-    16
-   ],
-   "zone": null,
-   "set": null,
-   "template": "none",
-   "frames": [
-    {
-     "item": 84,
-     "role": "frame_0",
-     "src": [
-      270,
-      392,
-      20,
-      14
-     ]
-    },
-    {
-     "item": 85,
-     "role": "frame_1",
-     "src": [
-      291,
-      392,
-      28,
-      15
-     ]
-    },
-    {
-     "item": 86,
-     "role": "frame_2",
-     "src": [
-      320,
-      391,
-      30,
-      16
-     ]
-    },
-    {
-     "item": 87,
-     "role": "frame_3",
-     "src": [
-      351,
-      391,
-      30,
-      16
-     ]
-    },
-    {
-     "item": 88,
-     "role": "frame_4",
-     "src": [
-      382,
-      392,
-      30,
-      15
-     ]
-    },
-    {
-     "item": 89,
-     "role": "frame_5",
-     "src": [
-      413,
-      393,
-      30,
-      14
-     ]
-    },
-    {
-     "item": 90,
-     "role": "frame_6",
-     "src": [
-      444,
-      393,
-      30,
-      14
-     ]
-    }
-   ],
-   "box": [
-    270,
-    391,
-    204,
-    16
-   ]
-  },
-  {
-   "id": 16,
-   "name": "spear_moblin_e016",
-   "file": "spear_moblin_e016.png",
+   "name": "blue_walk_down",
+   "file": "blue_walk_down.png",
    "cell": [
     30,
     38
@@ -1120,9 +990,9 @@
    ]
   },
   {
-   "id": 17,
-   "name": "spear_moblin_e017",
-   "file": "spear_moblin_e017.png",
+   "id": 15,
+   "name": "blue_charge_down",
+   "file": "blue_charge_down.png",
    "cell": [
     27,
     40
@@ -1181,9 +1051,9 @@
    ]
   },
   {
-   "id": 18,
-   "name": "spear_moblin_e018",
-   "file": "spear_moblin_e018.png",
+   "id": 16,
+   "name": "dust_puff_blue",
+   "file": "dust_puff_blue.png",
    "cell": [
     16,
     16
@@ -1271,9 +1141,9 @@
    ]
   },
   {
-   "id": 19,
-   "name": "spear_moblin_e019",
-   "file": "spear_moblin_e019.png",
+   "id": 17,
+   "name": "dust_puff_red",
+   "file": "dust_puff_red.png",
    "cell": [
     16,
     16
@@ -1359,6 +1229,176 @@
     65,
     16
    ]
+  },
+  {
+   "id": 18,
+   "name": "hit_spark",
+   "file": "hit_spark.png",
+   "cell": [
+    22,
+    22
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 80,
+     "role": "frame_0",
+     "src": [
+      176,
+      393,
+      15,
+      15
+     ]
+    },
+    {
+     "item": 81,
+     "role": "frame_1",
+     "src": [
+      193,
+      397,
+      7,
+      7
+     ]
+    },
+    {
+     "item": 79,
+     "role": "frame_2",
+     "src": [
+      201,
+      389,
+      22,
+      22
+     ]
+    },
+    {
+     "item": 82,
+     "role": "frame_3",
+     "src": [
+      224,
+      393,
+      14,
+      14
+     ]
+    }
+   ],
+   "box": [
+    176,
+    389,
+    62,
+    22
+   ]
+  },
+  {
+   "id": 19,
+   "name": "death_smoke",
+   "file": "death_smoke.png",
+   "cell": [
+    30,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 83,
+     "role": "frame_0",
+     "src": [
+      240,
+      395,
+      12,
+      8
+     ]
+    },
+    {
+     "item": 84,
+     "role": "frame_1",
+     "src": [
+      253,
+      393,
+      16,
+      11
+     ]
+    },
+    {
+     "item": 85,
+     "role": "frame_2",
+     "src": [
+      270,
+      392,
+      20,
+      14
+     ]
+    },
+    {
+     "item": 86,
+     "role": "frame_3",
+     "src": [
+      291,
+      392,
+      28,
+      15
+     ]
+    },
+    {
+     "item": 87,
+     "role": "frame_4",
+     "src": [
+      320,
+      391,
+      30,
+      16
+     ]
+    },
+    {
+     "item": 88,
+     "role": "frame_5",
+     "src": [
+      351,
+      391,
+      30,
+      16
+     ]
+    },
+    {
+     "item": 89,
+     "role": "frame_6",
+     "src": [
+      382,
+      392,
+      30,
+      15
+     ]
+    },
+    {
+     "item": 90,
+     "role": "frame_7",
+     "src": [
+      413,
+      393,
+      30,
+      14
+     ]
+    },
+    {
+     "item": 91,
+     "role": "frame_8",
+     "src": [
+      444,
+      393,
+      30,
+      14
+     ]
+    }
+   ],
+   "box": [
+    240,
+    391,
+    234,
+    16
+   ]
   }
  ],
  "items": [
@@ -1373,56 +1413,11 @@
    "dom_frac": 0.168,
    "kind": "sprite",
    "zone": null,
+   "name": "hurt",
    "id": 78,
-   "file": "spear_moblin_078.png"
-  },
-  {
-   "x": 201,
-   "y": 389,
-   "w": 22,
-   "h": 22,
-   "area": 116,
-   "ncolors": 4,
-   "dominant": "#F8F8F8",
-   "dom_frac": 0.448,
-   "kind": "sprite",
-   "zone": null,
-   "id": 79,
-   "file": "spear_moblin_079.png"
-  },
-  {
-   "x": 176,
-   "y": 393,
-   "w": 24,
-   "h": 15,
-   "area": 114,
-   "ncolors": 3,
-   "dominant": "#F8F8F8",
-   "dom_frac": 0.447,
-   "kind": "sprite",
-   "zone": null,
-   "id": 80,
-   "file": "spear_moblin_080.png"
-  },
-  {
-   "x": 224,
-   "y": 393,
-   "w": 14,
-   "h": 14,
-   "area": 164,
-   "ncolors": 11,
-   "dominant": "#706060",
-   "dom_frac": 0,
-   "kind": "sprite",
-   "zone": null,
-   "id": 81,
-   "file": "spear_moblin_081.png"
+   "file": "hurt.png"
   }
  ],
- "status": "needs_review",
- "missing_stages": [
-  "decoupage",
-  "regroupement",
-  "nommage"
- ]
+ "status": "ok",
+ "missing_stages": []
 }

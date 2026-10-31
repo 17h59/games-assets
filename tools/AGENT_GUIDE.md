@@ -22,6 +22,7 @@ tools/sk drop ID 12 15 e3          jette des items (numéros) ou toutes les fram
 tools/sk keep ID 40 41             récupère des items jetés à tort (texte, encart, débris)
 tools/sk merge ID 7 8 9            fusionne plusieurs items en un seul (objet en morceaux)
 tools/sk split ID 22               re-découpe un item qui contient plusieurs sprites collés
+                                   (si le split d'un grand CADRE crée des sprites en double : `set ID split_own=true`)
 tools/sk add ID x,y,w,h            boîte forcée : tout ce qui est dedans devient UN item
 tools/sk carve ID x,y,w,h          découpe AU PIXEL PRÈS : les pixels du rectangle deviennent UN item, retirés de
                                    l'item qui les contenait (sprites collés sans aucun pixel transparent entre eux)
@@ -185,7 +186,7 @@ Combine avec les zones quand une feuille mélange plusieurs rangements.
 
 Paramètres disponibles (voir `sk show`) : `bg bg_tol bg_mode black_bg peel peel_min_area gap min_size min_area
 drop_text text_max_h drop_junk layout block_gap grid_min_conf grid_pitch grid_origin frag_gap group frames frames_alt
-entity_shape frame_order col_tol row_tol row_split_gap cell anchor template palette_sim palette_dist`.
+entity_shape frame_order col_tol row_tol row_split_gap cell anchor template palette_sim palette_dist split_own`.
 
 La ligne `disposition` du rapport dit comment chaque bloc a été découpé : `grille` (pas régulier), `xycut`
 (feuille régulière assemblée à la main : sprites collés séparés, ombres/armes détachées rattachées), `taches`
@@ -260,6 +261,7 @@ tools/sk objsplit ID 7 0,0,2,2        découpe l'objet #7 : rectangle EN TUILES 
                                       (lignes pointillées cyan = grille des tuiles) ; plusieurs rectangles possibles ;
                                       le reste forme d'autres morceaux, ajoutés EN FIN de page (nouveaux numéros)
 tools/sk objsplit ID 7 undo           annule un découpage (l'objet #7 est marqué DÉCOUPÉ)
+tools/sk set ID split_pieces=true     si un objet découpé DISPARAÎT de la page sans morceaux en fin de page
 tools/sk objname ID 5 red_mailbox     nomme un objet (anglais, snake_case) : utile mais pas obligatoire
 ```
 

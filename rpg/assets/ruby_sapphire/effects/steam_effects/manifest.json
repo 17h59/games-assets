@@ -5,15 +5,15 @@
  "title": "Steam Effects",
  "type": "sprites",
  "template": "none",
- "validation": "pending",
+ "validation": "verified",
  "sets": [],
  "entities": [
   {
    "id": 0,
-   "name": "steam_effects_e000",
-   "file": "steam_effects_e000.png",
+   "name": "steam",
+   "file": "steam.png",
    "cell": [
-    7,
+    8,
     8
    ],
    "zone": null,
@@ -56,17 +56,7 @@
      "src": [
       24,
       3,
-      4,
-      8
-     ]
-    },
-    {
-     "item": 4,
-     "role": "frame_4",
-     "src": [
-      28,
-      3,
-      4,
+      8,
       8
      ]
     }
@@ -80,10 +70,6 @@
   }
  ],
  "items": [],
- "status": "needs_review",
- "missing_stages": [
-  "decoupage",
-  "regroupement",
-  "nommage"
- ]
+ "status": "ok",
+ "missing_stages": []
 }

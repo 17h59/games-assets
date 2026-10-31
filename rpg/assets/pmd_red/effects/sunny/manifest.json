@@ -5,7 +5,7 @@
  "title": "Sunny",
  "type": "sprites",
  "template": "none",
- "validation": "pending",
+ "validation": "verified",
  "sets": [
   {
    "id": 0,
@@ -215,13 +215,23 @@
       111,
       80
      ]
+    },
+    {
+     "item": 17,
+     "role": "frame_12",
+     "src": [
+      147,
+      545,
+      35,
+      28
+     ]
     }
    ],
    "box": [
     40,
     8,
     666,
-    465
+    565
    ]
   }
  ],
@@ -297,20 +307,6 @@
    "file": "sunny_016.png"
   },
   {
-   "x": 147,
-   "y": 545,
-   "w": 35,
-   "h": 28,
-   "area": 384,
-   "ncolors": 3,
-   "dominant": "#F7F78C",
-   "dom_frac": 0.587,
-   "kind": "sprite",
-   "zone": null,
-   "id": 17,
-   "file": "sunny_017.png"
-  },
-  {
    "x": 450,
    "y": 570,
    "w": 4,
@@ -339,10 +335,6 @@
    "file": "sunny_019.png"
   }
  ],
- "status": "needs_review",
- "missing_stages": [
-  "decoupage",
-  "regroupement",
-  "nommage"
- ]
+ "status": "ok",
+ "missing_stages": []
 }

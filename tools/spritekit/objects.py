@@ -337,6 +337,8 @@ def load_overrides(game):
         ov["drop"] += o.get("drop", [])
         ov["names"].update(o.get("names", {}))
         ov["split"].update(o.get("split", {}))
+        if c.get("params", {}).get("split_pieces"):  # 2026-10-30, opt-in par page (voir _late_splits)
+            ov.setdefault("split_late", set()).update(o.get("split", {}))
     return ov
 
 
@@ -480,6 +482,26 @@ def _auto_split(groups, ov, pixels, t):
     return out
 
 
+def _late_splits(groups, ov, parents):
+    """objsplit d'un objet qui N'EXISTE qu'après la découpe automatique (morceau d'un plus grand objet) ou
+    après un autre objsplit : le premier passage ne le voit pas, l'objet disparaissait de sa page sans
+    morceaux (constaté le 2026-10-30, obj_minish_cap_11 #27). Opt-in par page : param split_pieces=true
+    (les pages déjà validées ne changent pas tant qu'on ne l'active pas)."""
+    late = ov.get("split_late", set())
+    for _ in range(4):  # morceaux de morceaux
+        todo = [sig for sig in groups if sig in late and sig not in parents]
+        if not todo:
+            return
+        for sig in todo:
+            os_ = groups.pop(sig)
+            parents[sig] = os_[0]
+            for o in os_:
+                for sub, (dx, dy) in _split_layout(o["layout"], ov["split"][sig]):
+                    n = int((sub >= 0).sum())
+                    groups[signature(sub)].append(dict(o, layout=sub, pos=[o["pos"][0] + dx, o["pos"][1] + dy], n=n,
+                                                       parent=sig, too_big=n > 144 or max(sub.shape) > 16))
+
+
 def _build(game, min_tiles=1, shadows=True):
     """Extrait les objets d'un jeu vers rpg/assets/<jeu>/objects/ et met à jour les pages de vérification.
     Les objets sont identifiés par la signature de leur disposition de tuiles (stable tant que la
@@ -507,6 +529,7 @@ def _build(game, min_tiles=1, shadows=True):
         else:
             groups[sig].append(o)
     groups = _auto_split(groups, ov, pixels, t)
+    _late_splits(groups, ov, parents)
     out = os.path.join(config.ASSETS, game, "objects")
     os.makedirs(out, exist_ok=True)
     catalog, wanted = [], set()

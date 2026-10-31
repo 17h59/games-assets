@@ -5,7 +5,7 @@
  "title": "Water Droplet",
  "type": "sprites",
  "template": "none",
- "validation": "pending",
+ "validation": "verified",
  "sets": [
   {
    "id": 0,
@@ -86,8 +86,8 @@
  "entities": [
   {
    "id": 0,
-   "name": "water_droplet_e000",
-   "file": "water_droplet_e000.png",
+   "name": "splash_left",
+   "file": "splash_left.png",
    "cell": [
     23,
     39
@@ -107,28 +107,67 @@
      ]
     },
     {
-     "item": 2,
+     "item": 3,
      "role": "frame_1",
+     "src": [
+      154,
+      4,
+      21,
+      39
+     ]
+    }
+   ],
+   "box": [
+    89,
+    4,
+    86,
+    43
+   ]
+  },
+  {
+   "id": 1,
+   "name": "splash_right",
+   "file": "splash_right.png",
+   "cell": [
+    23,
+    39
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 2,
+     "role": "frame_0",
      "src": [
       120,
       8,
       23,
       39
-     ],
-     "mirror_of": 0
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_1",
+     "src": [
+      188,
+      4,
+      21,
+      39
+     ]
     }
    ],
    "box": [
+    120,
+    4,
     89,
-    8,
-    54,
-    39
+    43
    ]
   },
   {
-   "id": 1,
-   "name": "water_droplet_e001",
-   "file": "water_droplet_e001.png",
+   "id": 2,
+   "name": "droplet_particle",
+   "file": "droplet_particle.png",
    "cell": [
     6,
     6
@@ -164,6 +203,46 @@
     16,
     6
    ]
+  },
+  {
+   "id": 3,
+   "name": "water_ripple",
+   "file": "water_ripple.png",
+   "cell": [
+    38,
+    34
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 9,
+     "role": "frame_0",
+     "src": [
+      217,
+      26,
+      28,
+      22
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_1",
+     "src": [
+      253,
+      11,
+      38,
+      34
+     ]
+    }
+   ],
+   "box": [
+    217,
+    11,
+    74,
+    37
+   ]
   }
  ],
  "items": [
@@ -178,51 +257,9 @@
    "dom_frac": 0.354,
    "kind": "sprite",
    "zone": null,
+   "name": "splash_ring",
    "id": 0,
-   "file": "water_droplet_000.png"
-  },
-  {
-   "x": 154,
-   "y": 4,
-   "w": 21,
-   "h": 39,
-   "area": 264,
-   "ncolors": 3,
-   "dominant": "#28A0F0",
-   "dom_frac": 0.49,
-   "kind": "sprite",
-   "zone": null,
-   "id": 3,
-   "file": "water_droplet_003.png"
-  },
-  {
-   "x": 188,
-   "y": 4,
-   "w": 21,
-   "h": 39,
-   "area": 264,
-   "ncolors": 3,
-   "dominant": "#28A0F0",
-   "dom_frac": 0.49,
-   "kind": "sprite",
-   "zone": null,
-   "id": 4,
-   "file": "water_droplet_004.png",
-   "mirror_of": 1
-  },
-  {
-   "x": 253,
-   "y": 11,
-   "w": 38,
-   "h": 34,
-   "area": 168,
-   "ncolors": 2,
-   "dominant": "#48D0F8",
-   "dom_frac": 0.857,
-   "kind": "sprite",
-   "zone": null,
-   "id": 5,
-   "file": "water_droplet_005.png"
+   "file": "splash_ring.png"
   },
   {
    "x": 8,
@@ -235,28 +272,11 @@
    "dom_frac": 0.531,
    "kind": "sprite",
    "zone": null,
+   "name": "water_droplet",
    "id": 8,
-   "file": "water_droplet_008.png"
-  },
-  {
-   "x": 217,
-   "y": 26,
-   "w": 28,
-   "h": 22,
-   "area": 128,
-   "ncolors": 2,
-   "dominant": "#48D0F8",
-   "dom_frac": 0.906,
-   "kind": "sprite",
-   "zone": null,
-   "id": 9,
-   "file": "water_droplet_009.png"
+   "file": "water_droplet.png"
   }
  ],
- "status": "needs_review",
- "missing_stages": [
-  "decoupage",
-  "regroupement",
-  "nommage"
- ]
+ "status": "ok",
+ "missing_stages": []
 }

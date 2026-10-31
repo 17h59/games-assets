@@ -5,7 +5,7 @@
  "title": "Dark-Type Moves",
  "type": "sprites",
  "template": "none",
- "validation": "pending",
+ "validation": "verified",
  "sets": [
   {
    "id": 0,
@@ -175,21 +175,6 @@
   {
    "id": 11,
    "box": [
-    20,
-    1398,
-    66,
-    2
-   ],
-   "point": [
-    53,
-    1399
-   ],
-   "name": null,
-   "folder": "set_11"
-  },
-  {
-   "id": 12,
-   "box": [
     432,
     1416,
     133,
@@ -203,7 +188,7 @@
    "folder": "none"
   },
   {
-   "id": 13,
+   "id": 12,
    "box": [
     432,
     1431,
@@ -221,8 +206,8 @@
  "entities": [
   {
    "id": 0,
-   "name": "beat_up_e000",
-   "file": "beat_up/beat_up_e000.png",
+   "name": "beat_up_bell",
+   "file": "beat_up/beat_up_bell.png",
    "cell": [
     14,
     16
@@ -324,101 +309,1076 @@
   },
   {
    "id": 1,
-   "name": "beat_up_e001",
-   "file": "beat_up/beat_up_e001.png",
+   "name": "bite_side",
+   "file": "bite_crunch/bite_side.png",
    "cell": [
-    60,
-    60
+    24,
+    48
    ],
    "zone": null,
-   "set": 0,
+   "set": 1,
    "template": "none",
    "frames": [
     {
-     "item": 12,
+     "item": 23,
      "role": "frame_0",
      "src": [
-      138,
-      59,
-      48,
+      8,
+      237,
+      24,
       48
      ]
     },
     {
-     "item": 13,
+     "item": 24,
      "role": "frame_1",
      "src": [
-      192,
-      55,
-      56,
-      56
-     ]
-    },
-    {
-     "item": 14,
-     "role": "frame_2",
-     "src": [
-      256,
-      53,
-      60,
-      60
+      40,
+      255,
+      24,
+      29
      ]
     }
    ],
    "box": [
-    138,
-    53,
-    178,
-    60
+    8,
+    237,
+    56,
+    48
    ]
   },
   {
    "id": 2,
-   "name": "beat_up_e002",
-   "file": "beat_up/beat_up_e002.png",
+   "name": "bite_diag_down",
+   "file": "bite_crunch/bite_diag_down.png",
    "cell": [
-    40,
-    40
+    30,
+    47
+   ],
+   "zone": null,
+   "set": 1,
+   "template": "none",
+   "frames": [
+    {
+     "item": 25,
+     "role": "frame_0",
+     "src": [
+      2,
+      287,
+      30,
+      47
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_1",
+     "src": [
+      36,
+      305,
+      30,
+      28
+     ]
+    }
+   ],
+   "box": [
+    2,
+    287,
+    64,
+    47
+   ]
+  },
+  {
+   "id": 3,
+   "name": "bite_diag_up",
+   "file": "bite_crunch/bite_diag_up.png",
+   "cell": [
+    30,
+    51
+   ],
+   "zone": null,
+   "set": 1,
+   "template": "none",
+   "frames": [
+    {
+     "item": 27,
+     "role": "frame_0",
+     "src": [
+      5,
+      336,
+      30,
+      51
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_1",
+     "src": [
+      41,
+      350,
+      30,
+      32
+     ]
+    }
+   ],
+   "box": [
+    5,
+    336,
+    66,
+    51
+   ]
+  },
+  {
+   "id": 4,
+   "name": "fake_tears_drop",
+   "file": "fake_tears/fake_tears_drop.png",
+   "cell": [
+    11,
+    8
+   ],
+   "zone": null,
+   "set": 3,
+   "template": "none",
+   "frames": [
+    {
+     "item": 30,
+     "role": "frame_0",
+     "src": [
+      2,
+      491,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_1",
+     "src": [
+      14,
+      491,
+      9,
+      8
+     ]
+    },
+    {
+     "item": 32,
+     "role": "frame_2",
+     "src": [
+      30,
+      491,
+      11,
+      7
+     ]
+    },
+    {
+     "item": 33,
+     "role": "frame_3",
+     "src": [
+      49,
+      491,
+      6,
+      6
+     ]
+    },
+    {
+     "item": 34,
+     "role": "frame_4",
+     "src": [
+      58,
+      491,
+      8,
+      8
+     ]
+    }
+   ],
+   "box": [
+    2,
+    491,
+    64,
+    8
+   ]
+  },
+  {
+   "id": 5,
+   "name": "fake_tears_splash",
+   "file": "fake_tears/fake_tears_splash.png",
+   "cell": [
+    17,
+    8
+   ],
+   "zone": null,
+   "set": 3,
+   "template": "none",
+   "frames": [
+    {
+     "item": 35,
+     "role": "frame_0",
+     "src": [
+      3,
+      502,
+      10,
+      5
+     ]
+    },
+    {
+     "item": 36,
+     "role": "frame_1",
+     "src": [
+      21,
+      502,
+      10,
+      5
+     ],
+     "duplicate_of": 0
+    },
+    {
+     "item": 37,
+     "role": "frame_2",
+     "src": [
+      39,
+      502,
+      11,
+      6
+     ]
+    },
+    {
+     "item": 38,
+     "role": "frame_3",
+     "src": [
+      57,
+      501,
+      17,
+      8
+     ]
+    }
+   ],
+   "box": [
+    3,
+    501,
+    71,
+    8
+   ]
+  },
+  {
+   "id": 6,
+   "name": "flatter_beam_narrow",
+   "file": "flatter/flatter_beam_narrow.png",
+   "cell": [
+    2,
+    32
+   ],
+   "zone": null,
+   "set": 4,
+   "template": "none",
+   "frames": [
+    {
+     "item": 54,
+     "role": "frame_0",
+     "src": [
+      16,
+      586,
+      2,
+      32
+     ]
+    },
+    {
+     "item": 55,
+     "role": "frame_1",
+     "src": [
+      26,
+      586,
+      2,
+      32
+     ]
+    }
+   ],
+   "box": [
+    16,
+    586,
+    12,
+    32
+   ]
+  },
+  {
+   "id": 7,
+   "name": "flatter_ducks",
+   "file": "flatter/flatter_ducks.png",
+   "cell": [
+    32,
+    16
+   ],
+   "zone": null,
+   "set": 4,
+   "template": "none",
+   "frames": [
+    {
+     "item": 71,
+     "role": "frame_0",
+     "src": [
+      4,
+      778,
+      12,
+      15
+     ]
+    },
+    {
+     "item": 72,
+     "role": "frame_1",
+     "src": [
+      21,
+      780,
+      11,
+      14
+     ]
+    },
+    {
+     "item": 73,
+     "role": "frame_2",
+     "src": [
+      39,
+      779,
+      11,
+      15
+     ]
+    },
+    {
+     "item": 74,
+     "role": "frame_3",
+     "src": [
+      55,
+      778,
+      11,
+      15
+     ]
+    },
+    {
+     "item": 75,
+     "role": "frame_4",
+     "src": [
+      70,
+      778,
+      32,
+      16
+     ]
+    },
+    {
+     "item": 76,
+     "role": "frame_5",
+     "src": [
+      104,
+      778,
+      32,
+      15
+     ]
+    }
+   ],
+   "box": [
+    4,
+    778,
+    132,
+    16
+   ]
+  },
+  {
+   "id": 8,
+   "name": "knock_off_slash",
+   "file": "knock_off/knock_off_slash.png",
+   "cell": [
+    30,
+    25
+   ],
+   "zone": null,
+   "set": 5,
+   "template": "none",
+   "frames": [
+    {
+     "item": 77,
+     "role": "frame_0",
+     "src": [
+      3,
+      815,
+      28,
+      25
+     ]
+    },
+    {
+     "item": 78,
+     "role": "frame_1",
+     "src": [
+      37,
+      818,
+      30,
+      22
+     ]
+    },
+    {
+     "item": 79,
+     "role": "frame_2",
+     "src": [
+      71,
+      827,
+      27,
+      14
+     ]
+    }
+   ],
+   "box": [
+    3,
+    815,
+    95,
+    26
+   ]
+  },
+  {
+   "id": 9,
+   "name": "pursuit_beam",
+   "file": "pursuit/pursuit_beam.png",
+   "cell": [
+    32,
+    103
+   ],
+   "zone": null,
+   "set": 7,
+   "template": "none",
+   "frames": [
+    {
+     "item": 114,
+     "role": "frame_0",
+     "src": [
+      2,
+      1066,
+      4,
+      99
+     ]
+    },
+    {
+     "item": 115,
+     "role": "frame_1",
+     "src": [
+      8,
+      1066,
+      8,
+      100
+     ]
+    },
+    {
+     "item": 116,
+     "role": "frame_2",
+     "src": [
+      18,
+      1066,
+      16,
+      101
+     ]
+    },
+    {
+     "item": 117,
+     "role": "frame_3",
+     "src": [
+      36,
+      1066,
+      32,
+      102
+     ]
+    },
+    {
+     "item": 118,
+     "role": "frame_4",
+     "src": [
+      70,
+      1066,
+      28,
+      103
+     ]
+    }
+   ],
+   "box": [
+    2,
+    1066,
+    96,
+    103
+   ]
+  },
+  {
+   "id": 10,
+   "name": "pursuit_shield",
+   "file": "pursuit/pursuit_shield.png",
+   "cell": [
+    12,
+    14
+   ],
+   "zone": null,
+   "set": 7,
+   "template": "none",
+   "frames": [
+    {
+     "item": 119,
+     "role": "frame_0",
+     "src": [
+      4,
+      1176,
+      12,
+      13
+     ]
+    },
+    {
+     "item": 120,
+     "role": "frame_1",
+     "src": [
+      22,
+      1176,
+      12,
+      13
+     ]
+    },
+    {
+     "item": 121,
+     "role": "frame_2",
+     "src": [
+      40,
+      1176,
+      12,
+      13
+     ]
+    },
+    {
+     "item": 122,
+     "role": "frame_3",
+     "src": [
+      58,
+      1176,
+      12,
+      13
+     ]
+    },
+    {
+     "item": 123,
+     "role": "frame_4",
+     "src": [
+      76,
+      1176,
+      12,
+      13
+     ]
+    },
+    {
+     "item": 124,
+     "role": "frame_5",
+     "src": [
+      94,
+      1176,
+      12,
+      13
+     ]
+    },
+    {
+     "item": 125,
+     "role": "frame_6",
+     "src": [
+      112,
+      1176,
+      12,
+      13
+     ]
+    },
+    {
+     "item": 126,
+     "role": "frame_7",
+     "src": [
+      130,
+      1176,
+      12,
+      13
+     ]
+    },
+    {
+     "item": 127,
+     "role": "frame_8",
+     "src": [
+      148,
+      1176,
+      12,
+      13
+     ]
+    },
+    {
+     "item": 128,
+     "role": "frame_9",
+     "src": [
+      166,
+      1175,
+      12,
+      14
+     ]
+    },
+    {
+     "item": 129,
+     "role": "frame_10",
+     "src": [
+      184,
+      1176,
+      12,
+      13
+     ]
+    },
+    {
+     "item": 130,
+     "role": "frame_11",
+     "src": [
+      202,
+      1176,
+      12,
+      13
+     ]
+    },
+    {
+     "item": 131,
+     "role": "frame_12",
+     "src": [
+      220,
+      1176,
+      12,
+      13
+     ]
+    }
+   ],
+   "box": [
+    4,
+    1175,
+    228,
+    14
+   ]
+  },
+  {
+   "id": 11,
+   "name": "snatch_exclamation",
+   "file": "snatch/snatch_exclamation.png",
+   "cell": [
+    7,
+    13
+   ],
+   "zone": null,
+   "set": 8,
+   "template": "none",
+   "frames": [
+    {
+     "item": 132,
+     "role": "frame_0",
+     "src": [
+      2,
+      1210,
+      5,
+      13
+     ]
+    },
+    {
+     "item": 133,
+     "role": "frame_1",
+     "src": [
+      12,
+      1211,
+      7,
+      13
+     ]
+    },
+    {
+     "item": 134,
+     "role": "frame_2",
+     "src": [
+      22,
+      1211,
+      7,
+      13
+     ]
+    },
+    {
+     "item": 135,
+     "role": "frame_3",
+     "src": [
+      32,
+      1210,
+      7,
+      13
+     ]
+    },
+    {
+     "item": 136,
+     "role": "frame_4",
+     "src": [
+      43,
+      1209,
+      7,
+      13
+     ]
+    },
+    {
+     "item": 137,
+     "role": "frame_5",
+     "src": [
+      53,
+      1208,
+      7,
+      13
+     ]
+    },
+    {
+     "item": 138,
+     "role": "frame_6",
+     "src": [
+      62,
+      1211,
+      7,
+      13
+     ]
+    },
+    {
+     "item": 139,
+     "role": "frame_7",
+     "src": [
+      72,
+      1210,
+      7,
+      13
+     ]
+    }
+   ],
+   "box": [
+    2,
+    1208,
+    77,
+    16
+   ]
+  },
+  {
+   "id": 12,
+   "name": "taunt_beckon_cloud",
+   "file": "taunt/taunt_beckon_cloud.png",
+   "cell": [
+    16,
+    16
+   ],
+   "zone": null,
+   "set": 9,
+   "template": "none",
+   "frames": [
+    {
+     "item": 140,
+     "role": "frame_0",
+     "src": [
+      6,
+      1248,
+      9,
+      9
+     ]
+    },
+    {
+     "item": 141,
+     "role": "frame_1",
+     "src": [
+      21,
+      1245,
+      14,
+      14
+     ]
+    },
+    {
+     "item": 142,
+     "role": "frame_2",
+     "src": [
+      38,
+      1244,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 143,
+     "role": "frame_3",
+     "src": [
+      56,
+      1244,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 144,
+     "role": "frame_4",
+     "src": [
+      74,
+      1244,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 145,
+     "role": "frame_5",
+     "src": [
+      92,
+      1244,
+      16,
+      16
+     ],
+     "duplicate_of": 2
+    },
+    {
+     "item": 146,
+     "role": "frame_6",
+     "src": [
+      111,
+      1245,
+      14,
+      14
+     ],
+     "duplicate_of": 1
+    },
+    {
+     "item": 147,
+     "role": "frame_7",
+     "src": [
+      132,
+      1248,
+      9,
+      9
+     ],
+     "duplicate_of": 0
+    }
+   ],
+   "box": [
+    6,
+    1244,
+    135,
+    16
+   ]
+  },
+  {
+   "id": 13,
+   "name": "taunt_cloud",
+   "file": "taunt/taunt_cloud.png",
+   "cell": [
+    16,
+    16
+   ],
+   "zone": null,
+   "set": 9,
+   "template": "none",
+   "frames": [
+    {
+     "item": 148,
+     "role": "frame_0",
+     "src": [
+      6,
+      1279,
+      9,
+      9
+     ]
+    },
+    {
+     "item": 149,
+     "role": "frame_1",
+     "src": [
+      21,
+      1276,
+      14,
+      14
+     ]
+    },
+    {
+     "item": 150,
+     "role": "frame_2",
+     "src": [
+      38,
+      1275,
+      16,
+      16
+     ]
+    }
+   ],
+   "box": [
+    6,
+    1275,
+    48,
+    16
+   ]
+  },
+  {
+   "id": 14,
+   "name": "taunt_finger",
+   "file": "taunt/taunt_finger.png",
+   "cell": [
+    13,
+    15
+   ],
+   "zone": null,
+   "set": 9,
+   "template": "none",
+   "frames": [
+    {
+     "item": 151,
+     "role": "frame_0",
+     "src": [
+      4,
+      1294,
+      13,
+      15
+     ]
+    },
+    {
+     "item": 152,
+     "role": "frame_1",
+     "src": [
+      20,
+      1294,
+      11,
+      14
+     ]
+    }
+   ],
+   "box": [
+    4,
+    1294,
+    27,
+    15
+   ]
+  },
+  {
+   "id": 15,
+   "name": "taunt_anger",
+   "file": "taunt/taunt_anger.png",
+   "cell": [
+    13,
+    15
+   ],
+   "zone": null,
+   "set": 9,
+   "template": "none",
+   "frames": [
+    {
+     "item": 153,
+     "role": "frame_0",
+     "src": [
+      4,
+      1314,
+      12,
+      11
+     ]
+    },
+    {
+     "item": 154,
+     "role": "frame_1",
+     "src": [
+      21,
+      1312,
+      13,
+      15
+     ]
+    },
+    {
+     "item": 155,
+     "role": "frame_2",
+     "src": [
+      40,
+      1314,
+      12,
+      11
+     ],
+     "duplicate_of": 0
+    }
+   ],
+   "box": [
+    4,
+    1312,
+    48,
+    15
+   ]
+  },
+  {
+   "id": 16,
+   "name": "flatter_spotlight",
+   "file": "flatter/flatter_spotlight.png",
+   "cell": [
+    30,
+    135
+   ],
+   "zone": null,
+   "set": 4,
+   "template": "none",
+   "frames": [
+    {
+     "item": 52,
+     "role": "frame_0",
+     "src": [
+      51,
+      583,
+      30,
+      135
+     ]
+    }
+   ],
+   "box": [
+    51,
+    583,
+    30,
+    135
+   ]
+  },
+  {
+   "id": 17,
+   "name": "beat_up_notes",
+   "file": "beat_up/beat_up_notes.png",
+   "cell": [
+    16,
+    13
    ],
    "zone": null,
    "set": 0,
    "template": "none",
    "frames": [
     {
-     "item": 15,
+     "item": 8,
      "role": "frame_0",
      "src": [
-      54,
-      67,
-      32,
-      32
+      5,
+      34,
+      10,
+      13
      ]
     },
     {
-     "item": 16,
+     "item": 9,
      "role": "frame_1",
      "src": [
-      92,
-      63,
-      40,
-      40
+      20,
+      35,
+      16,
+      12
+     ]
+    },
+    {
+     "item": 10,
+     "role": "frame_2",
+     "src": [
+      39,
+      35,
+      7,
+      12
      ]
     }
    ],
    "box": [
-    54,
-    63,
-    78,
-    40
+    5,
+    34,
+    41,
+    13
    ]
   },
   {
-   "id": 3,
-   "name": "beat_up_e003",
-   "file": "beat_up/beat_up_e003.png",
+   "id": 18,
+   "name": "beat_up_ring",
+   "file": "beat_up/beat_up_ring.png",
    "cell": [
-    26,
-    26
+    64,
+    64
    ],
    "zone": null,
    "set": 0,
@@ -443,361 +1403,343 @@
       26,
       26
      ]
-    }
-   ],
-   "box": [
-    2,
-    70,
-    47,
-    26
-   ]
-  },
-  {
-   "id": 4,
-   "name": "bite_crunch_e004",
-   "file": "bite_crunch/bite_crunch_e004.png",
-   "cell": [
-    24,
-    29
-   ],
-   "zone": null,
-   "set": 1,
-   "template": "none",
-   "frames": [
-    {
-     "item": 25,
-     "role": "frame_0",
-     "src": [
-      9,
-      262,
-      23,
-      23
-     ]
     },
     {
-     "item": 26,
-     "role": "frame_1",
-     "src": [
-      40,
-      255,
-      24,
-      29
-     ]
-    }
-   ],
-   "box": [
-    9,
-    255,
-    55,
-    30
-   ]
-  },
-  {
-   "id": 5,
-   "name": "bite_crunch_e005",
-   "file": "bite_crunch/bite_crunch_e005.png",
-   "cell": [
-    30,
-    32
-   ],
-   "zone": null,
-   "set": 1,
-   "template": "none",
-   "frames": [
-    {
-     "item": 30,
-     "role": "frame_0",
-     "src": [
-      5,
-      365,
-      28,
-      22
-     ]
-    },
-    {
-     "item": 31,
-     "role": "frame_1",
-     "src": [
-      41,
-      350,
-      30,
-      32
-     ]
-    }
-   ],
-   "box": [
-    5,
-    350,
-    66,
-    37
-   ]
-  },
-  {
-   "id": 6,
-   "name": "fake_tears_e006",
-   "file": "fake_tears/fake_tears_e006.png",
-   "cell": [
-    11,
-    8
-   ],
-   "zone": null,
-   "set": 3,
-   "template": "none",
-   "frames": [
-    {
-     "item": 33,
-     "role": "frame_0",
-     "src": [
-      2,
-      491,
-      8,
-      8
-     ]
-    },
-    {
-     "item": 34,
-     "role": "frame_1",
-     "src": [
-      14,
-      491,
-      9,
-      8
-     ]
-    },
-    {
-     "item": 35,
+     "item": 15,
      "role": "frame_2",
      "src": [
-      30,
-      491,
-      11,
-      7
+      54,
+      67,
+      32,
+      32
      ]
     },
     {
-     "item": 36,
+     "item": 16,
      "role": "frame_3",
      "src": [
-      49,
-      491,
-      6,
-      6
+      92,
+      63,
+      40,
+      40
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_4",
+     "src": [
+      138,
+      59,
+      48,
+      48
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_5",
+     "src": [
+      192,
+      55,
+      56,
+      56
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_6",
+     "src": [
+      256,
+      53,
+      60,
+      60
+     ]
+    },
+    {
+     "item": 11,
+     "role": "frame_7",
+     "src": [
+      320,
+      51,
+      64,
+      64
      ]
     }
    ],
    "box": [
     2,
-    491,
-    53,
-    8
+    51,
+    382,
+    64
    ]
   },
   {
-   "id": 7,
-   "name": "fake_tears_e007",
-   "file": "fake_tears/fake_tears_e007.png",
+   "id": 19,
+   "name": "bite_front",
+   "file": "bite_crunch/bite_front.png",
    "cell": [
-    11,
-    16
+    29,
+    41
    ],
    "zone": null,
-   "set": 3,
+   "set": 1,
    "template": "none",
    "frames": [
     {
-     "item": 37,
+     "item": 19,
      "role": "frame_0",
      "src": [
       3,
-      502,
-      10,
+      148,
+      29,
+      41
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_1",
+     "src": [
+      36,
+      156,
+      29,
+      25
+     ]
+    }
+   ],
+   "box": [
+    3,
+    148,
+    62,
+    41
+   ]
+  },
+  {
+   "id": 20,
+   "name": "crunch_front",
+   "file": "bite_crunch/crunch_front.png",
+   "cell": [
+    31,
+    44
+   ],
+   "zone": null,
+   "set": 1,
+   "template": "none",
+   "frames": [
+    {
+     "item": 21,
+     "role": "frame_0",
+     "src": [
+      2,
+      191,
+      31,
+      44
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_1",
+     "src": [
+      35,
+      199,
+      31,
+      28
+     ]
+    }
+   ],
+   "box": [
+    2,
+    191,
+    64,
+    44
+   ]
+  },
+  {
+   "id": 21,
+   "name": "fake_tears_streaks",
+   "file": "fake_tears/fake_tears_streaks.png",
+   "cell": [
+    31,
+    47
+   ],
+   "zone": null,
+   "set": 3,
+   "template": "none",
+   "frames": [
+    {
+     "item": 49,
+     "role": "frame_0",
+     "src": [
+      3,
+      537,
+      3,
       5
      ]
     },
     {
-     "item": 38,
+     "item": 50,
      "role": "frame_1",
      "src": [
-      21,
-      502,
-      10,
-      5
-     ],
-     "duplicate_of": 0
+      20,
+      537,
+      31,
+      8
+     ]
+    },
+    {
+     "item": 51,
+     "role": "frame_2",
+     "src": [
+      67,
+      530,
+      31,
+      16
+     ]
     },
     {
      "item": 39,
-     "role": "frame_2",
+     "role": "frame_3",
      "src": [
-      39,
-      502,
-      11,
-      6
+      112,
+      520,
+      31,
+      39
      ]
     },
     {
      "item": 40,
-     "role": "frame_3",
+     "role": "frame_4",
      "src": [
-      57,
-      491,
-      9,
-      16
+      156,
+      521,
+      31,
+      39
+     ]
+    },
+    {
+     "item": 44,
+     "role": "frame_5",
+     "src": [
+      201,
+      521,
+      22,
+      32
      ]
     },
     {
      "item": 41,
-     "role": "frame_4",
+     "role": "frame_6",
      "src": [
-      66,
-      501,
-      8,
-      8
-     ]
-    }
-   ],
-   "box": [
-    3,
-    491,
-    71,
-    18
-   ]
-  },
-  {
-   "id": 8,
-   "name": "fake_tears_e008",
-   "file": "fake_tears/fake_tears_e008.png",
-   "cell": [
-    3,
-    32
-   ],
-   "zone": null,
-   "set": 3,
-   "template": "none",
-   "frames": [
-    {
-     "item": 51,
-     "role": "frame_0",
-     "src": [
-      201,
-      545,
-      3,
-      8
+      235,
+      513,
+      31,
+      47
      ]
     },
     {
-     "item": 52,
-     "role": "frame_1",
+     "item": 42,
+     "role": "frame_7",
      "src": [
-      211,
-      521,
-      3,
-      32
+      278,
+      514,
+      31,
+      47
      ]
-    }
-   ],
-   "box": [
-    201,
-    521,
-    13,
-    32
-   ]
-  },
-  {
-   "id": 9,
-   "name": "fake_tears_e009",
-   "file": "fake_tears/fake_tears_e009.png",
-   "cell": [
-    3,
-    32
-   ],
-   "zone": null,
-   "set": 3,
-   "template": "none",
-   "frames": [
+    },
     {
-     "item": 59,
-     "role": "frame_0",
+     "item": 43,
+     "role": "frame_8",
+     "src": [
+      321,
+      514,
+      31,
+      47
+     ],
+     "duplicate_of": 6
+    },
+    {
+     "item": 45,
+     "role": "frame_9",
      "src": [
       366,
-      548,
-      3,
-      8
-     ]
+      524,
+      22,
+      32
+     ],
+     "duplicate_of": 5
     },
     {
-     "item": 60,
-     "role": "frame_1",
-     "src": [
-      376,
-      524,
-      3,
-      32
-     ]
-    }
-   ],
-   "box": [
-    366,
-    524,
-    13,
-    32
-   ]
-  },
-  {
-   "id": 10,
-   "name": "fake_tears_e010",
-   "file": "fake_tears/fake_tears_e010.png",
-   "cell": [
-    3,
-    16
-   ],
-   "zone": null,
-   "set": 3,
-   "template": "none",
-   "frames": [
-    {
-     "item": 61,
-     "role": "frame_0",
+     "item": 46,
+     "role": "frame_10",
      "src": [
       402,
-      550,
-      3,
-      5
+      532,
+      13,
+      23
      ]
     },
     {
-     "item": 62,
-     "role": "frame_1",
+     "item": 47,
+     "role": "frame_11",
      "src": [
-      412,
-      539,
-      3,
-      16
+      427,
+      534,
+      10,
+      20
      ]
+    },
+    {
+     "item": 48,
+     "role": "frame_12",
+     "src": [
+      450,
+      547,
+      3,
+      5
+     ],
+     "duplicate_of": 0
     }
    ],
    "box": [
-    402,
-    539,
-    13,
-    16
+    3,
+    513,
+    450,
+    48
    ]
   },
   {
-   "id": 11,
-   "name": "flatter_e011",
-   "file": "flatter/flatter_e011.png",
+   "id": 22,
+   "name": "flatter_rings",
+   "file": "flatter/flatter_rings.png",
    "cell": [
-    26,
-    12
+    35,
+    17
    ],
    "zone": null,
    "set": 4,
    "template": "none",
    "frames": [
     {
-     "item": 111,
+     "item": 60,
      "role": "frame_0",
+     "src": [
+      3,
+      755,
+      14,
+      6
+     ]
+    },
+    {
+     "item": 61,
+     "role": "frame_1",
+     "src": [
+      23,
+      754,
+      16,
+      8
+     ]
+    },
+    {
+     "item": 62,
+     "role": "frame_2",
      "src": [
       46,
       753,
@@ -806,537 +1748,453 @@
      ]
     },
     {
-     "item": 112,
-     "role": "frame_1",
+     "item": 63,
+     "role": "frame_3",
      "src": [
       78,
       751,
       26,
       12
      ]
-    }
-   ],
-   "box": [
-    46,
-    751,
-    58,
-    12
-   ]
-  },
-  {
-   "id": 12,
-   "name": "flatter_e012",
-   "file": "flatter/flatter_e012.png",
-   "cell": [
-    3,
-    16
-   ],
-   "zone": null,
-   "set": 4,
-   "template": "none",
-   "frames": [
-    {
-     "item": 122,
-     "role": "frame_0",
-     "src": [
-      374,
-      729,
-      3,
-      16
-     ]
     },
     {
-     "item": 123,
-     "role": "frame_1",
-     "src": [
-      383,
-      736,
-      3,
-      5
-     ]
-    }
-   ],
-   "box": [
-    374,
-    729,
-    12,
-    16
-   ]
-  },
-  {
-   "id": 13,
-   "name": "flatter_e013",
-   "file": "flatter/flatter_e013.png",
-   "cell": [
-    53,
-    15
-   ],
-   "zone": null,
-   "set": 4,
-   "template": "none",
-   "frames": [
-    {
-     "item": 126,
-     "role": "frame_0",
-     "src": [
-      4,
-      778,
-      12,
-      15
-     ]
-    },
-    {
-     "item": 127,
-     "role": "frame_1",
-     "src": [
-      21,
-      780,
-      11,
-      14
-     ]
-    },
-    {
-     "item": 128,
-     "role": "frame_2",
-     "src": [
-      39,
-      779,
-      11,
-      15
-     ]
-    },
-    {
-     "item": 129,
-     "role": "frame_3",
-     "src": [
-      55,
-      778,
-      11,
-      15
-     ]
-    },
-    {
-     "item": 130,
+     "item": 64,
      "role": "frame_4",
      "src": [
-      70,
-      782,
-      19,
-      12
-     ]
-    },
-    {
-     "item": 131,
-     "role": "frame_5",
-     "src": [
-      83,
-      778,
-      53,
-      15
-     ]
-    }
-   ],
-   "box": [
-    4,
-    778,
-    132,
-    16
-   ]
-  },
-  {
-   "id": 14,
-   "name": "knock_off_e014",
-   "file": "knock_off/knock_off_e014.png",
-   "cell": [
-    30,
-    25
-   ],
-   "zone": null,
-   "set": 5,
-   "template": "none",
-   "frames": [
-    {
-     "item": 132,
-     "role": "frame_0",
-     "src": [
-      3,
-      815,
-      28,
-      25
-     ]
-    },
-    {
-     "item": 133,
-     "role": "frame_1",
-     "src": [
-      37,
-      818,
+      117,
+      749,
       30,
-      22
-     ]
-    },
-    {
-     "item": 134,
-     "role": "frame_2",
-     "src": [
-      71,
-      827,
-      27,
       14
      ]
+    },
+    {
+     "item": 65,
+     "role": "frame_5",
+     "src": [
+      164,
+      746,
+      35,
+      17
+     ]
     }
    ],
    "box": [
     3,
-    815,
-    95,
-    26
-   ]
-  },
-  {
-   "id": 15,
-   "name": "memento_e015",
-   "file": "memento/memento_e015.png",
-   "cell": [
-    3,
-    32
-   ],
-   "zone": null,
-   "set": 6,
-   "template": "none",
-   "frames": [
-    {
-     "item": 144,
-     "role": "frame_0",
-     "src": [
-      201,
-      897,
-      3,
-      8
-     ]
-    },
-    {
-     "item": 145,
-     "role": "frame_1",
-     "src": [
-      211,
-      873,
-      3,
-      32
-     ]
-    }
-   ],
-   "box": [
-    201,
-    873,
-    13,
-    32
-   ]
-  },
-  {
-   "id": 16,
-   "name": "memento_e016",
-   "file": "memento/memento_e016.png",
-   "cell": [
-    3,
-    32
-   ],
-   "zone": null,
-   "set": 6,
-   "template": "none",
-   "frames": [
-    {
-     "item": 152,
-     "role": "frame_0",
-     "src": [
-      366,
-      900,
-      3,
-      8
-     ]
-    },
-    {
-     "item": 153,
-     "role": "frame_1",
-     "src": [
-      376,
-      876,
-      3,
-      32
-     ]
-    }
-   ],
-   "box": [
-    366,
-    876,
-    13,
-    32
-   ]
-  },
-  {
-   "id": 17,
-   "name": "memento_e017",
-   "file": "memento/memento_e017.png",
-   "cell": [
-    3,
-    16
-   ],
-   "zone": null,
-   "set": 6,
-   "template": "none",
-   "frames": [
-    {
-     "item": 154,
-     "role": "frame_0",
-     "src": [
-      402,
-      902,
-      3,
-      5
-     ]
-    },
-    {
-     "item": 155,
-     "role": "frame_1",
-     "src": [
-      412,
-      891,
-      3,
-      16
-     ]
-    }
-   ],
-   "box": [
-    402,
-    891,
-    13,
-    16
-   ]
-  },
-  {
-   "id": 18,
-   "name": "memento_e018",
-   "file": "memento/memento_e018.png",
-   "cell": [
-    3,
-    32
-   ],
-   "zone": null,
-   "set": 6,
-   "template": "none",
-   "frames": [
-    {
-     "item": 185,
-     "role": "frame_0",
-     "src": [
-      201,
-      951,
-      3,
-      8
-     ]
-    },
-    {
-     "item": 186,
-     "role": "frame_1",
-     "src": [
-      211,
-      927,
-      3,
-      32
-     ]
-    }
-   ],
-   "box": [
-    201,
-    927,
-    13,
-    32
-   ]
-  },
-  {
-   "id": 19,
-   "name": "memento_e019",
-   "file": "memento/memento_e019.png",
-   "cell": [
-    3,
-    32
-   ],
-   "zone": null,
-   "set": 6,
-   "template": "none",
-   "frames": [
-    {
-     "item": 193,
-     "role": "frame_0",
-     "src": [
-      366,
-      954,
-      3,
-      8
-     ]
-    },
-    {
-     "item": 194,
-     "role": "frame_1",
-     "src": [
-      376,
-      930,
-      3,
-      32
-     ]
-    }
-   ],
-   "box": [
-    366,
-    930,
-    13,
-    32
-   ]
-  },
-  {
-   "id": 20,
-   "name": "memento_e020",
-   "file": "memento/memento_e020.png",
-   "cell": [
-    3,
-    16
-   ],
-   "zone": null,
-   "set": 6,
-   "template": "none",
-   "frames": [
-    {
-     "item": 195,
-     "role": "frame_0",
-     "src": [
-      402,
-      956,
-      3,
-      5
-     ]
-    },
-    {
-     "item": 196,
-     "role": "frame_1",
-     "src": [
-      412,
-      945,
-      3,
-      16
-     ]
-    }
-   ],
-   "box": [
-    402,
-    945,
-    13,
-    16
-   ]
-  },
-  {
-   "id": 21,
-   "name": "memento_e021",
-   "file": "memento/memento_e021.png",
-   "cell": [
-    60,
-    60
-   ],
-   "zone": null,
-   "set": 6,
-   "template": "none",
-   "frames": [
-    {
-     "item": 218,
-     "role": "frame_0",
-     "src": [
-      138,
-      979,
-      48,
-      48
-     ]
-    },
-    {
-     "item": 219,
-     "role": "frame_1",
-     "src": [
-      192,
-      975,
-      56,
-      56
-     ]
-    },
-    {
-     "item": 220,
-     "role": "frame_2",
-     "src": [
-      256,
-      973,
-      60,
-      60
-     ]
-    }
-   ],
-   "box": [
-    138,
-    973,
-    178,
-    60
-   ]
-  },
-  {
-   "id": 22,
-   "name": "memento_e022",
-   "file": "memento/memento_e022.png",
-   "cell": [
-    40,
-    40
-   ],
-   "zone": null,
-   "set": 6,
-   "template": "none",
-   "frames": [
-    {
-     "item": 221,
-     "role": "frame_0",
-     "src": [
-      54,
-      987,
-      32,
-      32
-     ]
-    },
-    {
-     "item": 222,
-     "role": "frame_1",
-     "src": [
-      92,
-      983,
-      40,
-      40
-     ]
-    }
-   ],
-   "box": [
-    54,
-    983,
-    78,
-    40
+    746,
+    196,
+    17
    ]
   },
   {
    "id": 23,
-   "name": "memento_e023",
-   "file": "memento/memento_e023.png",
+   "name": "flatter_streaks",
+   "file": "flatter/flatter_streaks.png",
    "cell": [
-    26,
-    26
+    35,
+    47
+   ],
+   "zone": null,
+   "set": 4,
+   "template": "none",
+   "frames": [
+    {
+     "item": 69,
+     "role": "frame_0",
+     "src": [
+      214,
+      725,
+      35,
+      32
+     ]
+    },
+    {
+     "item": 66,
+     "role": "frame_1",
+     "src": [
+      268,
+      725,
+      35,
+      39
+     ]
+    },
+    {
+     "item": 67,
+     "role": "frame_2",
+     "src": [
+      322,
+      726,
+      35,
+      39
+     ]
+    },
+    {
+     "item": 58,
+     "role": "frame_3",
+     "src": [
+      374,
+      721,
+      35,
+      47
+     ]
+    },
+    {
+     "item": 59,
+     "role": "frame_4",
+     "src": [
+      428,
+      724,
+      35,
+      47
+     ]
+    },
+    {
+     "item": 68,
+     "role": "frame_5",
+     "src": [
+      480,
+      729,
+      25,
+      31
+     ]
+    },
+    {
+     "item": 70,
+     "role": "frame_6",
+     "src": [
+      538,
+      728,
+      9,
+      23
+     ]
+    }
+   ],
+   "box": [
+    214,
+    721,
+    333,
+    50
+   ]
+  },
+  {
+   "id": 24,
+   "name": "memento_streaks_red",
+   "file": "memento/memento_streaks_red.png",
+   "cell": [
+    31,
+    47
    ],
    "zone": null,
    "set": 6,
    "template": "none",
    "frames": [
     {
-     "item": 223,
+     "item": 90,
+     "role": "frame_0",
+     "src": [
+      3,
+      889,
+      3,
+      5
+     ]
+    },
+    {
+     "item": 91,
+     "role": "frame_1",
+     "src": [
+      20,
+      889,
+      31,
+      8
+     ]
+    },
+    {
+     "item": 92,
+     "role": "frame_2",
+     "src": [
+      67,
+      882,
+      31,
+      16
+     ]
+    },
+    {
+     "item": 80,
+     "role": "frame_3",
+     "src": [
+      112,
+      872,
+      31,
+      39
+     ]
+    },
+    {
+     "item": 81,
+     "role": "frame_4",
+     "src": [
+      156,
+      873,
+      31,
+      39
+     ]
+    },
+    {
+     "item": 85,
+     "role": "frame_5",
+     "src": [
+      201,
+      873,
+      22,
+      32
+     ]
+    },
+    {
+     "item": 82,
+     "role": "frame_6",
+     "src": [
+      235,
+      865,
+      31,
+      47
+     ]
+    },
+    {
+     "item": 83,
+     "role": "frame_7",
+     "src": [
+      278,
+      866,
+      31,
+      47
+     ]
+    },
+    {
+     "item": 84,
+     "role": "frame_8",
+     "src": [
+      321,
+      866,
+      31,
+      47
+     ],
+     "duplicate_of": 6
+    },
+    {
+     "item": 86,
+     "role": "frame_9",
+     "src": [
+      366,
+      876,
+      22,
+      32
+     ],
+     "duplicate_of": 5
+    },
+    {
+     "item": 87,
+     "role": "frame_10",
+     "src": [
+      402,
+      884,
+      13,
+      23
+     ]
+    },
+    {
+     "item": 88,
+     "role": "frame_11",
+     "src": [
+      427,
+      886,
+      10,
+      20
+     ]
+    },
+    {
+     "item": 89,
+     "role": "frame_12",
+     "src": [
+      450,
+      899,
+      3,
+      5
+     ],
+     "duplicate_of": 0
+    }
+   ],
+   "box": [
+    3,
+    865,
+    450,
+    48
+   ]
+  },
+  {
+   "id": 25,
+   "name": "memento_streaks_purple",
+   "file": "memento/memento_streaks_purple.png",
+   "cell": [
+    31,
+    47
+   ],
+   "zone": null,
+   "set": 6,
+   "template": "none",
+   "frames": [
+    {
+     "item": 103,
+     "role": "frame_0",
+     "src": [
+      3,
+      943,
+      3,
+      5
+     ]
+    },
+    {
+     "item": 104,
+     "role": "frame_1",
+     "src": [
+      20,
+      943,
+      31,
+      8
+     ]
+    },
+    {
+     "item": 105,
+     "role": "frame_2",
+     "src": [
+      67,
+      936,
+      31,
+      16
+     ]
+    },
+    {
+     "item": 93,
+     "role": "frame_3",
+     "src": [
+      112,
+      926,
+      31,
+      39
+     ]
+    },
+    {
+     "item": 94,
+     "role": "frame_4",
+     "src": [
+      156,
+      927,
+      31,
+      39
+     ]
+    },
+    {
+     "item": 98,
+     "role": "frame_5",
+     "src": [
+      201,
+      927,
+      22,
+      32
+     ]
+    },
+    {
+     "item": 95,
+     "role": "frame_6",
+     "src": [
+      235,
+      919,
+      31,
+      47
+     ]
+    },
+    {
+     "item": 96,
+     "role": "frame_7",
+     "src": [
+      278,
+      920,
+      31,
+      47
+     ]
+    },
+    {
+     "item": 97,
+     "role": "frame_8",
+     "src": [
+      321,
+      920,
+      31,
+      47
+     ],
+     "duplicate_of": 6
+    },
+    {
+     "item": 99,
+     "role": "frame_9",
+     "src": [
+      366,
+      930,
+      22,
+      32
+     ],
+     "duplicate_of": 5
+    },
+    {
+     "item": 100,
+     "role": "frame_10",
+     "src": [
+      402,
+      938,
+      13,
+      23
+     ]
+    },
+    {
+     "item": 101,
+     "role": "frame_11",
+     "src": [
+      427,
+      940,
+      10,
+      20
+     ]
+    },
+    {
+     "item": 102,
+     "role": "frame_12",
+     "src": [
+      450,
+      953,
+      3,
+      5
+     ],
+     "duplicate_of": 0
+    }
+   ],
+   "box": [
+    3,
+    919,
+    450,
+    48
+   ]
+  },
+  {
+   "id": 26,
+   "name": "memento_ring",
+   "file": "memento/memento_ring.png",
+   "cell": [
+    64,
+    64
+   ],
+   "zone": null,
+   "set": 6,
+   "template": "none",
+   "frames": [
+    {
+     "item": 112,
      "role": "frame_0",
      "src": [
       2,
@@ -1346,7 +2204,7 @@
      ]
     },
     {
-     "item": 224,
+     "item": 113,
      "role": "frame_1",
      "src": [
       23,
@@ -1354,419 +2212,79 @@
       26,
       26
      ]
-    }
-   ],
-   "box": [
-    2,
-    990,
-    47,
-    26
-   ]
-  },
-  {
-   "id": 24,
-   "name": "pursuit_e024",
-   "file": "pursuit/pursuit_e024.png",
-   "cell": [
-    32,
-    103
-   ],
-   "zone": null,
-   "set": 7,
-   "template": "none",
-   "frames": [
-    {
-     "item": 225,
-     "role": "frame_0",
-     "src": [
-      2,
-      1066,
-      4,
-      99
-     ]
     },
     {
-     "item": 226,
-     "role": "frame_1",
-     "src": [
-      8,
-      1066,
-      8,
-      100
-     ]
-    },
-    {
-     "item": 227,
+     "item": 110,
      "role": "frame_2",
      "src": [
-      18,
-      1066,
-      16,
-      101
+      54,
+      987,
+      32,
+      32
      ]
     },
     {
-     "item": 228,
+     "item": 111,
      "role": "frame_3",
      "src": [
-      36,
-      1066,
-      32,
-      102
-     ]
-    },
-    {
-     "item": 229,
-     "role": "frame_4",
-     "src": [
-      70,
-      1066,
-      28,
-      103
-     ]
-    }
-   ],
-   "box": [
-    2,
-    1066,
-    96,
-    103
-   ]
-  },
-  {
-   "id": 25,
-   "name": "pursuit_e025",
-   "file": "pursuit/pursuit_e025.png",
-   "cell": [
-    12,
-    14
-   ],
-   "zone": null,
-   "set": 7,
-   "template": "none",
-   "frames": [
-    {
-     "item": 230,
-     "role": "frame_0",
-     "src": [
-      4,
-      1176,
-      12,
-      13
-     ]
-    },
-    {
-     "item": 231,
-     "role": "frame_1",
-     "src": [
-      22,
-      1176,
-      12,
-      13
-     ]
-    },
-    {
-     "item": 232,
-     "role": "frame_2",
-     "src": [
+      92,
+      983,
       40,
-      1176,
-      12,
-      13
+      40
      ]
     },
     {
-     "item": 233,
-     "role": "frame_3",
-     "src": [
-      58,
-      1176,
-      12,
-      13
-     ]
-    },
-    {
-     "item": 234,
+     "item": 107,
      "role": "frame_4",
      "src": [
-      76,
-      1176,
-      12,
-      13
+      138,
+      979,
+      48,
+      48
      ]
     },
     {
-     "item": 235,
+     "item": 108,
      "role": "frame_5",
      "src": [
-      94,
-      1176,
-      12,
-      13
+      192,
+      975,
+      56,
+      56
      ]
     },
     {
-     "item": 236,
+     "item": 109,
      "role": "frame_6",
      "src": [
-      112,
-      1176,
-      12,
-      13
+      256,
+      973,
+      60,
+      60
      ]
     },
     {
-     "item": 237,
+     "item": 106,
      "role": "frame_7",
      "src": [
-      130,
-      1176,
-      12,
-      13
-     ]
-    },
-    {
-     "item": 238,
-     "role": "frame_8",
-     "src": [
-      148,
-      1176,
-      12,
-      13
-     ]
-    },
-    {
-     "item": 239,
-     "role": "frame_9",
-     "src": [
-      166,
-      1175,
-      12,
-      14
-     ]
-    },
-    {
-     "item": 240,
-     "role": "frame_10",
-     "src": [
-      184,
-      1176,
-      12,
-      13
-     ]
-    },
-    {
-     "item": 241,
-     "role": "frame_11",
-     "src": [
-      202,
-      1176,
-      12,
-      13
-     ]
-    },
-    {
-     "item": 242,
-     "role": "frame_12",
-     "src": [
-      220,
-      1176,
-      12,
-      13
-     ]
-    }
-   ],
-   "box": [
-    4,
-    1175,
-    228,
-    14
-   ]
-  },
-  {
-   "id": 26,
-   "name": "snatch_e026",
-   "file": "snatch/snatch_e026.png",
-   "cell": [
-    7,
-    13
-   ],
-   "zone": null,
-   "set": 8,
-   "template": "none",
-   "frames": [
-    {
-     "item": 243,
-     "role": "frame_0",
-     "src": [
-      2,
-      1210,
-      5,
-      13
-     ]
-    },
-    {
-     "item": 244,
-     "role": "frame_1",
-     "src": [
-      12,
-      1211,
-      7,
-      13
-     ]
-    },
-    {
-     "item": 245,
-     "role": "frame_2",
-     "src": [
-      22,
-      1211,
-      7,
-      13
-     ]
-    },
-    {
-     "item": 246,
-     "role": "frame_3",
-     "src": [
-      32,
-      1210,
-      7,
-      13
-     ]
-    },
-    {
-     "item": 247,
-     "role": "frame_4",
-     "src": [
-      43,
-      1209,
-      7,
-      13
-     ]
-    },
-    {
-     "item": 248,
-     "role": "frame_5",
-     "src": [
-      53,
-      1208,
-      7,
-      13
-     ]
-    },
-    {
-     "item": 249,
-     "role": "frame_6",
-     "src": [
-      62,
-      1211,
-      7,
-      13
-     ]
-    },
-    {
-     "item": 250,
-     "role": "frame_7",
-     "src": [
-      72,
-      1210,
-      7,
-      13
+      320,
+      971,
+      64,
+      64
      ]
     }
    ],
    "box": [
     2,
-    1208,
-    77,
-    16
+    971,
+    382,
+    64
    ]
   },
   {
    "id": 27,
-   "name": "taunt_e027",
-   "file": "taunt/taunt_e027.png",
-   "cell": [
-    14,
-    14
-   ],
-   "zone": null,
-   "set": 9,
-   "template": "none",
-   "frames": [
-    {
-     "item": 251,
-     "role": "frame_0",
-     "src": [
-      6,
-      1248,
-      9,
-      9
-     ]
-    },
-    {
-     "item": 252,
-     "role": "frame_1",
-     "src": [
-      21,
-      1245,
-      14,
-      14
-     ]
-    }
-   ],
-   "box": [
-    6,
-    1245,
-    29,
-    14
-   ]
-  },
-  {
-   "id": 28,
-   "name": "taunt_e028",
-   "file": "taunt/taunt_e028.png",
-   "cell": [
-    14,
-    14
-   ],
-   "zone": null,
-   "set": 9,
-   "template": "none",
-   "frames": [
-    {
-     "item": 253,
-     "role": "frame_0",
-     "src": [
-      111,
-      1245,
-      14,
-      14
-     ]
-    },
-    {
-     "item": 254,
-     "role": "frame_1",
-     "src": [
-      132,
-      1248,
-      9,
-      9
-     ]
-    }
-   ],
-   "box": [
-    111,
-    1245,
-    30,
-    14
-   ]
-  },
-  {
-   "id": 29,
-   "name": "taunt_e029",
-   "file": "taunt/taunt_e029.png",
+   "name": "taunt_fist",
+   "file": "taunt/taunt_fist.png",
    "cell": [
     16,
     16
@@ -1776,149 +2294,18 @@
    "template": "none",
    "frames": [
     {
-     "item": 255,
+     "item": 156,
      "role": "frame_0",
      "src": [
-      6,
-      1279,
-      9,
-      9
-     ]
-    },
-    {
-     "item": 256,
-     "role": "frame_1",
-     "src": [
-      21,
-      1276,
+      3,
+      1330,
       14,
-      14
-     ]
-    },
-    {
-     "item": 257,
-     "role": "frame_2",
-     "src": [
-      38,
-      1275,
-      16,
-      16
-     ]
-    }
-   ],
-   "box": [
-    6,
-    1275,
-    48,
-    16
-   ]
-  },
-  {
-   "id": 30,
-   "name": "taunt_e030",
-   "file": "taunt/taunt_e030.png",
-   "cell": [
-    13,
-    15
-   ],
-   "zone": null,
-   "set": 9,
-   "template": "none",
-   "frames": [
-    {
-     "item": 258,
-     "role": "frame_0",
-     "src": [
-      4,
-      1294,
-      13,
       15
      ]
     },
     {
-     "item": 259,
+     "item": 157,
      "role": "frame_1",
-     "src": [
-      20,
-      1294,
-      11,
-      14
-     ]
-    }
-   ],
-   "box": [
-    4,
-    1294,
-    27,
-    15
-   ]
-  },
-  {
-   "id": 31,
-   "name": "taunt_e031",
-   "file": "taunt/taunt_e031.png",
-   "cell": [
-    13,
-    15
-   ],
-   "zone": null,
-   "set": 9,
-   "template": "none",
-   "frames": [
-    {
-     "item": 260,
-     "role": "frame_0",
-     "src": [
-      4,
-      1314,
-      12,
-      11
-     ]
-    },
-    {
-     "item": 261,
-     "role": "frame_1",
-     "src": [
-      21,
-      1312,
-      13,
-      15
-     ]
-    },
-    {
-     "item": 262,
-     "role": "frame_2",
-     "src": [
-      40,
-      1314,
-      12,
-      11
-     ],
-     "duplicate_of": 0
-    }
-   ],
-   "box": [
-    4,
-    1312,
-    48,
-    15
-   ]
-  },
-  {
-   "id": 32,
-   "name": "taunt_e032",
-   "file": "taunt/taunt_e032.png",
-   "cell": [
-    16,
-    16
-   ],
-   "zone": null,
-   "set": 9,
-   "template": "none",
-   "frames": [
-    {
-     "item": 264,
-     "role": "frame_0",
      "src": [
       21,
       1330,
@@ -1927,8 +2314,8 @@
      ]
     },
     {
-     "item": 265,
-     "role": "frame_1",
+     "item": 158,
+     "role": "frame_2",
      "src": [
       39,
       1330,
@@ -1937,8 +2324,8 @@
      ]
     },
     {
-     "item": 266,
-     "role": "frame_2",
+     "item": 159,
+     "role": "frame_3",
      "src": [
       56,
       1329,
@@ -1947,8 +2334,8 @@
      ]
     },
     {
-     "item": 267,
-     "role": "frame_3",
+     "item": 160,
+     "role": "frame_4",
      "src": [
       74,
       1329,
@@ -1957,10 +2344,20 @@
      ]
     },
     {
-     "item": 268,
-     "role": "frame_4",
+     "item": 161,
+     "role": "frame_5",
      "src": [
       92,
+      1329,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 162,
+     "role": "frame_6",
+     "src": [
+      110,
       1329,
       16,
       16
@@ -1968,26 +2365,26 @@
     }
    ],
    "box": [
-    21,
+    3,
     1329,
-    87,
+    123,
     16
    ]
   },
   {
-   "id": 33,
-   "name": "torment_e033",
-   "file": "torment/torment_e033.png",
+   "id": 28,
+   "name": "torment_cloud",
+   "file": "torment/torment_cloud.png",
    "cell": [
-    18,
-    18
+    29,
+    29
    ],
    "zone": null,
    "set": 10,
    "template": "none",
    "frames": [
     {
-     "item": 270,
+     "item": 163,
      "role": "frame_0",
      "src": [
       4,
@@ -1997,7 +2394,7 @@
      ]
     },
     {
-     "item": 271,
+     "item": 164,
      "role": "frame_1",
      "src": [
       26,
@@ -2005,30 +2402,10 @@
       18,
       18
      ]
-    }
-   ],
-   "box": [
-    4,
-    1371,
-    40,
-    18
-   ]
-  },
-  {
-   "id": 34,
-   "name": "torment_e034",
-   "file": "torment/torment_e034.png",
-   "cell": [
-    20,
-    27
-   ],
-   "zone": null,
-   "set": 10,
-   "template": "none",
-   "frames": [
+    },
     {
-     "item": 272,
-     "role": "frame_0",
+     "item": 165,
+     "role": "frame_2",
      "src": [
       58,
       1369,
@@ -2037,167 +2414,47 @@
      ]
     },
     {
-     "item": 273,
-     "role": "frame_1",
+     "item": 166,
+     "role": "frame_3",
      "src": [
       88,
       1366,
-      19,
+      26,
       27
+     ]
+    },
+    {
+     "item": 167,
+     "role": "frame_4",
+     "src": [
+      123,
+      1366,
+      29,
+      29
      ]
     }
    ],
    "box": [
-    58,
+    4,
     1366,
-    49,
-    27
+    148,
+    29
    ]
   },
   {
-   "id": 35,
-   "name": "torment_e035",
-   "file": "torment/torment_e035.png",
+   "id": 29,
+   "name": "torment_vortex",
+   "file": "torment/torment_vortex.png",
    "cell": [
-    14,
-    19
+    32,
+    32
    ],
    "zone": null,
    "set": 10,
    "template": "none",
    "frames": [
     {
-     "item": 275,
-     "role": "frame_0",
-     "src": [
-      106,
-      1367,
-      8,
-      17
-     ]
-    },
-    {
-     "item": 276,
-     "role": "frame_1",
-     "src": [
-      123,
-      1366,
-      14,
-      13
-     ]
-    },
-    {
-     "item": 277,
-     "role": "frame_2",
-     "src": [
-      142,
-      1366,
-      10,
-      19
-     ]
-    }
-   ],
-   "box": [
-    106,
-    1366,
-    46,
-    19
-   ]
-  },
-  {
-   "id": 36,
-   "name": "set_11_e036",
-   "file": "set_11/set_11_e036.png",
-   "cell": [
-    32,
-    30
-   ],
-   "zone": null,
-   "set": 11,
-   "template": "none",
-   "frames": [
-    {
-     "item": 278,
-     "role": "frame_0",
-     "src": [
-      67,
-      1407,
-      30,
-      30
-     ]
-    },
-    {
-     "item": 279,
-     "role": "frame_1",
-     "src": [
-      104,
-      1409,
-      32,
-      30
-     ]
-    }
-   ],
-   "box": [
-    67,
-    1407,
-    69,
-    32
-   ]
-  },
-  {
-   "id": 37,
-   "name": "set_11_e037",
-   "file": "set_11/set_11_e037.png",
-   "cell": [
-    32,
-    32
-   ],
-   "zone": null,
-   "set": 11,
-   "template": "none",
-   "frames": [
-    {
-     "item": 281,
-     "role": "frame_0",
-     "src": [
-      191,
-      1407,
-      32,
-      32
-     ]
-    },
-    {
-     "item": 282,
-     "role": "frame_1",
-     "src": [
-      233,
-      1407,
-      32,
-      32
-     ]
-    }
-   ],
-   "box": [
-    191,
-    1407,
-    74,
-    32
-   ]
-  },
-  {
-   "id": 38,
-   "name": "set_11_e038",
-   "file": "set_11/set_11_e038.png",
-   "cell": [
-    24,
-    22
-   ],
-   "zone": null,
-   "set": 11,
-   "template": "none",
-   "frames": [
-    {
-     "item": 283,
+     "item": 173,
      "role": "frame_0",
      "src": [
       7,
@@ -2207,7 +2464,7 @@
      ]
     },
     {
-     "item": 284,
+     "item": 174,
      "role": "frame_1",
      "src": [
       31,
@@ -2215,242 +2472,67 @@
       24,
       22
      ]
-    }
-   ],
-   "box": [
-    7,
-    1411,
-    48,
-    22
-   ]
-  },
-  {
-   "id": 39,
-   "name": "flatter_e039",
-   "file": "flatter/flatter_e039.png",
-   "cell": [
-    30,
-    135
-   ],
-   "zone": null,
-   "set": 4,
-   "template": "none",
-   "frames": [
+    },
     {
-     "item": 83,
-     "role": "frame_0",
+     "item": 168,
+     "role": "frame_2",
      "src": [
-      51,
-      583,
+      67,
+      1407,
       30,
-      135
+      30
+     ]
+    },
+    {
+     "item": 169,
+     "role": "frame_3",
+     "src": [
+      104,
+      1409,
+      32,
+      30
+     ]
+    },
+    {
+     "item": 170,
+     "role": "frame_4",
+     "src": [
+      147,
+      1407,
+      32,
+      32
+     ]
+    },
+    {
+     "item": 171,
+     "role": "frame_5",
+     "src": [
+      191,
+      1407,
+      32,
+      32
+     ]
+    },
+    {
+     "item": 172,
+     "role": "frame_6",
+     "src": [
+      233,
+      1407,
+      32,
+      32
      ]
     }
    ],
    "box": [
-    51,
-    583,
-    30,
-    135
+    7,
+    1407,
+    258,
+    32
    ]
   }
  ],
  "items": [
-  {
-   "x": 5,
-   "y": 34,
-   "w": 10,
-   "h": 13,
-   "area": 62,
-   "ncolors": 3,
-   "dominant": "#0060B0",
-   "dom_frac": 0.532,
-   "kind": "sprite",
-   "zone": null,
-   "set": 0,
-   "id": 8,
-   "file": "beat_up/beat_up_008.png"
-  },
-  {
-   "x": 20,
-   "y": 35,
-   "w": 16,
-   "h": 12,
-   "area": 128,
-   "ncolors": 3,
-   "dominant": "#208000",
-   "dom_frac": 0.484,
-   "kind": "sprite",
-   "zone": null,
-   "set": 0,
-   "id": 9,
-   "file": "beat_up/beat_up_009.png"
-  },
-  {
-   "x": 39,
-   "y": 35,
-   "w": 7,
-   "h": 12,
-   "area": 47,
-   "ncolors": 3,
-   "dominant": "#980000",
-   "dom_frac": 0.553,
-   "kind": "sprite",
-   "zone": null,
-   "set": 0,
-   "id": 10,
-   "file": "beat_up/beat_up_010.png"
-  },
-  {
-   "x": 320,
-   "y": 51,
-   "w": 64,
-   "h": 64,
-   "area": 328,
-   "ncolors": 2,
-   "dominant": "#F0E800",
-   "dom_frac": 0.549,
-   "kind": "sprite",
-   "zone": null,
-   "set": 0,
-   "id": 11,
-   "file": "beat_up/beat_up_011.png"
-  },
-  {
-   "x": 3,
-   "y": 148,
-   "w": 29,
-   "h": 16,
-   "area": 250,
-   "ncolors": 4,
-   "dominant": "#F0F0F0",
-   "dom_frac": 0.32,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 19,
-   "file": "bite_crunch/bite_crunch_019.png"
-  },
-  {
-   "x": 36,
-   "y": 156,
-   "w": 29,
-   "h": 25,
-   "area": 425,
-   "ncolors": 4,
-   "dominant": "#788890",
-   "dom_frac": 0.304,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 20,
-   "file": "bite_crunch/bite_crunch_020.png"
-  },
-  {
-   "x": 2,
-   "y": 172,
-   "w": 31,
-   "h": 39,
-   "area": 469,
-   "ncolors": 4,
-   "dominant": "#788890",
-   "dom_frac": 0.352,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 21,
-   "file": "bite_crunch/bite_crunch_021.png"
-  },
-  {
-   "x": 35,
-   "y": 199,
-   "w": 31,
-   "h": 28,
-   "area": 473,
-   "ncolors": 4,
-   "dominant": "#788890",
-   "dom_frac": 0.332,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 22,
-   "file": "bite_crunch/bite_crunch_022.png"
-  },
-  {
-   "x": 3,
-   "y": 221,
-   "w": 29,
-   "h": 14,
-   "area": 213,
-   "ncolors": 4,
-   "dominant": "#F0F0F0",
-   "dom_frac": 0.31,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 23,
-   "file": "bite_crunch/bite_crunch_023.png"
-  },
-  {
-   "x": 8,
-   "y": 237,
-   "w": 24,
-   "h": 20,
-   "area": 258,
-   "ncolors": 4,
-   "dominant": "#788890",
-   "dom_frac": 0.45,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 24,
-   "file": "bite_crunch/bite_crunch_024.png"
-  },
-  {
-   "x": 3,
-   "y": 287,
-   "w": 29,
-   "h": 20,
-   "area": 267,
-   "ncolors": 4,
-   "dominant": "#788890",
-   "dom_frac": 0.333,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 27,
-   "file": "bite_crunch/bite_crunch_027.png"
-  },
-  {
-   "x": 36,
-   "y": 305,
-   "w": 30,
-   "h": 28,
-   "area": 456,
-   "ncolors": 4,
-   "dominant": "#788890",
-   "dom_frac": 0.373,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 28,
-   "file": "bite_crunch/bite_crunch_028.png"
-  },
-  {
-   "x": 2,
-   "y": 310,
-   "w": 33,
-   "h": 52,
-   "area": 501,
-   "ncolors": 4,
-   "dominant": "#788890",
-   "dom_frac": 0.407,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 29,
-   "file": "bite_crunch/bite_crunch_029.png"
-  },
   {
    "x": 2,
    "y": 408,
@@ -2462,563 +2544,10 @@
    "dom_frac": 0.217,
    "kind": "sprite",
    "zone": null,
+   "name": "faint_attack_orb",
    "set": 2,
-   "id": 32,
-   "file": "faint_attack_thief/faint_attack_thief_032.png"
-  },
-  {
-   "x": 112,
-   "y": 527,
-   "w": 3,
-   "h": 32,
-   "area": 76,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.447,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 42,
-   "file": "fake_tears/fake_tears_042.png"
-  },
-  {
-   "x": 156,
-   "y": 544,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 43,
-   "file": "fake_tears/fake_tears_043.png"
-  },
-  {
-   "x": 184,
-   "y": 528,
-   "w": 3,
-   "h": 32,
-   "area": 76,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.447,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 44,
-   "file": "fake_tears/fake_tears_044.png",
-   "duplicate_of": 14
-  },
-  {
-   "x": 244,
-   "y": 513,
-   "w": 6,
-   "h": 47,
-   "area": 112,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.464,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 45,
-   "file": "fake_tears/fake_tears_045.png"
-  },
-  {
-   "x": 287,
-   "y": 514,
-   "w": 6,
-   "h": 47,
-   "area": 112,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.464,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 46,
-   "file": "fake_tears/fake_tears_046.png"
-  },
-  {
-   "x": 330,
-   "y": 514,
-   "w": 6,
-   "h": 47,
-   "area": 112,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.464,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 47,
-   "file": "fake_tears/fake_tears_047.png",
-   "duplicate_of": 17
-  },
-  {
-   "x": 124,
-   "y": 520,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 48,
-   "file": "fake_tears/fake_tears_048.png"
-  },
-  {
-   "x": 168,
-   "y": 521,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 49,
-   "file": "fake_tears/fake_tears_049.png"
-  },
-  {
-   "x": 165,
-   "y": 536,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 50,
-   "file": "fake_tears/fake_tears_050.png",
-   "duplicate_of": 15
-  },
-  {
-   "x": 235,
-   "y": 547,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 53,
-   "file": "fake_tears/fake_tears_053.png",
-   "duplicate_of": 20
-  },
-  {
-   "x": 263,
-   "y": 544,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 54,
-   "file": "fake_tears/fake_tears_054.png",
-   "duplicate_of": 21
-  },
-  {
-   "x": 278,
-   "y": 545,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 55,
-   "file": "fake_tears/fake_tears_055.png",
-   "duplicate_of": 21
-  },
-  {
-   "x": 306,
-   "y": 537,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 56,
-   "file": "fake_tears/fake_tears_056.png",
-   "duplicate_of": 15
-  },
-  {
-   "x": 321,
-   "y": 548,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 57,
-   "file": "fake_tears/fake_tears_057.png",
-   "duplicate_of": 20
-  },
-  {
-   "x": 349,
-   "y": 545,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 58,
-   "file": "fake_tears/fake_tears_058.png",
-   "duplicate_of": 21
-  },
-  {
-   "x": 434,
-   "y": 546,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 63,
-   "file": "fake_tears/fake_tears_063.png",
-   "duplicate_of": 21
-  },
-  {
-   "x": 450,
-   "y": 547,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 64,
-   "file": "fake_tears/fake_tears_064.png",
-   "duplicate_of": 20
-  },
-  {
-   "x": 3,
-   "y": 537,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 65,
-   "file": "fake_tears/fake_tears_065.png",
-   "duplicate_of": 20
-  },
-  {
-   "x": 48,
-   "y": 537,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 66,
-   "file": "fake_tears/fake_tears_066.png",
-   "duplicate_of": 20
-  },
-  {
-   "x": 76,
-   "y": 538,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 67,
-   "file": "fake_tears/fake_tears_067.png",
-   "duplicate_of": 20
-  },
-  {
-   "x": 95,
-   "y": 530,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 68,
-   "file": "fake_tears/fake_tears_068.png",
-   "duplicate_of": 21
-  },
-  {
-   "x": 121,
-   "y": 535,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 69,
-   "file": "fake_tears/fake_tears_069.png",
-   "duplicate_of": 21
-  },
-  {
-   "x": 140,
-   "y": 527,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 70,
-   "file": "fake_tears/fake_tears_070.png",
-   "duplicate_of": 15
-  },
-  {
-   "x": 175,
-   "y": 536,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 71,
-   "file": "fake_tears/fake_tears_071.png",
-   "duplicate_of": 20
-  },
-  {
-   "x": 204,
-   "y": 522,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 72,
-   "file": "fake_tears/fake_tears_072.png",
-   "duplicate_of": 15
-  },
-  {
-   "x": 297,
-   "y": 529,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 73,
-   "file": "fake_tears/fake_tears_073.png",
-   "duplicate_of": 21
-  },
-  {
-   "x": 369,
-   "y": 525,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 74,
-   "file": "fake_tears/fake_tears_074.png",
-   "duplicate_of": 15
-  },
-  {
-   "x": 405,
-   "y": 532,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 75,
-   "file": "fake_tears/fake_tears_075.png",
-   "duplicate_of": 21
-  },
-  {
-   "x": 427,
-   "y": 534,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 76,
-   "file": "fake_tears/fake_tears_076.png",
-   "duplicate_of": 20
-  },
-  {
-   "x": 20,
-   "y": 537,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 77,
-   "file": "fake_tears/fake_tears_077.png",
-   "duplicate_of": 21
-  },
-  {
-   "x": 67,
-   "y": 530,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 78,
-   "file": "fake_tears/fake_tears_078.png",
-   "duplicate_of": 15
-  },
-  {
-   "x": 220,
-   "y": 540,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 79,
-   "file": "fake_tears/fake_tears_079.png",
-   "duplicate_of": 20
-  },
-  {
-   "x": 254,
-   "y": 528,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 80,
-   "file": "fake_tears/fake_tears_080.png",
-   "duplicate_of": 15
-  },
-  {
-   "x": 340,
-   "y": 529,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 81,
-   "file": "fake_tears/fake_tears_081.png",
-   "duplicate_of": 15
-  },
-  {
-   "x": 385,
-   "y": 543,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 3,
-   "id": 82,
-   "file": "fake_tears/fake_tears_082.png",
-   "duplicate_of": 20
+   "id": 29,
+   "file": "faint_attack_thief/faint_attack_orb.png"
   },
   {
    "x": 85,
@@ -3031,9 +2560,10 @@
    "dom_frac": 0.756,
    "kind": "sprite",
    "zone": null,
+   "name": "flatter_spotlight_base",
    "set": 4,
-   "id": 84,
-   "file": "flatter/flatter_084.png"
+   "id": 53,
+   "file": "flatter/flatter_spotlight_base.png"
   },
   {
    "x": 4,
@@ -3046,9 +2576,10 @@
    "dom_frac": 0.375,
    "kind": "sprite",
    "zone": null,
+   "name": "flatter_spark",
    "set": 4,
-   "id": 85,
-   "file": "flatter/flatter_085.png"
+   "id": 56,
+   "file": "flatter/flatter_spark.png"
   },
   {
    "x": 37,
@@ -3061,1746 +2592,12 @@
    "dom_frac": 0.2,
    "kind": "sprite",
    "zone": null,
+   "name": "flatter_colors",
    "set": 4,
-   "id": 86,
-   "file": "flatter/flatter_086.png"
-  },
-  {
-   "x": 3,
-   "y": 743,
-   "w": 17,
-   "h": 27,
-   "area": 95,
-   "ncolors": 4,
-   "dominant": "#D090D8",
-   "dom_frac": 0.337,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 87,
-   "file": "flatter/flatter_087.png"
-  },
-  {
-   "x": 69,
-   "y": 735,
-   "w": 6,
-   "h": 33,
-   "area": 33,
-   "ncolors": 1,
-   "dominant": "#FF0000",
-   "dom_frac": 1.0,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 88,
-   "file": "flatter/flatter_088.png"
-  },
-  {
-   "x": 106,
-   "y": 740,
-   "w": 7,
-   "h": 30,
-   "area": 30,
-   "ncolors": 1,
-   "dominant": "#FF0000",
-   "dom_frac": 1.0,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 89,
-   "file": "flatter/flatter_089.png"
-  },
-  {
-   "x": 149,
-   "y": 728,
-   "w": 9,
-   "h": 42,
-   "area": 42,
-   "ncolors": 1,
-   "dominant": "#FF0000",
-   "dom_frac": 1.0,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 90,
-   "file": "flatter/flatter_090.png"
-  },
-  {
-   "x": 203,
-   "y": 732,
-   "w": 6,
-   "h": 33,
-   "area": 33,
-   "ncolors": 1,
-   "dominant": "#FF0000",
-   "dom_frac": 1.0,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 91,
-   "file": "flatter/flatter_091.png",
-   "duplicate_of": 53
-  },
-  {
-   "x": 255,
-   "y": 720,
-   "w": 5,
-   "h": 47,
-   "area": 47,
-   "ncolors": 1,
-   "dominant": "#FF0000",
-   "dom_frac": 1.0,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 92,
-   "file": "flatter/flatter_092.png"
-  },
-  {
-   "x": 290,
-   "y": 759,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 93,
-   "file": "flatter/flatter_093.png"
-  },
-  {
-   "x": 344,
-   "y": 757,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 94,
-   "file": "flatter/flatter_094.png"
-  },
-  {
-   "x": 396,
-   "y": 752,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 95,
-   "file": "flatter/flatter_095.png"
-  },
-  {
-   "x": 517,
-   "y": 719,
-   "w": 8,
-   "h": 49,
-   "area": 49,
-   "ncolors": 1,
-   "dominant": "#FF0000",
-   "dom_frac": 1.0,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 96,
-   "file": "flatter/flatter_096.png"
-  },
-  {
-   "x": 23,
-   "y": 738,
-   "w": 21,
-   "h": 33,
-   "area": 145,
-   "ncolors": 5,
-   "dominant": "#FF0000",
-   "dom_frac": 0.228,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 97,
-   "file": "flatter/flatter_097.png"
-  },
-  {
-   "x": 363,
-   "y": 719,
-   "w": 3,
-   "h": 54,
-   "area": 54,
-   "ncolors": 1,
-   "dominant": "#FF0000",
-   "dom_frac": 1.0,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 98,
-   "file": "flatter/flatter_098.png"
-  },
-  {
-   "x": 415,
-   "y": 719,
-   "w": 3,
-   "h": 55,
-   "area": 55,
-   "ncolors": 1,
-   "dominant": "#FF0000",
-   "dom_frac": 1.0,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 99,
-   "file": "flatter/flatter_099.png"
-  },
-  {
-   "x": 450,
-   "y": 739,
-   "w": 3,
-   "h": 32,
-   "area": 76,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.447,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 100,
-   "file": "flatter/flatter_100.png"
-  },
-  {
-   "x": 214,
-   "y": 742,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 101,
-   "file": "flatter/flatter_101.png",
-   "duplicate_of": 59
-  },
-  {
-   "x": 246,
-   "y": 734,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 102,
-   "file": "flatter/flatter_102.png",
-   "duplicate_of": 60
-  },
-  {
-   "x": 277,
-   "y": 732,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 103,
-   "file": "flatter/flatter_103.png",
-   "duplicate_of": 60
-  },
-  {
-   "x": 390,
-   "y": 721,
-   "w": 3,
-   "h": 32,
-   "area": 76,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.447,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 104,
-   "file": "flatter/flatter_104.png",
-   "duplicate_of": 65
-  },
-  {
-   "x": 544,
-   "y": 743,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 105,
-   "file": "flatter/flatter_105.png",
-   "duplicate_of": 59
-  },
-  {
-   "x": 406,
-   "y": 729,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 106,
-   "file": "flatter/flatter_106.png",
-   "duplicate_of": 59
-  },
-  {
-   "x": 444,
-   "y": 724,
-   "w": 3,
-   "h": 15,
-   "area": 35,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.486,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 107,
-   "file": "flatter/flatter_107.png"
-  },
-  {
-   "x": 460,
-   "y": 732,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 108,
-   "file": "flatter/flatter_108.png",
-   "duplicate_of": 58
-  },
-  {
-   "x": 496,
-   "y": 729,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 109,
-   "file": "flatter/flatter_109.png",
-   "duplicate_of": 59
-  },
-  {
-   "x": 538,
-   "y": 728,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 110,
-   "file": "flatter/flatter_110.png",
-   "duplicate_of": 58
-  },
-  {
-   "x": 117,
-   "y": 749,
-   "w": 30,
-   "h": 14,
-   "area": 361,
-   "ncolors": 4,
-   "dominant": "#FFFFFF",
-   "dom_frac": 0.681,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 113,
-   "file": "flatter/flatter_113.png"
-  },
-  {
-   "x": 164,
-   "y": 746,
-   "w": 35,
-   "h": 17,
-   "area": 152,
-   "ncolors": 3,
-   "dominant": "#D090D8",
-   "dom_frac": 0.487,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 114,
-   "file": "flatter/flatter_114.png"
-  },
-  {
-   "x": 223,
-   "y": 725,
-   "w": 3,
-   "h": 32,
-   "area": 76,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.447,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 115,
-   "file": "flatter/flatter_115.png",
-   "duplicate_of": 65
-  },
-  {
-   "x": 268,
-   "y": 741,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 116,
-   "file": "flatter/flatter_116.png",
-   "duplicate_of": 60
-  },
-  {
-   "x": 300,
-   "y": 725,
-   "w": 3,
-   "h": 32,
-   "area": 76,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.447,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 117,
-   "file": "flatter/flatter_117.png",
-   "duplicate_of": 65
-  },
-  {
-   "x": 322,
-   "y": 726,
-   "w": 3,
-   "h": 32,
-   "area": 76,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.447,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 118,
-   "file": "flatter/flatter_118.png",
-   "duplicate_of": 65
-  },
-  {
-   "x": 502,
-   "y": 744,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 119,
-   "file": "flatter/flatter_119.png",
-   "duplicate_of": 60
-  },
-  {
-   "x": 331,
-   "y": 733,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 120,
-   "file": "flatter/flatter_120.png",
-   "duplicate_of": 59
-  },
-  {
-   "x": 354,
-   "y": 726,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 121,
-   "file": "flatter/flatter_121.png",
-   "duplicate_of": 60
-  },
-  {
-   "x": 428,
-   "y": 732,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 124,
-   "file": "flatter/flatter_124.png",
-   "duplicate_of": 59
-  },
-  {
-   "x": 480,
-   "y": 737,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 125,
-   "file": "flatter/flatter_125.png",
-   "duplicate_of": 58
-  },
-  {
-   "x": 112,
-   "y": 879,
-   "w": 3,
-   "h": 32,
-   "area": 76,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.447,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 135,
-   "file": "memento/memento_135.png"
-  },
-  {
-   "x": 156,
-   "y": 896,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 136,
-   "file": "memento/memento_136.png"
-  },
-  {
-   "x": 184,
-   "y": 880,
-   "w": 3,
-   "h": 32,
-   "area": 76,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.447,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 137,
-   "file": "memento/memento_137.png",
-   "duplicate_of": 87
-  },
-  {
-   "x": 244,
-   "y": 865,
-   "w": 6,
-   "h": 47,
-   "area": 112,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.464,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 138,
-   "file": "memento/memento_138.png"
-  },
-  {
-   "x": 287,
-   "y": 866,
-   "w": 6,
-   "h": 47,
-   "area": 112,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.464,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 139,
-   "file": "memento/memento_139.png"
-  },
-  {
-   "x": 330,
-   "y": 866,
-   "w": 6,
-   "h": 47,
-   "area": 112,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.464,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 140,
-   "file": "memento/memento_140.png",
-   "duplicate_of": 90
-  },
-  {
-   "x": 124,
-   "y": 872,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 141,
-   "file": "memento/memento_141.png"
-  },
-  {
-   "x": 168,
-   "y": 873,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 142,
-   "file": "memento/memento_142.png"
-  },
-  {
-   "x": 165,
-   "y": 888,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 143,
-   "file": "memento/memento_143.png",
-   "duplicate_of": 88
-  },
-  {
-   "x": 235,
-   "y": 899,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 146,
-   "file": "memento/memento_146.png",
-   "duplicate_of": 93
-  },
-  {
-   "x": 263,
-   "y": 896,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 147,
-   "file": "memento/memento_147.png",
-   "duplicate_of": 94
-  },
-  {
-   "x": 278,
-   "y": 897,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 148,
-   "file": "memento/memento_148.png",
-   "duplicate_of": 94
-  },
-  {
-   "x": 306,
-   "y": 889,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 149,
-   "file": "memento/memento_149.png",
-   "duplicate_of": 88
-  },
-  {
-   "x": 321,
-   "y": 900,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 150,
-   "file": "memento/memento_150.png",
-   "duplicate_of": 93
-  },
-  {
-   "x": 349,
-   "y": 897,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 151,
-   "file": "memento/memento_151.png",
-   "duplicate_of": 94
-  },
-  {
-   "x": 434,
-   "y": 898,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 156,
-   "file": "memento/memento_156.png",
-   "duplicate_of": 94
-  },
-  {
-   "x": 450,
-   "y": 899,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 157,
-   "file": "memento/memento_157.png",
-   "duplicate_of": 93
-  },
-  {
-   "x": 3,
-   "y": 889,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 158,
-   "file": "memento/memento_158.png",
-   "duplicate_of": 93
-  },
-  {
-   "x": 48,
-   "y": 889,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 159,
-   "file": "memento/memento_159.png",
-   "duplicate_of": 93
-  },
-  {
-   "x": 76,
-   "y": 890,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 160,
-   "file": "memento/memento_160.png",
-   "duplicate_of": 93
-  },
-  {
-   "x": 95,
-   "y": 882,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 161,
-   "file": "memento/memento_161.png",
-   "duplicate_of": 94
-  },
-  {
-   "x": 121,
-   "y": 887,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 162,
-   "file": "memento/memento_162.png",
-   "duplicate_of": 94
-  },
-  {
-   "x": 140,
-   "y": 879,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 163,
-   "file": "memento/memento_163.png",
-   "duplicate_of": 88
-  },
-  {
-   "x": 175,
-   "y": 888,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 164,
-   "file": "memento/memento_164.png",
-   "duplicate_of": 93
-  },
-  {
-   "x": 204,
-   "y": 874,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 165,
-   "file": "memento/memento_165.png",
-   "duplicate_of": 88
-  },
-  {
-   "x": 297,
-   "y": 881,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 166,
-   "file": "memento/memento_166.png",
-   "duplicate_of": 94
-  },
-  {
-   "x": 369,
-   "y": 877,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 167,
-   "file": "memento/memento_167.png",
-   "duplicate_of": 88
-  },
-  {
-   "x": 405,
-   "y": 884,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 168,
-   "file": "memento/memento_168.png",
-   "duplicate_of": 94
-  },
-  {
-   "x": 427,
-   "y": 886,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 169,
-   "file": "memento/memento_169.png",
-   "duplicate_of": 93
-  },
-  {
-   "x": 20,
-   "y": 889,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 170,
-   "file": "memento/memento_170.png",
-   "duplicate_of": 94
-  },
-  {
-   "x": 67,
-   "y": 882,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 171,
-   "file": "memento/memento_171.png",
-   "duplicate_of": 88
-  },
-  {
-   "x": 220,
-   "y": 892,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 172,
-   "file": "memento/memento_172.png",
-   "duplicate_of": 93
-  },
-  {
-   "x": 254,
-   "y": 880,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 173,
-   "file": "memento/memento_173.png",
-   "duplicate_of": 88
-  },
-  {
-   "x": 340,
-   "y": 881,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 174,
-   "file": "memento/memento_174.png",
-   "duplicate_of": 88
-  },
-  {
-   "x": 385,
-   "y": 895,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#D03800",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 175,
-   "file": "memento/memento_175.png",
-   "duplicate_of": 93
-  },
-  {
-   "x": 112,
-   "y": 933,
-   "w": 3,
-   "h": 32,
-   "area": 76,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.447,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 176,
-   "file": "memento/memento_176.png",
-   "duplicate_of": 65
-  },
-  {
-   "x": 156,
-   "y": 950,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 177,
-   "file": "memento/memento_177.png",
-   "duplicate_of": 60
-  },
-  {
-   "x": 184,
-   "y": 934,
-   "w": 3,
-   "h": 32,
-   "area": 76,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.447,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 178,
-   "file": "memento/memento_178.png",
-   "duplicate_of": 65
-  },
-  {
-   "x": 244,
-   "y": 919,
-   "w": 6,
-   "h": 47,
-   "area": 112,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.464,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 179,
-   "file": "memento/memento_179.png"
-  },
-  {
-   "x": 287,
-   "y": 920,
-   "w": 6,
-   "h": 47,
-   "area": 112,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.464,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 180,
-   "file": "memento/memento_180.png"
-  },
-  {
-   "x": 330,
-   "y": 920,
-   "w": 6,
-   "h": 47,
-   "area": 112,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.464,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 181,
-   "file": "memento/memento_181.png",
-   "duplicate_of": 125
-  },
-  {
-   "x": 124,
-   "y": 926,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 182,
-   "file": "memento/memento_182.png",
-   "duplicate_of": 58
-  },
-  {
-   "x": 168,
-   "y": 927,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 183,
-   "file": "memento/memento_183.png",
-   "duplicate_of": 59
-  },
-  {
-   "x": 165,
-   "y": 942,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 184,
-   "file": "memento/memento_184.png",
-   "duplicate_of": 60
-  },
-  {
-   "x": 235,
-   "y": 953,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 187,
-   "file": "memento/memento_187.png",
-   "duplicate_of": 58
-  },
-  {
-   "x": 263,
-   "y": 950,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 188,
-   "file": "memento/memento_188.png",
-   "duplicate_of": 59
-  },
-  {
-   "x": 278,
-   "y": 951,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 189,
-   "file": "memento/memento_189.png",
-   "duplicate_of": 59
-  },
-  {
-   "x": 306,
-   "y": 943,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 190,
-   "file": "memento/memento_190.png",
-   "duplicate_of": 60
-  },
-  {
-   "x": 321,
-   "y": 954,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 191,
-   "file": "memento/memento_191.png",
-   "duplicate_of": 58
-  },
-  {
-   "x": 349,
-   "y": 951,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 192,
-   "file": "memento/memento_192.png",
-   "duplicate_of": 59
-  },
-  {
-   "x": 434,
-   "y": 952,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 197,
-   "file": "memento/memento_197.png",
-   "duplicate_of": 59
-  },
-  {
-   "x": 450,
-   "y": 953,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 198,
-   "file": "memento/memento_198.png",
-   "duplicate_of": 58
-  },
-  {
-   "x": 3,
-   "y": 943,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 199,
-   "file": "memento/memento_199.png",
-   "duplicate_of": 58
-  },
-  {
-   "x": 48,
-   "y": 943,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 200,
-   "file": "memento/memento_200.png",
-   "duplicate_of": 58
-  },
-  {
-   "x": 76,
-   "y": 944,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 201,
-   "file": "memento/memento_201.png",
-   "duplicate_of": 58
-  },
-  {
-   "x": 95,
-   "y": 936,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 202,
-   "file": "memento/memento_202.png",
-   "duplicate_of": 59
-  },
-  {
-   "x": 121,
-   "y": 941,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 203,
-   "file": "memento/memento_203.png",
-   "duplicate_of": 59
-  },
-  {
-   "x": 140,
-   "y": 933,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 204,
-   "file": "memento/memento_204.png",
-   "duplicate_of": 60
-  },
-  {
-   "x": 175,
-   "y": 942,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 205,
-   "file": "memento/memento_205.png",
-   "duplicate_of": 58
-  },
-  {
-   "x": 204,
-   "y": 928,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 206,
-   "file": "memento/memento_206.png",
-   "duplicate_of": 60
-  },
-  {
-   "x": 297,
-   "y": 935,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 207,
-   "file": "memento/memento_207.png",
-   "duplicate_of": 59
-  },
-  {
-   "x": 369,
-   "y": 931,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 208,
-   "file": "memento/memento_208.png",
-   "duplicate_of": 60
-  },
-  {
-   "x": 405,
-   "y": 938,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 209,
-   "file": "memento/memento_209.png",
-   "duplicate_of": 59
-  },
-  {
-   "x": 427,
-   "y": 940,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 210,
-   "file": "memento/memento_210.png",
-   "duplicate_of": 58
-  },
-  {
-   "x": 20,
-   "y": 943,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 211,
-   "file": "memento/memento_211.png",
-   "duplicate_of": 59
-  },
-  {
-   "x": 67,
-   "y": 936,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 212,
-   "file": "memento/memento_212.png",
-   "duplicate_of": 60
-  },
-  {
-   "x": 220,
-   "y": 946,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 213,
-   "file": "memento/memento_213.png",
-   "duplicate_of": 58
-  },
-  {
-   "x": 254,
-   "y": 934,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 214,
-   "file": "memento/memento_214.png",
-   "duplicate_of": 60
-  },
-  {
-   "x": 340,
-   "y": 935,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 215,
-   "file": "memento/memento_215.png",
-   "duplicate_of": 60
-  },
-  {
-   "x": 385,
-   "y": 949,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#A868B0",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 216,
-   "file": "memento/memento_216.png",
-   "duplicate_of": 58
-  },
-  {
-   "x": 320,
-   "y": 971,
-   "w": 64,
-   "h": 64,
-   "area": 328,
-   "ncolors": 2,
-   "dominant": "#F08058",
-   "dom_frac": 0.549,
-   "kind": "sprite",
-   "zone": null,
-   "set": 6,
-   "id": 217,
-   "file": "memento/memento_217.png"
-  },
-  {
-   "x": 3,
-   "y": 1330,
-   "w": 14,
-   "h": 15,
-   "area": 163,
-   "ncolors": 4,
-   "dominant": "#000000",
-   "dom_frac": 0.417,
-   "kind": "sprite",
-   "zone": null,
-   "set": 9,
-   "id": 263,
-   "file": "taunt/taunt_263.png"
-  },
-  {
-   "x": 110,
-   "y": 1329,
-   "w": 16,
-   "h": 16,
-   "area": 203,
-   "ncolors": 8,
-   "dominant": "#000000",
-   "dom_frac": 0,
-   "kind": "sprite",
-   "zone": null,
-   "set": 9,
-   "id": 269,
-   "file": "taunt/taunt_269.png"
-  },
-  {
-   "x": 123,
-   "y": 1382,
-   "w": 19,
-   "h": 13,
-   "area": 67,
-   "ncolors": 2,
-   "dominant": "#D0D8D8",
-   "dom_frac": 0.522,
-   "kind": "sprite",
-   "zone": null,
-   "set": 11,
-   "id": 274,
-   "file": "set_11/set_11_274.png"
-  },
-  {
-   "x": 147,
-   "y": 1407,
-   "w": 32,
-   "h": 32,
-   "area": 768,
-   "ncolors": 3,
-   "dominant": "#803880",
-   "dom_frac": 0.432,
-   "kind": "sprite",
-   "zone": null,
-   "set": 11,
-   "id": 280,
-   "file": "set_11/set_11_280.png"
+   "id": 57,
+   "file": "flatter/flatter_colors.png"
   }
  ],
- "status": "needs_review",
- "missing_stages": [
-  "decoupage",
-  "regroupement",
-  "nommage"
- ]
+ "status": "ok",
+ "missing_stages": []
 }

@@ -5,7 +5,7 @@
  "title": "Rock-Type Moves",
  "type": "sprites",
  "template": "none",
- "validation": "pending",
+ "validation": "verified",
  "sets": [
   {
    "id": 0,
@@ -131,148 +131,8 @@
  "entities": [
   {
    "id": 0,
-   "name": "ancientpower_e000",
-   "file": "ancientpower/ancientpower_e000.png",
-   "cell": [
-    12,
-    21
-   ],
-   "zone": null,
-   "set": 0,
-   "template": "none",
-   "frames": [
-    {
-     "item": 3,
-     "role": "frame_0",
-     "src": [
-      177,
-      44,
-      12,
-      10
-     ]
-    },
-    {
-     "item": 4,
-     "role": "frame_1",
-     "src": [
-      196,
-      30,
-      10,
-      21
-     ]
-    }
-   ],
-   "box": [
-    177,
-    30,
-    29,
-    24
-   ]
-  },
-  {
-   "id": 1,
-   "name": "ancientpower_e001",
-   "file": "ancientpower/ancientpower_e001.png",
-   "cell": [
-    22,
-    21
-   ],
-   "zone": null,
-   "set": 0,
-   "template": "none",
-   "frames": [
-    {
-     "item": 5,
-     "role": "frame_0",
-     "src": [
-      221,
-      43,
-      12,
-      10
-     ]
-    },
-    {
-     "item": 6,
-     "role": "frame_1",
-     "src": [
-      239,
-      29,
-      10,
-      21
-     ]
-    },
-    {
-     "item": 7,
-     "role": "frame_2",
-     "src": [
-      253,
-      37,
-      22,
-      15
-     ]
-    }
-   ],
-   "box": [
-    221,
-    29,
-    54,
-    24
-   ]
-  },
-  {
-   "id": 2,
-   "name": "ancientpower_e002",
-   "file": "ancientpower/ancientpower_e002.png",
-   "cell": [
-    18,
-    20
-   ],
-   "zone": null,
-   "set": 0,
-   "template": "none",
-   "frames": [
-    {
-     "item": 22,
-     "role": "frame_0",
-     "src": [
-      29,
-      43,
-      12,
-      18
-     ]
-    },
-    {
-     "item": 23,
-     "role": "frame_1",
-     "src": [
-      45,
-      43,
-      18,
-      19
-     ]
-    },
-    {
-     "item": 24,
-     "role": "frame_2",
-     "src": [
-      71,
-      37,
-      11,
-      20
-     ]
-    }
-   ],
-   "box": [
-    29,
-    37,
-    53,
-    25
-   ]
-  },
-  {
-   "id": 3,
-   "name": "ancientpower_e003",
-   "file": "ancientpower/ancientpower_e003.png",
+   "name": "ancientpower_rock_large",
+   "file": "ancientpower/ancientpower_rock_large.png",
    "cell": [
     12,
     11
@@ -282,7 +142,7 @@
    "template": "none",
    "frames": [
     {
-     "item": 28,
+     "item": 8,
      "role": "frame_0",
      "src": [
       8,
@@ -292,7 +152,7 @@
      ]
     },
     {
-     "item": 29,
+     "item": 9,
      "role": "frame_1",
      "src": [
       25,
@@ -302,7 +162,7 @@
      ]
     },
     {
-     "item": 30,
+     "item": 10,
      "role": "frame_2",
      "src": [
       44,
@@ -312,7 +172,7 @@
      ]
     },
     {
-     "item": 31,
+     "item": 11,
      "role": "frame_3",
      "src": [
       62,
@@ -322,7 +182,7 @@
      ]
     },
     {
-     "item": 32,
+     "item": 12,
      "role": "frame_4",
      "src": [
       81,
@@ -340,9 +200,9 @@
    ]
   },
   {
-   "id": 4,
-   "name": "ancientpower_e004",
-   "file": "ancientpower/ancientpower_e004.png",
+   "id": 1,
+   "name": "ancientpower_rock_medium",
+   "file": "ancientpower/ancientpower_rock_medium.png",
    "cell": [
     11,
     11
@@ -352,7 +212,7 @@
    "template": "none",
    "frames": [
     {
-     "item": 33,
+     "item": 13,
      "role": "frame_0",
      "src": [
       9,
@@ -362,7 +222,7 @@
      ]
     },
     {
-     "item": 34,
+     "item": 14,
      "role": "frame_1",
      "src": [
       27,
@@ -372,7 +232,7 @@
      ]
     },
     {
-     "item": 35,
+     "item": 15,
      "role": "frame_2",
      "src": [
       45,
@@ -382,7 +242,7 @@
      ]
     },
     {
-     "item": 36,
+     "item": 16,
      "role": "frame_3",
      "src": [
       64,
@@ -392,7 +252,7 @@
      ]
     },
     {
-     "item": 37,
+     "item": 17,
      "role": "frame_4",
      "src": [
       82,
@@ -410,9 +270,9 @@
    ]
   },
   {
-   "id": 5,
-   "name": "ancientpower_e005",
-   "file": "ancientpower/ancientpower_e005.png",
+   "id": 2,
+   "name": "ancientpower_rock_shard",
+   "file": "ancientpower/ancientpower_rock_shard.png",
    "cell": [
     10,
     10
@@ -422,7 +282,7 @@
    "template": "none",
    "frames": [
     {
-     "item": 38,
+     "item": 18,
      "role": "frame_0",
      "src": [
       9,
@@ -432,7 +292,7 @@
      ]
     },
     {
-     "item": 39,
+     "item": 19,
      "role": "frame_1",
      "src": [
       24,
@@ -442,7 +302,7 @@
      ]
     },
     {
-     "item": 40,
+     "item": 20,
      "role": "frame_2",
      "src": [
       35,
@@ -452,7 +312,7 @@
      ]
     },
     {
-     "item": 41,
+     "item": 21,
      "role": "frame_3",
      "src": [
       45,
@@ -470,60 +330,9 @@
    ]
   },
   {
-   "id": 6,
-   "name": "rock_blast_e006",
-   "file": "rock_blast/rock_blast_e006.png",
-   "cell": [
-    8,
-    8
-   ],
-   "zone": null,
-   "set": 1,
-   "template": "none",
-   "frames": [
-    {
-     "item": 61,
-     "role": "frame_0",
-     "src": [
-      162,
-      160,
-      8,
-      8
-     ]
-    },
-    {
-     "item": 62,
-     "role": "frame_1",
-     "src": [
-      173,
-      170,
-      4,
-      4
-     ]
-    },
-    {
-     "item": 63,
-     "role": "frame_2",
-     "src": [
-      181,
-      160,
-      8,
-      8
-     ],
-     "mirror_of": 0
-    }
-   ],
-   "box": [
-    162,
-    160,
-    27,
-    14
-   ]
-  },
-  {
-   "id": 7,
-   "name": "rock_blast_e007",
-   "file": "rock_blast/rock_blast_e007.png",
+   "id": 3,
+   "name": "rock_blast_rock",
+   "file": "rock_blast/rock_blast_rock.png",
    "cell": [
     12,
     11
@@ -533,7 +342,7 @@
    "template": "none",
    "frames": [
     {
-     "item": 68,
+     "item": 29,
      "role": "frame_0",
      "src": [
       3,
@@ -543,7 +352,7 @@
      ]
     },
     {
-     "item": 69,
+     "item": 30,
      "role": "frame_1",
      "src": [
       22,
@@ -553,7 +362,7 @@
      ]
     },
     {
-     "item": 70,
+     "item": 31,
      "role": "frame_2",
      "src": [
       41,
@@ -563,7 +372,7 @@
      ]
     },
     {
-     "item": 71,
+     "item": 32,
      "role": "frame_3",
      "src": [
       58,
@@ -581,182 +390,9 @@
    ]
   },
   {
-   "id": 8,
-   "name": "rock_blast_e008",
-   "file": "rock_blast/rock_blast_e008.png",
-   "cell": [
-    16,
-    13
-   ],
-   "zone": null,
-   "set": 1,
-   "template": "none",
-   "frames": [
-    {
-     "item": 78,
-     "role": "frame_0",
-     "src": [
-      84,
-      171,
-      16,
-      13
-     ]
-    },
-    {
-     "item": 79,
-     "role": "frame_1",
-     "src": [
-      104,
-      176,
-      10,
-      12
-     ]
-    }
-   ],
-   "box": [
-    84,
-    171,
-    30,
-    17
-   ]
-  },
-  {
-   "id": 9,
-   "name": "rock_blast_e009",
-   "file": "rock_blast/rock_blast_e009.png",
-   "cell": [
-    6,
-    6
-   ],
-   "zone": null,
-   "set": 1,
-   "template": "none",
-   "frames": [
-    {
-     "item": 80,
-     "role": "frame_0",
-     "src": [
-      129,
-      182,
-      6,
-      6
-     ]
-    },
-    {
-     "item": 81,
-     "role": "frame_1",
-     "src": [
-      142,
-      183,
-      6,
-      6
-     ],
-     "duplicate_of": 0
-    }
-   ],
-   "box": [
-    129,
-    182,
-    19,
-    7
-   ]
-  },
-  {
-   "id": 10,
-   "name": "rock_blast_e010",
-   "file": "rock_blast/rock_blast_e010.png",
-   "cell": [
-    6,
-    6
-   ],
-   "zone": null,
-   "set": 1,
-   "template": "none",
-   "frames": [
-    {
-     "item": 87,
-     "role": "frame_0",
-     "src": [
-      169,
-      185,
-      6,
-      6
-     ]
-    },
-    {
-     "item": 88,
-     "role": "frame_1",
-     "src": [
-      185,
-      185,
-      6,
-      6
-     ],
-     "duplicate_of": 0
-    }
-   ],
-   "box": [
-    169,
-    185,
-    22,
-    6
-   ]
-  },
-  {
-   "id": 11,
-   "name": "rock_blast_e011",
-   "file": "rock_blast/rock_blast_e011.png",
-   "cell": [
-    6,
-    6
-   ],
-   "zone": null,
-   "set": 1,
-   "template": "none",
-   "frames": [
-    {
-     "item": 91,
-     "role": "frame_0",
-     "src": [
-      269,
-      188,
-      6,
-      6
-     ]
-    },
-    {
-     "item": 92,
-     "role": "frame_1",
-     "src": [
-      285,
-      188,
-      4,
-      4
-     ]
-    },
-    {
-     "item": 93,
-     "role": "frame_2",
-     "src": [
-      294,
-      190,
-      6,
-      6
-     ],
-     "duplicate_of": 0
-    }
-   ],
-   "box": [
-    269,
-    188,
-    31,
-    8
-   ]
-  },
-  {
-   "id": 12,
-   "name": "rock_blast_e012",
-   "file": "rock_blast/rock_blast_e012.png",
+   "id": 4,
+   "name": "rock_blast_pebble",
+   "file": "rock_blast/rock_blast_pebble.png",
    "cell": [
     8,
     8
@@ -766,7 +402,7 @@
    "template": "none",
    "frames": [
     {
-     "item": 98,
+     "item": 36,
      "role": "frame_0",
      "src": [
       3,
@@ -776,7 +412,7 @@
      ]
     },
     {
-     "item": 99,
+     "item": 37,
      "role": "frame_1",
      "src": [
       14,
@@ -786,7 +422,7 @@
      ]
     },
     {
-     "item": 100,
+     "item": 38,
      "role": "frame_2",
      "src": [
       25,
@@ -804,430 +440,9 @@
    ]
   },
   {
-   "id": 13,
-   "name": "rock_tomb_e013",
-   "file": "rock_tomb/rock_tomb_e013.png",
-   "cell": [
-    11,
-    9
-   ],
-   "zone": null,
-   "set": 2,
-   "template": "none",
-   "frames": [
-    {
-     "item": 111,
-     "role": "frame_0",
-     "src": [
-      320,
-      276,
-      8,
-      9
-     ]
-    },
-    {
-     "item": 112,
-     "role": "frame_1",
-     "src": [
-      334,
-      282,
-      11,
-      9
-     ]
-    }
-   ],
-   "box": [
-    320,
-    276,
-    25,
-    15
-   ]
-  },
-  {
-   "id": 14,
-   "name": "rock_tomb_e014",
-   "file": "rock_tomb/rock_tomb_e014.png",
-   "cell": [
-    11,
-    11
-   ],
-   "zone": null,
-   "set": 2,
-   "template": "none",
-   "frames": [
-    {
-     "item": 113,
-     "role": "frame_0",
-     "src": [
-      403,
-      278,
-      11,
-      11
-     ]
-    },
-    {
-     "item": 114,
-     "role": "frame_1",
-     "src": [
-      422,
-      282,
-      8,
-      9
-     ]
-    }
-   ],
-   "box": [
-    403,
-    278,
-    27,
-    13
-   ]
-  },
-  {
-   "id": 15,
-   "name": "rock_tomb_e015",
-   "file": "rock_tomb/rock_tomb_e015.png",
-   "cell": [
-    37,
-    15
-   ],
-   "zone": null,
-   "set": 2,
-   "template": "none",
-   "frames": [
-    {
-     "item": 132,
-     "role": "frame_0",
-     "src": [
-      547,
-      303,
-      12,
-      10
-     ]
-    },
-    {
-     "item": 133,
-     "role": "frame_1",
-     "src": [
-      563,
-      296,
-      37,
-      15
-     ]
-    }
-   ],
-   "box": [
-    547,
-    296,
-    53,
-    17
-   ]
-  },
-  {
-   "id": 16,
-   "name": "rock_tomb_e016",
-   "file": "rock_tomb/rock_tomb_e016.png",
-   "cell": [
-    38,
-    20
-   ],
-   "zone": null,
-   "set": 2,
-   "template": "none",
-   "frames": [
-    {
-     "item": 140,
-     "role": "frame_0",
-     "src": [
-      598,
-      318,
-      8,
-      9
-     ]
-    },
-    {
-     "item": 141,
-     "role": "frame_1",
-     "src": [
-      615,
-      305,
-      38,
-      20
-     ]
-    },
-    {
-     "item": 142,
-     "role": "frame_2",
-     "src": [
-      644,
-      321,
-      10,
-      7
-     ]
-    }
-   ],
-   "box": [
-    598,
-    305,
-    56,
-    23
-   ]
-  },
-  {
-   "id": 17,
-   "name": "rock_tomb_e017",
-   "file": "rock_tomb/rock_tomb_e017.png",
-   "cell": [
-    26,
-    12
-   ],
-   "zone": null,
-   "set": 2,
-   "template": "none",
-   "frames": [
-    {
-     "item": 143,
-     "role": "frame_0",
-     "src": [
-      696,
-      314,
-      26,
-      12
-     ]
-    },
-    {
-     "item": 144,
-     "role": "frame_1",
-     "src": [
-      730,
-      314,
-      10,
-      11
-     ]
-    },
-    {
-     "item": 145,
-     "role": "frame_2",
-     "src": [
-      745,
-      313,
-      11,
-      12
-     ]
-    },
-    {
-     "item": 146,
-     "role": "frame_3",
-     "src": [
-      764,
-      321,
-      6,
-      4
-     ]
-    },
-    {
-     "item": 147,
-     "role": "frame_4",
-     "src": [
-      779,
-      313,
-      11,
-      12
-     ],
-     "duplicate_of": 2
-    }
-   ],
-   "box": [
-    696,
-    313,
-    94,
-    13
-   ]
-  },
-  {
-   "id": 18,
-   "name": "rock_tomb_e018",
-   "file": "rock_tomb/rock_tomb_e018.png",
-   "cell": [
-    30,
-    36
-   ],
-   "zone": null,
-   "set": 2,
-   "template": "none",
-   "frames": [
-    {
-     "item": 158,
-     "role": "frame_0",
-     "src": [
-      658,
-      312,
-      30,
-      36
-     ]
-    },
-    {
-     "item": 159,
-     "role": "frame_1",
-     "src": [
-      692,
-      330,
-      26,
-      18
-     ]
-    },
-    {
-     "item": 160,
-     "role": "frame_2",
-     "src": [
-      726,
-      329,
-      25,
-      18
-     ]
-    },
-    {
-     "item": 161,
-     "role": "frame_3",
-     "src": [
-      760,
-      334,
-      20,
-      11
-     ]
-    }
-   ],
-   "box": [
-    658,
-    312,
-    122,
-    36
-   ]
-  },
-  {
-   "id": 19,
-   "name": "rock_tomb_e019",
-   "file": "rock_tomb/rock_tomb_e019.png",
-   "cell": [
-    38,
-    22
-   ],
-   "zone": null,
-   "set": 2,
-   "template": "none",
-   "frames": [
-    {
-     "item": 175,
-     "role": "frame_0",
-     "src": [
-      589,
-      345,
-      12,
-      10
-     ]
-    },
-    {
-     "item": 176,
-     "role": "frame_1",
-     "src": [
-      611,
-      331,
-      38,
-      22
-     ]
-    }
-   ],
-   "box": [
-    589,
-    331,
-    60,
-    24
-   ]
-  },
-  {
-   "id": 20,
-   "name": "rock_tomb_e020",
-   "file": "rock_tomb/rock_tomb_e020.png",
-   "cell": [
-    22,
-    10
-   ],
-   "zone": null,
-   "set": 2,
-   "template": "none",
-   "frames": [
-    {
-     "item": 187,
-     "role": "frame_0",
-     "src": [
-      465,
-      362,
-      22,
-      10
-     ]
-    },
-    {
-     "item": 188,
-     "role": "frame_1",
-     "src": [
-      490,
-      365,
-      12,
-      10
-     ]
-    }
-   ],
-   "box": [
-    465,
-    362,
-    37,
-    13
-   ]
-  },
-  {
-   "id": 21,
-   "name": "rock_tomb_e021",
-   "file": "rock_tomb/rock_tomb_e021.png",
-   "cell": [
-    11,
-    11
-   ],
-   "zone": null,
-   "set": 2,
-   "template": "none",
-   "frames": [
-    {
-     "item": 194,
-     "role": "frame_0",
-     "src": [
-      386,
-      369,
-      8,
-      9
-     ]
-    },
-    {
-     "item": 195,
-     "role": "frame_1",
-     "src": [
-      402,
-      371,
-      11,
-      11
-     ]
-    }
-   ],
-   "box": [
-    386,
-    369,
-    27,
-    13
-   ]
-  },
-  {
-   "id": 22,
-   "name": "rock_tomb_e022",
-   "file": "rock_tomb/rock_tomb_e022.png",
+   "id": 5,
+   "name": "rock_tomb_rock_large",
+   "file": "rock_tomb/rock_tomb_rock_large.png",
    "cell": [
     12,
     11
@@ -1237,7 +452,7 @@
    "template": "none",
    "frames": [
     {
-     "item": 201,
+     "item": 50,
      "role": "frame_0",
      "src": [
       4,
@@ -1247,7 +462,7 @@
      ]
     },
     {
-     "item": 202,
+     "item": 51,
      "role": "frame_1",
      "src": [
       21,
@@ -1257,7 +472,7 @@
      ]
     },
     {
-     "item": 203,
+     "item": 52,
      "role": "frame_2",
      "src": [
       40,
@@ -1267,7 +482,7 @@
      ]
     },
     {
-     "item": 204,
+     "item": 53,
      "role": "frame_3",
      "src": [
       58,
@@ -1277,7 +492,7 @@
      ]
     },
     {
-     "item": 205,
+     "item": 54,
      "role": "frame_4",
      "src": [
       77,
@@ -1295,9 +510,9 @@
    ]
   },
   {
-   "id": 23,
-   "name": "rock_tomb_e023",
-   "file": "rock_tomb/rock_tomb_e023.png",
+   "id": 6,
+   "name": "rock_tomb_rock_medium",
+   "file": "rock_tomb/rock_tomb_rock_medium.png",
    "cell": [
     11,
     11
@@ -1307,7 +522,7 @@
    "template": "none",
    "frames": [
     {
-     "item": 206,
+     "item": 55,
      "role": "frame_0",
      "src": [
       5,
@@ -1317,7 +532,7 @@
      ]
     },
     {
-     "item": 207,
+     "item": 56,
      "role": "frame_1",
      "src": [
       23,
@@ -1327,7 +542,7 @@
      ]
     },
     {
-     "item": 208,
+     "item": 57,
      "role": "frame_2",
      "src": [
       41,
@@ -1337,7 +552,7 @@
      ]
     },
     {
-     "item": 209,
+     "item": 58,
      "role": "frame_3",
      "src": [
       60,
@@ -1347,7 +562,7 @@
      ]
     },
     {
-     "item": 210,
+     "item": 59,
      "role": "frame_4",
      "src": [
       78,
@@ -1365,9 +580,9 @@
    ]
   },
   {
-   "id": 24,
-   "name": "rock_tomb_e024",
-   "file": "rock_tomb/rock_tomb_e024.png",
+   "id": 7,
+   "name": "rock_tomb_rock_shard",
+   "file": "rock_tomb/rock_tomb_rock_shard.png",
    "cell": [
     10,
     10
@@ -1377,7 +592,7 @@
    "template": "none",
    "frames": [
     {
-     "item": 211,
+     "item": 60,
      "role": "frame_0",
      "src": [
       5,
@@ -1387,7 +602,7 @@
      ]
     },
     {
-     "item": 212,
+     "item": 61,
      "role": "frame_1",
      "src": [
       20,
@@ -1397,7 +612,7 @@
      ]
     },
     {
-     "item": 213,
+     "item": 62,
      "role": "frame_2",
      "src": [
       31,
@@ -1407,7 +622,7 @@
      ]
     },
     {
-     "item": 214,
+     "item": 63,
      "role": "frame_3",
      "src": [
       41,
@@ -1425,9 +640,9 @@
    ]
   },
   {
-   "id": 25,
-   "name": "rock_throw_rock_slide_e025",
-   "file": "rock_throw_rock_slide/rock_throw_rock_slide_e025.png",
+   "id": 8,
+   "name": "rock_large",
+   "file": "rock_throw_rock_slide/rock_large.png",
    "cell": [
     12,
     11
@@ -1437,7 +652,7 @@
    "template": "none",
    "frames": [
     {
-     "item": 216,
+     "item": 65,
      "role": "frame_0",
      "src": [
       4,
@@ -1447,7 +662,7 @@
      ]
     },
     {
-     "item": 217,
+     "item": 66,
      "role": "frame_1",
      "src": [
       21,
@@ -1457,7 +672,7 @@
      ]
     },
     {
-     "item": 218,
+     "item": 67,
      "role": "frame_2",
      "src": [
       40,
@@ -1467,7 +682,7 @@
      ]
     },
     {
-     "item": 219,
+     "item": 68,
      "role": "frame_3",
      "src": [
       58,
@@ -1477,7 +692,7 @@
      ]
     },
     {
-     "item": 220,
+     "item": 69,
      "role": "frame_4",
      "src": [
       77,
@@ -1495,9 +710,9 @@
    ]
   },
   {
-   "id": 26,
-   "name": "rock_throw_rock_slide_e026",
-   "file": "rock_throw_rock_slide/rock_throw_rock_slide_e026.png",
+   "id": 9,
+   "name": "rock_medium",
+   "file": "rock_throw_rock_slide/rock_medium.png",
    "cell": [
     11,
     11
@@ -1507,7 +722,7 @@
    "template": "none",
    "frames": [
     {
-     "item": 221,
+     "item": 70,
      "role": "frame_0",
      "src": [
       5,
@@ -1517,7 +732,7 @@
      ]
     },
     {
-     "item": 222,
+     "item": 71,
      "role": "frame_1",
      "src": [
       23,
@@ -1527,7 +742,7 @@
      ]
     },
     {
-     "item": 223,
+     "item": 72,
      "role": "frame_2",
      "src": [
       41,
@@ -1537,7 +752,7 @@
      ]
     },
     {
-     "item": 224,
+     "item": 73,
      "role": "frame_3",
      "src": [
       60,
@@ -1547,7 +762,7 @@
      ]
     },
     {
-     "item": 225,
+     "item": 74,
      "role": "frame_4",
      "src": [
       78,
@@ -1565,9 +780,9 @@
    ]
   },
   {
-   "id": 27,
-   "name": "rock_throw_rock_slide_e027",
-   "file": "rock_throw_rock_slide/rock_throw_rock_slide_e027.png",
+   "id": 10,
+   "name": "rock_shard",
+   "file": "rock_throw_rock_slide/rock_shard.png",
    "cell": [
     10,
     10
@@ -1577,7 +792,7 @@
    "template": "none",
    "frames": [
     {
-     "item": 226,
+     "item": 75,
      "role": "frame_0",
      "src": [
       5,
@@ -1587,7 +802,7 @@
      ]
     },
     {
-     "item": 227,
+     "item": 76,
      "role": "frame_1",
      "src": [
       20,
@@ -1597,7 +812,7 @@
      ]
     },
     {
-     "item": 228,
+     "item": 77,
      "role": "frame_2",
      "src": [
       31,
@@ -1607,7 +822,7 @@
      ]
     },
     {
-     "item": 229,
+     "item": 78,
      "role": "frame_3",
      "src": [
       41,
@@ -1625,70 +840,359 @@
    ]
   },
   {
-   "id": 28,
-   "name": "rollout_e028",
-   "file": "rollout/rollout_e028.png",
+   "id": 11,
+   "name": "ancientpower_wave",
+   "file": "ancientpower/ancientpower_wave.png",
    "cell": [
-    8,
-    8
+    40,
+    25
    ],
    "zone": null,
-   "set": 4,
+   "set": 0,
    "template": "none",
    "frames": [
     {
-     "item": 249,
+     "item": 7,
      "role": "frame_0",
      "src": [
-      80,
-      563,
-      8,
-      8
+      2,
+      42,
+      39,
+      24
      ]
     },
     {
-     "item": 250,
+     "item": 5,
      "role": "frame_1",
      "src": [
-      91,
-      573,
-      4,
-      4
+      45,
+      37,
+      37,
+      25
      ]
     },
     {
-     "item": 251,
+     "item": 6,
      "role": "frame_2",
      "src": [
-      99,
-      563,
-      8,
-      8
-     ],
-     "mirror_of": 0
+      86,
+      34,
+      37,
+      25
+     ]
+    },
+    {
+     "item": 0,
+     "role": "frame_3",
+     "src": [
+      127,
+      32,
+      37,
+      25
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_4",
+     "src": [
+      168,
+      30,
+      38,
+      24
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_5",
+     "src": [
+      210,
+      29,
+      39,
+      24
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_6",
+     "src": [
+      253,
+      30,
+      40,
+      22
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_7",
+     "src": [
+      297,
+      30,
+      38,
+      22
+     ]
     }
    ],
    "box": [
-    80,
-    563,
-    27,
-    14
+    2,
+    29,
+    333,
+    37
    ]
   },
   {
-   "id": 29,
-   "name": "rollout_e029",
-   "file": "rollout/rollout_e029.png",
+   "id": 12,
+   "name": "rock_blast_explosion",
+   "file": "rock_blast/rock_blast_explosion.png",
    "cell": [
-    16,
-    13
+    68,
+    53
+   ],
+   "zone": null,
+   "set": 1,
+   "template": "none",
+   "frames": [
+    {
+     "item": 34,
+     "role": "frame_0",
+     "src": [
+      84,
+      171,
+      16,
+      13
+     ]
+    },
+    {
+     "item": 35,
+     "role": "frame_1",
+     "src": [
+      104,
+      157,
+      32,
+      31
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_2",
+     "src": [
+      140,
+      153,
+      37,
+      38
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_3",
+     "src": [
+      181,
+      150,
+      44,
+      42
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_4",
+     "src": [
+      229,
+      148,
+      52,
+      46
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_5",
+     "src": [
+      285,
+      147,
+      57,
+      49
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_6",
+     "src": [
+      346,
+      147,
+      62,
+      53
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_7",
+     "src": [
+      412,
+      149,
+      68,
+      53
+     ]
+    },
+    {
+     "item": 33,
+     "role": "frame_8",
+     "src": [
+      484,
+      152,
+      64,
+      22
+     ]
+    }
+   ],
+   "box": [
+    84,
+    147,
+    464,
+    55
+   ]
+  },
+  {
+   "id": 13,
+   "name": "rock_tomb_ring",
+   "file": "rock_tomb/rock_tomb_ring.png",
+   "cell": [
+    122,
+    128
+   ],
+   "zone": null,
+   "set": 2,
+   "template": "none",
+   "frames": [
+    {
+     "item": 39,
+     "role": "frame_0",
+     "src": [
+      5,
+      265,
+      122,
+      128
+     ]
+    },
+    {
+     "item": 40,
+     "role": "frame_1",
+     "src": [
+      135,
+      267,
+      114,
+      124
+     ]
+    },
+    {
+     "item": 41,
+     "role": "frame_2",
+     "src": [
+      253,
+      271,
+      104,
+      116
+     ]
+    },
+    {
+     "item": 42,
+     "role": "frame_3",
+     "src": [
+      362,
+      278,
+      92,
+      104
+     ]
+    },
+    {
+     "item": 43,
+     "role": "frame_4",
+     "src": [
+      458,
+      285,
+      80,
+      90
+     ]
+    },
+    {
+     "item": 44,
+     "role": "frame_5",
+     "src": [
+      542,
+      296,
+      64,
+      66
+     ]
+    },
+    {
+     "item": 45,
+     "role": "frame_6",
+     "src": [
+      610,
+      305,
+      44,
+      48
+     ]
+    },
+    {
+     "item": 46,
+     "role": "frame_7",
+     "src": [
+      658,
+      312,
+      30,
+      36
+     ]
+    },
+    {
+     "item": 47,
+     "role": "frame_8",
+     "src": [
+      692,
+      314,
+      30,
+      34
+     ]
+    },
+    {
+     "item": 48,
+     "role": "frame_9",
+     "src": [
+      726,
+      313,
+      30,
+      34
+     ]
+    },
+    {
+     "item": 49,
+     "role": "frame_10",
+     "src": [
+      760,
+      313,
+      30,
+      32
+     ]
+    }
+   ],
+   "box": [
+    5,
+    265,
+    785,
+    128
+   ]
+  },
+  {
+   "id": 14,
+   "name": "rollout_explosion",
+   "file": "rollout/rollout_explosion.png",
+   "cell": [
+    68,
+    53
    ],
    "zone": null,
    "set": 4,
    "template": "none",
    "frames": [
     {
-     "item": 262,
+     "item": 87,
      "role": "frame_0",
      "src": [
       2,
@@ -1698,464 +1202,95 @@
      ]
     },
     {
-     "item": 263,
+     "item": 88,
      "role": "frame_1",
      "src": [
       22,
-      579,
-      10,
-      12
+      560,
+      32,
+      31
+     ]
+    },
+    {
+     "item": 80,
+     "role": "frame_2",
+     "src": [
+      58,
+      556,
+      37,
+      38
+     ]
+    },
+    {
+     "item": 81,
+     "role": "frame_3",
+     "src": [
+      99,
+      553,
+      44,
+      42
+     ]
+    },
+    {
+     "item": 82,
+     "role": "frame_4",
+     "src": [
+      147,
+      551,
+      52,
+      46
+     ]
+    },
+    {
+     "item": 83,
+     "role": "frame_5",
+     "src": [
+      203,
+      550,
+      57,
+      49
+     ]
+    },
+    {
+     "item": 84,
+     "role": "frame_6",
+     "src": [
+      264,
+      550,
+      62,
+      53
+     ]
+    },
+    {
+     "item": 85,
+     "role": "frame_7",
+     "src": [
+      330,
+      552,
+      68,
+      53
+     ]
+    },
+    {
+     "item": 86,
+     "role": "frame_8",
+     "src": [
+      402,
+      555,
+      64,
+      22
      ]
     }
    ],
    "box": [
     2,
-    574,
-    30,
-    17
-   ]
-  },
-  {
-   "id": 30,
-   "name": "rollout_e030",
-   "file": "rollout/rollout_e030.png",
-   "cell": [
-    6,
-    6
-   ],
-   "zone": null,
-   "set": 4,
-   "template": "none",
-   "frames": [
-    {
-     "item": 264,
-     "role": "frame_0",
-     "src": [
-      47,
-      585,
-      6,
-      6
-     ]
-    },
-    {
-     "item": 265,
-     "role": "frame_1",
-     "src": [
-      60,
-      586,
-      6,
-      6
-     ],
-     "duplicate_of": 0
-    }
-   ],
-   "box": [
-    47,
-    585,
-    19,
-    7
-   ]
-  },
-  {
-   "id": 31,
-   "name": "rollout_e031",
-   "file": "rollout/rollout_e031.png",
-   "cell": [
-    6,
-    6
-   ],
-   "zone": null,
-   "set": 4,
-   "template": "none",
-   "frames": [
-    {
-     "item": 271,
-     "role": "frame_0",
-     "src": [
-      87,
-      588,
-      6,
-      6
-     ]
-    },
-    {
-     "item": 272,
-     "role": "frame_1",
-     "src": [
-      103,
-      588,
-      6,
-      6
-     ],
-     "duplicate_of": 0
-    }
-   ],
-   "box": [
-    87,
-    588,
-    22,
-    6
-   ]
-  },
-  {
-   "id": 32,
-   "name": "rollout_e032",
-   "file": "rollout/rollout_e032.png",
-   "cell": [
-    6,
-    6
-   ],
-   "zone": null,
-   "set": 4,
-   "template": "none",
-   "frames": [
-    {
-     "item": 275,
-     "role": "frame_0",
-     "src": [
-      187,
-      591,
-      6,
-      6
-     ]
-    },
-    {
-     "item": 276,
-     "role": "frame_1",
-     "src": [
-      203,
-      591,
-      4,
-      4
-     ]
-    },
-    {
-     "item": 277,
-     "role": "frame_2",
-     "src": [
-      212,
-      593,
-      6,
-      6
-     ],
-     "duplicate_of": 0
-    }
-   ],
-   "box": [
-    187,
-    591,
-    31,
-    8
+    550,
+    464,
+    55
    ]
   }
  ],
  "items": [
-  {
-   "x": 86,
-   "y": 40,
-   "w": 5,
-   "h": 10,
-   "area": 46,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.304,
-   "kind": "sprite",
-   "zone": null,
-   "set": 0,
-   "id": 0,
-   "file": "ancientpower/ancientpower_000.png"
-  },
-  {
-   "x": 113,
-   "y": 34,
-   "w": 10,
-   "h": 21,
-   "area": 117,
-   "ncolors": 5,
-   "dominant": "#406068",
-   "dom_frac": 0.333,
-   "kind": "sprite",
-   "zone": null,
-   "set": 0,
-   "id": 1,
-   "file": "ancientpower/ancientpower_001.png"
-  },
-  {
-   "x": 154,
-   "y": 32,
-   "w": 10,
-   "h": 21,
-   "area": 123,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.317,
-   "kind": "sprite",
-   "zone": null,
-   "set": 0,
-   "id": 2,
-   "file": "ancientpower/ancientpower_002.png"
-  },
-  {
-   "x": 297,
-   "y": 35,
-   "w": 19,
-   "h": 17,
-   "area": 130,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.308,
-   "kind": "sprite",
-   "zone": null,
-   "set": 0,
-   "id": 8,
-   "file": "ancientpower/ancientpower_008.png"
-  },
-  {
-   "x": 97,
-   "y": 36,
-   "w": 7,
-   "h": 6,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#406068",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 0,
-   "id": 9,
-   "file": "ancientpower/ancientpower_009.png"
-  },
-  {
-   "x": 137,
-   "y": 34,
-   "w": 7,
-   "h": 6,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#406068",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 0,
-   "id": 10,
-   "file": "ancientpower/ancientpower_010.png"
-  },
-  {
-   "x": 180,
-   "y": 32,
-   "w": 7,
-   "h": 6,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#406068",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 0,
-   "id": 11,
-   "file": "ancientpower/ancientpower_011.png",
-   "mirror_of": 5
-  },
-  {
-   "x": 223,
-   "y": 31,
-   "w": 7,
-   "h": 6,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#406068",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 0,
-   "id": 12,
-   "file": "ancientpower/ancientpower_012.png",
-   "duplicate_of": 4
-  },
-  {
-   "x": 265,
-   "y": 30,
-   "w": 7,
-   "h": 6,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#406068",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 0,
-   "id": 13,
-   "file": "ancientpower/ancientpower_013.png",
-   "mirror_of": 4
-  },
-  {
-   "x": 307,
-   "y": 30,
-   "w": 7,
-   "h": 6,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#406068",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 0,
-   "id": 14,
-   "file": "ancientpower/ancientpower_014.png",
-   "duplicate_of": 5
-  },
-  {
-   "x": 14,
-   "y": 42,
-   "w": 7,
-   "h": 6,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#406068",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 0,
-   "id": 15,
-   "file": "ancientpower/ancientpower_015.png",
-   "duplicate_of": 4
-  },
-  {
-   "x": 55,
-   "y": 39,
-   "w": 7,
-   "h": 6,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#406068",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 0,
-   "id": 16,
-   "file": "ancientpower/ancientpower_016.png",
-   "duplicate_of": 8
-  },
-  {
-   "x": 127,
-   "y": 38,
-   "w": 6,
-   "h": 10,
-   "area": 43,
-   "ncolors": 5,
-   "dominant": "#406068",
-   "dom_frac": 0.372,
-   "kind": "sprite",
-   "zone": null,
-   "set": 0,
-   "id": 17,
-   "file": "ancientpower/ancientpower_017.png"
-  },
-  {
-   "x": 168,
-   "y": 36,
-   "w": 8,
-   "h": 9,
-   "area": 43,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.372,
-   "kind": "sprite",
-   "zone": null,
-   "set": 0,
-   "id": 18,
-   "file": "ancientpower/ancientpower_018.png"
-  },
-  {
-   "x": 210,
-   "y": 36,
-   "w": 10,
-   "h": 7,
-   "area": 47,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.298,
-   "kind": "sprite",
-   "zone": null,
-   "set": 0,
-   "id": 19,
-   "file": "ancientpower/ancientpower_019.png"
-  },
-  {
-   "x": 281,
-   "y": 31,
-   "w": 12,
-   "h": 17,
-   "area": 125,
-   "ncolors": 5,
-   "dominant": "#406068",
-   "dom_frac": 0.288,
-   "kind": "sprite",
-   "zone": null,
-   "set": 0,
-   "id": 20,
-   "file": "ancientpower/ancientpower_020.png"
-  },
-  {
-   "x": 324,
-   "y": 32,
-   "w": 11,
-   "h": 17,
-   "area": 118,
-   "ncolors": 5,
-   "dominant": "#406068",
-   "dom_frac": 0.314,
-   "kind": "sprite",
-   "zone": null,
-   "set": 0,
-   "id": 21,
-   "file": "ancientpower/ancientpower_021.png"
-  },
-  {
-   "x": 94,
-   "y": 48,
-   "w": 10,
-   "h": 11,
-   "area": 87,
-   "ncolors": 5,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.322,
-   "kind": "sprite",
-   "zone": null,
-   "set": 0,
-   "id": 25,
-   "file": "ancientpower/ancientpower_025.png"
-  },
-  {
-   "x": 135,
-   "y": 46,
-   "w": 11,
-   "h": 11,
-   "area": 87,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.299,
-   "kind": "sprite",
-   "zone": null,
-   "set": 0,
-   "id": 26,
-   "file": "ancientpower/ancientpower_026.png"
-  },
-  {
-   "x": 2,
-   "y": 46,
-   "w": 19,
-   "h": 20,
-   "area": 133,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.308,
-   "kind": "sprite",
-   "zone": null,
-   "set": 0,
-   "id": 27,
-   "file": "ancientpower/ancientpower_027.png"
-  },
   {
    "x": 87,
    "y": 107,
@@ -2168,1815 +1303,8 @@
    "kind": "sprite",
    "zone": null,
    "set": 0,
-   "id": 42,
-   "file": "ancientpower/ancientpower_042.png",
-   "duplicate_of": 4
-  },
-  {
-   "x": 143,
-   "y": 153,
-   "w": 4,
-   "h": 4,
-   "area": 12,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.333,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 43,
-   "file": "rock_blast/rock_blast_043.png"
-  },
-  {
-   "x": 185,
-   "y": 150,
-   "w": 4,
-   "h": 4,
-   "area": 12,
-   "ncolors": 4,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.333,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 44,
-   "file": "rock_blast/rock_blast_044.png"
-  },
-  {
-   "x": 235,
-   "y": 148,
-   "w": 4,
-   "h": 4,
-   "area": 12,
-   "ncolors": 4,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.333,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 45,
-   "file": "rock_blast/rock_blast_045.png",
-   "mirror_of": 22
-  },
-  {
-   "x": 291,
-   "y": 147,
-   "w": 4,
-   "h": 4,
-   "area": 12,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.333,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 46,
-   "file": "rock_blast/rock_blast_046.png",
-   "mirror_of": 21
-  },
-  {
-   "x": 352,
-   "y": 147,
-   "w": 4,
-   "h": 4,
-   "area": 12,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.333,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 47,
-   "file": "rock_blast/rock_blast_047.png",
-   "duplicate_of": 21
-  },
-  {
-   "x": 418,
-   "y": 149,
-   "w": 4,
-   "h": 4,
-   "area": 12,
-   "ncolors": 4,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.333,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 48,
-   "file": "rock_blast/rock_blast_048.png",
-   "duplicate_of": 22
-  },
-  {
-   "x": 490,
-   "y": 152,
-   "w": 4,
-   "h": 4,
-   "area": 12,
-   "ncolors": 4,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.333,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 49,
-   "file": "rock_blast/rock_blast_049.png",
-   "duplicate_of": 23
-  },
-  {
-   "x": 109,
-   "y": 157,
-   "w": 4,
-   "h": 4,
-   "area": 12,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.333,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 50,
-   "file": "rock_blast/rock_blast_050.png",
-   "duplicate_of": 24
-  },
-  {
-   "x": 210,
-   "y": 158,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 51,
-   "file": "rock_blast/rock_blast_051.png"
-  },
-  {
-   "x": 230,
-   "y": 159,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 52,
-   "file": "rock_blast/rock_blast_052.png",
-   "mirror_of": 29
-  },
-  {
-   "x": 265,
-   "y": 156,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 53,
-   "file": "rock_blast/rock_blast_053.png"
-  },
-  {
-   "x": 285,
-   "y": 159,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 54,
-   "file": "rock_blast/rock_blast_054.png",
-   "mirror_of": 31
-  },
-  {
-   "x": 325,
-   "y": 155,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 55,
-   "file": "rock_blast/rock_blast_055.png",
-   "duplicate_of": 32
-  },
-  {
-   "x": 390,
-   "y": 155,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 56,
-   "file": "rock_blast/rock_blast_056.png",
-   "duplicate_of": 30
-  },
-  {
-   "x": 463,
-   "y": 156,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 57,
-   "file": "rock_blast/rock_blast_057.png",
-   "duplicate_of": 29
-  },
-  {
-   "x": 540,
-   "y": 158,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 58,
-   "file": "rock_blast/rock_blast_058.png",
-   "duplicate_of": 31
-  },
-  {
-   "x": 106,
-   "y": 165,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 59,
-   "file": "rock_blast/rock_blast_059.png",
-   "duplicate_of": 32
-  },
-  {
-   "x": 140,
-   "y": 162,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 60,
-   "file": "rock_blast/rock_blast_060.png",
-   "duplicate_of": 31
-  },
-  {
-   "x": 221,
-   "y": 170,
-   "w": 4,
-   "h": 4,
-   "area": 12,
-   "ncolors": 4,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.333,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 64,
-   "file": "rock_blast/rock_blast_064.png",
-   "duplicate_of": 22
-  },
-  {
-   "x": 346,
-   "y": 160,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 65,
-   "file": "rock_blast/rock_blast_065.png",
-   "duplicate_of": 31
-  },
-  {
-   "x": 412,
-   "y": 163,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 66,
-   "file": "rock_blast/rock_blast_066.png",
-   "duplicate_of": 29
-  },
-  {
-   "x": 484,
-   "y": 166,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 67,
-   "file": "rock_blast/rock_blast_067.png",
-   "duplicate_of": 30
-  },
-  {
-   "x": 117,
-   "y": 163,
-   "w": 19,
-   "h": 16,
-   "area": 128,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.406,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 72,
-   "file": "rock_blast/rock_blast_072.png"
-  },
-  {
-   "x": 154,
-   "y": 170,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 73,
-   "file": "rock_blast/rock_blast_073.png",
-   "duplicate_of": 32
-  },
-  {
-   "x": 200,
-   "y": 172,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 74,
-   "file": "rock_blast/rock_blast_074.png",
-   "duplicate_of": 31
-  },
-  {
-   "x": 277,
-   "y": 171,
-   "w": 4,
-   "h": 4,
-   "area": 12,
-   "ncolors": 4,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.333,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 75,
-   "file": "rock_blast/rock_blast_075.png",
-   "duplicate_of": 23
-  },
-  {
-   "x": 338,
-   "y": 173,
-   "w": 4,
-   "h": 4,
-   "area": 12,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.333,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 76,
-   "file": "rock_blast/rock_blast_076.png",
-   "duplicate_of": 24
-  },
-  {
-   "x": 404,
-   "y": 176,
-   "w": 4,
-   "h": 4,
-   "area": 12,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.333,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 77,
-   "file": "rock_blast/rock_blast_077.png",
-   "duplicate_of": 21
-  },
-  {
-   "x": 229,
-   "y": 184,
-   "w": 4,
-   "h": 4,
-   "area": 12,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.333,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 82,
-   "file": "rock_blast/rock_blast_082.png",
-   "duplicate_of": 21
-  },
-  {
-   "x": 254,
-   "y": 175,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 83,
-   "file": "rock_blast/rock_blast_083.png",
-   "duplicate_of": 29
-  },
-  {
-   "x": 312,
-   "y": 178,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 84,
-   "file": "rock_blast/rock_blast_084.png",
-   "duplicate_of": 30
-  },
-  {
-   "x": 375,
-   "y": 181,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 85,
-   "file": "rock_blast/rock_blast_085.png",
-   "duplicate_of": 32
-  },
-  {
-   "x": 475,
-   "y": 180,
-   "w": 5,
-   "h": 8,
-   "area": 24,
-   "ncolors": 4,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.333,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 86,
-   "file": "rock_blast/rock_blast_086.png"
-  },
-  {
-   "x": 215,
-   "y": 186,
-   "w": 6,
-   "h": 6,
-   "area": 28,
-   "ncolors": 4,
-   "dominant": "#788890",
-   "dom_frac": 0.393,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 89,
-   "file": "rock_blast/rock_blast_089.png"
-  },
-  {
-   "x": 237,
-   "y": 187,
-   "w": 6,
-   "h": 6,
-   "area": 28,
-   "ncolors": 4,
-   "dominant": "#788890",
-   "dom_frac": 0.393,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 90,
-   "file": "rock_blast/rock_blast_090.png",
-   "duplicate_of": 54
-  },
-  {
-   "x": 392,
-   "y": 190,
-   "w": 6,
-   "h": 6,
-   "area": 28,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.393,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 94,
-   "file": "rock_blast/rock_blast_094.png",
-   "mirror_of": 54
-  },
-  {
-   "x": 445,
-   "y": 188,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 95,
-   "file": "rock_blast/rock_blast_095.png",
-   "duplicate_of": 29
-  },
-  {
-   "x": 356,
-   "y": 194,
-   "w": 6,
-   "h": 6,
-   "area": 28,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.393,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 96,
-   "file": "rock_blast/rock_blast_096.png"
-  },
-  {
-   "x": 415,
-   "y": 198,
-   "w": 4,
-   "h": 4,
-   "area": 12,
-   "ncolors": 4,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.333,
-   "kind": "sprite",
-   "zone": null,
-   "set": 1,
-   "id": 97,
-   "file": "rock_blast/rock_blast_097.png",
-   "duplicate_of": 22
-  },
-  {
-   "x": 61,
-   "y": 265,
-   "w": 10,
-   "h": 11,
-   "area": 90,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.278,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 101,
-   "file": "rock_tomb/rock_tomb_101.png"
-  },
-  {
-   "x": 84,
-   "y": 269,
-   "w": 5,
-   "h": 10,
-   "area": 46,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.304,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 102,
-   "file": "rock_tomb/rock_tomb_102.png",
-   "duplicate_of": 0
-  },
-  {
-   "x": 186,
-   "y": 267,
-   "w": 11,
-   "h": 11,
-   "area": 97,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.299,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 103,
-   "file": "rock_tomb/rock_tomb_103.png"
-  },
-  {
-   "x": 209,
-   "y": 272,
-   "w": 6,
-   "h": 10,
-   "area": 43,
-   "ncolors": 5,
-   "dominant": "#406068",
-   "dom_frac": 0.372,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 104,
-   "file": "rock_tomb/rock_tomb_104.png",
-   "mirror_of": 12
-  },
-  {
-   "x": 300,
-   "y": 271,
-   "w": 10,
-   "h": 11,
-   "area": 87,
-   "ncolors": 5,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.322,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 105,
-   "file": "rock_tomb/rock_tomb_105.png",
-   "duplicate_of": 17
-  },
-  {
-   "x": 44,
-   "y": 277,
-   "w": 8,
-   "h": 9,
-   "area": 43,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.372,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 106,
-   "file": "rock_tomb/rock_tomb_106.png"
-  },
-  {
-   "x": 100,
-   "y": 275,
-   "w": 8,
-   "h": 11,
-   "area": 76,
-   "ncolors": 5,
-   "dominant": "#406068",
-   "dom_frac": 0.342,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 107,
-   "file": "rock_tomb/rock_tomb_107.png"
-  },
-  {
-   "x": 169,
-   "y": 281,
-   "w": 10,
-   "h": 7,
-   "area": 52,
-   "ncolors": 6,
-   "dominant": "#788890",
-   "dom_frac": 0.269,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 108,
-   "file": "rock_tomb/rock_tomb_108.png"
-  },
-  {
-   "x": 224,
-   "y": 278,
-   "w": 10,
-   "h": 10,
-   "area": 73,
-   "ncolors": 5,
-   "dominant": "#406068",
-   "dom_frac": 0.342,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 109,
-   "file": "rock_tomb/rock_tomb_109.png"
-  },
-  {
-   "x": 283,
-   "y": 284,
-   "w": 10,
-   "h": 7,
-   "area": 46,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.283,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 110,
-   "file": "rock_tomb/rock_tomb_110.png"
-  },
-  {
-   "x": 20,
-   "y": 285,
-   "w": 10,
-   "h": 11,
-   "area": 90,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.278,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 115,
-   "file": "rock_tomb/rock_tomb_115.png"
-  },
-  {
-   "x": 149,
-   "y": 288,
-   "w": 11,
-   "h": 11,
-   "area": 97,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.299,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 116,
-   "file": "rock_tomb/rock_tomb_116.png"
-  },
-  {
-   "x": 390,
-   "y": 288,
-   "w": 8,
-   "h": 9,
-   "area": 43,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.372,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 117,
-   "file": "rock_tomb/rock_tomb_117.png",
-   "duplicate_of": 13
-  },
-  {
-   "x": 435,
-   "y": 287,
-   "w": 10,
-   "h": 10,
-   "area": 74,
-   "ncolors": 5,
-   "dominant": "#406068",
-   "dom_frac": 0.311,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 118,
-   "file": "rock_tomb/rock_tomb_118.png"
-  },
-  {
-   "x": 494,
-   "y": 285,
-   "w": 12,
-   "h": 10,
-   "area": 86,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.337,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 119,
-   "file": "rock_tomb/rock_tomb_119.png"
-  },
-  {
-   "x": 104,
-   "y": 302,
-   "w": 7,
-   "h": 6,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#406068",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 120,
-   "file": "rock_tomb/rock_tomb_120.png",
-   "duplicate_of": 4
-  },
-  {
-   "x": 266,
-   "y": 291,
-   "w": 10,
-   "h": 11,
-   "area": 87,
-   "ncolors": 5,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.322,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 121,
-   "file": "rock_tomb/rock_tomb_121.png"
-  },
-  {
-   "x": 372,
-   "y": 296,
-   "w": 11,
-   "h": 11,
-   "area": 87,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.299,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 122,
-   "file": "rock_tomb/rock_tomb_122.png"
-  },
-  {
-   "x": 483,
-   "y": 294,
-   "w": 6,
-   "h": 10,
-   "area": 43,
-   "ncolors": 5,
-   "dominant": "#406068",
-   "dom_frac": 0.372,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 123,
-   "file": "rock_tomb/rock_tomb_123.png",
-   "duplicate_of": 12
-  },
-  {
-   "x": 509,
-   "y": 291,
-   "w": 22,
-   "h": 11,
-   "area": 124,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.315,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 124,
-   "file": "rock_tomb/rock_tomb_124.png"
-  },
-  {
-   "x": 21,
-   "y": 307,
-   "w": 7,
-   "h": 6,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#406068",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 125,
-   "file": "rock_tomb/rock_tomb_125.png",
-   "duplicate_of": 5
-  },
-  {
-   "x": 150,
-   "y": 308,
-   "w": 7,
-   "h": 6,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#406068",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 126,
-   "file": "rock_tomb/rock_tomb_126.png",
-   "duplicate_of": 8
-  },
-  {
-   "x": 226,
-   "y": 303,
-   "w": 7,
-   "h": 6,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#406068",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 127,
-   "file": "rock_tomb/rock_tomb_127.png",
-   "duplicate_of": 8
-  },
-  {
-   "x": 336,
-   "y": 304,
-   "w": 7,
-   "h": 6,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#406068",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 128,
-   "file": "rock_tomb/rock_tomb_128.png",
-   "duplicate_of": 5
-  },
-  {
-   "x": 435,
-   "y": 307,
-   "w": 7,
-   "h": 6,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#406068",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 129,
-   "file": "rock_tomb/rock_tomb_129.png",
-   "duplicate_of": 6
-  },
-  {
-   "x": 466,
-   "y": 302,
-   "w": 12,
-   "h": 10,
-   "area": 86,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.337,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 130,
-   "file": "rock_tomb/rock_tomb_130.png"
-  },
-  {
-   "x": 519,
-   "y": 309,
-   "w": 7,
-   "h": 6,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#406068",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 131,
-   "file": "rock_tomb/rock_tomb_131.png",
-   "duplicate_of": 4
-  },
-  {
-   "x": 117,
-   "y": 321,
-   "w": 10,
-   "h": 7,
-   "area": 47,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.298,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 134,
-   "file": "rock_tomb/rock_tomb_134.png",
-   "mirror_of": 14
-  },
-  {
-   "x": 241,
-   "y": 318,
-   "w": 8,
-   "h": 9,
-   "area": 43,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.372,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 135,
-   "file": "rock_tomb/rock_tomb_135.png",
-   "mirror_of": 13
-  },
-  {
-   "x": 351,
-   "y": 318,
-   "w": 6,
-   "h": 10,
-   "area": 43,
-   "ncolors": 5,
-   "dominant": "#406068",
-   "dom_frac": 0.372,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 136,
-   "file": "rock_tomb/rock_tomb_136.png",
-   "duplicate_of": 63
-  },
-  {
-   "x": 449,
-   "y": 319,
-   "w": 5,
-   "h": 10,
-   "area": 46,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.304,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 137,
-   "file": "rock_tomb/rock_tomb_137.png",
-   "duplicate_of": 0
-  },
-  {
-   "x": 532,
-   "y": 319,
-   "w": 6,
-   "h": 10,
-   "area": 43,
-   "ncolors": 5,
-   "dominant": "#406068",
-   "dom_frac": 0.372,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 138,
-   "file": "rock_tomb/rock_tomb_138.png",
-   "duplicate_of": 12
-  },
-  {
-   "x": 556,
-   "y": 318,
-   "w": 6,
-   "h": 6,
-   "area": 29,
-   "ncolors": 3,
-   "dominant": "#788890",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 139,
-   "file": "rock_tomb/rock_tomb_139.png"
-  },
-  {
-   "x": 268,
-   "y": 310,
-   "w": 7,
-   "h": 6,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#406068",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 148,
-   "file": "rock_tomb/rock_tomb_148.png",
-   "duplicate_of": 4
-  },
-  {
-   "x": 376,
-   "y": 313,
-   "w": 6,
-   "h": 6,
-   "area": 27,
-   "ncolors": 3,
-   "dominant": "#406068",
-   "dom_frac": 0.444,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 149,
-   "file": "rock_tomb/rock_tomb_149.png"
-  },
-  {
-   "x": 587,
-   "y": 310,
-   "w": 7,
-   "h": 6,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#406068",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 150,
-   "file": "rock_tomb/rock_tomb_150.png",
-   "duplicate_of": 8
-  },
-  {
-   "x": 104,
-   "y": 345,
-   "w": 7,
-   "h": 6,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#406068",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 151,
-   "file": "rock_tomb/rock_tomb_151.png",
-   "duplicate_of": 4
-  },
-  {
-   "x": 227,
-   "y": 344,
-   "w": 7,
-   "h": 6,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#406068",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 152,
-   "file": "rock_tomb/rock_tomb_152.png",
-   "duplicate_of": 6
-  },
-  {
-   "x": 335,
-   "y": 342,
-   "w": 7,
-   "h": 6,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#406068",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 153,
-   "file": "rock_tomb/rock_tomb_153.png",
-   "duplicate_of": 5
-  },
-  {
-   "x": 433,
-   "y": 341,
-   "w": 7,
-   "h": 6,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#406068",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 154,
-   "file": "rock_tomb/rock_tomb_154.png",
-   "duplicate_of": 8
-  },
-  {
-   "x": 470,
-   "y": 345,
-   "w": 7,
-   "h": 6,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#406068",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 155,
-   "file": "rock_tomb/rock_tomb_155.png",
-   "duplicate_of": 5
-  },
-  {
-   "x": 518,
-   "y": 339,
-   "w": 7,
-   "h": 6,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#406068",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 156,
-   "file": "rock_tomb/rock_tomb_156.png",
-   "duplicate_of": 4
-  },
-  {
-   "x": 554,
-   "y": 342,
-   "w": 7,
-   "h": 6,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#406068",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 157,
-   "file": "rock_tomb/rock_tomb_157.png",
-   "duplicate_of": 6
-  },
-  {
-   "x": 5,
-   "y": 330,
-   "w": 10,
-   "h": 7,
-   "area": 47,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.298,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 162,
-   "file": "rock_tomb/rock_tomb_162.png"
-  },
-  {
-   "x": 135,
-   "y": 331,
-   "w": 8,
-   "h": 9,
-   "area": 43,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.372,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 163,
-   "file": "rock_tomb/rock_tomb_163.png",
-   "duplicate_of": 65
-  },
-  {
-   "x": 253,
-   "y": 330,
-   "w": 6,
-   "h": 10,
-   "area": 43,
-   "ncolors": 5,
-   "dominant": "#406068",
-   "dom_frac": 0.372,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 164,
-   "file": "rock_tomb/rock_tomb_164.png"
-  },
-  {
-   "x": 362,
-   "y": 331,
-   "w": 5,
-   "h": 10,
-   "area": 46,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.304,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 165,
-   "file": "rock_tomb/rock_tomb_165.png"
-  },
-  {
-   "x": 458,
-   "y": 331,
-   "w": 6,
-   "h": 10,
-   "area": 43,
-   "ncolors": 5,
-   "dominant": "#406068",
-   "dom_frac": 0.372,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 166,
-   "file": "rock_tomb/rock_tomb_166.png",
-   "mirror_of": 105
-  },
-  {
-   "x": 542,
-   "y": 332,
-   "w": 7,
-   "h": 8,
-   "area": 35,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.429,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 167,
-   "file": "rock_tomb/rock_tomb_167.png"
-  },
-  {
-   "x": 586,
-   "y": 334,
-   "w": 7,
-   "h": 6,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#406068",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 168,
-   "file": "rock_tomb/rock_tomb_168.png",
-   "duplicate_of": 6
-  },
-  {
-   "x": 610,
-   "y": 330,
-   "w": 10,
-   "h": 7,
-   "area": 47,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.298,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 169,
-   "file": "rock_tomb/rock_tomb_169.png",
-   "mirror_of": 103
-  },
-  {
-   "x": 21,
-   "y": 350,
-   "w": 7,
-   "h": 6,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#406068",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 170,
-   "file": "rock_tomb/rock_tomb_170.png",
-   "duplicate_of": 5
-  },
-  {
-   "x": 151,
-   "y": 349,
-   "w": 7,
-   "h": 6,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#406068",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 171,
-   "file": "rock_tomb/rock_tomb_171.png",
-   "duplicate_of": 6
-  },
-  {
-   "x": 267,
-   "y": 348,
-   "w": 7,
-   "h": 6,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#406068",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 172,
-   "file": "rock_tomb/rock_tomb_172.png",
-   "duplicate_of": 4
-  },
-  {
-   "x": 374,
-   "y": 347,
-   "w": 7,
-   "h": 6,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#406068",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 173,
-   "file": "rock_tomb/rock_tomb_173.png",
-   "duplicate_of": 8
-  },
-  {
-   "x": 518,
-   "y": 348,
-   "w": 12,
-   "h": 10,
-   "area": 86,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.337,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 174,
-   "file": "rock_tomb/rock_tomb_174.png",
-   "duplicate_of": 74
-  },
-  {
-   "x": 334,
-   "y": 356,
-   "w": 10,
-   "h": 11,
-   "area": 87,
-   "ncolors": 5,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.322,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 177,
-   "file": "rock_tomb/rock_tomb_177.png",
-   "duplicate_of": 17
-  },
-  {
-   "x": 433,
-   "y": 353,
-   "w": 11,
-   "h": 11,
-   "area": 87,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.299,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 178,
-   "file": "rock_tomb/rock_tomb_178.png",
-   "duplicate_of": 18
-  },
-  {
-   "x": 507,
-   "y": 356,
-   "w": 6,
-   "h": 10,
-   "area": 43,
-   "ncolors": 5,
-   "dominant": "#406068",
-   "dom_frac": 0.372,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 179,
-   "file": "rock_tomb/rock_tomb_179.png",
-   "duplicate_of": 107
-  },
-  {
-   "x": 548,
-   "y": 347,
-   "w": 37,
-   "h": 15,
-   "area": 253,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.304,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 180,
-   "file": "rock_tomb/rock_tomb_180.png"
-  },
-  {
-   "x": 102,
-   "y": 362,
-   "w": 10,
-   "h": 11,
-   "area": 90,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.278,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 181,
-   "file": "rock_tomb/rock_tomb_181.png",
-   "duplicate_of": 60
-  },
-  {
-   "x": 224,
-   "y": 359,
-   "w": 11,
-   "h": 11,
-   "area": 97,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.299,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 182,
-   "file": "rock_tomb/rock_tomb_182.png",
-   "duplicate_of": 62
-  },
-  {
-   "x": 265,
-   "y": 367,
-   "w": 11,
-   "h": 9,
-   "area": 78,
-   "ncolors": 5,
-   "dominant": "#406068",
-   "dom_frac": 0.308,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 183,
-   "file": "rock_tomb/rock_tomb_183.png"
-  },
-  {
-   "x": 317,
-   "y": 367,
-   "w": 10,
-   "h": 7,
-   "area": 47,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.298,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 184,
-   "file": "rock_tomb/rock_tomb_184.png",
-   "duplicate_of": 110
-  },
-  {
-   "x": 371,
-   "y": 363,
-   "w": 10,
-   "h": 10,
-   "area": 74,
-   "ncolors": 5,
-   "dominant": "#406068",
-   "dom_frac": 0.311,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 185,
-   "file": "rock_tomb/rock_tomb_185.png"
-  },
-  {
-   "x": 418,
-   "y": 363,
-   "w": 8,
-   "h": 9,
-   "area": 43,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.372,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 186,
-   "file": "rock_tomb/rock_tomb_186.png",
-   "mirror_of": 65
-  },
-  {
-   "x": 24,
-   "y": 372,
-   "w": 8,
-   "h": 11,
-   "area": 76,
-   "ncolors": 5,
-   "dominant": "#406068",
-   "dom_frac": 0.342,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 189,
-   "file": "rock_tomb/rock_tomb_189.png"
-  },
-  {
-   "x": 80,
-   "y": 372,
-   "w": 8,
-   "h": 9,
-   "area": 43,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.372,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 190,
-   "file": "rock_tomb/rock_tomb_190.png",
-   "duplicate_of": 88
-  },
-  {
-   "x": 150,
-   "y": 370,
-   "w": 10,
-   "h": 10,
-   "area": 73,
-   "ncolors": 5,
-   "dominant": "#406068",
-   "dom_frac": 0.342,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 191,
-   "file": "rock_tomb/rock_tomb_191.png"
-  },
-  {
-   "x": 205,
-   "y": 370,
-   "w": 10,
-   "h": 7,
-   "area": 47,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.298,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 192,
-   "file": "rock_tomb/rock_tomb_192.png",
-   "duplicate_of": 87
-  },
-  {
-   "x": 282,
-   "y": 373,
-   "w": 8,
-   "h": 9,
-   "area": 43,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.372,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 193,
-   "file": "rock_tomb/rock_tomb_193.png",
-   "duplicate_of": 65
-  },
-  {
-   "x": 43,
-   "y": 379,
-   "w": 5,
-   "h": 10,
-   "area": 46,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.304,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 196,
-   "file": "rock_tomb/rock_tomb_196.png",
-   "duplicate_of": 106
-  },
-  {
-   "x": 169,
-   "y": 376,
-   "w": 6,
-   "h": 10,
-   "area": 43,
-   "ncolors": 5,
-   "dominant": "#406068",
-   "dom_frac": 0.372,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 197,
-   "file": "rock_tomb/rock_tomb_197.png",
-   "duplicate_of": 105
-  },
-  {
-   "x": 187,
-   "y": 380,
-   "w": 11,
-   "h": 11,
-   "area": 97,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.299,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 198,
-   "file": "rock_tomb/rock_tomb_198.png",
-   "duplicate_of": 71
-  },
-  {
-   "x": 300,
-   "y": 376,
-   "w": 10,
-   "h": 11,
-   "area": 87,
-   "ncolors": 5,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.322,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 199,
-   "file": "rock_tomb/rock_tomb_199.png",
-   "duplicate_of": 76
-  },
-  {
-   "x": 61,
-   "y": 382,
-   "w": 10,
-   "h": 11,
-   "area": 90,
-   "ncolors": 5,
-   "dominant": "#788890",
-   "dom_frac": 0.278,
-   "kind": "sprite",
-   "zone": null,
-   "set": 2,
-   "id": 200,
-   "file": "rock_tomb/rock_tomb_200.png",
-   "duplicate_of": 70
+   "id": 22,
+   "file": "ancientpower/ancientpower_022.png"
   },
   {
    "x": 83,
@@ -3990,9 +1318,9 @@
    "kind": "sprite",
    "zone": null,
    "set": 2,
-   "id": 215,
-   "file": "rock_tomb/rock_tomb_215.png",
-   "duplicate_of": 4
+   "id": 64,
+   "file": "rock_tomb/rock_tomb_064.png",
+   "duplicate_of": 0
   },
   {
    "x": 83,
@@ -4006,654 +1334,56 @@
    "kind": "sprite",
    "zone": null,
    "set": 3,
-   "id": 230,
-   "file": "rock_throw_rock_slide/rock_throw_rock_slide_230.png",
-   "duplicate_of": 4
-  },
-  {
-   "x": 61,
-   "y": 556,
-   "w": 4,
-   "h": 4,
-   "area": 12,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.333,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 231,
-   "file": "rollout/rollout_231.png",
-   "duplicate_of": 21
-  },
-  {
-   "x": 103,
-   "y": 553,
-   "w": 4,
-   "h": 4,
-   "area": 12,
-   "ncolors": 4,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.333,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 232,
-   "file": "rollout/rollout_232.png",
-   "duplicate_of": 22
-  },
-  {
-   "x": 153,
-   "y": 551,
-   "w": 4,
-   "h": 4,
-   "area": 12,
-   "ncolors": 4,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.333,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 233,
-   "file": "rollout/rollout_233.png",
-   "duplicate_of": 23
-  },
-  {
-   "x": 209,
-   "y": 550,
-   "w": 4,
-   "h": 4,
-   "area": 12,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.333,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 234,
-   "file": "rollout/rollout_234.png",
-   "duplicate_of": 24
-  },
-  {
-   "x": 270,
-   "y": 550,
-   "w": 4,
-   "h": 4,
-   "area": 12,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.333,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 235,
-   "file": "rollout/rollout_235.png",
-   "duplicate_of": 21
-  },
-  {
-   "x": 336,
-   "y": 552,
-   "w": 4,
-   "h": 4,
-   "area": 12,
-   "ncolors": 4,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.333,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 236,
-   "file": "rollout/rollout_236.png",
-   "duplicate_of": 22
-  },
-  {
-   "x": 408,
-   "y": 555,
-   "w": 4,
-   "h": 4,
-   "area": 12,
-   "ncolors": 4,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.333,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 237,
-   "file": "rollout/rollout_237.png",
-   "duplicate_of": 23
-  },
-  {
-   "x": 27,
-   "y": 560,
-   "w": 4,
-   "h": 4,
-   "area": 12,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.333,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 238,
-   "file": "rollout/rollout_238.png",
-   "duplicate_of": 24
-  },
-  {
-   "x": 128,
-   "y": 561,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 239,
-   "file": "rollout/rollout_239.png",
-   "duplicate_of": 29
-  },
-  {
-   "x": 148,
-   "y": 562,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 240,
-   "file": "rollout/rollout_240.png",
-   "duplicate_of": 30
-  },
-  {
-   "x": 183,
-   "y": 559,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 241,
-   "file": "rollout/rollout_241.png",
-   "duplicate_of": 31
-  },
-  {
-   "x": 203,
-   "y": 562,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 242,
-   "file": "rollout/rollout_242.png",
-   "duplicate_of": 32
-  },
-  {
-   "x": 243,
-   "y": 558,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 243,
-   "file": "rollout/rollout_243.png",
-   "duplicate_of": 32
-  },
-  {
-   "x": 308,
-   "y": 558,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 244,
-   "file": "rollout/rollout_244.png",
-   "duplicate_of": 30
-  },
-  {
-   "x": 381,
-   "y": 559,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 245,
-   "file": "rollout/rollout_245.png",
-   "duplicate_of": 29
-  },
-  {
-   "x": 458,
-   "y": 561,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 246,
-   "file": "rollout/rollout_246.png",
-   "duplicate_of": 31
-  },
-  {
-   "x": 24,
-   "y": 568,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 247,
-   "file": "rollout/rollout_247.png",
-   "duplicate_of": 32
-  },
-  {
-   "x": 58,
-   "y": 565,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 248,
-   "file": "rollout/rollout_248.png",
-   "duplicate_of": 31
-  },
-  {
-   "x": 139,
-   "y": 573,
-   "w": 4,
-   "h": 4,
-   "area": 12,
-   "ncolors": 4,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.333,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 252,
-   "file": "rollout/rollout_252.png",
-   "duplicate_of": 22
-  },
-  {
-   "x": 264,
-   "y": 563,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 253,
-   "file": "rollout/rollout_253.png",
-   "duplicate_of": 31
-  },
-  {
-   "x": 330,
-   "y": 566,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 254,
-   "file": "rollout/rollout_254.png",
-   "duplicate_of": 29
-  },
-  {
-   "x": 402,
-   "y": 569,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 255,
-   "file": "rollout/rollout_255.png",
-   "duplicate_of": 30
-  },
-  {
-   "x": 35,
-   "y": 566,
-   "w": 19,
-   "h": 16,
-   "area": 128,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.406,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 256,
-   "file": "rollout/rollout_256.png",
-   "duplicate_of": 43
-  },
-  {
-   "x": 72,
-   "y": 573,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 257,
-   "file": "rollout/rollout_257.png",
-   "duplicate_of": 32
-  },
-  {
-   "x": 118,
-   "y": 575,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 258,
-   "file": "rollout/rollout_258.png",
-   "duplicate_of": 31
-  },
-  {
-   "x": 195,
-   "y": 574,
-   "w": 4,
-   "h": 4,
-   "area": 12,
-   "ncolors": 4,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.333,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 259,
-   "file": "rollout/rollout_259.png",
-   "duplicate_of": 23
-  },
-  {
-   "x": 256,
-   "y": 576,
-   "w": 4,
-   "h": 4,
-   "area": 12,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.333,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 260,
-   "file": "rollout/rollout_260.png",
-   "duplicate_of": 24
-  },
-  {
-   "x": 322,
-   "y": 579,
-   "w": 4,
-   "h": 4,
-   "area": 12,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.333,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 261,
-   "file": "rollout/rollout_261.png",
-   "duplicate_of": 21
-  },
-  {
-   "x": 147,
-   "y": 587,
-   "w": 4,
-   "h": 4,
-   "area": 12,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.333,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 266,
-   "file": "rollout/rollout_266.png",
-   "duplicate_of": 21
-  },
-  {
-   "x": 172,
-   "y": 578,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 267,
-   "file": "rollout/rollout_267.png",
-   "duplicate_of": 29
-  },
-  {
-   "x": 230,
-   "y": 581,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 268,
-   "file": "rollout/rollout_268.png",
-   "duplicate_of": 30
-  },
-  {
-   "x": 293,
-   "y": 584,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 269,
-   "file": "rollout/rollout_269.png",
-   "duplicate_of": 32
-  },
-  {
-   "x": 393,
-   "y": 583,
-   "w": 5,
-   "h": 8,
-   "area": 24,
-   "ncolors": 4,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.333,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 270,
-   "file": "rollout/rollout_270.png",
-   "duplicate_of": 53
-  },
-  {
-   "x": 133,
-   "y": 589,
-   "w": 6,
-   "h": 6,
-   "area": 28,
-   "ncolors": 4,
-   "dominant": "#788890",
-   "dom_frac": 0.393,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 273,
-   "file": "rollout/rollout_273.png",
-   "duplicate_of": 54
-  },
-  {
-   "x": 155,
-   "y": 590,
-   "w": 6,
-   "h": 6,
-   "area": 28,
-   "ncolors": 4,
-   "dominant": "#788890",
-   "dom_frac": 0.393,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 274,
-   "file": "rollout/rollout_274.png",
-   "duplicate_of": 54
-  },
-  {
-   "x": 310,
-   "y": 593,
-   "w": 6,
-   "h": 6,
-   "area": 28,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.393,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 278,
-   "file": "rollout/rollout_278.png",
-   "duplicate_of": 56
-  },
-  {
-   "x": 363,
-   "y": 591,
-   "w": 8,
-   "h": 8,
-   "area": 58,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.414,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 279,
-   "file": "rollout/rollout_279.png",
-   "duplicate_of": 29
-  },
-  {
-   "x": 274,
-   "y": 597,
-   "w": 6,
-   "h": 6,
-   "area": 28,
-   "ncolors": 4,
-   "dominant": "#406068",
-   "dom_frac": 0.393,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 280,
-   "file": "rollout/rollout_280.png",
-   "duplicate_of": 58
-  },
-  {
-   "x": 333,
-   "y": 601,
-   "w": 4,
-   "h": 4,
-   "area": 12,
-   "ncolors": 4,
-   "dominant": "#A8B0B8",
-   "dom_frac": 0.333,
-   "kind": "sprite",
-   "zone": null,
-   "set": 4,
-   "id": 281,
-   "file": "rollout/rollout_281.png",
-   "duplicate_of": 22
+   "id": 79,
+   "file": "rock_throw_rock_slide/rock_throw_rock_slide_079.png",
+   "duplicate_of": 0
   },
   {
    "x": 2,
    "y": 632,
-   "w": 604,
+   "w": 240,
    "h": 160,
-   "area": 96000,
+   "area": 38400,
    "ncolors": 12,
    "dominant": "#705038",
-   "dom_frac": 0.354,
+   "dom_frac": 0,
    "kind": "sprite",
    "zone": null,
    "set": 5,
-   "id": 282,
-   "file": "sandstorm/sandstorm_282.png"
+   "id": 89,
+   "file": "sandstorm/sandstorm_089.png"
+  },
+  {
+   "x": 244,
+   "y": 632,
+   "w": 120,
+   "h": 160,
+   "area": 19200,
+   "ncolors": 12,
+   "dominant": "#705038",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "set": 5,
+   "id": 90,
+   "file": "sandstorm/sandstorm_090.png"
+  },
+  {
+   "x": 366,
+   "y": 632,
+   "w": 240,
+   "h": 160,
+   "area": 38400,
+   "ncolors": 12,
+   "dominant": "#705038",
+   "dom_frac": 0,
+   "kind": "sprite",
+   "zone": null,
+   "set": 5,
+   "id": 91,
+   "file": "sandstorm/sandstorm_091.png"
   }
  ],
- "status": "needs_review",
- "missing_stages": [
-  "decoupage",
-  "regroupement",
-  "nommage"
- ]
+ "status": "ok",
+ "missing_stages": []
 }

@@ -43,8 +43,10 @@ def _union(group):
             "_labs": group[0]["_labs"], "_a": group[0].get("_a"), "_px": px, "zone": group[0].get("zone")}
 
 
-def apply_split(items, points, lab_fine, labs, done):
-    """split (par zone : il faut les composantes sans fusion de la zone). `done` reçoit les points traités."""
+def apply_split(items, points, lab_fine, labs, done, own_only=False):
+    """split (par zone : il faut les composantes sans fusion de la zone). `done` reçoit les points traités.
+    own_only (param split_own) : seulement les morceaux faits des pixels de l'item visé ; sinon (historique)
+    toutes les composantes présentes dans sa BOÎTE, ce qui duplique les sprites entourés par un grand cadre."""
     log = []
     for x, y in points:
         it = _at(items, x, y)
@@ -52,12 +54,17 @@ def apply_split(items, points, lab_fine, labs, done):
             continue
         done.add((x, y))
         sub = lab_fine[it["y"]:it["y"] + it["h"], it["x"]:it["x"] + it["w"]]
-        inner = [lb for lb in np.unique(sub) if lb]
+        own = _pixels(None, it)[..., 3] > 0 if own_only else np.ones(sub.shape, bool)
+        inner = [lb for lb in np.unique(sub[own]) if lb]
         if len(inner) < 2:
             log.append(f"split ({x},{y}) : un seul morceau, rien à séparer"); continue
         items.remove(it)
         for lb in inner:
-            ys, xs = np.nonzero(lab_fine == lb)
+            if own_only:
+                ys, xs = np.nonzero((sub == lb) & own)
+                xs, ys = xs + it["x"], ys + it["y"]
+            else:
+                ys, xs = np.nonzero(lab_fine == lb)
             items.append({"x": int(xs.min()), "y": int(ys.min()), "w": int(xs.max() - xs.min() + 1),
                           "h": int(ys.max() - ys.min() + 1), "labels": [("f", int(lb))], "area": int(len(xs)),
                           "ncolors": it["ncolors"], "dominant": it["dominant"], "dom_frac": 0, "kind": "sprite",
@@ -614,7 +621,10 @@ def _detect_part(a_full, mask, p, cfg, zi, split_done):
         it["_labs"] = labs
         it["_a"] = a
     carve_log = _carve(items, a, labs, cfg.get("overrides", {}).get("carve", []), zi, cfg)
-    log = carve_log + apply_split(items, cfg.get("overrides", {}).get("split", []), lab_fine, labs, split_done)
+    # 2026-10-30 : seulement les points de CETTE partie (zone) : un point d'une zone tombait aussi dans la
+    # boîte d'un grand cadre de la partie principale, re-découpé en double avec tout ce qu'il entoure (8183)
+    splits = [pt for pt in cfg.get("overrides", {}).get("split", []) if _in_part(pt, zi, cfg)]
+    log = carve_log + apply_split(items, splits, lab_fine, labs, split_done, bool(p.get("split_own")))
     for r in grid_report:
         r["zone"] = zi
     return items, {"override_log": log, "grid": grid_report}

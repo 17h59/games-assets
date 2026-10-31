@@ -5,7 +5,7 @@
  "title": "Poison-Type Moves",
  "type": "sprites",
  "template": "none",
- "validation": "pending",
+ "validation": "verified",
  "sets": [
   {
    "id": 0,
@@ -25,21 +25,6 @@
   {
    "id": 1,
    "box": [
-    1,
-    16,
-    32,
-    13
-   ],
-   "point": [
-    17,
-    22
-   ],
-   "name": "none",
-   "folder": "none"
-  },
-  {
-   "id": 2,
-   "box": [
     306,
     22,
     170,
@@ -53,7 +38,7 @@
    "folder": "none"
   },
   {
-   "id": 3,
+   "id": 2,
    "box": [
     276,
     34,
@@ -68,22 +53,7 @@
    "folder": "none"
   },
   {
-   "id": 4,
-   "box": [
-    1,
-    35,
-    32,
-    13
-   ],
-   "point": [
-    17,
-    41
-   ],
-   "name": "none",
-   "folder": "none"
-  },
-  {
-   "id": 5,
+   "id": 3,
    "box": [
     1,
     97,
@@ -98,37 +68,7 @@
    "folder": "acid_armor"
   },
   {
-   "id": 6,
-   "box": [
-    101,
-    109,
-    32,
-    13
-   ],
-   "point": [
-    117,
-    115
-   ],
-   "name": "none",
-   "folder": "none"
-  },
-  {
-   "id": 7,
-   "box": [
-    101,
-    128,
-    101,
-    13
-   ],
-   "point": [
-    151,
-    134
-   ],
-   "name": "none",
-   "folder": "none"
-  },
-  {
-   "id": 8,
+   "id": 4,
    "box": [
     255,
     132,
@@ -143,7 +83,7 @@
    "folder": "none"
   },
   {
-   "id": 9,
+   "id": 5,
    "box": [
     365,
     132,
@@ -158,7 +98,7 @@
    "folder": "none"
   },
   {
-   "id": 10,
+   "id": 6,
    "box": [
     300,
     144,
@@ -173,7 +113,7 @@
    "folder": "none"
   },
   {
-   "id": 11,
+   "id": 7,
    "box": [
     360,
     144,
@@ -188,22 +128,7 @@
    "folder": "none"
   },
   {
-   "id": 12,
-   "box": [
-    165,
-    165,
-    32,
-    13
-   ],
-   "point": [
-    181,
-    171
-   ],
-   "name": "none",
-   "folder": "none"
-  },
-  {
-   "id": 13,
+   "id": 8,
    "box": [
     360,
     239,
@@ -218,7 +143,7 @@
    "folder": "none"
   },
   {
-   "id": 14,
+   "id": 9,
    "box": [
     367,
     251,
@@ -233,7 +158,7 @@
    "folder": "none"
   },
   {
-   "id": 15,
+   "id": 10,
    "box": [
     1,
     291,
@@ -248,7 +173,7 @@
    "folder": "poison_fang"
   },
   {
-   "id": 16,
+   "id": 11,
    "box": [
     1,
     324,
@@ -263,22 +188,7 @@
    "folder": "poison_gas_smog"
   },
   {
-   "id": 17,
-   "box": [
-    23,
-    466,
-    75,
-    14
-   ],
-   "point": [
-    60,
-    473
-   ],
-   "name": "none",
-   "folder": "none"
-  },
-  {
-   "id": 18,
+   "id": 12,
    "box": [
     1,
     487,
@@ -293,7 +203,7 @@
    "folder": "poison_sting"
   },
   {
-   "id": 19,
+   "id": 13,
    "box": [
     1,
     520,
@@ -308,7 +218,7 @@
    "folder": "poison_tail"
   },
   {
-   "id": 20,
+   "id": 14,
    "box": [
     1,
     569,
@@ -323,7 +233,7 @@
    "folder": "poison_powder"
   },
   {
-   "id": 21,
+   "id": 15,
    "box": [
     1,
     681,
@@ -336,158 +246,13 @@
    ],
    "name": "sludge_bomb",
    "folder": "sludge_bomb"
-  },
-  {
-   "id": 22,
-   "box": [
-    1,
-    695,
-    25,
-    10
-   ],
-   "point": [
-    13,
-    700
-   ],
-   "name": "none",
-   "folder": "none"
   }
  ],
  "entities": [
   {
    "id": 0,
-   "name": "acid_e000",
-   "file": "acid/acid_e000.png",
-   "cell": [
-    32,
-    32
-   ],
-   "zone": null,
-   "set": 0,
-   "template": "none",
-   "frames": [
-    {
-     "item": 0,
-     "role": "frame_0",
-     "src": [
-      38,
-      16,
-      32,
-      32
-     ]
-    },
-    {
-     "item": 1,
-     "role": "frame_1",
-     "src": [
-      75,
-      17,
-      30,
-      30
-     ]
-    },
-    {
-     "item": 2,
-     "role": "frame_2",
-     "src": [
-      110,
-      17,
-      30,
-      30
-     ]
-    },
-    {
-     "item": 3,
-     "role": "frame_3",
-     "src": [
-      145,
-      18,
-      28,
-      28
-     ]
-    },
-    {
-     "item": 4,
-     "role": "frame_4",
-     "src": [
-      178,
-      21,
-      22,
-      22
-     ]
-    }
-   ],
-   "box": [
-    38,
-    16,
-    162,
-    32
-   ]
-  },
-  {
-   "id": 1,
-   "name": "acid_e001",
-   "file": "acid/acid_e001.png",
-   "cell": [
-    16,
-    16
-   ],
-   "zone": null,
-   "set": 0,
-   "template": "none",
-   "frames": [
-    {
-     "item": 5,
-     "role": "frame_0",
-     "src": [
-      205,
-      24,
-      16,
-      16
-     ]
-    },
-    {
-     "item": 6,
-     "role": "frame_1",
-     "src": [
-      227,
-      25,
-      14,
-      14
-     ]
-    },
-    {
-     "item": 7,
-     "role": "frame_2",
-     "src": [
-      246,
-      28,
-      8,
-      8
-     ]
-    },
-    {
-     "item": 8,
-     "role": "frame_3",
-     "src": [
-      259,
-      29,
-      6,
-      6
-     ]
-    }
-   ],
-   "box": [
-    205,
-    24,
-    60,
-    16
-   ]
-  },
-  {
-   "id": 2,
-   "name": "acid_e002",
-   "file": "acid/acid_e002.png",
+   "name": "acid_bubbles",
+   "file": "acid/acid_bubbles.png",
    "cell": [
     21,
     22
@@ -497,7 +262,7 @@
    "template": "none",
    "frames": [
     {
-     "item": 10,
+     "item": 11,
      "role": "frame_0",
      "src": [
       1,
@@ -507,7 +272,7 @@
      ]
     },
     {
-     "item": 11,
+     "item": 12,
      "role": "frame_1",
      "src": [
       27,
@@ -517,7 +282,7 @@
      ]
     },
     {
-     "item": 12,
+     "item": 13,
      "role": "frame_2",
      "src": [
       51,
@@ -527,7 +292,7 @@
      ]
     },
     {
-     "item": 13,
+     "item": 14,
      "role": "frame_3",
      "src": [
       77,
@@ -545,59 +310,19 @@
    ]
   },
   {
-   "id": 3,
-   "name": "acid_armor_e003",
-   "file": "acid_armor/acid_armor_e003.png",
-   "cell": [
-    58,
-    32
-   ],
-   "zone": null,
-   "set": 5,
-   "template": "none",
-   "frames": [
-    {
-     "item": 16,
-     "role": "frame_0",
-     "src": [
-      49,
-      148,
-      32,
-      28
-     ]
-    },
-    {
-     "item": 17,
-     "role": "frame_1",
-     "src": [
-      86,
-      146,
-      58,
-      32
-     ]
-    }
-   ],
-   "box": [
-    49,
-    146,
-    95,
-    32
-   ]
-  },
-  {
-   "id": 4,
-   "name": "acid_armor_e004",
-   "file": "acid_armor/acid_armor_e004.png",
+   "id": 1,
+   "name": "acid_armor_ring",
+   "file": "acid_armor/acid_armor_ring.png",
    "cell": [
     32,
     16
    ],
    "zone": null,
-   "set": 5,
+   "set": 3,
    "template": "none",
    "frames": [
     {
-     "item": 21,
+     "item": 24,
      "role": "frame_0",
      "src": [
       1,
@@ -607,7 +332,7 @@
      ]
     },
     {
-     "item": 22,
+     "item": 25,
      "role": "frame_1",
      "src": [
       20,
@@ -617,7 +342,7 @@
      ]
     },
     {
-     "item": 23,
+     "item": 26,
      "role": "frame_2",
      "src": [
       41,
@@ -627,7 +352,7 @@
      ]
     },
     {
-     "item": 24,
+     "item": 27,
      "role": "frame_3",
      "src": [
       68,
@@ -637,7 +362,7 @@
      ]
     },
     {
-     "item": 25,
+     "item": 28,
      "role": "frame_4",
      "src": [
       99,
@@ -647,7 +372,7 @@
      ]
     },
     {
-     "item": 26,
+     "item": 29,
      "role": "frame_5",
      "src": [
       134,
@@ -657,7 +382,7 @@
      ]
     },
     {
-     "item": 27,
+     "item": 30,
      "role": "frame_6",
      "src": [
       171,
@@ -675,486 +400,19 @@
    ]
   },
   {
-   "id": 5,
-   "name": "acid_armor_e005",
-   "file": "acid_armor/acid_armor_e005.png",
+   "id": 2,
+   "name": "poison_fang",
+   "file": "poison_fang/poison_fang.png",
    "cell": [
-    3,
-    16
-   ],
-   "zone": null,
-   "set": 5,
-   "template": "none",
-   "frames": [
-    {
-     "item": 29,
-     "role": "frame_0",
-     "src": [
-      1,
-      218,
-      3,
-      5
-     ]
-    },
-    {
-     "item": 30,
-     "role": "frame_1",
-     "src": [
-      9,
-      216,
-      3,
-      8
-     ]
-    },
-    {
-     "item": 31,
-     "role": "frame_2",
-     "src": [
-      17,
-      212,
-      3,
-      16
-     ]
-    }
-   ],
-   "box": [
-    1,
-    212,
-    19,
-    16
-   ]
-  },
-  {
-   "id": 6,
-   "name": "acid_armor_e006",
-   "file": "acid_armor/acid_armor_e006.png",
-   "cell": [
-    3,
-    16
-   ],
-   "zone": null,
-   "set": 5,
-   "template": "none",
-   "frames": [
-    {
-     "item": 33,
-     "role": "frame_0",
-     "src": [
-      129,
-      254,
-      3,
-      16
-     ]
-    },
-    {
-     "item": 34,
-     "role": "frame_1",
-     "src": [
-      136,
-      263,
-      3,
-      8
-     ]
-    }
-   ],
-   "box": [
-    129,
-    254,
     10,
-    17
-   ]
-  },
-  {
-   "id": 7,
-   "name": "acid_armor_e007",
-   "file": "acid_armor/acid_armor_e007.png",
-   "cell": [
-    3,
-    8
+    16
    ],
    "zone": null,
-   "set": 5,
-   "template": "none",
-   "frames": [
-    {
-     "item": 38,
-     "role": "frame_0",
-     "src": [
-      232,
-      247,
-      3,
-      8
-     ]
-    },
-    {
-     "item": 39,
-     "role": "frame_1",
-     "src": [
-      240,
-      247,
-      3,
-      8
-     ],
-     "duplicate_of": 0
-    }
-   ],
-   "box": [
-    232,
-    247,
-    11,
-    8
-   ]
-  },
-  {
-   "id": 8,
-   "name": "acid_armor_e008",
-   "file": "acid_armor/acid_armor_e008.png",
-   "cell": [
-    3,
-    5
-   ],
-   "zone": null,
-   "set": 5,
-   "template": "none",
-   "frames": [
-    {
-     "item": 41,
-     "role": "frame_0",
-     "src": [
-      272,
-      247,
-      3,
-      5
-     ]
-    },
-    {
-     "item": 42,
-     "role": "frame_1",
-     "src": [
-      280,
-      247,
-      3,
-      5
-     ],
-     "duplicate_of": 0
-    }
-   ],
-   "box": [
-    272,
-    247,
-    11,
-    5
-   ]
-  },
-  {
-   "id": 9,
-   "name": "acid_armor_e009",
-   "file": "acid_armor/acid_armor_e009.png",
-   "cell": [
-    3,
-    5
-   ],
-   "zone": null,
-   "set": 5,
+   "set": 10,
    "template": "none",
    "frames": [
     {
      "item": 45,
-     "role": "frame_0",
-     "src": [
-      32,
-      274,
-      3,
-      5
-     ]
-    },
-    {
-     "item": 46,
-     "role": "frame_1",
-     "src": [
-      40,
-      274,
-      3,
-      5
-     ],
-     "duplicate_of": 0
-    }
-   ],
-   "box": [
-    32,
-    274,
-    11,
-    5
-   ]
-  },
-  {
-   "id": 10,
-   "name": "acid_armor_e010",
-   "file": "acid_armor/acid_armor_e010.png",
-   "cell": [
-    3,
-    8
-   ],
-   "zone": null,
-   "set": 5,
-   "template": "none",
-   "frames": [
-    {
-     "item": 47,
-     "role": "frame_0",
-     "src": [
-      72,
-      271,
-      3,
-      8
-     ]
-    },
-    {
-     "item": 48,
-     "role": "frame_1",
-     "src": [
-      80,
-      271,
-      3,
-      8
-     ],
-     "duplicate_of": 0
-    }
-   ],
-   "box": [
-    72,
-    271,
-    11,
-    8
-   ]
-  },
-  {
-   "id": 11,
-   "name": "acid_armor_e011",
-   "file": "acid_armor/acid_armor_e011.png",
-   "cell": [
-    3,
-    16
-   ],
-   "zone": null,
-   "set": 5,
-   "template": "none",
-   "frames": [
-    {
-     "item": 49,
-     "role": "frame_0",
-     "src": [
-      112,
-      263,
-      3,
-      16
-     ]
-    },
-    {
-     "item": 50,
-     "role": "frame_1",
-     "src": [
-      120,
-      263,
-      3,
-      16
-     ],
-     "duplicate_of": 0
-    }
-   ],
-   "box": [
-    112,
-    263,
-    11,
-    16
-   ]
-  },
-  {
-   "id": 12,
-   "name": "acid_armor_e012",
-   "file": "acid_armor/acid_armor_e012.png",
-   "cell": [
-    3,
-    32
-   ],
-   "zone": null,
-   "set": 5,
-   "template": "none",
-   "frames": [
-    {
-     "item": 51,
-     "role": "frame_0",
-     "src": [
-      152,
-      247,
-      3,
-      32
-     ]
-    },
-    {
-     "item": 52,
-     "role": "frame_1",
-     "src": [
-      160,
-      247,
-      3,
-      32
-     ],
-     "duplicate_of": 0
-    }
-   ],
-   "box": [
-    152,
-    247,
-    11,
-    32
-   ]
-  },
-  {
-   "id": 13,
-   "name": "acid_armor_e013",
-   "file": "acid_armor/acid_armor_e013.png",
-   "cell": [
-    3,
-    16
-   ],
-   "zone": null,
-   "set": 5,
-   "template": "none",
-   "frames": [
-    {
-     "item": 54,
-     "role": "frame_0",
-     "src": [
-      192,
-      247,
-      3,
-      16
-     ]
-    },
-    {
-     "item": 55,
-     "role": "frame_1",
-     "src": [
-      200,
-      247,
-      3,
-      16
-     ],
-     "duplicate_of": 0
-    },
-    {
-     "item": 56,
-     "role": "frame_2",
-     "src": [
-      209,
-      254,
-      3,
-      5
-     ]
-    }
-   ],
-   "box": [
-    192,
-    247,
-    20,
-    16
-   ]
-  },
-  {
-   "id": 14,
-   "name": "acid_armor_e014",
-   "file": "acid_armor/acid_armor_e014.png",
-   "cell": [
-    3,
-    8
-   ],
-   "zone": null,
-   "set": 5,
-   "template": "none",
-   "frames": [
-    {
-     "item": 57,
-     "role": "frame_0",
-     "src": [
-      316,
-      254,
-      3,
-      8
-     ]
-    },
-    {
-     "item": 58,
-     "role": "frame_1",
-     "src": [
-      324,
-      254,
-      3,
-      5
-     ]
-    }
-   ],
-   "box": [
-    316,
-    254,
-    11,
-    8
-   ]
-  },
-  {
-   "id": 15,
-   "name": "acid_armor_e015",
-   "file": "acid_armor/acid_armor_e015.png",
-   "cell": [
-    3,
-    8
-   ],
-   "zone": null,
-   "set": 5,
-   "template": "none",
-   "frames": [
-    {
-     "item": 59,
-     "role": "frame_0",
-     "src": [
-      1,
-      281,
-      3,
-      5
-     ]
-    },
-    {
-     "item": 60,
-     "role": "frame_1",
-     "src": [
-      9,
-      278,
-      3,
-      8
-     ]
-    }
-   ],
-   "box": [
-    1,
-    278,
-    11,
-    8
-   ]
-  },
-  {
-   "id": 16,
-   "name": "poison_fang_e016",
-   "file": "poison_fang/poison_fang_e016.png",
-   "cell": [
-    10,
-    16
-   ],
-   "zone": null,
-   "set": 15,
-   "template": "none",
-   "frames": [
-    {
-     "item": 67,
      "role": "frame_0",
      "src": [
       1,
@@ -1164,7 +422,7 @@
      ]
     },
     {
-     "item": 68,
+     "item": 46,
      "role": "frame_1",
      "src": [
       20,
@@ -1175,7 +433,7 @@
      "mirror_of": 0
     },
     {
-     "item": 69,
+     "item": 47,
      "role": "frame_2",
      "src": [
       35,
@@ -1185,7 +443,7 @@
      ]
     },
     {
-     "item": 70,
+     "item": 48,
      "role": "frame_3",
      "src": [
       48,
@@ -1195,7 +453,7 @@
      ]
     },
     {
-     "item": 71,
+     "item": 49,
      "role": "frame_4",
      "src": [
       58,
@@ -1205,7 +463,7 @@
      ]
     },
     {
-     "item": 72,
+     "item": 50,
      "role": "frame_5",
      "src": [
       68,
@@ -1224,142 +482,90 @@
    ]
   },
   {
-   "id": 17,
-   "name": "poison_gas_smog_e017",
-   "file": "poison_gas_smog/poison_gas_smog_e017.png",
+   "id": 3,
+   "name": "smog_cloud",
+   "file": "poison_gas_smog/smog_cloud.png",
    "cell": [
-    13,
-    13
+    31,
+    30
    ],
    "zone": null,
-   "set": 16,
+   "set": 11,
    "template": "none",
    "frames": [
     {
-     "item": 74,
-     "role": "frame_0",
-     "src": [
-      229,
-      338,
-      13,
-      13
-     ]
-    },
-    {
-     "item": 75,
-     "role": "frame_1",
-     "src": [
-      245,
-      338,
-      11,
-      13
-     ]
-    },
-    {
-     "item": 76,
-     "role": "frame_2",
-     "src": [
-      264,
-      339,
-      11,
-      13
-     ],
-     "duplicate_of": 1
-    },
-    {
-     "item": 77,
-     "role": "frame_3",
-     "src": [
-      281,
-      340,
-      8,
-      8
-     ]
-    },
-    {
-     "item": 78,
-     "role": "frame_4",
-     "src": [
-      297,
-      344,
-      8,
-      8
-     ],
-     "duplicate_of": 3
-    }
-   ],
-   "box": [
-    229,
-    338,
-    76,
-    14
-   ]
-  },
-  {
-   "id": 18,
-   "name": "poison_gas_smog_e018",
-   "file": "poison_gas_smog/poison_gas_smog_e018.png",
-   "cell": [
-    12,
-    12
-   ],
-   "zone": null,
-   "set": 16,
-   "template": "none",
-   "frames": [
-    {
-     "item": 79,
+     "item": 51,
      "role": "frame_0",
      "src": [
       1,
       360,
       8,
-      6
+      8
      ]
     },
     {
-     "item": 80,
+     "item": 52,
      "role": "frame_1",
      "src": [
-      15,
+      14,
       358,
-      10,
-      9
+      11,
+      10
      ]
     },
     {
-     "item": 81,
+     "item": 53,
      "role": "frame_2",
      "src": [
       30,
       355,
-      12,
-      12
+      13,
+      13
      ]
-    }
-   ],
-   "box": [
-    1,
-    355,
-    41,
-    12
-   ]
-  },
-  {
-   "id": 19,
-   "name": "poison_gas_smog_e019",
-   "file": "poison_gas_smog/poison_gas_smog_e019.png",
-   "cell": [
-    31,
-    28
-   ],
-   "zone": null,
-   "set": 16,
-   "template": "none",
-   "frames": [
+    },
     {
-     "item": 83,
-     "role": "frame_0",
+     "item": 54,
+     "role": "frame_3",
+     "src": [
+      48,
+      353,
+      16,
+      15
+     ]
+    },
+    {
+     "item": 55,
+     "role": "frame_4",
+     "src": [
+      69,
+      349,
+      22,
+      19
+     ]
+    },
+    {
+     "item": 56,
+     "role": "frame_5",
+     "src": [
+      96,
+      346,
+      24,
+      22
+     ]
+    },
+    {
+     "item": 57,
+     "role": "frame_6",
+     "src": [
+      125,
+      344,
+      27,
+      24
+     ]
+    },
+    {
+     "item": 58,
+     "role": "frame_7",
      "src": [
       157,
       342,
@@ -1368,8 +574,8 @@
      ]
     },
     {
-     "item": 84,
-     "role": "frame_1",
+     "item": 59,
+     "role": "frame_8",
      "src": [
       192,
       340,
@@ -1378,99 +584,138 @@
      ]
     },
     {
-     "item": 85,
-     "role": "frame_2",
+     "item": 60,
+     "role": "frame_9",
      "src": [
       228,
-      354,
-      13,
-      13
+      338,
+      30,
+      30
      ]
     },
     {
-     "item": 86,
-     "role": "frame_3",
-     "src": [
-      247,
-      355,
-      11,
-      13
-     ]
-    },
-    {
-     "item": 87,
-     "role": "frame_4",
+     "item": 61,
+     "role": "frame_10",
      "src": [
       263,
-      355,
-      11,
-      13
-     ],
-     "duplicate_of": 3
-    }
-   ],
-   "box": [
-    157,
-    340,
-    117,
-    28
-   ]
-  },
-  {
-   "id": 20,
-   "name": "poison_gas_smog_e020",
-   "file": "poison_gas_smog/poison_gas_smog_e020.png",
-   "cell": [
-    12,
-    12
-   ],
-   "zone": null,
-   "set": 16,
-   "template": "none",
-   "frames": [
-    {
-     "item": 92,
-     "role": "frame_0",
-     "src": [
-      1,
-      414,
-      8,
-      6
+      339,
+      28,
+      29
      ]
     },
     {
-     "item": 93,
-     "role": "frame_1",
+     "item": 62,
+     "role": "frame_11",
      "src": [
-      14,
-      409,
-      12,
-      12
+      296,
+      344,
+      9,
+      24
      ]
     }
    ],
    "box": [
     1,
-    409,
-    25,
-    12
+    338,
+    304,
+    30
    ]
   },
   {
-   "id": 21,
-   "name": "poison_gas_smog_e021",
-   "file": "poison_gas_smog/poison_gas_smog_e021.png",
+   "id": 4,
+   "name": "poison_gas_cloud",
+   "file": "poison_gas_smog/poison_gas_cloud.png",
    "cell": [
     45,
     49
    ],
    "zone": null,
-   "set": 16,
+   "set": 11,
    "template": "none",
    "frames": [
     {
-     "item": 96,
+     "item": 63,
      "role": "frame_0",
+     "src": [
+      1,
+      414,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 64,
+     "role": "frame_1",
+     "src": [
+      14,
+      409,
+      13,
+      13
+     ]
+    },
+    {
+     "item": 65,
+     "role": "frame_2",
+     "src": [
+      32,
+      406,
+      18,
+      16
+     ]
+    },
+    {
+     "item": 66,
+     "role": "frame_3",
+     "src": [
+      55,
+      400,
+      25,
+      22
+     ]
+    },
+    {
+     "item": 67,
+     "role": "frame_4",
+     "src": [
+      85,
+      395,
+      28,
+      27
+     ]
+    },
+    {
+     "item": 68,
+     "role": "frame_5",
+     "src": [
+      118,
+      389,
+      33,
+      33
+     ]
+    },
+    {
+     "item": 69,
+     "role": "frame_6",
+     "src": [
+      156,
+      382,
+      38,
+      40
+     ]
+    },
+    {
+     "item": 70,
+     "role": "frame_7",
+     "src": [
+      199,
+      378,
+      41,
+      44
+     ]
+    },
+    {
+     "item": 71,
+     "role": "frame_8",
      "src": [
       245,
       375,
@@ -1479,8 +724,8 @@
      ]
     },
     {
-     "item": 97,
-     "role": "frame_1",
+     "item": 72,
+     "role": "frame_9",
      "src": [
       294,
       374,
@@ -1489,8 +734,8 @@
      ]
     },
     {
-     "item": 98,
-     "role": "frame_2",
+     "item": 73,
+     "role": "frame_10",
      "src": [
       344,
       373,
@@ -1499,87 +744,47 @@
      ]
     },
     {
-     "item": 99,
-     "role": "frame_3",
+     "item": 74,
+     "role": "frame_11",
      "src": [
       392,
-      391,
+      375,
       28,
-      31
+      47
      ]
     },
     {
-     "item": 100,
-     "role": "frame_4",
+     "item": 75,
+     "role": "frame_12",
      "src": [
       425,
-      414,
-      8,
-      8
+      398,
+      9,
+      24
      ]
     }
    ],
    "box": [
-    245,
+    1,
     373,
-    188,
+    433,
     49
    ]
   },
   {
-   "id": 22,
-   "name": "poison_gas_smog_e022",
-   "file": "poison_gas_smog/poison_gas_smog_e022.png",
-   "cell": [
-    6,
-    6
-   ],
-   "zone": null,
-   "set": 16,
-   "template": "none",
-   "frames": [
-    {
-     "item": 106,
-     "role": "frame_0",
-     "src": [
-      166,
-      387,
-      5,
-      6
-     ]
-    },
-    {
-     "item": 107,
-     "role": "frame_1",
-     "src": [
-      171,
-      394,
-      6,
-      5
-     ]
-    }
-   ],
-   "box": [
-    166,
-    387,
-    11,
-    12
-   ]
-  },
-  {
-   "id": 23,
-   "name": "poison_gas_smog_e023",
-   "file": "poison_gas_smog/poison_gas_smog_e023.png",
+   "id": 5,
+   "name": "poison_bubble",
+   "file": "poison_gas_smog/poison_bubble.png",
    "cell": [
     16,
     16
    ],
    "zone": null,
-   "set": 16,
+   "set": 11,
    "template": "none",
    "frames": [
     {
-     "item": 111,
+     "item": 76,
      "role": "frame_0",
      "src": [
       1,
@@ -1589,7 +794,7 @@
      ]
     },
     {
-     "item": 112,
+     "item": 77,
      "role": "frame_1",
      "src": [
       12,
@@ -1599,7 +804,7 @@
      ]
     },
     {
-     "item": 113,
+     "item": 78,
      "role": "frame_2",
      "src": [
       23,
@@ -1609,7 +814,7 @@
      ]
     },
     {
-     "item": 114,
+     "item": 79,
      "role": "frame_3",
      "src": [
       34,
@@ -1619,7 +824,7 @@
      ]
     },
     {
-     "item": 115,
+     "item": 80,
      "role": "frame_4",
      "src": [
       47,
@@ -1629,7 +834,7 @@
      ]
     },
     {
-     "item": 116,
+     "item": 81,
      "role": "frame_5",
      "src": [
       62,
@@ -1639,7 +844,7 @@
      ]
     },
     {
-     "item": 117,
+     "item": 82,
      "role": "frame_6",
      "src": [
       79,
@@ -1649,7 +854,7 @@
      ]
     },
     {
-     "item": 118,
+     "item": 83,
      "role": "frame_7",
      "src": [
       96,
@@ -1659,7 +864,7 @@
      ]
     },
     {
-     "item": 119,
+     "item": 84,
      "role": "frame_8",
      "src": [
       113,
@@ -1669,7 +874,7 @@
      ]
     },
     {
-     "item": 120,
+     "item": 85,
      "role": "frame_9",
      "src": [
       134,
@@ -1687,355 +892,19 @@
    ]
   },
   {
-   "id": 24,
-   "name": "poison_gas_smog_e024",
-   "file": "poison_gas_smog/poison_gas_smog_e024.png",
-   "cell": [
-    28,
-    26
-   ],
-   "zone": null,
-   "set": 16,
-   "template": "none",
-   "frames": [
-    {
-     "item": 121,
-     "role": "frame_0",
-     "src": [
-      244,
-      456,
-      23,
-      22
-     ]
-    },
-    {
-     "item": 122,
-     "role": "frame_1",
-     "src": [
-      272,
-      455,
-      22,
-      22
-     ]
-    },
-    {
-     "item": 123,
-     "role": "frame_2",
-     "src": [
-      299,
-      453,
-      22,
-      24
-     ]
-    },
-    {
-     "item": 124,
-     "role": "frame_3",
-     "src": [
-      326,
-      452,
-      23,
-      24
-     ]
-    },
-    {
-     "item": 125,
-     "role": "frame_4",
-     "src": [
-      354,
-      451,
-      25,
-      24
-     ]
-    },
-    {
-     "item": 126,
-     "role": "frame_5",
-     "src": [
-      384,
-      448,
-      26,
-      26
-     ]
-    },
-    {
-     "item": 127,
-     "role": "frame_6",
-     "src": [
-      415,
-      448,
-      28,
-      25
-     ]
-    }
-   ],
-   "box": [
-    244,
-    448,
-    199,
-    30
-   ]
-  },
-  {
-   "id": 25,
-   "name": "poison_gas_smog_e025",
-   "file": "poison_gas_smog/poison_gas_smog_e025.png",
+   "id": 6,
+   "name": "poison_sting",
+   "file": "poison_sting/poison_sting.png",
    "cell": [
     16,
     16
    ],
    "zone": null,
-   "set": 16,
+   "set": 12,
    "template": "none",
    "frames": [
     {
-     "item": 130,
-     "role": "frame_0",
-     "src": [
-      483,
-      455,
-      12,
-      12
-     ]
-    },
-    {
-     "item": 131,
-     "role": "frame_1",
-     "src": [
-      504,
-      459,
-      12,
-      12
-     ]
-    },
-    {
-     "item": 132,
-     "role": "frame_2",
-     "src": [
-      521,
-      451,
-      16,
-      16
-     ]
-    },
-    {
-     "item": 133,
-     "role": "frame_3",
-     "src": [
-      545,
-      458,
-      12,
-      12
-     ],
-     "duplicate_of": 1
-    },
-    {
-     "item": 134,
-     "role": "frame_4",
-     "src": [
-      562,
-      449,
-      16,
-      16
-     ]
-    },
-    {
-     "item": 135,
-     "role": "frame_5",
-     "src": [
-      588,
-      457,
-      12,
-      12
-     ],
-     "duplicate_of": 0
-    },
-    {
-     "item": 136,
-     "role": "frame_6",
-     "src": [
-      605,
-      456,
-      12,
-      12
-     ],
-     "duplicate_of": 0
-    },
-    {
-     "item": 137,
-     "role": "frame_7",
-     "src": [
-      622,
-      455,
-      12,
-      12
-     ],
-     "duplicate_of": 0
-    },
-    {
-     "item": 138,
-     "role": "frame_8",
-     "src": [
-      639,
-      451,
-      16,
-      16
-     ],
-     "duplicate_of": 2
-    },
-    {
-     "item": 139,
-     "role": "frame_9",
-     "src": [
-      660,
-      449,
-      16,
-      16
-     ],
-     "duplicate_of": 4
-    }
-   ],
-   "box": [
-    483,
-    449,
-    193,
-    22
-   ]
-  },
-  {
-   "id": 26,
-   "name": "poison_gas_smog_e026",
-   "file": "poison_gas_smog/poison_gas_smog_e026.png",
-   "cell": [
-    6,
-    7
-   ],
-   "zone": null,
-   "set": 16,
-   "template": "none",
-   "frames": [
-    {
-     "item": 140,
-     "role": "frame_0",
-     "src": [
-      1,
-      475,
-      6,
-      7
-     ]
-    },
-    {
-     "item": 141,
-     "role": "frame_1",
-     "src": [
-      12,
-      474,
-      6,
-      6
-     ]
-    }
-   ],
-   "box": [
-    1,
-    474,
-    17,
-    8
-   ]
-  },
-  {
-   "id": 27,
-   "name": "poison_gas_smog_e027",
-   "file": "poison_gas_smog/poison_gas_smog_e027.png",
-   "cell": [
-    23,
-    22
-   ],
-   "zone": null,
-   "set": 16,
-   "template": "none",
-   "frames": [
-    {
-     "item": 142,
-     "role": "frame_0",
-     "src": [
-      103,
-      464,
-      16,
-      18
-     ]
-    },
-    {
-     "item": 143,
-     "role": "frame_1",
-     "src": [
-      124,
-      463,
-      17,
-      19
-     ]
-    },
-    {
-     "item": 144,
-     "role": "frame_2",
-     "src": [
-      146,
-      461,
-      16,
-      18
-     ]
-    },
-    {
-     "item": 145,
-     "role": "frame_3",
-     "src": [
-      167,
-      460,
-      18,
-      19
-     ]
-    },
-    {
-     "item": 146,
-     "role": "frame_4",
-     "src": [
-      190,
-      459,
-      21,
-      21
-     ]
-    },
-    {
-     "item": 147,
-     "role": "frame_5",
-     "src": [
-      216,
-      457,
-      23,
-      22
-     ]
-    }
-   ],
-   "box": [
-    103,
-    457,
-    136,
-    25
-   ]
-  },
-  {
-   "id": 28,
-   "name": "poison_sting_e028",
-   "file": "poison_sting/poison_sting_e028.png",
-   "cell": [
-    16,
-    16
-   ],
-   "zone": null,
-   "set": 18,
-   "template": "none",
-   "frames": [
-    {
-     "item": 148,
+     "item": 112,
      "role": "frame_0",
      "src": [
       1,
@@ -2045,7 +914,7 @@
      ]
     },
     {
-     "item": 149,
+     "item": 113,
      "role": "frame_1",
      "src": [
       11,
@@ -2055,7 +924,7 @@
      ]
     },
     {
-     "item": 150,
+     "item": 114,
      "role": "frame_2",
      "src": [
       29,
@@ -2065,7 +934,7 @@
      ]
     },
     {
-     "item": 151,
+     "item": 115,
      "role": "frame_3",
      "src": [
       50,
@@ -2075,7 +944,7 @@
      ]
     },
     {
-     "item": 152,
+     "item": 116,
      "role": "frame_4",
      "src": [
       68,
@@ -2093,129 +962,19 @@
    ]
   },
   {
-   "id": 29,
-   "name": "poison_tail_e029",
-   "file": "poison_tail/poison_tail_e029.png",
-   "cell": [
-    32,
-    32
-   ],
-   "zone": null,
-   "set": 19,
-   "template": "none",
-   "frames": [
-    {
-     "item": 153,
-     "role": "frame_0",
-     "src": [
-      49,
-      533,
-      30,
-      30
-     ]
-    },
-    {
-     "item": 154,
-     "role": "frame_1",
-     "src": [
-      84,
-      533,
-      32,
-      30
-     ]
-    },
-    {
-     "item": 155,
-     "role": "frame_2",
-     "src": [
-      121,
-      532,
-      32,
-      32
-     ]
-    },
-    {
-     "item": 156,
-     "role": "frame_3",
-     "src": [
-      158,
-      532,
-      32,
-      32
-     ]
-    },
-    {
-     "item": 157,
-     "role": "frame_4",
-     "src": [
-      195,
-      532,
-      32,
-      32
-     ]
-    }
-   ],
-   "box": [
-    49,
-    532,
-    178,
-    32
-   ]
-  },
-  {
-   "id": 30,
-   "name": "poison_tail_e030",
-   "file": "poison_tail/poison_tail_e030.png",
-   "cell": [
-    24,
-    22
-   ],
-   "zone": null,
-   "set": 19,
-   "template": "none",
-   "frames": [
-    {
-     "item": 158,
-     "role": "frame_0",
-     "src": [
-      1,
-      541,
-      14,
-      14
-     ]
-    },
-    {
-     "item": 159,
-     "role": "frame_1",
-     "src": [
-      20,
-      537,
-      24,
-      22
-     ]
-    }
-   ],
-   "box": [
-    1,
-    537,
-    43,
-    22
-   ]
-  },
-  {
-   "id": 31,
-   "name": "poison_powder_e031",
-   "file": "poison_powder/poison_powder_e031.png",
+   "id": 7,
+   "name": "poison_powder_columns",
+   "file": "poison_powder/poison_powder_columns.png",
    "cell": [
     8,
     26
    ],
    "zone": null,
-   "set": 20,
+   "set": 14,
    "template": "none",
    "frames": [
     {
-     "item": 160,
+     "item": 124,
      "role": "frame_0",
      "src": [
       1,
@@ -2225,7 +984,7 @@
      ]
     },
     {
-     "item": 161,
+     "item": 125,
      "role": "frame_1",
      "src": [
       9,
@@ -2235,7 +994,7 @@
      ]
     },
     {
-     "item": 162,
+     "item": 126,
      "role": "frame_2",
      "src": [
       21,
@@ -2245,7 +1004,7 @@
      ]
     },
     {
-     "item": 163,
+     "item": 127,
      "role": "frame_3",
      "src": [
       34,
@@ -2255,7 +1014,7 @@
      ]
     },
     {
-     "item": 164,
+     "item": 128,
      "role": "frame_4",
      "src": [
       47,
@@ -2273,20 +1032,830 @@
    ]
   },
   {
-   "id": 32,
-   "name": "poison_powder_e032",
-   "file": "poison_powder/poison_powder_e032.png",
+   "id": 8,
+   "name": "sludge_bomb",
+   "file": "sludge_bomb/sludge_bomb.png",
    "cell": [
-    33,
-    46
+    10,
+    10
    ],
    "zone": null,
-   "set": 20,
+   "set": 15,
    "template": "none",
    "frames": [
     {
-     "item": 165,
+     "item": 149,
      "role": "frame_0",
+     "src": [
+      1,
+      695,
+      10,
+      10
+     ]
+    },
+    {
+     "item": 150,
+     "role": "frame_1",
+     "src": [
+      16,
+      695,
+      10,
+      10
+     ]
+    }
+   ],
+   "box": [
+    1,
+    695,
+    25,
+    10
+   ]
+  },
+  {
+   "id": 9,
+   "name": "acid_ring",
+   "file": "acid/acid_ring.png",
+   "cell": [
+    32,
+    32
+   ],
+   "zone": null,
+   "set": 0,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      1,
+      16,
+      32,
+      32
+     ]
+    },
+    {
+     "item": 1,
+     "role": "frame_1",
+     "src": [
+      38,
+      16,
+      32,
+      32
+     ]
+    },
+    {
+     "item": 2,
+     "role": "frame_2",
+     "src": [
+      75,
+      17,
+      30,
+      30
+     ]
+    },
+    {
+     "item": 3,
+     "role": "frame_3",
+     "src": [
+      110,
+      17,
+      30,
+      30
+     ]
+    },
+    {
+     "item": 4,
+     "role": "frame_4",
+     "src": [
+      145,
+      18,
+      28,
+      28
+     ]
+    },
+    {
+     "item": 5,
+     "role": "frame_5",
+     "src": [
+      178,
+      21,
+      22,
+      22
+     ]
+    },
+    {
+     "item": 6,
+     "role": "frame_6",
+     "src": [
+      205,
+      24,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 7,
+     "role": "frame_7",
+     "src": [
+      227,
+      25,
+      14,
+      14
+     ]
+    },
+    {
+     "item": 8,
+     "role": "frame_8",
+     "src": [
+      246,
+      28,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 9,
+     "role": "frame_9",
+     "src": [
+      259,
+      29,
+      6,
+      6
+     ]
+    }
+   ],
+   "box": [
+    1,
+    16,
+    264,
+    32
+   ]
+  },
+  {
+   "id": 10,
+   "name": "acid_armor_slash",
+   "file": "acid_armor/acid_armor_slash.png",
+   "cell": [
+    64,
+    32
+   ],
+   "zone": null,
+   "set": 3,
+   "template": "none",
+   "frames": [
+    {
+     "item": 22,
+     "role": "frame_0",
+     "src": [
+      1,
+      155,
+      14,
+      14
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_1",
+     "src": [
+      20,
+      150,
+      24,
+      24
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_2",
+     "src": [
+      49,
+      148,
+      32,
+      28
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_3",
+     "src": [
+      86,
+      146,
+      58,
+      32
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_4",
+     "src": [
+      149,
+      146,
+      64,
+      32
+     ]
+    }
+   ],
+   "box": [
+    1,
+    146,
+    212,
+    32
+   ]
+  },
+  {
+   "id": 11,
+   "name": "acid_armor_pillars",
+   "file": "acid_armor/acid_armor_pillars.png",
+   "cell": [
+    3,
+    32
+   ],
+   "zone": null,
+   "set": 3,
+   "template": "none",
+   "frames": [
+    {
+     "item": 32,
+     "role": "frame_0",
+     "src": [
+      1,
+      218,
+      3,
+      5
+     ]
+    },
+    {
+     "item": 33,
+     "role": "frame_1",
+     "src": [
+      9,
+      216,
+      3,
+      8
+     ]
+    },
+    {
+     "item": 34,
+     "role": "frame_2",
+     "src": [
+      17,
+      212,
+      3,
+      16
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_3",
+     "src": [
+      25,
+      204,
+      3,
+      32
+     ]
+    }
+   ],
+   "box": [
+    1,
+    204,
+    27,
+    32
+   ]
+  },
+  {
+   "id": 12,
+   "name": "acid_armor_rise",
+   "file": "acid_armor/acid_armor_rise.png",
+   "cell": [
+    33,
+    47
+   ],
+   "zone": null,
+   "set": 3,
+   "template": "none",
+   "frames": [
+    {
+     "item": 35,
+     "role": "frame_0",
+     "src": [
+      1,
+      278,
+      11,
+      8
+     ]
+    },
+    {
+     "item": 36,
+     "role": "frame_1",
+     "src": [
+      32,
+      270,
+      20,
+      16
+     ]
+    },
+    {
+     "item": 37,
+     "role": "frame_2",
+     "src": [
+      72,
+      254,
+      27,
+      32
+     ]
+    },
+    {
+     "item": 38,
+     "role": "frame_3",
+     "src": [
+      112,
+      254,
+      33,
+      32
+     ]
+    },
+    {
+     "item": 39,
+     "role": "frame_4",
+     "src": [
+      152,
+      247,
+      33,
+      39
+     ]
+    },
+    {
+     "item": 40,
+     "role": "frame_5",
+     "src": [
+      192,
+      239,
+      33,
+      47
+     ]
+    },
+    {
+     "item": 41,
+     "role": "frame_6",
+     "src": [
+      232,
+      239,
+      33,
+      47
+     ]
+    },
+    {
+     "item": 44,
+     "role": "frame_7",
+     "src": [
+      272,
+      247,
+      11,
+      5
+     ]
+    },
+    {
+     "item": 42,
+     "role": "frame_8",
+     "src": [
+      296,
+      239,
+      9,
+      31
+     ]
+    },
+    {
+     "item": 43,
+     "role": "frame_9",
+     "src": [
+      310,
+      239,
+      17,
+      23
+     ]
+    }
+   ],
+   "box": [
+    1,
+    239,
+    326,
+    47
+   ]
+  },
+  {
+   "id": 13,
+   "name": "toxic_bubbles",
+   "file": "poison_gas_smog/toxic_bubbles.png",
+   "cell": [
+    38,
+    26
+   ],
+   "zone": null,
+   "set": 11,
+   "template": "none",
+   "frames": [
+    {
+     "item": 107,
+     "role": "frame_0",
+     "src": [
+      1,
+      475,
+      6,
+      7
+     ]
+    },
+    {
+     "item": 86,
+     "role": "frame_1",
+     "src": [
+      12,
+      474,
+      6,
+      6
+     ]
+    },
+    {
+     "item": 87,
+     "role": "frame_2",
+     "src": [
+      23,
+      472,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 108,
+     "role": "frame_3",
+     "src": [
+      36,
+      470,
+      11,
+      12
+     ]
+    },
+    {
+     "item": 109,
+     "role": "frame_4",
+     "src": [
+      52,
+      469,
+      11,
+      13
+     ]
+    },
+    {
+     "item": 88,
+     "role": "frame_5",
+     "src": [
+      68,
+      468,
+      11,
+      12
+     ]
+    },
+    {
+     "item": 89,
+     "role": "frame_6",
+     "src": [
+      84,
+      466,
+      14,
+      14
+     ]
+    },
+    {
+     "item": 110,
+     "role": "frame_7",
+     "src": [
+      103,
+      464,
+      16,
+      18
+     ]
+    },
+    {
+     "item": 111,
+     "role": "frame_8",
+     "src": [
+      124,
+      463,
+      17,
+      19
+     ]
+    },
+    {
+     "item": 90,
+     "role": "frame_9",
+     "src": [
+      146,
+      461,
+      16,
+      18
+     ]
+    },
+    {
+     "item": 91,
+     "role": "frame_10",
+     "src": [
+      167,
+      460,
+      18,
+      19
+     ]
+    },
+    {
+     "item": 92,
+     "role": "frame_11",
+     "src": [
+      190,
+      459,
+      21,
+      21
+     ]
+    },
+    {
+     "item": 93,
+     "role": "frame_12",
+     "src": [
+      216,
+      457,
+      23,
+      22
+     ]
+    },
+    {
+     "item": 94,
+     "role": "frame_13",
+     "src": [
+      244,
+      456,
+      23,
+      22
+     ]
+    },
+    {
+     "item": 95,
+     "role": "frame_14",
+     "src": [
+      272,
+      455,
+      22,
+      22
+     ]
+    },
+    {
+     "item": 96,
+     "role": "frame_15",
+     "src": [
+      299,
+      453,
+      22,
+      24
+     ]
+    },
+    {
+     "item": 97,
+     "role": "frame_16",
+     "src": [
+      326,
+      452,
+      23,
+      24
+     ]
+    },
+    {
+     "item": 98,
+     "role": "frame_17",
+     "src": [
+      354,
+      451,
+      25,
+      24
+     ]
+    },
+    {
+     "item": 99,
+     "role": "frame_18",
+     "src": [
+      384,
+      448,
+      26,
+      26
+     ]
+    },
+    {
+     "item": 100,
+     "role": "frame_19",
+     "src": [
+      415,
+      448,
+      28,
+      25
+     ]
+    },
+    {
+     "item": 101,
+     "role": "frame_20",
+     "src": [
+      448,
+      456,
+      30,
+      16
+     ]
+    },
+    {
+     "item": 102,
+     "role": "frame_21",
+     "src": [
+      483,
+      455,
+      33,
+      16
+     ]
+    },
+    {
+     "item": 103,
+     "role": "frame_22",
+     "src": [
+      521,
+      451,
+      36,
+      19
+     ]
+    },
+    {
+     "item": 104,
+     "role": "frame_23",
+     "src": [
+      562,
+      449,
+      38,
+      20
+     ]
+    },
+    {
+     "item": 105,
+     "role": "frame_24",
+     "src": [
+      605,
+      455,
+      29,
+      13
+     ]
+    },
+    {
+     "item": 106,
+     "role": "frame_25",
+     "src": [
+      639,
+      449,
+      37,
+      18
+     ]
+    }
+   ],
+   "box": [
+    1,
+    448,
+    675,
+    34
+   ]
+  },
+  {
+   "id": 14,
+   "name": "poison_tail",
+   "file": "poison_tail/poison_tail.png",
+   "cell": [
+    32,
+    32
+   ],
+   "zone": null,
+   "set": 13,
+   "template": "none",
+   "frames": [
+    {
+     "item": 122,
+     "role": "frame_0",
+     "src": [
+      1,
+      541,
+      14,
+      14
+     ]
+    },
+    {
+     "item": 123,
+     "role": "frame_1",
+     "src": [
+      20,
+      537,
+      24,
+      22
+     ]
+    },
+    {
+     "item": 117,
+     "role": "frame_2",
+     "src": [
+      49,
+      533,
+      30,
+      30
+     ]
+    },
+    {
+     "item": 118,
+     "role": "frame_3",
+     "src": [
+      84,
+      533,
+      32,
+      30
+     ]
+    },
+    {
+     "item": 119,
+     "role": "frame_4",
+     "src": [
+      121,
+      532,
+      32,
+      32
+     ]
+    },
+    {
+     "item": 120,
+     "role": "frame_5",
+     "src": [
+      158,
+      532,
+      32,
+      32
+     ]
+    },
+    {
+     "item": 121,
+     "role": "frame_6",
+     "src": [
+      195,
+      532,
+      32,
+      32
+     ]
+    }
+   ],
+   "box": [
+    1,
+    532,
+    226,
+    32
+   ]
+  },
+  {
+   "id": 15,
+   "name": "poison_powder",
+   "file": "poison_powder/poison_powder.png",
+   "cell": [
+    42,
+    46
+   ],
+   "zone": null,
+   "set": 14,
+   "template": "none",
+   "frames": [
+    {
+     "item": 133,
+     "role": "frame_0",
+     "src": [
+      1,
+      632,
+      25,
+      16
+     ]
+    },
+    {
+     "item": 134,
+     "role": "frame_1",
+     "src": [
+      31,
+      624,
+      28,
+      26
+     ]
+    },
+    {
+     "item": 135,
+     "role": "frame_2",
+     "src": [
+      64,
+      624,
+      29,
+      28
+     ]
+    },
+    {
+     "item": 136,
+     "role": "frame_3",
      "src": [
       98,
       616,
@@ -2295,8 +1864,8 @@
      ]
     },
     {
-     "item": 166,
-     "role": "frame_1",
+     "item": 129,
+     "role": "frame_4",
      "src": [
       130,
       618,
@@ -2305,8 +1874,8 @@
      ]
     },
     {
-     "item": 167,
-     "role": "frame_2",
+     "item": 130,
+     "role": "frame_5",
      "src": [
       163,
       612,
@@ -2315,38 +1884,18 @@
      ]
     },
     {
-     "item": 168,
-     "role": "frame_3",
+     "item": 131,
+     "role": "frame_6",
      "src": [
       198,
       614,
       33,
       46
      ]
-    }
-   ],
-   "box": [
-    98,
-    612,
-    133,
-    48
-   ]
-  },
-  {
-   "id": 33,
-   "name": "poison_powder_e033",
-   "file": "poison_powder/poison_powder_e033.png",
-   "cell": [
-    34,
-    46
-   ],
-   "zone": null,
-   "set": 20,
-   "template": "none",
-   "frames": [
+    },
     {
-     "item": 169,
-     "role": "frame_0",
+     "item": 132,
+     "role": "frame_7",
      "src": [
       236,
       616,
@@ -2355,8 +1904,8 @@
      ]
     },
     {
-     "item": 170,
-     "role": "frame_1",
+     "item": 137,
+     "role": "frame_8",
      "src": [
       275,
       618,
@@ -2365,8 +1914,8 @@
      ]
     },
     {
-     "item": 171,
-     "role": "frame_2",
+     "item": 138,
+     "role": "frame_9",
      "src": [
       313,
       620,
@@ -2375,129 +1924,18 @@
      ]
     },
     {
-     "item": 172,
-     "role": "frame_3",
+     "item": 139,
+     "role": "frame_10",
      "src": [
       351,
       622,
       33,
       46
      ]
-    }
-   ],
-   "box": [
-    236,
-    616,
-    148,
-    52
-   ]
-  },
-  {
-   "id": 34,
-   "name": "poison_powder_e034",
-   "file": "poison_powder/poison_powder_e034.png",
-   "cell": [
-    7,
-    16
-   ],
-   "zone": null,
-   "set": 20,
-   "template": "none",
-   "frames": [
-    {
-     "item": 173,
-     "role": "frame_0",
-     "src": [
-      1,
-      634,
-      3,
-      12
-     ]
     },
     {
-     "item": 174,
-     "role": "frame_1",
-     "src": [
-      9,
-      632,
-      7,
-      16
-     ]
-    },
-    {
-     "item": 175,
-     "role": "frame_2",
-     "src": [
-      23,
-      634,
-      3,
-      12
-     ],
-     "duplicate_of": 0
-    }
-   ],
-   "box": [
-    1,
-    632,
-    25,
-    16
-   ]
-  },
-  {
-   "id": 35,
-   "name": "poison_powder_e035",
-   "file": "poison_powder/poison_powder_e035.png",
-   "cell": [
-    8,
-    26
-   ],
-   "zone": null,
-   "set": 20,
-   "template": "none",
-   "frames": [
-    {
-     "item": 176,
-     "role": "frame_0",
-     "src": [
-      38,
-      624,
-      8,
-      26
-     ]
-    },
-    {
-     "item": 177,
-     "role": "frame_1",
-     "src": [
-      52,
-      632,
-      7,
-      16
-     ]
-    }
-   ],
-   "box": [
-    38,
-    624,
-    21,
-    26
-   ]
-  },
-  {
-   "id": 36,
-   "name": "poison_powder_e036",
-   "file": "poison_powder/poison_powder_e036.png",
-   "cell": [
-    31,
-    46
-   ],
-   "zone": null,
-   "set": 20,
-   "template": "none",
-   "frames": [
-    {
-     "item": 181,
-     "role": "frame_0",
+     "item": 140,
+     "role": "frame_11",
      "src": [
       389,
       624,
@@ -2506,8 +1944,8 @@
      ]
     },
     {
-     "item": 182,
-     "role": "frame_1",
+     "item": 141,
+     "role": "frame_12",
      "src": [
       425,
       626,
@@ -2516,8 +1954,8 @@
      ]
     },
     {
-     "item": 183,
-     "role": "frame_2",
+     "item": 142,
+     "role": "frame_13",
      "src": [
       459,
       628,
@@ -2526,8 +1964,8 @@
      ]
     },
     {
-     "item": 184,
-     "role": "frame_3",
+     "item": 143,
+     "role": "frame_14",
      "src": [
       491,
       630,
@@ -2536,8 +1974,8 @@
      ]
     },
     {
-     "item": 185,
-     "role": "frame_4",
+     "item": 144,
+     "role": "frame_15",
      "src": [
       525,
       632,
@@ -2546,8 +1984,8 @@
      ]
     },
     {
-     "item": 186,
-     "role": "frame_5",
+     "item": 145,
+     "role": "frame_16",
      "src": [
       558,
       634,
@@ -2556,72 +1994,41 @@
      ]
     },
     {
-     "item": 187,
-     "role": "frame_6",
+     "item": 146,
+     "role": "frame_17",
      "src": [
       588,
       643,
-      18,
+      42,
       33
      ]
     },
     {
-     "item": 188,
-     "role": "frame_7",
-     "src": [
-      611,
-      648,
-      7,
-      28
-     ]
-    },
-    {
-     "item": 189,
-     "role": "frame_8",
-     "src": [
-      622,
-      645,
-      8,
-      26
-     ]
-    },
-    {
-     "item": 190,
-     "role": "frame_9",
+     "item": 147,
+     "role": "frame_18",
      "src": [
       635,
-      664,
-      3,
-      12
-     ]
-    },
-    {
-     "item": 191,
-     "role": "frame_10",
-     "src": [
-      648,
       655,
-      7,
-      16
+      20,
+      21
      ]
     },
     {
-     "item": 192,
-     "role": "frame_11",
+     "item": 148,
+     "role": "frame_19",
      "src": [
       660,
       659,
       3,
       12
-     ],
-     "duplicate_of": 9
+     ]
     }
    ],
    "box": [
-    389,
-    624,
-    274,
-    52
+    1,
+    612,
+    662,
+    64
    ]
   }
  ],
@@ -2631,15 +2038,15 @@
    "y": 53,
    "w": 12,
    "h": 12,
-   "area": 81,
-   "ncolors": 3,
+   "area": 104,
+   "ncolors": 4,
    "dominant": "#803880",
-   "dom_frac": 0.63,
+   "dom_frac": 0.49,
    "kind": "sprite",
    "zone": null,
    "set": 0,
-   "id": 9,
-   "file": "acid/acid_009.png"
+   "id": 10,
+   "file": "acid/acid_010.png"
   },
   {
    "x": 1,
@@ -2652,9 +2059,9 @@
    "dom_frac": 1.0,
    "kind": "sprite",
    "zone": null,
-   "set": 5,
-   "id": 14,
-   "file": "acid_armor/acid_armor_014.png"
+   "set": 3,
+   "id": 15,
+   "file": "acid_armor/acid_armor_015.png"
   },
   {
    "x": 38,
@@ -2667,616 +2074,41 @@
    "dom_frac": 0.416,
    "kind": "sprite",
    "zone": null,
-   "set": 5,
-   "id": 15,
-   "file": "acid_armor/acid_armor_015.png"
+   "set": 3,
+   "id": 16,
+   "file": "acid_armor/acid_armor_016.png"
   },
   {
-   "x": 149,
-   "y": 146,
-   "w": 64,
-   "h": 16,
-   "area": 82,
-   "ncolors": 4,
-   "dominant": "#F0F0F0",
-   "dom_frac": 0.439,
+   "x": 101,
+   "y": 109,
+   "w": 32,
+   "h": 32,
+   "area": 36,
+   "ncolors": 1,
+   "dominant": "#88D8F0",
+   "dom_frac": 1.0,
    "kind": "sprite",
    "zone": null,
-   "set": 5,
+   "set": 3,
+   "id": 17,
+   "file": "acid_armor/acid_armor_017.png"
+  },
+  {
+   "x": 138,
+   "y": 140,
+   "w": 64,
+   "h": 1,
+   "area": 64,
+   "ncolors": 3,
+   "dominant": "#F0F0F0",
+   "dom_frac": 0.562,
+   "kind": "sprite",
+   "zone": null,
+   "set": 3,
    "id": 18,
    "file": "acid_armor/acid_armor_018.png"
-  },
-  {
-   "x": 1,
-   "y": 155,
-   "w": 14,
-   "h": 14,
-   "area": 164,
-   "ncolors": 3,
-   "dominant": "#88F060",
-   "dom_frac": 0.439,
-   "kind": "sprite",
-   "zone": null,
-   "set": 5,
-   "id": 19,
-   "file": "acid_armor/acid_armor_019.png"
-  },
-  {
-   "x": 20,
-   "y": 150,
-   "w": 24,
-   "h": 24,
-   "area": 240,
-   "ncolors": 6,
-   "dominant": "#F0F0F0",
-   "dom_frac": 0.45,
-   "kind": "sprite",
-   "zone": null,
-   "set": 5,
-   "id": 20,
-   "file": "acid_armor/acid_armor_020.png"
-  },
-  {
-   "x": 25,
-   "y": 204,
-   "w": 3,
-   "h": 32,
-   "area": 76,
-   "ncolors": 3,
-   "dominant": "#58C030",
-   "dom_frac": 0.447,
-   "kind": "sprite",
-   "zone": null,
-   "set": 5,
-   "id": 28,
-   "file": "acid_armor/acid_armor_028.png"
-  },
-  {
-   "x": 96,
-   "y": 266,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#58C030",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 5,
-   "id": 32,
-   "file": "acid_armor/acid_armor_032.png"
-  },
-  {
-   "x": 176,
-   "y": 255,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#58C030",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 5,
-   "id": 35,
-   "file": "acid_armor/acid_armor_035.png"
-  },
-  {
-   "x": 216,
-   "y": 239,
-   "w": 3,
-   "h": 32,
-   "area": 76,
-   "ncolors": 3,
-   "dominant": "#58C030",
-   "dom_frac": 0.447,
-   "kind": "sprite",
-   "zone": null,
-   "set": 5,
-   "id": 36,
-   "file": "acid_armor/acid_armor_036.png",
-   "duplicate_of": 6
-  },
-  {
-   "x": 302,
-   "y": 254,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#58C030",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 5,
-   "id": 37,
-   "file": "acid_armor/acid_armor_037.png",
-   "duplicate_of": 8
-  },
-  {
-   "x": 256,
-   "y": 239,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#58C030",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 5,
-   "id": 40,
-   "file": "acid_armor/acid_armor_040.png",
-   "duplicate_of": 8
-  },
-  {
-   "x": 296,
-   "y": 239,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#58C030",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 5,
-   "id": 43,
-   "file": "acid_armor/acid_armor_043.png"
-  },
-  {
-   "x": 310,
-   "y": 239,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#58C030",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 5,
-   "id": 44,
-   "file": "acid_armor/acid_armor_044.png",
-   "duplicate_of": 7
-  },
-  {
-   "x": 169,
-   "y": 254,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#58C030",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 5,
-   "id": 53,
-   "file": "acid_armor/acid_armor_053.png",
-   "duplicate_of": 12
-  },
-  {
-   "x": 49,
-   "y": 270,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#58C030",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 5,
-   "id": 61,
-   "file": "acid_armor/acid_armor_061.png",
-   "duplicate_of": 8
-  },
-  {
-   "x": 89,
-   "y": 254,
-   "w": 3,
-   "h": 32,
-   "area": 76,
-   "ncolors": 3,
-   "dominant": "#58C030",
-   "dom_frac": 0.447,
-   "kind": "sprite",
-   "zone": null,
-   "set": 5,
-   "id": 62,
-   "file": "acid_armor/acid_armor_062.png",
-   "duplicate_of": 6
-  },
-  {
-   "x": 142,
-   "y": 281,
-   "w": 3,
-   "h": 5,
-   "area": 11,
-   "ncolors": 3,
-   "dominant": "#58C030",
-   "dom_frac": 0.545,
-   "kind": "sprite",
-   "zone": null,
-   "set": 5,
-   "id": 63,
-   "file": "acid_armor/acid_armor_063.png",
-   "duplicate_of": 7
-  },
-  {
-   "x": 182,
-   "y": 278,
-   "w": 3,
-   "h": 8,
-   "area": 20,
-   "ncolors": 3,
-   "dominant": "#58C030",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 5,
-   "id": 64,
-   "file": "acid_armor/acid_armor_064.png",
-   "duplicate_of": 12
-  },
-  {
-   "x": 222,
-   "y": 270,
-   "w": 3,
-   "h": 16,
-   "area": 36,
-   "ncolors": 3,
-   "dominant": "#58C030",
-   "dom_frac": 0.5,
-   "kind": "sprite",
-   "zone": null,
-   "set": 5,
-   "id": 65,
-   "file": "acid_armor/acid_armor_065.png",
-   "duplicate_of": 8
-  },
-  {
-   "x": 262,
-   "y": 254,
-   "w": 3,
-   "h": 32,
-   "area": 76,
-   "ncolors": 3,
-   "dominant": "#58C030",
-   "dom_frac": 0.447,
-   "kind": "sprite",
-   "zone": null,
-   "set": 5,
-   "id": 66,
-   "file": "acid_armor/acid_armor_066.png",
-   "duplicate_of": 6
-  },
-  {
-   "x": 167,
-   "y": 347,
-   "w": 5,
-   "h": 6,
-   "area": 10,
-   "ncolors": 1,
-   "dominant": "#803880",
-   "dom_frac": 1.0,
-   "kind": "sprite",
-   "zone": null,
-   "set": 16,
-   "id": 73,
-   "file": "poison_gas_smog/poison_gas_smog_073.png"
-  },
-  {
-   "x": 71,
-   "y": 349,
-   "w": 19,
-   "h": 18,
-   "area": 247,
-   "ncolors": 1,
-   "dominant": "#D090D8",
-   "dom_frac": 1.0,
-   "kind": "sprite",
-   "zone": null,
-   "set": 16,
-   "id": 82,
-   "file": "poison_gas_smog/poison_gas_smog_082.png"
-  },
-  {
-   "x": 296,
-   "y": 360,
-   "w": 8,
-   "h": 8,
-   "area": 17,
-   "ncolors": 1,
-   "dominant": "#803880",
-   "dom_frac": 1.0,
-   "kind": "sprite",
-   "zone": null,
-   "set": 16,
-   "id": 88,
-   "file": "poison_gas_smog/poison_gas_smog_088.png"
-  },
-  {
-   "x": 49,
-   "y": 353,
-   "w": 15,
-   "h": 12,
-   "area": 133,
-   "ncolors": 1,
-   "dominant": "#D090D8",
-   "dom_frac": 1.0,
-   "kind": "sprite",
-   "zone": null,
-   "set": 16,
-   "id": 89,
-   "file": "poison_gas_smog/poison_gas_smog_089.png"
-  },
-  {
-   "x": 172,
-   "y": 354,
-   "w": 6,
-   "h": 5,
-   "area": 11,
-   "ncolors": 1,
-   "dominant": "#803880",
-   "dom_frac": 1.0,
-   "kind": "sprite",
-   "zone": null,
-   "set": 16,
-   "id": 90,
-   "file": "poison_gas_smog/poison_gas_smog_090.png"
-  },
-  {
-   "x": 283,
-   "y": 357,
-   "w": 8,
-   "h": 8,
-   "area": 17,
-   "ncolors": 1,
-   "dominant": "#803880",
-   "dom_frac": 1.0,
-   "kind": "sprite",
-   "zone": null,
-   "set": 16,
-   "id": 91,
-   "file": "poison_gas_smog/poison_gas_smog_091.png",
-   "duplicate_of": 23
-  },
-  {
-   "x": 65,
-   "y": 418,
-   "w": 5,
-   "h": 3,
-   "area": 10,
-   "ncolors": 1,
-   "dominant": "#D090D8",
-   "dom_frac": 1.0,
-   "kind": "sprite",
-   "zone": null,
-   "set": 16,
-   "id": 94,
-   "file": "poison_gas_smog/poison_gas_smog_094.png"
-  },
-  {
-   "x": 126,
-   "y": 411,
-   "w": 8,
-   "h": 10,
-   "area": 43,
-   "ncolors": 1,
-   "dominant": "#D090D8",
-   "dom_frac": 1.0,
-   "kind": "sprite",
-   "zone": null,
-   "set": 16,
-   "id": 95,
-   "file": "poison_gas_smog/poison_gas_smog_095.png"
-  },
-  {
-   "x": 345,
-   "y": 373,
-   "w": 8,
-   "h": 8,
-   "area": 17,
-   "ncolors": 1,
-   "dominant": "#803880",
-   "dom_frac": 1.0,
-   "kind": "sprite",
-   "zone": null,
-   "set": 16,
-   "id": 101,
-   "file": "poison_gas_smog/poison_gas_smog_101.png",
-   "duplicate_of": 23
-  },
-  {
-   "x": 404,
-   "y": 375,
-   "w": 8,
-   "h": 8,
-   "area": 17,
-   "ncolors": 1,
-   "dominant": "#803880",
-   "dom_frac": 1.0,
-   "kind": "sprite",
-   "zone": null,
-   "set": 16,
-   "id": 102,
-   "file": "poison_gas_smog/poison_gas_smog_102.png",
-   "duplicate_of": 23
-  },
-  {
-   "x": 156,
-   "y": 382,
-   "w": 30,
-   "h": 26,
-   "area": 60,
-   "ncolors": 1,
-   "dominant": "#803880",
-   "dom_frac": 1.0,
-   "kind": "sprite",
-   "zone": null,
-   "set": 16,
-   "id": 103,
-   "file": "poison_gas_smog/poison_gas_smog_103.png"
-  },
-  {
-   "x": 199,
-   "y": 378,
-   "w": 41,
-   "h": 28,
-   "area": 206,
-   "ncolors": 1,
-   "dominant": "#803880",
-   "dom_frac": 1.0,
-   "kind": "sprite",
-   "zone": null,
-   "set": 16,
-   "id": 104,
-   "file": "poison_gas_smog/poison_gas_smog_104.png"
-  },
-  {
-   "x": 426,
-   "y": 398,
-   "w": 8,
-   "h": 8,
-   "area": 17,
-   "ncolors": 1,
-   "dominant": "#803880",
-   "dom_frac": 1.0,
-   "kind": "sprite",
-   "zone": null,
-   "set": 16,
-   "id": 105,
-   "file": "poison_gas_smog/poison_gas_smog_105.png",
-   "duplicate_of": 23
-  },
-  {
-   "x": 33,
-   "y": 406,
-   "w": 16,
-   "h": 12,
-   "area": 143,
-   "ncolors": 1,
-   "dominant": "#D090D8",
-   "dom_frac": 1.0,
-   "kind": "sprite",
-   "zone": null,
-   "set": 16,
-   "id": 108,
-   "file": "poison_gas_smog/poison_gas_smog_108.png"
-  },
-  {
-   "x": 95,
-   "y": 413,
-   "w": 15,
-   "h": 6,
-   "area": 20,
-   "ncolors": 1,
-   "dominant": "#D090D8",
-   "dom_frac": 1.0,
-   "kind": "sprite",
-   "zone": null,
-   "set": 16,
-   "id": 109,
-   "file": "poison_gas_smog/poison_gas_smog_109.png"
-  },
-  {
-   "x": 267,
-   "y": 408,
-   "w": 6,
-   "h": 5,
-   "area": 11,
-   "ncolors": 1,
-   "dominant": "#803880",
-   "dom_frac": 1.0,
-   "kind": "sprite",
-   "zone": null,
-   "set": 16,
-   "id": 110,
-   "file": "poison_gas_smog/poison_gas_smog_110.png",
-   "duplicate_of": 25
-  },
-  {
-   "x": 466,
-   "y": 460,
-   "w": 12,
-   "h": 12,
-   "area": 82,
-   "ncolors": 3,
-   "dominant": "#803880",
-   "dom_frac": 0.39,
-   "kind": "sprite",
-   "zone": null,
-   "set": 16,
-   "id": 128,
-   "file": "poison_gas_smog/poison_gas_smog_128.png"
-  },
-  {
-   "x": 448,
-   "y": 456,
-   "w": 12,
-   "h": 12,
-   "area": 86,
-   "ncolors": 3,
-   "dominant": "#F0F0F0",
-   "dom_frac": 0.605,
-   "kind": "sprite",
-   "zone": null,
-   "set": 16,
-   "id": 129,
-   "file": "poison_gas_smog/poison_gas_smog_129.png"
-  },
-  {
-   "x": 73,
-   "y": 624,
-   "w": 20,
-   "h": 28,
-   "area": 99,
-   "ncolors": 5,
-   "dominant": "#8860B8",
-   "dom_frac": 0.374,
-   "kind": "sprite",
-   "zone": null,
-   "set": 20,
-   "id": 178,
-   "file": "poison_powder/poison_powder_178.png"
-  },
-  {
-   "x": 31,
-   "y": 626,
-   "w": 3,
-   "h": 12,
-   "area": 7,
-   "ncolors": 3,
-   "dominant": "#B090D8",
-   "dom_frac": 0.429,
-   "kind": "sprite",
-   "zone": null,
-   "set": 20,
-   "id": 179,
-   "file": "poison_powder/poison_powder_179.png"
-  },
-  {
-   "x": 64,
-   "y": 624,
-   "w": 7,
-   "h": 16,
-   "area": 23,
-   "ncolors": 4,
-   "dominant": "#8860B8",
-   "dom_frac": 0.391,
-   "kind": "sprite",
-   "zone": null,
-   "set": 20,
-   "id": 180,
-   "file": "poison_powder/poison_powder_180.png"
   }
  ],
- "status": "needs_review",
- "missing_stages": [
-  "decoupage",
-  "regroupement",
-  "nommage"
- ]
+ "status": "ok",
+ "missing_stages": []
 }

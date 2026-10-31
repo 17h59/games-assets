@@ -5,7 +5,7 @@
  "title": "Rollobite",
  "type": "sprites",
  "template": "none",
- "validation": "pending",
+ "validation": "verified",
  "sets": [
   {
    "id": 0,
@@ -86,70 +86,10 @@
  "entities": [
   {
    "id": 0,
-   "name": "rollobite_e000",
-   "file": "rollobite_e000.png",
+   "name": "roll_side",
+   "file": "roll_side.png",
    "cell": [
-    16,
-    13
-   ],
-   "zone": 0,
-   "set": null,
-   "template": "none",
-   "frames": [
-    {
-     "item": 0,
-     "role": "frame_0",
-     "src": [
-      2,
-      4,
-      10,
-      13
-     ]
-    },
-    {
-     "item": 1,
-     "role": "frame_1",
-     "src": [
-      3,
-      24,
-      14,
-      10
-     ]
-    },
-    {
-     "item": 2,
-     "role": "frame_2",
-     "src": [
-      3,
-      35,
-      14,
-      8
-     ]
-    },
-    {
-     "item": 3,
-     "role": "frame_3",
-     "src": [
-      2,
-      44,
-      16,
-      8
-     ]
-    }
-   ],
-   "box": [
-    2,
-    4,
-    16,
-    48
-   ]
-  },
-  {
-   "id": 1,
-   "name": "rollobite_e001",
-   "file": "rollobite_e001.png",
-   "cell": [
-    18,
+    14,
     15
    ],
    "zone": null,
@@ -160,165 +100,75 @@
      "item": 4,
      "role": "frame_0",
      "src": [
-      23,
-      3,
-      11,
-      14
+      55,
+      2,
+      14,
+      15
      ]
     },
     {
      "item": 5,
      "role": "frame_1",
      "src": [
-      36,
-      3,
-      8,
-      13
+      72,
+      2,
+      14,
+      15
      ]
     },
     {
      "item": 6,
      "role": "frame_2",
      "src": [
-      45,
-      5,
-      6,
-      11
-     ]
-    },
-    {
-     "item": 7,
-     "role": "frame_3",
-     "src": [
-      55,
-      2,
-      14,
-      15
-     ]
-    },
-    {
-     "item": 8,
-     "role": "frame_4",
-     "src": [
-      72,
-      2,
-      14,
-      15
-     ]
-    },
-    {
-     "item": 9,
-     "role": "frame_5",
-     "src": [
       89,
       2,
       14,
       15
      ]
-    },
-    {
-     "item": 10,
-     "role": "frame_6",
-     "src": [
-      105,
-      3,
-      18,
-      14
-     ]
     }
    ],
    "box": [
-    23,
+    55,
     2,
-    100,
+    48,
     15
    ]
   },
   {
-   "id": 2,
-   "name": "rollobite_e002",
-   "file": "rollobite_e002.png",
+   "id": 1,
+   "name": "roll_vertical",
+   "file": "roll_vertical.png",
    "cell": [
-    16,
-    13
+    14,
+    14
    ],
    "zone": null,
    "set": null,
    "template": "none",
    "frames": [
     {
-     "item": 11,
+     "item": 12,
      "role": "frame_0",
      "src": [
+      55,
       19,
-      19,
-      16,
-      12
+      14,
+      14
      ]
     },
     {
-     "item": 12,
+     "item": 13,
      "role": "frame_1",
      "src": [
-      37,
-      18,
+      72,
+      19,
       14,
-      8
-     ]
-    }
-   ],
-   "box": [
-    19,
-    18,
-    32,
-    13
-   ]
-  },
-  {
-   "id": 3,
-   "name": "rollobite_e003",
-   "file": "rollobite_e003.png",
-   "cell": [
-    14,
-    16
-   ],
-   "zone": null,
-   "set": null,
-   "template": "none",
-   "frames": [
-    {
-     "item": 13,
-     "role": "frame_0",
-     "src": [
-      38,
-      27,
-      12,
-      8
+      14
      ]
     },
     {
      "item": 14,
-     "role": "frame_1",
-     "src": [
-      55,
-      19,
-      14,
-      14
-     ]
-    },
-    {
-     "item": 15,
      "role": "frame_2",
-     "src": [
-      72,
-      19,
-      14,
-      14
-     ]
-    },
-    {
-     "item": 16,
-     "role": "frame_3",
      "src": [
       89,
       19,
@@ -328,108 +178,243 @@
     }
    ],
    "box": [
-    38,
+    55,
     19,
-    65,
-    16
-   ]
-  },
-  {
-   "id": 4,
-   "name": "rollobite_e004",
-   "file": "rollobite_e004.png",
-   "cell": [
-    14,
-    17
-   ],
-   "zone": null,
-   "set": null,
-   "template": "none",
-   "frames": [
-    {
-     "item": 17,
-     "role": "frame_0",
-     "src": [
-      106,
-      25,
-      14,
-      17
-     ]
-    },
-    {
-     "item": 18,
-     "role": "frame_1",
-     "src": [
-      123,
-      25,
-      14,
-      17
-     ]
-    }
-   ],
-   "box": [
-    106,
-    25,
-    31,
-    17
-   ]
-  },
-  {
-   "id": 5,
-   "name": "rollobite_e005",
-   "file": "rollobite_e005.png",
-   "cell": [
-    26,
-    15
-   ],
-   "zone": null,
-   "set": null,
-   "template": "none",
-   "frames": [
-    {
-     "item": 19,
-     "role": "frame_0",
-     "src": [
-      19,
-      38,
-      16,
-      13
-     ]
-    },
-    {
-     "item": 20,
-     "role": "frame_1",
-     "src": [
-      37,
-      43,
-      14,
-      9
-     ]
-    },
-    {
-     "item": 21,
-     "role": "frame_2",
-     "src": [
-      55,
-      37,
-      26,
-      14
-     ]
-    }
-   ],
-   "box": [
-    19,
-    37,
-    62,
-    15
+    48,
+    14
    ]
   }
  ],
- "items": [],
- "status": "needs_review",
- "missing_stages": [
-  "decoupage",
-  "regroupement",
-  "nommage"
- ]
+ "items": [
+  {
+   "x": 2,
+   "y": 4,
+   "w": 10,
+   "h": 13,
+   "area": 93,
+   "ncolors": 13,
+   "dominant": "#685050",
+   "dom_frac": 0.151,
+   "kind": "sprite",
+   "zone": null,
+   "id": 0,
+   "file": "rollobite_000.png"
+  },
+  {
+   "x": 23,
+   "y": 3,
+   "w": 11,
+   "h": 14,
+   "area": 140,
+   "ncolors": 10,
+   "dominant": "#080808",
+   "dom_frac": 0.357,
+   "kind": "sprite",
+   "zone": null,
+   "id": 1,
+   "file": "rollobite_001.png"
+  },
+  {
+   "x": 36,
+   "y": 3,
+   "w": 8,
+   "h": 13,
+   "area": 93,
+   "ncolors": 8,
+   "dominant": "#080808",
+   "dom_frac": 0.409,
+   "kind": "sprite",
+   "zone": null,
+   "id": 2,
+   "file": "rollobite_002.png"
+  },
+  {
+   "x": 45,
+   "y": 5,
+   "w": 6,
+   "h": 11,
+   "area": 48,
+   "ncolors": 6,
+   "dominant": "#080808",
+   "dom_frac": 0.438,
+   "kind": "sprite",
+   "zone": null,
+   "id": 3,
+   "file": "rollobite_003.png"
+  },
+  {
+   "x": 105,
+   "y": 3,
+   "w": 18,
+   "h": 14,
+   "area": 206,
+   "ncolors": 13,
+   "dominant": "#402828",
+   "dom_frac": 0.228,
+   "kind": "sprite",
+   "zone": null,
+   "name": "curl_left",
+   "id": 7,
+   "file": "curl_left.png"
+  },
+  {
+   "x": 19,
+   "y": 19,
+   "w": 16,
+   "h": 12,
+   "area": 160,
+   "ncolors": 9,
+   "dominant": "#080808",
+   "dom_frac": 0.388,
+   "kind": "sprite",
+   "zone": null,
+   "id": 8,
+   "file": "rollobite_008.png"
+  },
+  {
+   "x": 37,
+   "y": 18,
+   "w": 14,
+   "h": 8,
+   "area": 94,
+   "ncolors": 8,
+   "dominant": "#080808",
+   "dom_frac": 0.362,
+   "kind": "sprite",
+   "zone": null,
+   "id": 9,
+   "file": "rollobite_009.png"
+  },
+  {
+   "x": 3,
+   "y": 24,
+   "w": 14,
+   "h": 10,
+   "area": 103,
+   "ncolors": 12,
+   "dominant": "#080808",
+   "dom_frac": 0.291,
+   "kind": "sprite",
+   "zone": null,
+   "id": 10,
+   "file": "rollobite_010.png"
+  },
+  {
+   "x": 38,
+   "y": 27,
+   "w": 12,
+   "h": 8,
+   "area": 76,
+   "ncolors": 4,
+   "dominant": "#080808",
+   "dom_frac": 0.605,
+   "kind": "sprite",
+   "zone": null,
+   "id": 11,
+   "file": "rollobite_011.png"
+  },
+  {
+   "x": 3,
+   "y": 35,
+   "w": 14,
+   "h": 8,
+   "area": 90,
+   "ncolors": 5,
+   "dominant": "#402828",
+   "dom_frac": 0.667,
+   "kind": "sprite",
+   "zone": null,
+   "id": 15,
+   "file": "rollobite_015.png"
+  },
+  {
+   "x": 106,
+   "y": 25,
+   "w": 14,
+   "h": 17,
+   "area": 198,
+   "ncolors": 13,
+   "dominant": "#685050",
+   "dom_frac": 0.172,
+   "kind": "sprite",
+   "zone": null,
+   "name": "curl_down",
+   "id": 16,
+   "file": "curl_down.png"
+  },
+  {
+   "x": 123,
+   "y": 25,
+   "w": 14,
+   "h": 17,
+   "area": 198,
+   "ncolors": 10,
+   "dominant": "#685050",
+   "dom_frac": 0.172,
+   "kind": "sprite",
+   "zone": null,
+   "name": "curl_up",
+   "id": 17,
+   "file": "curl_up.png"
+  },
+  {
+   "x": 2,
+   "y": 44,
+   "w": 16,
+   "h": 8,
+   "area": 102,
+   "ncolors": 8,
+   "dominant": "#080808",
+   "dom_frac": 0.431,
+   "kind": "sprite",
+   "zone": null,
+   "id": 18,
+   "file": "rollobite_018.png"
+  },
+  {
+   "x": 19,
+   "y": 38,
+   "w": 16,
+   "h": 13,
+   "area": 164,
+   "ncolors": 10,
+   "dominant": "#080808",
+   "dom_frac": 0.317,
+   "kind": "sprite",
+   "zone": null,
+   "id": 19,
+   "file": "rollobite_019.png"
+  },
+  {
+   "x": 37,
+   "y": 43,
+   "w": 14,
+   "h": 9,
+   "area": 88,
+   "ncolors": 9,
+   "dominant": "#685050",
+   "dom_frac": 0.386,
+   "kind": "sprite",
+   "zone": null,
+   "id": 20,
+   "file": "rollobite_020.png"
+  },
+  {
+   "x": 55,
+   "y": 37,
+   "w": 26,
+   "h": 14,
+   "area": 279,
+   "ncolors": 14,
+   "dominant": "#402828",
+   "dom_frac": 0.244,
+   "kind": "sprite",
+   "zone": null,
+   "name": "full_left",
+   "id": 21,
+   "file": "full_left.png"
+  }
+ ],
+ "status": "ok",
+ "missing_stages": []
 }

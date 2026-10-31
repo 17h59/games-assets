@@ -28,6 +28,9 @@ DEFAULT_PARAMS = {
     "pmd_groups": None,
     # effets plein écran (météo...) rangés un écran par encadré : chaque encadré = une frame (fond -> transparent)
     "panel_frames": False,    # ex. ["walls","wall_alt_1","wall_alt_2","ground","ground_alt","water"]
+    # pages d'objets : les objsplit de la page s'appliquent aussi aux objets issus de la découpe automatique
+    # ou d'un autre objsplit (sinon ils disparaissaient sans morceaux) ; opt-in, voir objects._late_splits
+    "split_pieces": False,
     # fond
     "bg": "auto",          # "auto" | "none" | "#RRGGBB" | liste de couleurs
     "bg_tol": 12,          # tolérance par canal
@@ -52,6 +55,8 @@ DEFAULT_PARAMS = {
     "grid_pitch": "auto",  # pas imposé "LxH" (ex. 16x32) : la grille n'est plus devinée
     "grid_origin": "auto", # origine imposée "x,y" (coin d'une case, coordonnées de la feuille)
     "frag_gap": 3,         # xycut : un fragment à <= frag_gap px d'un sprite y est rattaché
+    "split_own": False,    # sk split : ne recréer QUE les morceaux de l'item visé (sinon tout ce qui est dans
+                           # sa boîte : un split sur un grand cadre dupliquait chaque sprite entouré, 8183)
     # regroupement
     "group": "none",       # "none" | "rows" | "chunks" (lignes coupées tous les `frames`) | "columns" (idem en
                            # colonnes) | "blocks" (blocs 2D, voir entity_shape) | "palette" | "anim" (animations en ligne)

@@ -5,7 +5,7 @@
  "title": "Leever",
  "type": "sprites",
  "template": "none",
- "validation": "pending",
+ "validation": "verified",
  "sets": [
   {
    "id": 0,
@@ -101,8 +101,8 @@
  "entities": [
   {
    "id": 0,
-   "name": "leever_red",
-   "file": "leever_red.png",
+   "name": "leever_red_emerge",
+   "file": "leever_red_emerge.png",
    "cell": [
     16,
     23
@@ -170,10 +170,30 @@
       15,
       23
      ]
-    },
+    }
+   ],
+   "box": [
+    2,
+    1,
+    92,
+    23
+   ]
+  },
+  {
+   "id": 1,
+   "name": "leever_red_spin",
+   "file": "leever_red_spin.png",
+   "cell": [
+    17,
+    18
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
     {
      "item": 6,
-     "role": "frame_6",
+     "role": "frame_0",
      "src": [
       96,
       6,
@@ -183,7 +203,7 @@
     },
     {
      "item": 7,
-     "role": "frame_7",
+     "role": "frame_1",
      "src": [
       114,
       6,
@@ -193,7 +213,7 @@
     },
     {
      "item": 8,
-     "role": "frame_8",
+     "role": "frame_2",
      "src": [
       130,
       6,
@@ -203,7 +223,7 @@
     },
     {
      "item": 9,
-     "role": "frame_9",
+     "role": "frame_3",
      "src": [
       147,
       6,
@@ -213,16 +233,16 @@
     }
    ],
    "box": [
-    2,
-    1,
-    160,
-    23
+    96,
+    6,
+    66,
+    18
    ]
   },
   {
-   "id": 1,
-   "name": "leever_blue",
-   "file": "leever_blue.png",
+   "id": 2,
+   "name": "leever_blue_emerge",
+   "file": "leever_blue_emerge.png",
    "cell": [
     16,
     23
@@ -290,10 +310,30 @@
       15,
       23
      ]
-    },
+    }
+   ],
+   "box": [
+    2,
+    26,
+    92,
+    23
+   ]
+  },
+  {
+   "id": 3,
+   "name": "leever_blue_spin",
+   "file": "leever_blue_spin.png",
+   "cell": [
+    17,
+    18
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
     {
      "item": 16,
-     "role": "frame_6",
+     "role": "frame_0",
      "src": [
       96,
       31,
@@ -303,7 +343,7 @@
     },
     {
      "item": 17,
-     "role": "frame_7",
+     "role": "frame_1",
      "src": [
       114,
       31,
@@ -313,7 +353,7 @@
     },
     {
      "item": 18,
-     "role": "frame_8",
+     "role": "frame_2",
      "src": [
       130,
       31,
@@ -323,7 +363,7 @@
     },
     {
      "item": 19,
-     "role": "frame_9",
+     "role": "frame_3",
      "src": [
       147,
       31,
@@ -333,18 +373,14 @@
     }
    ],
    "box": [
-    2,
-    26,
-    160,
-    23
+    96,
+    31,
+    66,
+    18
    ]
   }
  ],
  "items": [],
- "status": "needs_review",
- "missing_stages": [
-  "decoupage",
-  "regroupement",
-  "nommage"
- ]
+ "status": "ok",
+ "missing_stages": []
 }

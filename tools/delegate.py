@@ -155,7 +155,9 @@ DEFAULT_POOL = "cc:claude-haiku-5-5:4"
 # Escalade (2026-10-28) : Haiku fait tout d'abord ; une feuille où il « galère » monte au niveau suivant
 # (Gemini, meilleure vision), puis au dernier (Gemini Argon) ; échec au dernier niveau -> needs_fix (développeur).
 ESCALADE_POOL = "cc:claude-haiku-5-5:4@0,agy:gemini-3.8-flash-high:2@1,agy:gemini-4-argon-high:1@2"
-POOL_PRESETS = {"escalade": ESCALADE_POOL}
+# quota Flash épuisé : Argon (effort medium, pas high) prend le niveau 1 ; Haiku reste en premier
+ARGON_POOL = "cc:claude-haiku-5-5:4@0,agy:gemini-4-argon-medium:1@1"
+POOL_PRESETS = {"escalade": ESCALADE_POOL, "argon": ARGON_POOL}
 # niveau par défaut d'une famille de modèles (surcharge : « modèle:places@niveau » dans --pool)
 LEVELS = {"cc:claude-haiku-5-5": 0, "agy:gemini-3.8-flash": 1, "agy:gemini-4-argon": 2,
           "agy:claude-sonnet-5-5": 2, "cc:claude-sonnet-5-5": 2, "agy:claude-opus-5-5": 2, "cc:claude-opus-5-5": 2}
@@ -317,6 +319,25 @@ def finish_unconcluded(c, tag, reason, count_attempt, max_attempts, before=None)
         journal.log("interrompu", c["id"], lot=tag, raison=reason, tentatives=c.get("attempts", 0))
 
 
+def _owned_elsewhere(c, grace=180):
+    """2026-10-30 : plusieurs répartiteurs tournent en parallèle (un par type de feuille). Chacun libérait
+    comme « agent disparu » les feuilles qu'un AUTRE venait d'attribuer, avant que l'agent soit visible
+    dans pgrep : la feuille sortait du lot (« ne fait pas partie de ton lot »), l'agent ne pouvait rien
+    faire et chaque lot coûtait 2 tentatives -> needs_fix (6498, 8183, obj_minish_cap_11,
+    obj_ruby_sapphire_07). Une feuille attribuée par un répartiteur encore vivant, ou depuis moins de
+    `grace` secondes, est laissée à ce répartiteur (il la libère lui-même en fin de lot)."""
+    pid = c.get("assigned_by")
+    if pid and pid != os.getpid():
+        try:
+            os.kill(pid, 0)
+            return True
+        except ProcessLookupError:
+            pass
+        except PermissionError:
+            return True
+    return time.time() - c.get("assigned_t", 0) < grace
+
+
 def release_stale(max_attempts=3):
     """Libère les feuilles assignées à un agent qui ne tourne plus (répartiteur tué, plantage...)."""
     live = " ".join(running_agents())
@@ -324,8 +345,11 @@ def release_stale(max_attempts=3):
     for c in config.all_sheets():
         if c.get("assigned") in ACTIVE:
             continue  # revue I4 : lot encore géré par un thread de ce répartiteur
+        if c.get("assigned") and _owned_elsewhere(c):
+            continue
         if c.get("assigned") and f" {c['id']}" not in live and f"{c['id']}." not in live:
             tag = c.pop("assigned")
+            c.pop("assigned_by", None); c.pop("assigned_t", None)
             if c["status"] not in DONE:
                 finish_unconcluded(c, tag, "agent disparu", True, max_attempts)
             config.save(c); freed += 1
@@ -406,6 +430,8 @@ def assign(batch, model, n):
         c = config.load(i)
         before[i] = c["status"]
         c["assigned"] = tag
+        c["assigned_by"] = os.getpid()  # 2026-10-30 : répartiteur propriétaire (voir release_stale)
+        c["assigned_t"] = time.time()
         config.save(c)
         journal.log("attribué", i, lot=tag, modele=model, reprise=bool(c.get("resume")))
     return ids, tag, before, prompt
@@ -454,7 +480,7 @@ def _run_batch(ids, tag, before, prompt, model, args, breaker):
     can_escalate = level_of(model) < min(MAX_LEVEL, POOL_TOP[0])  # revue I1 : niveau au-dessus présent ?
     for i in ids:
         c = config.load(i)
-        c.pop("assigned", None)
+        c.pop("assigned", None); c.pop("assigned_by", None); c.pop("assigned_t", None)
         looked = usage["png_par_feuille"].get(i, 0) if usage else None
         if c["status"] in DONE and not hit_quota:
             concluded += 1
@@ -588,6 +614,10 @@ def main():
                 continue
             if breakers[family(model)].blocked():
                 continue
+            # verrou entre répartiteurs (plusieurs lancés ensemble comptaient tous 0 agent actif) : compter et
+            # lancer sous verrou, et ne relâcher qu'une fois le processus de l'agent visible
+            slot_lock = config.lock(f"slots_{family(model).replace(':', '_')}")
+            slot_lock.__enter__()
             busy = max(sum(1 for _, m in threads if m == model), len(running_agents(model)))
             while busy < slots and mine:
                 batch, mine = mine[:args.batch], mine[args.batch:]
@@ -606,7 +636,11 @@ def main():
                 threads.append((th, model))
                 busy += 1
                 launched = True
-                time.sleep(3)  # étale les démarrages
+                for _ in range(20):  # attendre que l'agent apparaisse (sinon un autre répartiteur le rate)
+                    time.sleep(1)
+                    if len(running_agents(model)) >= busy or not th.is_alive():
+                        break
+            slot_lock.__exit__(None, None, None)
         if launched:
             continue
         all_blocked = all(b.blocked() for b in breakers.values())

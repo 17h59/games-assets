@@ -5,7 +5,7 @@
  "title": "Like Like",
  "type": "sprites",
  "template": "none",
- "validation": "pending",
+ "validation": "verified",
  "sets": [
   {
    "id": 0,
@@ -19,8 +19,8 @@
     26,
     31
    ],
-   "name": null,
-   "folder": "set_00"
+   "name": "none",
+   "folder": "none"
   },
   {
    "id": 1,
@@ -218,10 +218,6 @@
   }
  ],
  "items": [],
- "status": "needs_review",
- "missing_stages": [
-  "decoupage",
-  "regroupement",
-  "nommage"
- ]
+ "status": "ok",
+ "missing_stages": []
 }

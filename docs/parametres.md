@@ -36,6 +36,8 @@ dans `tiles.py` : `bg_mode=edge, bg_tol=0, peel=3, peel_min_area=1024`).
 | `grid_pitch` | `auto` | pas imposé `LxH` |
 | `grid_origin` | `auto` | coin d'une case imposé `x,y` |
 | `frag_gap` | 3 | xycut : fragment rattaché s'il est à ≤ frag_gap px |
+| `split_own` | false | `sk split` : ne recrée que les morceaux faits des pixels de l'item visé (sinon tout ce qui est dans sa BOÎTE : un split sur un grand cadre dupliquait chaque sprite entouré). Opt-in (2026-10-30, 8183) |
+| `split_pieces` | false | pages d'objets : les `objsplit` de la page s'appliquent aussi aux objets issus de la découpe automatique ou d'un autre objsplit (sinon l'objet disparaissait sans morceaux). Opt-in (2026-10-30) |
 
 ## Regroupement ([Entités](entites.md))
 | Param | Défaut | Rôle |

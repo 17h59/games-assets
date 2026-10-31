@@ -5,286 +5,611 @@
  "title": "Poké Balls",
  "type": "sprites",
  "template": "none",
- "validation": "pending",
+ "validation": "verified",
  "sets": [],
- "entities": [],
- "items": [
+ "entities": [
   {
-   "x": 4,
-   "y": 9,
-   "w": 13,
-   "h": 17,
-   "area": 125,
-   "ncolors": 10,
-   "dominant": "#424242",
-   "dom_frac": 0.368,
-   "kind": "sprite",
-   "cell": [
-    4,
-    9,
-    13,
-    18
-   ],
-   "block": 0,
-   "row": 1,
-   "col": 0,
-   "zone": null,
    "id": 0,
-   "file": "poke_balls_000.png"
+   "name": "poke_ball",
+   "file": "poke_ball.png",
+   "cell": [
+    12,
+    15
+   ],
+   "zone": 0,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 0,
+     "role": "frame_0",
+     "src": [
+      4,
+      14,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 12,
+     "role": "frame_1",
+     "src": [
+      4,
+      32,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 24,
+     "role": "frame_2",
+     "src": [
+      4,
+      46,
+      12,
+      15
+     ]
+    }
+   ],
+   "box": [
+    4,
+    14,
+    12,
+    47
+   ]
   },
   {
-   "x": 17,
-   "y": 9,
-   "w": 16,
-   "h": 17,
-   "area": 132,
-   "ncolors": 12,
-   "dominant": "#424242",
-   "dom_frac": 0.333,
-   "kind": "sprite",
-   "cell": [
-    17,
-    9,
-    17,
-    18
-   ],
-   "block": 0,
-   "row": 1,
-   "col": 1,
-   "zone": null,
    "id": 1,
-   "file": "poke_balls_001.png"
+   "name": "great_ball",
+   "file": "great_ball.png",
+   "cell": [
+    12,
+    15
+   ],
+   "zone": 0,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 1,
+     "role": "frame_0",
+     "src": [
+      21,
+      14,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 13,
+     "role": "frame_1",
+     "src": [
+      21,
+      32,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 25,
+     "role": "frame_2",
+     "src": [
+      21,
+      46,
+      12,
+      15
+     ]
+    }
+   ],
+   "box": [
+    21,
+    14,
+    12,
+    47
+   ]
   },
   {
-   "x": 38,
-   "y": 14,
-   "w": 12,
-   "h": 12,
-   "area": 112,
-   "ncolors": 7,
-   "dominant": "#424242",
-   "dom_frac": 0.42,
-   "kind": "sprite",
-   "cell": [
-    34,
-    9,
-    17,
-    18
-   ],
-   "block": 0,
-   "row": 1,
-   "col": 2,
-   "zone": null,
    "id": 2,
-   "file": "poke_balls_002.png"
+   "name": "ultra_ball",
+   "file": "ultra_ball.png",
+   "cell": [
+    12,
+    15
+   ],
+   "zone": 0,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 2,
+     "role": "frame_0",
+     "src": [
+      38,
+      14,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 14,
+     "role": "frame_1",
+     "src": [
+      38,
+      32,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 26,
+     "role": "frame_2",
+     "src": [
+      38,
+      46,
+      12,
+      15
+     ]
+    }
+   ],
+   "box": [
+    38,
+    14,
+    12,
+    47
+   ]
   },
   {
-   "x": 55,
-   "y": 14,
-   "w": 12,
-   "h": 12,
-   "area": 112,
-   "ncolors": 10,
-   "dominant": "#424242",
-   "dom_frac": 0.393,
-   "kind": "sprite",
-   "cell": [
-    51,
-    9,
-    17,
-    18
-   ],
-   "block": 0,
-   "row": 1,
-   "col": 3,
-   "zone": null,
    "id": 3,
-   "file": "poke_balls_003.png"
+   "name": "master_ball",
+   "file": "master_ball.png",
+   "cell": [
+    12,
+    15
+   ],
+   "zone": 0,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 3,
+     "role": "frame_0",
+     "src": [
+      55,
+      14,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 15,
+     "role": "frame_1",
+     "src": [
+      55,
+      32,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 27,
+     "role": "frame_2",
+     "src": [
+      55,
+      46,
+      12,
+      15
+     ]
+    }
+   ],
+   "box": [
+    55,
+    14,
+    12,
+    47
+   ]
   },
   {
-   "x": 72,
-   "y": 14,
-   "w": 12,
-   "h": 12,
-   "area": 112,
-   "ncolors": 10,
-   "dominant": "#424242",
-   "dom_frac": 0.393,
-   "kind": "sprite",
-   "cell": [
-    68,
-    9,
-    17,
-    18
-   ],
-   "block": 0,
-   "row": 1,
-   "col": 4,
-   "zone": null,
    "id": 4,
-   "file": "poke_balls_004.png"
+   "name": "safari_ball",
+   "file": "safari_ball.png",
+   "cell": [
+    12,
+    15
+   ],
+   "zone": 0,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 4,
+     "role": "frame_0",
+     "src": [
+      72,
+      14,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 16,
+     "role": "frame_1",
+     "src": [
+      72,
+      32,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 28,
+     "role": "frame_2",
+     "src": [
+      72,
+      46,
+      12,
+      15
+     ]
+    }
+   ],
+   "box": [
+    72,
+    14,
+    12,
+    47
+   ]
   },
   {
-   "x": 89,
-   "y": 14,
-   "w": 12,
-   "h": 12,
-   "area": 112,
-   "ncolors": 5,
-   "dominant": "#424242",
-   "dom_frac": 0.554,
-   "kind": "sprite",
-   "cell": [
-    85,
-    9,
-    17,
-    18
-   ],
-   "block": 0,
-   "row": 1,
-   "col": 5,
-   "zone": null,
    "id": 5,
-   "file": "poke_balls_005.png"
+   "name": "net_ball",
+   "file": "net_ball.png",
+   "cell": [
+    12,
+    15
+   ],
+   "zone": 0,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 5,
+     "role": "frame_0",
+     "src": [
+      89,
+      14,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 17,
+     "role": "frame_1",
+     "src": [
+      89,
+      32,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 29,
+     "role": "frame_2",
+     "src": [
+      89,
+      46,
+      12,
+      15
+     ]
+    }
+   ],
+   "box": [
+    89,
+    14,
+    12,
+    47
+   ]
   },
   {
-   "x": 106,
-   "y": 14,
-   "w": 12,
-   "h": 12,
-   "area": 112,
-   "ncolors": 10,
-   "dominant": "#424242",
-   "dom_frac": 0.393,
-   "kind": "sprite",
-   "cell": [
-    102,
-    9,
-    17,
-    18
-   ],
-   "block": 0,
-   "row": 1,
-   "col": 6,
-   "zone": null,
    "id": 6,
-   "file": "poke_balls_006.png"
+   "name": "dive_ball",
+   "file": "dive_ball.png",
+   "cell": [
+    12,
+    15
+   ],
+   "zone": 0,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 6,
+     "role": "frame_0",
+     "src": [
+      106,
+      14,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 18,
+     "role": "frame_1",
+     "src": [
+      106,
+      32,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 30,
+     "role": "frame_2",
+     "src": [
+      106,
+      46,
+      12,
+      15
+     ]
+    }
+   ],
+   "box": [
+    106,
+    14,
+    12,
+    47
+   ]
   },
   {
-   "x": 123,
-   "y": 14,
-   "w": 12,
-   "h": 12,
-   "area": 112,
-   "ncolors": 10,
-   "dominant": "#424242",
-   "dom_frac": 0.375,
-   "kind": "sprite",
-   "cell": [
-    119,
-    9,
-    17,
-    18
-   ],
-   "block": 0,
-   "row": 1,
-   "col": 7,
-   "zone": null,
    "id": 7,
-   "file": "poke_balls_007.png"
+   "name": "nest_ball",
+   "file": "nest_ball.png",
+   "cell": [
+    12,
+    15
+   ],
+   "zone": 0,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 7,
+     "role": "frame_0",
+     "src": [
+      123,
+      14,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 19,
+     "role": "frame_1",
+     "src": [
+      123,
+      32,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 31,
+     "role": "frame_2",
+     "src": [
+      123,
+      46,
+      12,
+      15
+     ]
+    }
+   ],
+   "box": [
+    123,
+    14,
+    12,
+    47
+   ]
   },
   {
-   "x": 140,
-   "y": 14,
-   "w": 12,
-   "h": 12,
-   "area": 112,
-   "ncolors": 8,
-   "dominant": "#424242",
-   "dom_frac": 0.411,
-   "kind": "sprite",
-   "cell": [
-    136,
-    9,
-    17,
-    18
-   ],
-   "block": 0,
-   "row": 1,
-   "col": 8,
-   "zone": null,
    "id": 8,
-   "file": "poke_balls_008.png"
+   "name": "repeat_ball",
+   "file": "repeat_ball.png",
+   "cell": [
+    12,
+    15
+   ],
+   "zone": 0,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 8,
+     "role": "frame_0",
+     "src": [
+      140,
+      14,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 20,
+     "role": "frame_1",
+     "src": [
+      140,
+      32,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 32,
+     "role": "frame_2",
+     "src": [
+      140,
+      46,
+      12,
+      15
+     ]
+    }
+   ],
+   "box": [
+    140,
+    14,
+    12,
+    47
+   ]
   },
   {
-   "x": 157,
-   "y": 14,
-   "w": 12,
-   "h": 12,
-   "area": 112,
-   "ncolors": 6,
-   "dominant": "#424242",
-   "dom_frac": 0.375,
-   "kind": "sprite",
-   "cell": [
-    153,
-    9,
-    17,
-    18
-   ],
-   "block": 0,
-   "row": 1,
-   "col": 9,
-   "zone": null,
    "id": 9,
-   "file": "poke_balls_009.png"
+   "name": "timer_ball",
+   "file": "timer_ball.png",
+   "cell": [
+    12,
+    15
+   ],
+   "zone": 0,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 9,
+     "role": "frame_0",
+     "src": [
+      157,
+      14,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 21,
+     "role": "frame_1",
+     "src": [
+      157,
+      32,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 33,
+     "role": "frame_2",
+     "src": [
+      157,
+      46,
+      12,
+      15
+     ]
+    }
+   ],
+   "box": [
+    157,
+    14,
+    12,
+    47
+   ]
   },
   {
-   "x": 174,
-   "y": 14,
-   "w": 12,
-   "h": 12,
-   "area": 112,
-   "ncolors": 10,
-   "dominant": "#424242",
-   "dom_frac": 0.268,
-   "kind": "sprite",
-   "cell": [
-    170,
-    9,
-    17,
-    18
-   ],
-   "block": 0,
-   "row": 1,
-   "col": 10,
-   "zone": null,
    "id": 10,
-   "file": "poke_balls_010.png"
+   "name": "luxury_ball",
+   "file": "luxury_ball.png",
+   "cell": [
+    12,
+    15
+   ],
+   "zone": 0,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 10,
+     "role": "frame_0",
+     "src": [
+      174,
+      14,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 22,
+     "role": "frame_1",
+     "src": [
+      174,
+      32,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 34,
+     "role": "frame_2",
+     "src": [
+      174,
+      46,
+      12,
+      15
+     ]
+    }
+   ],
+   "box": [
+    174,
+    14,
+    12,
+    47
+   ]
   },
   {
-   "x": 191,
-   "y": 14,
-   "w": 12,
-   "h": 12,
-   "area": 112,
-   "ncolors": 6,
-   "dominant": "#949494",
-   "dom_frac": 0.295,
-   "kind": "sprite",
-   "cell": [
-    187,
-    9,
-    17,
-    18
-   ],
-   "block": 0,
-   "row": 1,
-   "col": 11,
-   "zone": null,
    "id": 11,
-   "file": "poke_balls_011.png"
-  },
+   "name": "premier_ball",
+   "file": "premier_ball.png",
+   "cell": [
+    12,
+    15
+   ],
+   "zone": 0,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 11,
+     "role": "frame_0",
+     "src": [
+      191,
+      14,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 23,
+     "role": "frame_1",
+     "src": [
+      191,
+      32,
+      12,
+      12
+     ]
+    },
+    {
+     "item": 35,
+     "role": "frame_2",
+     "src": [
+      191,
+      46,
+      12,
+      15
+     ]
+    }
+   ],
+   "box": [
+    191,
+    14,
+    12,
+    47
+   ]
+  }
+ ],
+ "items": [
   {
    "x": 210,
    "y": 18,
@@ -295,668 +620,109 @@
    "dominant": "#4A9C7B",
    "dom_frac": 0.4,
    "kind": "sprite",
-   "cell": [
-    204,
-    9,
-    17,
-    18
-   ],
-   "block": 0,
-   "row": 1,
-   "col": 12,
-   "zone": null,
-   "id": 12,
-   "file": "poke_balls_012.png"
-  },
-  {
-   "x": 4,
-   "y": 32,
-   "w": 12,
-   "h": 12,
-   "area": 118,
-   "ncolors": 7,
-   "dominant": "#424242",
-   "dom_frac": 0.559,
-   "kind": "sprite",
-   "cell": [
-    4,
-    27,
-    13,
-    18
-   ],
-   "block": 0,
-   "row": 2,
-   "col": 0,
-   "zone": null,
-   "id": 13,
-   "file": "poke_balls_013.png"
-  },
-  {
-   "x": 21,
-   "y": 32,
-   "w": 12,
-   "h": 12,
-   "area": 118,
-   "ncolors": 7,
-   "dominant": "#424242",
-   "dom_frac": 0.559,
-   "kind": "sprite",
-   "cell": [
-    17,
-    27,
-    17,
-    18
-   ],
-   "block": 0,
-   "row": 2,
-   "col": 1,
-   "zone": null,
-   "id": 14,
-   "file": "poke_balls_014.png"
-  },
-  {
-   "x": 38,
-   "y": 32,
-   "w": 12,
-   "h": 12,
-   "area": 118,
-   "ncolors": 8,
-   "dominant": "#424242",
-   "dom_frac": 0.559,
-   "kind": "sprite",
-   "cell": [
-    34,
-    27,
-    17,
-    18
-   ],
-   "block": 0,
-   "row": 2,
-   "col": 2,
-   "zone": null,
-   "id": 15,
-   "file": "poke_balls_015.png"
-  },
-  {
-   "x": 55,
-   "y": 32,
-   "w": 12,
-   "h": 12,
-   "area": 118,
-   "ncolors": 9,
-   "dominant": "#424242",
-   "dom_frac": 0.559,
-   "kind": "sprite",
-   "cell": [
-    51,
-    27,
-    17,
-    18
-   ],
-   "block": 0,
-   "row": 2,
-   "col": 3,
-   "zone": null,
-   "id": 16,
-   "file": "poke_balls_016.png"
-  },
-  {
-   "x": 72,
-   "y": 32,
-   "w": 12,
-   "h": 12,
-   "area": 118,
-   "ncolors": 9,
-   "dominant": "#424242",
-   "dom_frac": 0.559,
-   "kind": "sprite",
-   "cell": [
-    68,
-    27,
-    17,
-    18
-   ],
-   "block": 0,
-   "row": 2,
-   "col": 4,
-   "zone": null,
-   "id": 17,
-   "file": "poke_balls_017.png"
-  },
-  {
-   "x": 89,
-   "y": 32,
-   "w": 12,
-   "h": 12,
-   "area": 118,
-   "ncolors": 7,
-   "dominant": "#424242",
-   "dom_frac": 0.644,
-   "kind": "sprite",
-   "cell": [
-    85,
-    27,
-    17,
-    18
-   ],
-   "block": 0,
-   "row": 2,
-   "col": 5,
-   "zone": null,
-   "id": 18,
-   "file": "poke_balls_018.png"
-  },
-  {
-   "x": 106,
-   "y": 32,
-   "w": 12,
-   "h": 12,
-   "area": 118,
-   "ncolors": 8,
-   "dominant": "#424242",
-   "dom_frac": 0.559,
-   "kind": "sprite",
-   "cell": [
-    102,
-    27,
-    17,
-    18
-   ],
-   "block": 0,
-   "row": 2,
-   "col": 6,
-   "zone": null,
-   "id": 19,
-   "file": "poke_balls_019.png"
-  },
-  {
-   "x": 123,
-   "y": 32,
-   "w": 12,
-   "h": 12,
-   "area": 118,
-   "ncolors": 9,
-   "dominant": "#424242",
-   "dom_frac": 0.542,
-   "kind": "sprite",
-   "cell": [
-    119,
-    27,
-    17,
-    18
-   ],
-   "block": 0,
-   "row": 2,
-   "col": 7,
-   "zone": null,
-   "id": 20,
-   "file": "poke_balls_020.png"
-  },
-  {
-   "x": 140,
-   "y": 32,
-   "w": 12,
-   "h": 12,
-   "area": 118,
-   "ncolors": 9,
-   "dominant": "#424242",
-   "dom_frac": 0.542,
-   "kind": "sprite",
-   "cell": [
-    136,
-    27,
-    17,
-    18
-   ],
-   "block": 0,
-   "row": 2,
-   "col": 8,
-   "zone": null,
-   "id": 21,
-   "file": "poke_balls_021.png"
-  },
-  {
-   "x": 157,
-   "y": 32,
-   "w": 12,
-   "h": 12,
-   "area": 118,
-   "ncolors": 6,
-   "dominant": "#424242",
-   "dom_frac": 0.542,
-   "kind": "sprite",
-   "cell": [
-    153,
-    27,
-    17,
-    18
-   ],
-   "block": 0,
-   "row": 2,
-   "col": 9,
-   "zone": null,
-   "id": 22,
-   "file": "poke_balls_022.png"
-  },
-  {
-   "x": 174,
-   "y": 32,
-   "w": 12,
-   "h": 12,
-   "area": 118,
-   "ncolors": 9,
-   "dominant": "#424242",
-   "dom_frac": 0.237,
-   "kind": "sprite",
-   "cell": [
-    170,
-    27,
-    17,
-    18
-   ],
-   "block": 0,
-   "row": 2,
-   "col": 10,
-   "zone": null,
-   "id": 23,
-   "file": "poke_balls_023.png"
-  },
-  {
-   "x": 191,
-   "y": 32,
-   "w": 12,
-   "h": 12,
-   "area": 118,
-   "ncolors": 5,
-   "dominant": "#424242",
-   "dom_frac": 0.483,
-   "kind": "sprite",
-   "cell": [
-    187,
-    27,
-    17,
-    18
-   ],
-   "block": 0,
-   "row": 2,
-   "col": 11,
-   "zone": null,
-   "id": 24,
-   "file": "poke_balls_024.png"
-  },
-  {
-   "x": 210,
-   "y": 30,
-   "w": 8,
-   "h": 15,
-   "area": 54,
-   "ncolors": 8,
-   "dominant": "#E6E6FF",
-   "dom_frac": 0.352,
-   "kind": "sprite",
-   "cell": [
-    204,
-    27,
-    17,
-    18
-   ],
-   "block": 0,
-   "row": 2,
-   "col": 12,
-   "zone": null,
-   "id": 25,
-   "file": "poke_balls_025.png"
-  },
-  {
-   "x": 221,
-   "y": 29,
-   "w": 6,
-   "h": 14,
-   "area": 26,
-   "ncolors": 2,
-   "dominant": "#FFFFFF",
-   "dom_frac": 0.577,
-   "kind": "sprite",
-   "cell": [
-    221,
-    27,
-    17,
-    18
-   ],
-   "block": 0,
-   "row": 2,
-   "col": 13,
-   "zone": null,
-   "id": 26,
-   "file": "poke_balls_026.png"
-  },
-  {
-   "x": 4,
-   "y": 46,
-   "w": 12,
-   "h": 15,
-   "area": 148,
-   "ncolors": 7,
-   "dominant": "#424242",
-   "dom_frac": 0.405,
-   "kind": "sprite",
-   "cell": [
-    4,
-    45,
-    13,
-    16
-   ],
-   "block": 0,
-   "row": 3,
-   "col": 0,
-   "zone": null,
-   "id": 27,
-   "file": "poke_balls_027.png"
-  },
-  {
-   "x": 21,
-   "y": 46,
-   "w": 12,
-   "h": 15,
-   "area": 148,
-   "ncolors": 7,
-   "dominant": "#424242",
-   "dom_frac": 0.405,
-   "kind": "sprite",
-   "cell": [
-    17,
-    45,
-    17,
-    16
-   ],
-   "block": 0,
-   "row": 3,
-   "col": 1,
-   "zone": null,
-   "id": 28,
-   "file": "poke_balls_028.png"
-  },
-  {
-   "x": 38,
-   "y": 46,
-   "w": 12,
-   "h": 15,
-   "area": 148,
-   "ncolors": 7,
-   "dominant": "#424242",
-   "dom_frac": 0.405,
-   "kind": "sprite",
-   "cell": [
-    34,
-    45,
-    17,
-    16
-   ],
-   "block": 0,
-   "row": 3,
-   "col": 2,
-   "zone": null,
-   "id": 29,
-   "file": "poke_balls_029.png"
-  },
-  {
-   "x": 55,
-   "y": 46,
-   "w": 12,
-   "h": 15,
-   "area": 148,
-   "ncolors": 7,
-   "dominant": "#424242",
-   "dom_frac": 0.405,
-   "kind": "sprite",
-   "cell": [
-    51,
-    45,
-    17,
-    16
-   ],
-   "block": 0,
-   "row": 3,
-   "col": 3,
-   "zone": null,
-   "id": 30,
-   "file": "poke_balls_030.png"
-  },
-  {
-   "x": 72,
-   "y": 46,
-   "w": 12,
-   "h": 15,
-   "area": 148,
-   "ncolors": 7,
-   "dominant": "#424242",
-   "dom_frac": 0.405,
-   "kind": "sprite",
-   "cell": [
-    68,
-    45,
-    17,
-    16
-   ],
-   "block": 0,
-   "row": 3,
-   "col": 4,
-   "zone": null,
-   "id": 31,
-   "file": "poke_balls_031.png"
-  },
-  {
-   "x": 89,
-   "y": 46,
-   "w": 12,
-   "h": 15,
-   "area": 148,
-   "ncolors": 7,
-   "dominant": "#424242",
-   "dom_frac": 0.405,
-   "kind": "sprite",
-   "cell": [
-    85,
-    45,
-    17,
-    16
-   ],
-   "block": 0,
-   "row": 3,
-   "col": 5,
-   "zone": null,
-   "id": 32,
-   "file": "poke_balls_032.png"
-  },
-  {
-   "x": 106,
-   "y": 46,
-   "w": 12,
-   "h": 15,
-   "area": 148,
-   "ncolors": 6,
-   "dominant": "#424242",
-   "dom_frac": 0.405,
-   "kind": "sprite",
-   "cell": [
-    102,
-    45,
-    17,
-    16
-   ],
-   "block": 0,
-   "row": 3,
-   "col": 6,
-   "zone": null,
-   "id": 33,
-   "file": "poke_balls_033.png"
-  },
-  {
-   "x": 123,
-   "y": 46,
-   "w": 12,
-   "h": 15,
-   "area": 148,
-   "ncolors": 7,
-   "dominant": "#424242",
-   "dom_frac": 0.405,
-   "kind": "sprite",
-   "cell": [
-    119,
-    45,
-    17,
-    16
-   ],
-   "block": 0,
-   "row": 3,
-   "col": 7,
-   "zone": null,
-   "id": 34,
-   "file": "poke_balls_034.png"
-  },
-  {
-   "x": 140,
-   "y": 46,
-   "w": 12,
-   "h": 15,
-   "area": 148,
-   "ncolors": 7,
-   "dominant": "#424242",
-   "dom_frac": 0.405,
-   "kind": "sprite",
-   "cell": [
-    136,
-    45,
-    17,
-    16
-   ],
-   "block": 0,
-   "row": 3,
-   "col": 8,
-   "zone": null,
-   "id": 35,
-   "file": "poke_balls_035.png"
-  },
-  {
-   "x": 157,
-   "y": 46,
-   "w": 12,
-   "h": 15,
-   "area": 148,
-   "ncolors": 7,
-   "dominant": "#424242",
-   "dom_frac": 0.405,
-   "kind": "sprite",
-   "cell": [
-    153,
-    45,
-    17,
-    16
-   ],
-   "block": 0,
-   "row": 3,
-   "col": 9,
    "zone": null,
    "id": 36,
    "file": "poke_balls_036.png"
   },
   {
-   "x": 174,
-   "y": 46,
-   "w": 12,
-   "h": 15,
-   "area": 148,
-   "ncolors": 10,
-   "dominant": "#B54A19",
-   "dom_frac": 0.27,
+   "x": 223,
+   "y": 19,
+   "w": 2,
+   "h": 6,
+   "area": 12,
+   "ncolors": 2,
+   "dominant": "#FFFFFF",
+   "dom_frac": 0.5,
    "kind": "sprite",
-   "cell": [
-    170,
-    45,
-    17,
-    16
-   ],
-   "block": 0,
-   "row": 3,
-   "col": 10,
    "zone": null,
    "id": 37,
    "file": "poke_balls_037.png"
   },
   {
-   "x": 191,
-   "y": 46,
-   "w": 12,
-   "h": 15,
-   "area": 148,
-   "ncolors": 5,
-   "dominant": "#424242",
-   "dom_frac": 0.703,
+   "x": 212,
+   "y": 30,
+   "w": 4,
+   "h": 4,
+   "area": 12,
+   "ncolors": 3,
+   "dominant": "#4A9C7B",
+   "dom_frac": 0.333,
    "kind": "sprite",
-   "cell": [
-    187,
-    45,
-    17,
-    16
-   ],
-   "block": 0,
-   "row": 3,
-   "col": 11,
    "zone": null,
    "id": 38,
    "file": "poke_balls_038.png"
   },
   {
-   "x": 210,
-   "y": 45,
-   "w": 11,
-   "h": 10,
-   "area": 23,
-   "ncolors": 5,
-   "dominant": "#FFFF52",
-   "dom_frac": 0.304,
+   "x": 221,
+   "y": 29,
+   "w": 6,
+   "h": 6,
+   "area": 14,
+   "ncolors": 2,
+   "dominant": "#FFFFFF",
+   "dom_frac": 0.643,
    "kind": "sprite",
-   "cell": [
-    204,
-    45,
-    17,
-    16
-   ],
-   "block": 0,
-   "row": 3,
-   "col": 12,
    "zone": null,
    "id": 39,
    "file": "poke_balls_039.png"
   },
   {
+   "x": 210,
+   "y": 38,
+   "w": 8,
+   "h": 8,
+   "area": 44,
+   "ncolors": 5,
+   "dominant": "#E6E6FF",
+   "dom_frac": 0.432,
+   "kind": "sprite",
+   "zone": null,
+   "id": 40,
+   "file": "poke_balls_040.png"
+  },
+  {
    "x": 221,
-   "y": 49,
+   "y": 41,
    "w": 6,
+   "h": 2,
+   "area": 12,
+   "ncolors": 2,
+   "dominant": "#FFAD00",
+   "dom_frac": 0.5,
+   "kind": "sprite",
+   "zone": null,
+   "id": 41,
+   "file": "poke_balls_041.png"
+  },
+  {
+   "x": 210,
+   "y": 48,
+   "w": 7,
+   "h": 7,
+   "area": 19,
+   "ncolors": 3,
+   "dominant": "#FFFF52",
+   "dom_frac": 0.368,
+   "kind": "sprite",
+   "zone": null,
+   "id": 42,
+   "file": "poke_balls_042.png"
+  },
+  {
+   "x": 220,
+   "y": 49,
+   "w": 7,
    "h": 6,
-   "area": 25,
+   "area": 27,
    "ncolors": 1,
    "dominant": "#FF3152",
    "dom_frac": 1.0,
    "kind": "sprite",
-   "cell": [
-    221,
-    45,
-    17,
-    16
-   ],
-   "block": 0,
-   "row": 3,
-   "col": 13,
    "zone": null,
-   "id": 40,
-   "file": "poke_balls_040.png"
+   "id": 43,
+   "file": "poke_balls_043.png"
   }
  ],
- "status": "needs_review",
- "missing_stages": [
-  "decoupage",
-  "regroupement",
-  "nommage"
- ]
+ "status": "ok",
+ "missing_stages": []
 }

@@ -164,3 +164,22 @@
   posé, répartiteurs et agents tués, cron de contrôle supprimé. Pour reprendre : `rm rpg/pipeline/STOP` puis
   relancer les répartiteurs d'audit (`--status needs_review --allow-agy --pool escalade --wait-quota`, types
   sprites, characters, objects, terrainpairs, terrainset).
+- 2026-10-29 reprise : quota Gemini Flash épuisé → préréglage `--pool argon` (`cc:claude-haiku-5-5:4@0,
+  agy:gemini-4-argon-medium:1@1` : Argon en effort **medium**, pas high, consigne de l'utilisateur). Bug :
+  5 répartiteurs lancés ensemble comptaient chacun 0 agent → 3 Argon au lieu d'1. Corrigé : verrou
+  `locks/slots_<famille>.lock` autour du comptage + lancement, relâché quand le processus est visible.
+- 2026-10-30 revue des 4 `needs_fix` d'Argon (6498, 8183, obj_minish_cap_11, obj_ruby_sapphire_07) : cause
+  commune = `delegate.release_stale` d'un répartiteur libérait (« agent disparu ») les feuilles qu'un AUTRE
+  répartiteur parallèle venait d'attribuer → l'agent était refusé (« ne fait pas partie de ton lot ») et 2
+  tentatives brûlées par lot. Corrigé : `assigned_by` (pid) + `assigned_t` (grâce 180 s) dans la fiche.
+- 2026-10-30 `extract` : les points `split` n'étaient pas filtrés par zone ; un point d'une zone re-découpait aussi
+  le grand cadre de la partie principale qui l'englobe → chaque sprite entouré recréé en double (8183 : 208 items
+  au lieu de 118). Filtrage par zone (comme le documentait corrections.md). Seule 8183 change (30 fiches à split testées).
+- 2026-10-30 nouveau param `split_own` (opt-in) : `sk split` ne recrée que les morceaux faits des pixels de l'item
+  (l'historique reprend tout ce qui est dans sa boîte : doublons, mais aussi « sauvetages » involontaires sur
+  5343/6407/6546 → laissé par défaut). Doublons historiques encore présents sur des fiches ok : 28882, 5342, 31116.
+- 2026-10-30 `objects` : un `objsplit` sur un objet issu de la découpe automatique était ignoré et l'objet
+  disparaissait de sa page sans morceaux (renumérotation). Nouveau param de page `split_pieces` (opt-in,
+  `_late_splits`) ; 13 objets découpés concernés sur des pages ruby_sapphire déjà ok (19, 44, 46, 48, 60, 61, 65).
+- 2026-10-30 6498 : Link de référence effacé par ses couleurs (`erase` limité au rectangle) au lieu d'un `carve`
+  rectangulaire qui entaillait le ver assemblé.

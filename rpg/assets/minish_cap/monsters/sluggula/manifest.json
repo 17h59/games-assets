@@ -5,13 +5,13 @@
  "title": "Sluggula",
  "type": "sprites",
  "template": "none",
- "validation": "pending",
+ "validation": "verified",
  "sets": [],
  "entities": [
   {
    "id": 0,
-   "name": "sluggula_e000",
-   "file": "sluggula_e000.png",
+   "name": "walk_up",
+   "file": "walk_up.png",
    "cell": [
     17,
     27
@@ -70,8 +70,8 @@
   },
   {
    "id": 1,
-   "name": "sluggula_e001",
-   "file": "sluggula_e001.png",
+   "name": "walk_right",
+   "file": "walk_right.png",
    "cell": [
     28,
     18
@@ -130,8 +130,8 @@
   },
   {
    "id": 2,
-   "name": "sluggula_e002",
-   "file": "sluggula_e002.png",
+   "name": "walk_left",
+   "file": "walk_left.png",
    "cell": [
     28,
     18
@@ -190,8 +190,8 @@
   },
   {
    "id": 3,
-   "name": "sluggula_e003",
-   "file": "sluggula_e003.png",
+   "name": "walk_down",
+   "file": "walk_down.png",
    "cell": [
     17,
     21
@@ -250,8 +250,8 @@
   },
   {
    "id": 4,
-   "name": "sluggula_e004",
-   "file": "sluggula_e004.png",
+   "name": "flip_left",
+   "file": "flip_left.png",
    "cell": [
     23,
     18
@@ -310,8 +310,8 @@
   },
   {
    "id": 5,
-   "name": "sluggula_e005",
-   "file": "sluggula_e005.png",
+   "name": "flip_right",
+   "file": "flip_right.png",
    "cell": [
     23,
     18
@@ -370,10 +370,6 @@
   }
  ],
  "items": [],
- "status": "needs_review",
- "missing_stages": [
-  "decoupage",
-  "regroupement",
-  "nommage"
- ]
+ "status": "ok",
+ "missing_stages": []
 }

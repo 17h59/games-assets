@@ -37,3 +37,8 @@ aussi, sous verrou (`config.lock`) car plusieurs agents travaillent en parallèl
 
 **Limites** : sol mal retiré quand le sol voisin varie (eau animée, marbre) ; porte de maison parfois absente
 (tuile différente selon l'occurrence) ; les agents Haiku découpent rarement (`objsplit`) d'eux-mêmes.
+
+**objsplit d'un objet issu de la découpe automatique** (2026-10-30) : sans réglage, l'objet DISPARAÎT de sa page
+sans aucun morceau (la page est renumérotée). Activer `tools/sk set ID split_pieces=true` sur la page (opt-in : les
+pages déjà validées ne changent pas). Pages ruby_sapphire `ok` concernées (objet découpé absent du catalogue) :
+19, 44, 46, 48, 60, 61, 65 → à revoir avec `split_pieces=true` (décision développeur).

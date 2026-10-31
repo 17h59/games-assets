@@ -9,7 +9,7 @@
 - Cartes : toutes `ok`. **Objets** : 110/110 pages `ok`. **PMD** : 60/60 tables `ok`, décors `ok`.
 - **Bords Pokémon** : 29/29 pages `ok` → TileSets `terrains_emerald/ruby_sapphire.tres` (raccords partiels).
 - **Godot** : 2 044 SpriteFrames, 65 TileSets, 723 cartes, démos Bourg-en-Vol, donjon, bords.
-- **Tout est arrêté** (fichier `rpg/pipeline/STOP`) : audit en pause, voir docs/historique.md pour reprendre.
+- Répartiteurs `batch29_argon_<type>.out` (`--pool argon`) : audit des 39 éléments restants par Argon medium.
 - Godot régénéré à 06 h 50 : 0 erreur.
 
 ## À faire
@@ -27,6 +27,11 @@
 6. `sk dupes` après les extractions ([Doublons](doublons.md)).
 
 ## Limites connues
+- (2026-10-30) Pages d'objets ruby_sapphire 19, 44, 46, 48, 60, 61, 65 validées `ok` alors qu'un objet découpé y a
+  disparu sans morceaux : activer `split_pieces=true` puis revoir (renumérote la page, invalide la confirmation).
+- (2026-10-30) Fiches ok avec sprites en double dus au `split` historique : 28882, 5342, 31116 → `split_own=true` à
+  tester puis revoir ; 5343/6407/6546 dépendent au contraire du comportement historique (ne pas l'activer).
+- (2026-10-30) Répartiteurs lancés avant le correctif `assigned_by` : encore sujets à la course « agent disparu ».
 - Objets : sol mal retiré quand le sol voisin varie (eau, marbre) ; porte de maison parfois absente ; Haiku
   découpe rarement (`objsplit`) → découpage automatique par connexité.
 - Minish Cap : plusieurs « cartes » sont des décors peints (tuiles uniques) — fidèles mais non réutilisables.

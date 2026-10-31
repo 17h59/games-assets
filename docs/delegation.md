@@ -32,7 +32,8 @@ Options : `--pool`, ou `--model X --parallel N` (un seul modèle), `--ids`, `--t
 ## Escalade Haiku → Gemini (2026-10-28)
 Demande de l'utilisateur : Haiku fait tout d'abord (pas cher) ; dès qu'il galère, la feuille passe à Gemini
 (meilleure vision, quota agy limité). Préréglage `--pool escalade` =
-`cc:claude-haiku-5-5:4@0,agy:gemini-3.8-flash-high:2@1,agy:gemini-4-argon-high:1@2` (`@N` = niveau ; défauts
+`cc:claude-haiku-5-5:4@0,agy:gemini-3.8-flash-high:2@1,agy:gemini-4-argon-high:1@2`
+(préréglage `argon` quand le quota Flash est épuisé : `cc:claude-haiku-5-5:4@0,agy:gemini-4-argon-medium:1@1`) (`@N` = niveau ; défauts
 dans `LEVELS`, `MAX_LEVEL = 2`).
 - Chaque fiche a un `level` (0 par défaut). Un modèle prend les feuilles dont le niveau cible
   (`target_level` : le plus bas niveau de la réserve ≥ `level`) est le sien. Feuille d'un niveau absent de la
@@ -98,3 +99,8 @@ Qualité Gemini : bonne ; diagnostics précis des limites d'outil (voir [Histori
   (`git -C rpg/pipeline log`) ; restaurer une fiche : `git -C rpg/pipeline checkout <commit> -- sheets/...`.
 - Plusieurs répartiteurs peuvent tourner ensemble (un par type) : les places par modèle sont comptées sur les
   processus vivants, donc partagées.
+- 2026-10-30 : `release_stale` ne libère plus une feuille attribuée par un AUTRE répartiteur vivant
+  (`assigned_by` = pid du répartiteur) ni attribuée depuis moins de 180 s (`assigned_t`). Avant, un répartiteur
+  libérait « agent disparu » les feuilles qu'un autre venait d'attribuer (agent pas encore visible) : l'agent
+  recevait « ne fait pas partie de ton lot », et chaque lot coûtait 2 tentatives → needs_fix sans travail.
+  Les répartiteurs lancés AVANT ce correctif gardent l'ancien code : les relancer pour en profiter.

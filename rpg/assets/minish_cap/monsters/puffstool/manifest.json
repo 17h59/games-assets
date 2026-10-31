@@ -5,7 +5,7 @@
  "title": "Puffstool",
  "type": "sprites",
  "template": "none",
- "validation": "pending",
+ "validation": "verified",
  "sets": [
   {
    "id": 0,
@@ -449,56 +449,6 @@
    "name": "puffstool_e007",
    "file": "puffstool_e007.png",
    "cell": [
-    16,
-    16
-   ],
-   "zone": null,
-   "set": null,
-   "template": "none",
-   "frames": [
-    {
-     "item": 36,
-     "role": "frame_0",
-     "src": [
-      110,
-      52,
-      13,
-      13
-     ]
-    },
-    {
-     "item": 37,
-     "role": "frame_1",
-     "src": [
-      125,
-      50,
-      16,
-      16
-     ]
-    },
-    {
-     "item": 38,
-     "role": "frame_2",
-     "src": [
-      145,
-      54,
-      10,
-      10
-     ]
-    }
-   ],
-   "box": [
-    110,
-    50,
-    45,
-    16
-   ]
-  },
-  {
-   "id": 8,
-   "name": "puffstool_e008",
-   "file": "puffstool_e008.png",
-   "cell": [
     7,
     8
    ],
@@ -535,169 +485,9 @@
    ]
   },
   {
-   "id": 9,
-   "name": "puffstool_e009",
-   "file": "puffstool_e009.png",
-   "cell": [
-    23,
-    25
-   ],
-   "zone": null,
-   "set": null,
-   "template": "none",
-   "frames": [
-    {
-     "item": 48,
-     "role": "frame_0",
-     "src": [
-      34,
-      82,
-      21,
-      25
-     ]
-    },
-    {
-     "item": 49,
-     "role": "frame_1",
-     "src": [
-      59,
-      85,
-      23,
-      22
-     ]
-    }
-   ],
-   "box": [
-    34,
-    82,
-    48,
-    25
-   ]
-  },
-  {
-   "id": 10,
-   "name": "puffstool_e010",
-   "file": "puffstool_e010.png",
-   "cell": [
-    23,
-    25
-   ],
-   "zone": null,
-   "set": null,
-   "template": "none",
-   "frames": [
-    {
-     "item": 51,
-     "role": "frame_0",
-     "src": [
-      236,
-      82,
-      21,
-      25
-     ]
-    },
-    {
-     "item": 52,
-     "role": "frame_1",
-     "src": [
-      261,
-      85,
-      23,
-      22
-     ]
-    }
-   ],
-   "box": [
-    236,
-    82,
-    48,
-    25
-   ]
-  },
-  {
-   "id": 11,
-   "name": "puffstool_e011",
-   "file": "puffstool_e011.png",
-   "cell": [
-    20,
-    27
-   ],
-   "zone": null,
-   "set": null,
-   "template": "none",
-   "frames": [
-    {
-     "item": 54,
-     "role": "frame_0",
-     "src": [
-      39,
-      124,
-      20,
-      26
-     ]
-    },
-    {
-     "item": 55,
-     "role": "frame_1",
-     "src": [
-      66,
-      123,
-      16,
-      27
-     ]
-    }
-   ],
-   "box": [
-    39,
-    123,
-    43,
-    27
-   ]
-  },
-  {
-   "id": 12,
-   "name": "puffstool_e012",
-   "file": "puffstool_e012.png",
-   "cell": [
-    20,
-    27
-   ],
-   "zone": null,
-   "set": null,
-   "template": "none",
-   "frames": [
-    {
-     "item": 57,
-     "role": "frame_0",
-     "src": [
-      241,
-      124,
-      20,
-      26
-     ]
-    },
-    {
-     "item": 58,
-     "role": "frame_1",
-     "src": [
-      268,
-      123,
-      16,
-      27
-     ]
-    }
-   ],
-   "box": [
-    241,
-    123,
-    43,
-    27
-   ]
-  },
-  {
-   "id": 13,
-   "name": "puffstool_e013",
-   "file": "puffstool_e013.png",
+   "id": 8,
+   "name": "puffstool_e008",
+   "file": "puffstool_e008.png",
    "cell": [
     22,
     24
@@ -795,9 +585,9 @@
    ]
   },
   {
-   "id": 14,
-   "name": "puffstool_e014",
-   "file": "puffstool_e014.png",
+   "id": 9,
+   "name": "puffstool_e009",
+   "file": "puffstool_e009.png",
    "cell": [
     22,
     24
@@ -895,20 +685,30 @@
    ]
   },
   {
-   "id": 15,
-   "name": "puffstool_e015",
-   "file": "puffstool_e015.png",
+   "id": 10,
+   "name": "puffstool_e010",
+   "file": "puffstool_e010.png",
    "cell": [
-    18,
-    18
+    22,
+    20
    ],
    "zone": null,
    "set": null,
    "template": "none",
    "frames": [
     {
-     "item": 40,
+     "item": 39,
      "role": "frame_0",
+     "src": [
+      5,
+      54,
+      22,
+      20
+     ]
+    },
+    {
+     "item": 40,
+     "role": "frame_1",
      "src": [
       40,
       56,
@@ -918,7 +718,7 @@
     },
     {
      "item": 41,
-     "role": "frame_1",
+     "role": "frame_2",
      "src": [
       74,
       56,
@@ -928,16 +728,16 @@
     }
    ],
    "box": [
-    40,
-    56,
-    50,
-    18
+    5,
+    54,
+    85,
+    20
    ]
   },
   {
-   "id": 16,
-   "name": "puffstool_e016",
-   "file": "puffstool_e016.png",
+   "id": 11,
+   "name": "puffstool_e011",
+   "file": "puffstool_e011.png",
    "cell": [
     22,
     20
@@ -985,12 +785,72 @@
    ]
   },
   {
-   "id": 17,
-   "name": "puffstool_e017",
-   "file": "puffstool_e017.png",
+   "id": 12,
+   "name": "puffstool_e012",
+   "file": "puffstool_e012.png",
    "cell": [
-    20,
-    19
+    16,
+    16
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 32,
+     "role": "frame_0",
+     "src": [
+      99,
+      50,
+      8,
+      8
+     ]
+    },
+    {
+     "item": 36,
+     "role": "frame_1",
+     "src": [
+      110,
+      52,
+      13,
+      13
+     ]
+    },
+    {
+     "item": 37,
+     "role": "frame_2",
+     "src": [
+      125,
+      50,
+      16,
+      16
+     ]
+    },
+    {
+     "item": 38,
+     "role": "frame_3",
+     "src": [
+      145,
+      54,
+      10,
+      10
+     ]
+    }
+   ],
+   "box": [
+    99,
+    50,
+    56,
+    16
+   ]
+  },
+  {
+   "id": 13,
+   "name": "puffstool_e013",
+   "file": "puffstool_e013.png",
+   "cell": [
+    24,
+    25
    ],
    "zone": null,
    "set": null,
@@ -1007,30 +867,40 @@
      ]
     },
     {
-     "item": 53,
+     "item": 48,
      "role": "frame_1",
      "src": [
-      6,
-      131,
-      20,
-      19
+      34,
+      82,
+      21,
+      25
+     ]
+    },
+    {
+     "item": 49,
+     "role": "frame_2",
+     "src": [
+      59,
+      85,
+      23,
+      22
      ]
     }
    ],
    "box": [
     5,
-    88,
-    21,
-    62
+    82,
+    77,
+    25
    ]
   },
   {
-   "id": 18,
-   "name": "puffstool_e018",
-   "file": "puffstool_e018.png",
+   "id": 14,
+   "name": "puffstool_e014",
+   "file": "puffstool_e014.png",
    "cell": [
-    20,
-    19
+    24,
+    25
    ],
    "zone": null,
    "set": null,
@@ -1047,58 +917,135 @@
      ]
     },
     {
-     "item": 56,
+     "item": 51,
      "role": "frame_1",
+     "src": [
+      236,
+      82,
+      21,
+      25
+     ]
+    },
+    {
+     "item": 52,
+     "role": "frame_2",
+     "src": [
+      261,
+      85,
+      23,
+      22
+     ]
+    }
+   ],
+   "box": [
+    207,
+    82,
+    77,
+    25
+   ]
+  },
+  {
+   "id": 15,
+   "name": "puffstool_e015",
+   "file": "puffstool_e015.png",
+   "cell": [
+    20,
+    27
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 53,
+     "role": "frame_0",
+     "src": [
+      6,
+      131,
+      20,
+      19
+     ]
+    },
+    {
+     "item": 54,
+     "role": "frame_1",
+     "src": [
+      39,
+      124,
+      20,
+      26
+     ]
+    },
+    {
+     "item": 55,
+     "role": "frame_2",
+     "src": [
+      66,
+      123,
+      16,
+      27
+     ]
+    }
+   ],
+   "box": [
+    6,
+    123,
+    76,
+    27
+   ]
+  },
+  {
+   "id": 16,
+   "name": "puffstool_e016",
+   "file": "puffstool_e016.png",
+   "cell": [
+    20,
+    27
+   ],
+   "zone": null,
+   "set": null,
+   "template": "none",
+   "frames": [
+    {
+     "item": 56,
+     "role": "frame_0",
      "src": [
       208,
       131,
       20,
       19
      ]
+    },
+    {
+     "item": 57,
+     "role": "frame_1",
+     "src": [
+      241,
+      124,
+      20,
+      26
+     ]
+    },
+    {
+     "item": 58,
+     "role": "frame_2",
+     "src": [
+      268,
+      123,
+      16,
+      27
+     ]
     }
    ],
    "box": [
-    207,
-    88,
-    21,
-    62
+    208,
+    123,
+    76,
+    27
    ]
   }
  ],
- "items": [
-  {
-   "x": 99,
-   "y": 50,
-   "w": 8,
-   "h": 8,
-   "area": 50,
-   "ncolors": 4,
-   "dominant": "#E8B820",
-   "dom_frac": 0.28,
-   "kind": "sprite",
-   "zone": null,
-   "id": 32,
-   "file": "puffstool_032.png"
-  },
-  {
-   "x": 5,
-   "y": 54,
-   "w": 22,
-   "h": 20,
-   "area": 342,
-   "ncolors": 13,
-   "dominant": "#C02008",
-   "dom_frac": 0.269,
-   "kind": "sprite",
-   "zone": null,
-   "id": 39,
-   "file": "puffstool_039.png"
-  }
- ],
- "status": "needs_review",
- "missing_stages": [
-  "decoupage",
-  "regroupement",
-  "nommage"
- ]
+ "items": [],
+ "status": "ok",
+ "missing_stages": []
 }
